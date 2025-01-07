@@ -1,0 +1,94 @@
+---
+title: "Lab Exercise: Posit Cloud"
+editor: source
+reference-location: margin
+execute:
+  freeze: true
+  echo: false
+---
+
+```{r}
+knitr::opts_chunk$set(
+    fig.asp = 0.618,
+    fig.align = "center",
+    out.width = "100%",
+    fig.retina = 10,
+    fig.path = "../slides/images/03-posit/",
+    message = FALSE,
+    global.par = TRUE
+)
+```
+
+::: callout-note
+
+:::
+
+## Install Posit Cloud
+
+- *Step 1*: In the Posit website [https://posit.co/](https://posit.co/), choose **Products > Posit Cloud** as shown below.
+
+
+```{r}
+#| fig-align: "center"
+knitr::include_graphics("../slides/images/03-posit/posit-cloud.png")
+```
+
+- *Step 2*: Click **GET STARTED**.
+
+- *Step 3*: **Free or Student > Sign Up**. Please sign up with *GitHub* if you have one or use your *Marquette email address*.
+
+```{r}
+#| fig-align: "center"
+knitr::include_graphics("../slides/images/03-posit/landing-1-posit.png")
+```
+
+```{r}
+#| fig-align: "center"
+knitr::include_graphics("../slides/images/03-posit/posit-free-plan.png")
+```
+
+```{r}
+#| fig-align: "center"
+knitr::include_graphics("../slides/images/03-posit/posit-student-plan.png")
+```
+
+
+### New project
+
+```{r}
+#| out-width: "100%"
+#| fig-align: "center"
+knitr::include_graphics("../slides/images/03-posit/new-project-cloud-posit.png")
+```
+
+```{r}
+knitr::include_graphics("../slides/images/03-posit/new-project-option-24.png")
+```
+
+
+## Welcome to 3570 Data Science!
+
+- I'm sending you a link via email for joining the course workspace **2024-spring-math-3570**. Please join.
+
+
+```{r}
+#| fig-align: "center"
+knitr::include_graphics("../slides/images/03-posit/join-space.png")
+```
+
+
+- In the bar, click workspace **2024-spring-math-3570**.
+
+- Click **New Project > New RStudio Project** to get into the IDE.
+
+- In _Untitled Project_, name your project as **3570-project**.
+
+- In the Console pane, write R code: a string **`"Hello WoRld!"`** or math **`2 + 4`**.
+
+- **Tools > Global Options > Appearance** to select your favorite editor theme.
+
+```{r}
+#| out-width: "100%"
+#| fig-align: "center"
+knitr::include_graphics("../slides/images/03-posit/rcloud_project.png")
+```

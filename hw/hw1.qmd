@@ -1,0 +1,268 @@
+---
+title: "Homework 1: Quarto, Basic Syntax and Data Importing"
+subtitle: "Spring 2024 MATH/COSC 3570 Introduction to Data Science by Dr. Cheng-Han Yu"
+format: 
+  html:
+    code-fold: false
+    code-tools: true
+    toc: true
+    toc-depth: 3
+date: today
+author: "**Insert Your Name!!**"
+number-sections: true
+editor: 
+  source
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+####################################################
+## !!!DO NOT MAKE ANY CHANGE OF THIS CODE CHUNK!!!##
+####################################################
+
+pkgs <- c("knitr","rmarkdown", "tidyverse", "reticulate", "readxl", "ggplot2", "ggrepel")
+lapply(pkgs, require, character.only = TRUE)
+```
+
+## Autobiography
+
+(@) Please introduce yourself. You can share anything, your hometown, major, family, hobbies, working experience, honors and awards, special skills, etc, yes anything! Your autobiography should include:
+
+    -   At least two paragraphs (Paragraphs are separated by a blank line)
+    -   Bold text
+    -   Italic text
+    -   Text with both **bold AND italic** font (Not mentioned in class, but you should be able to figure it out)
+    -   Clickable text with a hyperlink
+    -   Blockquote
+    -   Listed items
+    -   emoji (Add emoji to your writing by typing `:EMOJICODE:`, check [emoji cheatsheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md))
+
+
+    **Your Self-Introduction:**
+
+
+
+
+
+
+
+## Chunk Options
+
+Please check the references <https://quarto.org/docs/reference/cells/cells-knitr.html> or <https://yihui.org/knitr/options/> and answer the following questions.
+
+(@)  Please add your nice picture using `knitr::include_graphics()`. Please use
+    i) `echo` to not to show the code
+    
+    ii) `fig-cap` to add a figure caption
+    
+    iii) `fig-cap-location` to put the caption on the margin.
+
+```{r}
+#| label: photo
+
+
+```
+
+(@)  Use the chunk option 
+    i) `echo` to **NOT** to show `library(tidyverse)`, `library(ggplot2)`, and `library(ggrepel)`. *Note: you may need to use !expr. Check <https://stackoverflow.com/questions/72217651/quarto-rmarkdown-code-block-to-only-display-certain-lines> and <https://quarto.org/docs/computations/r.html#chunk-options>*
+    
+    ii) `fig-align` to have the figure right-aligned. 
+
+    ```{r}
+    #| label: opt-echo
+    
+    library(tidyverse)
+    library(ggplot2)
+    class_avg <- mpg |> 
+        group_by(class) |> 
+        summarise(displ = median(displ), hwy = median(hwy))
+    library(ggrepel)
+    ggplot(mpg, aes(displ, hwy, colour = class)) + 
+        geom_label_repel(aes(label = class), data = class_avg, size = 6, 
+                         label.size = 0, segment.color = NA) + 
+        geom_point() + theme(legend.position = "none")
+    ```
+
+
+(@)  A Marquette student has a really bad code style. Please 
+    i) Add the chunk option `tidy` in the chunk labelled `style` to make her code below more readable. 
+    
+    ii) Add another option `eval` so that the code is **NOT** run.
+
+```{r}
+#| label: style
+
+for(k in 1:10){j=cos(sin(k)*k^2)+3;l=exp(k-7*log(k,base=2));print(j*l-5)}
+```
+
+(@)  Use the chunk option `results` in the chunk labelled `cat`, so that the text output is "I love **Marquette** and *Data Science*!".
+
+```{r}
+#| label: cat
+
+cat("I love **Marquette** and *Data Science*!\n")
+```
+
+(@)  We can re-use a code chunk by using its name! Please create a code chunk and use the option `#| label: photo` to run the code in the code chunk named `photo`. Note that the chunk options are not carried.
+
+```{r}
+
+```
+
+## Basic R
+
+### Vector
+
+Use the built-in data set `LakeHuron`.
+
+(@)  Find the number of data values in `LakeHuron`.
+
+```{r}
+#| label: vec-1
+
+```
+
+(@)  What is the highest and lowest level (in feet) of LakeHuron during the 1875-1972 period?
+
+```{r}
+#| label: vec-2
+
+```
+
+(@)  Return a logical vector that shows whether the lake level is higher than the average level or not.
+
+```{r}
+#| label: vec-3
+
+```
+
+(@)  Return years that have higher level than the average.
+
+```{r}
+#| label: vec-4
+
+```
+
+### Data Frame
+
+(@)  Make the `mtcars` dataset as a tibble using `as_tibble()`. Call it `tbl`.
+
+```{r}
+#| label: df-2
+
+
+```
+
+(@)  Print the sub data of `tbl` that contains the 11th to 15th rows and the last three columns.
+
+```{r}
+#| label: df-3
+
+
+```
+
+(@)  Grab the second and the third columns of `tbl` using *list* method and their *name*. (Do **NOT** use matrix method, and their index)
+
+```{r}
+#| label: df-4
+
+
+```
+
+(@)  Extract the fourth column of `tbl` as a numerical vector.
+
+```{r}
+#| label: df-5
+
+
+```
+
+(@)  Start with `tbl`, use the pipe operator `|>` to do the followings sequentially.
+
+    i.  extract the first 10 observations (rows)
+    
+    ii. find the column names
+    
+    iii. sort the columns names using `sort()` in a *decreasing* order. (alphabetically from z to a)
+
+```{r}
+#| label: df-6
+
+
+```
+
+### Data Importing
+
+(@)  Read the data `sales.xlsx` from the data folder. Use arguments `sheet`, `skip` and `col_names` so that the output looks like
+
+        # A tibble: 9 x 2
+          id      n    
+          <chr>   <chr>
+        1 Brand 1 n    
+        2 1234    8    
+        3 8721    2    
+        4 1822    3    
+        5 Brand 2 n    
+        6 3333    1    
+        # … with 3 more rows
+
+```{r}
+#| label: import-1
+
+
+```
+
+(@)  Read in the `favourite-food.xlsx` file from the data folder and call the data `fav_food`. Use the argument `na` to treat "N/A" and "99999" as a missing value. Print the data out.
+
+```{r}
+#| label: import-2
+
+
+```
+
+## Basic Python
+
+```{python}
+import numpy as np
+import pandas as pd
+```
+
+### Data Frame
+
+(@)  Import the data set `mtcars.csv` using `pd.read_csv()`. Then print the first five rows.
+
+```{python}
+#| label: py-1
+
+
+```
+
+(@)  Use method `.iloc` to obtain the first and fourth rows, and the second and third columns. Name the data `dfcar`.
+
+```{python}
+#| label: py-2
+
+
+```
+
+(@)  Set the row names of `dfcar` to `Mazda` and `Hornet`.
+
+```{python}
+#| label: py-3
+
+
+```
+
+(@)  Use method `.loc` to obtain row `Hornet` and column `disp`.
+
+```{python}
+#| label: py-4
+
+
+```
+
+
+
+

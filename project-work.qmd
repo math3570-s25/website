@@ -1,0 +1,61 @@
+---
+title: "Project work"
+---
+
+## Group project's proposal
+
+-   **GitClub**: Ally Olsen, Josh Wilder, Aniya Lentz, Jazmin Muro, Christian Kasiake
+
+    + [R package] [Web Development: Utilizing Quarto to Creat a Website](./documents/proposal_GitClub.pdf)
+
+-   **ggplot3**: Arik Zintel, Iris Murphy, Yesenia Tavizon, Lauren Barrile
+
+    + [R package] [Leaflet: An Introduction to Geographic Data Visualization](./documents/proposal_ggplot3.pdf)
+
+-   **Ctrl + Alt + Elite**: Mia Kwiatkoski, Sienna Ifill, Mridula Geddam, Bridget Clark
+
+    + [R package] [Do you Believe in Magick?](./documents/proposal_CtrlAltDelete.pdf)
+
+-   **Big Meta Watchers**: Miguel Basurto, Nicholas Paulick, Christopher Purney, Darius Dahl
+
+    + [Data analysis; Python package] [How to Use Data Science in Real-Life](./documents/proposal_bigmeta.pdf)
+
+-   **Win Rs**: Allan Akkathara, Michael Hankins, Katy Carter, Maddie Flint
+
+    + [Data analysis] [How You Can Sleep Better: A Data Analysis](./documents/proposal_WinR.pdf)
+    
+    
+-   **Red Pandas**: Michael Gephart, Rich Lukas, Candice Watson, Fike Carter
+
+    + [R package] [RGL: 3D Visualization of Trails](./documents/proposal_RedPandas.pdf)
+
+-   **Data Dawgs**: Patrick Dunleavy, Alex Kusek, Arianna Smith, Luke Baumer
+
+    + [Data analysis] [Datadawgs Take on College](./documents/proposal_datadawg.pdf)
+
+## Presentation order
+
+```{r}
+team <- c("GitClub", "ggplot3", "Ctrl + Alt + Elite", 
+          "Big Meta Watchers", "Win Rs", "Red Pandas", "Data Dawgs")
+set.seed(2024)
+(present_order <- sample(team, size = 7, replace = FALSE))
+```
+
+- Every individual is welcome to ask questions to any group.
+
+- Each group asks **as least one** question.
+
+- ``r present_order[2]`` ask questions about ``r present_order[1]``'s project.
+
+- ``r present_order[3]`` ask questions about ``r present_order[2]``'s project.
+
+- ``r present_order[4]`` ask questions about ``r present_order[3]``'s project.
+
+- ``r present_order[5]`` ask questions about ``r present_order[4]``'s project.
+
+- ``r present_order[6]`` ask questions about ``r present_order[5]``'s project.
+
+- ``r present_order[7]`` ask questions about ``r present_order[6]``'s project.
+
+- ``r present_order[1]`` ask questions about ``r present_order[7]``'s project.

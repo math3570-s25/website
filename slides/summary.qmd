@@ -1,0 +1,356 @@
+---
+title: 'Course Summary and Next `r fontawesome::fa("computer")`'
+subtitle: "MATH/COSC 3570 Introduction to Data Science"
+author: "Dr. Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <br> Marquette University"
+# date: "`r format(Sys.time(), '%B %d %Y')`"
+# macros: _macros.tex # import a list of TeX/LaTeX definitions
+format: 
+  revealjs:
+    #     - "macros.tex"
+    html-math-method:
+      method: mathjax
+      url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    # include-in-header:
+    highlight-style: arrow
+    code-block-bg: true
+    self-contained: false
+    slide-number: c/t    
+    incremental: false
+    width: 1800
+    height: 1000
+    margin: 0.05
+    logo: "https://upload.wikimedia.org/wikipedia/commons/e/e8/Marquette_Golden_Eagles_logo.svg"
+    # footer: "[mssc6250-s23.github.io/website](https://mssc6250-s23.github.io/website/)"
+    theme: ["simple", "slides.scss"]
+    multiplex: true
+    code-link: true
+    fig-cap-location: bottom
+    fig-align: center
+    transition: none ## fade slide convex concave zoom
+    title-slide-attributes:
+      data-background-color: "#447099"
+      # data-background-image: images/paper-texture.jpg
+      # data-background-size: cover
+      # data-background-color: "#698ED5"
+editor: source
+execute:
+  freeze: true
+  echo: true
+---
+
+#  {visibility="hidden"}
+
+\def\bx{\mathbf{x}}
+\def\bg{\mathbf{g}}
+\def\bw{\mathbf{w}}
+\def\bbeta{\boldsymbol \beta}
+\def\bX{\mathbf{X}}
+\def\by{\mathbf{y}}
+\def\bH{\mathbf{H}}
+\def\bI{\mathbf{I}}
+\def\bS{\mathbf{S}}
+\def\bW{\mathbf{W}}
+\def\T{\text{T}}
+\def\cov{\mathrm{Cov}}
+\def\cor{\mathrm{Corr}}
+\def\var{\mathrm{Var}}
+\def\E{\mathrm{E}}
+\def\bmu{\boldsymbol \mu}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\def\Trace{\text{Trace}}
+
+
+
+```{r}
+#| label: setup
+#| include: false
+#| eval: true
+library(countdown)
+library(emo)
+library(knitr)
+library(gt)
+library(gtExtras)
+library(ggplot2)
+library(tidyverse)
+library(tidymodels)
+library(fontawesome)
+library(rmarkdown)
+library(reticulate)
+library(lattice)
+library(openintro)
+library(plotly)
+library(ggridges)
+library(patchwork)
+library(skimr)
+library(class)
+library(caret)
+library(skimr)
+set.seed(1234)
+# library(ISLR2)
+# library(genridge)
+# library(glmnet)
+# library(gam)
+# library(splines)
+# library(MASS)
+
+# library(ElemStatLearn)
+knitr::opts_chunk$set(
+    fig.asp = 0.618,
+    fig.align = "center",
+    out.width = "100%",
+    fig.retina = 10,
+    # fig.path = "images/04-linear-reg/",
+    message = FALSE,
+    global.par = TRUE
+)
+options(
+  htmltools.dir.version = FALSE,
+  dplyr.print_min = 6, 
+  dplyr.print_max = 12,
+  tibble.width = 80,
+  width = 80,
+  digits = 2
+  )
+hook_output <- knitr::knit_hooks$get("output")
+knitr::knit_hooks$set(output = function(x, options) {
+  lines <- options$output.lines
+  if (is.null(lines)) {
+    return(hook_output(x, options))  # pass to default hook
+  }
+  x <- unlist(strsplit(x, "\n"))
+  more <- "..."
+  if (length(lines)==1) {        # first n lines
+    if (length(x) > lines) {
+      # truncate the output, but add ....
+      x <- c(head(x, lines), more)
+    }
+  } else {
+    x <- c(more, x[lines], more)
+  }
+  # paste these lines together
+  x <- paste(c(x, ""), collapse = "\n")
+  hook_output(x, options)
+})
+
+theme_set(theme_minimal(base_size = 20))
+```
+
+<!-- # {background-color="#A7D5E8" background-image="https://raw.githubusercontent.com/rstudio/hex-stickers/main/thumbs/quarto.png" background-size="40%" background-position="90% 50%"} -->
+
+
+## Summary of 3570
+
+- You've learned **a lot** in this course!
+
+- Data **importing** > **wrangling** > **visualization** > **statistical machine learning** > **reporting**
+
+```{r}
+#| echo: false
+knitr::include_graphics("https://raw.githubusercontent.com/hadley/r4ds/main/diagrams/data-science/base.png")
+```
+
+
+## Recommendation
+If you want to learn advanced machine learning, 
+
+
+:::: {.columns}
+
+::: {.column width="20%"}
+```{r}
+#| echo: false
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/e/e6/Gamma_distribution_pdf.svg")
+```
+:::
+
+
+::: {.column width="20%"}
+```{r}
+#| echo: false
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/2/2f/Linear_subspaces_with_shading.svg")
+```
+:::
+
+::: {.column width="20%"}
+```{r}
+#| echo: false
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/7/72/Max_paraboloid.svg")
+```
+:::
+
+
+::: {.column width="20%"}
+```{r}
+#| echo: false
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/5/58/Hash_table_4_1_1_0_0_1_0_LL.svg")
+```
+:::
+
+::: {.column width="20%"}
+```{r}
+#| echo: false
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/e/e6/Merge_sort_algorithm_diagram.svg")
+```
+:::
+::::
+  + Probability (MATH 4700)
+  + Statistical inference (MATH 4710)
+  + Linear algebra (MATH 3100)
+  + Optimization (MATH 4650)
+  + Data structure (COSC 2100)
+  + Algorithms (COSC 3100)
+  
+  
+## Recommendation
+If you want to be a professional data scientist,
+
+:::: {.columns}
+
+::: {.column width="35%"}
+```{r}
+#| echo: false
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg")
+```
+:::
+
+
+::: {.column width="20%"}
+```{r}
+#| echo: false
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png")
+```
+:::
+
+::: {.column width="20%"}
+```{r}
+#| echo: false
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg")
+```
+:::
+
+
+::: {.column width="25%"}
+```{r}
+#| echo: false
+
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/1/1f/Julia_Programming_Language_Logo.svg")
+```
+:::
+
+::::
+
+
+
+##
+
+```{r}
+#| echo: false
+#| out-width: "80%"
+knitr::include_graphics("./images/summary/ds_tools_learned.png")
+```
+
+
+##
+
+::: {.r-fit-text}
+Stay positive and keep learning!
+:::
+
+
+## [ADP in Applied Statistics](https://www.marquette.edu/mathematical-and-statistical-sciences/graduate-program-applied-statistics.php)
+
+:::: {.columns}
+::: {.column width="35%"}
+- BA/BS and MS in **5 years**
+- Advanced statistical and data analytics tools
+- **No** application fees
+- Courses include
+  + Computational Probability
+  + Statistical Simulation
+  + Applied Linear Algebra
+  + Design of Experiments
+  + Machine Learning
+  + Statistical Computing and more!
+:::
+
+::: {.column width="65%"}
+```{r, echo=FALSE, out.width = "100%"}
+knitr::include_graphics("./images/summary/adp.png")
+``` 
+:::
+::::
+
+## Presentation Order
+```{r}
+team <- c("GitClub", "ggplot3", "Ctrl + Alt + Elite", 
+          "Big Meta Watchers", "Win Rs", "Red Pandas", "Data Dawgs")
+set.seed(2024)
+(present_order <- sample(team, size = 7, replace = FALSE))
+```
+
+- Every individual is welcome to ask questions to any group.
+
+- Every group asks **as least one** question about previous group's project.
+
+
+## Project Proposals
+
+-   **ggplot3**: [Leaflet: An Introduction to Geographic Data Visualization](https://math3570-s24.github.io/website/documents/proposal_ggplot3.pdf)
+
+-   **Win Rs**: [How You Can Sleep Better: A Data Analysis](https://math3570-s24.github.io/website/documents/proposal_WinR.pdf)
+
+-   **Red Pandas**: [RGL: 3D Visualization of Trails](https://math3570-s24.github.io/website/documents/proposal_RedPandas.pdf)
+
+-   **Big Meta Watchers**: [How to Use Data Science in Real-Life](https://math3570-s24.github.io/website/documents/proposal_bigmeta.pdf)
+
+-   **Ctrl + Alt + Elite**: [Do you Believe in Magick?](https://math3570-s24.github.io/website/documents/proposal_CtrlAltDelete.pdf)
+
+-   **GitClub**: [Web Development: Utilizing Quarto to Creat a Website](https://math3570-s24.github.io/website/documents/proposal_GitClub.pdf)
+
+-   **Data Dawgs**: [Datadawgs Take on College](https://math3570-s24.github.io/website/documents/proposal_datadawg.pdf)
+
+## Final Project
+
+- **14 - 15 min** presentation
+- You evaluate **all group projects except the one you work on** based on
+  + Project Content and Organization (8 pts)
+  + Presentation Material (Slides) Quality (4 pts)
+  + Oral Presentation Skill and Delivery (4 pts)
+  + Interactions and Q&A (4 pts)
+- You choose **one single** person who you think contributes the most to your group project.
+
+## Evaluation Sheet
+
+```{r}
+#| echo: false
+knitr::include_graphics("./images/summary/evaluationsheet_24.png")
+```
+
+
+## Evaluation Rubric
+
+```{r}
+#| echo: false
+knitr::include_graphics("./images/summary/evaluation_rubric2.png")
+```
+
+
+
+
+##
+
+```{r, echo=FALSE, out.width="38%"}
+knitr::include_graphics("./images/summary/fb_like.png")
+```
+
+::: huge
+::: {.center-xy}
+::: pink
+Thank you!
+:::
+:::
+:::
+
+::: notes
+discuss ds with you
+:::

@@ -1,0 +1,28 @@
+---
+title: "Week 10"
+subtitle: "Tidyr and Probabilistic and Statistical Simulation"
+editor: visual
+---
+
+::: callout-important
+:::
+
+## Participate
+
+🖥️ [Slides - Tidying Data](/slides/14-tidyr.html)
+
+🖥️ [Slides - Probability and Statistics](/slides/15-probstat.html)
+
+## Exercise
+
+📋 [Lab-17 tidyr](/exercise/lab17-tidyr.html)
+
+`r fontawesome::fa("table")` [trump.csv](/slides/data/trump.csv)
+
+📋 [Lab-18 Probability](/exercise/lab18-prob.html)
+
+<br><br>
+
+::: {style="font-size: 0.875em;"}
+Back to [course schedule](/ "Course schedule") ⏎
+:::
