@@ -1,6 +1,6 @@
-# Website for MATH/COSC 3570 at Marquette University (Spring 2024)
+# Website for MATH/COSC 3570 at Marquette University (Spring 2025)
 
-🔗 https://math3570-s24.github.io/website/
+🔗 https://math3570-s25.github.io/website/
 
 <hr>
 

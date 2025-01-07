@@ -3,8 +3,8 @@ project:
 
 website:
   page-navigation: true
-  title: "MATH/COSC 3570 - Spring 2024"
-  description: "Homepage for MATH/COSC 3570 - Introduction to Data Science at Marquette University, Spring 2024."
+  title: "MATH/COSC 3570 - Spring 2025"
+  description: "Homepage for MATH/COSC 3570 - Introduction to Data Science at Marquette University, Spring 2025."
   site-url: "https://math3570-s25.github.io/website/"
 
   repo-url: https://github.com/math3570-s25/website
@@ -18,11 +18,11 @@ website:
 
   page-footer:
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
-    left: "&copy; Copyright 2024, Cheng-Han Yu"
-    background: "#b5e2ff"
+    left: "&copy; Copyright 2025, Cheng-Han Yu"
+    background: "#008080"
 
   sidebar:
-    background: "#b5e2ff"
+    background: "#008080"
     logo: "/images/logo.png"
     pinned: true
     align: center
