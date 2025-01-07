@@ -1,0 +1,1479 @@
+[
+  {
+    "objectID": "course-syllabus.html",
+    "href": "course-syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Click here to download the syllabus.",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#time-and-location",
+    "href": "course-syllabus.html#time-and-location",
+    "title": "Syllabus",
+    "section": "Time and location",
+    "text": "Time and location\n\n\n\n\nDay\nTime\nLocation\n\n\n\n\nLectures\nTu & Th\n2:00 - 3:15 PM\nOlin Engineering 198\n\n\nLab\nNone\nNone\nNone",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#office-hours",
+    "href": "course-syllabus.html#office-hours",
+    "title": "Syllabus",
+    "section": "Office Hours",
+    "text": "Office Hours\n\nMy in-person office hours are TuTh 4:50 - 5:50 PM, and Wed 12 - 1 PM in Cudahy Hall room 353.\nYou are welcome to schedule an online meeting via Microsoft Teams if you need/prefer.",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#learning-objectives",
+    "href": "course-syllabus.html#learning-objectives",
+    "title": "Syllabus",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nBy the end of the semester, you will be able to…\n\nRepresent and manipulate data in effective ways\nManipulate data using packages/tools and by ad hoc data handling\nUse mathematical, computational and statistical tools to detect patterns and model performance\nUse computational principles and tools to tackle issues addressable by data science\nUse a solid foundation in data science to independently learn new methodologies and technologies in the field of data science",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#prerequisites",
+    "href": "course-syllabus.html#prerequisites",
+    "title": "Syllabus",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nCOSC 1010 (Intro to Programming) and MATH 4720 (Intro to Statistics), or MATH 2780 (Intro to Regression and Classification).\nProgramming experience is helpful because the course involves doing regression analysis using  programming language.\nThe course will also assume facility with using the internet and a personal computer/laptop. The course involves coding in R and Python using Posit Cloud, a cloud integrated development environment (IDE).\nTalk to me if you are not sure whether or not this is the right course for you.",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#e-mail-policy",
+    "href": "course-syllabus.html#e-mail-policy",
+    "title": "Syllabus",
+    "section": "E-mail Policy",
+    "text": "E-mail Policy\n\nI will attempt to reply your email quickly, at least within 24 hours.\nExpect a reply on Monday if you send a question during weekends. If you do not receive a response from me within two days, re-send your question/comment in case there was a “mix-up” with email communication (Hope this won’t happen!).\nPlease start your subject line with [math3570] or [cosc3570] followed by a clear description of your question. See an example below.\n\n\n\n\nEmail Subject Line Example\n\n\n\nEmail etiquette is important. Please read this article to learn more about email etiquette.\nI am more than happy to answer your questions about this course or data science/statistics in general. However, with tons of email messages everyday, I may choose NOT to respond to students’ e-mail if\n\nThe student could answer his/her own inquiry by reading the syllabus or information on the course website or D2L.\nThe student is asking for an extra credit opportunity. The answer is “no”.\nThe student is requesting an extension on homework. The answer is “no”.\nThe student is asking for a grade to be raised for no legitimate reason. The answer is “no”.\nThe student is sending an email with no etiquette.",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#textbooks",
+    "href": "course-syllabus.html#textbooks",
+    "title": "Syllabus",
+    "section": "Textbooks",
+    "text": "Textbooks\n\nNo textbook is required for this course. Course materials are mainly Dr. Yu’s slides. Below are some good references.\n\n(r4ds) R for Data Science by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund.\n(tmwr) Tidy Modeling with R by Max Kuhn and Julia Silge.\n(py4ds) Python for Data Analysis by Wes McKinney.\n(IS) Introduction to Statistics by Cheng-Han Yu. (Good resource for brushing up your basic probability, statistics and simple linear regression knowledge.)",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#grading-policy",
+    "href": "course-syllabus.html#grading-policy",
+    "title": "Syllabus",
+    "section": "Grading Policy",
+    "text": "Grading Policy\n\n40% In-class lab exercises and participation.\n30% Homework\n30% Final project competition\nExtra credit opportunities\nEvery student has to participate (in-person) in the final presentation in order to pass the course.\nYou will NOT be allowed any extra credit projects/homework/exam to compensate for a poor grade. Everyone is given the same opportunity to do well in this class. I may use class participation to make grade adjustments at the end of the semester.\nThe final grade is based on the grade-percentage conversion Table 1 on the next page. \\([x, y)\\) means greater than or equal to \\(x\\) and less than \\(y\\). For example, 94.1 is in \\([94, 100]\\) and the grade is A and 93.8 is in \\([90, 94)\\) and the grade is A-.\n\n\n\n\nGrade-Percentage Conversion\n\n\nGrade\nPercentage\n\n\n\n\nA\n[94, 100]\n\n\nA-\n[90, 94)\n\n\nB+\n[87, 90)\n\n\nB\n[83, 87)\n\n\nB-\n[80, 83)\n\n\nC+\n[77, 80)\n\n\nC\n[73, 77)\n\n\nC-\n[70, 73)\n\n\nD+\n[65, 70)\n\n\nD\n[60, 65)\n\n\nF\n[0, 60)\n\n\n\n\n\n\nLab exercises\n\nThere are several in-class lab exercises, which are graded as complete/incomplete and used as evidence of attendance and class participation.\nYou are allowed to have two incomplete lab exercises without penalty. Beyond that, 2% grade percentage will be taken off for each missing/incomplete exercise.\nNo make-up lab exercises for any reason.\n\n\n\nHomework\n\nThe homework assignments are individual. You should submit your own work.\nYou may not directly share or discuss answers/code with anyone other than the instructor. But you are welcome to discuss the problems in general and ask for advice.\nHomework will be assigned through GitHub. You need to clone/pull the homework repo into Posit Cloud and work on the Quarto file in the repo. A step-by-step guide will be discussed in class before homework is assigned.\nYou will have at least one week to complete your assignment.\nNo make-up homework for any reason unless you got COVID or excused absence.\nIf you miss a homework assignment due to COVID-19 symptoms, exposure, diagnosis, quarantine, and/or isolation, or you have an excused absence as defined in Attendance in Academic Regulations, the homework percentage will be added to your final project. If you miss more than one assignment, only one assignment percentage can be added to the final project percentage. You get 0% for the other assignment.\n\n\n\nFinal project competition\n\nYou will be team up to do the final project. Your project can be in either of the following categories:\n\nData analysis using statistical models or machine learning algorithms\nIntroduce a R or Python package not learned in class, including live demo\nIntroduce a data science tool (visualization, computing, etc) not learned in class, including live demo\nWeb development: Shiny website or dashboard, including live demo\n\nDetails about the project will be provided as the course progresses. You must complete the final project and be in class to present it in order to pass this course.\n\n\n\n\n\nThe final project presentation is on Monday, 5/6 10:30 AM - 12:30 PM.",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#sharingreusing-code-policy",
+    "href": "course-syllabus.html#sharingreusing-code-policy",
+    "title": "Syllabus",
+    "section": "Sharing/Reusing Code Policy",
+    "text": "Sharing/Reusing Code Policy\n\nUnless explicitly stated otherwise, you may make use of any online resources, but you must explicitly cite where you obtained any code you directly use or use as inspiration in your solutions.\nAny recycled code that is discovered and is not explicitly cited will be treated as plagiarism, regardless of source.",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#university-and-college-policies",
+    "href": "course-syllabus.html#university-and-college-policies",
+    "title": "Syllabus",
+    "section": "University and college policies",
+    "text": "University and college policies\nAs a student in this course, you have agreed to comply with Marquette undergraduate policies and regulations.",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#accommodation",
+    "href": "course-syllabus.html#accommodation",
+    "title": "Syllabus",
+    "section": "Accommodation",
+    "text": "Accommodation\nIf you need to request accommodations, or modify existing accommodations that address disability-related needs, please contact Disability Service.",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#important-dates",
+    "href": "course-syllabus.html#important-dates",
+    "title": "Syllabus",
+    "section": "Important dates",
+    "text": "Important dates\n\nJan 24: Last day to add/swap/drop\nMar 10-16: Spring break\nMar 12: Midterm grade submission\nMar 28 - Apr 1: Easter break\nApr 12: Withdrawal deadline\nMay 4: Last day of class\nMay 6: Final project presentation\nMay 14: Final grade submission\n\nClick here for the full Marquette academic calendar.",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "exercise/lab07-plot.html",
+    "href": "exercise/lab07-plot.html",
+    "title": "Lab 07: Plotting (Presentation)",
+    "section": "",
+    "text": "Note\n\n\n\n\nFind your mate and work in pairs. \nTwo volunteer pairs teach us how to make beautiful plots next Tuesday (Feb 13)!\nThe presenters will be awarded a hex sticker! 😎\n\n\n\nIn lab.qmd ## Lab 7,\n\nFor the mtcars data, use R or Python to\n\nmake a scatter plot of miles per gallon vs. weight. Decorate your plot using arguments, col, pch, xlab, etc.\ncreate a histogram of 1/4 mile time. Make it beautiful!\n\nCommit and Push your work once you are done."
+  },
+  {
+    "objectID": "exercise/lab00-posit.html",
+    "href": "exercise/lab00-posit.html",
+    "title": "Lab Exercise: Posit Cloud",
+    "section": "",
+    "text": "Note"
+  },
+  {
+    "objectID": "exercise/lab00-posit.html#install-posit-cloud",
+    "href": "exercise/lab00-posit.html#install-posit-cloud",
+    "title": "Lab Exercise: Posit Cloud",
+    "section": "Install Posit Cloud",
+    "text": "Install Posit Cloud\n\nStep 1: In the Posit website https://posit.co/, choose Products &gt; Posit Cloud as shown below.\n\n\n\n\n\n\n\n\n\n\n\nStep 2: Click GET STARTED.\nStep 3: Free or Student &gt; Sign Up. Please sign up with GitHub if you have one or use your Marquette email address.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew project"
+  },
+  {
+    "objectID": "exercise/lab00-posit.html#welcome-to-3570-data-science",
+    "href": "exercise/lab00-posit.html#welcome-to-3570-data-science",
+    "title": "Lab Exercise: Posit Cloud",
+    "section": "Welcome to 3570 Data Science!",
+    "text": "Welcome to 3570 Data Science!\n\nI’m sending you a link via email for joining the course workspace 2024-spring-math-3570. Please join.\n\n\n\n\n\n\n\n\n\n\n\nIn the bar, click workspace 2024-spring-math-3570.\nClick New Project &gt; New RStudio Project to get into the IDE.\nIn Untitled Project, name your project as 3570-project.\nIn the Console pane, write R code: a string \"Hello WoRld!\" or math 2 + 4.\nTools &gt; Global Options &gt; Appearance to select your favorite editor theme."
+  },
+  {
+    "objectID": "exercise/lab10-import.html",
+    "href": "exercise/lab10-import.html",
+    "title": "Lab 10: Import Data",
+    "section": "",
+    "text": "Note\n\n\n\n\n\n\n\nIf you haven’t, install and load the tidyverse package.\n\nIn lab.qmd ## Lab 10 section,        \n\nImport ssa_male_prob.csv and ssa_female_prob.Rds in the data folder using read_csv() and call them ssa_male and ssa_female, respectively.\n\n\nssa_male &lt;- readr::read____(____________)\nssa_female &lt;- readr::read____(____________)\n\n\nPlot Age (x-axis) vs. LifeExp (y-axis) for Female. The type should be “line”, and the line color is red. Add x-label, y-label and title to your plot.\n\n\nplot(x = _____, y = _____, type = ______, col = ______,\n     xlab = ______, ylab = _______, main = ____________)\n\n\nUse lines() to add a line of Age (x-axis) vs. LifeExp (y-axis) for Male to the plot. The color is blue.\n\n\nlines(x = _____, y = _____, col = ______)"
+  },
+  {
+    "objectID": "exercise/lab17-tidyr.html",
+    "href": "exercise/lab17-tidyr.html",
+    "title": "Lab 17: tidyr",
+    "section": "",
+    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 17 section,\n\n\nImport trump.csv. Call it trump_data as below on the left.\nUse pivot_longer() to transform trump_data into the data set trump_longer on the right.\n\n\ntrump_data\n\n# A tibble: 2,702 × 4\n   subgroup date       approval disapproval\n   &lt;chr&gt;    &lt;date&gt;        &lt;dbl&gt;       &lt;dbl&gt;\n 1 Voters   2020-10-04     44.7        52.2\n 2 Adults   2020-10-04     43.2        52.6\n 3 Adults   2020-10-03     43.2        52.6\n 4 Voters   2020-10-03     45.0        51.7\n 5 Adults   2020-10-02     43.3        52.4\n 6 Voters   2020-10-02     44.5        52.1\n 7 Voters   2020-10-01     44.1        52.8\n 8 Adults   2020-10-01     42.7        53.3\n 9 Adults   2020-09-30     42.2        53.7\n10 Voters   2020-09-30     44.2        52.7\n# ℹ 2,692 more rows\n\n\n\ntrump_longer &lt;- ______________\n    pivot_longer(\n        cols = ____________,\n        names_to = _______________,\n        values_to = _______________\n    ) \n\n\n\n# A tibble: 5,404 × 4\n   subgroup date       rating_type rating_value\n   &lt;chr&gt;    &lt;date&gt;     &lt;chr&gt;              &lt;dbl&gt;\n 1 Voters   2020-10-04 approval            44.7\n 2 Voters   2020-10-04 disapproval         52.2\n 3 Adults   2020-10-04 approval            43.2\n 4 Adults   2020-10-04 disapproval         52.6\n 5 Adults   2020-10-03 approval            43.2\n 6 Adults   2020-10-03 disapproval         52.6\n 7 Voters   2020-10-03 approval            45.0\n 8 Voters   2020-10-03 disapproval         51.7\n 9 Adults   2020-10-02 approval            43.3\n10 Adults   2020-10-02 disapproval         52.4\n# ℹ 5,394 more rows\n\n\nBONUS 💵: Use trump_longer to generate a plot like the one below."
+  },
+  {
+    "objectID": "exercise/lab04-chunk.html",
+    "href": "exercise/lab04-chunk.html",
+    "title": "Lab 04: Code Chunk",
+    "section": "",
+    "text": "Note\n\n\n\n\n\n\n\nIn lab.qmd ## Lab 4: Code Chunk, use code chunks to\n\ninclude an image with knitr::include_graphics(\"URL or file path\") https://raw.githubusercontent.com/rstudio/hex-stickers/master/PNG/ggplot2.png\ninclude a plot plot(mtcars$disp, mtcars$mpg)\nShow dataset mtcars as a table using knitr::kable()\ndo some inline code calculation like `r ncol(mtcars)`, `r log(100, base = 10) + sqrt(4)`.\n\nAdd option fig-height: 4, fig-width: 6 and fig-align: right to your plot. What are the changes?\nHow do we set global chunk options to hide and run code in every chunk?\nOnce done, commit with message “04-Code Chunk” and push your work to GitHub."
+  },
+  {
+    "objectID": "exercise/lab23-pca.html",
+    "href": "exercise/lab23-pca.html",
+    "title": "Lab 23: Principal Component Analysis",
+    "section": "",
+    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 23 section,\n\nUse slice() to print the first six rows of iris data.\nPerform PCA on Sepal.Length, Sepal.Width, Petal.Length, and Petal.Width.\nGenerate biplot, and explain it.\n\n\n\n  Sepal.Length Sepal.Width Petal.Length Petal.Width Species\n1          5.1         3.5          1.4         0.2  setosa\n2          4.9         3.0          1.4         0.2  setosa\n3          4.7         3.2          1.3         0.2  setosa\n4          4.6         3.1          1.5         0.2  setosa\n5          5.0         3.6          1.4         0.2  setosa\n6          5.4         3.9          1.7         0.4  setosa"
+  },
+  {
+    "objectID": "exercise/lab21-logistic.html",
+    "href": "exercise/lab21-logistic.html",
+    "title": "Lab 21: Logistic Regression",
+    "section": "",
+    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 21 section,\n\nUse our fitted logistic regression model to predict whether you are male or female! Change 175 to your height (cm).\nUse the converter to get your height in cm!\n\n\n# Fit the logistic regression\n\npredict(logis_out$fit, newdata = data.frame(HEIGHT = 175), \n        type = \"response\")"
+  },
+  {
+    "objectID": "exercise/lab20-slr.html",
+    "href": "exercise/lab20-slr.html",
+    "title": "Lab 20: Simple Linear Regression",
+    "section": "",
+    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 20 section,\n\nUse the mpg data to fit a simple linear regression where \\(y\\) is hwy and \\(x\\) is cty.\nProduce the plot below. (add the layer geom_smooth(method = \"lm\", se = FALSE))"
+  },
+  {
+    "objectID": "exercise/lab16-join.html",
+    "href": "exercise/lab16-join.html",
+    "title": "Lab 16: Joining tables",
+    "section": "",
+    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 16 section\n\nImport the data at https://www.jaredlander.com/data/DiamondColors.csv. Call it diamond_color.\n\n\ndiamond_color &lt;- readr::read_csv(\"the url\")\n\n\nUse left_join() to combine the data set diamonds in ggplot2 and diamond_color by the key variable color.\n\n\n\nSelect the variables carat, color, Description, Details.\n\n\n## Variable \"color\" in diamonds but \"Color\" in diamond_color\n\njoined_df &lt;- diamonds |&gt;  \n    _______(_______, by = c('color' = 'Color')) |&gt;  ## join\n    _______(_________________________________________)  ## select\n\n\nCreate a bar chart of the variable color.\n\n\n\n# A tibble: 53,940 × 4\n   carat color Description    Details                    \n   &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt;          &lt;chr&gt;                      \n 1  0.23 E     Colorless      Minute traces of color     \n 2  0.21 E     Colorless      Minute traces of color     \n 3  0.23 E     Colorless      Minute traces of color     \n 4  0.29 I     Near Colorless Slightly detectable color  \n 5  0.31 J     Near Colorless Slightly detectable color  \n 6  0.24 J     Near Colorless Slightly detectable color  \n 7  0.24 I     Near Colorless Slightly detectable color  \n 8  0.26 H     Near Colorless Color is dificult to detect\n 9  0.22 E     Colorless      Minute traces of color     \n10  0.23 H     Near Colorless Color is dificult to detect\n# ℹ 53,930 more rows"
+  },
+  {
+    "objectID": "exercise/lab24-kmeans.html",
+    "href": "exercise/lab24-kmeans.html",
+    "title": "Lab 24: K-Means Clustering",
+    "section": "",
+    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 24 section,\n\nInstall R package palmerpenguins at https://allisonhorst.github.io/palmerpenguins/\nPerform K-Means to with \\(K = 3\\) to cluster penguins based on bill_length_mm and flipper_length_mm of data peng.\n\n\nlibrary(palmerpenguins)\npeng &lt;- penguins[complete.cases(penguins), ] |&gt; \n    select(flipper_length_mm, bill_length_mm)\n\n\n\n\n\n\n\n\n\n\n\n\nWarning: Removed 2 rows containing missing values (`geom_point()`)."
+  },
+  {
+    "objectID": "exercise/lab06-py.html",
+    "href": "exercise/lab06-py.html",
+    "title": "Lab 06: Python Data Structure",
+    "section": "",
+    "text": "Note\n\n\n\n\n\n\nIn lab.qmd Lab 6,\n\nCreate a Python list and dictionary similar to the R list below.\n\n\nx_lst &lt;- list(idx = 1:3, \n              \"a\", \n              c(TRUE, FALSE))\n\nRemember to create Python code chunk\n\n```{Python}\n#| echo: true\n#| eval: false\n\n```\n\nCommit and Push your work once you are done."
+  },
+  {
+    "objectID": "exercise/lab12-facet.html",
+    "href": "exercise/lab12-facet.html",
+    "title": "Lab 12: Faceting",
+    "section": "",
+    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 12 section,\n\nggplot(data = _______, \n       mapping = aes(x = ______, y = ______, ______ = drv, shape = _____)) +\n    geom______(______ = 3, ______ = 0.8) + \n    facet_grid(______ ~ _______) +\n    guides(______ = \"none\")"
+  },
+  {
+    "objectID": "exercise/lab13-visualization.html",
+    "href": "exercise/lab13-visualization.html",
+    "title": "Lab 13: Visualization",
+    "section": "",
+    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 13 section,\n\nImport the data penguins.csv.\nGenerate the following\n\n\n\n\n\n\n\n\n\n\n\n\nWarning: Removed 2 rows containing non-finite values (`stat_bin()`).\n\n\n\n\n\n\n\n\n\n\n# library(tidyverse)\npenguins &lt;- read_csv(__________________)\n________ |&gt; ggplot(_______________________) +  ## mapping layer  \n    ___________________ +  ## geometry layer\n    _____________________________  ## label layer\n\n  \n\n________ |&gt; ggplot(______________________________) +  ## mapping layer  \n    _______________ +  ## geometry layer\n    _______________ +  ## label layer\n    ______________________________  +   ## facet layer\n    ______________________________      ## theme layer (set legend.position = \"none\")"
+  },
+  {
+    "objectID": "course-news.html",
+    "href": "course-news.html",
+    "title": "News/Announcements",
+    "section": "",
+    "text": "The background survey form is at https://forms.office.com/r/PNwNY0F5Zk.",
+    "crumbs": [
+      "Course information",
+      "News/Annoucements"
+    ]
+  },
+  {
+    "objectID": "course-news.html#jan-14-2024",
+    "href": "course-news.html#jan-14-2024",
+    "title": "News/Announcements",
+    "section": "",
+    "text": "The background survey form is at https://forms.office.com/r/PNwNY0F5Zk.",
+    "crumbs": [
+      "Course information",
+      "News/Annoucements"
+    ]
+  },
+  {
+    "objectID": "course-news.html#jan-16-2024",
+    "href": "course-news.html#jan-16-2024",
+    "title": "News/Announcements",
+    "section": "Jan 16, 2024",
+    "text": "Jan 16, 2024\n\nPlease bring your laptop this Thursday. We’ll set up our computing environment and get it ready for doing data science.",
+    "crumbs": [
+      "Course information",
+      "News/Annoucements"
+    ]
+  },
+  {
+    "objectID": "course-news.html#jan-17-2024",
+    "href": "course-news.html#jan-17-2024",
+    "title": "News/Announcements",
+    "section": "Jan 17, 2024",
+    "text": "Jan 17, 2024\nhttps://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=03db93ed-1b1c-4447-805d-a674958c23e6&ccId=19000101_000001&jobId=480911&lang=en_US\nDeadline\nApplicants should submit their application by February 1, 2024.",
+    "crumbs": [
+      "Course information",
+      "News/Annoucements"
+    ]
+  },
+  {
+    "objectID": "course-overview.html",
+    "href": "course-overview.html",
+    "title": "MATH/COSC 3570: Introduction to Data Science",
+    "section": "",
+    "text": "This course introduces main aspects of doing a practical data science project, from importing data to deploying what is learned from data. We start with learning popular data science tools such as basic R and Python programming, Git and GitHub, and interactive documenting systems RMarkdown and Quarto. Then we learn data importing, data visualization and data wrangling using both R and Python. The second half of the course focuses on several basic simulation and machine learning methods, including Monte Carlo simulation, linear regression, K-nearest neighbors, logistic regression, principal component analysis, and K-means clustering. We learn R tidyverse and tidymodels packages. For Python, Pandas and Scikit-Learn libraries are introduced.",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "hw/hw3.html",
+    "href": "hw/hw3.html",
+    "title": "Homework 3: Probability, Statistics and Machine Learning",
+    "section": "",
+    "text": "Note: For any simulation or random sampling, set the random seed at your student ID number, for example set.seed(6145678)."
+  },
+  {
+    "objectID": "hw/hw3.html#monte-carlo-simulation",
+    "href": "hw/hw3.html#monte-carlo-simulation",
+    "title": "Homework 3: Probability, Statistics and Machine Learning",
+    "section": "1.1 Monte Carlo Simulation",
+    "text": "1.1 Monte Carlo Simulation\n\n\n\n\n\n\n\n\n\n\n\n\nSuppose you are in a classroom with 30 people. If we assume this is a randomly selected group of 30 people, what is the chance that at least two people have the same birthday? Here we use a Monte Carlo simulation. For simplicity, we assume nobody was born on February 29.\n\n\n\nNote that birthdays can be represented as numbers between 1 and 365, so a sample of 30 birthdays can be obtained like this:\n\n\nn &lt;- 30\nbdays &lt;- sample(x = 1:365, size = n, replace = TRUE)\n\n\nTo check if in this particular set of 30 people we have at least two with the same birthday, we can use the function duplicated(), which returns TRUE whenever an element of a vector is a duplicate. Here is an example:\n\n\nduplicated(c(1, 2, 3, 1, 4, 3, 5))\n\n[1] FALSE FALSE FALSE  TRUE FALSE  TRUE FALSE\n\n\nThe second time 1 and 3 appear, we get a TRUE.\n\nTo check if two birthdays were the same, we simply use the any() and duplicated() functions like this:\n\n\nany(duplicated(bdays))\n\n[1] FALSE\n\n\nIn this case, we see that it did happen. At least two people had the same birthday.\nTo estimate the probability of a shared birthday in the group, repeat this experiment by sampling sets of 30 birthdays 10000 times, and find the relative frequency of the event that at least two people had the same birthday.\n\n## code\n# set.seed(your ID number)"
+  },
+  {
+    "objectID": "hw/hw3.html#central-limit-theorem",
+    "href": "hw/hw3.html#central-limit-theorem",
+    "title": "Homework 3: Probability, Statistics and Machine Learning",
+    "section": "1.2 Central Limit Theorem",
+    "text": "1.2 Central Limit Theorem\nSuppose random variables \\(X_1, X_2, \\dots, X_n\\) are independent and follow Chi-squared distribution with degrees of freedom 1, \\(\\chi^2_{df=1}\\).\n\nUse dchisq() to plot \\(\\chi^2_{df=1}\\) distribution. Consider \\(x\\in (0, 5)\\).\n\n\n## code\n\n\nConsider three sample sizes \\(n = 2, 8, 100\\), and set the sample size of the sample mean \\(\\overline{X}_n\\) be \\(1000\\). Show the sampling distribution of \\(\\overline{X}_n\\), i.e., the collection \\(\\{\\overline{X}_n^{(m)}\\}_{m=1}^{1000}\\), looks more and more like Gaussian as \\(n\\) increases by making histograms of \\(\\overline{X}_n\\) samples with \\(n = 2, 8, 100\\). The procedure is the following:\n\nFor each \\(n = 2, 8, 100\\),\n\nDraw \\(n\\) values \\(x_1, x_2, \\dots, x_n\\) using rchisq(n, df = 1).\nCompute the mean of the \\(n\\) values, which is \\(\\overline{x}_n\\).\nRepeat i. and ii. 1000 times to obtain 1000 \\(\\overline{x}_n\\)s.\nPlot the histogram of these 1000 \\(\\overline{x}_n\\)s.\n\n\n## code\n# set.seed(your ID number)"
+  },
+  {
+    "objectID": "hw/hw3.html#linear-regression",
+    "href": "hw/hw3.html#linear-regression",
+    "title": "Homework 3: Probability, Statistics and Machine Learning",
+    "section": "2.1 Linear Regression",
+    "text": "2.1 Linear Regression\nA pharmaceutical firm would like to obtain information on the relationship between the dose level and potency of a drug product. To do this, each of 15 test tubes is inoculated with a virus culture and incubated for 5 days at 30°C. Three test tubes are randomly assigned to each of the five different dose levels to be investigated (2, 4, 8, 16, and 32 mg). Each tube is injected with only one dose level, and the response of interest is obtained.\n\nImport dose.csv into your working session. The data set is not tidy. Use pivot_longer() to make it tidy as the shown tibble below. Call the tidy data set dose_tidy.\n\n\n## code\n\n## # A tibble: 15 × 3\n##    dose_level tube  response\n##         &lt;dbl&gt; &lt;chr&gt;    &lt;dbl&gt;\n##  1          2 tube1        5\n##  2          2 tube2        7\n##  3          2 tube3        3\n##  4          4 tube1       10\n##  5          4 tube2       12\n##  6          4 tube3       14\n##  7          8 tube1       15\n##  8          8 tube2       17\n##  9          8 tube3       18\n## 10         16 tube1       20\n## 11         16 tube2       21\n## 12         16 tube3       19\n## 13         32 tube1       23\n## 14         32 tube2       24\n## 15         32 tube3       29\n\n\nFit a simple linear regression with the predictor \\(\\texttt{dose level}\\) for response. Print the fitted result.\n\n\n## code\n\n\nWith (2), plot the data with a \\(95\\%\\) confidence interval for the mean response.\n\n\n## code\n\n\nFit a simple linear regression model with the predictor \\(\\texttt{ln(dose level)}\\) for response, where \\(\\ln = \\log_e\\). Print the fitted result.\n\n\n## code\n\n\nWith (4), plot the data \\((\\ln(\\text{dose level})_i, \\text{response}_i), i = 1, \\dots, 15\\) with a \\(95\\%\\) confidence interval for the mean response.\n\n\n## code\n\n\nDraw residual plots of Model in (2) and (4). According to the plots, which model you think is better?\n\n\n## code\n\n\nImport dose_tidy.csv and redo (2) using Python. Show the slope and intercept.\n\n\n\n# code\n\n\nUse Python to predict the response value when the dose level is 10 and 30.\n\n\n\n# code"
+  },
+  {
+    "objectID": "hw/hw3.html#logistic-regression",
+    "href": "hw/hw3.html#logistic-regression",
+    "title": "Homework 3: Probability, Statistics and Machine Learning",
+    "section": "2.2 Logistic Regression",
+    "text": "2.2 Logistic Regression\n\nImport body.csv. Split the data into a training set and a test set. Set the random seed at your student ID number. Use 80:20 rule.\n\n\n# code\n# set.seed(your ID number)\n\n\nFit a logistic regression with the predictor HEIGHT using the training sample data. Find the probability that the subject is male given HEIGHT = 165.\n\n\n# code\n\n\nFit a logistic regression with the predictor BMI using the training sample data. Find the probability that the subject is male given BMI = 25.\n\n\n# code\n\n\nDo the classification on the test set for the model (2) and (3), and compute the test accuracy rate. Which model gives us higher accuracy rate?\n\n\n# code\n\n\nUse Python to split the body data into a training set and a test set.\n\n\n\n## code\n\n\nUse Python to fit a logistic regression with the predictor BMI using the training sample data. Find the probability that the subject is male given BMI = 25.\n\n\n\n# code\n\n\nUse Python to do the classification on the test set. Compute the test accuracy rate.\n\n\n\n# code"
+  },
+  {
+    "objectID": "hw/hw3.html#k-nearest-neighbors-knn",
+    "href": "hw/hw3.html#k-nearest-neighbors-knn",
+    "title": "Homework 3: Probability, Statistics and Machine Learning",
+    "section": "2.3 K-Nearest Neighbors (KNN)",
+    "text": "2.3 K-Nearest Neighbors (KNN)\n\nFit the KNN with \\(K=1\\) and \\(10\\) using BMI on the training data and do the classification on the same test set used in logistic regression. Obtain the confusion matrix for the two \\(K\\)s. Which \\(K\\) performs better? Why?\n\n\n# code"
+  },
+  {
+    "objectID": "hw/hw1.html",
+    "href": "hw/hw1.html",
+    "title": "Homework 1: Quarto, Basic Syntax and Data Importing",
+    "section": "",
+    "text": "Please introduce yourself. You can share anything, your hometown, major, family, hobbies, working experience, honors and awards, special skills, etc, yes anything! Your autobiography should include:\n\nAt least two paragraphs (Paragraphs are separated by a blank line)\nBold text\nItalic text\nText with both bold AND italic font (Not mentioned in class, but you should be able to figure it out)\nClickable text with a hyperlink\nBlockquote\nListed items\nemoji (Add emoji to your writing by typing :EMOJICODE:, check emoji cheatsheet)\n\nYour Self-Introduction:"
+  },
+  {
+    "objectID": "hw/hw1.html#autobiography",
+    "href": "hw/hw1.html#autobiography",
+    "title": "Homework 1: Quarto, Basic Syntax and Data Importing",
+    "section": "",
+    "text": "Please introduce yourself. You can share anything, your hometown, major, family, hobbies, working experience, honors and awards, special skills, etc, yes anything! Your autobiography should include:\n\nAt least two paragraphs (Paragraphs are separated by a blank line)\nBold text\nItalic text\nText with both bold AND italic font (Not mentioned in class, but you should be able to figure it out)\nClickable text with a hyperlink\nBlockquote\nListed items\nemoji (Add emoji to your writing by typing :EMOJICODE:, check emoji cheatsheet)\n\nYour Self-Introduction:"
+  },
+  {
+    "objectID": "hw/hw1.html#chunk-options",
+    "href": "hw/hw1.html#chunk-options",
+    "title": "Homework 1: Quarto, Basic Syntax and Data Importing",
+    "section": "2 Chunk Options",
+    "text": "2 Chunk Options\nPlease check the references https://quarto.org/docs/reference/cells/cells-knitr.html or https://yihui.org/knitr/options/ and answer the following questions.\n\nPlease add your nice picture using knitr::include_graphics(). Please use\n\necho to not to show the code\nfig-cap to add a figure caption\nfig-cap-location to put the caption on the margin.\n\n\n\nUse the chunk option\n\necho to NOT to show library(tidyverse), library(ggplot2), and library(ggrepel). Note: you may need to use !expr. Check https://stackoverflow.com/questions/72217651/quarto-rmarkdown-code-block-to-only-display-certain-lines and https://quarto.org/docs/computations/r.html#chunk-options\nfig-align to have the figure right-aligned.\n\n\nlibrary(tidyverse)\nlibrary(ggplot2)\nclass_avg &lt;- mpg |&gt; \n    group_by(class) |&gt; \n    summarise(displ = median(displ), hwy = median(hwy))\nlibrary(ggrepel)\nggplot(mpg, aes(displ, hwy, colour = class)) + \n    geom_label_repel(aes(label = class), data = class_avg, size = 6, \n                     label.size = 0, segment.color = NA) + \n    geom_point() + theme(legend.position = \"none\")\n\n\n\n\n\n\n\n\nA Marquette student has a really bad code style. Please\n\nAdd the chunk option tidy in the chunk labelled style to make her code below more readable.\nAdd another option eval so that the code is NOT run.\n\n\n\nfor(k in 1:10){j=cos(sin(k)*k^2)+3;l=exp(k-7*log(k,base=2));print(j*l-5)}\n\n[1] 4.966218\n[1] -4.985713\n[1] -4.998994\n[1] -4.999823\n[1] -4.999956\n[1] -4.999988\n[1] -4.999988\n[1] -4.999991\n[1] -4.999995\n[1] -4.999996\n\n\n\nUse the chunk option results in the chunk labelled cat, so that the text output is “I love Marquette and Data Science!”.\n\n\ncat(\"I love **Marquette** and *Data Science*!\\n\")\n\nI love **Marquette** and *Data Science*!\n\n\n\nWe can re-use a code chunk by using its name! Please create a code chunk and use the option #| label: photo to run the code in the code chunk named photo. Note that the chunk options are not carried."
+  },
+  {
+    "objectID": "hw/hw1.html#basic-r",
+    "href": "hw/hw1.html#basic-r",
+    "title": "Homework 1: Quarto, Basic Syntax and Data Importing",
+    "section": "3 Basic R",
+    "text": "3 Basic R\n\n3.1 Vector\nUse the built-in data set LakeHuron.\n\nFind the number of data values in LakeHuron.\n\n\nWhat is the highest and lowest level (in feet) of LakeHuron during the 1875-1972 period?\n\n\nReturn a logical vector that shows whether the lake level is higher than the average level or not.\n\n\nReturn years that have higher level than the average.\n\n\n\n3.2 Data Frame\n\nMake the mtcars dataset as a tibble using as_tibble(). Call it tbl.\n\n\nPrint the sub data of tbl that contains the 11th to 15th rows and the last three columns.\n\n\nGrab the second and the third columns of tbl using list method and their name. (Do NOT use matrix method, and their index)\n\n\nExtract the fourth column of tbl as a numerical vector.\n\n\nStart with tbl, use the pipe operator |&gt; to do the followings sequentially.\n\nextract the first 10 observations (rows)\nfind the column names\nsort the columns names using sort() in a decreasing order. (alphabetically from z to a)\n\n\n\n\n3.3 Data Importing\n\nRead the data sales.xlsx from the data folder. Use arguments sheet, skip and col_names so that the output looks like\n# A tibble: 9 x 2\n  id      n    \n  &lt;chr&gt;   &lt;chr&gt;\n1 Brand 1 n    \n2 1234    8    \n3 8721    2    \n4 1822    3    \n5 Brand 2 n    \n6 3333    1    \n# … with 3 more rows\n\n\nRead in the favourite-food.xlsx file from the data folder and call the data fav_food. Use the argument na to treat “N/A” and “99999” as a missing value. Print the data out."
+  },
+  {
+    "objectID": "hw/hw1.html#basic-python",
+    "href": "hw/hw1.html#basic-python",
+    "title": "Homework 1: Quarto, Basic Syntax and Data Importing",
+    "section": "4 Basic Python",
+    "text": "4 Basic Python\n\nimport numpy as np\nimport pandas as pd\n\n\n4.1 Data Frame\n\nImport the data set mtcars.csv using pd.read_csv(). Then print the first five rows.\n\n\nUse method .iloc to obtain the first and fourth rows, and the second and third columns. Name the data dfcar.\n\n\nSet the row names of dfcar to Mazda and Hornet.\n\n\nUse method .loc to obtain row Hornet and column disp."
+  },
+  {
+    "objectID": "weeks/week-15.html",
+    "href": "weeks/week-15.html",
+    "title": "Week 15",
+    "section": "",
+    "text": "Important",
+    "crumbs": [
+      "Weekly materials",
+      "Week 15"
+    ]
+  },
+  {
+    "objectID": "weeks/week-15.html#participate",
+    "href": "weeks/week-15.html#participate",
+    "title": "Week 15",
+    "section": "Participate",
+    "text": "Participate\n🖥️ Slides - Principal Component Analysis\nr fontawesome::fa(\"table\") USArrests",
+    "crumbs": [
+      "Weekly materials",
+      "Week 15"
+    ]
+  },
+  {
+    "objectID": "weeks/week-15.html#reading",
+    "href": "weeks/week-15.html#reading",
+    "title": "Week 15",
+    "section": "Reading",
+    "text": "Reading\n📖",
+    "crumbs": [
+      "Weekly materials",
+      "Week 15"
+    ]
+  },
+  {
+    "objectID": "weeks/week-15.html#exercise",
+    "href": "weeks/week-15.html#exercise",
+    "title": "Week 15",
+    "section": "Exercise",
+    "text": "Exercise\n📋 Lab-23 Principal Component Analysis\nr fontawesome::fa(\"table\") iris\n\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 15"
+    ]
+  },
+  {
+    "objectID": "weeks/week-16.html",
+    "href": "weeks/week-16.html",
+    "title": "Week 16",
+    "section": "",
+    "text": "Important",
+    "crumbs": [
+      "Weekly materials",
+      "Week 16"
+    ]
+  },
+  {
+    "objectID": "weeks/week-16.html#participate",
+    "href": "weeks/week-16.html#participate",
+    "title": "Week 16",
+    "section": "Participate",
+    "text": "Participate\n🖥️ Slides - K-Means Clustering\n Data - clus_data",
+    "crumbs": [
+      "Weekly materials",
+      "Week 16"
+    ]
+  },
+  {
+    "objectID": "weeks/week-16.html#reading",
+    "href": "weeks/week-16.html#reading",
+    "title": "Week 16",
+    "section": "Reading",
+    "text": "Reading\n📖",
+    "crumbs": [
+      "Weekly materials",
+      "Week 16"
+    ]
+  },
+  {
+    "objectID": "weeks/week-16.html#exercise",
+    "href": "weeks/week-16.html#exercise",
+    "title": "Week 16",
+    "section": "Exercise",
+    "text": "Exercise\n📋 Lab-24 K-Means Clustering\n palmerpenguins::penguins\n\nlibrary(palmerpenguins)\npeng &lt;- penguins[complete.cases(penguins), ] |&gt; \n    select(flipper_length_mm, bill_length_mm)\n\n\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 16"
+    ]
+  },
+  {
+    "objectID": "weeks/week-12.html",
+    "href": "weeks/week-12.html",
+    "title": "Week 12",
+    "section": "",
+    "text": "Important",
+    "crumbs": [
+      "Weekly materials",
+      "Week 12"
+    ]
+  },
+  {
+    "objectID": "weeks/week-12.html#participate",
+    "href": "weeks/week-12.html#participate",
+    "title": "Week 12",
+    "section": "Participate",
+    "text": "Participate\n🖥️ Slides - Linear Regression\nr fontawesome::fa(\"table\") ggplot2::mpg",
+    "crumbs": [
+      "Weekly materials",
+      "Week 12"
+    ]
+  },
+  {
+    "objectID": "weeks/week-12.html#reading",
+    "href": "weeks/week-12.html#reading",
+    "title": "Week 12",
+    "section": "Reading",
+    "text": "Reading\n📖",
+    "crumbs": [
+      "Weekly materials",
+      "Week 12"
+    ]
+  },
+  {
+    "objectID": "weeks/week-12.html#exercise",
+    "href": "weeks/week-12.html#exercise",
+    "title": "Week 12",
+    "section": "Exercise",
+    "text": "Exercise\n📋 Lab-20 Simple Linear Regression\n\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 12"
+    ]
+  },
+  {
+    "objectID": "weeks/week-11.html",
+    "href": "weeks/week-11.html",
+    "title": "Week 11",
+    "section": "",
+    "text": "Important",
+    "crumbs": [
+      "Weekly materials",
+      "Week 11"
+    ]
+  },
+  {
+    "objectID": "weeks/week-11.html#participate",
+    "href": "weeks/week-11.html#participate",
+    "title": "Week 11",
+    "section": "Participate",
+    "text": "Participate\n🖥️ Slides - Probability and Statistics",
+    "crumbs": [
+      "Weekly materials",
+      "Week 11"
+    ]
+  },
+  {
+    "objectID": "weeks/week-11.html#exercise",
+    "href": "weeks/week-11.html#exercise",
+    "title": "Week 11",
+    "section": "Exercise",
+    "text": "Exercise\n📋 Lab-19 Confidence Interval\n\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 11"
+    ]
+  },
+  {
+    "objectID": "weeks/week-2.html",
+    "href": "weeks/week-2.html",
+    "title": "Week 2",
+    "section": "",
+    "text": "Important",
+    "crumbs": [
+      "Weekly materials",
+      "Week 2"
+    ]
+  },
+  {
+    "objectID": "weeks/week-2.html#reading-and-resources",
+    "href": "weeks/week-2.html#reading-and-resources",
+    "title": "Week 2",
+    "section": "Reading and Resources",
+    "text": "Reading and Resources\n\nGit/GitHub\n📖 Create a personal access token (PAT)\n📖 Two-factor authentication\n📖 Git hands-on session within RStudio\n📖 Happy Git and GitHub for the useR\n📖 Happier version control with Git and GitHub\n\n\nMarkdown\n📖 Markdown Tutorial\n📖 Mastering Markdown GitHub Guides\n📖 Markdown Guide\n\n\nQuarto\n📖 Quarto Website\n📖 Get Started with Quarto\n📖 R for Data Science - Quarto",
+    "crumbs": [
+      "Weekly materials",
+      "Week 2"
+    ]
+  },
+  {
+    "objectID": "weeks/week-2.html#participate",
+    "href": "weeks/week-2.html#participate",
+    "title": "Week 2",
+    "section": "Participate",
+    "text": "Participate\n🖥️ Slides - Git/GitHub\n🖥️ Slides - Quarto",
+    "crumbs": [
+      "Weekly materials",
+      "Week 2"
+    ]
+  },
+  {
+    "objectID": "weeks/week-2.html#perform",
+    "href": "weeks/week-2.html#perform",
+    "title": "Week 2",
+    "section": "Perform",
+    "text": "Perform\n📋 Lab-00 Git/GitHub\n📋 Lab-02 Quarto File\n📋 Lab-03 Markdown\n📋 Lab-04 Code Chunk\n\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 2"
+    ]
+  },
+  {
+    "objectID": "weeks/week-1.html",
+    "href": "weeks/week-1.html",
+    "title": "Week 1",
+    "section": "",
+    "text": "📖 Read the syllabus\n📖 Get your laptop and computing environment ready!",
+    "crumbs": [
+      "Weekly materials",
+      "Week 1"
+    ]
+  },
+  {
+    "objectID": "weeks/week-1.html#prepare",
+    "href": "weeks/week-1.html#prepare",
+    "title": "Week 1",
+    "section": "",
+    "text": "📖 Read the syllabus\n📖 Get your laptop and computing environment ready!",
+    "crumbs": [
+      "Weekly materials",
+      "Week 1"
+    ]
+  },
+  {
+    "objectID": "weeks/week-1.html#reading-and-resources",
+    "href": "weeks/week-1.html#reading-and-resources",
+    "title": "Week 1",
+    "section": "Reading and Resources",
+    "text": "Reading and Resources\n📖 R for Data Science - Introduction\n📖 R for Data Science - Whole game\n📖 RStudio IDE :: Cheatsheet\n📖 Posit Cloud Guide",
+    "crumbs": [
+      "Weekly materials",
+      "Week 1"
+    ]
+  },
+  {
+    "objectID": "weeks/week-1.html#participate",
+    "href": "weeks/week-1.html#participate",
+    "title": "Week 1",
+    "section": "Participate",
+    "text": "Participate\n🖥️ Slides - Welcome to MATH/COSC 3570\n🖥️ Slides - Overview of Data Science\n🖥️ Slides - Posit Cloud\n🖥️ Slides - Git/GitHub\nr fontawesome::fa(\"table\") ggplot2::mpg\nr fontawesome::fa(\"table\") ggplot2::diamond",
+    "crumbs": [
+      "Weekly materials",
+      "Week 1"
+    ]
+  },
+  {
+    "objectID": "weeks/week-1.html#perform",
+    "href": "weeks/week-1.html#perform",
+    "title": "Week 1",
+    "section": "Perform",
+    "text": "Perform\n📋 Lab-00 Posit Cloud\n📋 Lab-01 Running R Script\n\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 1"
+    ]
+  },
+  {
+    "objectID": "weeks/week-5.html",
+    "href": "weeks/week-5.html",
+    "title": "Week 5",
+    "section": "",
+    "text": "Important",
+    "crumbs": [
+      "Weekly materials",
+      "Week 5"
+    ]
+  },
+  {
+    "objectID": "weeks/week-5.html#participate",
+    "href": "weeks/week-5.html#participate",
+    "title": "Week 5",
+    "section": "Participate",
+    "text": "Participate\n🖥️ Slides - Data Importing\nr fontawesome::fa(\"table\") murders.csv\nr fontawesome::fa(\"table\") df-na.csv\nr fontawesome::fa(\"table\") cars.rds\nr fontawesome::fa(\"table\") 2010_bigfive_regents.xls",
+    "crumbs": [
+      "Weekly materials",
+      "Week 5"
+    ]
+  },
+  {
+    "objectID": "weeks/week-5.html#reading-and-resources",
+    "href": "weeks/week-5.html#reading-and-resources",
+    "title": "Week 5",
+    "section": "Reading and Resources",
+    "text": "Reading and Resources\n📖 R for Data Science - Data Import\n📖 R for Data Science - Data Visualization",
+    "crumbs": [
+      "Weekly materials",
+      "Week 5"
+    ]
+  },
+  {
+    "objectID": "weeks/week-5.html#exercise",
+    "href": "weeks/week-5.html#exercise",
+    "title": "Week 5",
+    "section": "Exercise",
+    "text": "Exercise\n📋 Lab-10 Data Importing\nr fontawesome::fa(\"table\") ssa_male_prob.csv\nr fontawesome::fa(\"table\") ssa_female_prob.Rds\n\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 5"
+    ]
+  },
+  {
+    "objectID": "weeks/week-6.html",
+    "href": "weeks/week-6.html",
+    "title": "Week 6",
+    "section": "",
+    "text": "Important",
+    "crumbs": [
+      "Weekly materials",
+      "Week 6"
+    ]
+  },
+  {
+    "objectID": "weeks/week-6.html#participate",
+    "href": "weeks/week-6.html#participate",
+    "title": "Week 6",
+    "section": "Participate",
+    "text": "Participate\n🖥️ Slides - ggplot2\nr fontawesome::fa(\"table\") openintro::loans_full_schema",
+    "crumbs": [
+      "Weekly materials",
+      "Week 6"
+    ]
+  },
+  {
+    "objectID": "weeks/week-6.html#reading-and-resources",
+    "href": "weeks/week-6.html#reading-and-resources",
+    "title": "Week 6",
+    "section": "Reading and Resources",
+    "text": "Reading and Resources\n📖 More add-on r emo::ji(\"package\"): ggplot2 extensions\n📖 The R Graph Gallery\n📖 R Graphics Cookbook\n📖 R CHARTS",
+    "crumbs": [
+      "Weekly materials",
+      "Week 6"
+    ]
+  },
+  {
+    "objectID": "weeks/week-6.html#exercise",
+    "href": "weeks/week-6.html#exercise",
+    "title": "Week 6",
+    "section": "Exercise",
+    "text": "Exercise\n📋 Lab-11 ggplot2\nr fontawesome::fa(\"table\") penguins.csv\n\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 6"
+    ]
+  },
+  {
+    "objectID": "project-work.html",
+    "href": "project-work.html",
+    "title": "Project work",
+    "section": "",
+    "text": "GitClub: Ally Olsen, Josh Wilder, Aniya Lentz, Jazmin Muro, Christian Kasiake\n\n[R package] Web Development: Utilizing Quarto to Creat a Website\n\nggplot3: Arik Zintel, Iris Murphy, Yesenia Tavizon, Lauren Barrile\n\n[R package] Leaflet: An Introduction to Geographic Data Visualization\n\nCtrl + Alt + Elite: Mia Kwiatkoski, Sienna Ifill, Mridula Geddam, Bridget Clark\n\n[R package] Do you Believe in Magick?\n\nBig Meta Watchers: Miguel Basurto, Nicholas Paulick, Christopher Purney, Darius Dahl\n\n[Data analysis; Python package] How to Use Data Science in Real-Life\n\nWin Rs: Allan Akkathara, Michael Hankins, Katy Carter, Maddie Flint\n\n[Data analysis] How You Can Sleep Better: A Data Analysis\n\nRed Pandas: Michael Gephart, Rich Lukas, Candice Watson, Fike Carter\n\n[R package] RGL: 3D Visualization of Trails\n\nData Dawgs: Patrick Dunleavy, Alex Kusek, Arianna Smith, Luke Baumer\n\n[Data analysis] Datadawgs Take on College",
+    "crumbs": [
+      "Project",
+      "Project Group and Proposal"
+    ]
+  },
+  {
+    "objectID": "project-work.html#group-projects-proposal",
+    "href": "project-work.html#group-projects-proposal",
+    "title": "Project work",
+    "section": "",
+    "text": "GitClub: Ally Olsen, Josh Wilder, Aniya Lentz, Jazmin Muro, Christian Kasiake\n\n[R package] Web Development: Utilizing Quarto to Creat a Website\n\nggplot3: Arik Zintel, Iris Murphy, Yesenia Tavizon, Lauren Barrile\n\n[R package] Leaflet: An Introduction to Geographic Data Visualization\n\nCtrl + Alt + Elite: Mia Kwiatkoski, Sienna Ifill, Mridula Geddam, Bridget Clark\n\n[R package] Do you Believe in Magick?\n\nBig Meta Watchers: Miguel Basurto, Nicholas Paulick, Christopher Purney, Darius Dahl\n\n[Data analysis; Python package] How to Use Data Science in Real-Life\n\nWin Rs: Allan Akkathara, Michael Hankins, Katy Carter, Maddie Flint\n\n[Data analysis] How You Can Sleep Better: A Data Analysis\n\nRed Pandas: Michael Gephart, Rich Lukas, Candice Watson, Fike Carter\n\n[R package] RGL: 3D Visualization of Trails\n\nData Dawgs: Patrick Dunleavy, Alex Kusek, Arianna Smith, Luke Baumer\n\n[Data analysis] Datadawgs Take on College",
+    "crumbs": [
+      "Project",
+      "Project Group and Proposal"
+    ]
+  },
+  {
+    "objectID": "project-work.html#presentation-order",
+    "href": "project-work.html#presentation-order",
+    "title": "Project work",
+    "section": "Presentation order",
+    "text": "Presentation order\n\nteam &lt;- c(\"GitClub\", \"ggplot3\", \"Ctrl + Alt + Elite\", \n          \"Big Meta Watchers\", \"Win Rs\", \"Red Pandas\", \"Data Dawgs\")\nset.seed(2024)\n(present_order &lt;- sample(team, size = 7, replace = FALSE))\n\n[1] \"ggplot3\"            \"Win Rs\"             \"Red Pandas\"        \n[4] \"Big Meta Watchers\"  \"Ctrl + Alt + Elite\" \"GitClub\"           \n[7] \"Data Dawgs\"        \n\n\n\nEvery individual is welcome to ask questions to any group.\nEach group asks as least one question.\nWin Rs ask questions about ggplot3’s project.\nRed Pandas ask questions about Win Rs’s project.\nBig Meta Watchers ask questions about Red Pandas’s project.\nCtrl + Alt + Elite ask questions about Big Meta Watchers’s project.\nGitClub ask questions about Ctrl + Alt + Elite’s project.\nData Dawgs ask questions about GitClub’s project.\nggplot3 ask questions about Data Dawgs’s project.",
+    "crumbs": [
+      "Project",
+      "Project Group and Proposal"
+    ]
+  },
+  {
+    "objectID": "LICENSE.html#creative-commons-attribution-sharealike-4.0-international-public-license",
+    "href": "LICENSE.html#creative-commons-attribution-sharealike-4.0-international-public-license",
+    "title": "Attribution-ShareAlike 4.0 International",
+    "section": "Creative Commons Attribution-ShareAlike 4.0 International Public License",
+    "text": "Creative Commons Attribution-ShareAlike 4.0 International Public License\nBy exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-ShareAlike 4.0 International Public License (“Public License”). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.\n\nSection 1 – Definitions.\n\nAdapted Material means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.\nAdapter’s License means the license You apply to Your Copyright and Similar Rights in Your contributions to Adapted Material in accordance with the terms and conditions of this Public License.\nBY-SA Compatible License means a license listed at creativecommons.org/compatiblelicenses, approved by Creative Commons as essentially the equivalent of this Public License.\nCopyright and Similar Rights means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(b)(1)-(2) are not Copyright and Similar Rights.\nEffective Technological Measures means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.\nExceptions and Limitations means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.\nLicense Elements means the license attributes listed in the name of a Creative Commons Public License. The License Elements of this Public License are Attribution and ShareAlike.\nLicensed Material means the artistic or literary work, database, or other material to which the Licensor applied this Public License.\nLicensed Rights means the rights granted to You subject to the terms and conditions of this Public License, which are limited to all Copyright and Similar Rights that apply to Your use of the Licensed Material and that the Licensor has authority to license.\nLicensor means the individual(s) or entity(ies) granting rights under this Public License.\nShare means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.\nSui Generis Database Rights means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.\nYou means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.\n\n\n\nSection 2 – Scope.\n\nLicense grant.\n\nSubject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:\nA. reproduce and Share the Licensed Material, in whole or in part; and\nB. produce, reproduce, and Share Adapted Material.\nExceptions and Limitations. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.\nTerm. The term of this Public License is specified in Section 6(a).\nMedia and formats; technical modifications allowed. The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created, and to make technical modifications necessary to do so. The Licensor waives and/or agrees not to assert any right or authority to forbid You from making technical modifications necessary to exercise the Licensed Rights, including technical modifications necessary to circumvent Effective Technological Measures. For purposes of this Public License, simply making modifications authorized by this Section 2(a)(4) never produces Adapted Material.\nDownstream recipients.\nA. Offer from the Licensor – Licensed Material. Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.\nB. Additional offer from the Licensor – Adapted Material. Every recipient of Adapted Material from You automatically receives an offer from the Licensor to exercise the Licensed Rights in the Adapted Material under the conditions of the Adapter’s License You apply.\nC. No downstream restrictions. You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.\nNo endorsement. Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are, or that Your use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution as provided in Section 3(a)(1)(A)(i).\n\nOther rights.\n\nMoral rights, such as the right of integrity, are not licensed under this Public License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.\nPatent and trademark rights are not licensed under this Public License.\nTo the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties.\n\n\n\n\nSection 3 – License Conditions.\nYour exercise of the Licensed Rights is expressly made subject to the following conditions.\n\nAttribution.\n\nIf You Share the Licensed Material (including in modified form), You must:\nA. retain the following if it is supplied by the Licensor with the Licensed Material:\n\nidentification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);\na copyright notice;\na notice that refers to this Public License;\na notice that refers to the disclaimer of warranties;\na URI or hyperlink to the Licensed Material to the extent reasonably practicable;\n\nB. indicate if You modified the Licensed Material and retain an indication of any previous modifications; and\nC. indicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.\nYou may satisfy the conditions in Section 3(a)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.\nIf requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.\n\nShareAlike.\n\nIn addition to the conditions in Section 3(a), if You Share Adapted Material You produce, the following conditions also apply.\n\nThe Adapter’s License You apply must be a Creative Commons license with the same License Elements, this version or later, or a BY-SA Compatible License.\nYou must include the text of, or the URI or hyperlink to, the Adapter’s License You apply. You may satisfy this condition in any reasonable manner based on the medium, means, and context in which You Share Adapted Material.\nYou may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, Adapted Material that restrict exercise of the rights granted under the Adapter’s License You apply.\n\n\n\nSection 4 – Sui Generis Database Rights.\nWhere the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:\n\nfor the avoidance of doubt, Section 2(a)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database;\nif You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material, including for purposes of Section 3(b); and\nYou must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.\n\nFor the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.\n\n\nSection 5 – Disclaimer of Warranties and Limitation of Liability.\n\nUnless otherwise separately undertaken by the Licensor, to the extent possible, the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable. Where disclaimers of warranties are not allowed in full or in part, this disclaimer may not apply to You.\nTo the extent possible, in no event will the Licensor be liable to You on any legal theory (including, without limitation, negligence) or otherwise for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages arising out of this Public License or use of the Licensed Material, even if the Licensor has been advised of the possibility of such losses, costs, expenses, or damages. Where a limitation of liability is not allowed in full or in part, this limitation may not apply to You.\nThe disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.\n\n\n\nSection 6 – Term and Termination.\n\nThis Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.\nWhere Your right to use the Licensed Material has terminated under Section 6(a), it reinstates:\n\nautomatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or\nupon express reinstatement by the Licensor.\n\nFor the avoidance of doubt, this Section 6(b) does not affect any right the Licensor may have to seek remedies for Your violations of this Public License.\nFor the avoidance of doubt, the Licensor may also offer the Licensed Material under separate terms or conditions or stop distributing the Licensed Material at any time; however, doing so will not terminate this Public License.\nSections 1, 5, 6, 7, and 8 survive termination of this Public License.\n\n\n\nSection 7 – Other Terms and Conditions.\n\nThe Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.\nAny arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.\n\n\n\nSection 8 – Interpretation.\n\nFor the avoidance of doubt, this Public License does not, and shall not be interpreted to, reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this Public License.\nTo the extent possible, if any provision of this Public License is deemed unenforceable, it shall be automatically reformed to the minimum extent necessary to make it enforceable. If the provision cannot be reformed, it shall be severed from this Public License without affecting the enforceability of the remaining terms and conditions.\nNo term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.\nNothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.\n\n\nCreative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” The text of the Creative Commons public licenses is dedicated to the public domain under the CC0 Public Domain Dedication. Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.\nCreative Commons may be contacted at creativecommons.org."
+  },
+  {
+    "objectID": "weeks/week-7.html",
+    "href": "weeks/week-7.html",
+    "title": "Week 7",
+    "section": "",
+    "text": "Important",
+    "crumbs": [
+      "Weekly materials",
+      "Week 7"
+    ]
+  },
+  {
+    "objectID": "weeks/week-7.html#participate",
+    "href": "weeks/week-7.html#participate",
+    "title": "Week 7",
+    "section": "Participate",
+    "text": "Participate\n🖥️ Slides -Visualizing Data\n🖥️ Slides - Interactive Visualization\nr fontawesome::fa(\"table\") Data - loans\nr fontawesome::fa(\"table\") Data - Murders",
+    "crumbs": [
+      "Weekly materials",
+      "Week 7"
+    ]
+  },
+  {
+    "objectID": "weeks/week-7.html#reading-and-resources",
+    "href": "weeks/week-7.html#reading-and-resources",
+    "title": "Week 7",
+    "section": "Reading and Resources",
+    "text": "Reading and Resources\n📖 More add-on r emo::ji(\"package\"): ggplot2 extensions\n📖 The R Graph Gallery\n📖 R Graphics Cookbook\n📖 R CHARTS\n📖 R for Data Science - Data Transformation",
+    "crumbs": [
+      "Weekly materials",
+      "Week 7"
+    ]
+  },
+  {
+    "objectID": "weeks/week-7.html#exercise",
+    "href": "weeks/week-7.html#exercise",
+    "title": "Week 7",
+    "section": "Exercise",
+    "text": "Exercise\n📋 Lab-12 Faceting\n📋 Lab-13 Visualization\n📋 Lab-14 Interactive Visualization (Present)\n\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 7"
+    ]
+  },
+  {
+    "objectID": "weeks/week-4.html",
+    "href": "weeks/week-4.html",
+    "title": "Week 4",
+    "section": "",
+    "text": "Important",
+    "crumbs": [
+      "Weekly materials",
+      "Week 4"
+    ]
+  },
+  {
+    "objectID": "weeks/week-4.html#participate",
+    "href": "weeks/week-4.html#participate",
+    "title": "Week 4",
+    "section": "Participate",
+    "text": "Participate\n🖥️ Slides - R/Python Data Frames for Data Science",
+    "crumbs": [
+      "Weekly materials",
+      "Week 4"
+    ]
+  },
+  {
+    "objectID": "weeks/week-4.html#reading-and-resources",
+    "href": "weeks/week-4.html#reading-and-resources",
+    "title": "Week 4",
+    "section": "Reading and Resources",
+    "text": "Reading and Resources\n📖 tibble\n📖 pipes\n📖 NumPy\n📖 pandas",
+    "crumbs": [
+      "Weekly materials",
+      "Week 4"
+    ]
+  },
+  {
+    "objectID": "weeks/week-4.html#perform",
+    "href": "weeks/week-4.html#perform",
+    "title": "Week 4",
+    "section": "Perform",
+    "text": "Perform\n📋 Lab-08 Tibbles and Pipes\n📋 Lab-09 NumPy and pandas\n\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 4"
+    ]
+  },
+  {
+    "objectID": "weeks/week-3.html",
+    "href": "weeks/week-3.html",
+    "title": "Week 3",
+    "section": "",
+    "text": "Important\n\n\n\n\nPresenting Lab 07-Plotting for extra points!",
+    "crumbs": [
+      "Weekly materials",
+      "Week 3"
+    ]
+  },
+  {
+    "objectID": "weeks/week-3.html#participate",
+    "href": "weeks/week-3.html#participate",
+    "title": "Week 3",
+    "section": "Participate",
+    "text": "Participate\n🖥️ Slides - R/Python Syntax",
+    "crumbs": [
+      "Weekly materials",
+      "Week 3"
+    ]
+  },
+  {
+    "objectID": "weeks/week-3.html#reading-and-resources",
+    "href": "weeks/week-3.html#reading-and-resources",
+    "title": "Week 3",
+    "section": "Reading and Resources",
+    "text": "Reading and Resources\n📖 The R Graph Gallery\n📖 matplotlib",
+    "crumbs": [
+      "Weekly materials",
+      "Week 3"
+    ]
+  },
+  {
+    "objectID": "weeks/week-3.html#exercise",
+    "href": "weeks/week-3.html#exercise",
+    "title": "Week 3",
+    "section": "Exercise",
+    "text": "Exercise\n📋 Lab-05 R Data Summary\n📋 Lab-06 Python Data Structure\n📋 Lab-07 Plotting (Present)\n\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 3"
+    ]
+  },
+  {
+    "objectID": "weeks/week-10.html",
+    "href": "weeks/week-10.html",
+    "title": "Week 10",
+    "section": "",
+    "text": "Important",
+    "crumbs": [
+      "Weekly materials",
+      "Week 10"
+    ]
+  },
+  {
+    "objectID": "weeks/week-10.html#participate",
+    "href": "weeks/week-10.html#participate",
+    "title": "Week 10",
+    "section": "Participate",
+    "text": "Participate\n🖥️ Slides - Tidying Data\n🖥️ Slides - Probability and Statistics",
+    "crumbs": [
+      "Weekly materials",
+      "Week 10"
+    ]
+  },
+  {
+    "objectID": "weeks/week-10.html#exercise",
+    "href": "weeks/week-10.html#exercise",
+    "title": "Week 10",
+    "section": "Exercise",
+    "text": "Exercise\n📋 Lab-17 tidyr\nr fontawesome::fa(\"table\") trump.csv\n📋 Lab-18 Probability\n\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 10"
+    ]
+  },
+  {
+    "objectID": "weeks/week-13.html",
+    "href": "weeks/week-13.html",
+    "title": "Week 13",
+    "section": "",
+    "text": "Important",
+    "crumbs": [
+      "Weekly materials",
+      "Week 13"
+    ]
+  },
+  {
+    "objectID": "weeks/week-13.html#participate",
+    "href": "weeks/week-13.html#participate",
+    "title": "Week 13",
+    "section": "Participate",
+    "text": "Participate\n🖥️ Slides - Logistic Regression\nr fontawesome::fa(\"table\") Data - body",
+    "crumbs": [
+      "Weekly materials",
+      "Week 13"
+    ]
+  },
+  {
+    "objectID": "weeks/week-13.html#reading",
+    "href": "weeks/week-13.html#reading",
+    "title": "Week 13",
+    "section": "Reading",
+    "text": "Reading\n📖",
+    "crumbs": [
+      "Weekly materials",
+      "Week 13"
+    ]
+  },
+  {
+    "objectID": "weeks/week-13.html#exercise",
+    "href": "weeks/week-13.html#exercise",
+    "title": "Week 13",
+    "section": "Exercise",
+    "text": "Exercise\n📋 Lab-21 Logistic Regression\n\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 13"
+    ]
+  },
+  {
+    "objectID": "weeks/week-9.html",
+    "href": "weeks/week-9.html",
+    "title": "Week 9",
+    "section": "",
+    "text": "Important\n\n\n\n\n\n\nHappy spring break!\n\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 9"
+    ]
+  },
+  {
+    "objectID": "weeks/week-8.html",
+    "href": "weeks/week-8.html",
+    "title": "Week 8",
+    "section": "",
+    "text": "Important",
+    "crumbs": [
+      "Weekly materials",
+      "Week 8"
+    ]
+  },
+  {
+    "objectID": "weeks/week-8.html#participate",
+    "href": "weeks/week-8.html#participate",
+    "title": "Week 8",
+    "section": "Participate",
+    "text": "Participate\n🖥️ Slides - Data Wrangling (one data frame)\n🖥️ Slides - Data Wrangling - two data frames\n Data - Pop_x and elec_vote_y\n\nlibrary(tidyverse)\nlibrary(dslabs)\npop_x &lt;- murders |&gt; \n    slice(1:6) |&gt;\n    select(state, population)\n\nelec_vote_y &lt;- results_us_election_2016 |&gt; \n    filter(state %in% c(\"Alabama\", \"Alaska\", \"Arizona\", \n                        \"California\", \"Connecticut\", \"Delaware\")) |&gt; \n    select(state, electoral_votes) |&gt; \n    rename(elec_vote = electoral_votes)\n\n Data - Customers",
+    "crumbs": [
+      "Weekly materials",
+      "Week 8"
+    ]
+  },
+  {
+    "objectID": "weeks/week-8.html#reading-and-resources",
+    "href": "weeks/week-8.html#reading-and-resources",
+    "title": "Week 8",
+    "section": "Reading and Resources",
+    "text": "Reading and Resources\n📖 R for Data Science - Joins\n📖 R for Data Science - Data tidying",
+    "crumbs": [
+      "Weekly materials",
+      "Week 8"
+    ]
+  },
+  {
+    "objectID": "weeks/week-8.html#exercise",
+    "href": "weeks/week-8.html#exercise",
+    "title": "Week 8",
+    "section": "Exercise",
+    "text": "Exercise\n📋 Lab-15 dplyr\n Data - Murders\n📋 Lab-16 Joining tables\n https://www.jaredlander.com/data/DiamondColors.csv\n ggplot2::diamonds\n\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 8"
+    ]
+  },
+  {
+    "objectID": "weeks/week-14.html",
+    "href": "weeks/week-14.html",
+    "title": "Week 14",
+    "section": "",
+    "text": "Important",
+    "crumbs": [
+      "Weekly materials",
+      "Week 14"
+    ]
+  },
+  {
+    "objectID": "weeks/week-14.html#participate",
+    "href": "weeks/week-14.html#participate",
+    "title": "Week 14",
+    "section": "Participate",
+    "text": "Participate\n🖥️ Slides - K Nearest Neighbors\nr fontawesome::fa(\"table\") Data - body",
+    "crumbs": [
+      "Weekly materials",
+      "Week 14"
+    ]
+  },
+  {
+    "objectID": "weeks/week-14.html#reading",
+    "href": "weeks/week-14.html#reading",
+    "title": "Week 14",
+    "section": "Reading",
+    "text": "Reading\n📖",
+    "crumbs": [
+      "Weekly materials",
+      "Week 14"
+    ]
+  },
+  {
+    "objectID": "weeks/week-14.html#exercise",
+    "href": "weeks/week-14.html#exercise",
+    "title": "Week 14",
+    "section": "Exercise",
+    "text": "Exercise\n📋 Lab-22 K Nearest Neighbors\n\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 14"
+    ]
+  },
+  {
+    "objectID": "hw/hw2.html",
+    "href": "hw/hw2.html",
+    "title": "Homework 2: Data Visualization and Data Wrangling",
+    "section": "",
+    "text": "Import the data set murders. Use the pipe operator |&gt; and the dplyr functions mutate(), filter(), and select() to get the following data output. Call the data set df.\n\nThe filtering conditions are\n\nregion in “Northeast” or “West”\nrate = total / population * 100000 is less than 1.\n\nThe new variable rank is based on rate. The highest rate is ranked 1st. [Hint:] Use the function rank().\n\n## code\n\n# # A tibble: 8 × 4\n#    rate  rank state         total\n#   &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;         &lt;dbl&gt;\n# 1 0.515    49 Hawaii            7\n# 2 0.766    46 Idaho            12\n# 3 0.828    44 Maine            11\n# 4 0.380    50 New Hampshire     5\n# 5 0.940    42 Oregon           36\n# 6 0.796    45 Utah             22\n# 7 0.320    51 Vermont           2\n# 8 0.887    43 Wyoming           5\n\n\nChange the type of column rank to factor, and total to integer. (You can use the built-in as.factor() and as.integer() or the convert() function in the hablar package.\n\n\n## code\n\n\nCreate a list named df_lst of two elements. The first element is a subset of df whose rows have total less than 10, and the second element is a subset of df so that each of its row has total higher than 10. Print it out.\n\n\n## code\n\n\n# [[1]]\n# # A tibble: 4 × 4\n#    rate rank  state         total\n#   &lt;dbl&gt; &lt;fct&gt; &lt;chr&gt;         &lt;dbl&gt;\n# 1 0.515 49    Hawaii            7\n# 2 0.380 50    New Hampshire     5\n# 3 0.320 51    Vermont           2\n# 4 0.887 43    Wyoming           5\n# \n# [[2]]\n# # A tibble: 4 × 4\n#    rate rank  state  total\n#   &lt;dbl&gt; &lt;fct&gt; &lt;chr&gt;  &lt;dbl&gt;\n# 1 0.766 46    Idaho     12\n# 2 0.828 44    Maine     11\n# 3 0.940 42    Oregon    36\n# 4 0.796 45    Utah      22\n\n\nCombine the two data sets in df_lst using rbind().\n\n\n## code\n\n\nThe dplyr provides dplyr::bind_rows() and dplyr::bind_cols() that are analogs to rbind() and cbind() in the R base. Combine the two data sets in df_lst using bind_rows(). The result should be exactly the same as the previous one.\n\n\n## code\n\n\nCombine the two data frames data1 and data2 below using bind_rows() and rbind(). Describe what happened and their difference. (Note that the two data sets have different column names)\n\n\ndata1 &lt;- tibble(x = letters[1:5])\ndata2 &lt;- tibble(y = 1:3)\n\n\n## code (Error may happen. set eval: false if you'd like to render the document.)\n\n\nWith df, select state and total, and arrange df by total in an increasing order.\n\n\n## code\n\n\nWith df, use contains() to select column variables whose name contains the string “at”.\n\n\n## code\n\n\nBack to murders. Extract the rows whose has the largest population in its region as the shown output. The population is ranked in a decreasing order.\n\n\n## code\n\n# # A tibble: 4 × 5\n#   state      abb   region        population total\n#   &lt;chr&gt;      &lt;chr&gt; &lt;chr&gt;              &lt;dbl&gt; &lt;dbl&gt;\n# 1 California CA    West            37253956  1257\n# 2 Texas      TX    South           25145561   805\n# 3 New York   NY    Northeast       19378102   517\n# 4 Illinois   IL    North Central   12830632   364\n\n\n\n\n\nInstall and load the Lahman library. This database includes data related to baseball teams. It includes summary statistics about how the players performed on offense and defense for several years. It also includes personal information about the players. The Batting data frame contains the offensive statistics for all players for many years:\n\n\n\nRows: 112,184\nColumns: 22\n$ playerID &lt;chr&gt; \"abercda01\", \"addybo01\", \"allisar01\", \"allisdo01\", \"ansonca01…\n$ yearID   &lt;int&gt; 1871, 1871, 1871, 1871, 1871, 1871, 1871, 1871, 1871, 1871, 1…\n$ stint    &lt;int&gt; 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1…\n$ teamID   &lt;fct&gt; TRO, RC1, CL1, WS3, RC1, FW1, RC1, BS1, FW1, BS1, CL1, CL1, W…\n$ lgID     &lt;fct&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ G        &lt;int&gt; 1, 25, 29, 27, 25, 12, 1, 31, 1, 18, 22, 1, 10, 3, 20, 29, 1,…\n$ AB       &lt;int&gt; 4, 118, 137, 133, 120, 49, 4, 157, 5, 86, 89, 3, 36, 15, 94, …\n$ R        &lt;int&gt; 0, 30, 28, 28, 29, 9, 0, 66, 1, 13, 18, 0, 6, 7, 24, 26, 0, 0…\n$ H        &lt;int&gt; 0, 32, 40, 44, 39, 11, 1, 63, 1, 13, 27, 0, 7, 6, 33, 32, 0, …\n$ X2B      &lt;int&gt; 0, 6, 4, 10, 11, 2, 0, 10, 1, 2, 1, 0, 0, 0, 9, 3, 0, 0, 1, 0…\n$ X3B      &lt;int&gt; 0, 0, 5, 2, 3, 1, 0, 9, 0, 1, 10, 0, 0, 0, 1, 3, 0, 0, 1, 0, …\n$ HR       &lt;int&gt; 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0…\n$ RBI      &lt;int&gt; 0, 13, 19, 27, 16, 5, 2, 34, 1, 11, 18, 0, 1, 5, 21, 23, 0, 0…\n$ SB       &lt;int&gt; 0, 8, 3, 1, 6, 0, 0, 11, 0, 1, 0, 0, 2, 2, 4, 4, 0, 0, 3, 0, …\n$ CS       &lt;int&gt; 0, 1, 1, 1, 2, 1, 0, 6, 0, 0, 1, 0, 0, 0, 0, 4, 0, 0, 1, 0, 0…\n$ BB       &lt;int&gt; 0, 4, 2, 0, 2, 0, 1, 13, 0, 0, 3, 1, 2, 0, 2, 9, 0, 0, 4, 1, …\n$ SO       &lt;int&gt; 0, 0, 5, 2, 1, 1, 0, 1, 0, 0, 4, 0, 0, 0, 2, 2, 3, 0, 2, 0, 2…\n$ IBB      &lt;int&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ HBP      &lt;int&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ SH       &lt;int&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ SF       &lt;int&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ GIDP     &lt;int&gt; 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 1, 2, 0, 0, 0, 0, 3…\n\n\nUse Batting data to obtain the top 10 player observations that hit the most home runs (in descending order) in 2022. Call the data set top10, make it as a tibble and print it out.\n\n## code\n\n\nBut who are these players? In the top10 data, we see an ID, but not the names. The player names are in the People data set:\n\n\n\nRows: 20,676\nColumns: 26\n$ playerID     &lt;chr&gt; \"aardsda01\", \"aaronha01\", \"aaronto01\", \"aasedo01\", \"abada…\n$ birthYear    &lt;int&gt; 1981, 1934, 1939, 1954, 1972, 1985, 1850, 1877, 1869, 186…\n$ birthMonth   &lt;int&gt; 12, 2, 8, 9, 8, 12, 11, 4, 11, 10, 9, 3, 10, 2, 8, 9, 6, …\n$ birthDay     &lt;int&gt; 27, 5, 5, 8, 25, 17, 4, 15, 11, 14, 20, 16, 22, 16, 17, 1…\n$ birthCountry &lt;chr&gt; \"USA\", \"USA\", \"USA\", \"USA\", \"USA\", \"D.R.\", \"USA\", \"USA\", …\n$ birthState   &lt;chr&gt; \"CO\", \"AL\", \"AL\", \"CA\", \"FL\", \"La Romana\", \"PA\", \"PA\", \"V…\n$ birthCity    &lt;chr&gt; \"Denver\", \"Mobile\", \"Mobile\", \"Orange\", \"Palm Beach\", \"La…\n$ deathYear    &lt;int&gt; NA, 2021, 1984, NA, NA, NA, 1905, 1957, 1962, 1926, NA, 1…\n$ deathMonth   &lt;int&gt; NA, 1, 8, NA, NA, NA, 5, 1, 6, 4, NA, 2, 6, NA, NA, NA, N…\n$ deathDay     &lt;int&gt; NA, 22, 16, NA, NA, NA, 17, 6, 11, 27, NA, 13, 11, NA, NA…\n$ deathCountry &lt;chr&gt; NA, \"USA\", \"USA\", NA, NA, NA, \"USA\", \"USA\", \"USA\", \"USA\",…\n$ deathState   &lt;chr&gt; NA, \"GA\", \"GA\", NA, NA, NA, \"NJ\", \"FL\", \"VT\", \"CA\", NA, \"…\n$ deathCity    &lt;chr&gt; NA, \"Atlanta\", \"Atlanta\", NA, NA, NA, \"Pemberton\", \"Fort …\n$ nameFirst    &lt;chr&gt; \"David\", \"Hank\", \"Tommie\", \"Don\", \"Andy\", \"Fernando\", \"Jo…\n$ nameLast     &lt;chr&gt; \"Aardsma\", \"Aaron\", \"Aaron\", \"Aase\", \"Abad\", \"Abad\", \"Aba…\n$ nameGiven    &lt;chr&gt; \"David Allan\", \"Henry Louis\", \"Tommie Lee\", \"Donald Willi…\n$ weight       &lt;int&gt; 215, 180, 190, 190, 184, 235, 192, 170, 175, 169, 220, 19…\n$ height       &lt;int&gt; 75, 72, 75, 75, 73, 74, 72, 71, 71, 68, 74, 71, 70, 78, 7…\n$ bats         &lt;fct&gt; R, R, R, R, L, L, R, R, R, L, R, R, R, R, R, L, R, L, L, …\n$ throws       &lt;fct&gt; R, R, R, R, L, L, R, R, R, L, R, R, R, R, L, L, R, L, R, …\n$ debut        &lt;chr&gt; \"2004-04-06\", \"1954-04-13\", \"1962-04-10\", \"1977-07-26\", \"…\n$ finalGame    &lt;chr&gt; \"2015-08-23\", \"1976-10-03\", \"1971-09-26\", \"1990-10-03\", \"…\n$ retroID      &lt;chr&gt; \"aardd001\", \"aaroh101\", \"aarot101\", \"aased001\", \"abada001…\n$ bbrefID      &lt;chr&gt; \"aardsda01\", \"aaronha01\", \"aaronto01\", \"aasedo01\", \"abada…\n$ deathDate    &lt;date&gt; NA, 2021-01-22, 1984-08-16, NA, NA, NA, 1905-05-17, 1957…\n$ birthDate    &lt;date&gt; 1981-12-27, 1934-02-05, 1939-08-05, 1954-09-08, 1972-08-…\n\n\nWe can see column names nameFirst and nameLast. Use the left_join() function to create a table of the top home run hitters. The data table should have variables playerID, nameFirst, nameLast, and HR. Overwrite the object top10 with this new table, and print it out.\n\n## code\n\n\nUse the Fielding data frame to add each player’s position to the table you created in (2). Make sure that you filter for the year 2022 first, then use right_join(). This time show nameFirst, nameLast, teamID, HR, and POS.\n\n\n## code\n\n\n\n\n\nThe R built-in co2 data set is not tidy. Let’s make it tidy. Run the following code to define the co2_wide object:\n\n\nco2_wide &lt;- data.frame(matrix(co2, ncol = 12, byrow = TRUE)) |&gt; \n    setNames(1:12) |&gt; \n    mutate(year = as.character(1959:1997))\n\nUse the pivot_longer() function to make it tidy. Call the column with the CO2 measurements co2 and call the month column month. Call the resulting object co2_tidy. Print it out.\n\n## code\n\n\n## # A tibble: 468 x 3\n##    year  month   co2\n##    &lt;chr&gt; &lt;chr&gt; &lt;dbl&gt;\n##  1 1959  1      315.\n##  2 1959  2      316.\n##  3 1959  3      316.\n##  4 1959  4      318.\n##  5 1959  5      318.\n##  6 1959  6      318 \n##  7 1959  7      316.\n##  8 1959  8      315.\n##  9 1959  9      314.\n## 10 1959  10     313.\n## # … with 458 more rows\n\n\n\n\n\n\nimport numpy as np\nimport pandas as pd\n\n\nUse Python to do Section 1.1 question 1.\n\n\n\n## code\n\n\nUse Python to do Section 1.1 question 7.\n\n\n\n## code\n\n\nUse Python to do Section 1.1 question 9. [Hint:] The method pandas.DataFrame.drop_duplicates() is analogous to dplyr::distinct(). Please figure out what we should use in the argument subset and keep.\n\n\n## code\n\n\nUse Python to do Section 1.2 question 1. (Import the data Batting.csv).\n\n\n## code\n\n\nUse Python to do Section 1.2 question 2. (Import the data People.csv).\n\n\n## code"
+  },
+  {
+    "objectID": "hw/hw2.html#sec-murders",
+    "href": "hw/hw2.html#sec-murders",
+    "title": "Homework 2: Data Visualization and Data Wrangling",
+    "section": "",
+    "text": "Import the data set murders. Use the pipe operator |&gt; and the dplyr functions mutate(), filter(), and select() to get the following data output. Call the data set df.\n\nThe filtering conditions are\n\nregion in “Northeast” or “West”\nrate = total / population * 100000 is less than 1.\n\nThe new variable rank is based on rate. The highest rate is ranked 1st. [Hint:] Use the function rank().\n\n## code\n\n# # A tibble: 8 × 4\n#    rate  rank state         total\n#   &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;         &lt;dbl&gt;\n# 1 0.515    49 Hawaii            7\n# 2 0.766    46 Idaho            12\n# 3 0.828    44 Maine            11\n# 4 0.380    50 New Hampshire     5\n# 5 0.940    42 Oregon           36\n# 6 0.796    45 Utah             22\n# 7 0.320    51 Vermont           2\n# 8 0.887    43 Wyoming           5\n\n\nChange the type of column rank to factor, and total to integer. (You can use the built-in as.factor() and as.integer() or the convert() function in the hablar package.\n\n\n## code\n\n\nCreate a list named df_lst of two elements. The first element is a subset of df whose rows have total less than 10, and the second element is a subset of df so that each of its row has total higher than 10. Print it out.\n\n\n## code\n\n\n# [[1]]\n# # A tibble: 4 × 4\n#    rate rank  state         total\n#   &lt;dbl&gt; &lt;fct&gt; &lt;chr&gt;         &lt;dbl&gt;\n# 1 0.515 49    Hawaii            7\n# 2 0.380 50    New Hampshire     5\n# 3 0.320 51    Vermont           2\n# 4 0.887 43    Wyoming           5\n# \n# [[2]]\n# # A tibble: 4 × 4\n#    rate rank  state  total\n#   &lt;dbl&gt; &lt;fct&gt; &lt;chr&gt;  &lt;dbl&gt;\n# 1 0.766 46    Idaho     12\n# 2 0.828 44    Maine     11\n# 3 0.940 42    Oregon    36\n# 4 0.796 45    Utah      22\n\n\nCombine the two data sets in df_lst using rbind().\n\n\n## code\n\n\nThe dplyr provides dplyr::bind_rows() and dplyr::bind_cols() that are analogs to rbind() and cbind() in the R base. Combine the two data sets in df_lst using bind_rows(). The result should be exactly the same as the previous one.\n\n\n## code\n\n\nCombine the two data frames data1 and data2 below using bind_rows() and rbind(). Describe what happened and their difference. (Note that the two data sets have different column names)\n\n\ndata1 &lt;- tibble(x = letters[1:5])\ndata2 &lt;- tibble(y = 1:3)\n\n\n## code (Error may happen. set eval: false if you'd like to render the document.)\n\n\nWith df, select state and total, and arrange df by total in an increasing order.\n\n\n## code\n\n\nWith df, use contains() to select column variables whose name contains the string “at”.\n\n\n## code\n\n\nBack to murders. Extract the rows whose has the largest population in its region as the shown output. The population is ranked in a decreasing order.\n\n\n## code\n\n# # A tibble: 4 × 5\n#   state      abb   region        population total\n#   &lt;chr&gt;      &lt;chr&gt; &lt;chr&gt;              &lt;dbl&gt; &lt;dbl&gt;\n# 1 California CA    West            37253956  1257\n# 2 Texas      TX    South           25145561   805\n# 3 New York   NY    Northeast       19378102   517\n# 4 Illinois   IL    North Central   12830632   364"
+  },
+  {
+    "objectID": "hw/hw2.html#sec-baseball",
+    "href": "hw/hw2.html#sec-baseball",
+    "title": "Homework 2: Data Visualization and Data Wrangling",
+    "section": "",
+    "text": "Install and load the Lahman library. This database includes data related to baseball teams. It includes summary statistics about how the players performed on offense and defense for several years. It also includes personal information about the players. The Batting data frame contains the offensive statistics for all players for many years:\n\n\n\nRows: 112,184\nColumns: 22\n$ playerID &lt;chr&gt; \"abercda01\", \"addybo01\", \"allisar01\", \"allisdo01\", \"ansonca01…\n$ yearID   &lt;int&gt; 1871, 1871, 1871, 1871, 1871, 1871, 1871, 1871, 1871, 1871, 1…\n$ stint    &lt;int&gt; 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1…\n$ teamID   &lt;fct&gt; TRO, RC1, CL1, WS3, RC1, FW1, RC1, BS1, FW1, BS1, CL1, CL1, W…\n$ lgID     &lt;fct&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ G        &lt;int&gt; 1, 25, 29, 27, 25, 12, 1, 31, 1, 18, 22, 1, 10, 3, 20, 29, 1,…\n$ AB       &lt;int&gt; 4, 118, 137, 133, 120, 49, 4, 157, 5, 86, 89, 3, 36, 15, 94, …\n$ R        &lt;int&gt; 0, 30, 28, 28, 29, 9, 0, 66, 1, 13, 18, 0, 6, 7, 24, 26, 0, 0…\n$ H        &lt;int&gt; 0, 32, 40, 44, 39, 11, 1, 63, 1, 13, 27, 0, 7, 6, 33, 32, 0, …\n$ X2B      &lt;int&gt; 0, 6, 4, 10, 11, 2, 0, 10, 1, 2, 1, 0, 0, 0, 9, 3, 0, 0, 1, 0…\n$ X3B      &lt;int&gt; 0, 0, 5, 2, 3, 1, 0, 9, 0, 1, 10, 0, 0, 0, 1, 3, 0, 0, 1, 0, …\n$ HR       &lt;int&gt; 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0…\n$ RBI      &lt;int&gt; 0, 13, 19, 27, 16, 5, 2, 34, 1, 11, 18, 0, 1, 5, 21, 23, 0, 0…\n$ SB       &lt;int&gt; 0, 8, 3, 1, 6, 0, 0, 11, 0, 1, 0, 0, 2, 2, 4, 4, 0, 0, 3, 0, …\n$ CS       &lt;int&gt; 0, 1, 1, 1, 2, 1, 0, 6, 0, 0, 1, 0, 0, 0, 0, 4, 0, 0, 1, 0, 0…\n$ BB       &lt;int&gt; 0, 4, 2, 0, 2, 0, 1, 13, 0, 0, 3, 1, 2, 0, 2, 9, 0, 0, 4, 1, …\n$ SO       &lt;int&gt; 0, 0, 5, 2, 1, 1, 0, 1, 0, 0, 4, 0, 0, 0, 2, 2, 3, 0, 2, 0, 2…\n$ IBB      &lt;int&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ HBP      &lt;int&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ SH       &lt;int&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ SF       &lt;int&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ GIDP     &lt;int&gt; 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 1, 2, 0, 0, 0, 0, 3…\n\n\nUse Batting data to obtain the top 10 player observations that hit the most home runs (in descending order) in 2022. Call the data set top10, make it as a tibble and print it out.\n\n## code\n\n\nBut who are these players? In the top10 data, we see an ID, but not the names. The player names are in the People data set:\n\n\n\nRows: 20,676\nColumns: 26\n$ playerID     &lt;chr&gt; \"aardsda01\", \"aaronha01\", \"aaronto01\", \"aasedo01\", \"abada…\n$ birthYear    &lt;int&gt; 1981, 1934, 1939, 1954, 1972, 1985, 1850, 1877, 1869, 186…\n$ birthMonth   &lt;int&gt; 12, 2, 8, 9, 8, 12, 11, 4, 11, 10, 9, 3, 10, 2, 8, 9, 6, …\n$ birthDay     &lt;int&gt; 27, 5, 5, 8, 25, 17, 4, 15, 11, 14, 20, 16, 22, 16, 17, 1…\n$ birthCountry &lt;chr&gt; \"USA\", \"USA\", \"USA\", \"USA\", \"USA\", \"D.R.\", \"USA\", \"USA\", …\n$ birthState   &lt;chr&gt; \"CO\", \"AL\", \"AL\", \"CA\", \"FL\", \"La Romana\", \"PA\", \"PA\", \"V…\n$ birthCity    &lt;chr&gt; \"Denver\", \"Mobile\", \"Mobile\", \"Orange\", \"Palm Beach\", \"La…\n$ deathYear    &lt;int&gt; NA, 2021, 1984, NA, NA, NA, 1905, 1957, 1962, 1926, NA, 1…\n$ deathMonth   &lt;int&gt; NA, 1, 8, NA, NA, NA, 5, 1, 6, 4, NA, 2, 6, NA, NA, NA, N…\n$ deathDay     &lt;int&gt; NA, 22, 16, NA, NA, NA, 17, 6, 11, 27, NA, 13, 11, NA, NA…\n$ deathCountry &lt;chr&gt; NA, \"USA\", \"USA\", NA, NA, NA, \"USA\", \"USA\", \"USA\", \"USA\",…\n$ deathState   &lt;chr&gt; NA, \"GA\", \"GA\", NA, NA, NA, \"NJ\", \"FL\", \"VT\", \"CA\", NA, \"…\n$ deathCity    &lt;chr&gt; NA, \"Atlanta\", \"Atlanta\", NA, NA, NA, \"Pemberton\", \"Fort …\n$ nameFirst    &lt;chr&gt; \"David\", \"Hank\", \"Tommie\", \"Don\", \"Andy\", \"Fernando\", \"Jo…\n$ nameLast     &lt;chr&gt; \"Aardsma\", \"Aaron\", \"Aaron\", \"Aase\", \"Abad\", \"Abad\", \"Aba…\n$ nameGiven    &lt;chr&gt; \"David Allan\", \"Henry Louis\", \"Tommie Lee\", \"Donald Willi…\n$ weight       &lt;int&gt; 215, 180, 190, 190, 184, 235, 192, 170, 175, 169, 220, 19…\n$ height       &lt;int&gt; 75, 72, 75, 75, 73, 74, 72, 71, 71, 68, 74, 71, 70, 78, 7…\n$ bats         &lt;fct&gt; R, R, R, R, L, L, R, R, R, L, R, R, R, R, R, L, R, L, L, …\n$ throws       &lt;fct&gt; R, R, R, R, L, L, R, R, R, L, R, R, R, R, L, L, R, L, R, …\n$ debut        &lt;chr&gt; \"2004-04-06\", \"1954-04-13\", \"1962-04-10\", \"1977-07-26\", \"…\n$ finalGame    &lt;chr&gt; \"2015-08-23\", \"1976-10-03\", \"1971-09-26\", \"1990-10-03\", \"…\n$ retroID      &lt;chr&gt; \"aardd001\", \"aaroh101\", \"aarot101\", \"aased001\", \"abada001…\n$ bbrefID      &lt;chr&gt; \"aardsda01\", \"aaronha01\", \"aaronto01\", \"aasedo01\", \"abada…\n$ deathDate    &lt;date&gt; NA, 2021-01-22, 1984-08-16, NA, NA, NA, 1905-05-17, 1957…\n$ birthDate    &lt;date&gt; 1981-12-27, 1934-02-05, 1939-08-05, 1954-09-08, 1972-08-…\n\n\nWe can see column names nameFirst and nameLast. Use the left_join() function to create a table of the top home run hitters. The data table should have variables playerID, nameFirst, nameLast, and HR. Overwrite the object top10 with this new table, and print it out.\n\n## code\n\n\nUse the Fielding data frame to add each player’s position to the table you created in (2). Make sure that you filter for the year 2022 first, then use right_join(). This time show nameFirst, nameLast, teamID, HR, and POS.\n\n\n## code"
+  },
+  {
+    "objectID": "hw/hw2.html#pivoting",
+    "href": "hw/hw2.html#pivoting",
+    "title": "Homework 2: Data Visualization and Data Wrangling",
+    "section": "",
+    "text": "The R built-in co2 data set is not tidy. Let’s make it tidy. Run the following code to define the co2_wide object:\n\n\nco2_wide &lt;- data.frame(matrix(co2, ncol = 12, byrow = TRUE)) |&gt; \n    setNames(1:12) |&gt; \n    mutate(year = as.character(1959:1997))\n\nUse the pivot_longer() function to make it tidy. Call the column with the CO2 measurements co2 and call the month column month. Call the resulting object co2_tidy. Print it out.\n\n## code\n\n\n## # A tibble: 468 x 3\n##    year  month   co2\n##    &lt;chr&gt; &lt;chr&gt; &lt;dbl&gt;\n##  1 1959  1      315.\n##  2 1959  2      316.\n##  3 1959  3      316.\n##  4 1959  4      318.\n##  5 1959  5      318.\n##  6 1959  6      318 \n##  7 1959  7      316.\n##  8 1959  8      315.\n##  9 1959  9      314.\n## 10 1959  10     313.\n## # … with 458 more rows"
+  },
+  {
+    "objectID": "hw/hw2.html#data-manipulation-in-python",
+    "href": "hw/hw2.html#data-manipulation-in-python",
+    "title": "Homework 2: Data Visualization and Data Wrangling",
+    "section": "",
+    "text": "import numpy as np\nimport pandas as pd\n\n\nUse Python to do Section 1.1 question 1.\n\n\n\n## code\n\n\nUse Python to do Section 1.1 question 7.\n\n\n\n## code\n\n\nUse Python to do Section 1.1 question 9. [Hint:] The method pandas.DataFrame.drop_duplicates() is analogous to dplyr::distinct(). Please figure out what we should use in the argument subset and keep.\n\n\n## code\n\n\nUse Python to do Section 1.2 question 1. (Import the data Batting.csv).\n\n\n## code\n\n\nUse Python to do Section 1.2 question 2. (Import the data People.csv).\n\n\n## code"
+  },
+  {
+    "objectID": "hw/hw2.html#murders",
+    "href": "hw/hw2.html#murders",
+    "title": "Homework 2: Data Visualization and Data Wrangling",
+    "section": "2.1 murders",
+    "text": "2.1 murders\nUse murders to make plots.\n\nCreate a scatter plot of total murders (x-axis) versus population sizes (y-axis) using the pipe operator |&gt; that the murders data set is on the left to |&gt;.\n\n\n## code\n\n\nGenerate the plot below using label and color aesthetics in aes() and a geometry layer geom_label(). Save the ggplot object as p. Here, we add abbreviation as the label, and make the labels’ color be determined by the state’s region.\n\n\n## code\n\n\n\n\n\n\n\n\n\n\n\nUse the object p in (2) and\n\n\nChange both axes to be in the \\(\\log_{10}\\) scale using scale_x_log10() and scale_y_log10()\nAdd a title “Gun murder data”\nUse the wall street journal theme in ggthemes.\n\n\n## code"
+  },
+  {
+    "objectID": "hw/hw2.html#mpg",
+    "href": "hw/hw2.html#mpg",
+    "title": "Homework 2: Data Visualization and Data Wrangling",
+    "section": "2.2 mpg",
+    "text": "2.2 mpg\nUse mpg to make plots.\n\nWhat’s gone wrong with this code? Why are the points not blue? Change it so that the points are colored in blue.\n\n\nmpg |&gt; ggplot(mapping = aes(x = displ, y = hwy, colour = \"blue\")) +\n    geom_point()\n\n\n\n\n\n\n\n\n\nGenerate the bar chart below.\n\n\n## code\n\n\n\n\n\n\n\n\n\n\n\nComplete the code to generate the boxplot below. Note that x = class and y = hwy, so the coordinates need to be flipped.\n\n\n## code\n\n\n\n\n\n\n\n\n\n\n\nGenerate the histogram below with density scale. Map y to the internal variable ..density.. (after_stat(density)) to show density values. Put the legend inside the plot at c(0.9, 0.15). (check ?theme help page)\n\n\n## code\n\n\n\n\n\n\n\n\n\n\n\nGenerate the scatter plot below.\n\n\n## code"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MATH/COSC 3570 - Introduction to Data Science",
+    "section": "",
+    "text": "This page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses, with all changes documented here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTo Do\nSlides\nLab Exercise\nHomework\nLab Presentation\nProject\n\n\n\n\n1\nTue, Jan 16\nGreetings + Overview of Data Science\n📖\n🖥️ 🖥️\n\n\n\n\n\n\n\nThu, Jan 18\nPosit Cloud and Git/GitHub Introduction\n\n🖥️\n📋📋\n\n\n\n\n\n2\nTue, Jan 23\nConnecting Posit Cloud with GitHub\n📖\n🖥️\n📋\n\n\n\n\n\n\nThu, Jan 25\nQuarto\n\n🖥️\n📋📋📋\n\n\n\n\n\n3\nTue, Jan 30\nQuarto\n\n\n\n\n\n\n\n\n\nThu, Feb 1\nR/Python Programming\n📖\n🖥️\n\n\n\n\n\n\n4\nTue, Feb 6\nPython Programming\n\n\n📋📋\n\n\n\n\n\n\nThu, Feb 8\nR Tidyverse\n📖\n🖥️\n\n✍️\n\n\n\n\n5\nTue, Feb 13\nPython Pandas/NumPy\n\n\n📋📋\n\n✅\n\n\n\n\nThu, Feb 15\nData Importing\n📖\n🖥️\n📋\n\n\n\n\n\n6\nTue, Feb 20\nData Importing\n\n\n\n\n\n\n\n\n\nThu, Feb 22\nData Visualization-ggplot2\n📖\n🖥️\n📋\n\n\n\n\n\n7\nTue, Feb 27\nData Visualization-categorical and numerical data\n📖\n🖥️\n📋📋\n\n\n\n\n\n\nThu, Feb 29\nInteractive Data Visualization\n\n🖥️\n\n\n\n\n\n\n8\nTue, Mar 5\nData Wrangling - one data frame\n📖\n🖥️\n📋\n\n✅\n\n\n\n\nThu, Mar 7\nData Wrangling - two data frames\n\n🖥️\n📋\n\n\n\n\n\n9\nTue, Mar 12\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\n\nThu, Mar 14\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\n10\nTue, Mar 19\nData Wrangling - tidyr\n📖\n🖥️\n📋\n✍️\n\n\n\n\n\nThu, Mar 21\nProbabilistic and Statistical Simulation\n\n🖥️\n📋\n\n\n\n\n\n11\nTue, Mar 26\nProbabilistic and Statistical Simulation\n\n\n📋\n\n\n\n\n\n\nThu, Mar 28\nNO CLASS: Easter break\n\n\n\n\n\nTeam Up 📂\n\n\n12\nTue, Apr 2\nLinear Regression\n📖\n🖥️\n\n\n\n\n\n\n\nThu, Apr 4\nLinear Regression\n\n\n📋\n\n\n\n\n\n13\nTue, Apr 9\nLogistic Regression\n📖\n🖥️\n\n\n\n\n\n\n\nThu, Apr 11\nLogistic Regression\n\n\n📋\n✍️\n\n\n\n\n14\nTue, Apr 16\nK-Nearest Neighbors\n📖\n🖥️\n\n\n\n\n\n\n\nThu, Apr 18\nK-Nearest Neighbors\n\n\n📋\n\n\n\n\n\n15\nTue, Apr 23\nPrincipal Component Analysis\n📖\n🖥️\n\n\n\n\n\n\n\nThu, Apr 25\nPrincipal Component Analysis\n\n\n📋\n\n\nProposal 📂\n\n\n16\nTue, Apr 30\nK-Means Clustering\n📖\n🖥️\n\n\n\n\n\n\n\nThu, May 2\nSummary\n\n🖥️\n📋\n\n\n\n\n\n\n\nI reserve the right to make changes to the schedule.",
+    "crumbs": [
+      "Course information",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "exercise/lab11-ggplot2.html",
+    "href": "exercise/lab11-ggplot2.html",
+    "title": "Lab 11: ggplot2",
+    "section": "",
+    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 11 section,\n\nUse readr::read_csv() to import the data penguins.csv into your R workspace.\nGenerate the following ggplot:\n\n\n\n\n\n\n\n\n\n\n\npenguins &lt;- read_csv(_________________)\n________ |&gt; \n  ggplot(mapping = ____(x = ______________,\n                        y = ______________,\n                        colour = ________)) +\n  geom______() +\n  ____(title = ____________________,\n       _________ = \"Dimensions for Adelie, Chinstrap, and Gentoo Penguins\",\n       x = _____________, y = _______________,\n       _______ = \"Species\",\n       _______ = \"Source: Palmer Station LTER / palmerpenguins package\")"
+  },
+  {
+    "objectID": "exercise/lab18-prob.html",
+    "href": "exercise/lab18-prob.html",
+    "title": "Lab 18: Probability",
+    "section": "",
+    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 18 section,\n\nPlot the probability function \\(P(X = x)\\) of \\(X \\sim \\text{binomial}(n = 5, \\pi = 0.3)\\).\n\nTo use ggplot,\n\nCreate a data frame saving all possible values of \\(x\\) and their corresponding probability using dbinom(x, size = ___, prob = ___).\n\n\n\n# A tibble: 6 × 2\n      x       y\n  &lt;int&gt;   &lt;dbl&gt;\n1     0 0.168  \n2     1 0.360  \n3     2 0.309  \n4     3 0.132  \n5     4 0.0284 \n6     5 0.00243\n\n\n\nAdd geom_col()\n\n\n\n\n\n\n\n\n\n\n:::"
+  },
+  {
+    "objectID": "exercise/lab05-rtype.html",
+    "href": "exercise/lab05-rtype.html",
+    "title": "Lab 05: R Data Type Summary",
+    "section": "",
+    "text": "Note\n\n\n\n\n\n\nIn lab.qmd Lab 5,\n\nCreate R objects vector v1, factor f2, list l3, matrix m4 and data frame d5.\nCheck typeof() and class() of those objects, and create a list having the output below.\n\n\nv1 &lt;- __________\nf2 &lt;- __________\nl3 &lt;- __________\nm4 &lt;- __________\nd5 &lt;- __________\nv &lt;- c(type = typeof(v1), class = class(v1))\nf &lt;- c(type = __________, class = _________)\nl &lt;- c(type = __________, class = _________)\nm &lt;- c(type = __________, class = _________)\nd &lt;- c(type = __________, class = _________)\n____(vec    =   v,\n     ______ = ___,\n     ______ = ___,\n     ______ = ___,\n     ______ = ___)\n\n\n\n$vec\n     type     class \n \"double\" \"numeric\" \n\n$fac\n     type     class \n\"integer\"  \"factor\" \n\n$lst\n  type  class \n\"list\" \"list\" \n\n$mat\n     type    class1    class2 \n\"integer\"  \"matrix\"   \"array\" \n\n$df\n        type        class \n      \"list\" \"data.frame\""
+  },
+  {
+    "objectID": "exercise/lab22-knn.html",
+    "href": "exercise/lab22-knn.html",
+    "title": "Lab 22: K Nearest Neighbors",
+    "section": "",
+    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 22 section,\n\n\nuse HEIGHT and WAIST to predict GENDER using KNN with \\(K = 3\\).\nGenerate the (test) confusion matrix.\nCalculate (test) accuracy rate.\nDoes using more predictors predict better?\n\n\nR Code\n\nlibrary(tidymodels)\n\n## load data\nbodydata &lt;- read_csv(\"./data/body.csv\")\nbody &lt;- bodydata |&gt; \n    select(GENDER, HEIGHT, WAIST, BMI) |&gt; \n    mutate(GENDER = as.factor(GENDER))\n\n## training and test data\nset.seed(2024)\ndf_split &lt;- initial_split(data = body, prop = 0.8)\ndf_trn &lt;- training(df_split)\ndf_tst &lt;- testing(df_split)\n\n## KNN training\nknn_recipe &lt;- recipe(GENDER ~ HEIGHT + WAIST, data = df_trn) |&gt; \n    step_normalize(all_predictors())\nknn_mdl &lt;- nearest_neighbor(neighbors = 3, mode = \"classification\")\nknn_out &lt;- workflow() |&gt; \n    add_recipe(knn_recipe) |&gt; \n    add_model(knn_mdl) |&gt; \n    fit(data = df_trn)\n\n## KNN prediction\nknn_pred &lt;- pull(predict(knn_out, df_tst))\ntable(knn_pred, df_tst$GENDER)\nmean(knn_pred == df_tst$GENDER)\n\n\n\nPython Code\n\nimport numpy as np\nimport pandas as pd\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.neighbors import KNeighborsClassifier\n\n## load data\nbody = pd.read_csv('./data/body.csv')\nX = body[['HEIGHT', 'WAIST']]\ny = body['GENDER']\n\n## training and test data\nX_trn, X_tst, y_trn, y_tst = train_test_split(X, y, test_size=0.2, random_state=2024)\n\n## KNN training\nknn = KNeighborsClassifier(n_neighbors = 3)\nX_trn = np.array(X_trn)\nX_tst = np.array(X_tst)\nknn.fit(X_trn, y_trn)\n\n## KNN prediction\ny_pred = knn.predict(X_tst)\nfrom sklearn.metrics import confusion_matrix\nconfusion_matrix(y_tst, y_pred)\nnp.mean(y_tst == y_pred)"
+  },
+  {
+    "objectID": "exercise/lab01-rscript.html",
+    "href": "exercise/lab01-rscript.html",
+    "title": "Lab-01: Running R Script",
+    "section": "",
+    "text": "Note\n\n\n\n\n\n\n\nLoad R package ggplot2 into your Posit Cloud.\n\n\n## install the package if you haven't!\n________(ggplot2)\n\n\nCreate a R script named lab01-run-script.R in your 3570-project.\nCopy and paste the code below into the script, and save it.\n\n\nbar &lt;- ggplot(data = diamonds) + \n  geom_bar(mapping = aes(x = cut, fill = cut), \n           show.legend = FALSE, width = 1) + \n  theme(aspect.ratio = 1) +\n  labs(x = NULL, y = NULL)\nbar + coord_flip()\nbar + coord_polar()\n\n\nSource the script. A pretty plot showing up?!"
+  },
+  {
+    "objectID": "exercise/lab14-interactive.html",
+    "href": "exercise/lab14-interactive.html",
+    "title": "Lab 14: plotly (Presentation)",
+    "section": "",
+    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 14 section,\n\nLoad tidyverse and plotly and the loans.csv data.\nGenerate a plot using plotly. An example is shown below. Welcome to create a more fancy one!\n\n\n\n\n\n\nloans &lt;- read_csv(\"../slides/data/loans.csv\")\np &lt;- plot_ly(loans, x = ~interest_rate, alpha = 0.5)\np |&gt; add_boxplot(y = ~grade, color = ~grade)\n\n\n\n\n\n:::"
+  },
+  {
+    "objectID": "exercise/lab09-numpy.html",
+    "href": "exercise/lab09-numpy.html",
+    "title": "Lab 09: NumPy and pandas",
+    "section": "",
+    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 9 section, create a Python pandas.DataFrame equivalent to the R tibble\n\ntibble(x = 1:5, y = 5:1, z = LETTERS[1:5])\n\n# A tibble: 5 × 3\n      x     y z    \n  &lt;int&gt; &lt;int&gt; &lt;chr&gt;\n1     1     5 A    \n2     2     4 B    \n3     3     3 C    \n4     4     2 D    \n5     5     1 E    \n\n\n\nimport numpy as np\nimport pandas as pd\nimport string\nlist(string.ascii_uppercase)\ndic = {'__': ____________, \n       '__': reversed(____________),\n       '__': list(string.ascii_uppercase)[______]}\npd._____________(dic)"
+  },
+  {
+    "objectID": "exercise/lab08-tibble.html",
+    "href": "exercise/lab08-tibble.html",
+    "title": "Lab 08: Tibbles and Pipes",
+    "section": "",
+    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 8 section,\n\nCompare and contrast the following operations on a data.frame and equivalent tibble. What are the differences?\n\n\ndf &lt;- data.frame(abc = 1:2, \n                 xyz = c(\"a\", \"b\"))\n# list method\ndf$x\ndf[[2]]\ndf[\"xyz\"]\ndf[c(\"abc\", \"xyz\")]\n# matrix method\ndf[, 2]\ndf[, \"xyz\"]\ndf[, c(\"abc\", \"xyz\")]\n\n\ntib &lt;- tibble(abc = 1:2, \n              xyz = c(\"a\", \"b\"))\n# list method\ntib$x\ntib[[2]]\ntib[\"xyz\"]\ntib[c(\"abc\", \"xyz\")]\n# matrix method\ntib[, 2]\ntib[, \"xyz\"]\ntib[, c(\"abc\", \"xyz\")]\n\n\nUse |&gt; to first select last 12 rows of iris data set using tail(), then provides summary statistics on its columns using summary()."
+  },
+  {
+    "objectID": "exercise/lab03-markdown.html",
+    "href": "exercise/lab03-markdown.html",
+    "title": "Lab 03: Markdown",
+    "section": "",
+    "text": "Note\n\n\n\n\n\n\n\nBack to your lab.qmd. In ## Lab 3: Markdown section, add a self-introduction paragraph containing a header, bold and italic text.\nAdd another paragraph that contains\n\nlisted items\na hyperlink\na blockquote\nmath expression\n\nOnce done, commit with message “03-Markdown” and push your updated work to GitHub."
+  },
+  {
+    "objectID": "exercise/lab19-ci.html",
+    "href": "exercise/lab19-ci.html",
+    "title": "Lab 19: Confidence Interval",
+    "section": "",
+    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 19 section,\n\nRun the code I give you for simulating 100 \\(95\\%\\) CIs. Change the random generator seed to another number you like.\n\n\nset.seed(a number you like) Birthday? Lucky number?\n\n\nHow many CIs do not cover the true mean \\(\\mu\\)?\n\n\n\n\n\n\n\n\n\n\n```"
+  },
+  {
+    "objectID": "exercise/lab02-quarto.html",
+    "href": "exercise/lab02-quarto.html",
+    "title": "Lab 02: Quarto File",
+    "section": "",
+    "text": "Note\n\n\n\n\n\n\n\nGo to your GitHub repo lab-yourusername. Clone it to your Posit Cloud as a project in 2024-Spring-Math-3570 workspace.\nOpen the file lab.qmd.\nChange author in YAML.\nClick on  or Ctrl/Cmd + Shift + K to produce a HTML document.\nHow can we show the current date every time we compile the file? [Hint:] Check your hw00. Compile your document and make sure the date shows up.\nHow do we produce a pdf? Describe it in ## Lab 2: Quarto\nOnce done, commit with message “02-Quarto File” and push your version to GitHub."
+  },
+  {
+    "objectID": "exercise/lab00-git.html",
+    "href": "exercise/lab00-git.html",
+    "title": "Lab Exercise: Git/GitHub",
+    "section": "",
+    "text": "Note"
+  },
+  {
+    "objectID": "exercise/lab00-git.html#connect-posit-cloud-and-github-step-1",
+    "href": "exercise/lab00-git.html#connect-posit-cloud-and-github-step-1",
+    "title": "Lab Exercise: Git/GitHub",
+    "section": "Connect Posit Cloud and GitHub: Step 1",
+    "text": "Connect Posit Cloud and GitHub: Step 1\n\nPosit Cloud cannot recognize your GitHub account unless you connect them each other.\nIn Posit Cloud, click on your name on the top-right corner to open the right menu.\nClick on Authentication."
+  },
+  {
+    "objectID": "exercise/lab00-git.html#connect-posit-cloud-and-github-step-2",
+    "href": "exercise/lab00-git.html#connect-posit-cloud-and-github-step-2",
+    "title": "Lab Exercise: Git/GitHub",
+    "section": "Connect Posit Cloud and GitHub: Step 2",
+    "text": "Connect Posit Cloud and GitHub: Step 2\n\nIn the Authentication window, check the box for Enabled.\n\n\n\n\n\n\n\n\n\n\nWhen check Enabled, will jump to GitHub page shown in the next."
+  },
+  {
+    "objectID": "exercise/lab00-git.html#connect-posit-cloud-and-github-step-3",
+    "href": "exercise/lab00-git.html#connect-posit-cloud-and-github-step-3",
+    "title": "Lab Exercise: Git/GitHub",
+    "section": "Connect Posit Cloud and GitHub: Step 3",
+    "text": "Connect Posit Cloud and GitHub: Step 3\n\nFor your GitHub page, click on the green box that says “Authorize rstudio”."
+  },
+  {
+    "objectID": "exercise/lab00-git.html#connect-posit-cloud-and-github-step-4",
+    "href": "exercise/lab00-git.html#connect-posit-cloud-and-github-step-4",
+    "title": "Lab Exercise: Git/GitHub",
+    "section": "Connect Posit Cloud and GitHub: Step 4",
+    "text": "Connect Posit Cloud and GitHub: Step 4\n\nBack to the Authentication of Posit Cloud, check Private repo access also enabled.\nMake sure math3570-s24 shows up under Organization access.\nClick on Request\nClick on the green box “Authorize rstudio”.\n\n\n\n\n\n\n\n\n\n\nWhen check Private repo access also enabled, will jump to GitHub page as shown."
+  },
+  {
+    "objectID": "exercise/lab00-git.html#connect-posit-cloud-and-github-step-5",
+    "href": "exercise/lab00-git.html#connect-posit-cloud-and-github-step-5",
+    "title": "Lab Exercise: Git/GitHub",
+    "section": "Connect Posit Cloud and GitHub: Step 5",
+    "text": "Connect Posit Cloud and GitHub: Step 5\n\nOnce you’re done, both of these boxes should be checked."
+  },
+  {
+    "objectID": "exercise/lab00-git.html#connect-posit-cloud-and-github-step-5-1",
+    "href": "exercise/lab00-git.html#connect-posit-cloud-and-github-step-5-1",
+    "title": "Lab Exercise: Git/GitHub",
+    "section": "Connect Posit Cloud and GitHub: Step 5-1",
+    "text": "Connect Posit Cloud and GitHub: Step 5-1"
+  },
+  {
+    "objectID": "exercise/lab00-git.html#connect-posit-cloud-and-github-step-6",
+    "href": "exercise/lab00-git.html#connect-posit-cloud-and-github-step-6",
+    "title": "Lab Exercise: Git/GitHub",
+    "section": "Connect Posit Cloud and GitHub: Step 6",
+    "text": "Connect Posit Cloud and GitHub: Step 6\n\nConfirm that you’ve linked up your GitHub and Posit Cloud accounts GitHub settings &gt; Applications. Should see Posit Cloud listed as an authorized app under Authorized OAuth Apps.\n\n\n\n\n\n\n\n\n\n\nIf you see RStudio is under the Authorized Apps, congratulations! Your RStudio and GitHub are now linked together!"
+  },
+  {
+    "objectID": "exercise/lab00-git.html#github-to-posit-cloud-step-1",
+    "href": "exercise/lab00-git.html#github-to-posit-cloud-step-1",
+    "title": "Lab Exercise: Git/GitHub",
+    "section": "GitHub to Posit Cloud: Step 1",
+    "text": "GitHub to Posit Cloud: Step 1\n\nEach of your assignments will begin with the following steps.\nGo to the repo named hw00-yourusername I created for you."
+  },
+  {
+    "objectID": "exercise/lab00-git.html#github-to-posit-cloud-step-2",
+    "href": "exercise/lab00-git.html#github-to-posit-cloud-step-2",
+    "title": "Lab Exercise: Git/GitHub",
+    "section": "GitHub to Posit Cloud: Step 2",
+    "text": "GitHub to Posit Cloud: Step 2\n\nOn GitHub,\n\nclick on the green Code button, select HTTPS.\nclick on the clipboard icon on the right to copy the repo URL, such as https://github.com/math3570-s24/hw00-chenghanyu.git"
+  },
+  {
+    "objectID": "exercise/lab00-git.html#github-to-posit-cloud-step-3",
+    "href": "exercise/lab00-git.html#github-to-posit-cloud-step-3",
+    "title": "Lab Exercise: Git/GitHub",
+    "section": "GitHub to Posit Cloud: Step 3",
+    "text": "GitHub to Posit Cloud: Step 3\n\nGo to Posit Cloud and into the course workspace 2024-spring-math-3570.\nCreate a New Project from Git Repo.\n\n\n\n\n\n\n\n\n\n\nYou will need to click on the down arrow next to the New Project button to see this option."
+  },
+  {
+    "objectID": "exercise/lab00-git.html#github-to-posit-cloud-step-4",
+    "href": "exercise/lab00-git.html#github-to-posit-cloud-step-4",
+    "title": "Lab Exercise: Git/GitHub",
+    "section": "GitHub to Posit Cloud: Step 4",
+    "text": "GitHub to Posit Cloud: Step 4\n\nCopy and paste the URL of your assignment repo into the dialog box.\nHit OK, and you’re good to go!"
+  },
+  {
+    "objectID": "exercise/lab00-git.html#github-to-posit-cloud-step-5",
+    "href": "exercise/lab00-git.html#github-to-posit-cloud-step-5",
+    "title": "Lab Exercise: Git/GitHub",
+    "section": "GitHub to Posit Cloud: Step 5",
+    "text": "GitHub to Posit Cloud: Step 5\n\nClick hw00-yourusername to do your assignment in Posit Cloud!\n\n\n\n\n\n\n\n\n\n\n\nDone! We learned the entire process of cloning a repo on GitHub to Posit Cloud as a project.\nNext, we’ll see how to keep your revision record (commit) and send (push) the latest revised version of your work from Posit Cloud to GitHub!"
+  },
+  {
+    "objectID": "exercise/lab00-git.html#personal-access-token-pat-step-1",
+    "href": "exercise/lab00-git.html#personal-access-token-pat-step-1",
+    "title": "Lab Exercise: Git/GitHub",
+    "section": "Personal Access Token (PAT): Step 1",
+    "text": "Personal Access Token (PAT): Step 1\n\nGitHub has removed the support for Password Authentication for Git operations.\nBefore we can send our work in Posit Cloud to GitHub, we need Personal Access Token (PAT)\nSettings &gt; Developer settings\n\n\n\n\n\n\n\n\n\n\nGitHub has removed the support for Password Authentication for Git operations for more safety from 08/13/2021."
+  },
+  {
+    "objectID": "exercise/lab00-git.html#personal-access-token-pat-step-2",
+    "href": "exercise/lab00-git.html#personal-access-token-pat-step-2",
+    "title": "Lab Exercise: Git/GitHub",
+    "section": "Personal Access Token (PAT): Step 2",
+    "text": "Personal Access Token (PAT): Step 2"
+  },
+  {
+    "objectID": "exercise/lab00-git.html#personal-access-token-pat-step-3",
+    "href": "exercise/lab00-git.html#personal-access-token-pat-step-3",
+    "title": "Lab Exercise: Git/GitHub",
+    "section": "Personal Access Token (PAT): Step 3",
+    "text": "Personal Access Token (PAT): Step 3"
+  },
+  {
+    "objectID": "exercise/lab00-git.html#personal-access-token-pat-step-4",
+    "href": "exercise/lab00-git.html#personal-access-token-pat-step-4",
+    "title": "Lab Exercise: Git/GitHub",
+    "section": "Personal Access Token (PAT): Step 4",
+    "text": "Personal Access Token (PAT): Step 4"
+  },
+  {
+    "objectID": "exercise/lab00-git.html#personal-access-token-pat-step-5",
+    "href": "exercise/lab00-git.html#personal-access-token-pat-step-5",
+    "title": "Lab Exercise: Git/GitHub",
+    "section": "Personal Access Token (PAT): Step 5",
+    "text": "Personal Access Token (PAT): Step 5\n\nCopy and paste your PAT to a secrete and safe space!!"
+  },
+  {
+    "objectID": "exercise/lab00-git.html#posit-cloud-to-github-step-1---edit-your-file",
+    "href": "exercise/lab00-git.html#posit-cloud-to-github-step-1---edit-your-file",
+    "title": "Lab Exercise: Git/GitHub",
+    "section": "Posit Cloud to GitHub: Step 1 - Edit your file",
+    "text": "Posit Cloud to GitHub: Step 1 - Edit your file\n\nOpen a Quarto (qmd) file in your project, in YAML change the author name to your name.\nClick Render to generate your beautiful document. (If you are asked to install any packages, please do!)"
+  },
+  {
+    "objectID": "exercise/lab00-git.html#posit-cloud-to-github-step-2---commit-changes",
+    "href": "exercise/lab00-git.html#posit-cloud-to-github-step-2---commit-changes",
+    "title": "Lab Exercise: Git/GitHub",
+    "section": "Posit Cloud to GitHub: Step 2 - Commit changes",
+    "text": "Posit Cloud to GitHub: Step 2 - Commit changes\n\nGo to the Git tab in your RStudio.\nClick on Diff. This shows you the difference between the last committed state of the document and its current state that includes your changes.\nCheck Staged box to add files to be committed.\nWrite “Update author’s name” in the Commit message box and hit Commit."
+  },
+  {
+    "objectID": "exercise/lab00-git.html#posit-cloud-to-github-step-3---push-changes",
+    "href": "exercise/lab00-git.html#posit-cloud-to-github-step-3---push-changes",
+    "title": "Lab Exercise: Git/GitHub",
+    "section": "Posit Cloud to GitHub: Step 3 - Push changes",
+    "text": "Posit Cloud to GitHub: Step 3 - Push changes\n\nWe’ve made an update and committed this change locally.\nIt’s time to push the changes to your repo on GitHub, so that others (Dr. Yu) can see your changes.\nClick on Push.\nIn the prompted dialogue box, enter your GitHub user name, and your password (PAT)."
+  },
+  {
+    "objectID": "exercise/lab00-git.html#posit-cloud-to-github-step-3---updated-repo",
+    "href": "exercise/lab00-git.html#posit-cloud-to-github-step-3---updated-repo",
+    "title": "Lab Exercise: Git/GitHub",
+    "section": "Posit Cloud to GitHub: Step 3 - Updated Repo",
+    "text": "Posit Cloud to GitHub: Step 3 - Updated Repo\n\nBack to your GitHub repo and refresh it.\nThe online repo is now synced with your local project in Posit Cloud."
+  },
+  {
+    "objectID": "exercise/lab15-dplyr.html",
+    "href": "exercise/lab15-dplyr.html",
+    "title": "Lab 15: dplyr",
+    "section": "",
+    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 15 section, import the murders.csv data and\n\nAdd (mutate) the variable rate = total / population * 100000 to murders data (as I did).\nFilter states that are in region Northeast or West and their murder rate is less than 1.\nSelect variables state, region, rate.\n\n\nPrint the output table after you do 1. to 3., and save it as object my_states.\nGroup my_states by region. Then summarize data by creating variables avg and stdev that compute the mean and standard deviation of rate.\nArrange the summarized table by avg.\n\n\n_______ &lt;- _______ |&gt; \n    mutate(_______) |&gt; \n    filter(_______) |&gt; \n    select(_______)\n\n_______ |&gt;  \n    group_by(______) |&gt; \n    summarize(______) |&gt; \n    arrange(_______)\n\n\n\n          state    region      rate\n1        Hawaii      West 0.5145920\n2         Idaho      West 0.7655102\n3         Maine Northeast 0.8280881\n4 New Hampshire Northeast 0.3798036\n5        Oregon      West 0.9396843\n6          Utah      West 0.7959810\n7       Vermont Northeast 0.3196211\n8       Wyoming      West 0.8871131\n\n\n# A tibble: 2 × 3\n  region      avg std_dev\n  &lt;fct&gt;     &lt;dbl&gt;   &lt;dbl&gt;\n1 West      0.781   0.164\n2 Northeast 0.509   0.278"
+  },
+  {
+    "objectID": "project-description.html",
+    "href": "project-description.html",
+    "title": "MATH/COSC 3570 Project Chanllenge",
+    "section": "",
+    "text": "Show your fun project! Let’s go!! 😎",
+    "crumbs": [
+      "Project",
+      "Guideline and Policy"
+    ]
+  },
+  {
+    "objectID": "project-description.html#team-up",
+    "href": "project-description.html#team-up",
+    "title": "MATH/COSC 3570 Project Chanllenge",
+    "section": "Team up!",
+    "text": "Team up!\n\nEach one of you loses 3 points of your project grade if you don’t meet the requirement or miss the deadline.\nYou will be randomly assigned to a group if you do not belong to any group before the deadline.",
+    "crumbs": [
+      "Project",
+      "Guideline and Policy"
+    ]
+  },
+  {
+    "objectID": "project-description.html#proposal",
+    "href": "project-description.html#proposal",
+    "title": "MATH/COSC 3570 Project Chanllenge",
+    "section": "Proposal",
+    "text": "Proposal\n\nEach one of you loses 3 points of your project grade if you don’t meet the requirement or miss the deadline.\nYour proposal (in PDF) should include three parts:\n\nProject title\nThe goal of your project. For example, what is the research question you’d like to answer? What packages/tools you’d like to introduce?\nThe description of the data set you use in your project. For example, where is the data set from, how large is the data, the variables you use for your project, etc.\n\nAlthough it is risky, you can change your project topic after you submit your proposal if you decide to do something else.",
+    "crumbs": [
+      "Project",
+      "Guideline and Policy"
+    ]
+  },
+  {
+    "objectID": "project-description.html#meeting",
+    "href": "project-description.html#meeting",
+    "title": "MATH/COSC 3570 Project Chanllenge",
+    "section": "Meeting",
+    "text": "Meeting\n\nYou lose 3 points of your project grade if you don’t meet the requirement or don’t meet with Dr. Yu at least once.\nPlease choose a meeting time in the Excel form.\nYou must let Dr. Yu know in advance if you need to change your meeting time.\nYou can change your meeting time once.\nEvery team member needs to show up in the meeting.\nPrepare briefly talk about your project.",
+    "crumbs": [
+      "Project",
+      "Guideline and Policy"
+    ]
+  },
+  {
+    "objectID": "project-description.html#presentation",
+    "href": "project-description.html#presentation",
+    "title": "MATH/COSC 3570 Project Chanllenge",
+    "section": "Presentation",
+    "text": "Presentation\n\nEvery student has to participate (in-person) in the final presentation in order to pass the course.\nEach group presentation should be between 14 and 15 minute long, followed by 1 to 2 minute Q&A. If your presentation is too short or too long, every one of you loses 3 points of your project grade.\nEvery group member has to present some part of the group work. The one who does not present receives no point.\n\n\n\nQuestions are encouraged during Q&A. Everyone is welcome to ask any questions about the projects. It helps everyone evaluate every group’s project and presentation performance. See Section 4 for grading policy.\nEach group is required to ask as least one question.\n\nThe \\(k\\)-th group should ask at least one question to the \\((k-1)\\)-th group in Q&A, \\(k = 2, \\dots, 7\\).\nThe 1st group will ask the last (7th) group questions about their project.\n\nIf you, as a group, don’t ask a question when you should, every one of you loses 3 points of your project grade.",
+    "crumbs": [
+      "Project",
+      "Guideline and Policy"
+    ]
+  },
+  {
+    "objectID": "project-description.html#materials",
+    "href": "project-description.html#materials",
+    "title": "MATH/COSC 3570 Project Chanllenge",
+    "section": "Materials",
+    "text": "Materials\n\nEach one of you loses 3 points of your project grade if you don’t meet the requirement or miss the deadline.\nYou need to share your entire work, including slides, code, and data if applicable.\nYour code should be able to reproduce all the numerical results, outputs, tables, and figures shown in the slides, including the source of the raw data (where you find and load the data) if the project is about data analysis.",
+    "crumbs": [
+      "Project",
+      "Guideline and Policy"
+    ]
+  },
+  {
+    "objectID": "project-description.html#data-analysis",
+    "href": "project-description.html#data-analysis",
+    "title": "MATH/COSC 3570 Project Chanllenge",
+    "section": "Data Analysis",
+    "text": "Data Analysis\nFor your data analysis project,\n\nYou need to show that you are good at asking meaningful questions and answering them with results of data analysis.\nYour presentation should include data visualization. Your graphics should be informative that help you\n\nexplore relationships between variables in your data\ndecide which statistical model is used, so that your research questions can be properly answered.\n\n\n\n\nYou should discuss how and why statistical methods/machine learning algorithms are chosen for analyzing your data set.\n\nThe methods we learn in class may not be appropriate for your data and answering your research questions. If this happens, critique your own methods and provide suggestions for improving your analysis. Any issues of your data, and appropriateness of the statistical analysis should be discussed.\n\n\n\n\nYou can choose a data set that is publicly available or you may collect your own data using a survey or by conducting an experiment. The dataset you choose cannot be any datasets used in class, including homework assignments and lab exercises.\nBelow are a list of data repositories you can start with, but you are encouraged to explore more and find your favorite one, for example COVID-19 data if you are interested.\n\nTidyTuesday\nKaggle\nAwesome Public Datasets\nHarvard Dataverse\nUCI Machine Learning Repository\nFiveThirtyEight",
+    "crumbs": [
+      "Project",
+      "Guideline and Policy"
+    ]
+  },
+  {
+    "objectID": "project-description.html#rpython-packages",
+    "href": "project-description.html#rpython-packages",
+    "title": "MATH/COSC 3570 Project Chanllenge",
+    "section": "R/Python Packages",
+    "text": "R/Python Packages\nFor your R/Python package project,\n\nyou need to\n\nshow how and why the package greatly helps us do data science.\nexplain how to use the functions in the packages by providing data science examples with some real data set. Please don’t use the toy examples in the package documentation.\n\nIf the functions of the package return any results or outputs, please explain them, teaching your audience how to appropriately read the outputs.\nIf the functions return graphics, explain why the visualizations are informative and useful for understanding data and analysis results.\nYou can choose a package that helps us do what we cannot do with the packages and tools learned in class.\n\nFor example, we only learn and packages to help us import data files into R, and we don’t know how to extract data from a website. The  package helps us scrape data from web pages.\n\nIf you choose a package that provides the same functionality as the packages we learned, please show the packages you choose are better.\n\nFor example, its code is shorter, it is run faster, its output is more clear, its plot is prettier, etc. For example, (https://rdatatable.gitlab.io/data.table/) package provides a high-performance version of base R’s with syntax and feature enhancements for ease of use, convenience and programming speed.\n\nBelow are a list of popular R packages that you can start with.\n\nQuick list of useful R packages\nFavorite R Packages by Roel Verbelen\nGreat R packages for data import, wrangling, and visualization\nggplot2 extensions\n\n\nBelow are a list of popular Python packages that you can start with.\n\n20 Must-Have Python Libraries for Data Science for 2024\nTop 38 Python Libraries for Data Science, Data Visualization & Machine Learning",
+    "crumbs": [
+      "Project",
+      "Guideline and Policy"
+    ]
+  },
+  {
+    "objectID": "project-description.html#group-performance-evaluation",
+    "href": "project-description.html#group-performance-evaluation",
+    "title": "MATH/COSC 3570 Project Chanllenge",
+    "section": "Group Performance Evaluation",
+    "text": "Group Performance Evaluation\n\nYou will need to evaluate all group projects except the one you work on.\nYou evaluate group performance based on the rubric attached. Four evaluation criteria are considered:\n\nProject Content and Organization (8 pts)\nPresentation Material (Slides) Quality (4 pts)\nOral Presentation Skill and Delivery (4 pts)\nInteractions and Q&A (4 pts)\n\nThe total points of a project presentation is 20 points.\nEvaluation sheets will be provided on the presentation day.\nHow do you get the full points for each category? Check the requirements below. Note that for Content and Organization, data analysis and package projects have different requirements.\nContent and Organization (Data Analysis)\n\nBeautiful visualization helps find out relationship of variables and specification of models\nAll questions are answered accurately by the models\nDiscuss how and why the models are chosen\nApply sophisticated models and detailed analysis\nAll ideas are presented in logical order\n\nContent and Organization (Packages)\n\nShow how and why the package greatly helps us do data science\nExplain how to use the functions in the package by providing concrete real data science applications and examples with data sets\nTeach audience with understandable examples of how to appropriately read the outputs and/or why the visualizations are informative and useful for understanding data and analysis results\nShow the package is better in some sense, its code is shorter, it is run faster, its output is more clear, its plot is prettier, etc\nAll ideas are presented in logical order\n\nPresentation Material Quality\n\nPresentation material show code and output beautifully\nPresentation material clearly aid the speaker in telling a coherent story\nAll tables and graphics are informative and related to the topic and make it easier to understand\nAttractive design, layout, and neatness.\n\nOral Presentation Skill\n\nGood volume and energy\nProper pace and diction\nAvoidance of distracting gestures\n\nInteractions and Q&A\n\nGood eye contact with audience\nExcellent listening skills\nAnswers audience questions with authority and accuracy\n\nAfter you evaluate 6 group project presentations, you rank them from 1st to 6th based on their earned points.\nNo two groups receive the same ranking. If you give two or more groups some points, you still need to give them a different ranking, deciding which teams deserve a higher ranking according to your preference.",
+    "crumbs": [
+      "Project",
+      "Guideline and Policy"
+    ]
+  },
+  {
+    "objectID": "project-description.html#individual-performance-evaluation",
+    "href": "project-description.html#individual-performance-evaluation",
+    "title": "MATH/COSC 3570 Project Chanllenge",
+    "section": "Individual Performance Evaluation",
+    "text": "Individual Performance Evaluation\n\n\nYou choose one single person who you think contributes the most to your group project.\nYou cannot vote for yourself, and you can only vote for one of your teammates.\nIf you don’t vote, you can’t be the best contributor even if you obtain the most votes. The person with the second highest votes wins the best contribution reward.\nIf there is no one single person who gets the most votes, every team member remains the same grade. For example, if your group finish in third place (Bronze), and there is no best contributor, all members receive 91 (See Table 1).",
+    "crumbs": [
+      "Project",
+      "Guideline and Policy"
+    ]
+  }
+]
