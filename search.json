@@ -15,7 +15,18 @@
     "href": "course-syllabus.html#time-and-location",
     "title": "Syllabus",
     "section": "Time and location",
-    "text": "Time and location\n\n\n\n\nDay\nTime\nLocation\n\n\n\n\nLectures\nTu & Th\n2:00 - 3:15 PM\nOlin Engineering 198\n\n\nLab\nNone\nNone\nNone",
+    "text": "Time and location\n\n\n\n\n\n\n\n\n\nDay and Time\nLocation\n\n\n\n\nLectures\nTu & Th 2:00 - 3:15 PM\nLalumiere Language Hall 232\n\n\nOffice hours\nTu & Th 4:50 - 5:50 PM; Wed 12 - 1 PM\nCudahy Hall 353\n\n\nTA Help Desk\nTo be determined (TBD)\nTBD\n\n\nLab Section\nNone\nNone",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#ta-information",
+    "href": "course-syllabus.html#ta-information",
+    "title": "Syllabus",
+    "section": "TA Information",
+    "text": "TA Information\n\nName: Qishi Zhan\nEmail: qishi.zhan@marquette.edu",
     "crumbs": [
       "Course information",
       "Syllabus"
@@ -70,7 +81,7 @@
     "href": "course-syllabus.html#textbooks",
     "title": "Syllabus",
     "section": "Textbooks",
-    "text": "Textbooks\n\nNo textbook is required for this course. Course materials are mainly Dr. Yu’s slides. Below are some good references.\n\n(r4ds) R for Data Science by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund.\n(tmwr) Tidy Modeling with R by Max Kuhn and Julia Silge.\n(py4ds) Python for Data Analysis by Wes McKinney.\n(IS) Introduction to Statistics by Cheng-Han Yu. (Good resource for brushing up your basic probability, statistics and simple linear regression knowledge.)",
+    "text": "Textbooks\n\nNo textbook is required for this course. Course materials are mainly Dr. Yu’s slides. Below are some good references.\n\n(r4ds) R for Data Science (2e) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund.\n(tmwr) Tidy Modeling with R by Max Kuhn and Julia Silge.\n(py4da) Python for Data Analysis by Wes McKinney.\n(IS) Introduction to Statistics by Cheng-Han Yu. (Good resource for brushing up your basic probability, statistics and simple linear regression knowledge.)",
     "crumbs": [
       "Course information",
       "Syllabus"
@@ -81,18 +92,18 @@
     "href": "course-syllabus.html#grading-policy",
     "title": "Syllabus",
     "section": "Grading Policy",
-    "text": "Grading Policy\n\n40% In-class lab exercises and participation.\n30% Homework\n30% Final project competition\nExtra credit opportunities\nEvery student has to participate (in-person) in the final presentation in order to pass the course.\nYou will NOT be allowed any extra credit projects/homework/exam to compensate for a poor grade. Everyone is given the same opportunity to do well in this class. I may use class participation to make grade adjustments at the end of the semester.\nThe final grade is based on the grade-percentage conversion Table 1 on the next page. \\([x, y)\\) means greater than or equal to \\(x\\) and less than \\(y\\). For example, 94.1 is in \\([94, 100]\\) and the grade is A and 93.8 is in \\([90, 94)\\) and the grade is A-.\n\n\n\n\nGrade-Percentage Conversion\n\n\nGrade\nPercentage\n\n\n\n\nA\n[94, 100]\n\n\nA-\n[90, 94)\n\n\nB+\n[87, 90)\n\n\nB\n[83, 87)\n\n\nB-\n[80, 83)\n\n\nC+\n[77, 80)\n\n\nC\n[73, 77)\n\n\nC-\n[70, 73)\n\n\nD+\n[65, 70)\n\n\nD\n[60, 65)\n\n\nF\n[0, 60)\n\n\n\n\n\n\nLab exercises\n\nThere are several in-class lab exercises, which are graded as complete/incomplete and used as evidence of attendance and class participation.\nYou are allowed to have two incomplete lab exercises without penalty. Beyond that, 2% grade percentage will be taken off for each missing/incomplete exercise.\nNo make-up lab exercises for any reason.\n\n\n\nHomework\n\nThe homework assignments are individual. You should submit your own work.\nYou may not directly share or discuss answers/code with anyone other than the instructor. But you are welcome to discuss the problems in general and ask for advice.\nHomework will be assigned through GitHub. You need to clone/pull the homework repo into Posit Cloud and work on the Quarto file in the repo. A step-by-step guide will be discussed in class before homework is assigned.\nYou will have at least one week to complete your assignment.\nNo make-up homework for any reason unless you got COVID or excused absence.\nIf you miss a homework assignment due to COVID-19 symptoms, exposure, diagnosis, quarantine, and/or isolation, or you have an excused absence as defined in Attendance in Academic Regulations, the homework percentage will be added to your final project. If you miss more than one assignment, only one assignment percentage can be added to the final project percentage. You get 0% for the other assignment.\n\n\n\nFinal project competition\n\nYou will be team up to do the final project. Your project can be in either of the following categories:\n\nData analysis using statistical models or machine learning algorithms\nIntroduce a R or Python package not learned in class, including live demo\nIntroduce a data science tool (visualization, computing, etc) not learned in class, including live demo\nWeb development: Shiny website or dashboard, including live demo\n\nDetails about the project will be provided as the course progresses. You must complete the final project and be in class to present it in order to pass this course.\n\n\n\n\n\nThe final project presentation is on Monday, 5/6 10:30 AM - 12:30 PM.",
+    "text": "Grading Policy\n\nYour grade is from the following categories and distribution\n\n25% In-class lab exercises and participation.\n30% Homework\n20% Midterm mini project\n25% Final project competition\nExtra credit opportunities\n\nEvery student has to participate (in-person) in the final presentation to pass the course.\nYou will NOT be allowed any extra credit projects/homework/exam to compensate for a poor grade. Everyone is given the same opportunity to do well in this class. I may use class participation to make grade adjustments at the end of the semester.\nThe final grade is based on the grade-percentage conversion Table 1 on the next page. \\([x, y)\\) means greater than or equal to \\(x\\) and less than \\(y\\). For example, 94.1 is in \\([94, 100]\\) and the grade is A and 93.8 is in \\([90, 94)\\) and the grade is A-.\n\n\n\n\nGrade-Percentage Conversion\n\n\nGrade\nPercentage\n\n\n\n\nA\n[94, 100]\n\n\nA-\n[90, 94)\n\n\nB+\n[87, 90)\n\n\nB\n[83, 87)\n\n\nB-\n[80, 83)\n\n\nC+\n[77, 80)\n\n\nC\n[73, 77)\n\n\nC-\n[70, 73)\n\n\nD+\n[65, 70)\n\n\nD\n[60, 65)\n\n\nF\n[0, 60)\n\n\n\n\n\n\nLab exercises\n\nThere are several in-class lab exercises, which are graded as complete/incomplete and used as evidence of attendance and class participation.\nYou are allowed to have two incomplete lab exercises without penalty. Beyond that, 2% grade percentage will be taken off for each missing/incomplete exercise.\n\n\n\n\nHomework\n\nThe homework assignments are individual. You should submit your own work.\nYou may not directly share or discuss answers/code with anyone other than the instructor. But you are welcome to discuss the problems in general and ask for advice.\nHomework will be assigned through GitHub. You need to clone/pull the homework repo into Posit Cloud and work on the Quarto file in the repo. A step-by-step guide will be discussed in class before homework is assigned.\nYou will have at least one week to complete your assignment.\nNo make-up homework for any reason unless you have excused absences.\nIf you miss a homework assignment due to excused absence, the homework percentage will be added to your final project. If you miss more than one assignment, only one assignment percentage can be added to the final project percentage. You get 0% for the other assignment.\n\n\n\nMidterm mini project\n\nYou will be team up to do the midterm mini project.\nMore details about the mini project presentation will be released later.\n\n\n\nFinal project competition\n\nYou will be team up to do the final project. Your project can be in either of the following categories:\n\nData analysis using statistical models or machine learning algorithms\nIntroduce a R or Python package not learned in class, including live demo\nIntroduce a data science tool (visualization, computing, etc) not learned in class, including live demo\nIntroduce a programming language not learned in class for doing data science, including live demo, Julia, SQL, MATLAB, SAS for example.\nWeb development: Shiny website or dashboard, including live demo\n\nDetails about the project will be provided as the course progresses. You must complete the final project and be in class to present it in order to pass this course.\n\n\n\n\n\nThe final project presentation is on Thursday, May 1, 2 PM and Monday, May 5, 10:30 AM - 12:30 PM.",
     "crumbs": [
       "Course information",
       "Syllabus"
     ]
   },
   {
-    "objectID": "course-syllabus.html#sharingreusing-code-policy",
-    "href": "course-syllabus.html#sharingreusing-code-policy",
+    "objectID": "course-syllabus.html#generative-ai-and-sharingreusing-code-policy",
+    "href": "course-syllabus.html#generative-ai-and-sharingreusing-code-policy",
     "title": "Syllabus",
-    "section": "Sharing/Reusing Code Policy",
-    "text": "Sharing/Reusing Code Policy\n\nUnless explicitly stated otherwise, you may make use of any online resources, but you must explicitly cite where you obtained any code you directly use or use as inspiration in your solutions.\nAny recycled code that is discovered and is not explicitly cited will be treated as plagiarism, regardless of source.",
+    "section": "Generative AI and Sharing/Reusing Code Policy",
+    "text": "Generative AI and Sharing/Reusing Code Policy\n\nGenerative AI \n\nYou are responsible for the content of all work submitted for this course. You may use generative AI tools such as ChatGPT or DALL-E to generate a first draft of text for your assignments, provided that this use is documented and cited.\n\n\n\nSharing/Reusing Code\n\nUnless explicitly stated otherwise, you may make use of any online resources, but you must explicitly cite where you obtained any code you directly use or use as inspiration in your solutions.\nAny recycled code that is discovered and is not explicitly cited will be treated as plagiarism, regardless of source.",
     "crumbs": [
       "Course information",
       "Syllabus"
@@ -125,7 +136,7 @@
     "href": "course-syllabus.html#important-dates",
     "title": "Syllabus",
     "section": "Important dates",
-    "text": "Important dates\n\nJan 24: Last day to add/swap/drop\nMar 10-16: Spring break\nMar 12: Midterm grade submission\nMar 28 - Apr 1: Easter break\nApr 12: Withdrawal deadline\nMay 4: Last day of class\nMay 6: Final project presentation\nMay 14: Final grade submission\n\nClick here for the full Marquette academic calendar.",
+    "text": "Important dates\n\nJan 21: Last day to add/swap/drop\nMar 10-16: Spring break\nMar 11: Midterm grade submission\nApr 11: Withdrawal deadline\nApr 17 - Apr 20: Easter break\nMay 3: Last day of class\nMay 1: Final project presentation I\nMay 5: Final project presentation II\nMay 13: Final grade submission\n\nClick here for the full Marquette academic calendar.",
     "crumbs": [
       "Course information",
       "Syllabus"
@@ -241,40 +252,18 @@
     "href": "course-news.html",
     "title": "News/Announcements",
     "section": "",
-    "text": "The background survey form is at https://forms.office.com/r/PNwNY0F5Zk.",
+    "text": "Any announcement will be posted in this page. The latest news will also be put on top of the main page.",
     "crumbs": [
       "Course information",
       "News/Annoucements"
     ]
   },
   {
-    "objectID": "course-news.html#jan-14-2024",
-    "href": "course-news.html#jan-14-2024",
+    "objectID": "course-news.html#jan-7-2025",
+    "href": "course-news.html#jan-7-2025",
     "title": "News/Announcements",
-    "section": "",
-    "text": "The background survey form is at https://forms.office.com/r/PNwNY0F5Zk.",
-    "crumbs": [
-      "Course information",
-      "News/Annoucements"
-    ]
-  },
-  {
-    "objectID": "course-news.html#jan-16-2024",
-    "href": "course-news.html#jan-16-2024",
-    "title": "News/Announcements",
-    "section": "Jan 16, 2024",
-    "text": "Jan 16, 2024\n\nPlease bring your laptop this Thursday. We’ll set up our computing environment and get it ready for doing data science.",
-    "crumbs": [
-      "Course information",
-      "News/Annoucements"
-    ]
-  },
-  {
-    "objectID": "course-news.html#jan-17-2024",
-    "href": "course-news.html#jan-17-2024",
-    "title": "News/Announcements",
-    "section": "Jan 17, 2024",
-    "text": "Jan 17, 2024\nhttps://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=03db93ed-1b1c-4447-805d-a674958c23e6&ccId=19000101_000001&jobId=480911&lang=en_US\nDeadline\nApplicants should submit their application by February 1, 2024.",
+    "section": "Jan 7, 2025",
+    "text": "Jan 7, 2025\n\nThe background survey form is at https://forms.office.com/r/3ntBAWupYS.",
     "crumbs": [
       "Course information",
       "News/Annoucements"
@@ -283,9 +272,9 @@
   {
     "objectID": "course-overview.html",
     "href": "course-overview.html",
-    "title": "MATH/COSC 3570: Introduction to Data Science",
+    "title": "MATH/COSC 3570 Introduction to Data Science (Spring 2025)",
     "section": "",
-    "text": "This course introduces main aspects of doing a practical data science project, from importing data to deploying what is learned from data. We start with learning popular data science tools such as basic R and Python programming, Git and GitHub, and interactive documenting systems RMarkdown and Quarto. Then we learn data importing, data visualization and data wrangling using both R and Python. The second half of the course focuses on several basic simulation and machine learning methods, including Monte Carlo simulation, linear regression, K-nearest neighbors, logistic regression, principal component analysis, and K-means clustering. We learn R tidyverse and tidymodels packages. For Python, Pandas and Scikit-Learn libraries are introduced.",
+    "text": "This course introduces main aspects of doing a practical data science project, from importing data to deploying what is learned from data. We start with learning popular data science tools such as basic R and Python programming, Git and GitHub, and interactive publishing system Quarto. Then we learn data importing, data visualization and data wrangling using both R and Python. The second half of the course focuses on several basic simulation and machine learning methods, including Monte Carlo simulation, linear regression, K-nearest neighbors, logistic regression, principal component analysis, and K-means clustering. We learn R tidyverse and tidymodels packages. For Python, Pandas, NumPy, and Scikit-Learn libraries are introduced.",
     "crumbs": [
       "Course information",
       "Overview"
@@ -1120,9 +1109,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "MATH/COSC 3570 - Introduction to Data Science",
+    "title": "MATH/COSC 3570 Introduction to Data Science (Spring 2025)",
     "section": "",
-    "text": "This page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses, with all changes documented here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTo Do\nSlides\nLab Exercise\nHomework\nLab Presentation\nProject\n\n\n\n\n1\nTue, Jan 16\nGreetings + Overview of Data Science\n📖\n🖥️ 🖥️\n\n\n\n\n\n\n\nThu, Jan 18\nPosit Cloud and Git/GitHub Introduction\n\n🖥️\n📋📋\n\n\n\n\n\n2\nTue, Jan 23\nConnecting Posit Cloud with GitHub\n📖\n🖥️\n📋\n\n\n\n\n\n\nThu, Jan 25\nQuarto\n\n🖥️\n📋📋📋\n\n\n\n\n\n3\nTue, Jan 30\nQuarto\n\n\n\n\n\n\n\n\n\nThu, Feb 1\nR/Python Programming\n📖\n🖥️\n\n\n\n\n\n\n4\nTue, Feb 6\nPython Programming\n\n\n📋📋\n\n\n\n\n\n\nThu, Feb 8\nR Tidyverse\n📖\n🖥️\n\n✍️\n\n\n\n\n5\nTue, Feb 13\nPython Pandas/NumPy\n\n\n📋📋\n\n✅\n\n\n\n\nThu, Feb 15\nData Importing\n📖\n🖥️\n📋\n\n\n\n\n\n6\nTue, Feb 20\nData Importing\n\n\n\n\n\n\n\n\n\nThu, Feb 22\nData Visualization-ggplot2\n📖\n🖥️\n📋\n\n\n\n\n\n7\nTue, Feb 27\nData Visualization-categorical and numerical data\n📖\n🖥️\n📋📋\n\n\n\n\n\n\nThu, Feb 29\nInteractive Data Visualization\n\n🖥️\n\n\n\n\n\n\n8\nTue, Mar 5\nData Wrangling - one data frame\n📖\n🖥️\n📋\n\n✅\n\n\n\n\nThu, Mar 7\nData Wrangling - two data frames\n\n🖥️\n📋\n\n\n\n\n\n9\nTue, Mar 12\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\n\nThu, Mar 14\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\n10\nTue, Mar 19\nData Wrangling - tidyr\n📖\n🖥️\n📋\n✍️\n\n\n\n\n\nThu, Mar 21\nProbabilistic and Statistical Simulation\n\n🖥️\n📋\n\n\n\n\n\n11\nTue, Mar 26\nProbabilistic and Statistical Simulation\n\n\n📋\n\n\n\n\n\n\nThu, Mar 28\nNO CLASS: Easter break\n\n\n\n\n\nTeam Up 📂\n\n\n12\nTue, Apr 2\nLinear Regression\n📖\n🖥️\n\n\n\n\n\n\n\nThu, Apr 4\nLinear Regression\n\n\n📋\n\n\n\n\n\n13\nTue, Apr 9\nLogistic Regression\n📖\n🖥️\n\n\n\n\n\n\n\nThu, Apr 11\nLogistic Regression\n\n\n📋\n✍️\n\n\n\n\n14\nTue, Apr 16\nK-Nearest Neighbors\n📖\n🖥️\n\n\n\n\n\n\n\nThu, Apr 18\nK-Nearest Neighbors\n\n\n📋\n\n\n\n\n\n15\nTue, Apr 23\nPrincipal Component Analysis\n📖\n🖥️\n\n\n\n\n\n\n\nThu, Apr 25\nPrincipal Component Analysis\n\n\n📋\n\n\nProposal 📂\n\n\n16\nTue, Apr 30\nK-Means Clustering\n📖\n🖥️\n\n\n\n\n\n\n\nThu, May 2\nSummary\n\n🖥️\n📋\n\n\n\n\n\n\n\nI reserve the right to make changes to the schedule.",
+    "text": "Latest Annoucement. The background survey form is at https://forms.office.com/r/3ntBAWupYS.\n\nThis page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses, with all changes documented here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTo Do\nSlides\nLab Exercise\nHomework\nLab Presentation\nProject\n\n\n\n\n1\nTue, Jan 16\nGreetings + Overview of Data Science\n📖\n🖥️ 🖥️\n\n\n\n\n\n\n\nThu, Jan 18\nPosit Cloud and Git/GitHub Introduction\n\n🖥️\n📋📋\n\n\n\n\n\n2\nTue, Jan 23\nConnecting Posit Cloud with GitHub\n📖\n🖥️\n📋\n\n\n\n\n\n\nThu, Jan 25\nQuarto\n\n🖥️\n📋📋📋\n\n\n\n\n\n3\nTue, Jan 30\nQuarto\n\n\n\n\n\n\n\n\n\nThu, Feb 1\nR/Python Programming\n📖\n🖥️\n\n\n\n\n\n\n4\nTue, Feb 6\nPython Programming\n\n\n📋📋\n\n\n\n\n\n\nThu, Feb 8\nR Tidyverse\n📖\n🖥️\n\n✍️\n\n\n\n\n5\nTue, Feb 13\nPython Pandas/NumPy\n\n\n📋📋\n\n✅\n\n\n\n\nThu, Feb 15\nData Importing\n📖\n🖥️\n📋\n\n\n\n\n\n6\nTue, Feb 20\nData Importing\n\n\n\n\n\n\n\n\n\nThu, Feb 22\nData Visualization-ggplot2\n📖\n🖥️\n📋\n\n\n\n\n\n7\nTue, Feb 27\nData Visualization-categorical and numerical data\n📖\n🖥️\n📋📋\n\n\n\n\n\n\nThu, Feb 29\nInteractive Data Visualization\n\n🖥️\n\n\n\n\n\n\n8\nTue, Mar 5\nData Wrangling - one data frame\n📖\n🖥️\n📋\n\n✅\n\n\n\n\nThu, Mar 7\nData Wrangling - two data frames\n\n🖥️\n📋\n\n\n\n\n\n9\nTue, Mar 12\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\n\nThu, Mar 14\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\n10\nTue, Mar 19\nData Wrangling - tidyr\n📖\n🖥️\n📋\n✍️\n\n\n\n\n\nThu, Mar 21\nProbabilistic and Statistical Simulation\n\n🖥️\n📋\n\n\n\n\n\n11\nTue, Mar 26\nProbabilistic and Statistical Simulation\n\n\n📋\n\n\n\n\n\n\nThu, Mar 28\nNO CLASS: Easter break\n\n\n\n\n\nTeam Up 📂\n\n\n12\nTue, Apr 2\nLinear Regression\n📖\n🖥️\n\n\n\n\n\n\n\nThu, Apr 4\nLinear Regression\n\n\n📋\n\n\n\n\n\n13\nTue, Apr 9\nLogistic Regression\n📖\n🖥️\n\n\n\n\n\n\n\nThu, Apr 11\nLogistic Regression\n\n\n📋\n✍️\n\n\n\n\n14\nTue, Apr 16\nK-Nearest Neighbors\n📖\n🖥️\n\n\n\n\n\n\n\nThu, Apr 18\nK-Nearest Neighbors\n\n\n📋\n\n\n\n\n\n15\nTue, Apr 23\nPrincipal Component Analysis\n📖\n🖥️\n\n\n\n\n\n\n\nThu, Apr 25\nPrincipal Component Analysis\n\n\n📋\n\n\nProposal 📂\n\n\n16\nTue, Apr 30\nK-Means Clustering\n📖\n🖥️\n\n\n\n\n\n\n\nThu, May 2\nSummary\n\n🖥️\n📋\n\n\n\n\n\n\n\nI reserve the right to make changes to the schedule.",
     "crumbs": [
       "Course information",
       "Schedule"
