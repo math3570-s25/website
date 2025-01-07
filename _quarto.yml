@@ -5,9 +5,9 @@ website:
   page-navigation: true
   title: "MATH/COSC 3570 - Spring 2024"
   description: "Homepage for MATH/COSC 3570 - Introduction to Data Science at Marquette University, Spring 2024."
-  site-url: "https://math3570-s24.github.io/website/"
+  site-url: "https://math3570-s25.github.io/website/"
 
-  repo-url: https://github.com/math3570-s24/website
+  repo-url: https://github.com/math3570-s25/website
   repo-actions: [edit, issue]
 
   open-graph: true
@@ -28,13 +28,13 @@ website:
     align: center
     tools:
       - icon: github
-        href: https://github.com/math3570-s24
+        href: https://github.com/math3570-s25
         text: "GitHub organization"
       # - icon: code-square
       #   href: https://cmgr.oit.duke.edu/containers
       #   text: "RStudio Containers"
       - icon: person-fill
-        href: https://d2l.mu.edu/d2l/home/545777
+        href: https://d2l.mu.edu/d2l/home/589422
         text: "D2L"
 
     style: "docked"
