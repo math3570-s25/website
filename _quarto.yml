@@ -47,38 +47,25 @@ website:
             text: News/Annoucements
           - href: course-overview.qmd
             text: Overview
-          - href: course-syllabus.qmd
-            text: Syllabus
-          # - href: course-support.qmd
-          #   text: Support
-          # - href: course-team.qmd
-          #   text: Teaching team
           - href: index.qmd
             text: Schedule
-          # - href: course-links.qmd
-          #   text: Useful links
-          # - href: course-faq.qmd
-          #   text: FAQ
-      # - section: "Computing"
-      #   contents:
-      #     - href: computing-access.qmd
-      #       text: Access
-      #     - href: computing-troubleshooting.qmd
-      #       text: Troubleshooting
-      - section: "Project"
+          - href: course-syllabus.qmd
+            text: Syllabus
+
+      - section: "Mini Project"
+        contents:
+          - href: present-description.qmd
+            text: Guideline and Policy
+          - href: present-work.qmd
+            text: Topics and Works
+
+      - section: "Final Project"
         contents:
           - href: project-description.qmd
             text: Guideline and Policy
-          # - href: project-description-5780.qmd
-          #   text: Guideline for MATH 5780
           - href: project-work.qmd
             text: Project Group and Proposal
-      # - section: "Class Activities"
-      #   contents:
-      #     - href: activity-description.qmd
-      #       text: Description
-      #     - href: activity-work.qmd
-      #       text: Activity work
+
       - section: "Weekly materials"
         contents:
           - href: weeks/week-1.qmd
@@ -113,18 +100,6 @@ website:
             text: "Week 15"
           - href: weeks/week-16.qmd
             text: "Week 16"
-      # - section: "Supplementary materials for MSSC 5780"
-      #   contents:
-      #     # - href: supplemental/slr-derivations.qmd
-      #     #   text: SLR derivations
-      #     - href: supplemental/model-diagnostics-matrix.qmd
-      #       text: Model diagnostics
-      #     - href: supplemental/mlr-matrix.qmd
-      #       text: MLR matrix notation
-      #     - href: supplemental/log-transformations.qmd
-      #       text: Log transformations
-      #     - href: supplemental/model-selection-criteria.qmd
-      #       text: Model selection criteria
 
 format:
   html:

@@ -18,7 +18,7 @@ editor: visual
 
 📖 [RStudio IDE :: Cheatsheet](https://rstudio.github.io/cheatsheets/html/rstudio-ide.html?_gl=1*zsoe73*_ga*MTA1OTM3NDA3MC4xNzAyOTMyNDk4*_ga_2C0WZ1JHG0*MTcwMzM1MTM3Ni4yLjEuMTcwMzM1MTQ1Ni4wLjAuMA..)
 
-📖 [Posit Cloud Guide](https://posit.cloud/learn/guide)
+📖 [Posit Cloud Documentation](https://docs.posit.co/cloud/)
 
 ## Participate
 
@@ -30,9 +30,17 @@ editor: visual
 
 🖥️ [Slides - Git/GitHub](/slides/04-git.html)
 
-`r fontawesome::fa("table")` `ggplot2::mpg`
+```{r}
+#| echo: false
+fontawesome::fa("table")
+```
+`ggplot2::mpg`
 
-`r fontawesome::fa("table")` `ggplot2::diamond`
+```{r}
+#| echo: false
+fontawesome::fa("table")
+```
+`ggplot2::diamond`
 
 ## Perform
 

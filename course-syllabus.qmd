@@ -90,11 +90,11 @@ By the end of the semester, you will be able to...
 
 - Your grade is from the following categories and distribution
 
-  +   **25%** In-class lab exercises and participation.
+  +   **30%** In-class lab exercises and participation.
   
   +   **30%** Homework
   
-  +   **20%** Midterm mini project
+  +   **15%** Midterm mini project
   
   +   **25%** Final project competition
   
@@ -120,7 +120,7 @@ knitr::kable(grade_dist, longtable = TRUE, caption = "Grade-Percentage Conversio
 
 -   There are several **in-class** lab exercises, which are graded as **complete/incomplete** and used as evidence of attendance and class participation.
 
--   You are allowed to have **two** incomplete lab exercises without penalty. Beyond that, **2%** grade percentage will be taken off for each missing/incomplete exercise.
+-   You are allowed to have **one** incomplete lab exercise without penalty. Beyond that, **2%** grade percentage will be taken off for each missing/incomplete exercise.
 
 <!-- -   **No make-up lab exercises** for any reason. -->
 
