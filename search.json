@@ -175,14 +175,14 @@
     "href": "exercise/lab00-git.html#connect-posit-cloud-and-github-step-3",
     "title": "Lab Exercise: Git/GitHub",
     "section": "Connect Posit Cloud and GitHub: Step 3",
-    "text": "Connect Posit Cloud and GitHub: Step 3\n\nFor your GitHub page, click on the green box that says “Authorize rstudio”."
+    "text": "Connect Posit Cloud and GitHub: Step 3\n\nFor your GitHub page, click on the green box that says “Authorize posit-hosted”."
   },
   {
     "objectID": "exercise/lab00-git.html#connect-posit-cloud-and-github-step-4",
     "href": "exercise/lab00-git.html#connect-posit-cloud-and-github-step-4",
     "title": "Lab Exercise: Git/GitHub",
     "section": "Connect Posit Cloud and GitHub: Step 4",
-    "text": "Connect Posit Cloud and GitHub: Step 4\n\nBack to the Authentication of Posit Cloud, check Private repo access also enabled.\nMake sure math3570-s24 shows up under Organization access.\nClick on Request\nClick on the green box “Authorize rstudio”.\n\n\n\n\n\n\n\n\n\n\nWhen check Private repo access also enabled, will jump to GitHub page as shown."
+    "text": "Connect Posit Cloud and GitHub: Step 4\n\nBack to the Authentication of Posit Cloud, check Private repo access also enabled.\nMake sure math3570-s25 shows up under Organization access.\nClick on Grant.\nClick on the green box “Authorize posit-hosted”.\n\n\n\n\n\n\n\n\n\n\nWhen check Private repo access also enabled, will jump to GitHub page as shown."
   },
   {
     "objectID": "exercise/lab00-git.html#connect-posit-cloud-and-github-step-5",
@@ -190,13 +190,6 @@
     "title": "Lab Exercise: Git/GitHub",
     "section": "Connect Posit Cloud and GitHub: Step 5",
     "text": "Connect Posit Cloud and GitHub: Step 5\n\nOnce you’re done, both of these boxes should be checked."
-  },
-  {
-    "objectID": "exercise/lab00-git.html#connect-posit-cloud-and-github-step-5-1",
-    "href": "exercise/lab00-git.html#connect-posit-cloud-and-github-step-5-1",
-    "title": "Lab Exercise: Git/GitHub",
-    "section": "Connect Posit Cloud and GitHub: Step 5-1",
-    "text": "Connect Posit Cloud and GitHub: Step 5-1"
   },
   {
     "objectID": "exercise/lab00-git.html#connect-posit-cloud-and-github-step-6",
@@ -217,14 +210,14 @@
     "href": "exercise/lab00-git.html#github-to-posit-cloud-step-2",
     "title": "Lab Exercise: Git/GitHub",
     "section": "GitHub to Posit Cloud: Step 2",
-    "text": "GitHub to Posit Cloud: Step 2\n\nOn GitHub,\n\nclick on the green Code button, select HTTPS.\nclick on the clipboard icon on the right to copy the repo URL, such as https://github.com/math3570-s24/hw00-chenghanyu.git"
+    "text": "GitHub to Posit Cloud: Step 2\n\nOn GitHub,\n\nclick on the green Code button, select HTTPS.\nclick on the clipboard icon on the right to copy the repo URL, such as https://github.com/math3570-s25/hw00-chenghanyu.git"
   },
   {
     "objectID": "exercise/lab00-git.html#github-to-posit-cloud-step-3",
     "href": "exercise/lab00-git.html#github-to-posit-cloud-step-3",
     "title": "Lab Exercise: Git/GitHub",
     "section": "GitHub to Posit Cloud: Step 3",
-    "text": "GitHub to Posit Cloud: Step 3\n\nGo to Posit Cloud and into the course workspace 2024-spring-math-3570.\nCreate a New Project from Git Repo.\n\n\n\n\n\n\n\n\n\n\nYou will need to click on the down arrow next to the New Project button to see this option."
+    "text": "GitHub to Posit Cloud: Step 3\n\nGo to Posit Cloud and into the course workspace 2025-spring-math-3570.\nCreate a New Project from Git Repo.\n\n\n\n\n\n\n\n\n\n\nYou will need to click on the down arrow next to the New Project button to see this option."
   },
   {
     "objectID": "exercise/lab00-git.html#github-to-posit-cloud-step-4",
@@ -280,14 +273,14 @@
     "href": "exercise/lab00-git.html#posit-cloud-to-github-step-1---edit-your-file",
     "title": "Lab Exercise: Git/GitHub",
     "section": "Posit Cloud to GitHub: Step 1 - Edit your file",
-    "text": "Posit Cloud to GitHub: Step 1 - Edit your file\n\nOpen a Quarto (qmd) file in your project, in YAML change the author name to your name.\nClick Render to generate your beautiful document. (If you are asked to install any packages, please do!)"
+    "text": "Posit Cloud to GitHub: Step 1 - Edit your file\n\nOpen the quarto file hw-00-test.qmd, in YAML change the author to your name.\nClick Render to generate your beautiful document. (If asked to install any packages, please do!)"
   },
   {
     "objectID": "exercise/lab00-git.html#posit-cloud-to-github-step-2---commit-changes",
     "href": "exercise/lab00-git.html#posit-cloud-to-github-step-2---commit-changes",
     "title": "Lab Exercise: Git/GitHub",
     "section": "Posit Cloud to GitHub: Step 2 - Commit changes",
-    "text": "Posit Cloud to GitHub: Step 2 - Commit changes\n\nGo to the Git tab in your RStudio.\nClick on Diff. This shows you the difference between the last committed state of the document and its current state that includes your changes.\nCheck Staged box to add files to be committed.\nWrite “Update author’s name” in the Commit message box and hit Commit."
+    "text": "Posit Cloud to GitHub: Step 2 - Commit changes\n\nGo to the Git tab in your RStudio.\nClick on Commit. This shows you the difference between the last committed state of the document and its current state that includes your changes.\nCheck Staged box to add files to be committed.\nWrite “Update author’s name” in the Commit message box and hit Commit."
   },
   {
     "objectID": "exercise/lab00-git.html#posit-cloud-to-github-step-3---push-changes",
@@ -302,6 +295,13 @@
     "title": "Lab Exercise: Git/GitHub",
     "section": "Posit Cloud to GitHub: Step 3 - Updated Repo",
     "text": "Posit Cloud to GitHub: Step 3 - Updated Repo\n\nBack to your GitHub repo and refresh it.\nThe online repo is now synced with your local project in Posit Cloud."
+  },
+  {
+    "objectID": "exercise/lab00-git.html#resources",
+    "href": "exercise/lab00-git.html#resources",
+    "title": "Lab Exercise: Git/GitHub",
+    "section": "Resources",
+    "text": "Resources\n\n\n\nCreate a personal access token (PAT)\nTwo-factor authentication\nGit hands-on session within RStudio\nHappy Git and GitHub for the useR\nHappier version control with Git and GitHub"
   },
   {
     "objectID": "exercise/lab02-quarto.html",
@@ -381,6 +381,223 @@
     "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 11 section,\n\nUse readr::read_csv() to import the data penguins.csv into your R workspace.\nGenerate the following ggplot:\n\n\n\n\n\n\n\n\n\n\n\npenguins &lt;- read_csv(_________________)\n________ |&gt; \n  ggplot(mapping = ____(x = ______________,\n                        y = ______________,\n                        colour = ________)) +\n  geom______() +\n  ____(title = ____________________,\n       _________ = \"Dimensions for Adelie, Chinstrap, and Gentoo Penguins\",\n       x = _____________, y = _______________,\n       _______ = \"Species\",\n       _______ = \"Source: Palmer Station LTER / palmerpenguins package\")"
   },
   {
+    "objectID": "slides/04-git.html#git-and-github",
+    "href": "slides/04-git.html#git-and-github",
+    "title": "Git and GitHub \n",
+    "section": "Git and GitHub",
+    "text": "Git and GitHub\n\n\n\n\n\n\n\n\n\n\n\n\nGit is a version control system – like Track Changes features from MS Word, on steroids.\nIt’s not the only version control system, but it’s a popular one.\n\n\n\n\n\n\n\n\n\n\n\n\nGitHub is a home for Git-based projects (repository, or repo) on the cloud – like Dropbox but much better.\nWe’ll use GitHub for web hosting homework.\n\n\n\n\nR and RStudio are two different things. Same here. Git and GitHub are two different things.\nGit is a version control system like Track Changes features from Microsoft Word, but it is much more powerful.\nBasically Git helps us keep track of changes or progress of projects, so we can more easily manage our project because we can check what we did on our project on any given day.\nI’ll talk more about version control in a minute.\nGitHub is the home for Git-based projects (repository, or repo) on the internet – like Dropbox but much better.\nOnce we put those projects on the cloud in GitHub, we share our projects with others, usually our collaborators, or the entire team, so every team member can work on this project, make changes, and Git and GitHub will record who, when, and what the changes are made.\nI don’t need to teach you data science this way, but I hope you will appreciate I introduce git/github to you because knowing version control is really important for a developer."
+  },
+  {
+    "objectID": "slides/04-git.html#versioning",
+    "href": "slides/04-git.html#versioning",
+    "title": "Git and GitHub \n",
+    "section": "Versioning",
+    "text": "Versioning\n\n\n\n\n\nSource: Data Science in a Box Unit 1 - Deck 3\n\n\n\n\n\nSo think about this figure here. Versioning is like this. If you are playing Lego, and you want to build a house using Lego bricks, you would lay them out layer by layer, and you might along the way actually record what’s happening at each step.\nBase floor, walls, pillars, roof."
+  },
+  {
+    "objectID": "slides/04-git.html#versioning-with-human-readable-messages",
+    "href": "slides/04-git.html#versioning-with-human-readable-messages",
+    "title": "Git and GitHub \n",
+    "section": "Versioning with human readable messages",
+    "text": "Versioning with human readable messages\n\nInformative messages: let the next person know what happened with each change.\n\n\n\n\n\n\nSource: Data Science in a Box Unit 1 - Deck 3\n\n\n\n\n\nVersion control with git feels a lit more like this, where you have the versions, but then you actually have some human readable messages.\nRemember usually there are several people working on the same project, Adding a message on a particular version of your work let other people know what changes you made in this version comparing to the previous version.\nEven the project is an individual project, adding messages remind ourselves of what we did previously at each stage of the work.\nIn Git, The first commit which is a human readable message you make in a repository is always called the first commit or initial commit.\nThen after that you get to choose what you wanna say about it.\nLike here in version 2, we have built back and front of the base, and then in version 3, finished building base, so we are actually letting the next person who come after you that could be you looking back at a project of yours or somebody else you are collaborating with know what happened with each change  \n\nInstallation instruction.\nfurniture assembly guide"
+  },
+  {
+    "objectID": "slides/04-git.html#why-need-version-control",
+    "href": "slides/04-git.html#why-need-version-control",
+    "title": "Git and GitHub \n",
+    "section": "Why Need Version Control",
+    "text": "Why Need Version Control\n\n\nThink if you are not using version control, you very much can end up in a situation like this where you have a document you are working on, and you know we are humans feel like ok i’m almost done, I’m going to call this particular version I have final.doc.\nBut then you actually get some maybe revision comments from your advisor, and then that becomes final_rev2.doc. And you go back and forth lots of times. At the end, it’s everything like final, final3, final10, final_last whatever, it just keeps going.\nThe thing is these file names are not really very informative because final or final revisions don’t really say anything.\nBut if you really had tagged the changes you make between the final and the final 2, that could actually be informative if you actually have to go back to them."
+  },
+  {
+    "objectID": "slides/04-git.html#how-we-use-git-and-github",
+    "href": "slides/04-git.html#how-we-use-git-and-github",
+    "title": "Git and GitHub \n",
+    "section": "How We Use Git and GitHub",
+    "text": "How We Use Git and GitHub\n\nOn GitHub, I create organization math3570-s25 and repos.\n\n\n\n\n\n\nSource: Data Science in a Box Unit 1 - Deck 3\n\n\n\n\n\nHow are we going to use Git/GitHub in this class?\nWe have a course organization (2024-spring-math-3570) I created on GitHub.\nWithin the organization, there will be a bunch of repositories I created for you.\nThink each repo as a project you will be working on. It is basically your homework assignment."
+  },
+  {
+    "objectID": "slides/04-git.html#how-we-use-git-and-github-1",
+    "href": "slides/04-git.html#how-we-use-git-and-github-1",
+    "title": "Git and GitHub \n",
+    "section": "How We Use Git and GitHub",
+    "text": "How We Use Git and GitHub\n\nYou clone the repo I create for you to your Posit Cloud as an project.\n\n\n\n\n\n\nSource: Data Science in a Box Unit 1 - Deck 3\n\n\n\n\n\nAnd what you will do is you are going to go to your GitHub, find the repo that’s named after you, and then clone this as an rstudio project.\nWe talked about creating projects in our rstudio, but just lauching them there within Rstudio.\nThis time we are going to create a project from GitHub, and that’s called cloning"
+  },
+  {
+    "objectID": "slides/04-git.html#how-we-use-git-and-github-2",
+    "href": "slides/04-git.html#how-we-use-git-and-github-2",
+    "title": "Git and GitHub \n",
+    "section": "How We Use Git and GitHub",
+    "text": "How We Use Git and GitHub\n\nYou push your updated work in Posit Cloud back to GitHub.\n\n\n\n\n\n\nSource: Data Science in a Box Unit 1 - Deck 3\n\n\n\n\n\nSo you are going to clone them in Posit Cloud, and then you are going to do your assignment, write R code, and finally version control your files with Git.\nSo along the way, as you make some changes, you are going to tag these changes as commits, then every once a while, you are going to push your changes back to the repo, which means that by the deadline of an assignment, your changes need to appear in your repo, because what I will be looking at for you is not what’s happening in Posit Cloud, but actually what’s happening on GitHub. The process of of uploading your new version of work into GitHub is called Push\n\nYou push your updated work in Rstudio back to GitHub, so that as your collaborator, I can see your updated work."
+  },
+  {
+    "objectID": "slides/04-git.html#git-ready-for-data-science",
+    "href": "slides/04-git.html#git-ready-for-data-science",
+    "title": "Git and GitHub \n",
+    "section": "Git Ready for Data Science",
+    "text": "Git Ready for Data Science\n\n\nGo to https://github.com/ to create a GitHub account if you don’t have one.\n\nUse the same username and email address of your Posit Cloud.\n\n\n\nAccount (topright) &gt; Settings\n\n\nEmails &gt; Uncheck “Keep my email address private” (Link your R/Python work to GitHub)\n\nPublic Profile &gt; Name and nice picture!\n\n\nShare your GitHub username at https://forms.office.com/r/RUmTn3gadG, so I can invite you to join our course organization math3570-s25.\n\n\n\nVerify your GitHub email Adjust your GitHub settings for a more pleasant GitHub experience.\nWe’ll work with R, RStudio, Git, and GitHub together, like a real data scientist!"
+  },
+  {
+    "objectID": "slides/04-git.html#git-ready-for-data-science-1",
+    "href": "slides/04-git.html#git-ready-for-data-science-1",
+    "title": "Git and GitHub \n",
+    "section": "Git Ready for Data Science",
+    "text": "Git Ready for Data Science\n\nPlease accept my invitation to join the GitHub organization math3570-s25.\n\n\n\nuse ghclass_code.R and add usernames in students vector.\nCheck Who is already in and make sure there are 29 of them."
+  },
+  {
+    "objectID": "slides/04-git.html#git-and-github-tips",
+    "href": "slides/04-git.html#git-and-github-tips",
+    "title": "Git and GitHub \n",
+    "section": "Git and GitHub Tips",
+    "text": "Git and GitHub Tips\n\nPosit Cloud has installed Git for us! 😄\nThere are millions of git commands, and very few people know them all.\n99% of the time you will use Git to add, commit, push, and pull.\n\nok, that’s an exaggeration, but there are a lot of them\n\n\n\n\nIf you google for help and this is the solution…\nSkip that and move on to the next resource!\n\n\n\n\n\n\n\n\n\n\n\n\n\nWe will be doing Git things and interfacing with GitHub through RStudio. \n\nIf you google for help you might come across methods for doing these things in the command line.\nSkip that and move on to the next resource unless you feel comfortable trying it out."
+  },
+  {
+    "objectID": "slides/04-git.html#connect-posit-cloud-and-github-step-1",
+    "href": "slides/04-git.html#connect-posit-cloud-and-github-step-1",
+    "title": "Git and GitHub \n",
+    "section": "Connect Posit Cloud and GitHub: Step 1",
+    "text": "Connect Posit Cloud and GitHub: Step 1\n\nPosit Cloud cannot recognize your GitHub account unless you connect them each other.\nIn Posit Cloud, click on your name on the top-right corner to open the right menu.\nClick on Authentication."
+  },
+  {
+    "objectID": "slides/04-git.html#connect-posit-cloud-and-github-step-2",
+    "href": "slides/04-git.html#connect-posit-cloud-and-github-step-2",
+    "title": "Git and GitHub \n",
+    "section": "Connect Posit Cloud and GitHub: Step 2",
+    "text": "Connect Posit Cloud and GitHub: Step 2\n\nIn the Authentication window, check the box for Enabled.\n\n\n\nWhen check Enabled, will jump to GitHub page shown in the next."
+  },
+  {
+    "objectID": "slides/04-git.html#connect-posit-cloud-and-github-step-3",
+    "href": "slides/04-git.html#connect-posit-cloud-and-github-step-3",
+    "title": "Git and GitHub \n",
+    "section": "Connect Posit Cloud and GitHub: Step 3",
+    "text": "Connect Posit Cloud and GitHub: Step 3\n\nFor your GitHub page, click on the green box that says “Authorize posit-hosted”."
+  },
+  {
+    "objectID": "slides/04-git.html#connect-posit-cloud-and-github-step-4",
+    "href": "slides/04-git.html#connect-posit-cloud-and-github-step-4",
+    "title": "Git and GitHub \n",
+    "section": "Connect Posit Cloud and GitHub: Step 4",
+    "text": "Connect Posit Cloud and GitHub: Step 4\n\n\n\nBack to the Authentication of Posit Cloud, check Private repo access also enabled.\n\n\nMake sure math3570-s25 shows up under Organization access.\nClick on Grant.\nClick on the green box “Authorize posit-hosted”.\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhen check Private repo access also enabled, will jump to GitHub page as shown."
+  },
+  {
+    "objectID": "slides/04-git.html#connect-posit-cloud-and-github-step-5",
+    "href": "slides/04-git.html#connect-posit-cloud-and-github-step-5",
+    "title": "Git and GitHub \n",
+    "section": "Connect Posit Cloud and GitHub: Step 5",
+    "text": "Connect Posit Cloud and GitHub: Step 5\n\nOnce you’re done, both of these boxes should be checked."
+  },
+  {
+    "objectID": "slides/04-git.html#connect-posit-cloud-and-github-step-6",
+    "href": "slides/04-git.html#connect-posit-cloud-and-github-step-6",
+    "title": "Git and GitHub \n",
+    "section": "Connect Posit Cloud and GitHub: Step 6",
+    "text": "Connect Posit Cloud and GitHub: Step 6\n\nConfirm that you’ve linked up your GitHub and Posit Cloud accounts GitHub settings &gt; Applications. Should see Posit Cloud listed as an authorized app under Authorized OAuth Apps.\n\n\n\nIf you see RStudio is under the Authorized Apps, congratulations! Your RStudio and GitHub are now linked together!"
+  },
+  {
+    "objectID": "slides/04-git.html#github-to-posit-cloud-step-1",
+    "href": "slides/04-git.html#github-to-posit-cloud-step-1",
+    "title": "Git and GitHub \n",
+    "section": "GitHub to Posit Cloud: Step 1",
+    "text": "GitHub to Posit Cloud: Step 1\n\nEach of your assignments will begin with the following steps.\nGo to the repo named hw00-yourusername I created for you.\n\n\nhttps://mine-cetinkaya-rundel.github.io/teach-r-online/ - OK. Now let’s see how to clone a repo in GitHub to your RStudio.\n\nUse the code ::: {.cell layout-align=“center”}\n\nThis repo contains a template you can build on to complete your assignment.\n\n:::"
+  },
+  {
+    "objectID": "slides/04-git.html#github-to-posit-cloud-step-2",
+    "href": "slides/04-git.html#github-to-posit-cloud-step-2",
+    "title": "Git and GitHub \n",
+    "section": "GitHub to Posit Cloud: Step 2",
+    "text": "GitHub to Posit Cloud: Step 2\n\n\nClick on the green Code button, select HTTPS.\nClick on the clipboard icon on the right to copy the repo URL, such as https://github.com/math3570-s25/hw00-chenghanyu.git"
+  },
+  {
+    "objectID": "slides/04-git.html#github-to-posit-cloud-step-3",
+    "href": "slides/04-git.html#github-to-posit-cloud-step-3",
+    "title": "Git and GitHub \n",
+    "section": "GitHub to Posit Cloud: Step 3",
+    "text": "GitHub to Posit Cloud: Step 3\n\nGo to Posit Cloud and into the course workspace 2025-spring-math-3570.\nNew Project &gt; New Project from Git Repo.\n\n\nYou will need to click on the down arrow next to the New Project button to see this option."
+  },
+  {
+    "objectID": "slides/04-git.html#github-to-posit-cloud-step-4",
+    "href": "slides/04-git.html#github-to-posit-cloud-step-4",
+    "title": "Git and GitHub \n",
+    "section": "GitHub to Posit Cloud: Step 4",
+    "text": "GitHub to Posit Cloud: Step 4\n\nCopy and paste the URL of your assignment repo into the dialog box.\nHit OK, and you’re good to go!"
+  },
+  {
+    "objectID": "slides/04-git.html#github-to-posit-cloud-step-5",
+    "href": "slides/04-git.html#github-to-posit-cloud-step-5",
+    "title": "Git and GitHub \n",
+    "section": "GitHub to Posit Cloud: Step 5",
+    "text": "GitHub to Posit Cloud: Step 5\n\nClick hw00-yourusername to do your assignment in Posit Cloud!\n\n\n\nDone! We learned the entire process of cloning a repo on GitHub to Posit Cloud as a project.\nNext, we’ll see how to keep your revision record (commit) and send (push) the latest revised version of your work from Posit Cloud to GitHub!"
+  },
+  {
+    "objectID": "slides/04-git.html#personal-access-token-pat-step-1",
+    "href": "slides/04-git.html#personal-access-token-pat-step-1",
+    "title": "Git and GitHub \n",
+    "section": "Personal Access Token (PAT): Step 1",
+    "text": "Personal Access Token (PAT): Step 1\n\nGitHub has removed the support for Password Authentication for Git operations.\nBefore we can send our work in Posit Cloud to GitHub, we need Personal Access Token (PAT)\nSettings &gt; Developer settings\n\n\n\nGitHub has removed the support for Password Authentication for Git operations.\nfor more safety.\nfrom 08/13/2021."
+  },
+  {
+    "objectID": "slides/04-git.html#personal-access-token-pat-step-2",
+    "href": "slides/04-git.html#personal-access-token-pat-step-2",
+    "title": "Git and GitHub \n",
+    "section": "Personal Access Token (PAT): Step 2",
+    "text": "Personal Access Token (PAT): Step 2"
+  },
+  {
+    "objectID": "slides/04-git.html#personal-access-token-pat-step-3",
+    "href": "slides/04-git.html#personal-access-token-pat-step-3",
+    "title": "Git and GitHub \n",
+    "section": "Personal Access Token (PAT): Step 3",
+    "text": "Personal Access Token (PAT): Step 3"
+  },
+  {
+    "objectID": "slides/04-git.html#personal-access-token-pat-step-4",
+    "href": "slides/04-git.html#personal-access-token-pat-step-4",
+    "title": "Git and GitHub \n",
+    "section": "Personal Access Token (PAT): Step 4",
+    "text": "Personal Access Token (PAT): Step 4"
+  },
+  {
+    "objectID": "slides/04-git.html#personal-access-token-pat-step-5",
+    "href": "slides/04-git.html#personal-access-token-pat-step-5",
+    "title": "Git and GitHub \n",
+    "section": "Personal Access Token (PAT): Step 5",
+    "text": "Personal Access Token (PAT): Step 5\n\nCopy and paste your PAT to a secrete and safe space!!"
+  },
+  {
+    "objectID": "slides/04-git.html#posit-cloud-to-github-step-1---edit-your-file",
+    "href": "slides/04-git.html#posit-cloud-to-github-step-1---edit-your-file",
+    "title": "Git and GitHub \n",
+    "section": "Posit Cloud to GitHub: Step 1 - Edit your file",
+    "text": "Posit Cloud to GitHub: Step 1 - Edit your file\n\nOpen the quarto file hw-00-test.qmd, in YAML change the author to your name.\nClick Render to generate your beautiful document. (If asked to install any packages, please do!)"
+  },
+  {
+    "objectID": "slides/04-git.html#posit-cloud-to-github-step-2---commit-changes",
+    "href": "slides/04-git.html#posit-cloud-to-github-step-2---commit-changes",
+    "title": "Git and GitHub \n",
+    "section": "Posit Cloud to GitHub: Step 2 - Commit changes",
+    "text": "Posit Cloud to GitHub: Step 2 - Commit changes\n\nGo to the Git tab in your RStudio.\nClick on Commit. This shows you the difference between the last committed state of the document and its current state that includes your changes.\nCheck Staged box to add files to be committed.\nWrite “Update author’s name” in the Commit message box and hit Commit."
+  },
+  {
+    "objectID": "slides/04-git.html#posit-cloud-to-github-step-3---push-changes",
+    "href": "slides/04-git.html#posit-cloud-to-github-step-3---push-changes",
+    "title": "Git and GitHub \n",
+    "section": "Posit Cloud to GitHub: Step 3 - Push changes",
+    "text": "Posit Cloud to GitHub: Step 3 - Push changes\n\nWe’ve made an update and committed this change locally.\nIt’s time to push the changes to your repo on GitHub, so that others (Dr. Yu) can see your changes.\nClick on Push.\nIn the prompted dialogue box, enter your GitHub user name, and your password (PAT).\n\n\nhttps://inbo.github.io/git-course/course_rstudio.html"
+  },
+  {
+    "objectID": "slides/04-git.html#posit-cloud-to-github-step-3---updated-repo",
+    "href": "slides/04-git.html#posit-cloud-to-github-step-3---updated-repo",
+    "title": "Git and GitHub \n",
+    "section": "Posit Cloud to GitHub: Step 3 - Updated Repo",
+    "text": "Posit Cloud to GitHub: Step 3 - Updated Repo\n\nBack to your GitHub repo and refresh it.\nThe online repo is now synced with your local project in Posit Cloud."
+  },
+  {
+    "objectID": "slides/04-git.html#resources",
+    "href": "slides/04-git.html#resources",
+    "title": "Git and GitHub \n",
+    "section": "Resources",
+    "text": "Resources\n\n\n\nCreate a personal access token (PAT)\nTwo-factor authentication\nGit hands-on session within RStudio\nHappy Git and GitHub for the useR\nHappier version control with Git and GitHub\n\n\n\n\n\n\n\n\n\n\n\n\nExercise: Click on the more button in the git pane and select Shell Type git config –global credential.helper store Type exit to quit the shell \n\n\n\n\n\n\n\n\n\nmath3570-s25.github.io/website"
+  },
+  {
     "objectID": "course-news.html",
     "href": "course-news.html",
     "title": "News/Announcements",
@@ -397,6 +614,17 @@
     "title": "News/Announcements",
     "section": "Jan 7, 2025",
     "text": "Jan 7, 2025\n\nThe background survey form is at https://forms.office.com/r/3ntBAWupYS.",
+    "crumbs": [
+      "Course information",
+      "News/Annoucements"
+    ]
+  },
+  {
+    "objectID": "course-news.html#jan-14-2025",
+    "href": "course-news.html#jan-14-2025",
+    "title": "News/Announcements",
+    "section": "Jan 14, 2025",
+    "text": "Jan 14, 2025\n\nNo office hours first week.",
     "crumbs": [
       "Course information",
       "News/Annoucements"
@@ -667,17 +895,6 @@
     ]
   },
   {
-    "objectID": "weeks/week-2.html#reading-and-resources",
-    "href": "weeks/week-2.html#reading-and-resources",
-    "title": "Week 2",
-    "section": "Reading and Resources",
-    "text": "Reading and Resources\n\nGit/GitHub\n📖 Create a personal access token (PAT)\n📖 Two-factor authentication\n📖 Git hands-on session within RStudio\n📖 Happy Git and GitHub for the useR\n📖 Happier version control with Git and GitHub\n\n\nMarkdown\n📖 Markdown Tutorial\n📖 Mastering Markdown GitHub Guides\n📖 Markdown Guide\n\n\nQuarto\n📖 Quarto Website\n📖 Get Started with Quarto\n📖 R for Data Science - Quarto",
-    "crumbs": [
-      "Weekly materials",
-      "Week 2"
-    ]
-  },
-  {
     "objectID": "weeks/week-2.html#participate",
     "href": "weeks/week-2.html#participate",
     "title": "Week 2",
@@ -693,7 +910,18 @@
     "href": "weeks/week-2.html#perform",
     "title": "Week 2",
     "section": "Perform",
-    "text": "Perform\n📋 Lab-00 Git/GitHub\n📋 Lab-02 Quarto File\n📋 Lab-03 Markdown\n📋 Lab-04 Code Chunk\n\n\nBack to course schedule ⏎",
+    "text": "Perform\n📋 Lab-00 Git/GitHub\n📋 Lab-02 Quarto File\n📋 Lab-03 Markdown\n📋 Lab-04 Code Chunk",
+    "crumbs": [
+      "Weekly materials",
+      "Week 2"
+    ]
+  },
+  {
+    "objectID": "weeks/week-2.html#reading-and-resources",
+    "href": "weeks/week-2.html#reading-and-resources",
+    "title": "Week 2",
+    "section": "Reading and Resources",
+    "text": "Reading and Resources\n\nGit/GitHub\n📖 Create a personal access token (PAT)\n📖 Two-factor authentication\n📖 Git hands-on session within RStudio\n📖 Happy Git and GitHub for the useR\n📖 Happier version control with Git and GitHub\n\n\nMarkdown\n📖 Markdown Tutorial\n📖 Mastering Markdown GitHub Guides\n📖 Markdown Guide\n\n\nQuarto\n📖 Quarto Website\n📖 Get Started with Quarto\n📖 R for Data Science - Quarto\n\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
       "Week 2"
@@ -1211,7 +1439,7 @@
     "href": "index.html",
     "title": "MATH/COSC 3570 Introduction to Data Science (Spring 2025)",
     "section": "",
-    "text": "Announcement: The background survey form is at https://forms.office.com/r/3ntBAWupYS.\n\nThis page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses, with all changes documented here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTo Do\nSlides\nLab Exercise\nHomework\nLab Presentation\nProject\n\n\n\n\n1\nTue, Jan 14\nGreetings + Overview of Data Science\n📖\n🖥️ 🖥️\n\n\n\n\n\n\n\nThu, Jan 16\nPosit Cloud and Git/GitHub Introduction\n\n🖥️\n📋📋\n\n\n\n\n\n2\nTue, Jan 21\nConnecting Posit Cloud with GitHub\n📖\n🖥️\n📋\n\n\n\n\n\n\nThu, Jan 23\nQuarto\n\n🖥️\n📋📋📋\n\n\n\n\n\n3\nTue, Jan 28\nQuarto\n\n\n\n\n\n\n\n\n\nThu, Jan 30\nR/Python Programming\n📖\n🖥️\n\n\n\n\n\n\n4\nTue, Feb 4\nPython Programming\n\n\n📋📋\n\n\n\n\n\n\nThu, Feb 6\nR Tidyverse\n📖\n🖥️\n\n✍️\n\n\n\n\n5\nTue, Feb 11\nPython Pandas/NumPy\n\n\n📋📋\n\n✅\n\n\n\n\nThu, Feb 13\nData Importing\n📖\n🖥️\n📋\n\n\n\n\n\n6\nTue, Feb 18\nData Importing\n\n\n\n\n\n\n\n\n\nThu, Feb 20\nData Visualization-ggplot2\n📖\n🖥️\n📋\n\n\n\n\n\n7\nTue, Feb 25\nData Visualization-categorical and numerical data\n📖\n🖥️\n📋📋\n\n\n\n\n\n\nThu, Feb 27\nInteractive Data Visualization\n\n🖥️\n\n\n\n\n\n\n8\nTue, Mar 4\nData Wrangling - one data frame\n📖\n🖥️\n📋\n\n✅\n\n\n\n\nThu, Mar 6\nData Wrangling - two data frames\n\n🖥️\n📋\n\n\n\n\n\n9\nTue, Mar 11\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\n\nThu, Mar 13\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\n10\nTue, Mar 18\nMini Project Presentation\n📖\n🖥️\n📋\n✍️\n\n\n\n\n\nThu, Mar 20\nData Wrangling - tidyr\n\n🖥️\n📋\n\n\n\n\n\n11\nTue, Mar 25\nProbabilistic and Statistical Simulation\n\n\n📋\n\n\n\n\n\n\nThu, Mar 27\nProbabilistic and Statistical Simulation\n\n\n\n\n\nTeam Up 📂\n\n\n12\nTue, Apr 1\nLinear Regression\n📖\n🖥️\n\n\n\n\n\n\n\nThu, Apr 3\nLinear Regression\n\n\n📋\n\n\n\n\n\n13\nTue, Apr 8\nLogistic Regression\n📖\n🖥️\n\n\n\n\n\n\n\nThu, Apr 10\nLogistic Regression\n\n\n📋\n✍️\n\n\n\n\n14\nTue, Apr 15\nK-Nearest Neighbors\n📖\n🖥️\n\n\n\n\n\n\n\nThu, Apr 17\nNO CLASS: Easter break\n\n\n📋\n\n\n\n\n\n15\nTue, Apr 22\nPrincipal Component Analysis\n📖\n🖥️\n\n\n\n\n\n\n\nThu, Apr 24\nPrincipal Component Analysis\n\n\n📋\n\n\nProposal 📂\n\n\n16\nTue, Apr 29\nK-Means Clustering\n📖\n🖥️\n\n\n\n\n\n\n\nThu, May 1\nFinal Project Presentation I\n\n🖥️\n📋\n\n\n\n\n\n17\nMon, May 5\nFinal Project Presentation II\n\n\n\n\n\n\n\n\n\n\nI reserve the right to make changes to the schedule.",
+    "text": "Announcement:\n\nThe background survey is at https://forms.office.com/r/3ntBAWupYS.\nNo office hours first week.\n\n\nThis schedule will be updated as the semester progresses, with all changes documented here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTo Do\nSlides\nLab Exercise\nHomework\nProject\n\n\n\n\n1\nTue, Jan 14\nGreetings + Overview of Data Science\n📖\n🖥️syllabus 🖥️overview\n\n\n\n\n\n\nThu, Jan 16\nPosit Cloud and Git/GitHub Introduction\n\n🖥️posit\n📋 posit 📋01\n\n\n\n\n2\nTue, Jan 21\nConnecting Posit Cloud with GitHub\n📖\n🖥️git\n📋github\n\n\n\n\n\nThu, Jan 23\nQuarto\n\n🖥️quarto\n📋02 📋03 📋04\n\n\n\n\n3\nTue, Jan 28\nQuarto\n\n\n\n\n\n\n\n\nThu, Jan 30\nR/Python Programming\n📖\n🖥️\n\n\n\n\n\n4\nTue, Feb 4\nPython Programming\n\n\n📋📋\n\n\n\n\n\nThu, Feb 6\nR Tidyverse\n📖\n🖥️\n\n✍️\n\n\n\n5\nTue, Feb 11\nPython Pandas/NumPy\n\n\n📋📋\n\n\n\n\n\nThu, Feb 13\nData Importing\n📖\n🖥️\n📋\n\n\n\n\n6\nTue, Feb 18\nData Importing\n\n\n\n\n\n\n\n\nThu, Feb 20\nData Visualization-ggplot2\n📖\n🖥️\n📋\n\n\n\n\n7\nTue, Feb 25\nData Visualization-categorical and numerical data\n📖\n🖥️\n📋📋\n\n\n\n\n\nThu, Feb 27\nInteractive Data Visualization\n\n🖥️\n\n\n\n\n\n8\nTue, Mar 4\nData Wrangling - one data frame\n📖\n🖥️\n📋\n\n\n\n\n\nThu, Mar 6\nData Wrangling - two data frames\n\n🖥️\n📋\n\n\n\n\n9\nTue, Mar 11\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\nThu, Mar 13\nNO CLASS: Spring break\n\n\n\n\n\n\n\n10\nTue, Mar 18\nMini Project Presentation\n📖\n🖥️\n📋\n✍️\n\n\n\n\nThu, Mar 20\nData Wrangling - tidyr\n\n🖥️\n📋\n\n\n\n\n11\nTue, Mar 25\nProbabilistic and Statistical Simulation\n\n\n📋\n\n\n\n\n\nThu, Mar 27\nProbabilistic and Statistical Simulation\n\n\n\n\nTeam Up 📂\n\n\n12\nTue, Apr 1\nLinear Regression\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 3\nLinear Regression\n\n\n📋\n\n\n\n\n13\nTue, Apr 8\nLogistic Regression\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 10\nLogistic Regression\n\n\n📋\n✍️\n\n\n\n14\nTue, Apr 15\nK-Nearest Neighbors\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 17\nNO CLASS: Easter break\n\n\n📋\n\n\n\n\n15\nTue, Apr 22\nPrincipal Component Analysis\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 24\nPrincipal Component Analysis\n\n\n📋\n\nProposal 📂\n\n\n16\nTue, Apr 29\nK-Means Clustering\n📖\n🖥️\n\n\n\n\n\n\nThu, May 1\nFinal Project Presentation I\n\n🖥️\n📋\n\n\n\n\n17\nMon, May 5\nFinal Project Presentation II\n\n\n\n\n\n\n\n\n\nI reserve the right to make changes to the schedule.",
     "crumbs": [
       "Course information",
       "Schedule"
@@ -1379,6 +1607,167 @@
     "text": "Python for Data Science\n\n\n\n\n\nSource: https://www.e2enetworks.com/blog/9-python-libraries-for-data-science-and-artificial-intelligence\n\n\n\n\n\n\n\n\nmath3570-s25.github.io/website"
   },
   {
+    "objectID": "slides/03-posit.html#integrated-development-environment",
+    "href": "slides/03-posit.html#integrated-development-environment",
+    "title": "Posit Cloud ☁️",
+    "section": "Integrated Development Environment",
+    "text": "Integrated Development Environment\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR and Python are programming languages.\n\nPosit Cloud offers two integrated development environments (IDE):\n\nRStudio\nJupyterLab/Jupyter Notebook\n\n\n\nwhich are software for efficiently writing computer programs.\n\nWe’ll use Posit Cloud to write R and Python code.\nThe first tool we need is Posit Cloud which is a cloud service provided by the company Posit.   \n\nR is not a general-purpose programming language like python or java, but it is specifically for data science. And that’s probably why you don’t learn R in an intro programming course.\nSo you can view Python as a smart phone. It can do many different things, phone, camera, email, social media. But R is like a high quality camera. You cannot use it to write emails, text messages, but it produces high quality photos.\nRStudio is not a programming language, but a software application.\nCode itself is just a text file. You can use any text editor or software to write your code.\nSo RStudio makes programming in R more easily and efficiently. It provides so many useful functions for you that doing data science becomes a piece of cake.\nToday, You are gonna have a chance to play with different panes and functions in RStudio. OK."
+  },
+  {
+    "objectID": "slides/03-posit.html#posit-cloud---data-science-wo-hardware-hassles",
+    "href": "slides/03-posit.html#posit-cloud---data-science-wo-hardware-hassles",
+    "title": "Posit Cloud ☁️",
+    "section": "☁️ Posit Cloud - Data Science w/o hardware hassles",
+    "text": "☁️ Posit Cloud - Data Science w/o hardware hassles\n\n😎 Implement R/Python programs without needing to install R/Python and the IDE in your laptop!\n😎 Posit Cloud lets you do, share and learn data science entirely online!\n\n\n\n😞 Get everything ready locally: Lots of friction\n\nDownload and install R/Python\nDownload and install IDE\nInstall wanted R/Python packages:\n\ntidymodels\ntidyverse\nNumPy\n…\n\n\nDownload and install tools like Git\n\n\n\n\n🤓 Posit Cloud: Much less friction\n\n\n\n\n\n\n\n\n\nGo to https://posit.cloud/\n\nLog in\n&gt; hello world!\n\n\n\n\n\n\nWhy I choose posit cloud for you to code in R? Well if I want every one of you use R/Python and RStudio locally in your computer, you have to (_____). And we need some magic to make sure everyone gets the coding environment ready.\nInstead, with the Cloud-based solution, you just need to login, then you start writing code right away.\nPosit Cloud provides you with the latest version of R and RStudio. No installation is required.\nDoesn’t mean you should always use Posit Cloud version. It’s not free if you need more resources.\nIf later you program a lot, you should absolutely install them locally into your laptop."
+  },
+  {
+    "objectID": "slides/03-posit.html#install-posit-cloud",
+    "href": "slides/03-posit.html#install-posit-cloud",
+    "title": "Posit Cloud ☁️",
+    "section": "Install Posit Cloud",
+    "text": "Install Posit Cloud\n\n\n\nStep 1: In the Posit website https://posit.co/, choose Products &gt; Posit Cloud as shown below."
+  },
+  {
+    "objectID": "slides/03-posit.html#install-posit-cloud-1",
+    "href": "slides/03-posit.html#install-posit-cloud-1",
+    "title": "Posit Cloud ☁️",
+    "section": "Install Posit Cloud",
+    "text": "Install Posit Cloud\n\nStep 2: Click GET STARTED.\nStep 3: Cloud Student &gt; Sign Up using your Marquette email address.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfile:///Users/chenghanyu/Dropbox/academia/books/r/teach-r-online-master/01-cloud/01-cloud.html#37"
+  },
+  {
+    "objectID": "slides/03-posit.html#new-projects",
+    "href": "slides/03-posit.html#new-projects",
+    "title": "Posit Cloud ☁️",
+    "section": "New Projects",
+    "text": "New Projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWe will talk about Git/GitHub shortly."
+  },
+  {
+    "objectID": "slides/03-posit.html#workspaces",
+    "href": "slides/03-posit.html#workspaces",
+    "title": "Posit Cloud ☁️",
+    "section": "Workspaces",
+    "text": "Workspaces\n\nWhen you create an account on Posit Cloud you get a workspace of your own.\nYou can add a new workspace (click + New Space in sidebar) and control its permissions."
+  },
+  {
+    "objectID": "slides/03-posit.html#welcome-to-3570-data-science",
+    "href": "slides/03-posit.html#welcome-to-3570-data-science",
+    "title": "Posit Cloud ☁️",
+    "section": "Welcome to 3570 Data Science!",
+    "text": "Welcome to 3570 Data Science!\n\n\nI’m sending you a link via email for joining the course workspace 2025-spring-math-3570. Please join.\n\n\n\n\n\n\n\n\n\n\nGo to D2l to send Posit Cloud invitation\nSubject Posit Cloud Invitation Message https://posit.cloud/spaces/459948/join?access_code=JY6N0CSQWE5qa7QFYxYKqWT9awi6wP2JqV3UNfj6\nBest, Dr. Yu"
+  },
+  {
+    "objectID": "slides/03-posit.html#section-1",
+    "href": "slides/03-posit.html#section-1",
+    "title": "Posit Cloud ☁️",
+    "section": "",
+    "text": "In the bar, click workspace 2025-spring-math-3570.\nIn the workspace, click New Project &gt; New RStudio Project to get into the IDE.\nIn Untitled Project, name your project as 3570-project.\nIn the Console pane, write R code: a string \"Hello WoRld!\" or math 2 + 4.\nTools &gt; Global Options &gt; Appearance to select your favorite editor theme."
+  },
+  {
+    "objectID": "slides/03-posit.html#more-tips",
+    "href": "slides/03-posit.html#more-tips",
+    "title": "Posit Cloud ☁️",
+    "section": "More Tips",
+    "text": "More Tips\n\nRead the Posit Cloud Documentation"
+  },
+  {
+    "objectID": "slides/03-posit.html#panes",
+    "href": "slides/03-posit.html#panes",
+    "title": "Posit Cloud ☁️",
+    "section": "Panes",
+    "text": "Panes\n\n\nIn RStudio, there are 4 main panes, source pane, console pane, pane for environment/history and version control, and the pane for files plots packages and help page.\nSource pane is where you write your code. Your code will not be evaluated or interpreted until you “run” them or source them to the console.\nTry to write your code in R/Python scripts in the Source, so that the code can be saved and reused later.\nYou type code into the Console if the code is short or you want to do some quick calculations or analysis. The code you type in the Console will not be saved in a script.\nIn the environment/history, you can check any objects you create in the R/Python environment and you can also view your command history in the history tab.\nAnd you will see how the pane for file/plot/package/help can be used as we learn more about RStudio."
+  },
+  {
+    "objectID": "slides/03-posit.html#r-script",
+    "href": "slides/03-posit.html#r-script",
+    "title": "Posit Cloud ☁️",
+    "section": "R Script",
+    "text": "R Script\n\nA R script is a .R file that contains R code.\nTo create a R script, go to File &gt; New &gt; R Script, or click the green-plus icon on the topleft corner, and select R Script.\n\n\n\nHere you see in this r script, I create two objects x and y, and I also load the data called mtcars into R environment.\nDon’t worry if you don’t know these syntax. I will teach you basic R syntax and programming next week."
+  },
+  {
+    "objectID": "slides/03-posit.html#run-code",
+    "href": "slides/03-posit.html#run-code",
+    "title": "Posit Cloud ☁️",
+    "section": "Run Code",
+    "text": "Run Code\n\n\nRun: run the current line or selection of code.\n\n\nctrl + enter (Win) or cmd + enter (Mac)\n\n\n\nIcon right to the Run: re-run the previous code.\n\n\nalt + ctrl + p (Win) or option + cmd + p (Mac)\n\n\n\nSource: run all the code in the R script.\n\n\nshift + ctrl + s (Win) or shift + cmd + s (Mac)\n\n\n\nSource with Echo: run all the code in the R script with the code printed in the console.\n\n\nshift + ctrl + enter (Win) or shift + cmd + enter (Mac)\n\n\n\n\n\n\nSource: run all the code in the R script with NO output\n\nSource with Echo: run all the code in the R script and show output\n\nDepending on your purpose, you can run code line by line or run the entire code.\nTo run the R code line by line, Click Run icon to run the current line or selection of code. Or use key-binding ctrl + enter (windows) or cmd + enter (mac)"
+  },
+  {
+    "objectID": "slides/03-posit.html#environment-tab",
+    "href": "slides/03-posit.html#environment-tab",
+    "title": "Posit Cloud ☁️",
+    "section": "Environment Tab",
+    "text": "Environment Tab\n\nThe (global) environment is where we are currently working.\nAnything created or imported into the current R/Python session is stored in the environment and shown in the Environment tab.\n\nAfter we run the R script, objects stored in the environment are\n\nData set mtcars\n\nObject x storing integer values 1 to 10.\nObject y storing three numeric values 3, 5, 9.\n\n\n\n\n\nAnything created or imported into the current R session is stored in our environment and shown in the Environment tab.\nWe’ll talk about the R data type in detail later."
+  },
+  {
+    "objectID": "slides/03-posit.html#python-script",
+    "href": "slides/03-posit.html#python-script",
+    "title": "Posit Cloud ☁️",
+    "section": "Python Script",
+    "text": "Python Script\n\nA Python script is a .py file that contains Python code.\nTo create a Python script, go to File &gt; New &gt; Python Script, or click the green-plus icon on the topleft corner, and select Python Script."
+  },
+  {
+    "objectID": "slides/03-posit.html#run-python-code",
+    "href": "slides/03-posit.html#run-python-code",
+    "title": "Posit Cloud ☁️",
+    "section": "Run Python Code",
+    "text": "Run Python Code\n\nRunning Python code may need to update some packages. Please say YES!\nWhen you run the Python code in the R console, or type reticulate::repl_python(), the console will switch from R to Python.\nIn the Python console &gt;&gt;&gt; quit to switch back to the R console.\n\n\n\n\n\n\n\n\n\nREPL = Read, Evaluate, Print, and Loop\nor type reticulate::repl_python()"
+  },
+  {
+    "objectID": "slides/03-posit.html#environment-tab-1",
+    "href": "slides/03-posit.html#environment-tab-1",
+    "title": "Posit Cloud ☁️",
+    "section": "Environment Tab",
+    "text": "Environment Tab\n\nAfter we run the Python script, the object stored in the environment is\n\nObject b storing a string Hello World!\n\n\n\n\n\n\nAnything created or imported into the current R session is stored in our environment and shown in the Environment tab.\nWe’ll talk about the R data type in detail later."
+  },
+  {
+    "objectID": "slides/03-posit.html#history-tab",
+    "href": "slides/03-posit.html#history-tab",
+    "title": "Posit Cloud ☁️",
+    "section": "History Tab",
+    "text": "History Tab\n\nThe History tab keeps a record of all previous commands.\n\n\nsave icon: save all history to a file\n\nTo Console: send the selected commands to the console.\n\nTo Source: inserted the selected commands into the current script."
+  },
+  {
+    "objectID": "slides/03-posit.html#history-tab-1",
+    "href": "slides/03-posit.html#history-tab-1",
+    "title": "Posit Cloud ☁️",
+    "section": "History Tab",
+    "text": "History Tab\n\nThe History tab keeps a record of all previous commands.\n\n\nsave icon: save all history to a file\n\nTo Console: send the selected commands to the console.\n\nTo Source: inserted the selected commands into the current script.\n\n\n\n\nIn the console pane, use ⬆️ to show the previous commands."
+  },
+  {
+    "objectID": "slides/03-posit.html#r-packages",
+    "href": "slides/03-posit.html#r-packages",
+    "title": "Posit Cloud ☁️",
+    "section": "R Packages 📦",
+    "text": "R Packages 📦\n\nWhen we start a R session, only built-in packages like base, stats, graphics, etc are available.\nInstalling packages is an easy way to get access to others data and functions.\n\n\n and more!\n\nA language with many great add-on packages can become a very useful language.\npackages: which is a collection of functions and data for people to use."
+  },
+  {
+    "objectID": "slides/03-posit.html#installing-r-packages",
+    "href": "slides/03-posit.html#installing-r-packages",
+    "title": "Posit Cloud ☁️",
+    "section": "Installing R Packages 📦",
+    "text": "Installing R Packages 📦\n\n\n\nTo install a package, for example, the ggplot2 package, we use the command\n\n\ninstall.packages(\"ggplot2\")\n\n\n\n\n\n\n\n\n\n\n\n\nIn the right-bottom pane, Packages &gt; Install"
+  },
+  {
+    "objectID": "slides/03-posit.html#loading-r-packages",
+    "href": "slides/03-posit.html#loading-r-packages",
+    "title": "Posit Cloud ☁️",
+    "section": "Loading R Packages 📦",
+    "text": "Loading R Packages 📦\n\n\n\nWhat happened when you run\n\nggplot(mpg, aes(x = displ, \n                y = hwy, \n                colour = class)) + \n    geom_point()\n\n\n\n\nTo use any function or data in ggplot2, we write ggplot2:: followed by the name of the function or data.\n\n\nggplot2::ggplot(ggplot2::mpg, \n                ggplot2::aes(\n                    x = displ, \n                    y = hwy, \n                    colour = class)\n                ) + \n    ggplot2::geom_point()\n\n\n\n\n\nWe can load the package into our R session using library().\n\nWith library(ggplot2), R knows the function and data are from the ggplot2 package.\n\n\nlibrary(ggplot2)\nggplot(mpg, aes(x = displ, \n                y = hwy, \n                colour = class)) + \n    geom_point()"
+  },
+  {
+    "objectID": "slides/03-posit.html#help",
+    "href": "slides/03-posit.html#help",
+    "title": "Posit Cloud ☁️",
+    "section": "Help",
+    "text": "Help\n\nDon’t know how a function works or what a data set is about ❓\n👉 Simply type ? followed by the data name or function name like\n\n\n?mean\n?mpg\n\n\n\nWhat does the function mean() do? What is the size of mpg?\n\n\n\n\n\n\n\n\n\n\n\nA document will show up in the Help tab, teaching you how to use the function or explaining the data set."
+  },
+  {
+    "objectID": "slides/03-posit.html#section-4",
+    "href": "slides/03-posit.html#section-4",
+    "title": "Posit Cloud ☁️",
+    "section": "",
+    "text": "01-Running R Script\n\nLoad R package ggplot2 into your Posit Cloud.\n\n\n## install the package if you haven't!\n________(ggplot2)\n\n\nCreate a R script named lab01-run-script.R in your 3570-project.\nCopy and paste the code below into the script, and save it.\n\n\nbar &lt;- ggplot(data = diamonds) + \n    geom_bar(mapping = aes(x = cut, fill = cut), \n             show.legend = FALSE, width = 1) + \n    theme(aspect.ratio = 1) +\n    labs(x = NULL, y = NULL)\nbar + coord_flip()\nbar + coord_polar()\n\n\nSource the script. A pretty plot showing up?!  \n\n\n\n\n\n\n\nmath3570-s25.github.io/website"
+  },
+  {
     "objectID": "exercise/lab13-visualization.html",
     "href": "exercise/lab13-visualization.html",
     "title": "Lab 13: Visualization",
@@ -1467,14 +1856,14 @@
     "href": "exercise/lab00-posit.html#install-posit-cloud",
     "title": "Lab Exercise: Posit Cloud",
     "section": "Install Posit Cloud",
-    "text": "Install Posit Cloud\n\nStep 1: In the Posit website https://posit.co/, choose Products &gt; Posit Cloud as shown below.\n\n\n\n\n\n\n\n\n\n\n\nStep 2: Click GET STARTED.\nStep 3: Free or Student &gt; Sign Up. Please sign up with GitHub if you have one or use your Marquette email address.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew project"
+    "text": "Install Posit Cloud\n\nStep 1: In the Posit website https://posit.co/, choose Products &gt; Posit Cloud as shown below.\n\n\n\n\n\n\n\n\n\n\n\nStep 2: Click GET STARTED.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStep 3: Cloud Student &gt; Sign Up using your Marquette email address.\n\n\n\n\n\n\n\n\n\n\nThe student plan has more computing power and resources that help you do homework and data science project more efficiently!\n\nNew project"
   },
   {
     "objectID": "exercise/lab00-posit.html#welcome-to-3570-data-science",
     "href": "exercise/lab00-posit.html#welcome-to-3570-data-science",
     "title": "Lab Exercise: Posit Cloud",
     "section": "Welcome to 3570 Data Science!",
-    "text": "Welcome to 3570 Data Science!\n\nI’m sending you a link via email for joining the course workspace 2024-spring-math-3570. Please join.\n\n\n\n\n\n\n\n\n\n\n\nIn the bar, click workspace 2024-spring-math-3570.\nClick New Project &gt; New RStudio Project to get into the IDE.\nIn Untitled Project, name your project as 3570-project.\nIn the Console pane, write R code: a string \"Hello WoRld!\" or math 2 + 4.\nTools &gt; Global Options &gt; Appearance to select your favorite editor theme."
+    "text": "Welcome to 3570 Data Science!\n\nI’m sending you a link via email for joining the course workspace 2025-spring-math-3570. Please join.\n\n\n\n\n\n\n\n\n\n\n\nIn the bar, click workspace 2025-spring-math-3570.\nClick New Project &gt; New RStudio Project to get into the IDE.\nIn Untitled Project, name your project as 3570-project.\nIn the Console pane, write R code: a string \"Hello WoRld!\" or math 2 + 4.\nTools &gt; Global Options &gt; Appearance to select your favorite editor theme."
   },
   {
     "objectID": "exercise/lab07-plot.html",
