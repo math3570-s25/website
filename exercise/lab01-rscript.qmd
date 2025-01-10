@@ -36,9 +36,9 @@ ________(ggplot2)
 
 - Copy and paste the code below into the script, and save it.
 
-```{r, echo=-1}
+```{r}
 #| eval: false
-x <- 4; y <- 3
+#| echo: true
 bar <- ggplot(data = diamonds) + 
   geom_bar(mapping = aes(x = cut, fill = cut), 
            show.legend = FALSE, width = 1) + 

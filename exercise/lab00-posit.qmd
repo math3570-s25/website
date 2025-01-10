@@ -29,55 +29,63 @@ knitr::opts_chunk$set(
 
 
 ```{r}
-#| fig-align: "center"
-knitr::include_graphics("../slides/images/03-posit/posit-cloud.png")
+#| fig-align: center
+knitr::include_graphics("../slides/images/03-posit/posit-cloud-s25.png")
 ```
 
 - *Step 2*: Click **GET STARTED**.
 
-- *Step 3*: **Free or Student > Sign Up**. Please sign up with *GitHub* if you have one or use your *Marquette email address*.
-
 ```{r}
-#| fig-align: "center"
+#| fig-align: center
+#| out-width: 50%
 knitr::include_graphics("../slides/images/03-posit/landing-1-posit.png")
 ```
 
-```{r}
-#| fig-align: "center"
-knitr::include_graphics("../slides/images/03-posit/posit-free-plan.png")
-```
+<!-- # ```{r} -->
+<!-- # #| fig-align: "center" -->
+<!-- # knitr::include_graphics("../slides/images/03-posit/posit-free-plan.png") -->
+<!-- # ``` -->
+
+
+- *Step 3*: [**Cloud Student**]{.red} **\> Sign Up** using your Marquette email address.
+
 
 ```{r}
-#| fig-align: "center"
-knitr::include_graphics("../slides/images/03-posit/posit-student-plan.png")
+#| fig-align: center
+#| out-width: 50%
+knitr::include_graphics("../slides/images/03-posit/posit-student-plan-s25.png")
 ```
+
+The student plan has more computing power and resources that help you do homework and data science project more efficiently!
 
 
 ### New project
 
 ```{r}
-#| out-width: "100%"
-#| fig-align: "center"
+#| out-width: 100%
+#| fig-align: center
 knitr::include_graphics("../slides/images/03-posit/new-project-cloud-posit.png")
 ```
 
 ```{r}
+#| out-width: 30%
 knitr::include_graphics("../slides/images/03-posit/new-project-option-24.png")
 ```
 
 
 ## Welcome to 3570 Data Science!
 
-- I'm sending you a link via email for joining the course workspace **2024-spring-math-3570**. Please join.
+- I'm sending you a link via email for joining the course workspace **2025-spring-math-3570**. Please join.
 
 
 ```{r}
-#| fig-align: "center"
+#| out-width: 60%
+#| fig-align: center
 knitr::include_graphics("../slides/images/03-posit/join-space.png")
 ```
 
 
-- In the bar, click workspace **2024-spring-math-3570**.
+- In the bar, click workspace **2025-spring-math-3570**.
 
 - Click **New Project > New RStudio Project** to get into the IDE.
 
@@ -88,7 +96,7 @@ knitr::include_graphics("../slides/images/03-posit/join-space.png")
 - **Tools > Global Options > Appearance** to select your favorite editor theme.
 
 ```{r}
-#| out-width: "100%"
-#| fig-align: "center"
+#| out-width: 100%
+#| fig-align: center
 knitr::include_graphics("../slides/images/03-posit/rcloud_project.png")
 ```

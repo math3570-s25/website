@@ -11,7 +11,7 @@ execute:
 knitr::opts_chunk$set(
     fig.asp = 0.618,
     fig.align = "center",
-    out.width = "100%",
+    out.width = "60%",
     fig.retina = 10,
     fig.path = "../slides/images/04-git/",
     message = FALSE,
@@ -30,17 +30,17 @@ library(fontawesome)
   - Use the **same** username and email address of your Posit Cloud.
 
 - **Account (topright) > Settings**
-  - `r fa("envelope") `  **Emails** > *Uncheck* "Keep my email address private" (Link your R/Python work to GitHub)
-  - `r fa("user") `  **Public Profile** > Cool name and nice picture!
+  - `r fa("envelope") `  **Emails** > [*Uncheck*]{.red} "Keep my email address private" (Link your R/Python work to GitHub)
+  - `r fa("user") `  **Public Profile** > Name and nice picture!
 
-- Share your GitHub **username** at <https://forms.office.com/r/k0L5M5TyS7>, so I can invite you to join our course organization **math3570-s24**.
+- Share your GitHub **username** at <https://forms.office.com/r/RUmTn3gadG>, so I can invite you to join our course organization **math3570-s25**. 
 
-
-- Please accept my invitation to join the GitHub organization **math3570-s24**.
+- Please accept my invitation to join the GitHub organization **math3570-s25**.
 
 ```{r}
+#| out-width: 78%
 #| label: join-org
-knitr::include_graphics("../slides/images/04-git/join-org-2024.png")
+knitr::include_graphics("../slides/images/04-git/join-org-2025.png")
 ```
 
 
@@ -55,12 +55,14 @@ knitr::include_graphics("../slides/images/04-git/join-org-2024.png")
 - Click on **Authentication**.
 
 ```{r}
+#| out-width: 78%
 #| label: github-auth-1
 knitr::include_graphics("../slides/images/04-git/github-auth-1-23.png")
 ```
 
 
 ## Connect Posit Cloud and GitHub: Step 2
+
 - In the Authentication window, check the box for **Enabled**.
 
 ```{r}
@@ -72,11 +74,12 @@ When check Enabled, will jump to GitHub page shown in the next.
 
 
 ## Connect Posit Cloud and GitHub: Step 3
--  For your GitHub page, click on the green box that says "**Authorize rstudio**".
+
+-  For your GitHub page, click on the green box that says "**Authorize posit-hosted**".
 
 ```{r}
 #| label: github-auth-3
-knitr::include_graphics("../slides/images/04-git/github-auth-3-23.png")
+knitr::include_graphics("../slides/images/04-git/github-auth-3-25.png")
 ```
 
 
@@ -85,21 +88,23 @@ knitr::include_graphics("../slides/images/04-git/github-auth-3-23.png")
 
 - Back to the Authentication of Posit Cloud, check **Private repo access also enabled**.
 
-- Make sure **math3570-s24** shows up under **Organization access**. 
+- Make sure **math3570-s25** shows up under **Organization access**. 
 
-- Click on **Request**
+- Click on **Grant**.
 
-- Click on the green box "**Authorize rstudio**".
+- Click on the green box "**Authorize posit-hosted**".
+
 
 
 ```{r}
 #| label: github-auth-4
-knitr::include_graphics("../slides/images/04-git/github-auth-4-24.png")
+knitr::include_graphics("../slides/images/04-git/github-auth-4-25.png")
 ```
 
 When check Private repo access also enabled, will jump to GitHub page as shown.
 
 ## Connect Posit Cloud and GitHub: Step 5
+
 - Once you're done, both of these boxes should be checked.
 
 ```{r}
@@ -107,11 +112,11 @@ When check Private repo access also enabled, will jump to GitHub page as shown.
 knitr::include_graphics("../slides/images/04-git/github-auth-5-23.png")
 ```
 
-## Connect Posit Cloud and GitHub: Step 5-1
+<!-- ## Connect Posit Cloud and GitHub: Step 5-1 -->
 
-```{r}
-knitr::include_graphics("../slides/images/04-git/org-access.png")
-```
+<!-- ```{r} -->
+<!-- knitr::include_graphics("../slides/images/04-git/org-access.png") -->
+<!-- ``` -->
 
 
 ## Connect Posit Cloud and GitHub: Step 6
@@ -121,7 +126,7 @@ knitr::include_graphics("../slides/images/04-git/org-access.png")
 
 ```{r}
 #| label: github-auth-6
-knitr::include_graphics("../slides/images/04-git/github-auth-6-23.png")
+knitr::include_graphics("../slides/images/04-git/github-auth-6-25.png")
 ```
 
 If you see RStudio is under the Authorized Apps, congratulations! Your RStudio and GitHub are now linked together!
@@ -130,12 +135,13 @@ If you see RStudio is under the Authorized Apps, congratulations! Your RStudio a
 # GitHub to Posit Cloud
 
 ## GitHub to Posit Cloud: Step 1
+
 - Each of your assignments will begin with the following steps.
 - Go to the repo named **hw00-yourusername** I created for you.
 
 ```{r}
 #| label: hw-repo
-knitr::include_graphics("../slides/images/04-git/hw00_repo_2024.png")
+knitr::include_graphics("../slides/images/04-git/hw00_repo_2025.png")
 ```
 
 
@@ -144,20 +150,22 @@ knitr::include_graphics("../slides/images/04-git/hw00_repo_2024.png")
 
 - On GitHub, 
   + click on the green **Code** button, select **HTTPS**. 
-  + click on the clipboard icon on the right to copy the repo URL, such as  `https://github.com/math3570-s24/hw00-chenghanyu.git`
+  + click on the clipboard icon on the right to copy the repo URL, such as  `https://github.com/math3570-s25/hw00-chenghanyu.git`
 
 
 ```{r}
 #| label: clone-repo-link
-knitr::include_graphics("../slides/images/04-git/clone-repo-link-2024.png")
+knitr::include_graphics("../slides/images/04-git/clone-repo-link-2025.png")
 ```
 
 
 ## GitHub to Posit Cloud: Step 3
-- Go to Posit Cloud and into the course workspace **2024-spring-math-3570**. 
+
+- Go to Posit Cloud and into the course workspace **2025-spring-math-3570**. 
 - Create a **New Project from Git Repo**.
 
 ```{r}
+#| out-width: 45%
 #| label: new-project-from-option
 knitr::include_graphics("../slides/images/04-git/new-project-option-24.png")
 ```
@@ -166,23 +174,25 @@ You will need to click on the down arrow next to the **New Project** button to s
 
 
 ## GitHub to Posit Cloud: Step 4
+
 - Copy and paste the URL of your assignment repo into the dialog box.
 - Hit `OK`, and you're good to go!
 
 ```{r}
 #| fig-width: 5
 #| label: paste-gh-repo-url
-knitr::include_graphics("../slides/images/04-git/paste-gh-repo-url-2024.png")
+knitr::include_graphics("../slides/images/04-git/paste-gh-repo-url-2025.png")
 ```
 
 
 
 ## GitHub to Posit Cloud: Step 5
+
 - Click **hw00-yourusername** to do your assignment in Posit Cloud!
 
 ```{r}
 #| label: rcloud-project
-knitr::include_graphics("../slides/images/04-git/rcloud_project_hw00_2024.png")
+knitr::include_graphics("../slides/images/04-git/rcloud_project_hw00_2025.png")
 ```
 
 - Done! We learned the entire process of cloning a repo on GitHub to Posit Cloud as a project.
@@ -193,6 +203,7 @@ knitr::include_graphics("../slides/images/04-git/rcloud_project_hw00_2024.png")
 # Posit Cloud to GitHub
 
 ## Personal Access Token (PAT): Step 1
+
 - GitHub has removed the support for Password Authentication for Git operations.
 
 - Before we can send our work in Posit Cloud to GitHub, we need **Personal Access Token (PAT)**
@@ -212,20 +223,22 @@ GitHub has removed the support for Password Authentication for Git operations fo
 
 ```{r}
 #| label: pat-2
-knitr::include_graphics("../slides/images/04-git/pat_2-23.png")
+knitr::include_graphics("../slides/images/04-git/pat_2-25.png")
 ```
 
 
 
 ## Personal Access Token (PAT): Step 3
+
 ```{r}
 #| label: pat-3
-knitr::include_graphics("../slides/images/04-git/pat_3-23.png")
+knitr::include_graphics("../slides/images/04-git/pat_3-25.png")
 ```
 
 
 
 ## Personal Access Token (PAT): Step 4
+
 ```{r}
 #| label: pat-4
 knitr::include_graphics("../slides/images/04-git/pat_4-23.png")
@@ -246,9 +259,9 @@ knitr::include_graphics("../slides/images/04-git/pat_5-23.png")
 
 ## Posit Cloud to GitHub: Step 1 - Edit your file
 
-- Open a **Quarto (qmd)** file in your project, in YAML change the author name to your name.
+- Open the quarto file `hw-00-test.qmd`, in YAML change the author to your name.
 
-- Click **Render** to generate your beautiful document. (If you are asked to install any packages, please do!)
+- Click **Render** to generate your beautiful document. (If asked to install any packages, please do!)
 
 ```{r}
 #| label: yaml-raw-to-rendered
@@ -262,7 +275,7 @@ knitr::include_graphics("../slides/images/04-git/yaml-raw-to-rendered_hw00-24.pn
 ## Posit Cloud to GitHub: Step 2 - Commit changes
 
 - Go to the Git tab in your RStudio. 
-- Click on **Diff**. This shows you the **diff**erence between the last committed state of the document and its current state that includes your changes.
+- Click on **Commit**. This shows you the *difference* between the last committed state of the document and its current state that includes your changes.
 - Check **Staged** box to add files to be committed.
 - Write "*Update author's name*" in the **Commit message** box and hit **Commit**.
 
@@ -275,6 +288,7 @@ knitr::include_graphics("../slides/images/04-git/update-author-name-commit-2023.
 
 
 ## Posit Cloud to GitHub: Step 3 - Push changes
+
 - We've made an update and committed this change *locally*. 
 - It’s time to **push** the changes to your repo on GitHub, so that others (Dr. Yu) can see your changes. 
 - Click on **Push**.
@@ -303,3 +317,26 @@ knitr::include_graphics("../slides/images/04-git/update-author-name-commit-2023.
 #| label: update-repo
 knitr::include_graphics("../slides/images/04-git/update-repo-2024.png")
 ```
+
+## Resources
+
+:::: {.columns}
+
+::: {.column width="50%"}
+- [Create a personal access token (PAT)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+- [Two-factor authentication](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)
+- [Git hands-on session within RStudio](https://inbo.github.io/git-course/course_rstudio.html)
+- [Happy Git and GitHub for the useR](https://happygitwithr.com/)
+- [Happier version control with Git and GitHub](https://bcjaeger.github.io/seminar-git/#1)
+:::
+
+
+::: {.column width="50%"}
+
+```{r}
+#| out-width: 100%
+knitr::include_graphics("../slides/images/04-git/happy-git.png")
+```
+
+:::
+::::

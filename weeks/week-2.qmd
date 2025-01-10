@@ -7,6 +7,22 @@ editor: visual
 ::: callout-important
 :::
 
+## Participate
+
+🖥️ [Slides - Git/GitHub](/slides/04-git.html)
+
+🖥️ [Slides - Quarto](/slides/05-quarto.html)
+
+## Perform
+
+📋 [Lab-00 Git/GitHub](/exercise/lab00-git.html)
+
+📋 [Lab-02 Quarto File](/exercise/lab02-quarto.html)
+
+📋 [Lab-03 Markdown](/exercise/lab03-markdown.html)
+
+📋 [Lab-04 Code Chunk](/exercise/lab04-chunk.html)
+
 ## Reading and Resources
 
 ### Git/GitHub
@@ -36,22 +52,6 @@ editor: visual
 📖 [Get Started with Quarto](https://rstudio-conf-2022.github.io/get-started-quarto/)
 
 📖 [R for Data Science - Quarto](https://r4ds.hadley.nz/quarto)
-
-## Participate
-
-🖥️ [Slides - Git/GitHub](/slides/04-git.html)
-
-🖥️ [Slides - Quarto](/slides/05-quarto.html)
-
-## Perform
-
-📋 [Lab-00 Git/GitHub](/exercise/lab00-git.html)
-
-📋 [Lab-02 Quarto File](/exercise/lab02-quarto.html)
-
-📋 [Lab-03 Markdown](/exercise/lab03-markdown.html)
-
-📋 [Lab-04 Code Chunk](/exercise/lab04-chunk.html)
 
 <br><br>
 
