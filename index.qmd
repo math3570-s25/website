@@ -17,33 +17,33 @@ tbl-colwidths: [5,10,15,5,8,10,5,5]
 | 2 | Tue, Jan 21 | Connecting Posit Cloud with GitHub | [📖](/weeks/week-2.html "Week 2") | [🖥️git](/slides/04-git.html "04-git") | [📋github](/exercise/lab00-git.html "lab00-git") |  |  |
 |  | Thu, Jan 23 | Quarto |  | [🖥️quarto](/slides/05-quarto.html "05-quarto") | [📋02](/exercise/lab02-quarto.html "lab02-quarto") [📋03](/exercise/lab03-markdown.html "lab03-markdown") [📋04](/exercise/lab04-chunk.html "lab04-chunk") |  |  |
 | 3 | Tue, Jan 28 | Quarto |  |  |  |  |  |
-|  | Thu, Jan 30 | R/Python Programming | [📖](/weeks/week-3.html "Week 3") | [🖥️](/slides/06-syntax.html "06-syntax") |  |  |  |
+|  | Thu, Jan 30 | R/Python Programming | 📖 | 🖥️ |  |  |  |
 | 4 | Tue, Feb 4 | Python Programming |  |  | 📋📋 |  |  |
-|  | Thu, Feb 6 | R Tidyverse | [📖](/weeks/week-4.html "Week 4") | [🖥️](/slides/07-package.html "07-package") |  | ✍️ |  |
+|  | Thu, Feb 6 | R Tidyverse | 📖 | 🖥️ |  | ✍️ |  |
 | 5 | Tue, Feb 11 | Python Pandas/NumPy |  |  | 📋📋 |  |  |
-|  | Thu, Feb 13 | Data Importing | [📖](/weeks/week-5.html "Week 5") | [🖥️](/slides/08-import.html "08-import") | 📋 |  |  |
+|  | Thu, Feb 13 | Data Importing | 📖 | 🖥️ | 📋 |  |  |
 | 6 | Tue, Feb 18 | Data Importing |  |  |  |  |  |
-|  | Thu, Feb 20 | Data Visualization-ggplot2 | [📖](/weeks/week-6.html "Week 6") | [🖥️](/slides/09-ggplot2.html "09-ggplot2") | 📋 |  |  |
-| 7 | Tue, Feb 25 | Data Visualization-categorical and numerical data | [📖](/weeks/week-7.html "Week 7") | [🖥️](/slides/10-viz.html "10-viz") | 📋📋 |  |  |
-|  | Thu, Feb 27 | Interactive Data Visualization |  | [🖥️](/slides/11-interactive-viz.html "11-interactive-viz") |  |  |  |
-| 8 | Tue, Mar 4 | Data Wrangling - one data frame | [📖](/weeks/week-8.html "Week 8") | [🖥️](/slides/12-dplyr-1.html "12-dplyr-1") | 📋 |  |  |
-|  | Thu, Mar 6 | Data Wrangling - two data frames |  | [🖥️](/slides/13-dplyr-2.html "13-dplyr-2") | 📋 |  |  |
+|  | Thu, Feb 20 | Data Visualization-ggplot2 | 📖 | 🖥️ | 📋 |  |  |
+| 7 | Tue, Feb 25 | Data Visualization-categorical and numerical data | 📖 | 🖥️ | 📋📋 |  |  |
+|  | Thu, Feb 27 | Interactive Data Visualization |  | 🖥️ |  |  |  |
+| 8 | Tue, Mar 4 | Data Wrangling - one data frame | 📖 | 🖥️ | 📋 |  |  |
+|  | Thu, Mar 6 | Data Wrangling - two data frames |  | 🖥️ | 📋 |  |  |
 | 9 | Tue, Mar 11 | ***NO CLASS: Spring break*** |  |  |  |  |  |
 |  | Thu, Mar 13 | ***NO CLASS: Spring break*** |  |  |  |  |  |
-| 10 | **Tue, Mar 18** | [**Mini Project Presentation**]{.blue} | [📖](/weeks/week-10.html "Week 10") | [🖥️](/slides/14-tidyr.html "14-tidyr") | 📋 | ✍️ |  |
-|  | Thu, Mar 20 | Data Wrangling - tidyr |  | [🖥️](/slides/15-probstat.html "15-probstat") | 📋 |  |  |
+| 10 | **Tue, Mar 18** | [**Mini Project Presentation**]{.blue} | 📖 | 🖥️ | 📋 | ✍️ |  |
+|  | Thu, Mar 20 | Data Wrangling - tidyr |  | 🖥️ | 📋 |  |  |
 | 11 | Tue, Mar 25 | Probabilistic and Statistical Simulation |  |  | 📋 |  |  |
 |  | Thu, Mar 27 | Probabilistic and Statistical Simulation |  |  |  |  | Team Up 📂 |
-| 12 | Tue, Apr 1 | Linear Regression | [📖](/weeks/week-12.html "Week 12") | [🖥️](/slides/16-linear-reg.html "16-linear-reg") |  |  |  |
+| 12 | Tue, Apr 1 | Linear Regression | 📖 | 🖥️ |  |  |  |
 |  | Thu, Apr 3 | Linear Regression |  |  | 📋 |  |  |
-| 13 | Tue, Apr 8 | Logistic Regression | [📖](/weeks/week-13.html "Week 13") | [🖥️](/slides/17-logistic-reg.html "17-logistic-reg") |  |  |  |
+| 13 | Tue, Apr 8 | Logistic Regression | 📖 | 🖥️ |  |  |  |
 |  | Thu, Apr 10 | Logistic Regression |  |  | 📋 | ✍️ |  |
-| 14 | Tue, Apr 15 | K-Nearest Neighbors | [📖](/weeks/week-14.html "Week 14") | [🖥️](/slides/18-knn.html "18-knn") |  |  |  |
+| 14 | Tue, Apr 15 | K-Nearest Neighbors | 📖 | 🖥️ |  |  |  |
 |  | Thu, Apr 17 | ***NO CLASS: Easter break*** |  |  | 📋 |  |  |
-| 15 | Tue, Apr 22 | Principal Component Analysis | [📖](/weeks/week-15.html "Week 15") | [🖥️](/slides/19-pca.html "19-pca") |  |  |  |
+| 15 | Tue, Apr 22 | Principal Component Analysis | 📖 | 🖥️ |  |  |  |
 |  | Thu, Apr 24 | Principal Component Analysis |  |  | 📋 |  | Proposal 📂 |
-| 16 | Tue, Apr 29 | K-Means Clustering | [📖](/weeks/week-16.html "Week 16") | [🖥️](/slides/20-kmeans.html "20-kmeans") |  |  |  |
-|  | **Thu, May 1** | [**Final Project Presentation I**]{.blue} |  | [🖥️](/slides/summary.html "Summary") | 📋 |  |  |
+| 16 | Tue, Apr 29 | K-Means Clustering | 📖 | 🖥️ |  |  |  |
+|  | **Thu, May 1** | [**Final Project Presentation I**]{.blue} |  | 🖥️ | 📋 |  |  |
 | 17 | **Mon, May 5** | [**Final Project Presentation II**]{.blue} |  |  |  |  |  |
 :::
 

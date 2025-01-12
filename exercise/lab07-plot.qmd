@@ -1,5 +1,5 @@
 ---
-title: "Lab 07: Plotting (Presentation)"
+title: "Lab 07: Plotting"
 editor: source
 reference-location: margin
 execute:
@@ -21,11 +21,11 @@ library(fontawesome)
 ```
 
 ::: callout-note
-- *Find your mate and work in pairs. *
+<!-- - *Find your mate and work in pairs. * -->
 
-- *Two volunteer pairs teach us how to make beautiful plots next Tuesday (Feb 13)!*
+<!-- - *Two volunteer pairs teach us how to make beautiful plots next Tuesday (Feb 13)!* -->
 
-- *The presenters will be awarded a hex sticker! 😎*
+<!-- - *The presenters will be awarded a hex sticker! 😎* -->
 :::
 
 In **lab.qmd** `## Lab 7`,

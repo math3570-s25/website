@@ -5,7 +5,7 @@ editor: visual
 ---
 
 ::: callout-important
--   Presenting Lab 07-Plotting for extra points!
+<!-- -   Presenting Lab 07-Plotting for extra points! -->
 :::
 
 ## Participate
@@ -24,7 +24,7 @@ editor: visual
 
 📋 [Lab-06 Python Data Structure](/exercise/lab06-py.html)
 
-📋 [Lab-07 Plotting](/exercise/lab07-plot.html) (Present)
+📋 [Lab-07 Plotting](/exercise/lab07-plot.html)
 
 <br><br>
 
