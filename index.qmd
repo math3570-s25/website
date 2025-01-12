@@ -17,7 +17,7 @@ tbl-colwidths: [5,10,15,5,8,10,5,5]
 | 2 | Tue, Jan 21 | Connecting Posit Cloud with GitHub | [📖](/weeks/week-2.html "Week 2") | [🖥️git](/slides/04-git.html "04-git") | [📋github](/exercise/lab00-git.html "lab00-git") |  |  |
 |  | Thu, Jan 23 | Quarto |  | [🖥️quarto](/slides/05-quarto.html "05-quarto") | [📋02](/exercise/lab02-quarto.html "lab02-quarto") [📋03](/exercise/lab03-markdown.html "lab03-markdown") [📋04](/exercise/lab04-chunk.html "lab04-chunk") |  |  |
 | 3 | Tue, Jan 28 | Quarto |  |  |  |  |  |
-|  | Thu, Jan 30 | R/Python Programming | 📖 | 🖥️ |  |  |  |
+|  | Thu, Jan 30 | R/Python Programming | 📖 | 🖥️ | 📋 |  |  |
 | 4 | Tue, Feb 4 | Python Programming |  |  | 📋📋 |  |  |
 |  | Thu, Feb 6 | R Tidyverse | 📖 | 🖥️ |  | ✍️ |  |
 | 5 | Tue, Feb 11 | Python Pandas/NumPy |  |  | 📋📋 |  |  |
