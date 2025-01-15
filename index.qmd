@@ -11,7 +11,7 @@ tbl-colwidths: [5,10,15,5,8,10,5,5]
 
 ::: column-screen-inset-right
 | Week | Date | Topic | To Do | Slides | Lab Exercise | Homework | Project |
-|:-------:|---------|---------|:-------:|:-------:|:-------:|:-------:|---------|
+|:------:|--------|--------|:------:|:------:|:------:|:------:|--------|
 | 1 | Tue, Jan 14 | Greetings + Overview of Data Science | [📖](/weeks/week-1.html "Week 1") | [🖥️syllabus](/slides/01-syllabus.html "01-Syllabus") [🖥️overview](/slides/02-datascience.html "02-datascience") |  |  |  |
 |  | Thu, Jan 16 | Posit Cloud and Git/GitHub Introduction |  | [🖥️posit](/slides/03-posit.html "03-posit") | [📋 posit](/exercise/lab00-posit.html "lab00-posit") [📋01](/exercise/lab01-rscript.html "lab01-rscript") |  |  |
 | 2 | Tue, Jan 21 | Connecting Posit Cloud with GitHub | [📖](/weeks/week-2.html "Week 2") | [🖥️git](/slides/04-git.html "04-git") | [📋github](/exercise/lab00-git.html "lab00-git") |  |  |
