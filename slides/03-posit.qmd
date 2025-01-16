@@ -29,9 +29,9 @@ format:
     code-line-numbers: false
     title-slide-attributes:
       data-background-color: "#447099"
-editor: source
-execute:
-  freeze: true
+# editor: source
+# execute:
+#   freeze: true
 ---
 
 #  {visibility="hidden"}
@@ -274,6 +274,7 @@ knitr::include_graphics("images/03-posit/new-project-cloud-posit.png")
 
 ::: {.column width="15%"}
 ```{r}
+#| out-width: 100%
 knitr::include_graphics("images/03-posit/new-project-option-24.png")
 ```
 :::
@@ -307,7 +308,7 @@ knitr::include_graphics("images/03-posit/join-space.png")
 ::: notes
 Go to D2l to send Posit Cloud invitation
 
-Subject Posit Cloud Invitation Message https://posit.cloud/spaces/459948/join?access_code=JY6N0CSQWE5qa7QFYxYKqWT9awi6wP2JqV3UNfj6
+Subject Posit Cloud Invitation Message https://posit.cloud/spaces/598911/join?access_code=6SiLjVJc37hZPq5Qi6uvzip3vtPCE1z46u0dwKig
 
 Best, Dr. Yu
 :::
