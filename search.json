@@ -427,7 +427,7 @@
     "href": "slides/03-posit.html#welcome-to-3570-data-science",
     "title": "Posit Cloud ☁️",
     "section": "Welcome to 3570 Data Science!",
-    "text": "Welcome to 3570 Data Science!\n\n\nI’m sending you a link via email for joining the course workspace 2025-spring-math-3570. Please join.\n\n\n\n\n\n\n\n\n\n\nGo to D2l to send Posit Cloud invitation\nSubject Posit Cloud Invitation Message https://posit.cloud/spaces/459948/join?access_code=JY6N0CSQWE5qa7QFYxYKqWT9awi6wP2JqV3UNfj6\nBest, Dr. Yu"
+    "text": "Welcome to 3570 Data Science!\n\n\nI’m sending you a link via email for joining the course workspace 2025-spring-math-3570. Please join.\n\n\n\n\n\n\n\n\n\n\nGo to D2l to send Posit Cloud invitation\nSubject Posit Cloud Invitation Message https://posit.cloud/spaces/598911/join?access_code=6SiLjVJc37hZPq5Qi6uvzip3vtPCE1z46u0dwKig\nBest, Dr. Yu"
   },
   {
     "objectID": "slides/03-posit.html#section-1",
@@ -840,7 +840,7 @@
     "href": "slides/01-syllabus.html#grade-percentage-conversion",
     "title": "Welcome Aboard 🙌",
     "section": "Grade-Percentage Conversion",
-    "text": "Grade-Percentage Conversion\n\n\n\\([x, y)\\) means greater than or equal to \\(x\\) and less than \\(y\\). For example, 94.0 is in [94, 100] and the grade is A and 93.8 is in [90, 94) and the grade is A-.\n\n\n\n\n\nGrade\nPercentage\n\n\n\nA\n[94, 100]\n\n\nA-\n[90, 94)\n\n\nB+\n[87, 90)\n\n\nB\n[84, 87)\n\n\nB-\n[80, 84)\n\n\nC+\n[77, 80)\n\n\nC\n[74, 77)\n\n\nC-\n[70, 74)\n\n\nD+\n[65, 70)\n\n\nD\n[60, 65)\n\n\nF\n[0, 60)"
+    "text": "Grade-Percentage Conversion\n\n\n\\([x, y)\\) means greater than or equal to \\(x\\) and less than \\(y\\). For example, 94.0 is in [94, 100] and the grade is A and 93.8 is in [90, 94) and the grade is A-.\n\n\n\n\n\n\nGrade\nPercentage\n\n\n\nA\n[94, 100]\n\n\nA-\n[90, 94)\n\n\nB+\n[87, 90)\n\n\nB\n[84, 87)\n\n\nB-\n[80, 84)\n\n\nC+\n[77, 80)\n\n\nC\n[74, 77)\n\n\nC-\n[70, 74)\n\n\nD+\n[65, 70)\n\n\nD\n[60, 65)\n\n\nF\n[0, 60)"
   },
   {
     "objectID": "slides/01-syllabus.html#lab-exercises-30",
