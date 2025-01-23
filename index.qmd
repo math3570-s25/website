@@ -3,21 +3,19 @@ title: "MATH/COSC 3570 Introduction to Data Science (Spring 2025)"
 tbl-colwidths: [5,10,15,5,8,10,5,5]
 ---
 
--   **Announcement:**
-    -   The background survey is at [https://forms.office.com/r/3ntBAWupYS](https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fforms.office.com%2Fr%2F3ntBAWupYS&data=05%7C02%7Ccheng-han.yu%40marquette.edu%7C754dacb312df459315d508dd2f48107e%7Cabe32f68c72d420db5bd750c63a268e4%7C0%7C0%7C638718708750586481%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=hqHeIw%2Btk05LxhBz%2Bx6SG1WDKPyNvnFIH0sL18IuMLM%3D&reserved=0).
-    -   No office hours first week.
+-   **Announcement:** TA help desk hours at **Cudahy Hall 301 Monday: 1 – 2 PM, Tuesday: 12 – 1 PM, Thursday: 12 – 2 PM**
 
 *This schedule will be updated as the semester progresses, with all changes documented here*.
 
 ::: column-screen-inset-right
 | Week | Date | Topic | To Do | Slides | Lab Exercise | Homework | Project |
-|:------:|--------|--------|:------:|:------:|:------:|:------:|--------|
+|:-------:|---------|---------|:-------:|:-------:|:-------:|:-------:|---------|
 | 1 | Tue, Jan 14 | Greetings + Overview of Data Science | [📖](/weeks/week-1.html "Week 1") | [🖥️syllabus](/slides/01-syllabus.html "01-Syllabus") [🖥️overview](/slides/02-datascience.html "02-datascience") |  |  |  |
-|  | Thu, Jan 16 | Posit Cloud and Git/GitHub Introduction |  | [🖥️posit](/slides/03-posit.html "03-posit") | [📋 posit](/exercise/lab00-posit.html "lab00-posit") [📋01](/exercise/lab01-rscript.html "lab01-rscript") |  |  |
-| 2 | Tue, Jan 21 | Connecting Posit Cloud with GitHub | [📖](/weeks/week-2.html "Week 2") | [🖥️git](/slides/04-git.html "04-git") | [📋github](/exercise/lab00-git.html "lab00-git") |  |  |
-|  | Thu, Jan 23 | Quarto |  | [🖥️quarto](/slides/05-quarto.html "05-quarto") | [📋02](/exercise/lab02-quarto.html "lab02-quarto") [📋03](/exercise/lab03-markdown.html "lab03-markdown") [📋04](/exercise/lab04-chunk.html "lab04-chunk") |  |  |
-| 3 | Tue, Jan 28 | Quarto |  |  |  |  |  |
-|  | Thu, Jan 30 | R/Python Programming | 📖 | 🖥️ | 📋 |  |  |
+|  | Thu, Jan 16 | Posit Cloud |  | [🖥️posit](/slides/03-posit.html "03-posit") | [📋 posit](/exercise/lab00-posit.html "lab00-posit") [📋01](/exercise/lab01-rscript.html "lab01-rscript") |  |  |
+| 2 | Tue, Jan 21 | **No CLASS: Cold Weather** | [📖](/weeks/week-2.html "Week 2") |  |  |  |  |
+|  | Thu, Jan 23 | Git/GitHub Introduction |  | [🖥️git](/slides/04-git.html "04-git") | [📋github](/exercise/lab00-git.html "lab00-git") |  |  |
+| 3 | Tue, Jan 28 | Quarto | [📖](/weeks/week-3.html "Week 3") | [🖥️quarto](/slides/05-quarto.html "05-quarto") | [📋02](/exercise/lab02-quarto.html "lab02-quarto") [📋03](/exercise/lab03-markdown.html "lab03-markdown") [📋04](/exercise/lab04-chunk.html "lab04-chunk") |  |  |
+|  | Thu, Jan 30 | Quarto and R Programming |  | 🖥️ | 📋 |  |  |
 | 4 | Tue, Feb 4 | Python Programming |  |  | 📋📋 |  |  |
 |  | Thu, Feb 6 | R Tidyverse | 📖 | 🖥️ |  | ✍️ |  |
 | 5 | Tue, Feb 11 | Python Pandas/NumPy |  |  | 📋📋 |  |  |

@@ -1,6 +1,6 @@
 ---
 title: "Week 2"
-subtitle: "Git/GitHub and Quarto"
+subtitle: "Git/GitHub"
 editor: visual
 ---
 
@@ -12,6 +12,7 @@ editor: visual
 🖥️ [Slides - Git/GitHub](/slides/04-git.html)
 
 🖥️ [Slides - Quarto](/slides/05-quarto.html)
+
 
 ## Perform
 
