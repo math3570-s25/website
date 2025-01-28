@@ -2525,7 +2525,7 @@
     "href": "slides/05-quarto.html#section-1",
     "title": "Quarto 📖",
     "section": "",
-    "text": "I found an error in the data and added two more cases. Find the attached the modified excel. Can you redo the analysis? - Excel to R - Re-Make the graphs and re-run all the analysis - Copy and paste every updated output from R to your document This is an non-reproducible way fo doing data science.\nBut there is another way, a better way, a reproducible way."
+    "text": "I found an error in the data and added two more cases. Find the attached the modified excel. Can you redo the analysis?\n\nExcel to R\nRe-Make the graphs and re-run all the analysis\nCopy and paste every updated output from R to your document This is an non-reproducible way fo doing data science.\n\nBut there is another way, a better way, a reproducible way."
   },
   {
     "objectID": "slides/05-quarto.html#why-quarto-various-types-of-output",
@@ -2595,7 +2595,7 @@
     "href": "slides/05-quarto.html#section-2",
     "title": "Quarto 📖",
     "section": "",
-    "text": "02-Quarto File\n\nGo to your GitHub repo lab-yourusername. Clone it to your Posit Cloud as a project in 2025-Spring-Math-3570 workspace.\nOpen the file lab.qmd.\nChange author in YAML.\n\n\nClick on  or Ctrl/Cmd + Shift + K to produce a HTML document.\nHow can we show the current date every time we compile the file? [Hint:] Check your hw00. Compile your document and make sure the date shows up.\nHow do we hide the code so that the document is shorter? Describe it in ## Lab 2: Quarto\nOnce done, commit with message “02-quarto” and push it to GitHub.\n\n\n\nClick on the inverted triangle right next to render to produce a PDF/Word document.\n\nr Sys.Date()\ndate: “2025-01-10”"
+    "text": "02-Quarto File\n\nGo to your GitHub repo lab-yourusername. Clone it to your Posit Cloud as a project in 2025-Spring-Math-3570 workspace.\nOpen the file lab.qmd.\nChange author in YAML.\n\n\nClick on  or Ctrl/Cmd + Shift + K to produce a HTML document.\nHow can we show the current date every time we compile the file? [Hint:] Check your hw00. Compile your document and make sure the date shows up.\n\n\nHow do we fold the code so that the document is shorter? Describe it in ## Lab 2: Quarto\nOnce done, commit with message “02-quarto” and push it to GitHub.\n\n\n\nClick on the inverted triangle right next to render to produce a PDF/Word document.\n\nr Sys.Date()\ndate: “2025-01-28”\ndate: today"
   },
   {
     "objectID": "slides/05-quarto.html#text-formatting",
@@ -2616,7 +2616,7 @@
     "href": "slides/05-quarto.html#lists",
     "title": "Quarto 📖",
     "section": "Lists",
-    "text": "Lists\n\n\n\n\n\n\n\nMarkdown Syntax\nOutput\n\n\n\n* unordered list\n    + sub-item 1\n    + sub-item 2\n        - sub-sub-item 1\n\n\nunordered list\n\nsub-item 1\n\nsub-item 2\n\nsub-sub-item 1\n\n\n\n\n\n\n\n*   item 2\n    &lt;new line&gt;\n    Continued (indent 4 spaces)\n\n\nitem 2\nContinued (indent 4 spaces)\n\n\n\n\n1. ordered list\n2. item 2\n    i) sub-item 1\n         A.  sub-sub-item 1\n\nordered list\n\nitem 2\n\n\nsub-item 1\n\nsub-sub-item 1\n\n\n\n\n\n\n\n\n\nAt least two spaces"
+    "text": "Lists\n\n\n\n\n\n\n\nMarkdown Syntax\nOutput\n\n\n\n* unordered list\n    + sub-item 1\n    + sub-item 2\n        - sub-sub-item 1\n\n\nunordered list\n\nsub-item 1\n\nsub-item 2\n\nsub-sub-item 1\n\n\n\n\n\n\n\n*   item 2\n    &lt;new line&gt;\n    Continued (indent 4 spaces)\n\n\nitem 2\nContinued (indent 4 spaces)\n\n\n\n\n1. ordered list\n2. item 2\n    i) sub-item 1\n         A.  sub-sub-item 1\n\nordered list\n\nitem 2\n\n\nsub-item 1\n\nsub-sub-item 1\n\n\n\n\n\n\n\n\n\nAt least two spaces\n\nLists in Quarto require an entire blank line above the list.\n\nwefjwrg - list - abc"
   },
   {
     "objectID": "slides/05-quarto.html#math-and-links",
@@ -2658,7 +2658,7 @@
     "href": "slides/05-quarto.html#anatomy-of-a-code-chunk",
     "title": "Quarto 📖",
     "section": "Anatomy of a Code Chunk",
-    "text": "Anatomy of a Code Chunk\n\n\n\n```{r}\n#| label: car-stuff\n#| eval: false\nmtcars |&gt; \n  distinct(cyl)\n```\n\n\n\n```{python}\n#| label: string\n#| eval: false\nx = 'hello, python world!'\nprint(x.split(' '))\n```\n\n\n\nHas 3x backticks ``` on each end\nTo insert a code chunk,\n\n\n\n\n\n\n\n\n\n\nAlt + Ctrl + I (Win) ; Option + Cmd + I (Mac)\nIndicate engine (r) between curly braces {r}\nPlace options behind the #| (hashpipe): #| option: value\nTools &gt; Modify Keyboard Shortcuts &gt; Filter… &gt; Insert Chunk Python &gt; Option + Cmd + P"
+    "text": "Anatomy of a Code Chunk\n\n\n\n```{r}\n#| label: car-stuff\n#| eval: false\nmtcars |&gt; \n  distinct(cyl)\n```\n\n\n\n```{python}\n#| label: string\n#| eval: false\nx = 'hello, python world!'\nprint(x.split(' '))\n```\n\n\n\nHas 3x backticks ``` on each end\nTo insert a code chunk,\n\n\n\n\n\n\n\n\n\n\nAlt + Ctrl + I (Win) ; Option + Cmd + I (Mac)\nIndicate engine (r) between curly braces {r}\nPlace options behind the #| (hashpipe): #| option: value\nTools &gt; Modify Keyboard Shortcuts &gt; Filter… &gt; Insert Chunk Python &gt; Option + Cmd + P (or any key binding you like)"
   },
   {
     "objectID": "slides/05-quarto.html#option-echo",
@@ -2672,14 +2672,14 @@
     "href": "slides/05-quarto.html#chunk-options",
     "title": "Quarto 📖",
     "section": "Chunk Options",
-    "text": "Chunk Options\n\nThe following table summarises which types of output each option suppresses:\n\n\n\n\n\n\n\n\n\n\n\n\nOption\nRun code\nShow code\nOutput\nPlots\nMessages\nWarnings\n\n\n\neval: false\nx\n\nx\nx\nx\nx\n\n\ninclude: false\n\nx\nx\nx\nx\nx\n\n\necho: false\n\nx\n\n\n\n\n\n\nresults: \"hide\"\n\n\nx\n\n\n\n\n\nfig-show: \"hide\"\n\n\n\nx\n\n\n\n\nmessage: false\n\n\n\n\nx\n\n\n\nwarning: false\n\n\n\n\n\nx\n\n\n\n\nCheck knitr for more chunk options.\n\n\nHere shows some code chunk options.\nThe table summarises which types of output each option suppresses.\nSo eval = FALSE means that the code is not run, but the code is still shown in the compiled document. Because the code is not run, there will be no output, no plots, no messages and no warnings.\nWhen include = FALSE, the code will be run, but nothing will be included in the final document.\nWhen echo = FALSE, the code will not be shown in the document, but it will be run, and all results will be shown in the document.\nYou get the idea, right.\nSo results controls output, fig.show controls plots, message and warning control if messages and warnings are shown.\nThere are so many chunk options out there. If you want to learn more, definitely check this knitr website. OK"
+    "text": "Chunk Options\n\nThe following table summarises which types of output each option suppresses:\n\n\n\n\n\n\n\n\n\n\n\n\nOption\nRun code\nShow code\nOutput\nPlots\nMessages\nWarnings\n\n\n\neval: false\nx\n\nx\nx\nx\nx\n\n\ninclude: false\n\nx\nx\nx\nx\nx\n\n\necho: false\n\nx\n\n\n\n\n\n\nresults: \"hide\"\n\n\nx\n\n\n\n\n\nfig-show: \"hide\"\n\n\n\nx\n\n\n\n\nmessage: false\n\n\n\n\nx\n\n\n\nwarning: false\n\n\n\n\n\nx\n\n\n\n\nCheck Code Cells: Knitr for more chunk options.\n\n\nHere shows some code chunk options.\nThe table summarises which types of output each option suppresses.\nSo eval = FALSE means that the code is not run, but the code is still shown in the compiled document. Because the code is not run, there will be no output, no plots, no messages and no warnings.\nWhen include = FALSE, the code will be run, but nothing will be included in the final document.\nWhen echo = FALSE, the code will not be shown in the document, but it will be run, and all results will be shown in the document.\nYou get the idea, right.\nSo results controls output, fig.show controls plots, message and warning control if messages and warnings are shown.\nThere are so many chunk options out there. If you want to learn more, definitely check this knitr website. OK"
   },
   {
     "objectID": "slides/05-quarto.html#global-options-execute",
     "href": "slides/05-quarto.html#global-options-execute",
     "title": "Quarto 📖",
     "section": "Global Options: execute",
-    "text": "Global Options: execute\n\nShould be specified within the execute key.\n\n\n---\nexecute: \n  echo: false\n  eval: false\n---\n\nCheck HTML Options for more options!\n\n```{r}\n#| label: setup\n#| include: false\n# don't show code unless we explicitly set echo = TRUE\nknitr::opts_chunk$set(echo = FALSE)\n```\n\n\nknitr::opts_chunk$set() sets default options for all chunks."
+    "text": "Global Options: execute\n\nShould be specified within the execute key.\n\n\n---\nexecute: \n  echo: false\n  eval: false\n---\n\nCheck HTML Options &gt; Execution for more execution options!\n\n```{r}\n#| label: setup\n#| include: false\n# don't show code unless we explicitly set echo = TRUE\nknitr::opts_chunk$set(echo = FALSE)\n```\n\n\nknitr::opts_chunk$set() sets default options for all chunks."
   },
   {
     "objectID": "slides/05-quarto.html#images",

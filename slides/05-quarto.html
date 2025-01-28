@@ -498,7 +498,12 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
       }</style></aside></section><section id="section-1" class="slide level2"><h2></h2>
 <iframe width="1800" height="1000" src="https://www.youtube.com/embed/s3JldKoA0zw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
 </iframe>
-<aside class="notes"><p>I found an error in the data and added two more cases. Find the attached the modified excel. Can you redo the analysis? - Excel to R - Re-Make the graphs and re-run all the analysis - Copy and paste every updated output from R to your document This is an non-reproducible way fo doing data science.</p>
+<aside class="notes"><p>I found an error in the data and added two more cases. Find the attached the modified excel. Can you redo the analysis?</p>
+<ul>
+<li>Excel to R</li>
+<li>Re-Make the graphs and re-run all the analysis</li>
+<li>Copy and paste every updated output from R to your document This is an non-reproducible way fo doing data science.</li>
+</ul>
 <p>But there is another way, a better way, a reproducible way.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -827,7 +832,9 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 <!-- - Go to your **3570-project** in **2022-spring-math-3570** workspace in Posit Cloud. --><!-- - Copy the code  --><!-- -   ![](images/05-quarto/new_file_icon.png) \> Quarto Document (or File \> New File \> Quarto Document) --><!-- -   Title: **lab02-quarto** --><!-- -   Author: **your name** --><!-- -   Click on OK. You should see a template in the file. --><!-- -   Save your file named as **lab02-quarto.qmd**. --><ul>
 <li><p>Click on <img data-src="images/05-quarto/render.png"> or <code>Ctrl/Cmd + Shift + K</code> to produce a HTML document.</p></li>
 <li><p>How can we show the current date every time we compile the file? <em>[Hint:]</em> Check your <em>hw00</em>. Compile your document and make sure the date shows up.</p></li>
-<li><p>How do we <a href="https://quarto.org/docs/reference/formats/html.html#code">hide the code</a> so that the document is shorter? Describe it in <code>## Lab 2: Quarto</code></p></li>
+</ul>
+<!-- - How do we produce a *pdf*? Describe it in `## Lab 2: Quarto` --><ul>
+<li><p>How do we <a href="https://quarto.org/docs/reference/formats/html.html#code">fold the code</a> so that the document is shorter? Describe it in <code>## Lab 2: Quarto</code></p></li>
 <li><p>Once done, commit with message <span style="color:green"><em>“02-quarto”</em></span> and push it to GitHub.</p></li>
 </ul>
 </div>
@@ -835,7 +842,8 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 <li>Click on the <strong>inverted triangle</strong> right next to render to produce a PDF/Word document.</li>
 </ul>
 <div class="sourceCode" id="cb7"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb7-1"><a aria-hidden="true" tabindex="-1"></a>r Sys.Date()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>date: “2025-01-10”</p>
+<p>date: “2025-01-28”</p>
+<p>date: today</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -986,6 +994,10 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 </table>
 </div>
 <aside class="notes"><p>At least two spaces</p>
+<ul>
+<li>Lists in Quarto require an <em>entire blank line</em> above the list.</li>
+</ul>
+<p>wefjwrg - list - abc</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1072,6 +1084,11 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 </div>
 </div>
 </div>
+<!-- . . . -->
+<!-- ```{r} -->
+<!-- #| out-width: 80% -->
+<!-- knitr::include_graphics("images/05-quarto/visualmode.png") -->
+<!-- ``` -->
 </section><section id="data-as-table" class="slide level2"><h2>Data as Table</h2>
 <p><code><a href="https://rdrr.io/pkg/knitr/man/kable.html">knitr::kable()</a></code> can turn dataframes into tables.</p>
 <div class="cell" data-layout-align="center">
@@ -1252,7 +1269,7 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 <li><p><code>Alt + Ctrl + I</code> (Win) ; <code>Option + Cmd + I</code> (Mac)</p></li>
 <li><p>Indicate engine (<code>r</code>) between curly braces <code>{r}</code></p></li>
 <li><p>Place options behind the <code>#|</code> (hashpipe): <code>#| option: value</code></p></li>
-<li><p><strong>Tools &gt; Modify Keyboard Shortcuts &gt; Filter… &gt; Insert Chunk Python &gt;</strong> <code>Option + Cmd + P</code></p></li>
+<li><p><strong>Tools &gt; Modify Keyboard Shortcuts &gt; Filter… &gt; Insert Chunk Python &gt;</strong> <code>Option + Cmd + P</code> (or any key binding you like)</p></li>
 </ul>
 </div>
 </div>
@@ -1379,7 +1396,7 @@ head(mtcars)
 </tbody>
 </table>
 <ul>
-<li>Check <a href="https://yihui.org/knitr/options/">knitr</a> for more chunk options.</li>
+<li>Check <a href="https://quarto.org/docs/reference/cells/cells-knitr.html">Code Cells: Knitr</a> for more chunk options.</li>
 </ul>
 <aside class="notes"><ul>
 <li>Here shows some code chunk options.</li>
@@ -1411,7 +1428,7 @@ head(mtcars)
 <span id="cb34-4"><a aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">eval</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span></span>
 <span id="cb34-5"><a aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li>Check <a href="https://quarto.org/docs/reference/formats/html.html">HTML Options</a> for more options!</li>
+<li>Check <a href="https://quarto.org/docs/reference/formats/html.html#execution">HTML Options &gt; Execution</a> for more execution options!</li>
 </ul>
 <aside class="notes"><div class="sourceCode" id="cb35"><pre class="sourceCode markdown md code-with-copy"><code class="sourceCode markdown"><span id="cb35-1"><a aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
 <span id="cb35-2"><a aria-hidden="true" tabindex="-1"></a><span class="in">#| label: setup</span></span>
@@ -1483,7 +1500,7 @@ head(mtcars)
 </div>
 </div>
 </div>
-</section><section id="divs-and-spans" class="slide level2"><h2><a href="https://quarto.org/docs/authoring/markdown-basics.html#divs-and-spans">Divs and Spans</a></h2>
+</section><section id="divs-and-spans" class="slide level2"><h2><a href="https://quarto.org/docs/authoring/markdown-basics.html#sec-divs-and-spans">Divs and Spans</a></h2>
 <pre><code>This is text with [special]{style="color:red"} formatting.</code></pre>
 <p>This is text with <span style="color:red">special</span> formatting.</p>
 <div class="fragment">
@@ -1561,8 +1578,8 @@ Figure&nbsp;1: Two states of Maru
 </div>
 </section><section id="inline-code" class="slide level2"><h2>Inline Code</h2>
 <ul>
-<li>Inside your text you can include code with the syntax <span>`</span>r your-r-code`.</li>
-<li>For example, <span>`</span>r 4 + 5` would output 9 in your text.</li>
+<li><p>Inside your text you can include code with the syntax <span>`</span>r your-r-code`.</p></li>
+<li><p>For example, <span>`</span>r 4 + 5` would output 9 in your text.</p></li>
 </ul>
 <div class="cell" data-layout-align="center">
 <div class="sourceCode" id="cb43"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span><span class="op">(</span><span class="va">cars</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
