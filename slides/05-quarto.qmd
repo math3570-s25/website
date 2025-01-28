@@ -145,6 +145,8 @@ Why Quarto is a Amazing Tool for Data Science Basic syntax: Markdown and Code
 - Let's learn this great tool together!
 :::
 
+
+
 ## Sharing Data Science Products using Quarto
 
 ```{r}
@@ -158,10 +160,14 @@ knitr::include_graphics("https://raw.githubusercontent.com/hadley/r4ds/main/diag
 -   Today, we are going to learn Quarto that is an amazing tool for generating various different kinds of data science output.
 :::
 
+
+
 ## What and Why -- Full Reproducibility
 
-::: columns
-::: {.column width="50%"}
+::::: columns
+
+:::: {.column width="50%"}
+
 -   **\[What\]** data science publishing system
 -   Use a [single]{style="color:green"} Quarto file (`.qmd`) to
     -   weave together narrative [*text* and *code*]{.green}
@@ -169,19 +175,26 @@ knitr::include_graphics("https://raw.githubusercontent.com/hadley/r4ds/main/diag
 -   **\[Why\]** **Fully reproducible** reports
     -   Have *code*, *results*, and *text* in the same document
     -   Results are generated from the source code, and your documents are [automatically]{style="color:green"} updated if your data or code changed.
-:::
+    
+::::
 
-::: {.column width="50%"}
+:::: {.column width="50%"}
+
 ::: logo
+
 ```{r}
-#| out-width: "70%"
+#| out-width: 70%
 knitr::include_graphics("https://raw.githubusercontent.com/rstudio/hex-stickers/main/thumbs/quarto.png")
 ```
-:::
-:::
+
 :::
 
+::::
+
+:::::
+
 ::: notes
+
 -   WHAT
 -   Remember in the last stage of DS, we need to communicate our DS results with others.
 -   qmd is a very useful communication tool that integrates prose/words, code, and analysis results.
@@ -191,7 +204,10 @@ knitr::include_graphics("https://raw.githubusercontent.com/rstudio/hex-stickers/
 -   Since your code, results, and text are all in one qmd file, if your data change, your results will be automatically updated with that change. No more copy and paste.
 -   This greatly saves lots of time. Also, it reduces the chance of making mistakes of copying and pasting, and increases reproducibility of your study, meaning that your code can produce exactly the same result shown in your document.
 -   Literate Programming
+
 :::
+
+
 
 ## 
 
@@ -201,13 +217,16 @@ knitr::include_graphics("https://raw.githubusercontent.com/rstudio/hex-stickers/
 
 
 ::: notes
+
 I found an error in the data and added two more cases. Find the attached the modified excel. Can you redo the analysis?
+
 - Excel to R
 - Re-Make the graphs and re-run all the analysis
 - Copy and paste every updated output from R to your document
 This is an non-reproducible way fo doing data science.
 
 But there is another way, a better way, a reproducible way.
+
 :::
 
 
@@ -225,22 +244,27 @@ knitr::include_graphics("images/05-quarto/rmarkdown_output.png")
 
 
 ::: notes
+
 -   One more reason to use Quarto is qmd can generate various types of output!
 -   It can produce a PDF, blog, HTML. It can generate slides, website, dashboard, word document, e-books. You name it!
 -   So once you learn this Rmarkdown, you can prepare any type of output you want for different purposes. You can prepare a paper for submitting it to a journal, prepare slides for your presentation, prepare a website/dashboard for data science results.
 -   It's really handy! In fact, the slides I make for this course are all qmd files.
+
 :::
 
 
 ## Moving Between Formats Straightforward
 
-::: columns
+:::: columns
+
 ::: {.column width="33%"}
 
 HTML Document
 
 ::: {.code-file .sourceCode .cell-code}
+
 `r fontawesome::fa("file")` datascience.qmd
+
 :::
 
 ``` yaml
@@ -251,7 +275,9 @@ format: html
 :::
 
 ::: {.column width="33%"}
+
 ::: fragment
+
 Presentation Slides
 
 ::: {.code-file .sourceCode .cell-code}
@@ -262,11 +288,15 @@ Presentation Slides
 title: "Data Science"
 format: revealjs
 ```
+
 :::
+
 :::
 
 ::: {.column width="33%"}
+
 ::: fragment
+
 Website
 
 ::: {.code-file .sourceCode .cell-code}
@@ -282,9 +312,12 @@ website:
     left:
       - datascience.qmd
 ```
+
 :::
+
 :::
-:::
+
+::::
 
 ::: notes
 --\> a lesson in document form <br>
@@ -304,6 +337,8 @@ This ease of transition has freed up time to focus my time on content, and that,
 
 ![](images/05-quarto/horst_quarto_schematic.png)
 
+
+
 ## Quarto Is Built on [Pandoc](https://pandoc.org/)
 
 -   R uses `knitr` and Python/Julia uses `Jupyter` to evaluate our code and turn `qmd` into `md` file.
@@ -311,15 +346,20 @@ This ease of transition has freed up time to focus my time on content, and that,
 ![](images/05-quarto/horst_qmd_render_schema.png)
 
 ::: notes
+
 -   So what does Quarto do so amazingly for us?
 -   When we hit Knit, your qmd first uses the knitr package to execute and translate our code, and then creates a new markdown document which includes the code and its output.
 -   The markdown file is then processed by a document converter called pandoc which is responsible for creating various document format you like.
 -   The entire process looks and sounds complicated, and indeed it's complicated. But qmd makes it simple. All we need is to click on the Knit button, and qmd does everything for us.
+
 :::
+
+
 
 ## Why Quarto -- Comfort of Your Own Workspace
 
 ::: r-stack
+
 ![](https://quarto.org/docs/tools/images/rstudio-preview.png){width="1500" fig-alt="A screenshot of a Quarto document rendered inside RStudio"}
 
 ![](https://quarto.org/docs/tools/images/jupyterlab-preview.png){.fragment width="1500" fig-alt="A screenshot of a Quarto document rendered inside JupyterLab"}
@@ -327,30 +367,43 @@ This ease of transition has freed up time to focus my time on content, and that,
 ![](https://quarto.org/docs/computations/images/python-vscode.png){.fragment width="1500" fig-alt="A screenshot of a Quarto document rendered inside VSCode"}
 :::
 
+
+
 ## Why Quarto -- Simple Markdown Syntax for Text
 
 To generate a PDF report, you prefer writing this with 24 lines...
 
 ::: columns
+
+
 ::: {.column width="50%"}
+
 ```{r}
-#| out-width: "80%"
+#| out-width: 80%
 knitr::include_graphics("images/05-quarto/pdf_output.png")
 ```
+
 :::
 
 ::: {.column width="50%"}
+
 ```{r}
-#| out-width: "80%"
+#| out-width: 80%
 knitr::include_graphics("images/05-quarto/qmd_source.png")
 ```
+
 :::
+
 :::
 
 ::: notes
+
 -   Another reason to use Quarto is that its syntax is simple.
 -   We can generate this PDF report including code and figures using this concise qmd file on the right.
+
 :::
+
+
 
 
 ## Why Quarto -- Simple Markdown Syntax for Text
@@ -358,53 +411,73 @@ knitr::include_graphics("images/05-quarto/qmd_source.png")
 Or this with 250 lines!?
 
 ::: columns
+
 ::: {.column width="50%"}
+
 ```{r}
-#| out-width: "80%"
+#| out-width: 80%
 knitr::include_graphics("images/05-quarto/pdf_output.png")
 ```
+
 :::
 
 ::: {.column width="50%"}
+
 ```{r}
-#| out-width: "70%"
+#| out-width: 70%
 knitr::include_graphics("images/05-quarto/tex_source.png")
 ```
+
 :::
+
 :::
 
 ::: notes
+
 -   We can also generate the same PDF report using this document processing format.
 -   Which one you prefer?
 -   Does anyone know what tool is used for generating the PDF? It's called LaTex.
 -   You can see the qmd file is cleaner and much more concise.
+
 :::
+
+
 
 ## Markdown
 
 ::: columns
+
 ::: {.column width="70%"}
+
 -   Quarto is based on **markdown**, a markup language that is widely used to generate HTML pages.
 -   Markdown is a *lightweight* and *easy-to-use* syntax for styling the writing on the GitHub platform.
 -   Go through basic (Pandoc's) Markdown syntax together, and you can learn more at:
     -   [Markdown Tutorial](https://www.markdowntutorial.com/)
     -   [Mastering Markdown GitHub Guides](https://guides.github.com/features/mastering-markdown/)
     -   [Markdown Guide](https://www.markdownguide.org/getting-started/)
+
 :::
 
 ::: {.column width="30%"}
+
 <br>
 
 ```{r}
-#| out-width: "100%"
+#| out-width: 100%
 knitr::include_graphics("images/05-quarto/markdown.png")
 ```
+
 :::
+
 :::
 
 ::: notes
+
 -   In my opinion, comparing to HTML, Markdown format is more friendly and easier to learn.
+
 :::
+
+
 
 
 ## Quarto file = plain text file with extension *.qmd*
@@ -432,6 +505,7 @@ knitr::include_graphics("images/05-quarto/markdown.png")
 :::
 
 :::{.midi}
+
 [**YAML Header ("YAML Ain't Markup Language")**]{.pink}
 
 ``` yaml
@@ -439,13 +513,16 @@ knitr::include_graphics("images/05-quarto/markdown.png")
 key: value
 ---
 ```
+
 :::
 
 
 ::: notes
+
 -   The first part is the YAML header, which is surrounded by a pair of three dashes.
 -   YAML is a human readable language that is commonly used in configuration files of programs.
 -   Here, YAML header defines metadata of the document, for example, title, date, and output format.
+
 :::
 
 . . .
@@ -454,13 +531,17 @@ key: value
 :::
 
 :::{.midi}
+
 [**Markdown Text**]{.blue}
+
 :::
 
 
 ::: notes
+
 -   The second part is text.
 -   And as we've discussed, the syntax for text is Markdown. We'll learn some basic syntax later.
+
 :::
 
 . . .
@@ -469,19 +550,23 @@ key: value
 :::
 
 :::{.midi}
+
 [**Code Chunk**]{.green}
 
 ```{r}
 #| echo: fenced
 ## code right here
 ```
+
 :::
 
 
 ::: notes
+
 -   The third main part of a qmd document is the so-called code chunk. which is surrounded by a pair of three backticks.
 -   The code written in code chunks will be run once you compile your qmd file, and any output generated by your code will be printed out in the final document. All right!
 -   Any questions
+
 :::
 
 
@@ -514,12 +599,15 @@ key: value
 
 - How can we show the current date every time we compile the file? *\[Hint:\]* Check your *hw00*. Compile your document and make sure the date shows up.
 
-- How do we [hide the code](https://quarto.org/docs/reference/formats/html.html#code) so that the document is shorter? Describe it in `## Lab 2: Quarto`
+<!-- - How do we produce a *pdf*? Describe it in `## Lab 2: Quarto` -->
+
+- How do we [fold the code](https://quarto.org/docs/reference/formats/html.html#code) so that the document is shorter? Describe it in `## Lab 2: Quarto`
 
 - Once done, commit with message [_"02-quarto"_]{style="color:green"} and push it to GitHub.
 :::
 
 ::: notes
+
 -   Click on the **inverted triangle** right next to render to produce a PDF/Word document.
 
 ``` markdown
@@ -527,7 +615,12 @@ r Sys.Date()
 ```
 
 date: "`r Sys.Date()`"
+
+date: today
+
 :::
+
+
 
 ## [Text Formatting](https://quarto.org/docs/authoring/markdown-basics.html#text-formatting)
 
@@ -544,6 +637,7 @@ date: "`r Sys.Date()`"
 +-----------------------------------+-------------------------------+
 |     > here is the quote           | > here is the quote           |
 +-----------------------------------+-------------------------------+
+
 
 
 ## [Headings](https://quarto.org/docs/authoring/markdown-basics.html#headings)
@@ -568,6 +662,7 @@ date: "`r Sys.Date()`"
 ## [Lists](https://quarto.org/docs/authoring/markdown-basics.html#lists)
 
 ::: midi
+
 +-------------------------------------+---------------------------------+
 | Markdown Syntax                     | Output                          |
 +=====================================+=================================+
@@ -591,18 +686,30 @@ date: "`r Sys.Date()`"
 |                                     |                                 |
 |                                     |         A.  sub-sub-item 1      |
 +-------------------------------------+---------------------------------+
+
 :::
+
 
 
 :::  notes
 At least two spaces
+
+
+- Lists in Quarto require an *entire blank line* above the list.
+
+wefjwrg
+- list
+- abc
+
 :::
 
 
 ## [Math and Links](https://quarto.org/docs/authoring/markdown-basics.html#equations)
 
 ::: columns
+
 ::: {.column width="50%"}
+
 **Markdown syntax**
 
 ```{.markdown code-line-numbers="false"}
@@ -625,34 +732,44 @@ $$A = r^{2}$$
 :::
 
 ::: {.column width="50%"}
+
 **Output**
 
 inline-math: $A = r^{2}$\
 <br> math-block: $$A = r^{2}$$ <br> <https://www.google.com>\
 <br> [Google link](https://www.google.com)\
 <br>
+
 :::
+
 :::
+
 
 
 ## [Tables](https://quarto.org/docs/authoring/markdown-basics.html#tables)
 
 ::: columns
+
 ::: {.column width="50%"}
+
     | Right | Left | Default | Center |
     |------:|:-----|---------|:------:|
     |   12  |  12  |    12   |    12  |
     |  123  |  123 |   123   |   123  |
     |    1  |    1 |     1   |     1  |
+    
 :::
 
 ::: {.column width="50%"}
+
 | Right | Left | Default | Center |
 |------:|:-----|---------|:------:|
 |    12 | 12   | 12      |   12   |
 |   123 | 123  | 123     |  123   |
 |     1 | 1    | 1       |   1    |
+
 :::
+
 :::
 
 
@@ -683,6 +800,8 @@ inline-math: $A = r^{2}$\
 : Sample grid table.
 
 
+
+
 ## Source vs. Visual Mode
 
 **Source Mode**
@@ -699,6 +818,12 @@ knitr::include_graphics("images/05-quarto/mode-source-1.png")
 knitr::include_graphics("images/05-quarto/mode-visual-1.png")
 ```
 
+<!-- . . . -->
+
+<!-- ```{r} -->
+<!-- #| out-width: 80% -->
+<!-- knitr::include_graphics("images/05-quarto/visualmode.png") -->
+<!-- ``` -->
 
 
 
@@ -780,7 +905,8 @@ knitr::include_graphics("./images/05-quarto/insert_icon.png")
 
 - Place options behind the `#|` (hashpipe): `#| option: value`  
 
-- **Tools > Modify Keyboard Shortcuts > Filter... > Insert Chunk Python >** `Option + Cmd + P`
+- **Tools > Modify Keyboard Shortcuts > Filter... > Insert Chunk Python >** `Option + Cmd + P` (or any key binding you like)
+
 :::
 
 ::::
@@ -847,10 +973,11 @@ head(mtcars)
 |`message: false`  |          |           |        |       | x        |          |
 |`warning: false`  |          |           |        |       |          | x        |
 
-- Check [knitr](https://yihui.org/knitr/options/) for more chunk options.
+- Check [Code Cells: Knitr](https://quarto.org/docs/reference/cells/cells-knitr.html) for more chunk options.
 
 
 ::: notes
+
 - Here shows some code chunk options. 
 - The table summarises which types of output each option **suppresses**.
 - So eval = FALSE means that the code is not run, but the code is still shown in the compiled document. Because the code is not run, there will be no output, no plots, no messages and no warnings.
@@ -859,6 +986,7 @@ head(mtcars)
 - You get the idea, right. 
 - So results controls output, fig.show controls plots, message and warning control if messages and warnings are shown.
 - There are so many chunk options out there. If you want to learn more, definitely check this knitr website. OK
+
 :::
 
 
@@ -881,12 +1009,13 @@ execute:
 ---
 ```
 
-- Check [HTML Options](https://quarto.org/docs/reference/formats/html.html) for more options!
+- Check [HTML Options > Execution](https://quarto.org/docs/reference/formats/html.html#execution) for more execution options!
 
 
 
 
 ::: notes
+
 ````md
 ```{{r}}
 #| label: setup
@@ -897,7 +1026,10 @@ knitr::opts_chunk$set(echo = FALSE)
 ````
 
 - `knitr::opts_chunk$set()` sets default options for all chunks.
+
 :::
+
+
 
 ## Images
 
@@ -934,6 +1066,7 @@ Width of the plot in the output document, which can be different from its physic
 :::: {.columns}
 
 ::: {.column width="45%"}
+
 ```{r}
 #| echo: fenced
 #| eval: false
@@ -946,21 +1079,25 @@ plot(x = cars$speed, y = cars$dist)
 
 
 ::: {.column width="55%"}
+
 ```{r}
 #| fig-align: center
 #| fig-cap: "Fig. 1: Car stuff"
 plot(x = cars$speed, y = cars$dist)
 ```
+
 :::
+
 ::::
 
 
 
-## [Divs and Spans](https://quarto.org/docs/authoring/markdown-basics.html#divs-and-spans)
+## [Divs and Spans](https://quarto.org/docs/authoring/markdown-basics.html#sec-divs-and-spans)
 
     This is text with [special]{style="color:red"} formatting.
 
 This is text with [special]{style="color:red"} formatting.
+
 
 . . .
 
@@ -1035,7 +1172,9 @@ Two states of Maru
 
 
 ## Inline Code
+
 - Inside your text you can include code with the syntax <span>&#96;</span>r your-r-code&#96;.
+
 - For example, <span>&#96;</span>r 4 + 5&#96; would output `r 4 + 5` in your text.
 
 
@@ -1048,13 +1187,14 @@ num_cars <- nrow(cars)
 . . .
 
 
-
 :::: {.columns}
 
 ::: {.column width="50%"}
+
 **Code in Quarto**
 
 There are <span>&#96;</span>r num_cars&#96; rows in the `cars` dataset. Four plus five is <span>&#96;</span>r 4 + 5&#96;
+
 :::
 
 
@@ -1064,15 +1204,18 @@ There are <span>&#96;</span>r num_cars&#96; rows in the `cars` dataset. Four plu
 **Output**
 
 There are `r num_cars` rows in the `cars` dataset. Four plus five is `r 4 + 5`
+
 :::
 
 :::::
 
 
 ::: notes
+
 - We;ve learned that Inside your text you can include code, and inline code is created with backticks. 
 - In fact, the inline code can actually execute code, if we put r in the first place.
 - For example, `r 4 + 5` would output 9 in your text.
+
 :::
 
 
