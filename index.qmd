@@ -5,8 +5,6 @@ tbl-colwidths: [5,10,15,5,8,10,5,5]
 
 -   **Announcement:** TA help desk hours at **Cudahy Hall 301 Monday: 1 – 2 PM, Tuesday: 12 – 1 PM, Thursday: 12 – 2 PM**
 
-*This schedule will be updated as the semester progresses, with all changes documented here*.
-
 ::: column-screen-inset-right
 | Week | Date | Topic | To Do | Slides | Lab Exercise | Homework | Project |
 |:-------:|---------|---------|:-------:|:-------:|:-------:|:-------:|---------|
@@ -45,7 +43,7 @@ tbl-colwidths: [5,10,15,5,8,10,5,5]
 | 17 | **Mon, May 5** | [**Final Project Presentation II**]{.blue} |  |  |  |  |  |
 :::
 
-I reserve the right to make changes to the schedule.
+*This schedule will be updated as the semester progresses, with all changes documented here*. Dr. Yu reserve the right to make changes to the schedule.
 
 ```{r echo = FALSE}
 knitr::knit_exit()
