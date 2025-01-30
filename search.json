@@ -2003,7 +2003,7 @@
     "href": "index.html",
     "title": "MATH/COSC 3570 Introduction to Data Science (Spring 2025)",
     "section": "",
-    "text": "Announcement: TA help desk hours at Cudahy Hall 301 Monday: 1 – 2 PM, Tuesday: 12 – 1 PM, Thursday: 12 – 2 PM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTo Do\nSlides\nLab Exercise\nHomework\nProject\n\n\n\n\n1\nTue, Jan 14\nGreetings + Overview of Data Science\n📖\n🖥️syllabus 🖥️overview\n\n\n\n\n\n\nThu, Jan 16\nPosit Cloud\n\n🖥️posit\n📋 posit 📋01\n\n\n\n\n2\nTue, Jan 21\nNo CLASS: Cold Weather\n📖\n\n\n\n\n\n\n\nThu, Jan 23\nGit/GitHub Introduction\n\n🖥️git\n📋github\n\n\n\n\n3\nTue, Jan 28\nQuarto\n📖\n🖥️quarto\n📋02 📋03 📋04\n\n\n\n\n\nThu, Jan 30\nQuarto and R Programming\n\n🖥️\n📋\n\n\n\n\n4\nTue, Feb 4\nPython Programming\n\n\n📋📋\n\n\n\n\n\nThu, Feb 6\nR Tidyverse\n📖\n🖥️\n\n✍️\n\n\n\n5\nTue, Feb 11\nPython Pandas/NumPy\n\n\n📋📋\n\n\n\n\n\nThu, Feb 13\nData Importing\n📖\n🖥️\n📋\n\n\n\n\n6\nTue, Feb 18\nData Importing\n\n\n\n\n\n\n\n\nThu, Feb 20\nData Visualization-ggplot2\n📖\n🖥️\n📋\n\n\n\n\n7\nTue, Feb 25\nData Visualization-categorical and numerical data\n📖\n🖥️\n📋📋\n\n\n\n\n\nThu, Feb 27\nInteractive Data Visualization\n\n🖥️\n\n\n\n\n\n8\nTue, Mar 4\nData Wrangling - one data frame\n📖\n🖥️\n📋\n\n\n\n\n\nThu, Mar 6\nData Wrangling - two data frames\n\n🖥️\n📋\n\n\n\n\n9\nTue, Mar 11\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\nThu, Mar 13\nNO CLASS: Spring break\n\n\n\n\n\n\n\n10\nTue, Mar 18\nMini Project Presentation\n📖\n🖥️\n📋\n✍️\n\n\n\n\nThu, Mar 20\nData Wrangling - tidyr\n\n🖥️\n📋\n\n\n\n\n11\nTue, Mar 25\nProbabilistic and Statistical Simulation\n\n\n📋\n\n\n\n\n\nThu, Mar 27\nProbabilistic and Statistical Simulation\n\n\n\n\nTeam Up 📂\n\n\n12\nTue, Apr 1\nLinear Regression\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 3\nLinear Regression\n\n\n📋\n\n\n\n\n13\nTue, Apr 8\nLogistic Regression\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 10\nLogistic Regression\n\n\n📋\n✍️\n\n\n\n14\nTue, Apr 15\nK-Nearest Neighbors\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 17\nNO CLASS: Easter break\n\n\n📋\n\n\n\n\n15\nTue, Apr 22\nPrincipal Component Analysis\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 24\nPrincipal Component Analysis\n\n\n📋\n\nProposal 📂\n\n\n16\nTue, Apr 29\nK-Means Clustering\n📖\n🖥️\n\n\n\n\n\n\nThu, May 1\nFinal Project Presentation I\n\n🖥️\n📋\n\n\n\n\n17\nMon, May 5\nFinal Project Presentation II\n\n\n\n\n\n\n\n\n\nThis schedule will be updated as the semester progresses, with all changes documented here. Dr. Yu reserve the right to make changes to the schedule.",
+    "text": "Announcement: TA help desk hours at Cudahy Hall 301 Monday: 1 – 2 PM, Tuesday: 12 – 1 PM, Thursday: 12 – 2 PM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTo Do\nSlides\nLab Exercise\nHomework\nProject\n\n\n\n\n1\nTue, Jan 14\nGreetings + Overview of Data Science\n📖\n🖥️syllabus 🖥️overview\n\n\n\n\n\n\nThu, Jan 16\nPosit Cloud\n\n🖥️posit\n📋 posit 📋01\n\n\n\n\n2\nTue, Jan 21\nNo CLASS: Cold Weather\n📖\n\n\n\n\n\n\n\nThu, Jan 23\nGit/GitHub Introduction\n\n🖥️git\n📋github\n\n\n\n\n3\nTue, Jan 28\nQuarto\n📖\n🖥️quarto\n📋02 📋03 📋04\n\n\n\n\n\nThu, Jan 30\nQuarto and R Programming\n\n🖥️syntax\n📋05\n\n\n\n\n4\nTue, Feb 4\nPython Programming\n\n\n📋📋\n\n\n\n\n\nThu, Feb 6\nR Tidyverse\n📖\n🖥️\n\n✍️\n\n\n\n5\nTue, Feb 11\nPython Pandas/NumPy\n\n\n📋📋\n\n\n\n\n\nThu, Feb 13\nData Importing\n📖\n🖥️\n📋\n\n\n\n\n6\nTue, Feb 18\nData Importing\n\n\n\n\n\n\n\n\nThu, Feb 20\nData Visualization-ggplot2\n📖\n🖥️\n📋\n\n\n\n\n7\nTue, Feb 25\nData Visualization-categorical and numerical data\n📖\n🖥️\n📋📋\n\n\n\n\n\nThu, Feb 27\nInteractive Data Visualization\n\n🖥️\n\n\n\n\n\n8\nTue, Mar 4\nData Wrangling - one data frame\n📖\n🖥️\n📋\n\n\n\n\n\nThu, Mar 6\nData Wrangling - two data frames\n\n🖥️\n📋\n\n\n\n\n9\nTue, Mar 11\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\nThu, Mar 13\nNO CLASS: Spring break\n\n\n\n\n\n\n\n10\nTue, Mar 18\nMini Project Presentation\n📖\n🖥️\n📋\n✍️\n\n\n\n\nThu, Mar 20\nData Wrangling - tidyr\n\n🖥️\n📋\n\n\n\n\n11\nTue, Mar 25\nProbabilistic and Statistical Simulation\n\n\n📋\n\n\n\n\n\nThu, Mar 27\nProbabilistic and Statistical Simulation\n\n\n\n\nTeam Up 📂\n\n\n12\nTue, Apr 1\nLinear Regression\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 3\nLinear Regression\n\n\n📋\n\n\n\n\n13\nTue, Apr 8\nLogistic Regression\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 10\nLogistic Regression\n\n\n📋\n✍️\n\n\n\n14\nTue, Apr 15\nK-Nearest Neighbors\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 17\nNO CLASS: Easter break\n\n\n📋\n\n\n\n\n15\nTue, Apr 22\nPrincipal Component Analysis\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 24\nPrincipal Component Analysis\n\n\n📋\n\nProposal 📂\n\n\n16\nTue, Apr 29\nK-Means Clustering\n📖\n🖥️\n\n\n\n\n\n\nThu, May 1\nFinal Project Presentation I\n\n🖥️\n📋\n\n\n\n\n17\nMon, May 5\nFinal Project Presentation II\n\n\n\n\n\n\n\n\n\nThis schedule will be updated as the semester progresses, with all changes documented here. Dr. Yu reserve the right to make changes to the schedule.",
     "crumbs": [
       "Course information",
       "Schedule"
@@ -2826,7 +2826,7 @@
     "href": "slides/06-syntax.html#factor-1",
     "title": "Basic R  and Python \n",
     "section": "Factor",
-    "text": "Factor\n\nA vector of type factor can be ordered in a meaningful way.\n\nCreate a factor by factor(). It is a type of integer, not character. 😲 🙄\n\n\n## Create a factor from a character vector using function factor()\n(fac &lt;- factor(c(\"med\", \"high\", \"low\")))\n\n[1] med  high low \nLevels: high low med\n\ntypeof(fac)  ## The type is integer.\n\n[1] \"integer\"\n\nstr(fac)  ## The integers show the level each element in vector fac belongs to.\n\n Factor w/ 3 levels \"high\",\"low\",\"med\": 3 1 2\n\n\n\n\norder_fac &lt;- factor(c(\"med\", \"high\", \"low\"),\n                    levels = c(\"low\", \"med\", \"high\"))\nstr(order_fac)\n\n Factor w/ 3 levels \"low\",\"med\",\"high\": 2 3 1\n\n\nlevels(fac) ## Each level represents an integer, ordered from the vector alphabetically."
+    "text": "Factor\n\nA vector of type factor can be ordered in a meaningful way. Create a factor by factor().\n\n\n## Create a factor from a character vector using function factor()\n(fac &lt;- factor(c(\"med\", \"high\", \"low\")))\n\n[1] med  high low \nLevels: high low med\n\n\n\n\nIt is a type of integer, not character. 😲 🙄\n\n\ntypeof(fac)  ## The type is integer.\n\n[1] \"integer\"\n\nstr(fac)  ## The integers show the level each element in vector fac belongs to.\n\n Factor w/ 3 levels \"high\",\"low\",\"med\": 3 1 2\n\n\n\n\n\norder_fac &lt;- factor(c(\"med\", \"high\", \"low\"),\n                    levels = c(\"low\", \"med\", \"high\"))\nstr(order_fac)\n\n Factor w/ 3 levels \"low\",\"med\",\"high\": 2 3 1\n\n\nlevels(fac) ## Each level represents an integer, ordered from the vector alphabetically."
   },
   {
     "objectID": "slides/06-syntax.html#list-generic-vectors",
@@ -2864,25 +2864,18 @@
     "text": "Matrix\n\nA matrix is a two-dimensional analog of a vector with attribute dim.\nUse command matrix() to create a matrix.\n\n\n## Create a 3 by 2 matrix called mat\n(mat &lt;- matrix(data = 1:6, nrow = 3, ncol = 2)) \n\n     [,1] [,2]\n[1,]    1    4\n[2,]    2    5\n[3,]    3    6\n\ndim(mat); nrow(mat); ncol(mat)\n\n[1] 3 2\n\n\n[1] 3\n\n\n[1] 2\n\n\n\n\n     [,1] [,2]\n[1,]    1    2\n[2,]    3    4\n[3,]    5    6\n\n\n$dim\n[1] 3 2"
   },
   {
-    "objectID": "slides/06-syntax.html#row-and-column-names",
-    "href": "slides/06-syntax.html#row-and-column-names",
-    "title": "Basic R  and Python \n",
-    "section": "Row and Column Names",
-    "text": "Row and Column Names\n\n\n\nmat\n\n     [,1] [,2]\n[1,]    1    4\n[2,]    2    5\n[3,]    3    6\n\n## assign row names and column names\nrownames(mat) &lt;- c(\"A\", \"B\", \"C\")\ncolnames(mat) &lt;- c(\"a\", \"b\")\nmat\n\n  a b\nA 1 4\nB 2 5\nC 3 6\n\n\n\n\nrownames(mat)\n\n[1] \"A\" \"B\" \"C\"\n\ncolnames(mat)\n\n[1] \"a\" \"b\"\n\nattributes(mat)\n\n$dim\n[1] 3 2\n\n$dimnames\n$dimnames[[1]]\n[1] \"A\" \"B\" \"C\"\n\n$dimnames[[2]]\n[1] \"a\" \"b\""
-  },
-  {
     "objectID": "slides/06-syntax.html#subsetting-a-matrix",
     "href": "slides/06-syntax.html#subsetting-a-matrix",
     "title": "Basic R  and Python \n",
     "section": "Subsetting a Matrix",
-    "text": "Subsetting a Matrix\n\nUse the same indexing approach as vectors on rows and columns.\nUse comma , to separate row and column index.\n\nmat[2, 2] extracts the element of the second row and second column.\n\n\n\n\nmat\n\n  a b\nA 1 4\nB 2 5\nC 3 6\n\n## all rows and 2nd column\n## leave row index blank\n## specify 2 in coln index\nmat[, 2]\n\nA B C \n4 5 6 \n\n\n\n\n## 2nd row and all columns\nmat[2, ] \n\na b \n2 5 \n\n## The 1st and 3rd rows and the 1st column\nmat[c(1, 3), 1] \n\nA C \n1 3"
+    "text": "Subsetting a Matrix\n\nUse the same indexing approach as vectors on rows and columns.\nUse comma , to separate row and column index.\n\nmat[2, 2] extracts the element of the second row and second column.\n\n\n\n\nmat\n\n     [,1] [,2]\n[1,]    1    4\n[2,]    2    5\n[3,]    3    6\n\n## all rows and 2nd column\n## leave row index blank\n## specify 2 in coln index\nmat[, 2]\n\n[1] 4 5 6\n\n\n\n\n## 2nd row and all columns\nmat[2, ] \n\n[1] 2 5\n\n## The 1st and 3rd rows and the 1st column\nmat[c(1, 3), 1] \n\n[1] 1 3"
   },
   {
     "objectID": "slides/06-syntax.html#binding-matrices",
     "href": "slides/06-syntax.html#binding-matrices",
     "title": "Basic R  and Python \n",
     "section": "Binding Matrices",
-    "text": "Binding Matrices\n\ncbind() (binding matrices by adding columns)\nrbind() (binding matrices by adding rows)\nWhen matrices are combined by columns (rows), they should have the same number of rows (columns).\n\n\n\n\nmat\n\n  a b\nA 1 4\nB 2 5\nC 3 6\n\nmat_c &lt;- matrix(data = c(7,0,0,8,2,6), \n                nrow = 3, ncol = 2)\n## should have the same number of rows\ncbind(mat, mat_c)  \n\n  a b    \nA 1 4 7 8\nB 2 5 0 2\nC 3 6 0 6\n\n\n\n\nmat_r &lt;- matrix(data = 1:4, \n                nrow = 2, \n                ncol = 2)\n## should have the same number of columns\nrbind(mat, mat_r)  \n\n  a b\nA 1 4\nB 2 5\nC 3 6\n  1 3\n  2 4"
+    "text": "Binding Matrices\n\ncbind() (binding matrices by adding columns)\nrbind() (binding matrices by adding rows)\nWhen matrices are combined by columns (rows), they should have the same number of rows (columns).\n\n\n\n\nmat\n\n     [,1] [,2]\n[1,]    1    4\n[2,]    2    5\n[3,]    3    6\n\nmat_c &lt;- matrix(data = c(7,0,0,8,2,6), \n                nrow = 3, ncol = 2)\n## should have the same number of rows\ncbind(mat, mat_c)  \n\n     [,1] [,2] [,3] [,4]\n[1,]    1    4    7    8\n[2,]    2    5    0    2\n[3,]    3    6    0    6\n\n\n\n\nmat_r &lt;- matrix(data = 1:4, \n                nrow = 2, \n                ncol = 2)\n## should have the same number of columns\nrbind(mat, mat_r)  \n\n     [,1] [,2]\n[1,]    1    4\n[2,]    2    5\n[3,]    3    6\n[4,]    1    3\n[5,]    2    4"
   },
   {
     "objectID": "slides/06-syntax.html#data-frame-the-most-common-way-of-storing-datasets",
@@ -2910,7 +2903,7 @@
     "href": "slides/06-syntax.html#section-5",
     "title": "Basic R  and Python \n",
     "section": "",
-    "text": "05-R Data Type Summary \n\nIn lab.qmd Lab 5,\n\nCreate R objects vector v1, factor f2, list l3, matrix m4 and data frame d5.\nCheck typeof() and class() of those objects, and create a list having the output below.\n\n\n\n\n\nv1 &lt;- c(__________)\nf2 &lt;- f_____(__________)\nl3 &lt;- l_____(__________)\nm4 &lt;- m_____(__________)\nd5 &lt;- d_____.f_____(__________)\nv &lt;- c(type = typeof(v1), class = class(v1))\nf &lt;- c(type = __________, class = _________)\nl &lt;- c(type = __________, class = _________)\nm &lt;- c(type = __________, class = _________)\nd &lt;- c(type = __________, class = _________)\n____(vec    =   v,\n     ______ = ___,\n     ______ = ___,\n     ______ = ___,\n     ______ = ___)\n\n\n\n\n$vec\n     type     class \n \"double\" \"numeric\" \n\n$fac\n     type     class \n\"integer\"  \"factor\" \n\n$lst\n  type  class \n\"list\" \"list\" \n\n$mat\n     type    class1    class2 \n\"integer\"  \"matrix\"   \"array\" \n\n$df\n        type        class \n      \"list\" \"data.frame\""
+    "text": "05-R Data Type Summary \n\nIn lab.qmd Lab 5,\n\nCreate R objects vector v1, factor f2, list l3, matrix m4 and data frame d5.\nCheck typeof() and class() of those objects, and create a list having the output below.\n\n\n\n\n\nv1 &lt;- __________\nf2 &lt;- __________\nl3 &lt;- __________\nm4 &lt;- __________\nd5 &lt;- __________\nv &lt;- c(type = typeof(v1), class = class(v1))\nf &lt;- c(type = __________, class = _________)\nl &lt;- c(type = __________, class = _________)\nm &lt;- c(type = __________, class = _________)\nd &lt;- c(type = __________, class = _________)\n____(vec    =   v,\n     ______ = ___,\n     ______ = ___,\n     ______ = ___,\n     ______ = ___)\n\n\n\n\n$vec\n     type     class \n \"double\" \"numeric\" \n\n$fac\n     type     class \n\"integer\"  \"factor\" \n\n$lst\n  type  class \n\"list\" \"list\" \n\n$mat\n     type    class1    class2 \n\"integer\"  \"matrix\"   \"array\" \n\n$df\n        type        class \n      \"list\" \"data.frame\""
   },
   {
     "objectID": "slides/06-syntax.html#python-lists",
@@ -2959,7 +2952,7 @@
     "href": "slides/06-syntax.html#dictionaries",
     "title": "Basic R  and Python \n",
     "section": "Dictionaries",
-    "text": "Dictionaries\n\nA dictionary consists of key-value pairs.\nA dictionary is mutable, i.e., the values can be changed in place and more key-value pairs can be added.\nTo create a dictionary, we use {\"key name\": value}.\nThe value can be accessed by the key in the dictionary.\n\n\ndic = {'Name': 'Ivy', 'Age': 7, 'Class': 'First'}\n\n\ndic['Age']\n\n7\n\n\n\ndic['age']  ## does not work\n\n\ndic['Age'] = 9\ndic['Class'] = 'Third'\ndic\n\n{'Name': 'Ivy', 'Age': 9, 'Class': 'Third'}"
+    "text": "Dictionaries\n\nA dictionary consists of key-value pairs.\nA dictionary is mutable, i.e., the values can be changed in place and more key-value pairs can be added.\nTo create a dictionary, we use {'key': value}.\nThe value can be accessed by the key in the dictionary.\n\n\ndic = {'Name': 'Ivy', 'Age': 7, 'Class': 'First'}\n\n\ndic['Age']\n\n7\n\n\n\ndic['age']  ## does not work\n\n\ndic['Age'] = 9\ndic['Class'] = 'Third'\ndic\n\n{'Name': 'Ivy', 'Age': 9, 'Class': 'Third'}"
   },
   {
     "objectID": "slides/06-syntax.html#properties-of-dictionaries",
@@ -2969,11 +2962,11 @@
     "text": "Properties of Dictionaries\n\nPython will use the last assignment!\n\n\ndic1 = {'Name': 'Ivy', 'Age': 7, 'Name': 'Liya'}\ndic1['Name']\n\n'Liya'\n\n\n\n\nKeys are unique and immutable.\nA key can be a tuple, but CANNOT be a list.\n\n\n## The first key is a tuple!\ndic2 = {('First', 'Last'): 'Ivy Lee', 'Age': 7}\ndic2[('First', 'Last')]\n\n'Ivy Lee'\n\n\n\n## does not work\ndic2 = {['First', 'Last']: 'Ivy Lee', 'Age': 7}\ndic2[['First', 'Last']]"
   },
   {
-    "objectID": "slides/06-syntax.html#disctionary-methods",
-    "href": "slides/06-syntax.html#disctionary-methods",
+    "objectID": "slides/06-syntax.html#dictionary-methods",
+    "href": "slides/06-syntax.html#dictionary-methods",
     "title": "Basic R  and Python \n",
-    "section": "Disctionary Methods",
-    "text": "Disctionary Methods\n\n\n{'Name': 'Ivy', 'Age': 9, 'Class': 'Third'}\n\n\n\n## Returns list of dictionary dict's keys\ndic.keys()\n\ndict_keys(['Name', 'Age', 'Class'])\n\n\n\n\n\n## Returns list of dictionary dict's values\ndic.values()\n\ndict_values(['Ivy', 9, 'Third'])\n\n\n\n\n\n\n## Returns a list of dict's (key, value) tuple pairs\ndic.items()\n\ndict_items([('Name', 'Ivy'), ('Age', 9), ('Class', 'Third')])\n\n\n\n\n\n\n## Adds dictionary dic2's key-values pairs in to dic\ndic2 = {'Gender': 'female'}\ndic.update(dic2)\ndic\n\n{'Name': 'Ivy', 'Age': 9, 'Class': 'Third', 'Gender': 'female'}\n\n\n\n## Removes all elements of dictionary dict\ndic.clear()\ndic\n\n{}"
+    "section": "Dictionary Methods",
+    "text": "Dictionary Methods\n\n\n{'Name': 'Ivy', 'Age': 9, 'Class': 'Third'}\n\n\n\ndic.keys() ## Returns list of dictionary dict's keys\n\ndict_keys(['Name', 'Age', 'Class'])\n\n\n\n\n\ndic.values() ## Returns list of dictionary dict's values\n\ndict_values(['Ivy', 9, 'Third'])\n\n\n\n\n\n\ndic.items() ## Returns a list of dict's (key, value) tuple pairs\n\ndict_items([('Name', 'Ivy'), ('Age', 9), ('Class', 'Third')])\n\n\n\n\n\n\n## Adds dictionary dic2's key-values pairs in to dic\ndic2 = {'Gender': 'female'}\ndic.update(dic2)\ndic\n\n{'Name': 'Ivy', 'Age': 9, 'Class': 'Third', 'Gender': 'female'}\n\n\n\n## Removes all elements of dictionary dict\ndic.clear()\ndic\n\n{}"
   },
   {
     "objectID": "slides/06-syntax.html#section-6",
@@ -3001,7 +2994,7 @@
     "href": "slides/06-syntax.html#installing-numpy-and-pandas-1",
     "title": "Basic R  and Python \n",
     "section": "Installing NumPy and pandas*",
-    "text": "Installing NumPy and pandas*\nYou may need to restart R session. Do it, and in the new R session, run\n\nlibrary(reticulate)\npy_install(c(\"numpy\", \"pandas\", \"matplotlib\"))\n\n\nRun the following Python code, and make sure everything goes well.\n\nimport numpy as np\nimport pandas as pd\nv1 = np.array([3, 8])\nv1\ndf = pd.DataFrame({\"col\": ['red', 'blue', 'green']})\ndf"
+    "text": "Installing NumPy and pandas*\nYou may need to restart R session. Do it, and in the new R session, run\n\nlibrary(reticulate)\npy_install(c(\"numpy\", \"pandas\", \"matplotlib\"))\n\n\nRun the following Python code, and make sure everything goes well.\n\nimport numpy as np\nimport pandas as pd\nv1 = np.array([3, 8])\nv1\n\narray([3, 8])\n\ndf = pd.DataFrame({\"col\": ['red', 'blue', 'green']})\ndf\n\n     col\n0    red\n1   blue\n2  green"
   },
   {
     "objectID": "slides/06-syntax.html#central-tendency-mean-and-median",
@@ -3015,7 +3008,7 @@
     "href": "slides/06-syntax.html#variation",
     "title": "Basic R  and Python \n",
     "section": "Variation",
-    "text": "Variation\n\n\n\n\n\n\n\n\n\n\n\nquantile(data, c(0.25, 0.5, 0.75)) \n\n  25%   50%   75% \n 9.75 17.00 47.50 \n\n\n\nvar(data)\n\n[1] 7677\n\nsd(data)\n\n[1] 87.6\n\n\n\nsummary(data)\n\n   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n    3.0     9.8    17.0    55.3    47.5   230.0 \n\n\n\n\n\n\n\n\n\n\n\n\n\nnp.quantile(data,  [0.25, 0.5, 0.75])\n\narray([ 9.75, 17.  , 47.5 ])\n\n\n\nnp.var(data, ddof = 1)\n\n7676.666666666666\n\nnp.std(data, ddof = 1)\n\n87.61658899242008\n\n\n\ndf = pd.Series(data)\ndf.describe()\n\ncount      6.000000\nmean      55.333333\nstd       87.616589\nmin        3.000000\n25%        9.750000\n50%       17.000000\n75%       47.500000\nmax      230.000000\ndtype: float64\n\n\n\n\n\n\n\np-th percentile: a data value such that at most \\(p\\%\\) of the data values are below it and at most \\((1−p)\\%\\) of the values are above it.\n\nFirst Quartile (Q1): the 25-th percentile\n\nSecond Quartile (Q2): the 50-th percentile (Median)\n\nThird Quartile (Q3): the 75-th percentile\n\nInterquartile Range (IQR): Q3 - Q1 IQR(data) ::: {.cell layout-align=“center”}\n\nq75, q25 = np.percentile(data, [75 ,25])\nq75 - q25\n\n37.75\n\nDelta Degrees of Freedom. :::"
+    "text": "Variation\n\n\n\n\n\n\n\n\n\n\n\nquantile(data, c(0.25, 0.5, 0.75)) \n\n  25%   50%   75% \n 9.75 17.00 47.50 \n\n\n\nvar(data)\n\n[1] 7677\n\nsd(data)\n\n[1] 87.6\n\n\n\nsummary(data)\n\n   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. \n    3.0     9.8    17.0    55.3    47.5   230.0 \n\n\n\n\n\n\n\n\n\n\n\n\n\nnp.quantile(data,  [0.25, 0.5, 0.75])\n\narray([ 9.75, 17.  , 47.5 ])\n\n\n\nnp.var(data, ddof = 1)\n\n7676.666666666666\n\nnp.std(data, ddof = 1)\n\n87.61658899242008\n\n\n\ndf = pd.Series(data)\ndf.describe()\n\ncount      6.000000\nmean      55.333333\nstd       87.616589\nmin        3.000000\n25%        9.750000\n50%       17.000000\n75%       47.500000\nmax      230.000000\ndtype: float64\n\n\n\n\n\n\n\np-th percentile: a data value such that at most \\(p\\%\\) of the data values are below it and at most \\((1−p)\\%\\) of the values are above it.\n\nFirst Quartile (Q1): the 25-th percentile\n\nSecond Quartile (Q2): the 50-th percentile (Median)\n\nThird Quartile (Q3): the 75-th percentile\n\nInterquartile Range (IQR): Q3 - Q1\n\nIQR(data)\n\nq75, q25 = np.percentile(data, [75 ,25])\nq75 - q25\n\nDelta Degrees of Freedom."
   },
   {
     "objectID": "slides/06-syntax.html#r-plot",
@@ -3064,7 +3057,7 @@
     "href": "slides/06-syntax.html#python-boxplot",
     "title": "Basic R  and Python \n",
     "section": "Python boxplot()\n",
-    "text": "Python boxplot()\n\n\nCodecyl_index = np.sort(np.unique(np.array(mtcars.cyl)))\ncyl_shape = cyl_index.shape[0]\ncyl_list = []\nfor i in range (0, cyl_shape):\n    cyl_list.append(np.array(mtcars[mtcars.cyl == cyl_index[i]].mpg))\n\n\n\nimport matplotlib.pyplot as plt\nplt.boxplot(cyl_list, vert=False, labels=[4, 6, 8])\nplt.xlabel(\"Miles per gallon\")\nplt.ylabel(\"Number of cylinders\")"
+    "text": "Python boxplot()\n\n\nCodecyl_num = np.unique(mtcars.cyl)\ncyl_list = []\ncyl_list.append(mtcars[mtcars.cyl == cyl_num[0]].mpg)\ncyl_list.append(mtcars[mtcars.cyl == cyl_num[1]].mpg)\ncyl_list.append(mtcars[mtcars.cyl == cyl_num[2]].mpg)\n\n\n\nimport matplotlib.pyplot as plt\nplt.boxplot(cyl_list, vert=False, tick_labels=[4, 6, 8])\nplt.xlabel(\"Miles per gallon\")\nplt.ylabel(\"Number of cylinders\")"
   },
   {
     "objectID": "slides/06-syntax.html#r-hist",
@@ -3077,8 +3070,8 @@
     "objectID": "slides/06-syntax.html#python-hist",
     "href": "slides/06-syntax.html#python-hist",
     "title": "Basic R  and Python \n",
-    "section": "Python hist()\n",
-    "text": "Python hist()\n\n\nplt.hist(mtcars.wt, \n         bins = 19, \n         color=\"#003366\",\n         edgecolor=\"#FFCC00\")\nplt.xlabel(\"weights\")\nplt.title(\"Histogram of weights\")"
+    "section": "Python hist()",
+    "text": "Python hist()\n\n## by default bins=10\nplt.hist(mtcars.wt, \n         bins = 20, \n         color=\"#003366\",\n         edgecolor=\"#FFCC00\")\nplt.xlabel(\"weights\")\nplt.title(\"Histogram of weights\")"
   },
   {
     "objectID": "slides/06-syntax.html#r-barplot",
@@ -3091,8 +3084,8 @@
     "objectID": "slides/06-syntax.html#python-barplot",
     "href": "slides/06-syntax.html#python-barplot",
     "title": "Basic R  and Python \n",
-    "section": "Python barplot()\n",
-    "text": "Python barplot()\n\n\ncount_py = mtcars.value_counts('gear')\ncount_py\n\ngear\n3    15\n4    12\n5     5\nName: count, dtype: int64\n\n\n\nplt.bar(count_py.index, count_py)\nplt.xlabel(\"Number of Gears\")\nplt.title(\"Car Distribution\")"
+    "section": "Python barplot()",
+    "text": "Python barplot()\n\ncount_py = mtcars.value_counts('gear')\ncount_py\n\ngear\n3    15\n4    12\n5     5\nName: count, dtype: int64\n\n\n\nplt.bar([\"3\", \"4\", \"5\"], count_py)\nplt.xlabel(\"Number of Gears\")\nplt.title(\"Car Distribution\")"
   },
   {
     "objectID": "slides/06-syntax.html#r-pie",
@@ -3106,14 +3099,14 @@
     "href": "slides/06-syntax.html#python-pie",
     "title": "Basic R  and Python \n",
     "section": "Python pie()\n",
-    "text": "Python pie()\n\n\npercent = round(count_py / sum(count_py) * 100, 2)\ntexts = [str(percent.index[k]) + \" gear \" + str(percent.array[k]) + \"%\" for k in range(0,3)]\n\n\nplt.pie(count_py, labels = texts, colors = ['r', 'g', 'b'])\nplt.title(\"Pie Charts\")"
+    "text": "Python pie()\n\n\npercent = round(count_py / sum(count_py) * 100, 2)\ntexts = (percent.index.astype(str) + \" gears: \" + percent.astype(str) + \"%\").tolist()\n\n\nplt.pie(count_py, labels = texts, colors = ['r', 'g', 'b'])\nplt.title(\"Pie Charts\")"
   },
   {
     "objectID": "slides/06-syntax.html#r-2d-imaging-image",
     "href": "slides/06-syntax.html#r-2d-imaging-image",
     "title": "Basic R  and Python \n",
     "section": "R 2D Imaging: image()\n",
-    "text": "R 2D Imaging: image()\n\n\nThe image() function displays the values in a matrix using color.\n\n\n\n\nmatrix(1:30, 6, 5)\n\n     [,1] [,2] [,3] [,4] [,5]\n[1,]    1    7   13   19   25\n[2,]    2    8   14   20   26\n[3,]    3    9   15   21   27\n[4,]    4   10   16   22   28\n[5,]    5   11   17   23   29\n[6,]    6   12   18   24   30\n\nimage(matrix(1:30, 6, 5))\n\n\n\n\n\n\n\n\n\n\n\n\n\nIn Python,\n\nplt.imshow(mat_img, cmap='Oranges')"
+    "text": "R 2D Imaging: image()\n\n\nThe image() function displays the values in a matrix using color.\n\n\n\n\nmatrix(1:30, 6, 5)\n\n     [,1] [,2] [,3] [,4] [,5]\n[1,]    1    7   13   19   25\n[2,]    2    8   14   20   26\n[3,]    3    9   15   21   27\n[4,]    4   10   16   22   28\n[5,]    5   11   17   23   29\n[6,]    6   12   18   24   30\n\nimage(matrix(1:30, 6, 5))\n\n\n\n\n\n\n\n\n\n\n\n\nIn Python,\n\nCodematrix = np.arange(1, 31).reshape(5, 6)\nplt.imshow(matrix, cmap=\"viridis\", origin=\"lower\")\nplt.colorbar()\nplt.show()"
   },
   {
     "objectID": "slides/06-syntax.html#r-fieldsimage.plot",
@@ -3134,14 +3127,14 @@
     "href": "slides/06-syntax.html#r-3d-scatter-plot-scatterplot3d",
     "title": "Basic R  and Python \n",
     "section": "R 3D scatter plot: scatterplot3d()\n",
-    "text": "R 3D scatter plot: scatterplot3d()\n\n\n\n\nlibrary(\"scatterplot3d\")\nscatterplot3d(x = mtcars$wt, \n              y = mtcars$disp, \n              z = mtcars$mpg, \n              main = \"3D Scatter Plot\", \n              xlab = \"Weights\", \n              ylab = \"Displacement\",\n              zlab = \"Miles per gallon\", \n              pch = 16, \n              color = \"steelblue\")\n\n\n\n\n\n\n\n\n\n\n\n\n\nIn Python,\n\nfig = plt.figure()\nax = fig.add_subplot(projection='3d')"
+    "text": "R 3D scatter plot: scatterplot3d()\n\n\n\n\nlibrary(scatterplot3d)\nscatterplot3d(x = mtcars$wt, \n              y = mtcars$disp, \n              z = mtcars$mpg, \n              main = \"3D Scatter Plot\", \n              xlab = \"Weights\", \n              ylab = \"Displacement\",\n              zlab = \"Miles per gallon\", \n              pch = 16, \n              color = \"steelblue\")\n\n\n\n\n\n\n\n\n\n\n\n\nIn Python,\n\nCodefig = plt.figure()\nax = fig.add_subplot(projection='3d')\nax.scatter(mtcars['wt'], mtcars['disp'], mtcars['mpg'], c='steelblue', marker='o')\nax.set_title(\"3D Scatter Plot\")\nax.set_xlabel(\"Weights\")\nax.set_ylabel(\"Displacement\")\nax.set_zlabel(\"Miles per gallon\")\nplt.show()"
   },
   {
     "objectID": "slides/06-syntax.html#r-perspective-plot-persp",
     "href": "slides/06-syntax.html#r-perspective-plot-persp",
     "title": "Basic R  and Python \n",
     "section": "R Perspective Plot: persp()\n",
-    "text": "R Perspective Plot: persp()\n\n\n\n\npar(mar = c(0,0,0,0))\n# Exaggerate the relief\nz &lt;- 2 * volcano      \n# 10 meter spacing (S to N)\nx &lt;- 10 * (1:nrow(z))   \n# 10 meter spacing (E to W)\ny &lt;- 10 * (1:ncol(z))   \npar(bg = \"slategray\")\npersp(x, y, z, theta = 135, phi = 30, \n      col = \"green3\", scale = FALSE,\n      ltheta = -120, shade = 0.75, \n      border = NA, box = FALSE)\n\n\n\n\n\n\n\n\n\n\n\n\n\nIn Python,\n\nfig, ax = plt.subplots(subplot_kw={\"projection\": \"3d\"})\nax.plot_surface(X, Y, Z)\n\n\nYou can also generate a so-called perspective plot using the function persp().\nI don’t use the function often. You can try it with different argument values, and see how it changes."
+    "text": "R Perspective Plot: persp()\n\n\n\n\npar(mar = c(0,0,0,0))\n# Exaggerate the relief\nz &lt;- 2 * volcano      \n# 10 meter spacing (S to N)\nx &lt;- 10 * (1:nrow(z))   \n# 10 meter spacing (E to W)\ny &lt;- 10 * (1:ncol(z))   \npar(bg = \"slategray\")\npersp(x, y, z, theta = 135, phi = 30, \n      col = \"green3\", scale = FALSE,\n      ltheta = -120, shade = 0.75, \n      border = NA, box = FALSE)\n\n\n\n\n\n\n\n\n\n\n\n\nIn Python,\n\nCodevolcano = pd.read_csv(\"./slides/data/volcano.csv\", index_col=0)\nvolcano = volcano.values\nz = 2 * volcano\nx = np.arange(1, z.shape[0] + 1) * 10\ny = np.arange(1, z.shape[1] + 1) * 10  \nX, Y = np.meshgrid(y, x)\nfig = plt.figure()\nax = fig.add_subplot(projection='3d', facecolor=\"slategray\")\nax.plot_surface(X, Y, z, cmap=\"Greens\", edgecolor=\"none\", shade=True, alpha=0.9)\nplt.show()\n\n\n\nYou can also generate a so-called perspective plot using the function persp().\nI don’t use the function often. You can try it with different argument values, and see how it changes."
   },
   {
     "objectID": "slides/06-syntax.html#section-7",

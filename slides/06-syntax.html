@@ -625,7 +625,7 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 </div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb45"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb45-1"><a></a><span class="co"># R comment</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb45"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># R comment</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="fragment">
@@ -1052,9 +1052,7 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 </div>
 </section><section id="factor-1" class="slide level2"><h2>Factor</h2>
 <ul>
-<li>A vector of type <code>factor</code> can be <em>ordered in a meaningful way.</em>
-</li>
-<li>Create a factor by <code><a href="https://rdrr.io/r/base/factor.html">factor()</a></code>. It is a type of <strong>integer</strong>, not <strong>character</strong>. 😲 🙄</li>
+<li>A vector of type <code>factor</code> can be <em>ordered in a meaningful way.</em> Create a factor by <code><a href="https://rdrr.io/r/base/factor.html">factor()</a></code>.</li>
 </ul>
 <div class="cell" data-layout-align="center">
 <div class="sourceCode" id="cb141"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## Create a factor from a character vector using function factor()</span></span>
@@ -1063,6 +1061,12 @@ Dr.&nbsp;Cheng-Han Yu <br> Department of Mathematical and Statistical Sciences <
 <pre><code>[1] med  high low 
 Levels: high low med</code></pre>
 </div>
+</div>
+<div class="fragment">
+<ul>
+<li>It is a type of <strong>integer</strong>, not <strong>character</strong>. 😲 🙄</li>
+</ul>
+<div class="cell" data-layout-align="center">
 <div class="sourceCode" id="cb143"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/typeof.html">typeof</a></span><span class="op">(</span><span class="va">fac</span><span class="op">)</span>  <span class="co">## The type is integer.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "integer"</code></pre>
@@ -1070,6 +1074,7 @@ Levels: high low med</code></pre>
 <div class="sourceCode" id="cb145"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/str.html">str</a></span><span class="op">(</span><span class="va">fac</span><span class="op">)</span>  <span class="co">## The integers show the level each element in vector fac belongs to.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code> Factor w/ 3 levels "high","low","med": 3 1 2</code></pre>
+</div>
 </div>
 </div>
 <div class="fragment">
@@ -1288,54 +1293,7 @@ Levels: high low med</code></pre>
           width: 1px!important;
           overflow: hidden!important;
           display:block!important;
-      }</style></aside></section><section id="row-and-column-names" class="slide level2"><h2>Row and Column Names</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb177"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">mat</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>     [,1] [,2]
-[1,]    1    4
-[2,]    2    5
-[3,]    3    6</code></pre>
-</div>
-<div class="sourceCode" id="cb179"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## assign row names and column names</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/colnames.html">rownames</a></span><span class="op">(</span><span class="va">mat</span><span class="op">)</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"A"</span>, <span class="st">"B"</span>, <span class="st">"C"</span><span class="op">)</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/colnames.html">colnames</a></span><span class="op">(</span><span class="va">mat</span><span class="op">)</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"a"</span>, <span class="st">"b"</span><span class="op">)</span></span>
-<span><span class="va">mat</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>  a b
-A 1 4
-B 2 5
-C 3 6</code></pre>
-</div>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb181"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/colnames.html">rownames</a></span><span class="op">(</span><span class="va">mat</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] "A" "B" "C"</code></pre>
-</div>
-<div class="sourceCode" id="cb183"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/colnames.html">colnames</a></span><span class="op">(</span><span class="va">mat</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] "a" "b"</code></pre>
-</div>
-<div class="sourceCode" id="cb185"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/attributes.html">attributes</a></span><span class="op">(</span><span class="va">mat</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>$dim
-[1] 3 2
-
-$dimnames
-$dimnames[[1]]
-[1] "A" "B" "C"
-
-$dimnames[[2]]
-[1] "a" "b"</code></pre>
-</div>
-</div>
-</div>
-</div>
-</section><section id="subsetting-a-matrix" class="slide level2"><h2>Subsetting a Matrix</h2>
+      }</style></aside></section><section id="subsetting-a-matrix" class="slide level2"><h2>Subsetting a Matrix</h2>
 <ul>
 <li>Use the same indexing approach as vectors on rows and columns.</li>
 <li>Use comma <code>,</code> to separate row and column index.</li>
@@ -1345,35 +1303,32 @@ $dimnames[[2]]
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb187"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">mat</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb179"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">mat</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>  a b
-A 1 4
-B 2 5
-C 3 6</code></pre>
+<pre><code>     [,1] [,2]
+[1,]    1    4
+[2,]    2    5
+[3,]    3    6</code></pre>
 </div>
-<div class="sourceCode" id="cb189"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## all rows and 2nd column</span></span>
+<div class="sourceCode" id="cb181"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## all rows and 2nd column</span></span>
 <span><span class="co">## leave row index blank</span></span>
 <span><span class="co">## specify 2 in coln index</span></span>
 <span><span class="va">mat</span><span class="op">[</span>, <span class="fl">2</span><span class="op">]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>A B C 
-4 5 6 </code></pre>
+<pre><code>[1] 4 5 6</code></pre>
 </div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb191"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## 2nd row and all columns</span></span>
+<div class="sourceCode" id="cb183"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## 2nd row and all columns</span></span>
 <span><span class="va">mat</span><span class="op">[</span><span class="fl">2</span>, <span class="op">]</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>a b 
-2 5 </code></pre>
+<pre><code>[1] 2 5</code></pre>
 </div>
-<div class="sourceCode" id="cb193"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## The 1st and 3rd rows and the 1st column</span></span>
+<div class="sourceCode" id="cb185"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## The 1st and 3rd rows and the 1st column</span></span>
 <span><span class="va">mat</span><span class="op">[</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">1</span>, <span class="fl">3</span><span class="op">)</span>, <span class="fl">1</span><span class="op">]</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>A C 
-1 3 </code></pre>
+<pre><code>[1] 1 3</code></pre>
 </div>
 </div>
 </div>
@@ -1387,38 +1342,38 @@ C 3 6</code></pre>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb195"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">mat</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb187"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">mat</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>  a b
-A 1 4
-B 2 5
-C 3 6</code></pre>
+<pre><code>     [,1] [,2]
+[1,]    1    4
+[2,]    2    5
+[3,]    3    6</code></pre>
 </div>
-<div class="sourceCode" id="cb197"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">mat_c</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/matrix.html">matrix</a></span><span class="op">(</span>data <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">7</span>,<span class="fl">0</span>,<span class="fl">0</span>,<span class="fl">8</span>,<span class="fl">2</span>,<span class="fl">6</span><span class="op">)</span>, </span>
+<div class="sourceCode" id="cb189"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">mat_c</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/matrix.html">matrix</a></span><span class="op">(</span>data <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">7</span>,<span class="fl">0</span>,<span class="fl">0</span>,<span class="fl">8</span>,<span class="fl">2</span>,<span class="fl">6</span><span class="op">)</span>, </span>
 <span>                nrow <span class="op">=</span> <span class="fl">3</span>, ncol <span class="op">=</span> <span class="fl">2</span><span class="op">)</span></span>
 <span><span class="co">## should have the same number of rows</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/cbind.html">cbind</a></span><span class="op">(</span><span class="va">mat</span>, <span class="va">mat_c</span><span class="op">)</span>  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>  a b    
-A 1 4 7 8
-B 2 5 0 2
-C 3 6 0 6</code></pre>
+<pre><code>     [,1] [,2] [,3] [,4]
+[1,]    1    4    7    8
+[2,]    2    5    0    2
+[3,]    3    6    0    6</code></pre>
 </div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb199"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">mat_r</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/matrix.html">matrix</a></span><span class="op">(</span>data <span class="op">=</span> <span class="fl">1</span><span class="op">:</span><span class="fl">4</span>, </span>
+<div class="sourceCode" id="cb191"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">mat_r</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/matrix.html">matrix</a></span><span class="op">(</span>data <span class="op">=</span> <span class="fl">1</span><span class="op">:</span><span class="fl">4</span>, </span>
 <span>                nrow <span class="op">=</span> <span class="fl">2</span>, </span>
 <span>                ncol <span class="op">=</span> <span class="fl">2</span><span class="op">)</span></span>
 <span><span class="co">## should have the same number of columns</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/cbind.html">rbind</a></span><span class="op">(</span><span class="va">mat</span>, <span class="va">mat_r</span><span class="op">)</span>  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>  a b
-A 1 4
-B 2 5
-C 3 6
-  1 3
-  2 4</code></pre>
+<pre><code>     [,1] [,2]
+[1,]    1    4
+[2,]    2    5
+[3,]    3    6
+[4,]    1    3
+[5,]    2    4</code></pre>
 </div>
 </div>
 </div>
@@ -1432,7 +1387,7 @@ C 3 6
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb201"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## data frame w/ an dbl column named age</span></span>
+<div class="sourceCode" id="cb193"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## data frame w/ an dbl column named age</span></span>
 <span><span class="co">## and char column named gender.</span></span>
 <span><span class="op">(</span><span class="va">df</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html">data.frame</a></span><span class="op">(</span>age <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">19</span>, <span class="fl">21</span>, <span class="fl">40</span><span class="op">)</span>, </span>
 <span>                  gen <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"m"</span>, <span class="st">"f"</span>, <span class="st">"m"</span><span class="op">)</span><span class="op">)</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -1442,7 +1397,7 @@ C 3 6
 2  21   f
 3  40   m</code></pre>
 </div>
-<div class="sourceCode" id="cb203"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## a data frame has a list structure</span></span>
+<div class="sourceCode" id="cb195"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## a data frame has a list structure</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/utils/str.html">str</a></span><span class="op">(</span><span class="va">df</span><span class="op">)</span>  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>'data.frame':   3 obs. of  2 variables:
@@ -1452,7 +1407,7 @@ C 3 6
 </div>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb205"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## must set column names</span></span>
+<div class="sourceCode" id="cb197"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## must set column names</span></span>
 <span><span class="co">## or they are ugly and non-recognizable</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/data.frame.html">data.frame</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">19</span>, <span class="fl">21</span>, <span class="fl">40</span><span class="op">)</span>, <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"m"</span>, <span class="st">"f"</span>, <span class="st">"m"</span><span class="op">)</span><span class="op">)</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1469,30 +1424,30 @@ C 3 6
 <div class="columns">
 <div class="column" style="width:40%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb207"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/names.html">names</a></span><span class="op">(</span><span class="va">df</span><span class="op">)</span>  <span class="co">## df as a list</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb199"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/names.html">names</a></span><span class="op">(</span><span class="va">df</span><span class="op">)</span>  <span class="co">## df as a list</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "age" "gen"</code></pre>
 </div>
-<div class="sourceCode" id="cb209"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/colnames.html">colnames</a></span><span class="op">(</span><span class="va">df</span><span class="op">)</span>  <span class="co">## df as a matrix</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb201"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/colnames.html">colnames</a></span><span class="op">(</span><span class="va">df</span><span class="op">)</span>  <span class="co">## df as a matrix</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "age" "gen"</code></pre>
 </div>
-<div class="sourceCode" id="cb211"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/length.html">length</a></span><span class="op">(</span><span class="va">df</span><span class="op">)</span> <span class="co">## df as a list</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb203"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/length.html">length</a></span><span class="op">(</span><span class="va">df</span><span class="op">)</span> <span class="co">## df as a list</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 2</code></pre>
 </div>
-<div class="sourceCode" id="cb213"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/nrow.html">ncol</a></span><span class="op">(</span><span class="va">df</span><span class="op">)</span> <span class="co">## df as a matrix</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb205"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/nrow.html">ncol</a></span><span class="op">(</span><span class="va">df</span><span class="op">)</span> <span class="co">## df as a matrix</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 2</code></pre>
 </div>
-<div class="sourceCode" id="cb215"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/dim.html">dim</a></span><span class="op">(</span><span class="va">df</span><span class="op">)</span> <span class="co">## df as a matrix</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb207"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/dim.html">dim</a></span><span class="op">(</span><span class="va">df</span><span class="op">)</span> <span class="co">## df as a matrix</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 3 2</code></pre>
 </div>
 </div>
 </div><div class="column" style="width:60%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb217"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## rbind() and cbind() can be used on df</span></span>
+<div class="sourceCode" id="cb209"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## rbind() and cbind() can be used on df</span></span>
 <span><span class="va">df_r</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html">data.frame</a></span><span class="op">(</span>age <span class="op">=</span> <span class="fl">10</span>, </span>
 <span>                   gen <span class="op">=</span> <span class="st">"f"</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/cbind.html">rbind</a></span><span class="op">(</span><span class="va">df</span>, <span class="va">df_r</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -1503,7 +1458,7 @@ C 3 6
 3  40   m
 4  10   f</code></pre>
 </div>
-<div class="sourceCode" id="cb219"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">df_c</span> <span class="op">&lt;-</span> </span>
+<div class="sourceCode" id="cb211"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">df_c</span> <span class="op">&lt;-</span> </span>
 <span>    <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html">data.frame</a></span><span class="op">(</span>col <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"red"</span>,<span class="st">"blue"</span>,<span class="st">"gray"</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="op">(</span><span class="va">df_new</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/cbind.html">cbind</a></span><span class="op">(</span><span class="va">df</span>, <span class="va">df_c</span><span class="op">)</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -1520,21 +1475,21 @@ C 3 6
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb221"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">df_new</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb213"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">df_new</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>  age gen  col
 1  19   m  red
 2  21   f blue
 3  40   m gray</code></pre>
 </div>
-<div class="sourceCode" id="cb223"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## Subset rows</span></span>
+<div class="sourceCode" id="cb215"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## Subset rows</span></span>
 <span><span class="va">df_new</span><span class="op">[</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">1</span>, <span class="fl">3</span><span class="op">)</span>, <span class="op">]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>  age gen  col
 1  19   m  red
 3  40   m gray</code></pre>
 </div>
-<div class="sourceCode" id="cb225"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## select the row where age == 21</span></span>
+<div class="sourceCode" id="cb217"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## select the row where age == 21</span></span>
 <span><span class="va">df_new</span><span class="op">[</span><span class="va">df_new</span><span class="op">$</span><span class="va">age</span> <span class="op">==</span> <span class="fl">21</span>, <span class="op">]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>  age gen  col
@@ -1543,20 +1498,20 @@ C 3 6
 </div>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb227"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## Subset columns</span></span>
+<div class="sourceCode" id="cb219"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## Subset columns</span></span>
 <span><span class="co">## like a list</span></span>
 <span><span class="va">df_new</span><span class="op">$</span><span class="va">age</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 19 21 40</code></pre>
 </div>
-<div class="sourceCode" id="cb229"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">df_new</span><span class="op">[</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"age"</span>, <span class="st">"gen"</span><span class="op">)</span><span class="op">]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb221"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">df_new</span><span class="op">[</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"age"</span>, <span class="st">"gen"</span><span class="op">)</span><span class="op">]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>  age gen
 1  19   m
 2  21   f
 3  40   m</code></pre>
 </div>
-<div class="sourceCode" id="cb231"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## like a matrix</span></span>
+<div class="sourceCode" id="cb223"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">## like a matrix</span></span>
 <span><span class="va">df_new</span><span class="op">[</span>, <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"age"</span>, <span class="st">"gen"</span><span class="op">)</span><span class="op">]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>  age gen
@@ -1604,44 +1559,44 @@ C 3 6
 <div class="midi">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb236"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb236-1"><a aria-hidden="true" tabindex="-1"></a>v1 <span class="ot">&lt;-</span> <span class="fu">c</span>(__________)</span>
-<span id="cb236-2"><a aria-hidden="true" tabindex="-1"></a>f2 <span class="ot">&lt;-</span> <span class="fu">f_____</span>(__________)</span>
-<span id="cb236-3"><a aria-hidden="true" tabindex="-1"></a>l3 <span class="ot">&lt;-</span> <span class="fu">l_____</span>(__________)</span>
-<span id="cb236-4"><a aria-hidden="true" tabindex="-1"></a>m4 <span class="ot">&lt;-</span> <span class="fu">m_____</span>(__________)</span>
-<span id="cb236-5"><a aria-hidden="true" tabindex="-1"></a>d5 <span class="ot">&lt;-</span> <span class="fu">d_____.f_____</span>(__________)</span>
-<span id="cb236-6"><a aria-hidden="true" tabindex="-1"></a>v <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="at">type =</span> <span class="fu">typeof</span>(v1), <span class="at">class =</span> <span class="fu">class</span>(v1))</span>
-<span id="cb236-7"><a aria-hidden="true" tabindex="-1"></a>f <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="at">type =</span> __________, <span class="at">class =</span> _________)</span>
-<span id="cb236-8"><a aria-hidden="true" tabindex="-1"></a>l <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="at">type =</span> __________, <span class="at">class =</span> _________)</span>
-<span id="cb236-9"><a aria-hidden="true" tabindex="-1"></a>m <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="at">type =</span> __________, <span class="at">class =</span> _________)</span>
-<span id="cb236-10"><a aria-hidden="true" tabindex="-1"></a>d <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="at">type =</span> __________, <span class="at">class =</span> _________)</span>
-<span id="cb236-11"><a aria-hidden="true" tabindex="-1"></a><span class="fu">____</span>(<span class="at">vec    =</span>   v,</span>
-<span id="cb236-12"><a aria-hidden="true" tabindex="-1"></a>     <span class="at">______ =</span> ___,</span>
-<span id="cb236-13"><a aria-hidden="true" tabindex="-1"></a>     <span class="at">______ =</span> ___,</span>
-<span id="cb236-14"><a aria-hidden="true" tabindex="-1"></a>     <span class="at">______ =</span> ___,</span>
-<span id="cb236-15"><a aria-hidden="true" tabindex="-1"></a>     <span class="at">______ =</span> ___)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb228"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb228-1"><a aria-hidden="true" tabindex="-1"></a>v1 <span class="ot">&lt;-</span> __________</span>
+<span id="cb228-2"><a aria-hidden="true" tabindex="-1"></a>f2 <span class="ot">&lt;-</span> __________</span>
+<span id="cb228-3"><a aria-hidden="true" tabindex="-1"></a>l3 <span class="ot">&lt;-</span> __________</span>
+<span id="cb228-4"><a aria-hidden="true" tabindex="-1"></a>m4 <span class="ot">&lt;-</span> __________</span>
+<span id="cb228-5"><a aria-hidden="true" tabindex="-1"></a>d5 <span class="ot">&lt;-</span> __________</span>
+<span id="cb228-6"><a aria-hidden="true" tabindex="-1"></a>v <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="at">type =</span> <span class="fu">typeof</span>(v1), <span class="at">class =</span> <span class="fu">class</span>(v1))</span>
+<span id="cb228-7"><a aria-hidden="true" tabindex="-1"></a>f <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="at">type =</span> __________, <span class="at">class =</span> _________)</span>
+<span id="cb228-8"><a aria-hidden="true" tabindex="-1"></a>l <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="at">type =</span> __________, <span class="at">class =</span> _________)</span>
+<span id="cb228-9"><a aria-hidden="true" tabindex="-1"></a>m <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="at">type =</span> __________, <span class="at">class =</span> _________)</span>
+<span id="cb228-10"><a aria-hidden="true" tabindex="-1"></a>d <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="at">type =</span> __________, <span class="at">class =</span> _________)</span>
+<span id="cb228-11"><a aria-hidden="true" tabindex="-1"></a><span class="fu">____</span>(<span class="at">vec    =</span>   v,</span>
+<span id="cb228-12"><a aria-hidden="true" tabindex="-1"></a>     <span class="at">______ =</span> ___,</span>
+<span id="cb228-13"><a aria-hidden="true" tabindex="-1"></a>     <span class="at">______ =</span> ___,</span>
+<span id="cb228-14"><a aria-hidden="true" tabindex="-1"></a>     <span class="at">______ =</span> ___,</span>
+<span id="cb228-15"><a aria-hidden="true" tabindex="-1"></a>     <span class="at">______ =</span> ___)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
 <div class="cell-output cell-output-stdout">
-<div class="sourceCode" id="cb237"><pre class="sourceCode numberSource my_classfull number-lines code-with-copy"><code class="sourceCode"><span id="cb237-1"><a></a>$vec</span>
-<span id="cb237-2"><a></a>     type     class </span>
-<span id="cb237-3"><a></a> "double" "numeric" </span>
-<span id="cb237-4"><a></a></span>
-<span id="cb237-5"><a></a>$fac</span>
-<span id="cb237-6"><a></a>     type     class </span>
-<span id="cb237-7"><a></a>"integer"  "factor" </span>
-<span id="cb237-8"><a></a></span>
-<span id="cb237-9"><a></a>$lst</span>
-<span id="cb237-10"><a></a>  type  class </span>
-<span id="cb237-11"><a></a>"list" "list" </span>
-<span id="cb237-12"><a></a></span>
-<span id="cb237-13"><a></a>$mat</span>
-<span id="cb237-14"><a></a>     type    class1    class2 </span>
-<span id="cb237-15"><a></a>"integer"  "matrix"   "array" </span>
-<span id="cb237-16"><a></a></span>
-<span id="cb237-17"><a></a>$df</span>
-<span id="cb237-18"><a></a>        type        class </span>
-<span id="cb237-19"><a></a>      "list" "data.frame" </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb229"><pre class="sourceCode numberSource my_classfull number-lines code-with-copy"><code class="sourceCode"><span id="cb229-1"><a></a>$vec</span>
+<span id="cb229-2"><a></a>     type     class </span>
+<span id="cb229-3"><a></a> "double" "numeric" </span>
+<span id="cb229-4"><a></a></span>
+<span id="cb229-5"><a></a>$fac</span>
+<span id="cb229-6"><a></a>     type     class </span>
+<span id="cb229-7"><a></a>"integer"  "factor" </span>
+<span id="cb229-8"><a></a></span>
+<span id="cb229-9"><a></a>$lst</span>
+<span id="cb229-10"><a></a>  type  class </span>
+<span id="cb229-11"><a></a>"list" "list" </span>
+<span id="cb229-12"><a></a></span>
+<span id="cb229-13"><a></a>$mat</span>
+<span id="cb229-14"><a></a>     type    class1    class2 </span>
+<span id="cb229-15"><a></a>"integer"  "matrix"   "array" </span>
+<span id="cb229-16"><a></a></span>
+<span id="cb229-17"><a></a>$df</span>
+<span id="cb229-18"><a></a>        type        class </span>
+<span id="cb229-19"><a></a>      "list" "data.frame" </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 </div>
@@ -1663,16 +1618,16 @@ C 3 6
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb238"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb238-1"><a aria-hidden="true" tabindex="-1"></a>lst_num <span class="op">=</span> [<span class="dv">0</span>, <span class="dv">2</span>, <span class="dv">4</span>] </span>
-<span id="cb238-2"><a aria-hidden="true" tabindex="-1"></a>lst_num</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb230"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb230-1"><a aria-hidden="true" tabindex="-1"></a>lst_num <span class="op">=</span> [<span class="dv">0</span>, <span class="dv">2</span>, <span class="dv">4</span>] </span>
+<span id="cb230-2"><a aria-hidden="true" tabindex="-1"></a>lst_num</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[0, 2, 4]</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb240"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb240-1"><a aria-hidden="true" tabindex="-1"></a><span class="bu">type</span>(lst_num)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb232"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb232-1"><a aria-hidden="true" tabindex="-1"></a><span class="bu">type</span>(lst_num)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>&lt;class 'list'&gt;</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb242"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb242-1"><a aria-hidden="true" tabindex="-1"></a><span class="bu">len</span>(lst_num)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb234"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb234-1"><a aria-hidden="true" tabindex="-1"></a><span class="bu">len</span>(lst_num)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>3</code></pre>
 </div>
@@ -1680,8 +1635,8 @@ C 3 6
 </div><div class="column" style="width:50%;">
 <p>List elements can have <span style="color:green"><em>different types</em></span>!</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb244"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb244-1"><a aria-hidden="true" tabindex="-1"></a>lst <span class="op">=</span> [<span class="st">'data'</span>, <span class="st">'math'</span>, <span class="dv">34</span>, <span class="va">True</span>]</span>
-<span id="cb244-2"><a aria-hidden="true" tabindex="-1"></a>lst</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb236"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb236-1"><a aria-hidden="true" tabindex="-1"></a>lst <span class="op">=</span> [<span class="st">'data'</span>, <span class="st">'math'</span>, <span class="dv">34</span>, <span class="va">True</span>]</span>
+<span id="cb236-2"><a aria-hidden="true" tabindex="-1"></a>lst</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>['data', 'math', 34, True]</code></pre>
 </div>
@@ -1697,15 +1652,15 @@ C 3 6
 <code>0</code>: the 1st element</li>
 </ul>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb246"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb246-1"><a aria-hidden="true" tabindex="-1"></a>lst</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb238"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb238-1"><a aria-hidden="true" tabindex="-1"></a>lst</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>['data', 'math', 34, True]</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb248"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb248-1"><a aria-hidden="true" tabindex="-1"></a>lst[<span class="dv">0</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb240"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb240-1"><a aria-hidden="true" tabindex="-1"></a>lst[<span class="dv">0</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>'data'</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb250"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb250-1"><a aria-hidden="true" tabindex="-1"></a><span class="bu">type</span>(lst[<span class="dv">0</span>]) <span class="co">## not a list</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb242"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb242-1"><a aria-hidden="true" tabindex="-1"></a><span class="bu">type</span>(lst[<span class="dv">0</span>]) <span class="co">## not a list</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>&lt;class 'str'&gt;</code></pre>
 </div>
@@ -1715,7 +1670,7 @@ C 3 6
 <code>-1</code>: the last element</li>
 </ul>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb252"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb252-1"><a aria-hidden="true" tabindex="-1"></a>lst[<span class="op">-</span><span class="dv">2</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb244"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb244-1"><a aria-hidden="true" tabindex="-1"></a>lst[<span class="op">-</span><span class="dv">2</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>34</code></pre>
 </div>
@@ -1726,11 +1681,11 @@ C 3 6
 <code>[a:b]</code>: the (a+1)-th to b-th elements</li>
 </ul>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb254"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb254-1"><a aria-hidden="true" tabindex="-1"></a>lst[<span class="dv">1</span>:<span class="dv">4</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb246"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb246-1"><a aria-hidden="true" tabindex="-1"></a>lst[<span class="dv">1</span>:<span class="dv">4</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>['math', 34, True]</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb256"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb256-1"><a aria-hidden="true" tabindex="-1"></a><span class="bu">type</span>(lst[<span class="dv">1</span>:<span class="dv">4</span>]) <span class="co">## a list</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb248"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb248-1"><a aria-hidden="true" tabindex="-1"></a><span class="bu">type</span>(lst[<span class="dv">1</span>:<span class="dv">4</span>]) <span class="co">## a list</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>&lt;class 'list'&gt;</code></pre>
 </div>
@@ -1740,7 +1695,7 @@ C 3 6
 <code>[a:]</code>: elements from the (a+1)-th to the last</li>
 </ul>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb258"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb258-1"><a aria-hidden="true" tabindex="-1"></a>lst[<span class="dv">2</span>:]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb250"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb250-1"><a aria-hidden="true" tabindex="-1"></a>lst[<span class="dv">2</span>:]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[34, True]</code></pre>
 </div>
@@ -1768,20 +1723,20 @@ C 3 6
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb260"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb260-1"><a aria-hidden="true" tabindex="-1"></a>lst[<span class="dv">1</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb252"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb252-1"><a aria-hidden="true" tabindex="-1"></a>lst[<span class="dv">1</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>'math'</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb262"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb262-1"><a aria-hidden="true" tabindex="-1"></a>lst[<span class="dv">1</span>] <span class="op">=</span> <span class="st">"stats"</span></span>
-<span id="cb262-2"><a aria-hidden="true" tabindex="-1"></a>lst</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb254"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb254-1"><a aria-hidden="true" tabindex="-1"></a>lst[<span class="dv">1</span>] <span class="op">=</span> <span class="st">"stats"</span></span>
+<span id="cb254-2"><a aria-hidden="true" tabindex="-1"></a>lst</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>['data', 'stats', 34, True]</code></pre>
 </div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb264"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb264-1"><a aria-hidden="true" tabindex="-1"></a>lst[<span class="dv">2</span>:] <span class="op">=</span> [<span class="va">False</span>, <span class="dv">77</span>]</span>
-<span id="cb264-2"><a aria-hidden="true" tabindex="-1"></a>lst</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb256"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb256-1"><a aria-hidden="true" tabindex="-1"></a>lst[<span class="dv">2</span>:] <span class="op">=</span> [<span class="va">False</span>, <span class="dv">77</span>]</span>
+<span id="cb256-2"><a aria-hidden="true" tabindex="-1"></a>lst</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>['data', 'stats', False, 77]</code></pre>
 </div>
@@ -1799,63 +1754,63 @@ C 3 6
           width: 1px!important;
           overflow: hidden!important;
           display:block!important;
-      }</style></aside></section><section id="list-operations-and-methods-list.method" class="slide level2"><h2>List Operations and Methods <code>list.method()</code>
+      }</style></aside></section><section id="list-operations-and-methods-list.method" class="slide level2"><h2>List Operations and Methods <a href="https://docs.python.org/3/tutorial/datastructures.html"><code>list.method()</code></a>
 </h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb266"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb266-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">## Concatenation</span></span>
-<span id="cb266-2"><a aria-hidden="true" tabindex="-1"></a>lst_num <span class="op">+</span> lst</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb258"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb258-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">## Concatenation</span></span>
+<span id="cb258-2"><a aria-hidden="true" tabindex="-1"></a>lst_num <span class="op">+</span> lst</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[0, 2, 4, 'data', 'stats', False, 77]</code></pre>
 </div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb268"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb268-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">## Repetition</span></span>
-<span id="cb268-2"><a aria-hidden="true" tabindex="-1"></a>lst_num <span class="op">*</span> <span class="dv">3</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb260"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb260-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">## Repetition</span></span>
+<span id="cb260-2"><a aria-hidden="true" tabindex="-1"></a>lst_num <span class="op">*</span> <span class="dv">3</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[0, 2, 4, 0, 2, 4, 0, 2, 4]</code></pre>
 </div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb270"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb270-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">## Membership</span></span>
-<span id="cb270-2"><a aria-hidden="true" tabindex="-1"></a><span class="dv">34</span> <span class="kw">in</span> lst</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb262"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb262-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">## Membership</span></span>
+<span id="cb262-2"><a aria-hidden="true" tabindex="-1"></a><span class="dv">34</span> <span class="kw">in</span> lst</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>False</code></pre>
 </div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb272"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb272-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">## Appends "cat" to lst</span></span>
-<span id="cb272-2"><a aria-hidden="true" tabindex="-1"></a>lst.append(<span class="st">"cat"</span>)</span>
-<span id="cb272-3"><a aria-hidden="true" tabindex="-1"></a>lst</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb264"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb264-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">## Appends "cat" to lst</span></span>
+<span id="cb264-2"><a aria-hidden="true" tabindex="-1"></a>lst.append(<span class="st">"cat"</span>)</span>
+<span id="cb264-3"><a aria-hidden="true" tabindex="-1"></a>lst</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>['data', 'stats', False, 77, 'cat']</code></pre>
 </div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb274"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb274-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">## Removes and returns last object from list</span></span>
-<span id="cb274-2"><a aria-hidden="true" tabindex="-1"></a>lst.pop()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb266"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb266-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">## Removes and returns last object from list</span></span>
+<span id="cb266-2"><a aria-hidden="true" tabindex="-1"></a>lst.pop()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>'cat'</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb276"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb276-1"><a aria-hidden="true" tabindex="-1"></a>lst</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb268"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb268-1"><a aria-hidden="true" tabindex="-1"></a>lst</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>['data', 'stats', False, 77]</code></pre>
 </div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb278"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb278-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">## Removes object from list</span></span>
-<span id="cb278-2"><a aria-hidden="true" tabindex="-1"></a>lst.remove(<span class="st">"stats"</span>)</span>
-<span id="cb278-3"><a aria-hidden="true" tabindex="-1"></a>lst</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb270"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb270-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">## Removes object from list</span></span>
+<span id="cb270-2"><a aria-hidden="true" tabindex="-1"></a>lst.remove(<span class="st">"stats"</span>)</span>
+<span id="cb270-3"><a aria-hidden="true" tabindex="-1"></a>lst</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>['data', False, 77]</code></pre>
 </div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb280"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb280-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">## Reverses objects of list in place</span></span>
-<span id="cb280-2"><a aria-hidden="true" tabindex="-1"></a>lst.reverse()</span>
-<span id="cb280-3"><a aria-hidden="true" tabindex="-1"></a>lst</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb272"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb272-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">## Reverses objects of list in place</span></span>
+<span id="cb272-2"><a aria-hidden="true" tabindex="-1"></a>lst.reverse()</span>
+<span id="cb272-3"><a aria-hidden="true" tabindex="-1"></a>lst</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[77, False, 'data']</code></pre>
 </div>
@@ -1873,7 +1828,7 @@ C 3 6
           width: 1px!important;
           overflow: hidden!important;
           display:block!important;
-      }</style></aside></section><section id="tuples" class="slide level2"><h2>Tuples</h2>
+      }</style></aside></section><section id="tuples" class="slide level2"><h2><a href="https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences">Tuples</a></h2>
 <ul>
 <li><p><strong>Tuples</strong> work exactly like lists except they are <strong>immutable</strong>, i.e., they can’t be changed in place.</p></li>
 <li><p>To create a tuple, we use <code>()</code>.</p></li>
@@ -1881,37 +1836,37 @@ C 3 6
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb282"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb282-1"><a aria-hidden="true" tabindex="-1"></a>tup <span class="op">=</span> (<span class="st">'data'</span>, <span class="st">'math'</span>, <span class="dv">34</span>, <span class="va">True</span>)</span>
-<span id="cb282-2"><a aria-hidden="true" tabindex="-1"></a>tup</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb274"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb274-1"><a aria-hidden="true" tabindex="-1"></a>tup <span class="op">=</span> (<span class="st">'data'</span>, <span class="st">'math'</span>, <span class="dv">34</span>, <span class="va">True</span>)</span>
+<span id="cb274-2"><a aria-hidden="true" tabindex="-1"></a>tup</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>('data', 'math', 34, True)</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb284"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb284-1"><a aria-hidden="true" tabindex="-1"></a><span class="bu">type</span>(tup)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb276"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb276-1"><a aria-hidden="true" tabindex="-1"></a><span class="bu">type</span>(tup)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>&lt;class 'tuple'&gt;</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb286"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb286-1"><a aria-hidden="true" tabindex="-1"></a><span class="bu">len</span>(tup)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb278"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb278-1"><a aria-hidden="true" tabindex="-1"></a><span class="bu">len</span>(tup)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>4</code></pre>
 </div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb288"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb288-1"><a aria-hidden="true" tabindex="-1"></a>tup[<span class="dv">2</span>:]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb280"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb280-1"><a aria-hidden="true" tabindex="-1"></a>tup[<span class="dv">2</span>:]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>(34, True)</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb290"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb290-1"><a aria-hidden="true" tabindex="-1"></a>tup[<span class="op">-</span><span class="dv">2</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb282"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb282-1"><a aria-hidden="true" tabindex="-1"></a>tup[<span class="op">-</span><span class="dv">2</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>34</code></pre>
 </div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb292"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb292-1"><a aria-hidden="true" tabindex="-1"></a>tup[<span class="dv">1</span>] <span class="op">=</span> <span class="st">"stats"</span>  <span class="co">## does not work!</span></span>
-<span id="cb292-2"><a aria-hidden="true" tabindex="-1"></a><span class="co"># TypeError: 'tuple' object does not support item assignment</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb284"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb284-1"><a aria-hidden="true" tabindex="-1"></a>tup[<span class="dv">1</span>] <span class="op">=</span> <span class="st">"stats"</span>  <span class="co">## does not work!</span></span>
+<span id="cb284-2"><a aria-hidden="true" tabindex="-1"></a><span class="co"># TypeError: 'tuple' object does not support item assignment</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb293"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb293-1"><a aria-hidden="true" tabindex="-1"></a>tup</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb285"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb285-1"><a aria-hidden="true" tabindex="-1"></a>tup</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>('data', 'math', 34, True)</code></pre>
 </div>
@@ -1931,22 +1886,22 @@ C 3 6
           display:block!important;
       }</style></aside></section><section id="tuples-functions-and-methods" class="slide level2"><h2>Tuples Functions and Methods</h2>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb295"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb295-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># Converts a list into tuple</span></span>
-<span id="cb295-2"><a aria-hidden="true" tabindex="-1"></a><span class="bu">tuple</span>(lst_num)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb287"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb287-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># Converts a list into tuple</span></span>
+<span id="cb287-2"><a aria-hidden="true" tabindex="-1"></a><span class="bu">tuple</span>(lst_num)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>(0, 2, 4)</code></pre>
 </div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb297"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb297-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># number of occurance of "data"</span></span>
-<span id="cb297-2"><a aria-hidden="true" tabindex="-1"></a>tup.count(<span class="st">"data"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb289"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb289-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># number of occurance of "data"</span></span>
+<span id="cb289-2"><a aria-hidden="true" tabindex="-1"></a>tup.count(<span class="st">"data"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>1</code></pre>
 </div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb299"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb299-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># first index of "data"</span></span>
-<span id="cb299-2"><a aria-hidden="true" tabindex="-1"></a>tup.index(<span class="st">"data"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb291"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb291-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># first index of "data"</span></span>
+<span id="cb291-2"><a aria-hidden="true" tabindex="-1"></a>tup.index(<span class="st">"data"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>0</code></pre>
 </div>
@@ -1966,29 +1921,29 @@ C 3 6
 </div>
 </div>
 </div>
-</section><section id="dictionaries" class="slide level2"><h2>Dictionaries</h2>
+</section><section id="dictionaries" class="slide level2"><h2><a href="https://docs.python.org/3/tutorial/datastructures.html#dictionaries">Dictionaries</a></h2>
 <ul>
 <li><p>A <strong>dictionary</strong> consists of <span style="color:green"><em>key-value pairs</em></span>.</p></li>
 <li><p>A dictionary is mutable, i.e., the values can be changed in place and more key-value pairs can be added.</p></li>
-<li><p>To create a dictionary, we use <code>{"key name": value}</code>.</p></li>
+<li><p>To create a dictionary, we use <code>{'key': value}</code>.</p></li>
 <li><p>The value can be accessed by the key in the dictionary.</p></li>
 </ul>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb301"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb301-1"><a aria-hidden="true" tabindex="-1"></a>dic <span class="op">=</span> {<span class="st">'Name'</span>: <span class="st">'Ivy'</span>, <span class="st">'Age'</span>: <span class="dv">7</span>, <span class="st">'Class'</span>: <span class="st">'First'</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb293"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb293-1"><a aria-hidden="true" tabindex="-1"></a>dic <span class="op">=</span> {<span class="st">'Name'</span>: <span class="st">'Ivy'</span>, <span class="st">'Age'</span>: <span class="dv">7</span>, <span class="st">'Class'</span>: <span class="st">'First'</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb302"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb302-1"><a aria-hidden="true" tabindex="-1"></a>dic[<span class="st">'Age'</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb294"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb294-1"><a aria-hidden="true" tabindex="-1"></a>dic[<span class="st">'Age'</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>7</code></pre>
 </div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb304"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb304-1"><a aria-hidden="true" tabindex="-1"></a>dic[<span class="st">'age'</span>]  <span class="co">## does not work</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb296"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb296-1"><a aria-hidden="true" tabindex="-1"></a>dic[<span class="st">'age'</span>]  <span class="co">## does not work</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb305"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb305-1"><a aria-hidden="true" tabindex="-1"></a>dic[<span class="st">'Age'</span>] <span class="op">=</span> <span class="dv">9</span></span>
-<span id="cb305-2"><a aria-hidden="true" tabindex="-1"></a>dic[<span class="st">'Class'</span>] <span class="op">=</span> <span class="st">'Third'</span></span>
-<span id="cb305-3"><a aria-hidden="true" tabindex="-1"></a>dic</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb297"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb297-1"><a aria-hidden="true" tabindex="-1"></a>dic[<span class="st">'Age'</span>] <span class="op">=</span> <span class="dv">9</span></span>
+<span id="cb297-2"><a aria-hidden="true" tabindex="-1"></a>dic[<span class="st">'Class'</span>] <span class="op">=</span> <span class="st">'Third'</span></span>
+<span id="cb297-3"><a aria-hidden="true" tabindex="-1"></a>dic</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>{'Name': 'Ivy', 'Age': 9, 'Class': 'Third'}</code></pre>
 </div>
@@ -1998,8 +1953,8 @@ C 3 6
 <li>Python will use the last assignment!</li>
 </ul>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb307"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb307-1"><a aria-hidden="true" tabindex="-1"></a>dic1 <span class="op">=</span> {<span class="st">'Name'</span>: <span class="st">'Ivy'</span>, <span class="st">'Age'</span>: <span class="dv">7</span>, <span class="st">'Name'</span>: <span class="st">'Liya'</span>}</span>
-<span id="cb307-2"><a aria-hidden="true" tabindex="-1"></a>dic1[<span class="st">'Name'</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb299"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb299-1"><a aria-hidden="true" tabindex="-1"></a>dic1 <span class="op">=</span> {<span class="st">'Name'</span>: <span class="st">'Ivy'</span>, <span class="st">'Age'</span>: <span class="dv">7</span>, <span class="st">'Name'</span>: <span class="st">'Liya'</span>}</span>
+<span id="cb299-2"><a aria-hidden="true" tabindex="-1"></a>dic1[<span class="st">'Name'</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>'Liya'</code></pre>
 </div>
@@ -2010,28 +1965,27 @@ C 3 6
 <li><p>A key can be a tuple, but CANNOT be a list.</p></li>
 </ul>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb309"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb309-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">## The first key is a tuple!</span></span>
-<span id="cb309-2"><a aria-hidden="true" tabindex="-1"></a>dic2 <span class="op">=</span> {(<span class="st">'First'</span>, <span class="st">'Last'</span>): <span class="st">'Ivy Lee'</span>, <span class="st">'Age'</span>: <span class="dv">7</span>}</span>
-<span id="cb309-3"><a aria-hidden="true" tabindex="-1"></a>dic2[(<span class="st">'First'</span>, <span class="st">'Last'</span>)]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb301"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb301-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">## The first key is a tuple!</span></span>
+<span id="cb301-2"><a aria-hidden="true" tabindex="-1"></a>dic2 <span class="op">=</span> {(<span class="st">'First'</span>, <span class="st">'Last'</span>): <span class="st">'Ivy Lee'</span>, <span class="st">'Age'</span>: <span class="dv">7</span>}</span>
+<span id="cb301-3"><a aria-hidden="true" tabindex="-1"></a>dic2[(<span class="st">'First'</span>, <span class="st">'Last'</span>)]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>'Ivy Lee'</code></pre>
 </div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb311"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb311-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">## does not work</span></span>
-<span id="cb311-2"><a aria-hidden="true" tabindex="-1"></a>dic2 <span class="op">=</span> {[<span class="st">'First'</span>, <span class="st">'Last'</span>]: <span class="st">'Ivy Lee'</span>, <span class="st">'Age'</span>: <span class="dv">7</span>}</span>
-<span id="cb311-3"><a aria-hidden="true" tabindex="-1"></a>dic2[[<span class="st">'First'</span>, <span class="st">'Last'</span>]]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb303"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb303-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">## does not work</span></span>
+<span id="cb303-2"><a aria-hidden="true" tabindex="-1"></a>dic2 <span class="op">=</span> {[<span class="st">'First'</span>, <span class="st">'Last'</span>]: <span class="st">'Ivy Lee'</span>, <span class="st">'Age'</span>: <span class="dv">7</span>}</span>
+<span id="cb303-3"><a aria-hidden="true" tabindex="-1"></a>dic2[[<span class="st">'First'</span>, <span class="st">'Last'</span>]]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
-</section><section id="disctionary-methods" class="slide level2"><h2>Disctionary Methods</h2>
+</section><section id="dictionary-methods" class="slide level2"><h2>Dictionary Methods</h2>
 <div class="cell" data-layout-align="center">
 <div class="cell-output cell-output-stdout">
 <pre><code>{'Name': 'Ivy', 'Age': 9, 'Class': 'Third'}</code></pre>
 </div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb313"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb313-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">## Returns list of dictionary dict's keys</span></span>
-<span id="cb313-2"><a aria-hidden="true" tabindex="-1"></a>dic.keys()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb305"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb305-1"><a aria-hidden="true" tabindex="-1"></a>dic.keys() <span class="co">## Returns list of dictionary dict's keys</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>dict_keys(['Name', 'Age', 'Class'])</code></pre>
 </div>
@@ -2039,8 +1993,7 @@ C 3 6
 <p><br></p>
 <div class="fragment">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb315"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb315-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">## Returns list of dictionary dict's values</span></span>
-<span id="cb315-2"><a aria-hidden="true" tabindex="-1"></a>dic.values()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb307"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb307-1"><a aria-hidden="true" tabindex="-1"></a>dic.values() <span class="co">## Returns list of dictionary dict's values</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>dict_values(['Ivy', 9, 'Third'])</code></pre>
 </div>
@@ -2049,8 +2002,7 @@ C 3 6
 </div>
 <div class="fragment">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb317"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb317-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">## Returns a list of dict's (key, value) tuple pairs</span></span>
-<span id="cb317-2"><a aria-hidden="true" tabindex="-1"></a>dic.items()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb309"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb309-1"><a aria-hidden="true" tabindex="-1"></a>dic.items() <span class="co">## Returns a list of dict's (key, value) tuple pairs</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>dict_items([('Name', 'Ivy'), ('Age', 9), ('Class', 'Third')])</code></pre>
 </div>
@@ -2059,18 +2011,18 @@ C 3 6
 </div>
 <div class="fragment">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb319"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb319-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">## Adds dictionary dic2's key-values pairs in to dic</span></span>
-<span id="cb319-2"><a aria-hidden="true" tabindex="-1"></a>dic2 <span class="op">=</span> {<span class="st">'Gender'</span>: <span class="st">'female'</span>}</span>
-<span id="cb319-3"><a aria-hidden="true" tabindex="-1"></a>dic.update(dic2)</span>
-<span id="cb319-4"><a aria-hidden="true" tabindex="-1"></a>dic</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb311"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb311-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">## Adds dictionary dic2's key-values pairs in to dic</span></span>
+<span id="cb311-2"><a aria-hidden="true" tabindex="-1"></a>dic2 <span class="op">=</span> {<span class="st">'Gender'</span>: <span class="st">'female'</span>}</span>
+<span id="cb311-3"><a aria-hidden="true" tabindex="-1"></a>dic.update(dic2)</span>
+<span id="cb311-4"><a aria-hidden="true" tabindex="-1"></a>dic</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>{'Name': 'Ivy', 'Age': 9, 'Class': 'Third', 'Gender': 'female'}</code></pre>
 </div>
 </div>
 <aside class="notes"><div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb321"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb321-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">## Removes all elements of dictionary dict</span></span>
-<span id="cb321-2"><a aria-hidden="true" tabindex="-1"></a>dic.clear()</span>
-<span id="cb321-3"><a aria-hidden="true" tabindex="-1"></a>dic</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb313"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb313-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">## Removes all elements of dictionary dict</span></span>
+<span id="cb313-2"><a aria-hidden="true" tabindex="-1"></a>dic.clear()</span>
+<span id="cb313-3"><a aria-hidden="true" tabindex="-1"></a>dic</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code><a href="https://rdrr.io/r/base/Paren.html">{}</a></code></pre>
 </div>
@@ -2095,20 +2047,20 @@ C 3 6
 <li>Create a Python list and dictionary similar to the R list below.</li>
 </ul>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb323"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">x_lst</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html">list</a></span><span class="op">(</span>idx <span class="op">=</span> <span class="fl">1</span><span class="op">:</span><span class="fl">3</span>, </span>
+<div class="sourceCode" id="cb315"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">x_lst</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html">list</a></span><span class="op">(</span>idx <span class="op">=</span> <span class="fl">1</span><span class="op">:</span><span class="fl">3</span>, </span>
 <span>              <span class="st">"a"</span>, </span>
 <span>              <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="cn">TRUE</span>, <span class="cn">FALSE</span><span class="op">)</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Remember to create Python code chunk</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb324"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb324-1"><a aria-hidden="true" tabindex="-1"></a><span class="in">```{Python}</span></span>
-<span id="cb324-2"><a aria-hidden="true" tabindex="-1"></a><span class="in">#| echo: true</span></span>
-<span id="cb324-3"><a aria-hidden="true" tabindex="-1"></a><span class="in">#| eval: false</span></span>
-<span id="cb324-4"><a aria-hidden="true" tabindex="-1"></a><span class="in">#| code-line-numbers: false</span></span>
-<span id="cb324-5"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb324-6"><a aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb316"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb316-1"><a aria-hidden="true" tabindex="-1"></a><span class="in">```{Python}</span></span>
+<span id="cb316-2"><a aria-hidden="true" tabindex="-1"></a><span class="in">#| echo: true</span></span>
+<span id="cb316-3"><a aria-hidden="true" tabindex="-1"></a><span class="in">#| eval: false</span></span>
+<span id="cb316-4"><a aria-hidden="true" tabindex="-1"></a><span class="in">#| code-line-numbers: false</span></span>
+<span id="cb316-5"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb316-6"><a aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p><span class="red">Any issue of this Python chunk?</span></p>
+<p><span class="red">Any issue of this <strong>P</strong>ython chunk?</span></p>
 <p>Commit and Push your work once you are done.</p>
 </div>
 </section><section id="python-data-structures-for-data-science" class="slide level2"><h2>Python Data Structures for Data Science</h2>
@@ -2121,7 +2073,7 @@ C 3 6
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+<figure><p><a href="https://numpy.org/"><img data-src="https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg" class="quarto-figure quarto-figure-center" style="width:100.0%"></a></p>
 </figure>
 </div>
 </div>
@@ -2130,7 +2082,7 @@ C 3 6
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+<figure><p><a href="https://pandas.pydata.org/"><img data-src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" class="quarto-figure quarto-figure-center" style="width:100.0%"></a></p>
 </figure>
 </div>
 </div>
@@ -2140,7 +2092,7 @@ C 3 6
 </section><section id="installing-numpy-and-pandas" class="slide level2"><h2>Installing NumPy and pandas*</h2>
 <p>In your <strong>lab-yourusername</strong> project, run</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb325"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://rstudio.github.io/reticulate/">reticulate</a></span><span class="op">)</span></span>
+<div class="sourceCode" id="cb317"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://rstudio.github.io/reticulate/">reticulate</a></span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rstudio.github.io/reticulate/reference/virtualenv-tools.html">virtualenv_create</a></span><span class="op">(</span><span class="st">"myenv"</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="fragment">
@@ -2157,18 +2109,27 @@ C 3 6
 </section><section id="installing-numpy-and-pandas-1" class="slide level2"><h2>Installing NumPy and pandas*</h2>
 <p>You may need to restart R session. Do it, and in the new R session, run</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb326"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://rstudio.github.io/reticulate/">reticulate</a></span><span class="op">)</span></span>
+<div class="sourceCode" id="cb318"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://rstudio.github.io/reticulate/">reticulate</a></span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rstudio.github.io/reticulate/reference/py_install.html">py_install</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"numpy"</span>, <span class="st">"pandas"</span>, <span class="st">"matplotlib"</span><span class="op">)</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="fragment">
 <p>Run the following Python code, and make sure everything goes well.</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb327"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb327-1"><a aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb327-2"><a aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
-<span id="cb327-3"><a aria-hidden="true" tabindex="-1"></a>v1 <span class="op">=</span> np.array([<span class="dv">3</span>, <span class="dv">8</span>])</span>
-<span id="cb327-4"><a aria-hidden="true" tabindex="-1"></a>v1</span>
-<span id="cb327-5"><a aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame({<span class="st">"col"</span>: [<span class="st">'red'</span>, <span class="st">'blue'</span>, <span class="st">'green'</span>]})</span>
-<span id="cb327-6"><a aria-hidden="true" tabindex="-1"></a>df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb319"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb319-1"><a aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb319-2"><a aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb319-3"><a aria-hidden="true" tabindex="-1"></a>v1 <span class="op">=</span> np.array([<span class="dv">3</span>, <span class="dv">8</span>])</span>
+<span id="cb319-4"><a aria-hidden="true" tabindex="-1"></a>v1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>array([3, 8])</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb321"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb321-1"><a aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame({<span class="st">"col"</span>: [<span class="st">'red'</span>, <span class="st">'blue'</span>, <span class="st">'green'</span>]})</span>
+<span id="cb321-2"><a aria-hidden="true" tabindex="-1"></a>df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     col
+0    red
+1   blue
+2  green</code></pre>
+</div>
 </div>
 </div>
 </section></section><section><section id="descriptive-statistics-math-4720" class="title-slide slide level1 center"><h1>Descriptive Statistics (MATH 4720)</h1>
@@ -2187,12 +2148,12 @@ C 3 6
 </div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb328"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">data</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">3</span>,<span class="fl">12</span>,<span class="fl">56</span>,<span class="fl">9</span>,<span class="fl">230</span>,<span class="fl">22</span><span class="op">)</span></span>
+<div class="sourceCode" id="cb323"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">data</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">3</span>,<span class="fl">12</span>,<span class="fl">56</span>,<span class="fl">9</span>,<span class="fl">230</span>,<span class="fl">22</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/mean.html">mean</a></span><span class="op">(</span><span class="va">data</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 55.3</code></pre>
 </div>
-<div class="sourceCode" id="cb330"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/stats/median.html">median</a></span><span class="op">(</span><span class="va">data</span><span class="op">)</span>  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb325"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/stats/median.html">median</a></span><span class="op">(</span><span class="va">data</span><span class="op">)</span>  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 17</code></pre>
 </div>
@@ -2202,22 +2163,22 @@ C 3 6
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" class="quarto-figure quarto-figure-center" style="width:8.0%"></p>
+<figure><p><a href="https://numpy.org/doc/stable/reference/routines.statistics.html"><img data-src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" class="quarto-figure quarto-figure-center" style="width:8.0%"></a></p>
 </figure>
 </div>
 </div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb332"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb332-1"><a aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> np.array([<span class="dv">3</span>,<span class="dv">12</span>,<span class="dv">56</span>,<span class="dv">9</span>,<span class="dv">230</span>,<span class="dv">22</span>])</span>
-<span id="cb332-2"><a aria-hidden="true" tabindex="-1"></a><span class="bu">type</span>(data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb327"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb327-1"><a aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> np.array([<span class="dv">3</span>,<span class="dv">12</span>,<span class="dv">56</span>,<span class="dv">9</span>,<span class="dv">230</span>,<span class="dv">22</span>])</span>
+<span id="cb327-2"><a aria-hidden="true" tabindex="-1"></a><span class="bu">type</span>(data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>&lt;class 'numpy.ndarray'&gt;</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb334"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb334-1"><a aria-hidden="true" tabindex="-1"></a>np.mean(data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb329"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb329-1"><a aria-hidden="true" tabindex="-1"></a>np.mean(data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>55.333333333333336</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb336"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb336-1"><a aria-hidden="true" tabindex="-1"></a>np.median(data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb331"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb331-1"><a aria-hidden="true" tabindex="-1"></a>np.median(data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>17.0</code></pre>
 </div>
@@ -2252,24 +2213,24 @@ C 3 6
 </div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb338"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/stats/quantile.html">quantile</a></span><span class="op">(</span><span class="va">data</span>, <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">0.25</span>, <span class="fl">0.5</span>, <span class="fl">0.75</span><span class="op">)</span><span class="op">)</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb333"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/stats/quantile.html">quantile</a></span><span class="op">(</span><span class="va">data</span>, <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">0.25</span>, <span class="fl">0.5</span>, <span class="fl">0.75</span><span class="op">)</span><span class="op">)</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>  25%   50%   75% 
  9.75 17.00 47.50 </code></pre>
 </div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb340"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/stats/cor.html">var</a></span><span class="op">(</span><span class="va">data</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb335"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/stats/cor.html">var</a></span><span class="op">(</span><span class="va">data</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 7677</code></pre>
 </div>
-<div class="sourceCode" id="cb342"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/stats/sd.html">sd</a></span><span class="op">(</span><span class="va">data</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb337"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/stats/sd.html">sd</a></span><span class="op">(</span><span class="va">data</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 87.6</code></pre>
 </div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb344"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/summary.html">summary</a></span><span class="op">(</span><span class="va">data</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb339"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/summary.html">summary</a></span><span class="op">(</span><span class="va">data</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
     3.0     9.8    17.0    55.3    47.5   230.0 </code></pre>
@@ -2280,30 +2241,30 @@ C 3 6
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" class="quarto-figure quarto-figure-center" style="width:8.0%"></p>
+<figure><p><a href="https://numpy.org/doc/stable/reference/routines.statistics.html"><img data-src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" class="quarto-figure quarto-figure-center" style="width:8.0%"></a></p>
 </figure>
 </div>
 </div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb346"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb346-1"><a aria-hidden="true" tabindex="-1"></a>np.quantile(data,  [<span class="fl">0.25</span>, <span class="fl">0.5</span>, <span class="fl">0.75</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb341"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb341-1"><a aria-hidden="true" tabindex="-1"></a>np.quantile(data,  [<span class="fl">0.25</span>, <span class="fl">0.5</span>, <span class="fl">0.75</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>array([ 9.75, 17.  , 47.5 ])</code></pre>
 </div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb348"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb348-1"><a aria-hidden="true" tabindex="-1"></a>np.var(data, ddof <span class="op">=</span> <span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb343"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb343-1"><a aria-hidden="true" tabindex="-1"></a>np.var(data, ddof <span class="op">=</span> <span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>7676.666666666666</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb350"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb350-1"><a aria-hidden="true" tabindex="-1"></a>np.std(data, ddof <span class="op">=</span> <span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb345"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb345-1"><a aria-hidden="true" tabindex="-1"></a>np.std(data, ddof <span class="op">=</span> <span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>87.61658899242008</code></pre>
 </div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb352"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb352-1"><a aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.Series(data)</span>
-<span id="cb352-2"><a aria-hidden="true" tabindex="-1"></a>df.describe()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb347"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb347-1"><a aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.Series(data)</span>
+<span id="cb347-2"><a aria-hidden="true" tabindex="-1"></a>df.describe()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>count      6.000000
 mean      55.333333
@@ -2329,13 +2290,14 @@ dtype: float64</code></pre>
 <li>
 <strong>Third Quartile (Q3)</strong>: the 75-th percentile</li>
 <li>
-<strong>Interquartile Range (IQR)</strong>: Q3 - Q1 IQR(data) ::: {.cell layout-align=“center”}</li>
+<strong>Interquartile Range (IQR)</strong>: Q3 - Q1</li>
 </ul>
-<div class="sourceCode cell-code" id="cb354"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb354-1"><a aria-hidden="true" tabindex="-1"></a>q75, q25 <span class="op">=</span> np.percentile(data, [<span class="dv">75</span> ,<span class="dv">25</span>])</span>
-<span id="cb354-2"><a aria-hidden="true" tabindex="-1"></a>q75 <span class="op">-</span> q25</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>37.75</code></pre>
+<p>IQR(data)</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb349"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb349-1"><a aria-hidden="true" tabindex="-1"></a>q75, q25 <span class="op">=</span> np.percentile(data, [<span class="dv">75</span> ,<span class="dv">25</span>])</span>
+<span id="cb349-2"><a aria-hidden="true" tabindex="-1"></a>q75 <span class="op">-</span> q25</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<p>Delta Degrees of Freedom.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -2346,8 +2308,7 @@ dtype: float64</code></pre>
           width: 1px!important;
           overflow: hidden!important;
           display:block!important;
-      }</style></aside><p>Delta Degrees of Freedom. :::</p>
-</section></section><section><section id="basic-plotting" class="title-slide slide level1 center"><h1>Basic Plotting</h1>
+      }</style></aside></section></section><section><section id="basic-plotting" class="title-slide slide level1 center"><h1>Basic Plotting</h1>
 <ul>
 <li><h3 id="scatter-plot">Scatter Plot</h3></li>
 <li><h3 id="boxplot">Boxplot</h3></li>
@@ -2361,29 +2322,29 @@ dtype: float64</code></pre>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb356"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">mtcars</span><span class="op">[</span><span class="fl">1</span><span class="op">:</span><span class="fl">15</span>, <span class="fl">1</span><span class="op">:</span><span class="fl">4</span><span class="op">]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb350"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">mtcars</span><span class="op">[</span><span class="fl">1</span><span class="op">:</span><span class="fl">15</span>, <span class="fl">1</span><span class="op">:</span><span class="fl">4</span><span class="op">]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<div class="sourceCode" id="cb357"><pre class="sourceCode numberSource my_class600 number-lines code-with-copy"><code class="sourceCode"><span id="cb357-1"><a></a>                    mpg cyl disp  hp</span>
-<span id="cb357-2"><a></a>Mazda RX4          21.0   6  160 110</span>
-<span id="cb357-3"><a></a>Mazda RX4 Wag      21.0   6  160 110</span>
-<span id="cb357-4"><a></a>Datsun 710         22.8   4  108  93</span>
-<span id="cb357-5"><a></a>Hornet 4 Drive     21.4   6  258 110</span>
-<span id="cb357-6"><a></a>Hornet Sportabout  18.7   8  360 175</span>
-<span id="cb357-7"><a></a>Valiant            18.1   6  225 105</span>
-<span id="cb357-8"><a></a>Duster 360         14.3   8  360 245</span>
-<span id="cb357-9"><a></a>Merc 240D          24.4   4  147  62</span>
-<span id="cb357-10"><a></a>Merc 230           22.8   4  141  95</span>
-<span id="cb357-11"><a></a>Merc 280           19.2   6  168 123</span>
-<span id="cb357-12"><a></a>Merc 280C          17.8   6  168 123</span>
-<span id="cb357-13"><a></a>Merc 450SE         16.4   8  276 180</span>
-<span id="cb357-14"><a></a>Merc 450SL         17.3   8  276 180</span>
-<span id="cb357-15"><a></a>Merc 450SLC        15.2   8  276 180</span>
-<span id="cb357-16"><a></a>Cadillac Fleetwood 10.4   8  472 205</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb351"><pre class="sourceCode numberSource my_class800 number-lines code-with-copy"><code class="sourceCode"><span id="cb351-1"><a></a>                    mpg cyl disp  hp</span>
+<span id="cb351-2"><a></a>Mazda RX4          21.0   6  160 110</span>
+<span id="cb351-3"><a></a>Mazda RX4 Wag      21.0   6  160 110</span>
+<span id="cb351-4"><a></a>Datsun 710         22.8   4  108  93</span>
+<span id="cb351-5"><a></a>Hornet 4 Drive     21.4   6  258 110</span>
+<span id="cb351-6"><a></a>Hornet Sportabout  18.7   8  360 175</span>
+<span id="cb351-7"><a></a>Valiant            18.1   6  225 105</span>
+<span id="cb351-8"><a></a>Duster 360         14.3   8  360 245</span>
+<span id="cb351-9"><a></a>Merc 240D          24.4   4  147  62</span>
+<span id="cb351-10"><a></a>Merc 230           22.8   4  141  95</span>
+<span id="cb351-11"><a></a>Merc 280           19.2   6  168 123</span>
+<span id="cb351-12"><a></a>Merc 280C          17.8   6  168 123</span>
+<span id="cb351-13"><a></a>Merc 450SE         16.4   8  276 180</span>
+<span id="cb351-14"><a></a>Merc 450SL         17.3   8  276 180</span>
+<span id="cb351-15"><a></a>Merc 450SLC        15.2   8  276 180</span>
+<span id="cb351-16"><a></a>Cadillac Fleetwood 10.4   8  472 205</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb358"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html">plot</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">mtcars</span><span class="op">$</span><span class="va">mpg</span>, y <span class="op">=</span> <span class="va">mtcars</span><span class="op">$</span><span class="va">hp</span>, </span>
+<div class="sourceCode" id="cb352"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html">plot</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">mtcars</span><span class="op">$</span><span class="va">mpg</span>, y <span class="op">=</span> <span class="va">mtcars</span><span class="op">$</span><span class="va">hp</span>, </span>
 <span>     xlab  <span class="op">=</span> <span class="st">"Miles per gallon"</span>, </span>
 <span>     ylab <span class="op">=</span> <span class="st">"Horsepower"</span>, </span>
 <span>     main <span class="op">=</span> <span class="st">"Scatter plot"</span>, </span>
@@ -2400,46 +2361,46 @@ dtype: float64</code></pre>
 </div>
 </section><section id="argument-pch" class="slide level2"><h2>Argument pch</h2>
 
-<img data-src="images/06-syntax/unnamed-chunk-133-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"><ul>
+<img data-src="images/06-syntax/unnamed-chunk-134-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"><ul>
 <li>The defualt is pch = 1</li>
 </ul></section><section id="python-matplotlib.pyplot" class="slide level2"><h2>Python <code>matplotlib.pyplot</code>
 </h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<details class="code-fold"><summary>Code</summary><div class="sourceCode cell-code" id="cb359"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb359-1"><a aria-hidden="true" tabindex="-1"></a>mtcars <span class="op">=</span> pd.read_csv(<span class="st">'./data/mtcars.csv'</span>)</span>
-<span id="cb359-2"><a aria-hidden="true" tabindex="-1"></a>mtcars.iloc[<span class="dv">0</span>:<span class="dv">15</span>,<span class="dv">0</span>:<span class="dv">4</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<details class="code-fold"><summary>Code</summary><div class="sourceCode cell-code" id="cb353"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb353-1"><a aria-hidden="true" tabindex="-1"></a>mtcars <span class="op">=</span> pd.read_csv(<span class="st">'./data/mtcars.csv'</span>)</span>
+<span id="cb353-2"><a aria-hidden="true" tabindex="-1"></a>mtcars.iloc[<span class="dv">0</span>:<span class="dv">15</span>,<span class="dv">0</span>:<span class="dv">4</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details><div class="cell-output cell-output-stdout">
-<div class="sourceCode" id="cb360"><pre class="sourceCode numberSource my_class600 number-lines code-with-copy"><code class="sourceCode"><span id="cb360-1"><a></a>     mpg  cyl   disp   hp</span>
-<span id="cb360-2"><a></a>0   21.0    6  160.0  110</span>
-<span id="cb360-3"><a></a>1   21.0    6  160.0  110</span>
-<span id="cb360-4"><a></a>2   22.8    4  108.0   93</span>
-<span id="cb360-5"><a></a>3   21.4    6  258.0  110</span>
-<span id="cb360-6"><a></a>4   18.7    8  360.0  175</span>
-<span id="cb360-7"><a></a>5   18.1    6  225.0  105</span>
-<span id="cb360-8"><a></a>6   14.3    8  360.0  245</span>
-<span id="cb360-9"><a></a>7   24.4    4  146.7   62</span>
-<span id="cb360-10"><a></a>8   22.8    4  140.8   95</span>
-<span id="cb360-11"><a></a>9   19.2    6  167.6  123</span>
-<span id="cb360-12"><a></a>10  17.8    6  167.6  123</span>
-<span id="cb360-13"><a></a>11  16.4    8  275.8  180</span>
-<span id="cb360-14"><a></a>12  17.3    8  275.8  180</span>
-<span id="cb360-15"><a></a>13  15.2    8  275.8  180</span>
-<span id="cb360-16"><a></a>14  10.4    8  472.0  205</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb354"><pre class="sourceCode numberSource my_class800 number-lines code-with-copy"><code class="sourceCode"><span id="cb354-1"><a></a>     mpg  cyl   disp   hp</span>
+<span id="cb354-2"><a></a>0   21.0    6  160.0  110</span>
+<span id="cb354-3"><a></a>1   21.0    6  160.0  110</span>
+<span id="cb354-4"><a></a>2   22.8    4  108.0   93</span>
+<span id="cb354-5"><a></a>3   21.4    6  258.0  110</span>
+<span id="cb354-6"><a></a>4   18.7    8  360.0  175</span>
+<span id="cb354-7"><a></a>5   18.1    6  225.0  105</span>
+<span id="cb354-8"><a></a>6   14.3    8  360.0  245</span>
+<span id="cb354-9"><a></a>7   24.4    4  146.7   62</span>
+<span id="cb354-10"><a></a>8   22.8    4  140.8   95</span>
+<span id="cb354-11"><a></a>9   19.2    6  167.6  123</span>
+<span id="cb354-12"><a></a>10  17.8    6  167.6  123</span>
+<span id="cb354-13"><a></a>11  16.4    8  275.8  180</span>
+<span id="cb354-14"><a></a>12  17.3    8  275.8  180</span>
+<span id="cb354-15"><a></a>13  15.2    8  275.8  180</span>
+<span id="cb354-16"><a></a>14  10.4    8  472.0  205</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb361"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb361-1"><a aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb361-2"><a aria-hidden="true" tabindex="-1"></a>plt.scatter(x <span class="op">=</span> mtcars.mpg, </span>
-<span id="cb361-3"><a aria-hidden="true" tabindex="-1"></a>            y <span class="op">=</span> mtcars.hp, </span>
-<span id="cb361-4"><a aria-hidden="true" tabindex="-1"></a>            color <span class="op">=</span> <span class="st">"r"</span>)</span>
-<span id="cb361-5"><a aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Miles per gallon"</span>)</span>
-<span id="cb361-6"><a aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"Horsepower"</span>)</span>
-<span id="cb361-7"><a aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Scatter plot"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb355"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb355-1"><a aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb355-2"><a aria-hidden="true" tabindex="-1"></a>plt.scatter(x <span class="op">=</span> mtcars.mpg, </span>
+<span id="cb355-3"><a aria-hidden="true" tabindex="-1"></a>            y <span class="op">=</span> mtcars.hp, </span>
+<span id="cb355-4"><a aria-hidden="true" tabindex="-1"></a>            color <span class="op">=</span> <span class="st">"r"</span>)</span>
+<span id="cb355-5"><a aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Miles per gallon"</span>)</span>
+<span id="cb355-6"><a aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"Horsepower"</span>)</span>
+<span id="cb355-7"><a aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Scatter plot"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/06-syntax/unnamed-chunk-135-1.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+<figure><p><img data-src="images/06-syntax/unnamed-chunk-136-1.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
 </figure>
 </div>
 </div>
@@ -2448,12 +2409,12 @@ dtype: float64</code></pre>
 </div>
 </section><section id="r-subplots" class="slide level2"><h2>R Subplots</h2>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb362"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/par.html">par</a></span><span class="op">(</span>mfrow <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">1</span>, <span class="fl">2</span><span class="op">)</span><span class="op">)</span></span>
+<div class="sourceCode" id="cb356"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/par.html">par</a></span><span class="op">(</span>mfrow <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">1</span>, <span class="fl">2</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html">plot</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">mtcars</span><span class="op">$</span><span class="va">mpg</span>, y <span class="op">=</span> <span class="va">mtcars</span><span class="op">$</span><span class="va">hp</span>, xlab <span class="op">=</span> <span class="st">"mpg"</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html">plot</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">mtcars</span><span class="op">$</span><span class="va">mpg</span>, y <span class="op">=</span> <span class="va">mtcars</span><span class="op">$</span><span class="va">wt</span>, xlab <span class="op">=</span> <span class="st">"mpg"</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="images/06-syntax/unnamed-chunk-136-3.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section><section id="python-subplots" class="slide level2"><h2>Python Subplots</h2>
+<img data-src="images/06-syntax/unnamed-chunk-137-3.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section><section id="python-subplots" class="slide level2"><h2><a href="https://matplotlib.org/stable/gallery/subplots_axes_and_figures/subplots_demo.html">Python Subplots</a></h2>
 <!-- :::{.callout-note} -->
 <!-- :::{style="font-size: 1.2em;"} -->
 <ul>
@@ -2461,19 +2422,19 @@ dtype: float64</code></pre>
 <li><p>If multiple subplots are wanted in one single call, one can use <a href="https://matplotlib.org/stable/gallery/subplots_axes_and_figures/subplots_demo.html"><code>plt.subplots()</code></a></p></li>
 </ul>
 <!-- # ```{python} --><!-- #| echo: true --><!-- #| eval: false --><!-- fig, (ax1, ax2) = plt.subplots(1, 2) --><!-- ax1.scatter(x, y) --><!-- ax2.plot(x, y) --><!-- ``` --><!-- ::: --><!-- ::: --><!-- - Check [Creating multiple subplots using `plt.subplots`]() for more details. --><div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb363"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb363-1"><a aria-hidden="true" tabindex="-1"></a>fig, (ax1, ax2) <span class="op">=</span> plt.subplots(<span class="dv">1</span>, <span class="dv">2</span>)</span>
-<span id="cb363-2"><a aria-hidden="true" tabindex="-1"></a>ax1.scatter(x <span class="op">=</span> mtcars.mpg, y <span class="op">=</span> mtcars.hp)</span>
-<span id="cb363-3"><a aria-hidden="true" tabindex="-1"></a>ax2.scatter(x <span class="op">=</span> mtcars.mpg, y <span class="op">=</span> mtcars.wt)</span>
-<span id="cb363-4"><a aria-hidden="true" tabindex="-1"></a>ax1.set_xlabel(<span class="st">"mpg"</span>)</span>
-<span id="cb363-5"><a aria-hidden="true" tabindex="-1"></a>ax2.set_xlabel(<span class="st">"mpg"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb357"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb357-1"><a aria-hidden="true" tabindex="-1"></a>fig, (ax1, ax2) <span class="op">=</span> plt.subplots(<span class="dv">1</span>, <span class="dv">2</span>)</span>
+<span id="cb357-2"><a aria-hidden="true" tabindex="-1"></a>ax1.scatter(x <span class="op">=</span> mtcars.mpg, y <span class="op">=</span> mtcars.hp)</span>
+<span id="cb357-3"><a aria-hidden="true" tabindex="-1"></a>ax2.scatter(x <span class="op">=</span> mtcars.mpg, y <span class="op">=</span> mtcars.wt)</span>
+<span id="cb357-4"><a aria-hidden="true" tabindex="-1"></a>ax1.set_xlabel(<span class="st">"mpg"</span>)</span>
+<span id="cb357-5"><a aria-hidden="true" tabindex="-1"></a>ax2.set_xlabel(<span class="st">"mpg"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="images/06-syntax/unnamed-chunk-137-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section><section id="r-boxplot" class="slide level2"><h2>R <code>boxplot()</code>
+<img data-src="images/06-syntax/unnamed-chunk-138-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section><section id="r-boxplot" class="slide level2"><h2>R <code>boxplot()</code>
 </h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb364"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/boxplot.html">boxplot</a></span><span class="op">(</span><span class="va">mpg</span> <span class="op">~</span> <span class="va">cyl</span>, </span>
+<div class="sourceCode" id="cb358"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/boxplot.html">boxplot</a></span><span class="op">(</span><span class="va">mpg</span> <span class="op">~</span> <span class="va">cyl</span>, </span>
 <span>        data <span class="op">=</span> <span class="va">mtcars</span>, </span>
 <span>        col <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"blue"</span>, <span class="st">"green"</span>, <span class="st">"red"</span><span class="op">)</span>, </span>
 <span>        las <span class="op">=</span> <span class="fl">1</span>, </span>
@@ -2485,7 +2446,7 @@ dtype: float64</code></pre>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/06-syntax/unnamed-chunk-139-1.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+<figure><p><img data-src="images/06-syntax/unnamed-chunk-140-1.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
 </figure>
 </div>
 </div>
@@ -2510,18 +2471,18 @@ dtype: float64</code></pre>
       }</style></aside></section><section id="python-boxplot" class="slide level2"><h2>Python <code>boxplot()</code>
 </h2>
 <div class="cell" data-layout-align="center">
-<details class="code-fold"><summary>Code</summary><div class="sourceCode cell-code" id="cb365"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb365-1"><a aria-hidden="true" tabindex="-1"></a>cyl_index <span class="op">=</span> np.sort(np.unique(np.array(mtcars.cyl)))</span>
-<span id="cb365-2"><a aria-hidden="true" tabindex="-1"></a>cyl_shape <span class="op">=</span> cyl_index.shape[<span class="dv">0</span>]</span>
-<span id="cb365-3"><a aria-hidden="true" tabindex="-1"></a>cyl_list <span class="op">=</span> []</span>
-<span id="cb365-4"><a aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span> (<span class="dv">0</span>, cyl_shape):</span>
-<span id="cb365-5"><a aria-hidden="true" tabindex="-1"></a>    cyl_list.append(np.array(mtcars[mtcars.cyl <span class="op">==</span> cyl_index[i]].mpg))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<details class="code-fold"><summary>Code</summary><div class="sourceCode cell-code" id="cb359"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb359-1"><a aria-hidden="true" tabindex="-1"></a>cyl_num <span class="op">=</span> np.unique(mtcars.cyl)</span>
+<span id="cb359-2"><a aria-hidden="true" tabindex="-1"></a>cyl_list <span class="op">=</span> []</span>
+<span id="cb359-3"><a aria-hidden="true" tabindex="-1"></a>cyl_list.append(mtcars[mtcars.cyl <span class="op">==</span> cyl_num[<span class="dv">0</span>]].mpg)</span>
+<span id="cb359-4"><a aria-hidden="true" tabindex="-1"></a>cyl_list.append(mtcars[mtcars.cyl <span class="op">==</span> cyl_num[<span class="dv">1</span>]].mpg)</span>
+<span id="cb359-5"><a aria-hidden="true" tabindex="-1"></a>cyl_list.append(mtcars[mtcars.cyl <span class="op">==</span> cyl_num[<span class="dv">2</span>]].mpg)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb366"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb366-1"><a aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb366-2"><a aria-hidden="true" tabindex="-1"></a>plt.boxplot(cyl_list, vert<span class="op">=</span><span class="va">False</span>, labels<span class="op">=</span>[<span class="dv">4</span>, <span class="dv">6</span>, <span class="dv">8</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="sourceCode cell-code" id="cb367"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb367-1"><a aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Miles per gallon"</span>)</span>
-<span id="cb367-2"><a aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"Number of cylinders"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb360"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb360-1"><a aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb360-2"><a aria-hidden="true" tabindex="-1"></a>plt.boxplot(cyl_list, vert<span class="op">=</span><span class="va">False</span>, tick_labels<span class="op">=</span>[<span class="dv">4</span>, <span class="dv">6</span>, <span class="dv">8</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb361"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb361-1"><a aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Miles per gallon"</span>)</span>
+<span id="cb361-2"><a aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"Number of cylinders"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
 <img data-src="images/06-syntax/boxplot-py-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:60.0%"></section><section id="r-hist" class="slide level2"><h2>R <code>hist()</code>
@@ -2533,7 +2494,7 @@ dtype: float64</code></pre>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb368"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/hist.html">hist</a></span><span class="op">(</span><span class="va">mtcars</span><span class="op">$</span><span class="va">wt</span>, </span>
+<div class="sourceCode" id="cb362"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/hist.html">hist</a></span><span class="op">(</span><span class="va">mtcars</span><span class="op">$</span><span class="va">wt</span>, </span>
 <span>     breaks <span class="op">=</span> <span class="fl">20</span>, </span>
 <span>     col <span class="op">=</span> <span class="st">"#003366"</span>, </span>
 <span>     border <span class="op">=</span> <span class="st">"#FFCC00"</span>, </span>
@@ -2545,7 +2506,7 @@ dtype: float64</code></pre>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/06-syntax/unnamed-chunk-143-1.png" class="quarto-figure quarto-figure-center" style="width:90.0%"></p>
+<figure><p><img data-src="images/06-syntax/unnamed-chunk-144-1.png" class="quarto-figure quarto-figure-center" style="width:90.0%"></p>
 </figure>
 </div>
 </div>
@@ -2564,21 +2525,21 @@ dtype: float64</code></pre>
           width: 1px!important;
           overflow: hidden!important;
           display:block!important;
-      }</style></aside></section><section id="python-hist" class="slide level2"><h2>Python <code>hist()</code>
-</h2>
+      }</style></aside></section><section id="python-hist" class="slide level2"><h2><a href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.hist.html">Python <code>hist()</code></a></h2>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb369"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb369-1"><a aria-hidden="true" tabindex="-1"></a>plt.hist(mtcars.wt, </span>
-<span id="cb369-2"><a aria-hidden="true" tabindex="-1"></a>         bins <span class="op">=</span> <span class="dv">19</span>, </span>
-<span id="cb369-3"><a aria-hidden="true" tabindex="-1"></a>         color<span class="op">=</span><span class="st">"#003366"</span>,</span>
-<span id="cb369-4"><a aria-hidden="true" tabindex="-1"></a>         edgecolor<span class="op">=</span><span class="st">"#FFCC00"</span>)</span>
-<span id="cb369-5"><a aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"weights"</span>)</span>
-<span id="cb369-6"><a aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Histogram of weights"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb363"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb363-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">## by default bins=10</span></span>
+<span id="cb363-2"><a aria-hidden="true" tabindex="-1"></a>plt.hist(mtcars.wt, </span>
+<span id="cb363-3"><a aria-hidden="true" tabindex="-1"></a>         bins <span class="op">=</span> <span class="dv">20</span>, </span>
+<span id="cb363-4"><a aria-hidden="true" tabindex="-1"></a>         color<span class="op">=</span><span class="st">"#003366"</span>,</span>
+<span id="cb363-5"><a aria-hidden="true" tabindex="-1"></a>         edgecolor<span class="op">=</span><span class="st">"#FFCC00"</span>)</span>
+<span id="cb363-6"><a aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"weights"</span>)</span>
+<span id="cb363-7"><a aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Histogram of weights"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="images/06-syntax/unnamed-chunk-144-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:60.0%"></section><section id="r-barplot" class="slide level2"><h2>R <code>barplot()</code>
+<img data-src="images/06-syntax/unnamed-chunk-145-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:60.0%"></section><section id="r-barplot" class="slide level2"><h2>R <code>barplot()</code>
 </h2>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb370"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="op">(</span><span class="va">counts</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/table.html">table</a></span><span class="op">(</span><span class="va">mtcars</span><span class="op">$</span><span class="va">gear</span><span class="op">)</span><span class="op">)</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb364"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="op">(</span><span class="va">counts</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/table.html">table</a></span><span class="op">(</span><span class="va">mtcars</span><span class="op">$</span><span class="va">gear</span><span class="op">)</span><span class="op">)</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
  3  4  5 
@@ -2586,7 +2547,7 @@ dtype: float64</code></pre>
 </div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb372"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">my_bar</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/graphics/barplot.html">barplot</a></span><span class="op">(</span><span class="va">counts</span>, </span>
+<div class="sourceCode" id="cb366"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">my_bar</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/graphics/barplot.html">barplot</a></span><span class="op">(</span><span class="va">counts</span>, </span>
 <span>                  main <span class="op">=</span> <span class="st">"Car Distribution"</span>, </span>
 <span>                  xlab <span class="op">=</span> <span class="st">"Number of Gears"</span>, </span>
 <span>                  las <span class="op">=</span> <span class="fl">1</span><span class="op">)</span></span>
@@ -2595,11 +2556,10 @@ dtype: float64</code></pre>
 <span>     cex <span class="op">=</span> <span class="fl">0.8</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="images/06-syntax/barplot-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:60.0%"></section><section id="python-barplot" class="slide level2"><h2>Python <code>barplot()</code>
-</h2>
+<img data-src="images/06-syntax/barplot-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:60.0%"></section><section id="python-barplot" class="slide level2"><h2><a href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.bar.html">Python <code>barplot()</code></a></h2>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb373"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb373-1"><a aria-hidden="true" tabindex="-1"></a>count_py <span class="op">=</span> mtcars.value_counts(<span class="st">'gear'</span>)</span>
-<span id="cb373-2"><a aria-hidden="true" tabindex="-1"></a>count_py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb367"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb367-1"><a aria-hidden="true" tabindex="-1"></a>count_py <span class="op">=</span> mtcars.value_counts(<span class="st">'gear'</span>)</span>
+<span id="cb367-2"><a aria-hidden="true" tabindex="-1"></a>count_py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>gear
 3    15
@@ -2609,27 +2569,27 @@ Name: count, dtype: int64</code></pre>
 </div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb375"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb375-1"><a aria-hidden="true" tabindex="-1"></a>plt.bar(count_py.index, count_py)</span>
-<span id="cb375-2"><a aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Number of Gears"</span>)</span>
-<span id="cb375-3"><a aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Car Distribution"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb369"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb369-1"><a aria-hidden="true" tabindex="-1"></a>plt.bar([<span class="st">"3"</span>, <span class="st">"4"</span>, <span class="st">"5"</span>], count_py)</span>
+<span id="cb369-2"><a aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Number of Gears"</span>)</span>
+<span id="cb369-3"><a aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Car Distribution"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="images/06-syntax/unnamed-chunk-147-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:60.0%"></section><section id="r-pie" class="slide level2"><h2>R <code>pie()</code>
+<img data-src="images/06-syntax/unnamed-chunk-148-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:60.0%"></section><section id="r-pie" class="slide level2"><h2>R <code>pie()</code>
 </h2>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb376"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="op">(</span><span class="va">percent</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/Round.html">round</a></span><span class="op">(</span><span class="va">counts</span> <span class="op">/</span> <span class="fu"><a href="https://rdrr.io/r/base/sum.html">sum</a></span><span class="op">(</span><span class="va">counts</span><span class="op">)</span> <span class="op">*</span> <span class="fl">100</span>, <span class="fl">2</span><span class="op">)</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb370"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="op">(</span><span class="va">percent</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/Round.html">round</a></span><span class="op">(</span><span class="va">counts</span> <span class="op">/</span> <span class="fu"><a href="https://rdrr.io/r/base/sum.html">sum</a></span><span class="op">(</span><span class="va">counts</span><span class="op">)</span> <span class="op">*</span> <span class="fl">100</span>, <span class="fl">2</span><span class="op">)</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
    3    4    5 
 46.9 37.5 15.6 </code></pre>
 </div>
-<div class="sourceCode" id="cb378"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="op">(</span><span class="va">labels</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/paste.html">paste0</a></span><span class="op">(</span><span class="fl">3</span><span class="op">:</span><span class="fl">5</span>, <span class="st">" gears: "</span>, <span class="va">percent</span>, <span class="st">"%"</span><span class="op">)</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb372"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="op">(</span><span class="va">labels</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/paste.html">paste0</a></span><span class="op">(</span><span class="fl">3</span><span class="op">:</span><span class="fl">5</span>, <span class="st">" gears: "</span>, <span class="va">percent</span>, <span class="st">"%"</span><span class="op">)</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "3 gears: 46.88%" "4 gears: 37.5%"  "5 gears: 15.62%"</code></pre>
 </div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb380"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/pie.html">pie</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">counts</span>, labels <span class="op">=</span> <span class="va">labels</span>,</span>
+<div class="sourceCode" id="cb374"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/pie.html">pie</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">counts</span>, labels <span class="op">=</span> <span class="va">labels</span>,</span>
 <span>    main <span class="op">=</span> <span class="st">"Pie Chart"</span>, </span>
 <span>    col <span class="op">=</span> <span class="fl">2</span><span class="op">:</span><span class="fl">4</span>, </span>
 <span>    radius <span class="op">=</span> <span class="fl">1</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -2651,15 +2611,15 @@ Name: count, dtype: int64</code></pre>
       }</style></aside></section><section id="python-pie" class="slide level2"><h2>Python <code>pie()</code>
 </h2>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb381"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb381-1"><a aria-hidden="true" tabindex="-1"></a>percent <span class="op">=</span> <span class="bu">round</span>(count_py <span class="op">/</span> <span class="bu">sum</span>(count_py) <span class="op">*</span> <span class="dv">100</span>, <span class="dv">2</span>)</span>
-<span id="cb381-2"><a aria-hidden="true" tabindex="-1"></a>texts <span class="op">=</span> [<span class="bu">str</span>(percent.index[k]) <span class="op">+</span> <span class="st">" gear "</span> <span class="op">+</span> <span class="bu">str</span>(percent.array[k]) <span class="op">+</span> <span class="st">"%"</span> <span class="cf">for</span> k <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>,<span class="dv">3</span>)]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb375"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb375-1"><a aria-hidden="true" tabindex="-1"></a>percent <span class="op">=</span> <span class="bu">round</span>(count_py <span class="op">/</span> <span class="bu">sum</span>(count_py) <span class="op">*</span> <span class="dv">100</span>, <span class="dv">2</span>)</span>
+<span id="cb375-2"><a aria-hidden="true" tabindex="-1"></a>texts <span class="op">=</span> (percent.index.astype(<span class="bu">str</span>) <span class="op">+</span> <span class="st">" gears: "</span> <span class="op">+</span> percent.astype(<span class="bu">str</span>) <span class="op">+</span> <span class="st">"%"</span>).tolist()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb382"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb382-1"><a aria-hidden="true" tabindex="-1"></a>plt.pie(count_py, labels <span class="op">=</span> texts, colors <span class="op">=</span> [<span class="st">'r'</span>, <span class="st">'g'</span>, <span class="st">'b'</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="sourceCode cell-code" id="cb383"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb383-1"><a aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Pie Charts"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb376"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb376-1"><a aria-hidden="true" tabindex="-1"></a>plt.pie(count_py, labels <span class="op">=</span> texts, colors <span class="op">=</span> [<span class="st">'r'</span>, <span class="st">'g'</span>, <span class="st">'b'</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb377"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb377-1"><a aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Pie Charts"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="images/06-syntax/unnamed-chunk-151-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section><section id="r-2d-imaging-image" class="slide level2"><h2>R 2D Imaging: <code>image()</code>
+<img data-src="images/06-syntax/unnamed-chunk-152-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section><section id="r-2d-imaging-image" class="slide level2"><h2>R 2D Imaging: <code>image()</code>
 </h2>
 <ul>
 <li>The <code><a href="https://www.math.uzh.ch/pages/spam/reference/image.html">image()</a></code> function displays the values in a matrix using color.</li>
@@ -2667,7 +2627,7 @@ Name: count, dtype: int64</code></pre>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb384"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/matrix.html">matrix</a></span><span class="op">(</span><span class="fl">1</span><span class="op">:</span><span class="fl">30</span>, <span class="fl">6</span>, <span class="fl">5</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb378"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/matrix.html">matrix</a></span><span class="op">(</span><span class="fl">1</span><span class="op">:</span><span class="fl">30</span>, <span class="fl">6</span>, <span class="fl">5</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>     [,1] [,2] [,3] [,4] [,5]
 [1,]    1    7   13   19   25
@@ -2677,36 +2637,38 @@ Name: count, dtype: int64</code></pre>
 [5,]    5   11   17   23   29
 [6,]    6   12   18   24   30</code></pre>
 </div>
-<div class="sourceCode" id="cb386"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/image.html">image</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/matrix.html">matrix</a></span><span class="op">(</span><span class="fl">1</span><span class="op">:</span><span class="fl">30</span>, <span class="fl">6</span>, <span class="fl">5</span><span class="op">)</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb380"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/image.html">image</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/matrix.html">matrix</a></span><span class="op">(</span><span class="fl">1</span><span class="op">:</span><span class="fl">30</span>, <span class="fl">6</span>, <span class="fl">5</span><span class="op">)</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/06-syntax/unnamed-chunk-153-1.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+<figure><p><img data-src="images/06-syntax/unnamed-chunk-154-1.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
 </figure>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="fragment">
 <p>In <a href="https://matplotlib.org/stable/plot_types/arrays/imshow.html#sphx-glr-plot-types-arrays-imshow-py">Python</a>,</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb387"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb387-1"><a aria-hidden="true" tabindex="-1"></a>plt.imshow(mat_img, cmap<span class="op">=</span><span class="st">'Oranges'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<details class="code-fold"><summary>Code</summary><div class="sourceCode cell-code" id="cb381"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb381-1"><a aria-hidden="true" tabindex="-1"></a>matrix <span class="op">=</span> np.arange(<span class="dv">1</span>, <span class="dv">31</span>).reshape(<span class="dv">5</span>, <span class="dv">6</span>)</span>
+<span id="cb381-2"><a aria-hidden="true" tabindex="-1"></a>plt.imshow(matrix, cmap<span class="op">=</span><span class="st">"viridis"</span>, origin<span class="op">=</span><span class="st">"lower"</span>)</span>
+<span id="cb381-3"><a aria-hidden="true" tabindex="-1"></a>plt.colorbar()</span>
+<span id="cb381-4"><a aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 </div>
 </section><section id="r-fieldsimage.plot" class="slide level2"><h2>R <code>fields::image.plot()</code>
 </h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb388"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/dnychka/fieldsRPackage">fields</a></span><span class="op">)</span></span>
+<div class="sourceCode" id="cb382"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/dnychka/fieldsRPackage">fields</a></span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/utils/str.html">str</a></span><span class="op">(</span><span class="va">volcano</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code> num [1:87, 1:61] 100 101 102 103 104 105 105 106 107 108 ...</code></pre>
 </div>
-<div class="sourceCode" id="cb390"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/fields/man/image.plot.html">image.plot</a></span><span class="op">(</span><span class="va">volcano</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb384"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/fields/man/image.plot.html">image.plot</a></span><span class="op">(</span><span class="va">volcano</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
@@ -2715,7 +2677,7 @@ Name: count, dtype: int64</code></pre>
 </div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/06-syntax/unnamed-chunk-155-1.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+<figure><p><img data-src="images/06-syntax/unnamed-chunk-156-1.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
 </figure>
 </div>
 </div>
@@ -2724,12 +2686,12 @@ Name: count, dtype: int64</code></pre>
 </div>
 </section><section id="r-2d-imaging-example-volcano" class="slide level2"><h2>R 2D Imaging Example: Volcano</h2>
 
-<img data-src="images/06-syntax/unnamed-chunk-156-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section><section id="r-3d-scatter-plot-scatterplot3d" class="slide level2"><h2>R 3D scatter plot: <code>scatterplot3d()</code>
+<img data-src="images/06-syntax/unnamed-chunk-157-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section><section id="r-3d-scatter-plot-scatterplot3d" class="slide level2"><h2>R 3D scatter plot: <code>scatterplot3d()</code>
 </h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb392"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="st">"scatterplot3d"</span><span class="op">)</span></span>
+<div class="sourceCode" id="cb386"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va">scatterplot3d</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/pkg/scatterplot3d/man/scatterplot3d.html">scatterplot3d</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">mtcars</span><span class="op">$</span><span class="va">wt</span>, </span>
 <span>              y <span class="op">=</span> <span class="va">mtcars</span><span class="op">$</span><span class="va">disp</span>, </span>
 <span>              z <span class="op">=</span> <span class="va">mtcars</span><span class="op">$</span><span class="va">mpg</span>, </span>
@@ -2744,26 +2706,31 @@ Name: count, dtype: int64</code></pre>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/06-syntax/unnamed-chunk-158-1.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+<figure><p><img data-src="images/06-syntax/unnamed-chunk-159-1.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
 </figure>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="fragment">
-<p>In <a href="https://matplotlib.org/stable/plot_types/3D/scatter3d_simple.html">Python</a>,</p>
+<p>In <a href="https://matplotlib.org/stable/gallery/mplot3d/scatter3d.html#">Python</a>,</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb393"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb393-1"><a aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> plt.figure()</span>
-<span id="cb393-2"><a aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> fig.add_subplot(projection<span class="op">=</span><span class="st">'3d'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<details class="code-fold"><summary>Code</summary><div class="sourceCode cell-code" id="cb387"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb387-1"><a aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> plt.figure()</span>
+<span id="cb387-2"><a aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> fig.add_subplot(projection<span class="op">=</span><span class="st">'3d'</span>)</span>
+<span id="cb387-3"><a aria-hidden="true" tabindex="-1"></a>ax.scatter(mtcars[<span class="st">'wt'</span>], mtcars[<span class="st">'disp'</span>], mtcars[<span class="st">'mpg'</span>], c<span class="op">=</span><span class="st">'steelblue'</span>, marker<span class="op">=</span><span class="st">'o'</span>)</span>
+<span id="cb387-4"><a aria-hidden="true" tabindex="-1"></a>ax.set_title(<span class="st">"3D Scatter Plot"</span>)</span>
+<span id="cb387-5"><a aria-hidden="true" tabindex="-1"></a>ax.set_xlabel(<span class="st">"Weights"</span>)</span>
+<span id="cb387-6"><a aria-hidden="true" tabindex="-1"></a>ax.set_ylabel(<span class="st">"Displacement"</span>)</span>
+<span id="cb387-7"><a aria-hidden="true" tabindex="-1"></a>ax.set_zlabel(<span class="st">"Miles per gallon"</span>)</span>
+<span id="cb387-8"><a aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 </div>
 </section><section id="r-perspective-plot-persp" class="slide level2"><h2>R Perspective Plot: <code>persp()</code>
 </h2>
 <div class="columns">
 <div class="column" style="width:44%;">
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb394"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/par.html">par</a></span><span class="op">(</span>mar <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">0</span>,<span class="fl">0</span>,<span class="fl">0</span>,<span class="fl">0</span><span class="op">)</span><span class="op">)</span></span>
+<div class="sourceCode" id="cb388"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/par.html">par</a></span><span class="op">(</span>mar <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">0</span>,<span class="fl">0</span>,<span class="fl">0</span>,<span class="fl">0</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co"># Exaggerate the relief</span></span>
 <span><span class="va">z</span> <span class="op">&lt;-</span> <span class="fl">2</span> <span class="op">*</span> <span class="va">volcano</span>      </span>
 <span><span class="co"># 10 meter spacing (S to N)</span></span>
@@ -2780,18 +2747,26 @@ Name: count, dtype: int64</code></pre>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/06-syntax/unnamed-chunk-162-1.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+<figure><p><img data-src="images/06-syntax/unnamed-chunk-163-1.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
 </figure>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="fragment">
 <p>In <a href="https://matplotlib.org/stable/plot_types/3D/surface3d_simple.html">Python</a>,</p>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb395"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb395-1"><a aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(subplot_kw<span class="op">=</span>{<span class="st">"projection"</span>: <span class="st">"3d"</span>})</span>
-<span id="cb395-2"><a aria-hidden="true" tabindex="-1"></a>ax.plot_surface(X, Y, Z)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<details class="code-fold"><summary>Code</summary><div class="sourceCode cell-code" id="cb389"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb389-1"><a aria-hidden="true" tabindex="-1"></a>volcano <span class="op">=</span> pd.read_csv(<span class="st">"./slides/data/volcano.csv"</span>, index_col<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb389-2"><a aria-hidden="true" tabindex="-1"></a>volcano <span class="op">=</span> volcano.values</span>
+<span id="cb389-3"><a aria-hidden="true" tabindex="-1"></a>z <span class="op">=</span> <span class="dv">2</span> <span class="op">*</span> volcano</span>
+<span id="cb389-4"><a aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.arange(<span class="dv">1</span>, z.shape[<span class="dv">0</span>] <span class="op">+</span> <span class="dv">1</span>) <span class="op">*</span> <span class="dv">10</span></span>
+<span id="cb389-5"><a aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> np.arange(<span class="dv">1</span>, z.shape[<span class="dv">1</span>] <span class="op">+</span> <span class="dv">1</span>) <span class="op">*</span> <span class="dv">10</span>  </span>
+<span id="cb389-6"><a aria-hidden="true" tabindex="-1"></a>X, Y <span class="op">=</span> np.meshgrid(y, x)</span>
+<span id="cb389-7"><a aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> plt.figure()</span>
+<span id="cb389-8"><a aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> fig.add_subplot(projection<span class="op">=</span><span class="st">'3d'</span>, facecolor<span class="op">=</span><span class="st">"slategray"</span>)</span>
+<span id="cb389-9"><a aria-hidden="true" tabindex="-1"></a>ax.plot_surface(X, Y, z, cmap<span class="op">=</span><span class="st">"Greens"</span>, edgecolor<span class="op">=</span><span class="st">"none"</span>, shade<span class="op">=</span><span class="va">True</span>, alpha<span class="op">=</span><span class="fl">0.9</span>)</span>
+<span id="cb389-10"><a aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 </div>
 <aside class="notes"><ul>
 <li>You can also generate a so-called perspective plot using the function persp().</li>
@@ -2806,9 +2781,7 @@ Name: count, dtype: int64</code></pre>
           width: 1px!important;
           overflow: hidden!important;
           display:block!important;
-      }</style></aside>
-</div>
-</section><section id="section-7" class="slide level2"><h2></h2>
+      }</style></aside></section><section id="section-7" class="slide level2"><h2></h2>
 <div class="lab">
 <p><span style="color:blue"> <strong>07-Plotting</strong> </span> <!-- - Create a R script named **lab04-basicplot.R** --></p>
 <p>In <strong>lab.qmd</strong> <code>## Lab 7</code>,</p>
@@ -2822,9 +2795,9 @@ Name: count, dtype: int64</code></pre>
 <li>Commit and Push your work once you are done.</li>
 </ul>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb396"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb396-1"><a aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
-<span id="cb396-2"><a aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb396-3"><a aria-hidden="true" tabindex="-1"></a>mtcars <span class="op">=</span> pd.read_csv(<span class="st">'./data/mtcars.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb390"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb390-1"><a aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb390-2"><a aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb390-3"><a aria-hidden="true" tabindex="-1"></a>mtcars <span class="op">=</span> pd.read_csv(<span class="st">'./data/mtcars.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 <!-- - *Find your mate and work in pairs. * -->
