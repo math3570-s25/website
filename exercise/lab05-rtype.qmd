@@ -32,7 +32,7 @@ In **lab.qmd** Lab 5,
 
 
 ```{r}
-#| class-output: "my_classfull"
+#| class-output: my_classfull
 #| echo: true
 #| eval: false
 

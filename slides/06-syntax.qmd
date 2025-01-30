@@ -127,11 +127,13 @@ knitr::knit_hooks$set(output = function(x, options) {
 })
 ```
 
+
 ```{r}
 library(reticulate)
 py_install("pandas")
 py_install("matplotlib")
 ```
+
 
 ```{python}
 import numpy as np
@@ -330,6 +332,7 @@ abs(-7)
 
 ```{r}
 #| echo: true
+#| code-line-numbers: false
 # R comment
 ```
 
@@ -443,7 +446,9 @@ math.log(x)
 ```
 
 :::
+
 :::
+
 ::::
 
 
@@ -558,6 +563,7 @@ knitr::include_graphics("https://raw.githubusercontent.com/hadley/adv-r/master/d
 - Variable defined previously is a **scalar** value, or in fact a (atomic) **vector of length one**.
 
 
+
 ## (Atomic) Vector
 
 - To create a vector, use `c()`, short for *concatenate* or *combine*.
@@ -664,6 +670,7 @@ sqrt(v2)
 ::::
 
 
+
 ## Recycling of Vectors
 
 - If we apply arithmetic operations to two vectors of **unequal** length, the elements of the shorter vector will be **recycled** to complete the operations.
@@ -727,10 +734,12 @@ x["c"]
 :::
 ::::
 
+
+
+
 ## Factor
 
-- A vector of type `factor` can be *ordered in a meaningful way.* 
-- Create a factor by `factor()`. It is a type of **integer**, not **character**. `r emo::ji('astonished')`  `r emo::ji('roll_eyes')` 
+- A vector of type `factor` can be *ordered in a meaningful way.* Create a factor by `factor()`. 
 
 ```{r}
 #| echo: true
@@ -738,6 +747,17 @@ x["c"]
 #| code-line-numbers: false
 ## Create a factor from a character vector using function factor()
 (fac <- factor(c("med", "high", "low")))
+```
+
+. . .
+
+
+- It is a type of **integer**, not **character**. `r emo::ji('astonished')`  `r emo::ji('roll_eyes')` 
+
+```{r}
+#| echo: true
+#| label: factor-type
+#| code-line-numbers: false
 typeof(fac)  ## The type is integer.
 str(fac)  ## The integers show the level each element in vector fac belongs to.
 ```
@@ -917,13 +937,15 @@ attributes(mat)
 :::
 
 
-## Row and Column Names
+## Row and Column Names  {visibility="hidden"}
+
 :::: {.columns}
 
 ::: {.column width="50%"}
 ```{r}
 #| label: matrix3
 #| echo: true
+#| eval: false
 #| code-line-numbers: false
 mat
 ## assign row names and column names
@@ -937,18 +959,22 @@ mat
 ```{r}
 #| label: matrix4
 #| echo: true
+#| eval: false
 #| code-line-numbers: false
 rownames(mat)
 colnames(mat)
 attributes(mat)
 ```
+
 :::
+
 ::::
 
 
 
 
-## Subsetting a Matrix
+## Subsetting a Matrix 
+
 - Use the same indexing approach as vectors on rows and columns.
 - Use comma `,` to separate row and column index.
 - `mat[2, 2]` extracts the element of the second row and second column.
@@ -1173,11 +1199,11 @@ In **lab.qmd** Lab 5,
 #| eval: false
 #| code-line-numbers: false
 
-v1 <- c(__________)
-f2 <- f_____(__________)
-l3 <- l_____(__________)
-m4 <- m_____(__________)
-d5 <- d_____.f_____(__________)
+v1 <- __________
+f2 <- __________
+l3 <- __________
+m4 <- __________
+d5 <- __________
 v <- c(type = typeof(v1), class = class(v1))
 f <- c(type = __________, class = _________)
 l <- c(type = __________, class = _________)
@@ -1333,12 +1359,10 @@ What does `lst[0:1]` return? Is it a list?
 :::
 
 
+
 ## Lists are Mutable
 
 Lists are **changed in place**!
-
-
-
 
 :::: {.columns}
 
@@ -1364,6 +1388,7 @@ lst[2:] = [False, 77]
 lst
 ```
 :::
+
 ::::
 
 
@@ -1372,7 +1397,7 @@ If we change any element value in a list, the list itself will be changed as wel
 :::
 
 
-## List Operations and Methods `list.method()`
+## List Operations and Methods [`list.method()`](https://docs.python.org/3/tutorial/datastructures.html)
 
 :::: {.columns}
 
@@ -1451,7 +1476,7 @@ This is a common syntax in Python. We start with a Pyhton object of some type, t
 list.pop(index)
 :::
 
-## Tuples
+## [Tuples](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences)
 
 - **Tuples** work exactly like lists except they are **immutable**, i.e., they can't be changed in place.
 
@@ -1541,13 +1566,13 @@ Lists have more methods than tuples because lists are more flexible.
 :::
 
 
-## Dictionaries
+## [Dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
 
 - A **dictionary** consists of [*key-value pairs*]{style="color:green"}.
 
 - A dictionary is mutable, i.e., the values can be changed in place and more key-value pairs can be added.
 
-- To create a dictionary, we use `{"key name": value}`.
+- To create a dictionary, we use `{'key': value}`.
 
 - The value can be accessed by the key in the dictionary. 
 
@@ -1619,7 +1644,7 @@ dic2[['First', 'Last']]
 ```
 
 
-## Disctionary Methods
+## Dictionary Methods
 
 ```{python}
 dic
@@ -1629,8 +1654,19 @@ dic
 #| echo: true
 #| code-line-numbers: false
 
-## Returns list of dictionary dict's keys
-dic.keys()
+dic.keys() ## Returns list of dictionary dict's keys
+```
+
+<br>
+
+. . .
+
+
+```{python}
+#| echo: true
+#| code-line-numbers: false
+
+dic.values() ## Returns list of dictionary dict's values
 ```
 
 <br>
@@ -1641,20 +1677,7 @@ dic.keys()
 #| echo: true
 #| code-line-numbers: false
 
-## Returns list of dictionary dict's values
-dic.values()
-```
-
-<br>
-
-. . .
-
-```{python}
-#| echo: true
-#| code-line-numbers: false
-
-## Returns a list of dict's (key, value) tuple pairs
-dic.items()
+dic.items() ## Returns a list of dict's (key, value) tuple pairs
 ```
 
 <br>
@@ -1713,7 +1736,7 @@ Remember to create Python code chunk
 
 ```
 
-[Any issue of this Python chunk?]{.red}
+[Any issue of this **P**ython chunk?]{.red}
 
 
 Commit and Push your work once you are done.
@@ -1733,6 +1756,7 @@ Commit and Push your work once you are done.
 
 ::: {.column width="50%"}
 ```{r}
+#| fig-link: "https://numpy.org/"
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg")
 ```
 
@@ -1742,6 +1766,7 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/3/31/Num
 
 ::: {.column width="50%"}
 ```{r}
+#| fig-link: "https://pandas.pydata.org/"
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg")
 ```
 :::
@@ -1766,7 +1791,7 @@ virtualenv_create("myenv")
 Go to **Tools > Global Options > Python > Select > Virtual Environments**
 
 ```{r}
-#| out-width: "50%"
+#| out-width: 50%
 knitr::include_graphics("./images/06-syntax/python-env.png")
 ```
 
@@ -1791,7 +1816,7 @@ Run the following Python code, and make sure everything goes well.
 
 ```{python}
 #| echo: true
-#| eval: false
+#| eval: true
 #| code-line-numbers: false
 import numpy as np
 import pandas as pd
@@ -1839,12 +1864,12 @@ median(data)
 
 ```{r ref.label="py-logo"}
 #| out-width: 8%
+#| fig-link: "https://numpy.org/doc/stable/reference/routines.statistics.html"
 ```
 
 ```{python}
 #| echo: true
 #| code-line-numbers: false
-
 data = np.array([3,12,56,9,230,22])
 type(data)
 np.mean(data)
@@ -1909,6 +1934,7 @@ summary(data)
 
 ```{r ref.label="py-logo"}
 #| out-width: 8%
+#| fig-link: "https://numpy.org/doc/stable/reference/routines.statistics.html"
 ```
 
 ```{python}
@@ -1938,19 +1964,24 @@ df.describe()
 ::::
 
 ::: notes
+
 - **p-th percentile**: a data value such that at most $p\%$ of the data values are below it and at most $(1−p)\%$ of the values are above it.
 - **First Quartile (Q1)**: the 25-th percentile
 - **Second Quartile (Q2)**: the 50-th percentile (Median)
 - **Third Quartile (Q3)**: the 75-th percentile
 - **Interquartile Range (IQR)**: Q3 - Q1
+
 IQR(data)
+
 ```{python}
 #| echo: true
 #| code-line-numbers: false
+#| eval: false
 q75, q25 = np.percentile(data, [75 ,25])
 q75 - q25
 ```
 Delta Degrees of Freedom.
+
 :::
 
 
@@ -1966,6 +1997,7 @@ Delta Degrees of Freedom.
 - ### 3D Plotting
 
 
+
 ## R `plot()`
 
 :::: {.columns}
@@ -1974,8 +2006,8 @@ Delta Degrees of Freedom.
 ```{r}
 #| echo: true
 #| label: mtcars
-#| out-width: "38%"
-#| class-output: "my_class600"
+#| out-width: 38%
+#| class-output: my_class800
 #| code-line-numbers: false
 mtcars[1:15, 1:4]
 ```
@@ -1995,7 +2027,10 @@ plot(x = mtcars$mpg, y = mtcars$hp,
      pch = 5, las = 1)
 ```
 :::
+
 ::::
+
+
 
 ## Argument pch 
 
@@ -2017,8 +2052,8 @@ axis(1, at = 1:25, cex.axis = 0.5)
 ::: {.column width="50%"}
 ```{python}
 #| echo: true
-#| out-width: "38%"
-#| class-output: "my_class600"
+#| out-width: 38%
+#| class-output: my_class800
 #| code-fold: true
 #| code-line-numbers: false
 mtcars = pd.read_csv('./data/mtcars.csv')
@@ -2041,7 +2076,10 @@ plt.ylabel("Horsepower")
 plt.title("Scatter plot")
 ```
 :::
+
 ::::
+
+
 
 ## R Subplots
 
@@ -2053,7 +2091,7 @@ plot(x = mtcars$mpg, y = mtcars$hp, xlab = "mpg")
 plot(x = mtcars$mpg, y = mtcars$wt, xlab = "mpg")
 ```
 
-## Python Subplots
+## [Python Subplots](https://matplotlib.org/stable/gallery/subplots_axes_and_figures/subplots_demo.html)
 
 <!-- :::{.callout-note} -->
 
@@ -2129,21 +2167,21 @@ par(mar = c(4, 4, 0, 0))
 #| echo: true
 #| code-fold: true
 #| code-line-numbers: false
-cyl_index = np.sort(np.unique(np.array(mtcars.cyl)))
-cyl_shape = cyl_index.shape[0]
+cyl_num = np.unique(mtcars.cyl)
 cyl_list = []
-for i in range (0, cyl_shape):
-    cyl_list.append(np.array(mtcars[mtcars.cyl == cyl_index[i]].mpg))
+cyl_list.append(mtcars[mtcars.cyl == cyl_num[0]].mpg)
+cyl_list.append(mtcars[mtcars.cyl == cyl_num[1]].mpg)
+cyl_list.append(mtcars[mtcars.cyl == cyl_num[2]].mpg)
 ```
 
 ```{python}
 #| echo: true
 #| label: boxplot-py
 #| results: hide
-#| out-width: "60%"
+#| out-width: 60%
 #| code-line-numbers: false
 import matplotlib.pyplot as plt
-plt.boxplot(cyl_list, vert=False, labels=[4, 6, 8])
+plt.boxplot(cyl_list, vert=False, tick_labels=[4, 6, 8])
 plt.xlabel("Miles per gallon")
 plt.ylabel("Number of cylinders")
 ```
@@ -2187,15 +2225,17 @@ hist(mtcars$wt,
 :::
 
 
-## Python `hist()`
+## [Python `hist()`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.hist.html)
 
 ```{python}
 #| results: hide
 #| echo: true
 #| out-width: 60%
 #| code-line-numbers: false
+
+## by default bins=10
 plt.hist(mtcars.wt, 
-         bins = 19, 
+         bins = 20, 
          color="#003366",
          edgecolor="#FFCC00")
 plt.xlabel("weights")
@@ -2227,7 +2267,7 @@ text(x = my_bar, y = counts - 0.8,
 ```
 
 
-## Python `barplot()`
+## [Python `barplot()`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.bar.html)
 
 ```{python}
 #| echo: true
@@ -2241,7 +2281,7 @@ count_py
 #| warning: false
 #| out-width: 60%
 #| code-line-numbers: false
-plt.bar(count_py.index, count_py)
+plt.bar(["3", "4", "5"], count_py)
 plt.xlabel("Number of Gears")
 plt.title("Car Distribution")
 ```
@@ -2280,7 +2320,7 @@ pie(x = counts, labels = labels,
 #| echo: true
 #| code-line-numbers: false
 percent = round(count_py / sum(count_py) * 100, 2)
-texts = [str(percent.index[k]) + " gear " + str(percent.array[k]) + "%" for k in range(0,3)]
+texts = (percent.index.astype(str) + " gears: " + percent.astype(str) + "%").tolist()
 ```
 
 
@@ -2294,6 +2334,7 @@ plt.title("Pie Charts")
 
 
 ## R 2D Imaging: `image()`
+
 - The `image()` function displays the values in a matrix using color.
 
 :::: {.columns}
@@ -2317,13 +2358,12 @@ image(matrix(1:30, 6, 5))
 #| echo: false
 #| warning: false
 #| out-width: 100%
-#| eval: 2
+#| eval: !expr c(2)
 #| code-line-numbers: false
 ```
 :::
-::::
 
-. . .
+::::
 
 In [Python](https://matplotlib.org/stable/plot_types/arrays/imshow.html#sphx-glr-plot-types-arrays-imshow-py),
 
@@ -2331,8 +2371,13 @@ In [Python](https://matplotlib.org/stable/plot_types/arrays/imshow.html#sphx-glr
 #| echo: true
 #| eval: false
 #| code-line-numbers: false
-plt.imshow(mat_img, cmap='Oranges')
+#| code-fold: true
+matrix = np.arange(1, 31).reshape(5, 6)
+plt.imshow(matrix, cmap="viridis", origin="lower")
+plt.colorbar()
+plt.show()
 ```
+
 
 
 ## R `fields::image.plot()`
@@ -2363,7 +2408,11 @@ image.plot(volcano)
 #| code-line-numbers: false
 ```
 :::
+
 ::::
+
+
+
 
 ## R 2D Imaging Example: Volcano
 
@@ -2396,7 +2445,7 @@ title(main = "Maunga Whau Volcano", font.main = 4)
 #| fig-show: hold
 #| warning: false
 #| eval: false
-library("scatterplot3d")
+library(scatterplot3d)
 scatterplot3d(x = mtcars$wt, 
               y = mtcars$disp, 
               z = mtcars$mpg, 
@@ -2419,18 +2468,24 @@ scatterplot3d(x = mtcars$wt,
 #| eval: true
 ```
 :::
+
 ::::
 
-. . .
-
-In [Python](https://matplotlib.org/stable/plot_types/3D/scatter3d_simple.html),
+In [Python](https://matplotlib.org/stable/gallery/mplot3d/scatter3d.html#),
 
 ```{python}
 #| echo: true
 #| eval: false
 #| code-line-numbers: false
+#| code-fold: true
 fig = plt.figure()
 ax = fig.add_subplot(projection='3d')
+ax.scatter(mtcars['wt'], mtcars['disp'], mtcars['mpg'], c='steelblue', marker='o')
+ax.set_title("3D Scatter Plot")
+ax.set_xlabel("Weights")
+ax.set_ylabel("Displacement")
+ax.set_zlabel("Miles per gallon")
+plt.show()
 ```
 
 
@@ -2481,24 +2536,29 @@ par(mar = c(0,0,0,0))
 :::
 ::::
 
-
-. . .
-
 In [Python](https://matplotlib.org/stable/plot_types/3D/surface3d_simple.html),
 
 ```{python}
 #| echo: true
 #| eval: false
 #| code-line-numbers: false
-fig, ax = plt.subplots(subplot_kw={"projection": "3d"})
-ax.plot_surface(X, Y, Z)
+#| code-fold: true
+volcano = pd.read_csv("./slides/data/volcano.csv", index_col=0)
+volcano = volcano.values
+z = 2 * volcano
+x = np.arange(1, z.shape[0] + 1) * 10
+y = np.arange(1, z.shape[1] + 1) * 10  
+X, Y = np.meshgrid(y, x)
+fig = plt.figure()
+ax = fig.add_subplot(projection='3d', facecolor="slategray")
+ax.plot_surface(X, Y, z, cmap="Greens", edgecolor="none", shade=True, alpha=0.9)
+plt.show()
 ```
 
 
 ::: notes
 - You can also generate a so-called perspective plot using the function persp().
 - I don't use the function often. You can try it with different argument values, and see how it changes.
-
 :::
 
 
