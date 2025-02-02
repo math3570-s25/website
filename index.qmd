@@ -7,16 +7,16 @@ tbl-colwidths: [5,10,15,5,8,10,5,5]
 
 ::: column-screen-inset-right
 | Week | Date | Topic | To Do | Slides | Lab Exercise | Homework | Project |
-|:-------:|---------|---------|:-------:|:-------:|:-------:|:-------:|---------|
+|:-------:|---------|---------|:-------:|:---------------:|:-------:|:-------:|---------|
 | 1 | Tue, Jan 14 | Greetings + Overview of Data Science | [📖](/weeks/week-1.html "Week 1") | [🖥️syllabus](/slides/01-syllabus.html "01-Syllabus") [🖥️overview](/slides/02-datascience.html "02-datascience") |  |  |  |
 |  | Thu, Jan 16 | Posit Cloud |  | [🖥️posit](/slides/03-posit.html "03-posit") | [📋 posit](/exercise/lab00-posit.html "lab00-posit") [📋01](/exercise/lab01-rscript.html "lab01-rscript") |  |  |
 | 2 | Tue, Jan 21 | **No CLASS: Cold Weather** | [📖](/weeks/week-2.html "Week 2") |  |  |  |  |
 |  | Thu, Jan 23 | Git/GitHub Introduction |  | [🖥️git](/slides/04-git.html "04-git") | [📋github](/exercise/lab00-git.html "lab00-git") |  |  |
-| 3 | Tue, Jan 28 | Quarto | [📖](/weeks/week-3.html "Week 3") | [🖥️](/slides/05-quarto.html "05-quarto")[quarto](/slides/05-quarto.html "05-quarto") | [📋02](/exercise/lab02-quarto.html "lab02-quarto") [📋03](/exercise/lab03-markdown.html "lab03-markdown") [📋04](/exercise/lab04-chunk.html "lab04-chunk") |  |  |
-|  | Thu, Jan 30 | Quarto and R Programming |  | [🖥️syntax](/slides/06-syntax.html "06-syntax") | [📋05](/exercise/lab05-rtype.html "lab05-rtype") |  |  |
-| 4 | Tue, Feb 4 | Python Programming |  |  | 📋📋 |  |  |
-|  | Thu, Feb 6 | R Tidyverse | 📖 | 🖥️ |  | ✍️ |  |
-| 5 | Tue, Feb 11 | Python Pandas/NumPy |  |  | 📋📋 |  |  |
+| 3 | Tue, Jan 28 | Quarto: YAML and Markdown | [📖](/weeks/week-3.html "Week 3") | [🖥️](/slides/05-quarto.html "05-quarto")[quarto](/slides/05-quarto.html "05-quarto") | [📋02](/exercise/lab02-quarto.html "lab02-quarto") [📋03](/exercise/lab03-markdown.html "lab03-markdown") [📋04](/exercise/lab04-chunk.html "lab04-chunk") |  |  |
+|  | Thu, Jan 30 | Quarto: Code Chunk |  |  |  |  |  |
+| 4 | Tue, Feb 4 | R Syntax | 📖 | [🖥️syntax](/slides/06-syntax.html "06-syntax") | [📋05](/exercise/lab05-rtype.html "lab05-rtype") |  |  |
+|  | Thu, Feb 6 | Python Syntax |  |  | 📋📋 | ✍️ |  |
+| 5 | Tue, Feb 11 | R Tidyverse; Python Pandas/NumPy |  | 🖥️ | 📋📋 |  |  |
 |  | Thu, Feb 13 | Data Importing | 📖 | 🖥️ | 📋 |  |  |
 | 6 | Tue, Feb 18 | Data Importing |  |  |  |  |  |
 |  | Thu, Feb 20 | Data Visualization-ggplot2 | 📖 | 🖥️ | 📋 |  |  |
@@ -26,8 +26,8 @@ tbl-colwidths: [5,10,15,5,8,10,5,5]
 |  | Thu, Mar 6 | Data Wrangling - two data frames |  | 🖥️ | 📋 |  |  |
 | 9 | Tue, Mar 11 | ***NO CLASS: Spring break*** |  |  |  |  |  |
 |  | Thu, Mar 13 | ***NO CLASS: Spring break*** |  |  |  |  |  |
-| 10 | **Tue, Mar 18** | [**Mini Project Presentation**]{.blue} | 📖 | 🖥️ | 📋 | ✍️ |  |
-|  | Thu, Mar 20 | Data Wrangling - tidyr |  | 🖥️ | 📋 |  |  |
+| 10 | Tue, Mar 18 | Data Wrangling - tidyr | 📖 | 🖥️ | 📋 | ✍️ |  |
+|  | **Thu, Mar 20** | [**Mini Project Presentation**]{.blue} |  | 🖥️ | 📋 |  |  |
 | 11 | Tue, Mar 25 | Probabilistic and Statistical Simulation |  |  | 📋 |  |  |
 |  | Thu, Mar 27 | Probabilistic and Statistical Simulation |  |  |  |  | Team Up 📂 |
 | 12 | Tue, Apr 1 | Linear Regression | 📖 | 🖥️ |  |  |  |
