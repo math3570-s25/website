@@ -1789,7 +1789,7 @@
     "href": "weeks/week-4.html#participate",
     "title": "Week 4",
     "section": "Participate",
-    "text": "Participate\n🖥️ Slides - R/Python Data Frames for Data Science",
+    "text": "Participate\n🖥️ Slides - R/Python Syntax",
     "crumbs": [
       "Weekly materials",
       "Week 4"
@@ -1800,7 +1800,7 @@
     "href": "weeks/week-4.html#reading-and-resources",
     "title": "Week 4",
     "section": "Reading and Resources",
-    "text": "Reading and Resources\n📖 tibble\n📖 pipes\n📖 NumPy\n📖 pandas",
+    "text": "Reading and Resources\n📖 The R Graph Gallery\n📖 matplotlib",
     "crumbs": [
       "Weekly materials",
       "Week 4"
@@ -1811,7 +1811,7 @@
     "href": "weeks/week-4.html#perform",
     "title": "Week 4",
     "section": "Perform",
-    "text": "Perform\n📋 Lab-08 Tibbles and Pipes\n📋 Lab-09 NumPy and pandas\n\n\nBack to course schedule ⏎",
+    "text": "Perform\n📋 Lab-05 R Data Summary\n📋 Lab-06 Python Data Structure\n📋 Lab-07 Plotting\n\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
       "Week 4"
@@ -2091,7 +2091,7 @@
     "href": "index.html",
     "title": "MATH/COSC 3570 Introduction to Data Science (Spring 2025)",
     "section": "",
-    "text": "Announcement: TA help desk hours at Cudahy Hall 301 Monday: 1 – 2 PM, Tuesday: 12 – 1 PM, Thursday: 12 – 2 PM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTo Do\nSlides\nLab Exercise\nHomework\nProject\n\n\n\n\n1\nTue, Jan 14\nGreetings + Overview of Data Science\n📖\n🖥️syllabus 🖥️overview\n\n\n\n\n\n\nThu, Jan 16\nPosit Cloud\n\n🖥️posit\n📋 posit 📋01\n\n\n\n\n2\nTue, Jan 21\nNo CLASS: Cold Weather\n📖\n\n\n\n\n\n\n\nThu, Jan 23\nGit/GitHub Introduction\n\n🖥️git\n📋github\n\n\n\n\n3\nTue, Jan 28\nQuarto: YAML and Markdown\n📖\n🖥️quarto\n📋02 📋03 📋04\n\n\n\n\n\nThu, Jan 30\nQuarto: Code Chunk\n\n\n\n\n\n\n\n4\nTue, Feb 4\nR Syntax\n📖\n🖥️syntax\n📋05\n\n\n\n\n\nThu, Feb 6\nPython Syntax\n\n\n📋📋\n✍️\n\n\n\n5\nTue, Feb 11\nR Tidyverse; Python Pandas/NumPy\n\n🖥️\n📋📋\n\n\n\n\n\nThu, Feb 13\nData Importing\n📖\n🖥️\n📋\n\n\n\n\n6\nTue, Feb 18\nData Importing\n\n\n\n\n\n\n\n\nThu, Feb 20\nData Visualization-ggplot2\n📖\n🖥️\n📋\n\n\n\n\n7\nTue, Feb 25\nData Visualization-categorical and numerical data\n📖\n🖥️\n📋📋\n\n\n\n\n\nThu, Feb 27\nInteractive Data Visualization\n\n🖥️\n\n\n\n\n\n8\nTue, Mar 4\nData Wrangling - one data frame\n📖\n🖥️\n📋\n\n\n\n\n\nThu, Mar 6\nData Wrangling - two data frames\n\n🖥️\n📋\n\n\n\n\n9\nTue, Mar 11\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\nThu, Mar 13\nNO CLASS: Spring break\n\n\n\n\n\n\n\n10\nTue, Mar 18\nData Wrangling - tidyr\n📖\n🖥️\n📋\n✍️\n\n\n\n\nThu, Mar 20\nMini Project Presentation\n\n🖥️\n📋\n\n\n\n\n11\nTue, Mar 25\nProbabilistic and Statistical Simulation\n\n\n📋\n\n\n\n\n\nThu, Mar 27\nProbabilistic and Statistical Simulation\n\n\n\n\nTeam Up 📂\n\n\n12\nTue, Apr 1\nLinear Regression\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 3\nLinear Regression\n\n\n📋\n\n\n\n\n13\nTue, Apr 8\nLogistic Regression\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 10\nLogistic Regression\n\n\n📋\n✍️\n\n\n\n14\nTue, Apr 15\nK-Nearest Neighbors\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 17\nNO CLASS: Easter break\n\n\n📋\n\n\n\n\n15\nTue, Apr 22\nPrincipal Component Analysis\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 24\nPrincipal Component Analysis\n\n\n📋\n\nProposal 📂\n\n\n16\nTue, Apr 29\nK-Means Clustering\n📖\n🖥️\n\n\n\n\n\n\nThu, May 1\nFinal Project Presentation I\n\n🖥️\n📋\n\n\n\n\n17\nMon, May 5\nFinal Project Presentation II\n\n\n\n\n\n\n\n\n\nThis schedule will be updated as the semester progresses, with all changes documented here. Dr. Yu reserve the right to make changes to the schedule.",
+    "text": "Announcement: TA help desk hours at Cudahy Hall 301 Monday: 1 – 2 PM, Tuesday: 12 – 1 PM, Thursday: 12 – 2 PM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTo Do\nSlides\nLab Exercise\nHomework\nProject\n\n\n\n\n1\nTue, Jan 14\nGreetings + Overview of Data Science\n📖\n🖥️syllabus 🖥️overview\n\n\n\n\n\n\nThu, Jan 16\nPosit Cloud\n\n🖥️posit\n📋 posit 📋01\n\n\n\n\n2\nTue, Jan 21\nNo CLASS: Cold Weather\n📖\n\n\n\n\n\n\n\nThu, Jan 23\nGit/GitHub Introduction\n\n🖥️git\n📋github\n\n\n\n\n3\nTue, Jan 28\nQuarto: YAML and Markdown\n📖\n🖥️quarto\n📋02 📋03 📋04\n\n\n\n\n\nThu, Jan 30\nQuarto: Code Chunk\n\n\n\n\n\n\n\n4\nTue, Feb 4\nR Syntax\n📖\n🖥️syntax\n📋05\n\n\n\n\n\nThu, Feb 6\nPython Syntax\n\n\n📋06 📋 07\n✍️\n\n\n\n5\nTue, Feb 11\nR Tidyverse; Python Pandas/NumPy\n\n🖥️\n📋📋\n\n\n\n\n\nThu, Feb 13\nData Importing\n📖\n🖥️\n📋\n\n\n\n\n6\nTue, Feb 18\nData Importing\n\n\n\n\n\n\n\n\nThu, Feb 20\nData Visualization-ggplot2\n📖\n🖥️\n📋\n\n\n\n\n7\nTue, Feb 25\nData Visualization-categorical and numerical data\n📖\n🖥️\n📋📋\n\n\n\n\n\nThu, Feb 27\nInteractive Data Visualization\n\n🖥️\n\n\n\n\n\n8\nTue, Mar 4\nData Wrangling - one data frame\n📖\n🖥️\n📋\n\n\n\n\n\nThu, Mar 6\nData Wrangling - two data frames\n\n🖥️\n📋\n\n\n\n\n9\nTue, Mar 11\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\nThu, Mar 13\nNO CLASS: Spring break\n\n\n\n\n\n\n\n10\nTue, Mar 18\nData Wrangling - tidyr\n📖\n🖥️\n📋\n✍️\n\n\n\n\nThu, Mar 20\nMini Project Presentation\n\n🖥️\n📋\n\n\n\n\n11\nTue, Mar 25\nProbabilistic and Statistical Simulation\n\n\n📋\n\n\n\n\n\nThu, Mar 27\nProbabilistic and Statistical Simulation\n\n\n\n\nTeam Up 📂\n\n\n12\nTue, Apr 1\nLinear Regression\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 3\nLinear Regression\n\n\n📋\n\n\n\n\n13\nTue, Apr 8\nLogistic Regression\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 10\nLogistic Regression\n\n\n📋\n✍️\n\n\n\n14\nTue, Apr 15\nK-Nearest Neighbors\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 17\nNO CLASS: Easter break\n\n\n📋\n\n\n\n\n15\nTue, Apr 22\nPrincipal Component Analysis\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 24\nPrincipal Component Analysis\n\n\n📋\n\nProposal 📂\n\n\n16\nTue, Apr 29\nK-Means Clustering\n📖\n🖥️\n\n\n\n\n\n\nThu, May 1\nFinal Project Presentation I\n\n🖥️\n📋\n\n\n\n\n17\nMon, May 5\nFinal Project Presentation II\n\n\n\n\n\n\n\n\n\nThis schedule will be updated as the semester progresses, with all changes documented here. Dr. Yu reserve the right to make changes to the schedule.",
     "crumbs": [
       "Course information",
       "Schedule"
