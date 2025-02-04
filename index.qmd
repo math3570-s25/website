@@ -14,8 +14,8 @@ tbl-colwidths: [5,10,15,5,8,10,5,5]
 |  | Thu, Jan 23 | Git/GitHub Introduction |  | [🖥️git](/slides/04-git.html "04-git") | [📋github](/exercise/lab00-git.html "lab00-git") |  |  |
 | 3 | Tue, Jan 28 | Quarto: YAML and Markdown | [📖](/weeks/week-3.html "Week 3") | [🖥️](/slides/05-quarto.html "05-quarto")[quarto](/slides/05-quarto.html "05-quarto") | [📋02](/exercise/lab02-quarto.html "lab02-quarto") [📋03](/exercise/lab03-markdown.html "lab03-markdown") [📋04](/exercise/lab04-chunk.html "lab04-chunk") |  |  |
 |  | Thu, Jan 30 | Quarto: Code Chunk |  |  |  |  |  |
-| 4 | Tue, Feb 4 | R Syntax | 📖 | [🖥️syntax](/slides/06-syntax.html "06-syntax") | [📋05](/exercise/lab05-rtype.html "lab05-rtype") |  |  |
-|  | Thu, Feb 6 | Python Syntax |  |  | 📋📋 | ✍️ |  |
+| 4 | Tue, Feb 4 | R Syntax | [📖](/weeks/week-4.html "Week 4") | [🖥️syntax](/slides/06-syntax.html "06-syntax") | [📋05](/exercise/lab05-rtype.html "lab05-rtype") |  |  |
+|  | Thu, Feb 6 | Python Syntax |  |  | [📋06](/exercise/lab06-py.html "lab06-py") [📋 07](/exercise/lab07-plot.html "lab07-plot") | ✍️ |  |
 | 5 | Tue, Feb 11 | R Tidyverse; Python Pandas/NumPy |  | 🖥️ | 📋📋 |  |  |
 |  | Thu, Feb 13 | Data Importing | 📖 | 🖥️ | 📋 |  |  |
 | 6 | Tue, Feb 18 | Data Importing |  |  |  |  |  |

@@ -1,6 +1,6 @@
 ---
 title: "Homework 1: Quarto, Basic Syntax and Data Importing"
-subtitle: "Spring 2024 MATH/COSC 3570 Introduction to Data Science by Dr. Cheng-Han Yu"
+subtitle: "Spring 2025 MATH/COSC 3570 Introduction to Data Science by Dr. Cheng-Han Yu"
 format: 
   html:
     code-fold: false

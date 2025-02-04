@@ -1,6 +1,6 @@
 ---
 title: "Week 4"
-subtitle: "R/Python Data Frames for Data Science"
+subtitle: "R and Python Syntax"
 editor: visual
 ---
 
@@ -9,23 +9,21 @@ editor: visual
 
 ## Participate
 
-🖥️ [Slides - R/Python Data Frames for Data Science](/slides/07-package.html)
+🖥️ [Slides - R/Python Syntax](/slides/06-syntax.html)
 
 ## Reading and Resources
 
-📖 [tibble](https://tibble.tidyverse.org/)
+📖 [The R Graph Gallery](https://www.r-graph-gallery.com/)
 
-📖 [pipes](https://r4ds.hadley.nz/data-transform.html#sec-the-pipe)
-
-📖 [NumPy](https://numpy.org/doc/stable/user/index.html)
-
-📖 [pandas](https://pandas.pydata.org/docs/user_guide/index.html)
+📖 [matplotlib](https://matplotlib.org/stable/plot_types/index.html)
 
 ## Perform
 
-📋 [Lab-08 Tibbles and Pipes](/exercise/lab08-tibble.html)
+📋 [Lab-05 R Data Summary](/exercise/lab05-rtype.html)
 
-📋 [Lab-09 NumPy and pandas](/exercise/lab09-numpy.html)
+📋 [Lab-06 Python Data Structure](/exercise/lab06-py.html)
+
+📋 [Lab-07 Plotting](/exercise/lab07-plot.html)
 
 <br><br>
 
