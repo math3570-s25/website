@@ -3,7 +3,7 @@ title: "MATH/COSC 3570 Introduction to Data Science (Spring 2025)"
 tbl-colwidths: [5,10,15,5,8,10,5,5]
 ---
 
--   **Announcement:** TA help desk hours at **Cudahy Hall 301 Monday: 1 – 2 PM, Tuesday: 12 – 1 PM, Thursday: 12 – 2 PM**
+-   TA help desk hours at **Cudahy Hall 301 Monday: 1 – 2 PM, Tuesday: 12 – 1 PM, Thursday: 12 – 2 PM**
 
 ::: column-screen-inset-right
 | Week | Date | Topic | To Do | Slides | Lab Exercise | Homework | Project |

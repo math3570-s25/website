@@ -3,7 +3,7 @@ title: "MATH/COSC 3570 Mini Project Presentation"
 date-modified: today
 ---
 
-[**Under Revision**]{.red}
+[**This is the latest version of project guideline. It may be revised later.**]{.red}
 
 The midterm mini project is about [**data visualization**]{.blue}. **Show your fun project! Let's go!!** 😎
 
@@ -41,6 +41,8 @@ The midterm mini project is about [**data visualization**]{.blue}. **Show your f
 -   Your proposal (in PDF) should include three parts:
 
     -   Project **title**
+    -   Members **duty**. For example, 
+        + John and Ben: clean data; Mike and Emma: prepare slides; Sophia, Mike, and Ben: plotting, etc. 
     -   The **description of the data set you use** in your project. For example, what is the data set about, how large is the data, the variables you use for your project, etc. The data set should be one of the data listed in @sec-data.
     -   The **goal of your project**. For example, what are questions you'd like to answer via data visualization? What would you like to learn about and from the data? What variables are you interested?
 
@@ -53,6 +55,8 @@ The midterm mini project is about [**data visualization**]{.blue}. **Show your f
 -   *Each one of you loses 3 points of your project grade if you don't meet the requirement or miss the deadline.*
 
 -   You need to share your entire work, including slides, code, etc so that anyone is able to **reproduce your outputs and plots shown in the slides**.
+
+-   The code must be shared via a **Quarto file**.
 
 
 
@@ -104,6 +108,7 @@ The available data sets for this projects can be downloaded from [**kaggle**](ht
 -   [US Census Demographic Data](https://www.kaggle.com/datasets/muonneutrino/us-census-demographic-data)
 
 
+**[Note:] Those are real data sets that contains many observations and variables. You just need to pick a few variables for plotting and analysis.**
 
 
 ## Evaluation and Grading {#sec-grading}
@@ -121,24 +126,24 @@ The available data sets for this projects can be downloaded from [**kaggle**](ht
 : Rubric
 
 
+-   Your project grade will be 
+
+> Project grade = performance grade - points lost due to violation of policy
 
 
--   Table 1 shows your possible performance grade. For example, if your group finish in second place (Silver) and you are elected as the best contributor, your grade is 98. If your group finish in third place (Bronze), and you are not the best contributor, you get 91.
-
--   Your project grade will be \quote{\texttt{project grade = performance grade - points lost due to violation of policy}}
 
 ## Peer Individual Performance Evaluation
 
--   **Two** group members will win the best contribution reward that add extra points to the project grade.
+-  In each team, **two** group members will win the best contribution reward that add extra points to the project grade.
 
 -   Each one of you has **two** votes to nominate one or two of your teammates who you think contribute the most to your group project.
 
--   You can
+-   You can nominate
 
-    -   vote for two teammates, each receiving one vote
-    -   give your two votes to one single teammate
+    -   two teammates, each receiving one vote. 
+    -   one teammate who receives two votes.
 
--   You **cannot** vote for yourself, and you can only vote for *one or two of your teammates*.
+-   You **cannot** nominate yourself.
 
 -   If you **don't** vote, or you just use **one vote**, you can't be the best contributor even if you receive the most or 2nd highest votes. The member with the 2nd or 3rd highest votes wins the best contribution reward.
 
