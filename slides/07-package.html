@@ -439,7 +439,7 @@ R Tidyverse
 </li>
 </ul>
 </div><div class="column" style="width:60%;">
-<div class="small">
+<div class="xsmall">
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -554,7 +554,7 @@ R Tidyverse
 <li>Advantages of tidy data:
 <ul>
 <li>If you store all data in a tidy way, you only need to learn the tools that work with them.</li>
-<li>Placing variables in columns allows R’s <em>vectorised</em> nature to shine. That makes transforming tidy data feel natural.</li>
+<li>Placing variables in columns allows R/Python’s <em>vectorised</em> nature to shine. That makes transforming tidy data feel natural.</li>
 </ul>
 </li>
 </ul>
@@ -655,7 +655,7 @@ Data Frames
 </section><section id="tibbles" class="slide level2"><h2>Tibbles</h2>
 <ul>
 <li>Tibbles are modern version of R <strong>data frames</strong>.</li>
-<li>Create a new tibble using <code><a href="https://tibble.tidyverse.org/reference/tibble.html">tibble::tibble()</a></code>.</li>
+<li>Create a new tibble using <code>tibble()</code>.</li>
 <li>It is like <code><a href="https://rdrr.io/r/base/data.frame.html">base::data.frame()</a></code>, but with a couple differences.</li>
 </ul>
 <div class="columns">
@@ -1846,72 +1846,6 @@ NumPy
 <span id="cb168-8"><a aria-hidden="true" tabindex="-1"></a>pd._____________(dic)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
-</section><section id="section-10" class="slide level2"><h2></h2>
-<div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb169"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb169-1"><a aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb169-2"><a aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
-<span id="cb169-3"><a aria-hidden="true" tabindex="-1"></a><span class="im">import</span> string <span class="im">as</span> st</span>
-<span id="cb169-4"><a aria-hidden="true" tabindex="-1"></a><span class="bu">list</span>(st.ascii_uppercase)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb171"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb171-1"><a aria-hidden="true" tabindex="-1"></a>dic <span class="op">=</span> {<span class="st">'x'</span>: np.arange(<span class="dv">1</span>, <span class="dv">6</span>), </span>
-<span id="cb171-2"><a aria-hidden="true" tabindex="-1"></a>       <span class="st">'y'</span>: np.arange(<span class="dv">5</span>, <span class="dv">0</span>, <span class="op">-</span><span class="dv">1</span>),</span>
-<span id="cb171-3"><a aria-hidden="true" tabindex="-1"></a>       <span class="st">'z'</span>: <span class="bu">list</span>(st.ascii_uppercase)[<span class="dv">0</span>:<span class="dv">5</span>]}</span>
-<span id="cb171-4"><a aria-hidden="true" tabindex="-1"></a>pd.DataFrame(dic)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>   x  y  z
-0  1  5  A
-1  2  4  B
-2  3  3  C
-3  4  2  D
-4  5  1  E</code></pre>
-</div>
-</div>
-</section></section><aside class="notes"><section id="dic-xnp.arange1-6-y-listreversedrange1-6-zliststring.ascii_uppercase05" class="title-slide slide level1 center"><h1>dic = {‘x’:np.arange(1, 6), ‘y’: list(reversed(range(1, 6))), ‘z’:list(string.ascii_uppercase)[0:5]}</h1>
-
-</section><section id="pd.dataframedic" class="title-slide slide level1 center"><h1>pd.DataFrame(dic)</h1>
-
-</section><style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside><section id="lab-bonus" class="slide level2"><h2>Lab Bonus!</h2>
-<ul>
-<li>Happy <strong>R</strong>alentine’s Day! ❤️</li>
-</ul>
-<div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb173"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">x</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/seq.html">seq</a></span><span class="op">(</span><span class="fl">0</span>, <span class="fl">2</span><span class="op">*</span><span class="va">pi</span>, by <span class="op">=</span> <span class="fl">0.01</span><span class="op">)</span></span>
-<span><span class="va">xhrt</span> <span class="op">&lt;-</span> <span class="fl">16</span> <span class="op">*</span> <span class="fu"><a href="https://rdrr.io/r/base/Trig.html">sin</a></span><span class="op">(</span><span class="va">x</span><span class="op">)</span> <span class="op">^</span> <span class="fl">3</span></span>
-<span><span class="va">yhrt</span> <span class="op">&lt;-</span> <span class="fl">13</span> <span class="op">*</span> <span class="fu"><a href="https://rdrr.io/r/base/Trig.html">cos</a></span><span class="op">(</span><span class="va">x</span><span class="op">)</span> <span class="op">-</span> <span class="fl">5</span> <span class="op">*</span> <span class="fu"><a href="https://rdrr.io/r/base/Trig.html">cos</a></span><span class="op">(</span><span class="fl">2</span><span class="op">*</span><span class="va">x</span><span class="op">)</span> <span class="op">-</span> <span class="fl">2</span> <span class="op">*</span> <span class="fu"><a href="https://rdrr.io/r/base/Trig.html">cos</a></span><span class="op">(</span><span class="fl">3</span><span class="op">*</span><span class="va">x</span><span class="op">)</span> <span class="op">-</span> <span class="fu"><a href="https://rdrr.io/r/base/Trig.html">cos</a></span><span class="op">(</span><span class="fl">4</span><span class="op">*</span><span class="va">x</span><span class="op">)</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/graphics/par.html">par</a></span><span class="op">(</span>mar <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">0</span>, <span class="fl">0</span>, <span class="fl">0</span>, <span class="fl">0</span><span class="op">)</span><span class="op">)</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html">plot</a></span><span class="op">(</span><span class="va">xhrt</span>, <span class="va">yhrt</span>, type <span class="op">=</span> <span class="st">"l"</span>, axes <span class="op">=</span> <span class="cn">FALSE</span>, xlab <span class="op">=</span> <span class="st">""</span>, ylab <span class="op">=</span> <span class="st">""</span><span class="op">)</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/graphics/polygon.html">polygon</a></span><span class="op">(</span><span class="va">xhrt</span>, <span class="va">yhrt</span>, col <span class="op">=</span> <span class="st">"red"</span>, border <span class="op">=</span> <span class="cn">NA</span><span class="op">)</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/graphics/points.html">points</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">10</span>,<span class="op">-</span><span class="fl">10</span>, <span class="op">-</span><span class="fl">15</span>, <span class="fl">15</span><span class="op">)</span>, <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="op">-</span><span class="fl">10</span>, <span class="op">-</span><span class="fl">10</span>, <span class="fl">10</span>, <span class="fl">10</span><span class="op">)</span>, pch <span class="op">=</span> <span class="fl">169</span>, font <span class="op">=</span> <span class="fl">5</span><span class="op">)</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/graphics/text.html">text</a></span><span class="op">(</span><span class="fl">0</span>, <span class="fl">0</span>, <span class="st">"Happy Valentine's Day!"</span>, font <span class="op">=</span> <span class="fl">2</span>, cex <span class="op">=</span> <span class="fl">2</span>, col <span class="op">=</span> <span class="st">"pink"</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section><section id="lab-bonus-1" class="slide level2"><h2>Lab Bonus!</h2>
-<ul>
-<li>Happy <strong>Py</strong>lentine’s Day! ❤️</li>
-</ul>
-<div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb174"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb174-1"><a aria-hidden="true" tabindex="-1"></a>lines <span class="op">=</span> []</span>
-<span id="cb174-2"><a aria-hidden="true" tabindex="-1"></a>msg <span class="op">=</span> <span class="st">"~Happy Valentine's Day!~"</span></span>
-<span id="cb174-3"><a aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> y <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">15</span>, <span class="op">-</span><span class="dv">15</span>, <span class="op">-</span><span class="dv">1</span>):</span>
-<span id="cb174-4"><a aria-hidden="true" tabindex="-1"></a>    line <span class="op">=</span> <span class="st">""</span></span>
-<span id="cb174-5"><a aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> x <span class="kw">in</span> <span class="bu">range</span>(<span class="op">-</span><span class="dv">30</span>, <span class="dv">30</span>):</span>
-<span id="cb174-6"><a aria-hidden="true" tabindex="-1"></a>        f <span class="op">=</span> ((x <span class="op">*</span> <span class="fl">0.05</span>) <span class="op">**</span> <span class="dv">2</span> <span class="op">+</span> (y <span class="op">*</span> <span class="fl">0.1</span>) <span class="op">**</span> <span class="dv">2</span> <span class="op">-</span> <span class="dv">1</span>) <span class="op">**</span> <span class="dv">3</span> <span class="op">-</span> (x <span class="op">*</span> <span class="fl">0.05</span>) <span class="op">**</span> <span class="dv">2</span> <span class="op">*</span> (y <span class="op">*</span> <span class="fl">0.1</span>) <span class="op">**</span> <span class="dv">3</span></span>
-<span id="cb174-7"><a aria-hidden="true" tabindex="-1"></a>        line <span class="op">+=</span> msg[(x <span class="op">-</span> y) <span class="op">%</span> <span class="bu">len</span>(msg)] <span class="cf">if</span> f <span class="op">&lt;=</span> <span class="dv">0</span> <span class="cf">else</span> <span class="st">" "</span></span>
-<span id="cb174-8"><a aria-hidden="true" tabindex="-1"></a>    lines.append(line)</span>
-<span id="cb174-9"><a aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb174-10"><a aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"</span><span class="ch">\n</span><span class="st">"</span>.join(lines))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
 </section><section id="resources" class="slide level2"><h2>Resources</h2>
 <ul>
 <li><a href="https://tibble.tidyverse.org/">tibble</a></li>
@@ -1919,14 +1853,14 @@ NumPy
 <li><a href="https://numpy.org/doc/stable/user/index.html">NumPy</a></li>
 <li><a href="https://pandas.pydata.org/docs/user_guide/index.html">pandas</a></li>
 </ul>
-
+<!-- ## {visibility="hidden"} --><!-- ```{python} --><!-- #| echo: true --><!-- #| eval: true --><!-- import numpy as np --><!-- import pandas as pd --><!-- import string as st --><!-- list(st.ascii_uppercase) --><!-- dic = {'x': np.arange(1, 6),  --><!--        'y': np.arange(5, 0, -1), --><!--        'z': list(st.ascii_uppercase)[0:5]} --><!-- pd.DataFrame(dic) --><!-- ``` --><!-- ::: notes --><!-- # dic = {'x':np.arange(1, 6), 'y': list(reversed(range(1, 6))), 'z':list(string.ascii_uppercase)[0:5]} --><!-- # pd.DataFrame(dic) --><!-- ::: --><!-- ## Lab Bonus! {visibility="hidden"} --><!-- - Happy **R**alentine's Day! ❤️ --><!-- ```{r} --><!-- #| eval: false --><!-- x <- seq(0, 2*pi, by = 0.01) --><!-- xhrt <- 16 * sin(x) ^ 3 --><!-- yhrt <- 13 * cos(x) - 5 * cos(2*x) - 2 * cos(3*x) - cos(4*x) --><!-- par(mar = c(0, 0, 0, 0)) --><!-- plot(xhrt, yhrt, type = "l", axes = FALSE, xlab = "", ylab = "") --><!-- polygon(xhrt, yhrt, col = "red", border = NA) --><!-- points(c(10,-10, -15, 15), c(-10, -10, 10, 10), pch = 169, font = 5) --><!-- text(0, 0, "Happy Valentine's Day!", font = 2, cex = 2, col = "pink") --><!-- ``` --><!-- ## Lab Bonus! {visibility="hidden"} --><!-- - Happy **Py**lentine's Day! ❤️ --><!-- ```{python} --><!-- #| eval: false --><!-- lines = [] --><!-- msg = "~Happy Valentine's Day!~" --><!-- for y in range(15, -15, -1): --><!--     line = "" --><!--     for x in range(-30, 30): --><!--         f = ((x * 0.05) ** 2 + (y * 0.1) ** 2 - 1) ** 3 - (x * 0.05) ** 2 * (y * 0.1) ** 3 --><!--         line += msg[(x - y) % len(msg)] if f <= 0 else " " --><!--     lines.append(line) --><!-- print("\n".join(lines)) --><!-- ``` -->
 <div class="quarto-auto-generated-content">
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Marquette_Golden_Eagles_logo.svg" class="slide-logo"></p>
 <div class="footer footer-default">
 <p><a href="https://math3570-s25.github.io/website/">math3570-s25.github.io/website</a></p>
 </div>
 </div>
-</section>
+</section></section>
 </div>
   </div>
 

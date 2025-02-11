@@ -1252,35 +1252,42 @@
     "href": "hw/hw1.html",
     "title": "Homework 1: Quarto, Basic Syntax and Data Importing",
     "section": "",
-    "text": "Please introduce yourself. You can share anything, your hometown, major, family, hobbies, working experience, honors and awards, special skills, etc, yes anything! Your autobiography should include:\n\nAt least two paragraphs (Paragraphs are separated by a blank line)\nBold text\nItalic text\nText with both bold AND italic font (Not mentioned in class, but you should be able to figure it out)\nClickable text with a hyperlink\nBlockquote\nListed items\nemoji (Add emoji to your writing by typing :EMOJICODE:, check emoji cheatsheet)\n\nYour Self-Introduction:"
+    "text": "Please introduce yourself. You can share anything, your hometown, major, family, hobbies, working experience, honors and awards, special skills, etc, yes anything! Your autobiography should include:\n\nAt least two paragraphs (Paragraphs are separated by a blank line)\nBold text\nItalic text\nText with both bold AND italic font (Not mentioned in class, but you should be able to figure it out)\nClickable text with a hyperlink\nBlockquote\nListed items\nemoji\n\nTo make your emoji works, add from: markdown+emoji in your YAML header, like\n---\ntitle: \"My Document\"\nfrom: markdown+emoji\n---\nThen add emoji to your writing by typing :EMOJICODE:. Check emoji cheatsheet.\n\nYour Self-Introduction:"
   },
   {
-    "objectID": "hw/hw1.html#autobiography",
-    "href": "hw/hw1.html#autobiography",
+    "objectID": "hw/hw1.html#vector",
+    "href": "hw/hw1.html#vector",
     "title": "Homework 1: Quarto, Basic Syntax and Data Importing",
-    "section": "",
-    "text": "Please introduce yourself. You can share anything, your hometown, major, family, hobbies, working experience, honors and awards, special skills, etc, yes anything! Your autobiography should include:\n\nAt least two paragraphs (Paragraphs are separated by a blank line)\nBold text\nItalic text\nText with both bold AND italic font (Not mentioned in class, but you should be able to figure it out)\nClickable text with a hyperlink\nBlockquote\nListed items\nemoji (Add emoji to your writing by typing :EMOJICODE:, check emoji cheatsheet)\n\nYour Self-Introduction:"
+    "section": "3.1 Vector",
+    "text": "3.1 Vector\nUse the built-in data set LakeHuron that records annual measurements of the level, in feet, of Lake Huron 1875–1972.\n\nReturn a logical vector that shows whether the lake level is higher than the average level or not.\n\n\nReturn years that have a level higher than the average."
   },
   {
-    "objectID": "hw/hw1.html#chunk-options",
-    "href": "hw/hw1.html#chunk-options",
+    "objectID": "hw/hw1.html#data-frame",
+    "href": "hw/hw1.html#data-frame",
     "title": "Homework 1: Quarto, Basic Syntax and Data Importing",
-    "section": "2 Chunk Options",
-    "text": "2 Chunk Options\nPlease check the references https://quarto.org/docs/reference/cells/cells-knitr.html or https://yihui.org/knitr/options/ and answer the following questions.\n\nPlease add your nice picture using knitr::include_graphics(). Please use\n\necho to not to show the code\nfig-cap to add a figure caption\nfig-cap-location to put the caption on the margin.\n\n\n\nUse the chunk option\n\necho to NOT to show library(tidyverse), library(ggplot2), and library(ggrepel). Note: you may need to use !expr. Check https://stackoverflow.com/questions/72217651/quarto-rmarkdown-code-block-to-only-display-certain-lines and https://quarto.org/docs/computations/r.html#chunk-options\nfig-align to have the figure right-aligned.\n\n\nlibrary(tidyverse)\nlibrary(ggplot2)\nclass_avg &lt;- mpg |&gt; \n    group_by(class) |&gt; \n    summarise(displ = median(displ), hwy = median(hwy))\nlibrary(ggrepel)\nggplot(mpg, aes(displ, hwy, colour = class)) + \n    geom_label_repel(aes(label = class), data = class_avg, size = 6, \n                     label.size = 0, segment.color = NA) + \n    geom_point() + theme(legend.position = \"none\")\n\n\n\n\n\n\n\n\nA Marquette student has a really bad code style. Please\n\nAdd the chunk option tidy in the chunk labelled style to make her code below more readable.\nAdd another option eval so that the code is NOT run.\n\n\n\nfor(k in 1:10){j=cos(sin(k)*k^2)+3;l=exp(k-7*log(k,base=2));print(j*l-5)}\n\n[1] 4.966218\n[1] -4.985713\n[1] -4.998994\n[1] -4.999823\n[1] -4.999956\n[1] -4.999988\n[1] -4.999988\n[1] -4.999991\n[1] -4.999995\n[1] -4.999996\n\n\n\nUse the chunk option results in the chunk labelled cat, so that the text output is “I love Marquette and Data Science!”.\n\n\ncat(\"I love **Marquette** and *Data Science*!\\n\")\n\nI love **Marquette** and *Data Science*!\n\n\n\nWe can re-use a code chunk by using its name! Please create a code chunk and use the option #| label: photo to run the code in the code chunk named photo. Note that the chunk options are not carried."
+    "section": "3.2 Data Frame",
+    "text": "3.2 Data Frame\n\nMake the mtcars dataset as a tibble using as_tibble(). Call it tbl.\n\n\nPrint the sub data of tbl that contains the 11th to 15th rows and the last three columns.\n\n\nGrab the second and the third columns of tbl.\n\n\nExtract the fourth column of tbl as a numerical vector.\n\n\nStart with tbl, use the pipe operator |&gt; to do the followings sequentially.\n\nextract the first 10 observations (rows) using head()\nfind the column names colnames()\nsort the columns names using sort() in a decreasing order. (alphabetically from z to a)"
   },
   {
-    "objectID": "hw/hw1.html#basic-r",
-    "href": "hw/hw1.html#basic-r",
+    "objectID": "hw/hw1.html#data-importing",
+    "href": "hw/hw1.html#data-importing",
     "title": "Homework 1: Quarto, Basic Syntax and Data Importing",
-    "section": "3 Basic R",
-    "text": "3 Basic R\n\n3.1 Vector\nUse the built-in data set LakeHuron.\n\nFind the number of data values in LakeHuron.\n\n\nWhat is the highest and lowest level (in feet) of LakeHuron during the 1875-1972 period?\n\n\nReturn a logical vector that shows whether the lake level is higher than the average level or not.\n\n\nReturn years that have higher level than the average.\n\n\n\n3.2 Data Frame\n\nMake the mtcars dataset as a tibble using as_tibble(). Call it tbl.\n\n\nPrint the sub data of tbl that contains the 11th to 15th rows and the last three columns.\n\n\nGrab the second and the third columns of tbl using list method and their name. (Do NOT use matrix method, and their index)\n\n\nExtract the fourth column of tbl as a numerical vector.\n\n\nStart with tbl, use the pipe operator |&gt; to do the followings sequentially.\n\nextract the first 10 observations (rows)\nfind the column names\nsort the columns names using sort() in a decreasing order. (alphabetically from z to a)\n\n\n\n\n3.3 Data Importing\n\nRead the data sales.xlsx from the data folder. Use arguments sheet, skip and col_names so that the output looks like\n# A tibble: 9 x 2\n  id      n    \n  &lt;chr&gt;   &lt;chr&gt;\n1 Brand 1 n    \n2 1234    8    \n3 8721    2    \n4 1822    3    \n5 Brand 2 n    \n6 3333    1    \n# … with 3 more rows\n\n\nRead in the favourite-food.xlsx file from the data folder and call the data fav_food. Use the argument na to treat “N/A” and “99999” as a missing value. Print the data out."
+    "section": "3.3 Data Importing",
+    "text": "3.3 Data Importing\n\nUse readxl::read_excel() to read the data sales.xlsx in the data folder. Use arguments sheet, skip and col_names so that the output looks like\n# A tibble: 9 x 2\n  id      n    \n  &lt;chr&gt;   &lt;chr&gt;\n1 Brand 1 n    \n2 1234    8    \n3 8721    2    \n4 1822    3    \n5 Brand 2 n    \n6 3333    1    \n# … with 3 more rows\n\n\nUse readxl::read_excel() to read in the favourite-food.xlsx file in the data folder and call the data fav_food. Use the argument na to treat “N/A” and “99999” as a missing value. Print the data out."
   },
   {
-    "objectID": "hw/hw1.html#basic-python",
-    "href": "hw/hw1.html#basic-python",
+    "objectID": "hw/hw1.html#pandas-data-frame",
+    "href": "hw/hw1.html#pandas-data-frame",
     "title": "Homework 1: Quarto, Basic Syntax and Data Importing",
-    "section": "4 Basic Python",
-    "text": "4 Basic Python\n\nimport numpy as np\nimport pandas as pd\n\n\n4.1 Data Frame\n\nImport the data set mtcars.csv using pd.read_csv(). Then print the first five rows.\n\n\nUse method .iloc to obtain the first and fourth rows, and the second and third columns. Name the data dfcar.\n\n\nSet the row names of dfcar to Mazda and Hornet.\n\n\nUse method .loc to obtain row Hornet and column disp."
+    "section": "4.1 Pandas Data Frame",
+    "text": "4.1 Pandas Data Frame\n\nImport the data set mtcars.csv using pd.read_csv(). Then print the first five rows.\n\n\nUse method .iloc to obtain the first and fourth rows, and the second and third columns. Name the data dfcar.\n\n\nSet the row names of dfcar to Mazda and Hornet.\n\n\nUse method .loc to obtain row Hornet and column disp."
+  },
+  {
+    "objectID": "hw/hw1.html#numpy-array",
+    "href": "hw/hw1.html#numpy-array",
+    "title": "Homework 1: Quarto, Basic Syntax and Data Importing",
+    "section": "4.2 NumPy Array",
+    "text": "4.2 NumPy Array\nIn class, we learned the R data structure matrix:\n\nmat &lt;- matrix(data = 1:6, nrow = 3, ncol = 2)\nmat[c(1, 3), 1] \nmat_c &lt;- matrix(data = c(7, 0, 0, 8, 2, 6), nrow = 3, ncol = 2)\ncbind(mat, mat_c)  \n\n\nUse NumPy methods to create an array equivalent to mat. Call it mat_py.\n\n\nSubset the mat_py so that the result is equivalent to mat[c(1, 3), 1].\n\n\nCreate an array equivalent to mat_c. Call it mat_py_c. Then combine them by columns using np.hstack()."
   },
   {
     "objectID": "weeks/week-15.html",
@@ -1371,275 +1378,241 @@
     ]
   },
   {
-    "objectID": "weeks/week-12.html",
-    "href": "weeks/week-12.html",
-    "title": "Week 12",
+    "objectID": "weeks/week-5-old.html",
+    "href": "weeks/week-5-old.html",
+    "title": "Week 5",
+    "section": "",
+    "text": "Important"
+  },
+  {
+    "objectID": "weeks/week-5-old.html#participate",
+    "href": "weeks/week-5-old.html#participate",
+    "title": "Week 5",
+    "section": "Participate",
+    "text": "Participate\n🖥️ Slides - Data Importing\nr fontawesome::fa(\"table\") murders.csv\nr fontawesome::fa(\"table\") df-na.csv\nr fontawesome::fa(\"table\") cars.rds\nr fontawesome::fa(\"table\") 2010_bigfive_regents.xls"
+  },
+  {
+    "objectID": "weeks/week-5-old.html#reading-and-resources",
+    "href": "weeks/week-5-old.html#reading-and-resources",
+    "title": "Week 5",
+    "section": "Reading and Resources",
+    "text": "Reading and Resources\n📖 R for Data Science - Data Import\n📖 R for Data Science - Data Visualization"
+  },
+  {
+    "objectID": "weeks/week-5-old.html#exercise",
+    "href": "weeks/week-5-old.html#exercise",
+    "title": "Week 5",
+    "section": "Exercise",
+    "text": "Exercise\n📋 Lab-10 Data Importing\nr fontawesome::fa(\"table\") ssa_male_prob.csv\nr fontawesome::fa(\"table\") ssa_female_prob.Rds\n\n\nBack to course schedule ⏎"
+  },
+  {
+    "objectID": "weeks/week-13.html",
+    "href": "weeks/week-13.html",
+    "title": "Week 13",
     "section": "",
     "text": "Important",
     "crumbs": [
       "Weekly materials",
-      "Week 12"
+      "Week 13"
     ]
   },
   {
-    "objectID": "weeks/week-12.html#participate",
-    "href": "weeks/week-12.html#participate",
-    "title": "Week 12",
+    "objectID": "weeks/week-13.html#participate",
+    "href": "weeks/week-13.html#participate",
+    "title": "Week 13",
     "section": "Participate",
-    "text": "Participate\n🖥️ Slides - Linear Regression\nr fontawesome::fa(\"table\") ggplot2::mpg",
+    "text": "Participate\n🖥️ Slides - Logistic Regression\nr fontawesome::fa(\"table\") Data - body",
     "crumbs": [
       "Weekly materials",
-      "Week 12"
+      "Week 13"
     ]
   },
   {
-    "objectID": "weeks/week-12.html#reading",
-    "href": "weeks/week-12.html#reading",
-    "title": "Week 12",
+    "objectID": "weeks/week-13.html#reading",
+    "href": "weeks/week-13.html#reading",
+    "title": "Week 13",
     "section": "Reading",
     "text": "Reading\n📖",
     "crumbs": [
       "Weekly materials",
-      "Week 12"
+      "Week 13"
     ]
   },
   {
-    "objectID": "weeks/week-12.html#exercise",
-    "href": "weeks/week-12.html#exercise",
-    "title": "Week 12",
+    "objectID": "weeks/week-13.html#exercise",
+    "href": "weeks/week-13.html#exercise",
+    "title": "Week 13",
     "section": "Exercise",
-    "text": "Exercise\n📋 Lab-20 Simple Linear Regression\n\n\nBack to course schedule ⏎",
+    "text": "Exercise\n📋 Lab-21 Logistic Regression\n\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
-      "Week 12"
+      "Week 13"
     ]
   },
   {
-    "objectID": "weeks/week-11.html",
-    "href": "weeks/week-11.html",
-    "title": "Week 11",
+    "objectID": "weeks/week-10.html",
+    "href": "weeks/week-10.html",
+    "title": "Week 10",
     "section": "",
     "text": "Important",
     "crumbs": [
       "Weekly materials",
-      "Week 11"
+      "Week 10"
     ]
   },
   {
-    "objectID": "weeks/week-11.html#participate",
-    "href": "weeks/week-11.html#participate",
-    "title": "Week 11",
+    "objectID": "weeks/week-10.html#participate",
+    "href": "weeks/week-10.html#participate",
+    "title": "Week 10",
     "section": "Participate",
-    "text": "Participate\n🖥️ Slides - Probability and Statistics",
+    "text": "Participate\n🖥️ Slides - Tidying Data\n🖥️ Slides - Probability and Statistics",
     "crumbs": [
       "Weekly materials",
-      "Week 11"
+      "Week 10"
     ]
   },
   {
-    "objectID": "weeks/week-11.html#exercise",
-    "href": "weeks/week-11.html#exercise",
-    "title": "Week 11",
+    "objectID": "weeks/week-10.html#exercise",
+    "href": "weeks/week-10.html#exercise",
+    "title": "Week 10",
     "section": "Exercise",
-    "text": "Exercise\n📋 Lab-19 Confidence Interval\n\n\nBack to course schedule ⏎",
+    "text": "Exercise\n📋 Lab-17 tidyr\nr fontawesome::fa(\"table\") trump.csv\n📋 Lab-18 Probability\n\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
-      "Week 11"
+      "Week 10"
     ]
   },
   {
-    "objectID": "weeks/week-2.html",
-    "href": "weeks/week-2.html",
-    "title": "Week 2",
+    "objectID": "weeks/week-3.html",
+    "href": "weeks/week-3.html",
+    "title": "Week 3",
     "section": "",
     "text": "Important",
     "crumbs": [
       "Weekly materials",
-      "Week 2"
+      "Week 3"
     ]
   },
   {
-    "objectID": "weeks/week-2.html#participate",
-    "href": "weeks/week-2.html#participate",
-    "title": "Week 2",
+    "objectID": "weeks/week-3.html#participate",
+    "href": "weeks/week-3.html#participate",
+    "title": "Week 3",
     "section": "Participate",
-    "text": "Participate\n🖥️ Slides - Git/GitHub\n🖥️ Slides - Quarto",
+    "text": "Participate\n🖥️ Slides - Quarto\n🖥️ Slides - R/Python Syntax",
     "crumbs": [
       "Weekly materials",
-      "Week 2"
+      "Week 3"
     ]
   },
   {
-    "objectID": "weeks/week-2.html#perform",
-    "href": "weeks/week-2.html#perform",
-    "title": "Week 2",
+    "objectID": "weeks/week-3.html#exercise",
+    "href": "weeks/week-3.html#exercise",
+    "title": "Week 3",
+    "section": "Exercise",
+    "text": "Exercise\n📋 Lab-02 Quarto File\n📋 Lab-03 Markdown\n📋 Lab-04 Code Chunk\n📋 Lab-05 R Data Summary\n📋 Lab-06 Python Data Structure\n📋 Lab-07 Plotting",
+    "crumbs": [
+      "Weekly materials",
+      "Week 3"
+    ]
+  },
+  {
+    "objectID": "weeks/week-3.html#reading-and-resources",
+    "href": "weeks/week-3.html#reading-and-resources",
+    "title": "Week 3",
+    "section": "Reading and Resources",
+    "text": "Reading and Resources\n📖 The R Graph Gallery\n📖 matplotlib\n\nMarkdown\n📖 Markdown Tutorial\n📖 Mastering Markdown GitHub Guides\n📖 Markdown Guide\n\n\nQuarto\n📖 Quarto Website\n📖 Get Started with Quarto\n📖 R for Data Science - Quarto\n\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 3"
+    ]
+  },
+  {
+    "objectID": "weeks/week-4.html",
+    "href": "weeks/week-4.html",
+    "title": "Week 4",
+    "section": "",
+    "text": "Important",
+    "crumbs": [
+      "Weekly materials",
+      "Week 4"
+    ]
+  },
+  {
+    "objectID": "weeks/week-4.html#participate",
+    "href": "weeks/week-4.html#participate",
+    "title": "Week 4",
+    "section": "Participate",
+    "text": "Participate\n🖥️ Slides - R/Python Syntax",
+    "crumbs": [
+      "Weekly materials",
+      "Week 4"
+    ]
+  },
+  {
+    "objectID": "weeks/week-4.html#reading-and-resources",
+    "href": "weeks/week-4.html#reading-and-resources",
+    "title": "Week 4",
+    "section": "Reading and Resources",
+    "text": "Reading and Resources\n📖 The R Graph Gallery\n📖 matplotlib",
+    "crumbs": [
+      "Weekly materials",
+      "Week 4"
+    ]
+  },
+  {
+    "objectID": "weeks/week-4.html#perform",
+    "href": "weeks/week-4.html#perform",
+    "title": "Week 4",
     "section": "Perform",
-    "text": "Perform\n📋 Lab-00 Git/GitHub\n📋 Lab-02 Quarto File\n📋 Lab-03 Markdown\n📋 Lab-04 Code Chunk",
+    "text": "Perform\n📋 Lab-05 R Data Summary\n📋 Lab-06 Python Data Structure\n📋 Lab-07 Plotting\n\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
-      "Week 2"
+      "Week 4"
     ]
   },
   {
-    "objectID": "weeks/week-2.html#reading-and-resources",
-    "href": "weeks/week-2.html#reading-and-resources",
-    "title": "Week 2",
-    "section": "Reading and Resources",
-    "text": "Reading and Resources\n\nGit/GitHub\n📖 Create a personal access token (PAT)\n📖 Two-factor authentication\n📖 Git hands-on session within RStudio\n📖 Happy Git and GitHub for the useR\n📖 Happier version control with Git and GitHub\n\n\nMarkdown\n📖 Markdown Tutorial\n📖 Mastering Markdown GitHub Guides\n📖 Markdown Guide\n\n\nQuarto\n📖 Quarto Website\n📖 Get Started with Quarto\n📖 R for Data Science - Quarto\n\n\nBack to course schedule ⏎",
-    "crumbs": [
-      "Weekly materials",
-      "Week 2"
-    ]
-  },
-  {
-    "objectID": "weeks/week-1.html",
-    "href": "weeks/week-1.html",
-    "title": "Week 1",
-    "section": "",
-    "text": "📖 Read the syllabus\n📖 Get your laptop and computing environment ready!",
-    "crumbs": [
-      "Weekly materials",
-      "Week 1"
-    ]
-  },
-  {
-    "objectID": "weeks/week-1.html#prepare",
-    "href": "weeks/week-1.html#prepare",
-    "title": "Week 1",
-    "section": "",
-    "text": "📖 Read the syllabus\n📖 Get your laptop and computing environment ready!",
-    "crumbs": [
-      "Weekly materials",
-      "Week 1"
-    ]
-  },
-  {
-    "objectID": "weeks/week-1.html#reading-and-resources",
-    "href": "weeks/week-1.html#reading-and-resources",
-    "title": "Week 1",
-    "section": "Reading and Resources",
-    "text": "Reading and Resources\n📖 R for Data Science - Introduction\n📖 R for Data Science - Whole game\n📖 RStudio IDE Cheatsheet\n📖 Posit Cloud Documentation",
-    "crumbs": [
-      "Weekly materials",
-      "Week 1"
-    ]
-  },
-  {
-    "objectID": "weeks/week-1.html#participate",
-    "href": "weeks/week-1.html#participate",
-    "title": "Week 1",
-    "section": "Participate",
-    "text": "Participate\n🖥️ Slides - Welcome to MATH/COSC 3570\n🖥️ Slides - Overview of Data Science\n🖥️ Slides - Posit Cloud\n🖥️ Slides - Git/GitHub\n\n\n\n\n\nggplot2::mpg",
-    "crumbs": [
-      "Weekly materials",
-      "Week 1"
-    ]
-  },
-  {
-    "objectID": "weeks/week-1.html#perform",
-    "href": "weeks/week-1.html#perform",
-    "title": "Week 1",
-    "section": "Perform",
-    "text": "Perform\n📋 Lab-00 Posit Cloud\n📋 Lab-01 Running R Script\n\n\nBack to course schedule ⏎",
-    "crumbs": [
-      "Weekly materials",
-      "Week 1"
-    ]
-  },
-  {
-    "objectID": "weeks/week-5.html",
-    "href": "weeks/week-5.html",
-    "title": "Week 5",
+    "objectID": "weeks/week-7.html",
+    "href": "weeks/week-7.html",
+    "title": "Week 7",
     "section": "",
     "text": "Important",
     "crumbs": [
       "Weekly materials",
-      "Week 5"
+      "Week 7"
     ]
   },
   {
-    "objectID": "weeks/week-5.html#participate",
-    "href": "weeks/week-5.html#participate",
-    "title": "Week 5",
+    "objectID": "weeks/week-7.html#participate",
+    "href": "weeks/week-7.html#participate",
+    "title": "Week 7",
     "section": "Participate",
-    "text": "Participate\n🖥️ Slides - Data Importing\nr fontawesome::fa(\"table\") murders.csv\nr fontawesome::fa(\"table\") df-na.csv\nr fontawesome::fa(\"table\") cars.rds\nr fontawesome::fa(\"table\") 2010_bigfive_regents.xls",
+    "text": "Participate\n🖥️ Slides -Visualizing Data\n🖥️ Slides - Interactive Visualization\nr fontawesome::fa(\"table\") Data - loans\nr fontawesome::fa(\"table\") Data - Murders",
     "crumbs": [
       "Weekly materials",
-      "Week 5"
+      "Week 7"
     ]
   },
   {
-    "objectID": "weeks/week-5.html#reading-and-resources",
-    "href": "weeks/week-5.html#reading-and-resources",
-    "title": "Week 5",
+    "objectID": "weeks/week-7.html#reading-and-resources",
+    "href": "weeks/week-7.html#reading-and-resources",
+    "title": "Week 7",
     "section": "Reading and Resources",
-    "text": "Reading and Resources\n📖 R for Data Science - Data Import\n📖 R for Data Science - Data Visualization",
+    "text": "Reading and Resources\n📖 More add-on r emo::ji(\"package\"): ggplot2 extensions\n📖 The R Graph Gallery\n📖 R Graphics Cookbook\n📖 R CHARTS\n📖 R for Data Science - Data Transformation",
     "crumbs": [
       "Weekly materials",
-      "Week 5"
+      "Week 7"
     ]
   },
   {
-    "objectID": "weeks/week-5.html#exercise",
-    "href": "weeks/week-5.html#exercise",
-    "title": "Week 5",
+    "objectID": "weeks/week-7.html#exercise",
+    "href": "weeks/week-7.html#exercise",
+    "title": "Week 7",
     "section": "Exercise",
-    "text": "Exercise\n📋 Lab-10 Data Importing\nr fontawesome::fa(\"table\") ssa_male_prob.csv\nr fontawesome::fa(\"table\") ssa_female_prob.Rds\n\n\nBack to course schedule ⏎",
+    "text": "Exercise\n📋 Lab-12 Faceting\n📋 Lab-13 Visualization\n📋 Lab-14 Interactive Visualization (Present)\n\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
-      "Week 5"
+      "Week 7"
     ]
-  },
-  {
-    "objectID": "weeks/week-6.html",
-    "href": "weeks/week-6.html",
-    "title": "Week 6",
-    "section": "",
-    "text": "Important",
-    "crumbs": [
-      "Weekly materials",
-      "Week 6"
-    ]
-  },
-  {
-    "objectID": "weeks/week-6.html#participate",
-    "href": "weeks/week-6.html#participate",
-    "title": "Week 6",
-    "section": "Participate",
-    "text": "Participate\n🖥️ Slides - ggplot2\nr fontawesome::fa(\"table\") openintro::loans_full_schema",
-    "crumbs": [
-      "Weekly materials",
-      "Week 6"
-    ]
-  },
-  {
-    "objectID": "weeks/week-6.html#reading-and-resources",
-    "href": "weeks/week-6.html#reading-and-resources",
-    "title": "Week 6",
-    "section": "Reading and Resources",
-    "text": "Reading and Resources\n📖 More add-on r emo::ji(\"package\"): ggplot2 extensions\n📖 The R Graph Gallery\n📖 R Graphics Cookbook\n📖 R CHARTS",
-    "crumbs": [
-      "Weekly materials",
-      "Week 6"
-    ]
-  },
-  {
-    "objectID": "weeks/week-6.html#exercise",
-    "href": "weeks/week-6.html#exercise",
-    "title": "Week 6",
-    "section": "Exercise",
-    "text": "Exercise\n📋 Lab-11 ggplot2\nr fontawesome::fa(\"table\") penguins.csv\n\n\nBack to course schedule ⏎",
-    "crumbs": [
-      "Weekly materials",
-      "Week 6"
-    ]
-  },
-  {
-    "objectID": "LICENSE.html#creative-commons-attribution-sharealike-4.0-international-public-license",
-    "href": "LICENSE.html#creative-commons-attribution-sharealike-4.0-international-public-license",
-    "title": "Attribution-ShareAlike 4.0 International",
-    "section": "Creative Commons Attribution-ShareAlike 4.0 International Public License",
-    "text": "Creative Commons Attribution-ShareAlike 4.0 International Public License\nBy exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-ShareAlike 4.0 International Public License (“Public License”). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.\n\nSection 1 – Definitions.\n\nAdapted Material means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.\nAdapter’s License means the license You apply to Your Copyright and Similar Rights in Your contributions to Adapted Material in accordance with the terms and conditions of this Public License.\nBY-SA Compatible License means a license listed at creativecommons.org/compatiblelicenses, approved by Creative Commons as essentially the equivalent of this Public License.\nCopyright and Similar Rights means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(b)(1)-(2) are not Copyright and Similar Rights.\nEffective Technological Measures means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.\nExceptions and Limitations means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.\nLicense Elements means the license attributes listed in the name of a Creative Commons Public License. The License Elements of this Public License are Attribution and ShareAlike.\nLicensed Material means the artistic or literary work, database, or other material to which the Licensor applied this Public License.\nLicensed Rights means the rights granted to You subject to the terms and conditions of this Public License, which are limited to all Copyright and Similar Rights that apply to Your use of the Licensed Material and that the Licensor has authority to license.\nLicensor means the individual(s) or entity(ies) granting rights under this Public License.\nShare means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.\nSui Generis Database Rights means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.\nYou means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.\n\n\n\nSection 2 – Scope.\n\nLicense grant.\n\nSubject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:\nA. reproduce and Share the Licensed Material, in whole or in part; and\nB. produce, reproduce, and Share Adapted Material.\nExceptions and Limitations. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.\nTerm. The term of this Public License is specified in Section 6(a).\nMedia and formats; technical modifications allowed. The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created, and to make technical modifications necessary to do so. The Licensor waives and/or agrees not to assert any right or authority to forbid You from making technical modifications necessary to exercise the Licensed Rights, including technical modifications necessary to circumvent Effective Technological Measures. For purposes of this Public License, simply making modifications authorized by this Section 2(a)(4) never produces Adapted Material.\nDownstream recipients.\nA. Offer from the Licensor – Licensed Material. Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.\nB. Additional offer from the Licensor – Adapted Material. Every recipient of Adapted Material from You automatically receives an offer from the Licensor to exercise the Licensed Rights in the Adapted Material under the conditions of the Adapter’s License You apply.\nC. No downstream restrictions. You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.\nNo endorsement. Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are, or that Your use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution as provided in Section 3(a)(1)(A)(i).\n\nOther rights.\n\nMoral rights, such as the right of integrity, are not licensed under this Public License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.\nPatent and trademark rights are not licensed under this Public License.\nTo the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties.\n\n\n\n\nSection 3 – License Conditions.\nYour exercise of the Licensed Rights is expressly made subject to the following conditions.\n\nAttribution.\n\nIf You Share the Licensed Material (including in modified form), You must:\nA. retain the following if it is supplied by the Licensor with the Licensed Material:\n\nidentification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);\na copyright notice;\na notice that refers to this Public License;\na notice that refers to the disclaimer of warranties;\na URI or hyperlink to the Licensed Material to the extent reasonably practicable;\n\nB. indicate if You modified the Licensed Material and retain an indication of any previous modifications; and\nC. indicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.\nYou may satisfy the conditions in Section 3(a)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.\nIf requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.\n\nShareAlike.\n\nIn addition to the conditions in Section 3(a), if You Share Adapted Material You produce, the following conditions also apply.\n\nThe Adapter’s License You apply must be a Creative Commons license with the same License Elements, this version or later, or a BY-SA Compatible License.\nYou must include the text of, or the URI or hyperlink to, the Adapter’s License You apply. You may satisfy this condition in any reasonable manner based on the medium, means, and context in which You Share Adapted Material.\nYou may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, Adapted Material that restrict exercise of the rights granted under the Adapter’s License You apply.\n\n\n\nSection 4 – Sui Generis Database Rights.\nWhere the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:\n\nfor the avoidance of doubt, Section 2(a)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database;\nif You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material, including for purposes of Section 3(b); and\nYou must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.\n\nFor the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.\n\n\nSection 5 – Disclaimer of Warranties and Limitation of Liability.\n\nUnless otherwise separately undertaken by the Licensor, to the extent possible, the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable. Where disclaimers of warranties are not allowed in full or in part, this disclaimer may not apply to You.\nTo the extent possible, in no event will the Licensor be liable to You on any legal theory (including, without limitation, negligence) or otherwise for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages arising out of this Public License or use of the Licensed Material, even if the Licensor has been advised of the possibility of such losses, costs, expenses, or damages. Where a limitation of liability is not allowed in full or in part, this limitation may not apply to You.\nThe disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.\n\n\n\nSection 6 – Term and Termination.\n\nThis Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.\nWhere Your right to use the Licensed Material has terminated under Section 6(a), it reinstates:\n\nautomatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or\nupon express reinstatement by the Licensor.\n\nFor the avoidance of doubt, this Section 6(b) does not affect any right the Licensor may have to seek remedies for Your violations of this Public License.\nFor the avoidance of doubt, the Licensor may also offer the Licensed Material under separate terms or conditions or stop distributing the Licensed Material at any time; however, doing so will not terminate this Public License.\nSections 1, 5, 6, 7, and 8 survive termination of this Public License.\n\n\n\nSection 7 – Other Terms and Conditions.\n\nThe Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.\nAny arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.\n\n\n\nSection 8 – Interpretation.\n\nFor the avoidance of doubt, this Public License does not, and shall not be interpreted to, reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this Public License.\nTo the extent possible, if any provision of this Public License is deemed unenforceable, it shall be automatically reformed to the minimum extent necessary to make it enforceable. If the provision cannot be reformed, it shall be severed from this Public License without affecting the enforceability of the remaining terms and conditions.\nNo term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.\nNothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.\n\n\nCreative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” The text of the Creative Commons public licenses is dedicated to the public domain under the CC0 Public Domain Dedication. Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.\nCreative Commons may be contacted at creativecommons.org."
   },
   {
     "objectID": "present-description.html",
@@ -1730,212 +1703,274 @@
     ]
   },
   {
-    "objectID": "weeks/week-7.html",
-    "href": "weeks/week-7.html",
-    "title": "Week 7",
+    "objectID": "LICENSE.html#creative-commons-attribution-sharealike-4.0-international-public-license",
+    "href": "LICENSE.html#creative-commons-attribution-sharealike-4.0-international-public-license",
+    "title": "Attribution-ShareAlike 4.0 International",
+    "section": "Creative Commons Attribution-ShareAlike 4.0 International Public License",
+    "text": "Creative Commons Attribution-ShareAlike 4.0 International Public License\nBy exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-ShareAlike 4.0 International Public License (“Public License”). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.\n\nSection 1 – Definitions.\n\nAdapted Material means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.\nAdapter’s License means the license You apply to Your Copyright and Similar Rights in Your contributions to Adapted Material in accordance with the terms and conditions of this Public License.\nBY-SA Compatible License means a license listed at creativecommons.org/compatiblelicenses, approved by Creative Commons as essentially the equivalent of this Public License.\nCopyright and Similar Rights means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(b)(1)-(2) are not Copyright and Similar Rights.\nEffective Technological Measures means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.\nExceptions and Limitations means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.\nLicense Elements means the license attributes listed in the name of a Creative Commons Public License. The License Elements of this Public License are Attribution and ShareAlike.\nLicensed Material means the artistic or literary work, database, or other material to which the Licensor applied this Public License.\nLicensed Rights means the rights granted to You subject to the terms and conditions of this Public License, which are limited to all Copyright and Similar Rights that apply to Your use of the Licensed Material and that the Licensor has authority to license.\nLicensor means the individual(s) or entity(ies) granting rights under this Public License.\nShare means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.\nSui Generis Database Rights means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.\nYou means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.\n\n\n\nSection 2 – Scope.\n\nLicense grant.\n\nSubject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:\nA. reproduce and Share the Licensed Material, in whole or in part; and\nB. produce, reproduce, and Share Adapted Material.\nExceptions and Limitations. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.\nTerm. The term of this Public License is specified in Section 6(a).\nMedia and formats; technical modifications allowed. The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created, and to make technical modifications necessary to do so. The Licensor waives and/or agrees not to assert any right or authority to forbid You from making technical modifications necessary to exercise the Licensed Rights, including technical modifications necessary to circumvent Effective Technological Measures. For purposes of this Public License, simply making modifications authorized by this Section 2(a)(4) never produces Adapted Material.\nDownstream recipients.\nA. Offer from the Licensor – Licensed Material. Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.\nB. Additional offer from the Licensor – Adapted Material. Every recipient of Adapted Material from You automatically receives an offer from the Licensor to exercise the Licensed Rights in the Adapted Material under the conditions of the Adapter’s License You apply.\nC. No downstream restrictions. You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.\nNo endorsement. Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are, or that Your use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution as provided in Section 3(a)(1)(A)(i).\n\nOther rights.\n\nMoral rights, such as the right of integrity, are not licensed under this Public License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.\nPatent and trademark rights are not licensed under this Public License.\nTo the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties.\n\n\n\n\nSection 3 – License Conditions.\nYour exercise of the Licensed Rights is expressly made subject to the following conditions.\n\nAttribution.\n\nIf You Share the Licensed Material (including in modified form), You must:\nA. retain the following if it is supplied by the Licensor with the Licensed Material:\n\nidentification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);\na copyright notice;\na notice that refers to this Public License;\na notice that refers to the disclaimer of warranties;\na URI or hyperlink to the Licensed Material to the extent reasonably practicable;\n\nB. indicate if You modified the Licensed Material and retain an indication of any previous modifications; and\nC. indicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.\nYou may satisfy the conditions in Section 3(a)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.\nIf requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.\n\nShareAlike.\n\nIn addition to the conditions in Section 3(a), if You Share Adapted Material You produce, the following conditions also apply.\n\nThe Adapter’s License You apply must be a Creative Commons license with the same License Elements, this version or later, or a BY-SA Compatible License.\nYou must include the text of, or the URI or hyperlink to, the Adapter’s License You apply. You may satisfy this condition in any reasonable manner based on the medium, means, and context in which You Share Adapted Material.\nYou may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, Adapted Material that restrict exercise of the rights granted under the Adapter’s License You apply.\n\n\n\nSection 4 – Sui Generis Database Rights.\nWhere the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:\n\nfor the avoidance of doubt, Section 2(a)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database;\nif You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material, including for purposes of Section 3(b); and\nYou must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.\n\nFor the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.\n\n\nSection 5 – Disclaimer of Warranties and Limitation of Liability.\n\nUnless otherwise separately undertaken by the Licensor, to the extent possible, the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable. Where disclaimers of warranties are not allowed in full or in part, this disclaimer may not apply to You.\nTo the extent possible, in no event will the Licensor be liable to You on any legal theory (including, without limitation, negligence) or otherwise for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages arising out of this Public License or use of the Licensed Material, even if the Licensor has been advised of the possibility of such losses, costs, expenses, or damages. Where a limitation of liability is not allowed in full or in part, this limitation may not apply to You.\nThe disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.\n\n\n\nSection 6 – Term and Termination.\n\nThis Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.\nWhere Your right to use the Licensed Material has terminated under Section 6(a), it reinstates:\n\nautomatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or\nupon express reinstatement by the Licensor.\n\nFor the avoidance of doubt, this Section 6(b) does not affect any right the Licensor may have to seek remedies for Your violations of this Public License.\nFor the avoidance of doubt, the Licensor may also offer the Licensed Material under separate terms or conditions or stop distributing the Licensed Material at any time; however, doing so will not terminate this Public License.\nSections 1, 5, 6, 7, and 8 survive termination of this Public License.\n\n\n\nSection 7 – Other Terms and Conditions.\n\nThe Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.\nAny arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.\n\n\n\nSection 8 – Interpretation.\n\nFor the avoidance of doubt, this Public License does not, and shall not be interpreted to, reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this Public License.\nTo the extent possible, if any provision of this Public License is deemed unenforceable, it shall be automatically reformed to the minimum extent necessary to make it enforceable. If the provision cannot be reformed, it shall be severed from this Public License without affecting the enforceability of the remaining terms and conditions.\nNo term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.\nNothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.\n\n\nCreative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” The text of the Creative Commons public licenses is dedicated to the public domain under the CC0 Public Domain Dedication. Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.\nCreative Commons may be contacted at creativecommons.org."
+  },
+  {
+    "objectID": "weeks/week-6.html",
+    "href": "weeks/week-6.html",
+    "title": "Week 6",
     "section": "",
     "text": "Important",
     "crumbs": [
       "Weekly materials",
-      "Week 7"
+      "Week 6"
     ]
   },
   {
-    "objectID": "weeks/week-7.html#participate",
-    "href": "weeks/week-7.html#participate",
-    "title": "Week 7",
+    "objectID": "weeks/week-6.html#participate",
+    "href": "weeks/week-6.html#participate",
+    "title": "Week 6",
     "section": "Participate",
-    "text": "Participate\n🖥️ Slides -Visualizing Data\n🖥️ Slides - Interactive Visualization\nr fontawesome::fa(\"table\") Data - loans\nr fontawesome::fa(\"table\") Data - Murders",
+    "text": "Participate\n🖥️ Slides - ggplot2\nr fontawesome::fa(\"table\") openintro::loans_full_schema",
     "crumbs": [
       "Weekly materials",
-      "Week 7"
+      "Week 6"
     ]
   },
   {
-    "objectID": "weeks/week-7.html#reading-and-resources",
-    "href": "weeks/week-7.html#reading-and-resources",
-    "title": "Week 7",
+    "objectID": "weeks/week-6.html#reading-and-resources",
+    "href": "weeks/week-6.html#reading-and-resources",
+    "title": "Week 6",
     "section": "Reading and Resources",
-    "text": "Reading and Resources\n📖 More add-on r emo::ji(\"package\"): ggplot2 extensions\n📖 The R Graph Gallery\n📖 R Graphics Cookbook\n📖 R CHARTS\n📖 R for Data Science - Data Transformation",
+    "text": "Reading and Resources\n📖 More add-on r emo::ji(\"package\"): ggplot2 extensions\n📖 The R Graph Gallery\n📖 R Graphics Cookbook\n📖 R CHARTS",
     "crumbs": [
       "Weekly materials",
-      "Week 7"
+      "Week 6"
     ]
   },
   {
-    "objectID": "weeks/week-7.html#exercise",
-    "href": "weeks/week-7.html#exercise",
-    "title": "Week 7",
+    "objectID": "weeks/week-6.html#exercise",
+    "href": "weeks/week-6.html#exercise",
+    "title": "Week 6",
     "section": "Exercise",
-    "text": "Exercise\n📋 Lab-12 Faceting\n📋 Lab-13 Visualization\n📋 Lab-14 Interactive Visualization (Present)\n\n\nBack to course schedule ⏎",
+    "text": "Exercise\n📋 Lab-11 ggplot2\nr fontawesome::fa(\"table\") penguins.csv\n\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
-      "Week 7"
+      "Week 6"
     ]
   },
   {
-    "objectID": "weeks/week-4.html",
-    "href": "weeks/week-4.html",
-    "title": "Week 4",
+    "objectID": "weeks/week-5.html",
+    "href": "weeks/week-5.html",
+    "title": "Week 5",
     "section": "",
     "text": "Important",
     "crumbs": [
       "Weekly materials",
-      "Week 4"
+      "Week 5"
     ]
   },
   {
-    "objectID": "weeks/week-4.html#participate",
-    "href": "weeks/week-4.html#participate",
-    "title": "Week 4",
+    "objectID": "weeks/week-5.html#participate",
+    "href": "weeks/week-5.html#participate",
+    "title": "Week 5",
     "section": "Participate",
-    "text": "Participate\n🖥️ Slides - R/Python Syntax",
+    "text": "Participate\n🖥️ Slides - R/Python for Data Science",
     "crumbs": [
       "Weekly materials",
-      "Week 4"
+      "Week 5"
     ]
   },
   {
-    "objectID": "weeks/week-4.html#reading-and-resources",
-    "href": "weeks/week-4.html#reading-and-resources",
-    "title": "Week 4",
+    "objectID": "weeks/week-5.html#reading-and-resources",
+    "href": "weeks/week-5.html#reading-and-resources",
+    "title": "Week 5",
     "section": "Reading and Resources",
-    "text": "Reading and Resources\n📖 The R Graph Gallery\n📖 matplotlib",
+    "text": "Reading and Resources\n📖 tibbles\n📖 pipes\n📖 NumPy\n📖 pandas",
     "crumbs": [
       "Weekly materials",
-      "Week 4"
+      "Week 5"
     ]
   },
   {
-    "objectID": "weeks/week-4.html#perform",
-    "href": "weeks/week-4.html#perform",
-    "title": "Week 4",
+    "objectID": "weeks/week-5.html#exercise",
+    "href": "weeks/week-5.html#exercise",
+    "title": "Week 5",
+    "section": "Exercise",
+    "text": "Exercise\n📋 Lab-08 tibbles and pipe\n📋 Lab-09 NumPy and pandas\n\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 5"
+    ]
+  },
+  {
+    "objectID": "weeks/week-1.html",
+    "href": "weeks/week-1.html",
+    "title": "Week 1",
+    "section": "",
+    "text": "📖 Read the syllabus\n📖 Get your laptop and computing environment ready!",
+    "crumbs": [
+      "Weekly materials",
+      "Week 1"
+    ]
+  },
+  {
+    "objectID": "weeks/week-1.html#prepare",
+    "href": "weeks/week-1.html#prepare",
+    "title": "Week 1",
+    "section": "",
+    "text": "📖 Read the syllabus\n📖 Get your laptop and computing environment ready!",
+    "crumbs": [
+      "Weekly materials",
+      "Week 1"
+    ]
+  },
+  {
+    "objectID": "weeks/week-1.html#reading-and-resources",
+    "href": "weeks/week-1.html#reading-and-resources",
+    "title": "Week 1",
+    "section": "Reading and Resources",
+    "text": "Reading and Resources\n📖 R for Data Science - Introduction\n📖 R for Data Science - Whole game\n📖 RStudio IDE Cheatsheet\n📖 Posit Cloud Documentation",
+    "crumbs": [
+      "Weekly materials",
+      "Week 1"
+    ]
+  },
+  {
+    "objectID": "weeks/week-1.html#participate",
+    "href": "weeks/week-1.html#participate",
+    "title": "Week 1",
+    "section": "Participate",
+    "text": "Participate\n🖥️ Slides - Welcome to MATH/COSC 3570\n🖥️ Slides - Overview of Data Science\n🖥️ Slides - Posit Cloud\n🖥️ Slides - Git/GitHub\n\n\n\n\n\nggplot2::mpg",
+    "crumbs": [
+      "Weekly materials",
+      "Week 1"
+    ]
+  },
+  {
+    "objectID": "weeks/week-1.html#perform",
+    "href": "weeks/week-1.html#perform",
+    "title": "Week 1",
     "section": "Perform",
-    "text": "Perform\n📋 Lab-05 R Data Summary\n📋 Lab-06 Python Data Structure\n📋 Lab-07 Plotting\n\n\nBack to course schedule ⏎",
+    "text": "Perform\n📋 Lab-00 Posit Cloud\n📋 Lab-01 Running R Script\n\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
-      "Week 4"
+      "Week 1"
     ]
   },
   {
-    "objectID": "weeks/week-3.html",
-    "href": "weeks/week-3.html",
-    "title": "Week 3",
+    "objectID": "weeks/week-2.html",
+    "href": "weeks/week-2.html",
+    "title": "Week 2",
     "section": "",
     "text": "Important",
     "crumbs": [
       "Weekly materials",
-      "Week 3"
+      "Week 2"
     ]
   },
   {
-    "objectID": "weeks/week-3.html#participate",
-    "href": "weeks/week-3.html#participate",
-    "title": "Week 3",
+    "objectID": "weeks/week-2.html#participate",
+    "href": "weeks/week-2.html#participate",
+    "title": "Week 2",
     "section": "Participate",
-    "text": "Participate\n🖥️ Slides - Quarto\n🖥️ Slides - R/Python Syntax",
+    "text": "Participate\n🖥️ Slides - Git/GitHub\n🖥️ Slides - Quarto",
     "crumbs": [
       "Weekly materials",
-      "Week 3"
+      "Week 2"
     ]
   },
   {
-    "objectID": "weeks/week-3.html#exercise",
-    "href": "weeks/week-3.html#exercise",
-    "title": "Week 3",
-    "section": "Exercise",
-    "text": "Exercise\n📋 Lab-02 Quarto File\n📋 Lab-03 Markdown\n📋 Lab-04 Code Chunk\n📋 Lab-05 R Data Summary\n📋 Lab-06 Python Data Structure\n📋 Lab-07 Plotting",
+    "objectID": "weeks/week-2.html#perform",
+    "href": "weeks/week-2.html#perform",
+    "title": "Week 2",
+    "section": "Perform",
+    "text": "Perform\n📋 Lab-00 Git/GitHub\n📋 Lab-02 Quarto File\n📋 Lab-03 Markdown\n📋 Lab-04 Code Chunk",
     "crumbs": [
       "Weekly materials",
-      "Week 3"
+      "Week 2"
     ]
   },
   {
-    "objectID": "weeks/week-3.html#reading-and-resources",
-    "href": "weeks/week-3.html#reading-and-resources",
-    "title": "Week 3",
+    "objectID": "weeks/week-2.html#reading-and-resources",
+    "href": "weeks/week-2.html#reading-and-resources",
+    "title": "Week 2",
     "section": "Reading and Resources",
-    "text": "Reading and Resources\n📖 The R Graph Gallery\n📖 matplotlib\n\nMarkdown\n📖 Markdown Tutorial\n📖 Mastering Markdown GitHub Guides\n📖 Markdown Guide\n\n\nQuarto\n📖 Quarto Website\n📖 Get Started with Quarto\n📖 R for Data Science - Quarto\n\n\nBack to course schedule ⏎",
+    "text": "Reading and Resources\n\nGit/GitHub\n📖 Create a personal access token (PAT)\n📖 Two-factor authentication\n📖 Git hands-on session within RStudio\n📖 Happy Git and GitHub for the useR\n📖 Happier version control with Git and GitHub\n\n\nMarkdown\n📖 Markdown Tutorial\n📖 Mastering Markdown GitHub Guides\n📖 Markdown Guide\n\n\nQuarto\n📖 Quarto Website\n📖 Get Started with Quarto\n📖 R for Data Science - Quarto\n\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
-      "Week 3"
+      "Week 2"
     ]
   },
   {
-    "objectID": "weeks/week-10.html",
-    "href": "weeks/week-10.html",
-    "title": "Week 10",
+    "objectID": "weeks/week-11.html",
+    "href": "weeks/week-11.html",
+    "title": "Week 11",
     "section": "",
     "text": "Important",
     "crumbs": [
       "Weekly materials",
-      "Week 10"
+      "Week 11"
     ]
   },
   {
-    "objectID": "weeks/week-10.html#participate",
-    "href": "weeks/week-10.html#participate",
-    "title": "Week 10",
+    "objectID": "weeks/week-11.html#participate",
+    "href": "weeks/week-11.html#participate",
+    "title": "Week 11",
     "section": "Participate",
-    "text": "Participate\n🖥️ Slides - Tidying Data\n🖥️ Slides - Probability and Statistics",
+    "text": "Participate\n🖥️ Slides - Probability and Statistics",
     "crumbs": [
       "Weekly materials",
-      "Week 10"
+      "Week 11"
     ]
   },
   {
-    "objectID": "weeks/week-10.html#exercise",
-    "href": "weeks/week-10.html#exercise",
-    "title": "Week 10",
+    "objectID": "weeks/week-11.html#exercise",
+    "href": "weeks/week-11.html#exercise",
+    "title": "Week 11",
     "section": "Exercise",
-    "text": "Exercise\n📋 Lab-17 tidyr\nr fontawesome::fa(\"table\") trump.csv\n📋 Lab-18 Probability\n\n\nBack to course schedule ⏎",
+    "text": "Exercise\n📋 Lab-19 Confidence Interval\n\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
-      "Week 10"
+      "Week 11"
     ]
   },
   {
-    "objectID": "weeks/week-13.html",
-    "href": "weeks/week-13.html",
-    "title": "Week 13",
+    "objectID": "weeks/week-12.html",
+    "href": "weeks/week-12.html",
+    "title": "Week 12",
     "section": "",
     "text": "Important",
     "crumbs": [
       "Weekly materials",
-      "Week 13"
+      "Week 12"
     ]
   },
   {
-    "objectID": "weeks/week-13.html#participate",
-    "href": "weeks/week-13.html#participate",
-    "title": "Week 13",
+    "objectID": "weeks/week-12.html#participate",
+    "href": "weeks/week-12.html#participate",
+    "title": "Week 12",
     "section": "Participate",
-    "text": "Participate\n🖥️ Slides - Logistic Regression\nr fontawesome::fa(\"table\") Data - body",
+    "text": "Participate\n🖥️ Slides - Linear Regression\nr fontawesome::fa(\"table\") ggplot2::mpg",
     "crumbs": [
       "Weekly materials",
-      "Week 13"
+      "Week 12"
     ]
   },
   {
-    "objectID": "weeks/week-13.html#reading",
-    "href": "weeks/week-13.html#reading",
-    "title": "Week 13",
+    "objectID": "weeks/week-12.html#reading",
+    "href": "weeks/week-12.html#reading",
+    "title": "Week 12",
     "section": "Reading",
     "text": "Reading\n📖",
     "crumbs": [
       "Weekly materials",
-      "Week 13"
+      "Week 12"
     ]
   },
   {
-    "objectID": "weeks/week-13.html#exercise",
-    "href": "weeks/week-13.html#exercise",
-    "title": "Week 13",
+    "objectID": "weeks/week-12.html#exercise",
+    "href": "weeks/week-12.html#exercise",
+    "title": "Week 12",
     "section": "Exercise",
-    "text": "Exercise\n📋 Lab-21 Logistic Regression\n\n\nBack to course schedule ⏎",
+    "text": "Exercise\n📋 Lab-20 Simple Linear Regression\n\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
-      "Week 13"
+      "Week 12"
     ]
   },
   {
@@ -2091,7 +2126,7 @@
     "href": "index.html",
     "title": "MATH/COSC 3570 Introduction to Data Science (Spring 2025)",
     "section": "",
-    "text": "TA help desk hours at Cudahy Hall 301 Monday: 1 – 2 PM, Tuesday: 12 – 1 PM, Thursday: 12 – 2 PM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTo Do\nSlides\nLab Exercise\nHomework\nProject\n\n\n\n\n1\nTue, Jan 14\nGreetings + Overview of Data Science\n📖\n🖥️syllabus 🖥️overview\n\n\n\n\n\n\nThu, Jan 16\nPosit Cloud\n\n🖥️posit\n📋 posit 📋01\n\n\n\n\n2\nTue, Jan 21\nNo CLASS: Cold Weather\n📖\n\n\n\n\n\n\n\nThu, Jan 23\nGit/GitHub Introduction\n\n🖥️git\n📋github\n\n\n\n\n3\nTue, Jan 28\nQuarto: YAML and Markdown\n📖\n🖥️quarto\n📋02 📋03 📋04\n\n\n\n\n\nThu, Jan 30\nQuarto: Code Chunk\n\n\n\n\n\n\n\n4\nTue, Feb 4\nR Syntax\n📖\n🖥️syntax\n📋05\n\n\n\n\n\nThu, Feb 6\nPython Syntax\n\n\n📋06 📋 07\n✍️\n\n\n\n5\nTue, Feb 11\nR Tidyverse; Python Pandas/NumPy\n\n🖥️\n📋📋\n\n\n\n\n\nThu, Feb 13\nData Importing\n📖\n🖥️\n📋\n\n\n\n\n6\nTue, Feb 18\nData Importing\n\n\n\n\n\n\n\n\nThu, Feb 20\nData Visualization-ggplot2\n📖\n🖥️\n📋\n\n\n\n\n7\nTue, Feb 25\nData Visualization-categorical and numerical data\n📖\n🖥️\n📋📋\n\n\n\n\n\nThu, Feb 27\nInteractive Data Visualization\n\n🖥️\n\n\n\n\n\n8\nTue, Mar 4\nData Wrangling - one data frame\n📖\n🖥️\n📋\n\n\n\n\n\nThu, Mar 6\nData Wrangling - two data frames\n\n🖥️\n📋\n\n\n\n\n9\nTue, Mar 11\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\nThu, Mar 13\nNO CLASS: Spring break\n\n\n\n\n\n\n\n10\nTue, Mar 18\nData Wrangling - tidyr\n📖\n🖥️\n📋\n✍️\n\n\n\n\nThu, Mar 20\nMini Project Presentation\n\n🖥️\n📋\n\n\n\n\n11\nTue, Mar 25\nProbabilistic and Statistical Simulation\n\n\n📋\n\n\n\n\n\nThu, Mar 27\nProbabilistic and Statistical Simulation\n\n\n\n\nTeam Up 📂\n\n\n12\nTue, Apr 1\nLinear Regression\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 3\nLinear Regression\n\n\n📋\n\n\n\n\n13\nTue, Apr 8\nLogistic Regression\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 10\nLogistic Regression\n\n\n📋\n✍️\n\n\n\n14\nTue, Apr 15\nK-Nearest Neighbors\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 17\nNO CLASS: Easter break\n\n\n📋\n\n\n\n\n15\nTue, Apr 22\nPrincipal Component Analysis\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 24\nPrincipal Component Analysis\n\n\n📋\n\nProposal 📂\n\n\n16\nTue, Apr 29\nK-Means Clustering\n📖\n🖥️\n\n\n\n\n\n\nThu, May 1\nFinal Project Presentation I\n\n🖥️\n📋\n\n\n\n\n17\nMon, May 5\nFinal Project Presentation II\n\n\n\n\n\n\n\n\n\nThis schedule will be updated as the semester progresses, with all changes documented here. Dr. Yu reserve the right to make changes to the schedule.",
+    "text": "Homework 1 due Friday, 2/28, 11:59 PM.\nTA help desk hours at Cudahy Hall 301 Monday: 1 – 2 PM, Tuesday: 12 – 1 PM, Thursday: 12 – 2 PM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTo Do\nSlides\nLab Exercise\nHomework\nProject\n\n\n\n\n1\nTue, Jan 14\nGreetings + Overview of Data Science\n📖\n🖥️syllabus 🖥️overview\n\n\n\n\n\n\nThu, Jan 16\nPosit Cloud\n\n🖥️posit\n📋 posit 📋01\n\n\n\n\n2\nTue, Jan 21\nNo CLASS: Cold Weather\n📖\n\n\n\n\n\n\n\nThu, Jan 23\nGit/GitHub Introduction\n\n🖥️git\n📋github\n\n\n\n\n3\nTue, Jan 28\nQuarto: YAML and Markdown\n📖\n🖥️quarto\n📋02 📋03 📋04\n\n\n\n\n\nThu, Jan 30\nQuarto: Code Chunk\n\n\n\n\n\n\n\n4\nTue, Feb 4\nR Syntax\n📖\n🖥️syntax\n📋05\n\n\n\n\n\nThu, Feb 6\nPython Syntax\n\n\n📋06 📋 07(opt)\n✍️ HW1\n\n\n\n5\nTue, Feb 11\nR Tidyverse\n📖\n🖥️package\n📋08\n\n\n\n\n\nThu, Feb 13\nPython NumPy/Pandas\n\n\n📋09\n\n\n\n\n6\nTue, Feb 18\nData Importing\n📖\n🖥️\n\n\n\n\n\n\nThu, Feb 20\nData Visualization-ggplot2\n\n🖥️\n📋\n\n\n\n\n7\nTue, Feb 25\nData Visualization-categorical and numerical data\n📖\n🖥️\n📋📋\n\n\n\n\n\nThu, Feb 27\nInteractive Data Visualization\n\n🖥️\n\nHW 1 Due\n✅ Team up Due\n\n\n8\nTue, Mar 4\nData Wrangling - one data frame\n📖\n🖥️\n📋\n\n\n\n\n\nThu, Mar 6\nData Wrangling - two data frames\n\n🖥️\n📋\n\n✅ Proposal Due\n\n\n9\nTue, Mar 11\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\nThu, Mar 13\nNO CLASS: Spring break\n\n\n\n\n\n\n\n10\nTue, Mar 18\nData Wrangling - tidyr\n📖\n🖥️\n📋\n✍️\n✅ Materials Due\n\n\n\nThu, Mar 20\nMini Project Presentation\n\n🖥️\n📋\n\n\n\n\n11\nTue, Mar 25\nProbabilistic and Statistical Simulation\n\n\n📋\n\n\n\n\n\nThu, Mar 27\nProbabilistic and Statistical Simulation\n\n\n\n\n\n\n\n12\nTue, Apr 1\nLinear Regression\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 3\nLinear Regression\n\n\n📋\n\n\n\n\n13\nTue, Apr 8\nLogistic Regression\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 10\nLogistic Regression\n\n\n📋\n✍️\n\n\n\n14\nTue, Apr 15\nK-Nearest Neighbors\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 17\nNO CLASS: Easter break\n\n\n📋\n\n\n\n\n15\nTue, Apr 22\nPrincipal Component Analysis\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 24\nPrincipal Component Analysis\n\n\n📋\n\n\n\n\n16\nTue, Apr 29\nK-Means Clustering\n📖\n🖥️\n\n\n\n\n\n\nThu, May 1\nFinal Project Presentation I\n\n🖥️\n📋\n\n\n\n\n17\nMon, May 5\nFinal Project Presentation II\n\n\n\n\n\n\n\n\n\nThis schedule will be updated as the semester progresses, with all changes documented here. Dr. Yu reserve the right to make changes to the schedule.",
     "crumbs": [
       "Course information",
       "Schedule"
@@ -2389,7 +2424,7 @@
     "href": "slides/07-package.html#why-tidy-data",
     "title": "R/Python Data Frames for Data Science \n",
     "section": "Why Tidy Data?",
-    "text": "Why Tidy Data?\n\nEach variable must have its own column.\nEach observation must have its own row.\nEach value must have its own cell.\n\n\n\nAdvantages of tidy data:\n\nIf you store all data in a tidy way, you only need to learn the tools that work with them.\nPlacing variables in columns allows R’s vectorised nature to shine. That makes transforming tidy data feel natural.\n\n\n\n\n\n\n\nPractical instructions:\n\nPut each dataset in a data frame.\n\n\nPut each variable in a column.\n\n\n\n\nThese three rules are interrelated; it’s impossible to only satisfy two of the three.\nRemember, “Tidy datasets are all alike, but every messy dataset is messy in its own way.”\n\nRemember, R prefer vectorized programming style. If each variable corresponds to a column vector, it is easy to transform variables using vectorised functions.\nWe will learn how to make our data tidy using tidyr, dplyr and other packages in Data Wrangling weeks."
+    "text": "Why Tidy Data?\n\nEach variable must have its own column.\nEach observation must have its own row.\nEach value must have its own cell.\n\n\n\nAdvantages of tidy data:\n\nIf you store all data in a tidy way, you only need to learn the tools that work with them.\nPlacing variables in columns allows R/Python’s vectorised nature to shine. That makes transforming tidy data feel natural.\n\n\n\n\n\n\n\nPractical instructions:\n\nPut each dataset in a data frame.\n\n\nPut each variable in a column.\n\n\n\n\nThese three rules are interrelated; it’s impossible to only satisfy two of the three.\nRemember, “Tidy datasets are all alike, but every messy dataset is messy in its own way.”\n\nRemember, R prefer vectorized programming style. If each variable corresponds to a column vector, it is easy to transform variables using vectorised functions.\nWe will learn how to make our data tidy using tidyr, dplyr and other packages in Data Wrangling weeks."
   },
   {
     "objectID": "slides/07-package.html#data-frames-store-tidy-data",
@@ -2403,7 +2438,7 @@
     "href": "slides/07-package.html#tibbles",
     "title": "R/Python Data Frames for Data Science \n",
     "section": "Tibbles",
-    "text": "Tibbles\n\nTibbles are modern version of R data frames.\nCreate a new tibble using tibble::tibble().\nIt is like base::data.frame(), but with a couple differences.\n\n\n\n\ndf &lt;- data.frame(x = 1:5, \n                 y = letters[1:5], \n                 z = 5:1)\ndf\n\n  x y z\n1 1 a 5\n2 2 b 4\n3 3 c 3\n4 4 d 2\n5 5 e 1\n\n\n\nclass(df)\n\n[1] \"data.frame\"\n\n\n\n\n\ntib &lt;- tibble(x = 1:5, \n              y = letters[1:5], \n              z = 5:1)\ntib\n\n# A tibble: 5 × 3\n      x y         z\n  &lt;int&gt; &lt;chr&gt; &lt;int&gt;\n1     1 a         5\n2     2 b         4\n3     3 c         3\n4     4 d         2\n5     5 e         1\n\n\n\nclass(tib)\n\n[1] \"tbl_df\"     \"tbl\"        \"data.frame\"\n\n\n\n\n\n\nNow we are going discuss the differences between tibble and data frame."
+    "text": "Tibbles\n\nTibbles are modern version of R data frames.\nCreate a new tibble using tibble().\nIt is like base::data.frame(), but with a couple differences.\n\n\n\n\ndf &lt;- data.frame(x = 1:5, \n                 y = letters[1:5], \n                 z = 5:1)\ndf\n\n  x y z\n1 1 a 5\n2 2 b 4\n3 3 c 3\n4 4 d 2\n5 5 e 1\n\n\n\nclass(df)\n\n[1] \"data.frame\"\n\n\n\n\n\ntib &lt;- tibble(x = 1:5, \n              y = letters[1:5], \n              z = 5:1)\ntib\n\n# A tibble: 5 × 3\n      x y         z\n  &lt;int&gt; &lt;chr&gt; &lt;int&gt;\n1     1 a         5\n2     2 b         4\n3     3 c         3\n4     4 d         2\n5     5 e         1\n\n\n\nclass(tib)\n\n[1] \"tbl_df\"     \"tbl\"        \"data.frame\"\n\n\n\n\n\n\nNow we are going discuss the differences between tibble and data frame."
   },
   {
     "objectID": "slides/07-package.html#printing-of-data.frame-class",
@@ -2565,27 +2600,6 @@
     "title": "R/Python Data Frames for Data Science \n",
     "section": "",
     "text": "09-NumPy and pandas \nIn lab.qmd ## Lab 9 section, create a Python pandas.DataFrame equivalent to the R tibble\n\ntibble(x = 1:5, y = 5:1, z = LETTERS[1:5])\n\n# A tibble: 5 × 3\n      x     y z    \n  &lt;int&gt; &lt;int&gt; &lt;chr&gt;\n1     1     5 A    \n2     2     4 B    \n3     3     3 C    \n4     4     2 D    \n5     5     1 E    \n\n\n\nimport numpy as np\nimport pandas as pd\nimport string as st\nlist(st.ascii_uppercase)\ndic = {'__': np.arange(__, __), \n       '__': np.arange(__, __, __),\n       '__': list(__.ascii_uppercase)[___]}\npd._____________(dic)"
-  },
-  {
-    "objectID": "slides/07-package.html#section-10",
-    "href": "slides/07-package.html#section-10",
-    "title": "R/Python Data Frames for Data Science \n",
-    "section": "",
-    "text": "import numpy as np\nimport pandas as pd\nimport string as st\nlist(st.ascii_uppercase)\n\n['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']\n\ndic = {'x': np.arange(1, 6), \n       'y': np.arange(5, 0, -1),\n       'z': list(st.ascii_uppercase)[0:5]}\npd.DataFrame(dic)\n\n   x  y  z\n0  1  5  A\n1  2  4  B\n2  3  3  C\n3  4  2  D\n4  5  1  E"
-  },
-  {
-    "objectID": "slides/07-package.html#lab-bonus",
-    "href": "slides/07-package.html#lab-bonus",
-    "title": "R/Python Data Frames for Data Science \n",
-    "section": "Lab Bonus!",
-    "text": "Lab Bonus!\n\nHappy Ralentine’s Day! ❤️\n\n\nx &lt;- seq(0, 2*pi, by = 0.01)\nxhrt &lt;- 16 * sin(x) ^ 3\nyhrt &lt;- 13 * cos(x) - 5 * cos(2*x) - 2 * cos(3*x) - cos(4*x)\npar(mar = c(0, 0, 0, 0))\nplot(xhrt, yhrt, type = \"l\", axes = FALSE, xlab = \"\", ylab = \"\")\npolygon(xhrt, yhrt, col = \"red\", border = NA)\npoints(c(10,-10, -15, 15), c(-10, -10, 10, 10), pch = 169, font = 5)\ntext(0, 0, \"Happy Valentine's Day!\", font = 2, cex = 2, col = \"pink\")"
-  },
-  {
-    "objectID": "slides/07-package.html#lab-bonus-1",
-    "href": "slides/07-package.html#lab-bonus-1",
-    "title": "R/Python Data Frames for Data Science \n",
-    "section": "Lab Bonus!",
-    "text": "Lab Bonus!\n\nHappy Pylentine’s Day! ❤️\n\n\nlines = []\nmsg = \"~Happy Valentine's Day!~\"\nfor y in range(15, -15, -1):\n    line = \"\"\n    for x in range(-30, 30):\n        f = ((x * 0.05) ** 2 + (y * 0.1) ** 2 - 1) ** 3 - (x * 0.05) ** 2 * (y * 0.1) ** 3\n        line += msg[(x - y) % len(msg)] if f &lt;= 0 else \" \"\n    lines.append(line)\n\nprint(\"\\n\".join(lines))"
   },
   {
     "objectID": "slides/07-package.html#resources",
