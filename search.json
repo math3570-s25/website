@@ -2508,7 +2508,7 @@
     "href": "slides/07-package.html#section-6",
     "title": "R/Python Data Frames for Data Science \n",
     "section": "",
-    "text": "08-Tibbles and Pipes \nIn lab.qmd ## Lab 8 section,\n\nCompare and contrast the following operations on a data.frame and equivalent tibble. What are the differences? Please comment.\n\n\n\n\ndf &lt;- data.frame(abc = 1:2, \n                 xyz = c(\"a\", \"b\"))\n# list method\ndf$x\ndf[[2]]\ndf[\"xyz\"]\ndf[c(\"abc\", \"xyz\")]\n# matrix method\ndf[, 2]\ndf[, \"xyz\"]\ndf[, c(\"abc\", \"xyz\")]\n\n\n\ntib &lt;- tibble(abc = 1:2, \n              xyz = c(\"a\", \"b\"))\n# list method\ntib$x\ntib[[2]]\ntib[\"xyz\"]\ntib[c(\"abc\", \"xyz\")]\n# matrix method\ntib[, 2]\ntib[, \"xyz\"]\ntib[, c(\"abc\", \"xyz\")]\n\n\n\n\nUse |&gt; to first select last 12 rows of iris data set using tail(), then provides summary statistics on its columns using summary()."
+    "text": "08-Tibbles and Pipes \nIn lab.qmd ## Lab 8 section,\n\nCompare and contrast the following operations on a data.frame and equivalent tibble. What are the differences? Please comment.\n\n\n\n\ndf &lt;- data.frame(abc = 1:2, \n                 xyz = c(\"a\", \"b\"))\n# list method\ndf$x\ndf[[2]]\ndf[\"xyz\"]\ndf[c(\"abc\", \"xyz\")]\n# matrix method\ndf[, 2]\ndf[, \"xyz\"]\ndf[, c(\"abc\", \"xyz\")]\n\n\n\ntib &lt;- tibble(abc = 1:2, \n              xyz = c(\"a\", \"b\"))\n# list method\ntib$x\ntib[[2]]\ntib[\"xyz\"]\ntib[c(\"abc\", \"xyz\")]\n# matrix method\ntib[, 2]\ntib[, \"xyz\"]\ntib[, c(\"abc\", \"xyz\")]\n\n\n\n\nUse |&gt; to first select last 12 rows of iris data set using tail(), then provides summary statistics on its columns using summary().\n\n\n\n\n[1] \"a\" \"b\"\n\n\n[1] \"a\" \"b\"\n\n\n  xyz\n1   a\n2   b\n\n\n  abc xyz\n1   1   a\n2   2   b\n\n\n[1] \"a\" \"b\"\n\n\n[1] \"a\" \"b\"\n\n\n  abc xyz\n1   1   a\n2   2   b\n\n\n\n\nNULL\n\n\n[1] \"a\" \"b\"\n\n\n# A tibble: 2 × 1\n  xyz  \n  &lt;chr&gt;\n1 a    \n2 b    \n\n\n# A tibble: 2 × 2\n    abc xyz  \n  &lt;int&gt; &lt;chr&gt;\n1     1 a    \n2     2 b    \n\n\n# A tibble: 2 × 1\n  xyz  \n  &lt;chr&gt;\n1 a    \n2 b    \n\n\n# A tibble: 2 × 1\n  xyz  \n  &lt;chr&gt;\n1 a    \n2 b    \n\n\n# A tibble: 2 × 2\n    abc xyz  \n  &lt;int&gt; &lt;chr&gt;\n1     1 a    \n2     2 b"
   },
   {
     "objectID": "slides/07-package.html#pandas",
@@ -2571,7 +2571,7 @@
     "href": "slides/07-package.html#numpy-for-arraysmatrices",
     "title": "R/Python Data Frames for Data Science \n",
     "section": "NumPy for arrays/matrices",
-    "text": "NumPy for arrays/matrices\n\nThe array object in NumPy is called ndarray.\nUse array() to create an array.\n\n\nrange(0, 5, 1) # a seq of number from 0 to 4 with increment of 1\n\nrange(0, 5)\n\nlist(range(0, 5, 1))\n\n[0, 1, 2, 3, 4]\n\n\n\n\nimport numpy as np\narr = np.array(range(0, 5, 1)) ## One-dim array \narr\n\narray([0, 1, 2, 3, 4])\n\ntype(arr)\n\n&lt;class 'numpy.ndarray'&gt;\n\n\n\n\nNumPy is used to work with arrays/matrices"
+    "text": "NumPy for arrays/matrices\n\nrange(0, 5, 1) # a seq of number from 0 to 4 with increment of 1\n\nrange(0, 5)\n\nlist(range(0, 5, 1))\n\n[0, 1, 2, 3, 4]\n\n\n\n\nThe array object in NumPy is of class ndarray.\nUse np.array() to create a NumPy array.\n\n\nimport numpy as np\narr = np.array(range(0, 5, 1)) ## One-dim array \narr\n\narray([0, 1, 2, 3, 4])\n\ntype(arr)\n\n&lt;class 'numpy.ndarray'&gt;\n\n\n\n\nNumPy is used to work with arrays/matrices"
   },
   {
     "objectID": "slides/07-package.html#d-array-vector-and-2d-array-matrix",
@@ -2599,7 +2599,21 @@
     "href": "slides/07-package.html#section-9",
     "title": "R/Python Data Frames for Data Science \n",
     "section": "",
-    "text": "09-NumPy and pandas \nIn lab.qmd ## Lab 9 section, create a Python pandas.DataFrame equivalent to the R tibble\n\ntibble(x = 1:5, y = 5:1, z = LETTERS[1:5])\n\n# A tibble: 5 × 3\n      x     y z    \n  &lt;int&gt; &lt;int&gt; &lt;chr&gt;\n1     1     5 A    \n2     2     4 B    \n3     3     3 C    \n4     4     2 D    \n5     5     1 E    \n\n\n\nimport numpy as np\nimport pandas as pd\nimport string as st\nlist(st.ascii_uppercase)\ndic = {'__': np.arange(__, __), \n       '__': np.arange(__, __, __),\n       '__': list(__.ascii_uppercase)[___]}\npd._____________(dic)"
+    "text": "09-NumPy and pandas \nIn lab.qmd ## Lab 9 section, create a Python pandas.DataFrame equivalent to the R tibble\n\ntibble(x = 1:5, y = 5:1, z = LETTERS[1:5])\n\n# A tibble: 5 × 3\n      x     y z    \n  &lt;int&gt; &lt;int&gt; &lt;chr&gt;\n1     1     5 A    \n2     2     4 B    \n3     3     3 C    \n4     4     2 D    \n5     5     1 E    \n\n\n\nimport numpy as np\nimport pandas as pd\ndic = {'__': np.arange(__, __), \n       '__': np.arange(__, __, __),\n       '__': [, , , , ]}\npd._____________(dic)"
+  },
+  {
+    "objectID": "slides/07-package.html#lab-bonus",
+    "href": "slides/07-package.html#lab-bonus",
+    "title": "R/Python Data Frames for Data Science \n",
+    "section": "Lab Bonus!",
+    "text": "Lab Bonus!\n\nHappy Ralentine’s Day! ❤️\n\n\nx &lt;- seq(0, 2*pi, by = 0.01)\nxhrt &lt;- 16 * sin(x) ^ 3\nyhrt &lt;- 13 * cos(x) - 5 * cos(2*x) - 2 * cos(3*x) - cos(4*x)\npar(mar = c(0, 0, 0, 0))\nplot(xhrt, yhrt, type = \"l\", axes = FALSE, xlab = \"\", ylab = \"\")\npolygon(xhrt, yhrt, col = \"red\", border = NA)\npoints(c(10,-10, -15, 15), c(-10, -10, 10, 10), pch = 169, font = 5)\ntext(0, 0, \"Happy Valentine's Day!\", font = 2, cex = 2, col = \"pink\")"
+  },
+  {
+    "objectID": "slides/07-package.html#lab-bonus-1",
+    "href": "slides/07-package.html#lab-bonus-1",
+    "title": "R/Python Data Frames for Data Science \n",
+    "section": "Lab Bonus!",
+    "text": "Lab Bonus!\n\nHappy Pylentine’s Day! ❤️\n\n\nlines = []\nmsg = \"~Happy Valentine's Day!~\"\nfor y in range(15, -15, -1):\n    line = \"\"\n    for x in range(-30, 30):\n        f = ((x * 0.05) ** 2 + (y * 0.1) ** 2 - 1) ** 3 - (x * 0.05) ** 2 * (y * 0.1) ** 3\n        line += msg[(x - y) % len(msg)] if f &lt;= 0 else \" \"\n    lines.append(line)\n\nprint(\"\\n\".join(lines))"
   },
   {
     "objectID": "slides/07-package.html#resources",
