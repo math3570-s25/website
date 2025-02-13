@@ -987,6 +987,40 @@ tib[, c("abc", "xyz")]
 :::::
 
 
+::: notes
+```{r}
+#| echo: false
+#| class-source: my_class500
+df <- data.frame(abc = 1:2, 
+                 xyz = c("a", "b"))
+# list method
+df$x
+df[[2]]
+df["xyz"]
+df[c("abc", "xyz")]
+# matrix method
+df[, 2]
+df[, "xyz"]
+df[, c("abc", "xyz")]
+```
+```{r}
+#| echo: false
+#| class-source: my_class500
+tib <- tibble(abc = 1:2, 
+              xyz = c("a", "b"))
+# list method
+tib$x
+tib[[2]]
+tib["xyz"]
+tib[c("abc", "xyz")]
+# matrix method
+tib[, 2]
+tib[, "xyz"]
+tib[, c("abc", "xyz")]
+```
+
+:::
+
 
 # {background-color="#ffde57" background-image="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" background-size="50%"}
 
@@ -1405,10 +1439,6 @@ pd.concat(objs = [df, df1],
 
 ## NumPy for arrays/matrices
 
-- The array object in NumPy is called `ndarray`.
-
-- Use `array()` to create an array.
-
 ```{python}
 #| echo: true
 range(0, 5, 1) # a seq of number from 0 to 4 with increment of 1
@@ -1416,6 +1446,12 @@ list(range(0, 5, 1))
 ```
 
 . . .
+
+
+- The array object in NumPy is of class `ndarray`.
+
+- Use `np.array()` to create a NumPy array.
+
 
 ```{python}
 #| echo: true
@@ -1519,76 +1555,84 @@ tibble(x = 1:5, y = 5:1, z = LETTERS[1:5])
 #| eval: false
 import numpy as np
 import pandas as pd
-import string as st
-list(st.ascii_uppercase)
 dic = {'__': np.arange(__, __), 
        '__': np.arange(__, __, __),
-       '__': list(__.ascii_uppercase)[___]}
+       '__': [, , , , ]}
 pd._____________(dic)
 ```
 
 :::
 
 
+## {visibility="hidden"}
+
+```{python}
+#| echo: false
+#| eval: true
+import numpy as np
+import pandas as pd
+import string as st
+# list(st.ascii_uppercase)
+dic = {'x': np.arange(1, 6), 
+       'y': np.arange(5, 0, -1),
+       'z': list(st.ascii_uppercase)[0:5]}
+pd.DataFrame(dic)
+```
+
+```{python}
+#| echo: false
+dic = {'x': np.arange(1, 6), 
+       'y': np.arange(5, 0, -1),
+       'z': ["A", "B", "C", "D", "E"]}
+pd.DataFrame(dic)
+```
+
+
+::: notes
+# dic = {'x':np.arange(1, 6), 'y': list(reversed(range(1, 6))), 'z':list(string.ascii_uppercase)[0:5]}
+# pd.DataFrame(dic)
+:::
+
+
+## Lab Bonus!
+
+- Happy **R**alentine's Day! ❤️
+
+```{r}
+#| eval: false
+x <- seq(0, 2*pi, by = 0.01)
+xhrt <- 16 * sin(x) ^ 3
+yhrt <- 13 * cos(x) - 5 * cos(2*x) - 2 * cos(3*x) - cos(4*x)
+par(mar = c(0, 0, 0, 0))
+plot(xhrt, yhrt, type = "l", axes = FALSE, xlab = "", ylab = "")
+polygon(xhrt, yhrt, col = "red", border = NA)
+points(c(10,-10, -15, 15), c(-10, -10, 10, 10), pch = 169, font = 5)
+text(0, 0, "Happy Valentine's Day!", font = 2, cex = 2, col = "pink")
+```
+
+
+## Lab Bonus!
+
+- Happy **Py**lentine's Day! ❤️
+
+```{python}
+#| eval: false
+lines = []
+msg = "~Happy Valentine's Day!~"
+for y in range(15, -15, -1):
+    line = ""
+    for x in range(-30, 30):
+        f = ((x * 0.05) ** 2 + (y * 0.1) ** 2 - 1) ** 3 - (x * 0.05) ** 2 * (y * 0.1) ** 3
+        line += msg[(x - y) % len(msg)] if f <= 0 else " "
+    lines.append(line)
+
+print("\n".join(lines))
+```
+
 
 ## Resources
 
 - [tibble](https://tibble.tidyverse.org/)
-- [pipes](https://r4ds.hadley.nz/workflow-pipes.html#why-use-a-pipe)
+- [pipes](https://r4ds.hadley.nz/workflow-style.html#sec-pipes)
 - [NumPy](https://numpy.org/doc/stable/user/index.html)
 - [pandas](https://pandas.pydata.org/docs/user_guide/index.html)
-
-<!-- ## {visibility="hidden"} -->
-
-<!-- ```{python} -->
-<!-- #| echo: true -->
-<!-- #| eval: true -->
-<!-- import numpy as np -->
-<!-- import pandas as pd -->
-<!-- import string as st -->
-<!-- list(st.ascii_uppercase) -->
-<!-- dic = {'x': np.arange(1, 6),  -->
-<!--        'y': np.arange(5, 0, -1), -->
-<!--        'z': list(st.ascii_uppercase)[0:5]} -->
-<!-- pd.DataFrame(dic) -->
-<!-- ``` -->
-
-
-<!-- ::: notes -->
-<!-- # dic = {'x':np.arange(1, 6), 'y': list(reversed(range(1, 6))), 'z':list(string.ascii_uppercase)[0:5]} -->
-<!-- # pd.DataFrame(dic) -->
-<!-- ::: -->
-
-<!-- ## Lab Bonus! {visibility="hidden"} -->
-
-<!-- - Happy **R**alentine's Day! ❤️ -->
-
-<!-- ```{r} -->
-<!-- #| eval: false -->
-<!-- x <- seq(0, 2*pi, by = 0.01) -->
-<!-- xhrt <- 16 * sin(x) ^ 3 -->
-<!-- yhrt <- 13 * cos(x) - 5 * cos(2*x) - 2 * cos(3*x) - cos(4*x) -->
-<!-- par(mar = c(0, 0, 0, 0)) -->
-<!-- plot(xhrt, yhrt, type = "l", axes = FALSE, xlab = "", ylab = "") -->
-<!-- polygon(xhrt, yhrt, col = "red", border = NA) -->
-<!-- points(c(10,-10, -15, 15), c(-10, -10, 10, 10), pch = 169, font = 5) -->
-<!-- text(0, 0, "Happy Valentine's Day!", font = 2, cex = 2, col = "pink") -->
-<!-- ``` -->
-
-<!-- ## Lab Bonus! {visibility="hidden"} -->
-
-<!-- - Happy **Py**lentine's Day! ❤️ -->
-
-<!-- ```{python} -->
-<!-- #| eval: false -->
-<!-- lines = [] -->
-<!-- msg = "~Happy Valentine's Day!~" -->
-<!-- for y in range(15, -15, -1): -->
-<!--     line = "" -->
-<!--     for x in range(-30, 30): -->
-<!--         f = ((x * 0.05) ** 2 + (y * 0.1) ** 2 - 1) ** 3 - (x * 0.05) ** 2 * (y * 0.1) ** 3 -->
-<!--         line += msg[(x - y) % len(msg)] if f <= 0 else " " -->
-<!--     lines.append(line) -->
-
-<!-- print("\n".join(lines)) -->
-<!-- ``` -->
