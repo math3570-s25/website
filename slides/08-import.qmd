@@ -283,7 +283,6 @@ read_csv("./data/df-na.csv")
 #| label: read_csv_na
 #| eval: false
 #| purl: false
-#| class-output: my_class500
 #| code-line-numbers: false
 read_csv("./data/df-na.csv", 
          na = c("", "NA", ".", "9999", "Not applicable"))
@@ -680,16 +679,28 @@ mydf.head()
 <!-- # Other Importing Methods* -->
 
 
-<!-- # {background-color="#A7D5E8" background-image="./images/08-import/arrow.png" background-size="40%" background-position="70% 50%"} {visibility="hidden"} -->
+# {background-color="" background-image="./images/08-import/arrow.png" background-size="40%" background-position="70% 50%"}
 
-<!-- ::: {.left} -->
+::: {.left}
 <!-- <h2>Fast Reading and Writing</h2> -->
 <!-- <h2>Data Format in R and Python*</h2> -->
-<!-- ::: -->
 
-<!-- ## Apache Arrow for [R](https://arrow.apache.org/docs/r/) and [Python](https://arrow.apache.org/docs/python/) {visibility="hidden"} -->
+<h2>Big Data in R and Python</h2> 
+:::
 
-<!-- - Apache Arrow develops big data systems to process and move data fast. -->
+## [Apache Arrow](https://arrow.apache.org/) for [R](https://arrow.apache.org/docs/r/) and [Python](https://arrow.apache.org/docs/python/)
+
+- Apache Arrow develops big data systems to process and move data fast.
+
+
+
+
+```{r}
+#| code-line-numbers: false
+#| eval: true
+#| echo: false
+knitr::include_graphics("./images/08-import/speed.png")
+```
 
 <!-- - Arrow -->
 

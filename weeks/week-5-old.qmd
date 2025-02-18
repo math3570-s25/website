@@ -1,5 +1,5 @@
 ---
-title: "Week 5"
+title: "Week 6"
 subtitle: "Data Importing"
 editor: visual
 ---
@@ -39,14 +39,18 @@ editor: visual
 Back to [course schedule](/ "Course schedule") ⏎
 :::
 
-
 <!-- --- -->
+
 <!-- title: "Week 4" -->
+
 <!-- subtitle: "R/Python Data Frames for Data Science" -->
+
 <!-- editor: visual -->
+
 <!-- --- -->
 
 <!-- ::: callout-important -->
+
 <!-- ::: -->
 
 <!-- ## Participate -->
@@ -72,5 +76,7 @@ Back to [course schedule](/ "Course schedule") ⏎
 <!-- <br><br> -->
 
 <!-- ::: {style="font-size: 0.875em;"} -->
+
 <!-- Back to [course schedule](/ "Course schedule") ⏎ -->
+
 <!-- ::: -->
