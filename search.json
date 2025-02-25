@@ -3586,7 +3586,7 @@
     "href": "exercise/lab13-visualization.html",
     "title": "Lab 13: Visualization",
     "section": "",
-    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 13 section,\n\nImport the data penguins.csv.\nGenerate the following\n\n\n\n\n\n\n\n\n\n\n\n\nWarning: Removed 2 rows containing non-finite values (`stat_bin()`).\n\n\n\n\n\n\n\n\n\n\n# library(tidyverse)\npenguins &lt;- read_csv(__________________)\n________ |&gt; ggplot(_______________________) +  ## mapping layer  \n    ___________________ +  ## geometry layer\n    _____________________________  ## label layer\n\n  \n\n________ |&gt; ggplot(______________________________) +  ## mapping layer  \n    _______________ +  ## geometry layer\n    _______________ +  ## label layer\n    ______________________________  +   ## facet layer\n    ______________________________      ## theme layer (set legend.position = \"none\")"
+    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 13 section,\n\nImport the data penguins.csv.\nGenerate the following\n\n\n\n\n\n\n\n\n\n\n\n\nWarning: Removed 2 rows containing non-finite outside the scale range\n(`stat_bin()`).\n\n\n\n\n\n\n\n\n\n\n# library(tidyverse)\npenguins &lt;- read_csv(__________________)\n________ |&gt; ggplot(_______________________) +  ## mapping layer  \n    ___________________ +  ## geometry layer\n    _____________________________  ## label layer\n\n  \n\n________ |&gt; ggplot(______________________________) +  ## mapping layer  \n    _______________ +  ## geometry layer\n    _______________ +  ## label layer\n    ______________________________  +   ## facet layer\n    ______________________________      ## theme layer (set legend.position = \"none\")"
   },
   {
     "objectID": "exercise/lab12-facet.html",
