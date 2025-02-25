@@ -1116,7 +1116,7 @@ p + ggthemes::theme_fivethirtyeight()
 :::: {.columns}
 
 
-::: {.column width="40%"}
+::: {.column width="38%"}
 ::: midi
 ```{r}
 #| label: theme
@@ -1127,12 +1127,12 @@ p + theme(
     panel.background = 
         element_rect(fill = "#FFCC00",
                      colour = "blue",
-                     size = 2.5, 
+                     linewidth = 2.5,
                      linetype = "solid"),
     plot.background = 
         element_rect(fill = "lightblue"),
     axis.line = 
-        element_line(size = 0.5, 
+        element_line(linewidth = 0.5, 
                      linetype = "solid",
                      colour = "red")
     )
@@ -1140,7 +1140,7 @@ p + theme(
 :::
 :::
 
-::: {.column width="60%"}
+::: {.column width="62%"}
 ```{r ref.label="theme"}
 #| out-width: 100%
 #| echo: false
@@ -1158,6 +1158,10 @@ element_rect(): borders and backgrounds.
 element_line(): lines.
 
 element_text(): text.
+
+panel.background: background of plotting area
+plot.background: background of the entire plot
+
 :::
 
 
@@ -1521,27 +1525,7 @@ _split your plot into **facets**_, smaller plots that each display one subset of
 - The idea is, we can map color to gender in a one single plot, or we can create two small plots, one for male, and the other for female. OK.
 :::
 
-##
 
-```{r}
-#| cache: true
-#| warning: false
-#| out-width: 75%
-ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) + 
-    geom_point() + 
-    facet_grid(drv ~ cyl)  #<<
-```
-
-::: notes
-- Suppose again we would like to see the relationship between hwy and displacement.
-- But now we want to see their relationship given at a different number of cylinders and type of drive trains.
-- And we can create several scatterplots, each at a particular number of cylinders and type of drive trains.
-- How do we create facets?
-- We can use facet_grid() command to create a matrix-like plot defined by row and column faceting variables, which are usually categorical variables. Inside the parenthesis, we put the row variable ~ column variable.
-- So here, drive values, 4, f, r defines the rows, and cylinder values 4, 5, 6, 8 defines the columns.
-- And each smaller plot is a scatter plot with some value of drive and some value of cylinder.
-- For example, the top right one is the scatter plot of hwy mpg and displacement when drive is 4 and cylinder is 8.
-:::
 
 ## {visibility="hidden"}
 
@@ -1597,7 +1581,27 @@ ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
 - For example, here the number of column is 3.
 :::
 
+##
 
+```{r}
+#| cache: true
+#| warning: false
+#| out-width: 75%
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) + 
+    geom_point() + 
+    facet_grid(drv ~ cyl)  #<<
+```
+
+::: notes
+- Suppose again we would like to see the relationship between hwy and displacement.
+- But now we want to see their relationship given at a different number of cylinders and type of drive trains.
+- And we can create several scatterplots, each at a particular number of cylinders and type of drive trains.
+- How do we create facets?
+- We can use facet_grid() command to create a matrix-like plot defined by row and column faceting variables, which are usually categorical variables. Inside the parenthesis, we put the row variable ~ column variable.
+- So here, drive values, 4, f, r defines the rows, and cylinder values 4, 5, 6, 8 defines the columns.
+- And each smaller plot is a scatter plot with some value of drive and some value of cylinder.
+- For example, the top right one is the scatter plot of hwy mpg and displacement when drive is 4 and cylinder is 8.
+:::
 
 ## Faceting Summary  {visibility="hidden"}
 
@@ -1711,5 +1715,5 @@ from plotnine import ggplot, geom_point, aes, stat_smooth, facet_wrap
 ```{r}
 #| echo: false
 #| out-width: 30%
-knitr::include_graphics("./images/09-ggplot2/plotnine.webp")
+knitr::include_graphics("https://raw.githubusercontent.com/has2k1/plotnine/refs/heads/logos/doc/images/logo-512.png")
 ```
