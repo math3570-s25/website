@@ -1,5 +1,5 @@
 ---
-title: "Lab 14: plotly (Presentation)"
+title: "Lab 14: plotly"
 editor: source
 reference-location: margin
 execute:
