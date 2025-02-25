@@ -1316,25 +1316,25 @@ Using the <a href="http://vita.had.co.nz/papers/layered-grammar.pdf">Grammar of 
 <li>Use <code><a href="https://ggplot2.tidyverse.org/reference/theme.html">theme()</a></code> to tweak the display of the current theme, including title, axis labels, etc. Check <code><a href="https://ggplot2.tidyverse.org/reference/theme.html">?theme</a></code>.</li>
 </ul>
 <!-- # ```{r, echo=FALSE, cache=TRUE} --><!-- # p <- p + labs(title = "Engine Size v.s. Fuel Efficiency", --><!-- #               subtitle = "Dimensions for class", --><!-- #               x = "Engine displacement (litres)",  --><!-- #               y = "Highway (mpg)", --><!-- #               color = "Type of car", --><!-- #               caption = "Source: http://fueleconomy.gov") --><!-- # ``` --><div class="columns">
-<div class="column" style="width:40%;">
+<div class="column" style="width:38%;">
 <div class="midi">
 <div class="cell" data-layout-align="center">
 <div class="sourceCode" id="cb26"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">p</span> <span class="op">+</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/theme.html">theme</a></span><span class="op">(</span></span>
 <span>    panel.background <span class="op">=</span> </span>
 <span>        <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_rect</a></span><span class="op">(</span>fill <span class="op">=</span> <span class="st">"#FFCC00"</span>,</span>
 <span>                     colour <span class="op">=</span> <span class="st">"blue"</span>,</span>
-<span>                     size <span class="op">=</span> <span class="fl">2.5</span>, </span>
+<span>                     linewidth <span class="op">=</span> <span class="fl">2.5</span>,</span>
 <span>                     linetype <span class="op">=</span> <span class="st">"solid"</span><span class="op">)</span>,</span>
 <span>    plot.background <span class="op">=</span> </span>
 <span>        <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_rect</a></span><span class="op">(</span>fill <span class="op">=</span> <span class="st">"lightblue"</span><span class="op">)</span>,</span>
 <span>    axis.line <span class="op">=</span> </span>
-<span>        <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_line</a></span><span class="op">(</span>size <span class="op">=</span> <span class="fl">0.5</span>, </span>
+<span>        <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_line</a></span><span class="op">(</span>linewidth <span class="op">=</span> <span class="fl">0.5</span>, </span>
 <span>                     linetype <span class="op">=</span> <span class="st">"solid"</span>,</span>
 <span>                     colour <span class="op">=</span> <span class="st">"red"</span><span class="op">)</span></span>
 <span>    <span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
-</div><div class="column" style="width:60%;">
+</div><div class="column" style="width:62%;">
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -1350,6 +1350,7 @@ Using the <a href="http://vita.had.co.nz/papers/layered-grammar.pdf">Grammar of 
 <p>element_rect(): borders and backgrounds.</p>
 <p>element_line(): lines.</p>
 <p>element_text(): text.</p>
+<p>panel.background: background of plotting area plot.background: background of the entire plot</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1703,22 +1704,20 @@ Using the <a href="http://vita.had.co.nz/papers/layered-grammar.pdf">Grammar of 
           width: 1px!important;
           overflow: hidden!important;
           display:block!important;
-      }</style></aside></section><section id="section-17" class="slide level2"><h2></h2>
+      }</style></aside></section><section id="section-19" class="slide level2"><h2></h2>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode" id="cb34"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op">(</span>data <span class="op">=</span> <span class="va">mpg</span>, mapping <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">displ</span>, y <span class="op">=</span> <span class="va">hwy</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span> </span>
+<div class="sourceCode" id="cb36"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op">(</span>data <span class="op">=</span> <span class="va">mpg</span>, mapping <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">displ</span>, y <span class="op">=</span> <span class="va">hwy</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span> </span>
 <span>    <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_point.html">geom_point</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span> </span>
-<span>    <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/facet_grid.html">facet_grid</a></span><span class="op">(</span><span class="va">drv</span> <span class="op">~</span> <span class="va">cyl</span><span class="op">)</span>  <span class="co">#&lt;&lt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span>    <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/facet_wrap.html">facet_wrap</a></span><span class="op">(</span><span class="op">~</span> <span class="va">cyl</span>, ncol <span class="op">=</span> <span class="fl">2</span><span class="op">)</span> <span class="co">#&lt;&lt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="images/09-ggplot2/unnamed-chunk-55-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:75.0%"><aside class="notes"><ul>
-<li>Suppose again we would like to see the relationship between hwy and displacement.</li>
-<li>But now we want to see their relationship given at a different number of cylinders and type of drive trains.</li>
-<li>And we can create several scatterplots, each at a particular number of cylinders and type of drive trains.</li>
-<li>How do we create facets?</li>
-<li>We can use facet_grid() command to create a matrix-like plot defined by row and column faceting variables, which are usually categorical variables. Inside the parenthesis, we put the row variable ~ column variable.</li>
-<li>So here, drive values, 4, f, r defines the rows, and cylinder values 4, 5, 6, 8 defines the columns.</li>
-<li>And each smaller plot is a scatter plot with some value of drive and some value of cylinder.</li>
-<li>For example, the top right one is the scatter plot of hwy mpg and displacement when drive is 4 and cylinder is 8.</li>
+<img data-src="images/09-ggplot2/unnamed-chunk-57-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:70.0%"><aside class="notes"><ul>
+<li>How about we want to create a scatter plot conditional on just one variable, say cylinder?</li>
+<li>Instead of facet_grid(), we can use facet_wrap() function.</li>
+<li>Inside the parenthesis, we use ~ followed by the variable name cyl.</li>
+<li>And the ggplot will automatically create a display, so that each smaller plot is normally rectangular.</li>
+<li>If you don’t like the default display, you can specify any number of rows or columns you like.</li>
+<li>For example, here the number of column is 3.</li>
 </ul><style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1733,16 +1732,18 @@ Using the <a href="http://vita.had.co.nz/papers/layered-grammar.pdf">Grammar of 
 <div class="cell" data-layout-align="center">
 <div class="sourceCode" id="cb37"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op">(</span>data <span class="op">=</span> <span class="va">mpg</span>, mapping <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">displ</span>, y <span class="op">=</span> <span class="va">hwy</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span> </span>
 <span>    <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_point.html">geom_point</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span> </span>
-<span>    <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/facet_wrap.html">facet_wrap</a></span><span class="op">(</span><span class="op">~</span> <span class="va">cyl</span>, ncol <span class="op">=</span> <span class="fl">2</span><span class="op">)</span> <span class="co">#&lt;&lt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span>    <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/facet_grid.html">facet_grid</a></span><span class="op">(</span><span class="va">drv</span> <span class="op">~</span> <span class="va">cyl</span><span class="op">)</span>  <span class="co">#&lt;&lt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="images/09-ggplot2/unnamed-chunk-58-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:70.0%"><aside class="notes"><ul>
-<li>How about we want to create a scatter plot conditional on just one variable, say cylinder?</li>
-<li>Instead of facet_grid(), we can use facet_wrap() function.</li>
-<li>Inside the parenthesis, we use ~ followed by the variable name cyl.</li>
-<li>And the ggplot will automatically create a display, so that each smaller plot is normally rectangular.</li>
-<li>If you don’t like the default display, you can specify any number of rows or columns you like.</li>
-<li>For example, here the number of column is 3.</li>
+<img data-src="images/09-ggplot2/unnamed-chunk-58-1.png" class="quarto-figure quarto-figure-center r-stretch" style="width:75.0%"><aside class="notes"><ul>
+<li>Suppose again we would like to see the relationship between hwy and displacement.</li>
+<li>But now we want to see their relationship given at a different number of cylinders and type of drive trains.</li>
+<li>And we can create several scatterplots, each at a particular number of cylinders and type of drive trains.</li>
+<li>How do we create facets?</li>
+<li>We can use facet_grid() command to create a matrix-like plot defined by row and column faceting variables, which are usually categorical variables. Inside the parenthesis, we put the row variable ~ column variable.</li>
+<li>So here, drive values, 4, f, r defines the rows, and cylinder values 4, 5, 6, 8 defines the columns.</li>
+<li>And each smaller plot is a scatter plot with some value of drive and some value of cylinder.</li>
+<li>For example, the top right one is the scatter plot of hwy mpg and displacement when drive is 4 and cylinder is 8.</li>
 </ul><style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1824,7 +1825,7 @@ Using the <a href="http://vita.had.co.nz/papers/layered-grammar.pdf">Grammar of 
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="./images/09-ggplot2/plotnine.webp" class="quarto-figure quarto-figure-center" style="width:30.0%"></p>
+<figure><p><img data-src="https://raw.githubusercontent.com/has2k1/plotnine/refs/heads/logos/doc/images/logo-512.png" class="quarto-figure quarto-figure-center" style="width:30.0%"></p>
 </figure>
 </div>
 </div>
