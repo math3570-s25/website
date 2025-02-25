@@ -34,7 +34,7 @@
   </url>
   <url>
     <loc>https://math3570-s25.github.io/website/exercise/lab14-interactive.html</loc>
-    <lastmod>2025-01-07T17:53:15.488Z</lastmod>
+    <lastmod>2025-02-25T16:20:12.605Z</lastmod>
   </url>
   <url>
     <loc>https://math3570-s25.github.io/website/exercise/lab01-rscript.html</loc>
@@ -69,83 +69,35 @@
     <lastmod>2025-01-14T04:22:40.000Z</lastmod>
   </url>
   <url>
-    <loc>https://math3570-s25.github.io/website/slides/09-ggplot2.html</loc>
-    <lastmod>2025-02-25T15:50:13.476Z</lastmod>
+    <loc>https://math3570-s25.github.io/website/slides/02-datascience.html</loc>
+    <lastmod>2025-01-10T18:53:44.234Z</lastmod>
   </url>
   <url>
-    <loc>https://math3570-s25.github.io/website/slides/08-import.html</loc>
-    <lastmod>2025-02-18T17:04:43.082Z</lastmod>
+    <loc>https://math3570-s25.github.io/website/slides/10-viz.html</loc>
+    <lastmod>2025-02-25T16:04:59.279Z</lastmod>
   </url>
   <url>
-    <loc>https://math3570-s25.github.io/website/index.html</loc>
-    <lastmod>2025-02-25T16:13:17.838Z</lastmod>
+    <loc>https://math3570-s25.github.io/website/course-news.html</loc>
+    <lastmod>2025-01-23T00:31:06.611Z</lastmod>
   </url>
   <url>
-    <loc>https://math3570-s25.github.io/website/hw/hw2.html</loc>
+    <loc>https://math3570-s25.github.io/website/course-overview.html</loc>
+    <lastmod>2025-01-07T19:53:12.787Z</lastmod>
+  </url>
+  <url>
+    <loc>https://math3570-s25.github.io/website/hw/hw3.html</loc>
     <lastmod>2025-01-07T17:53:15.523Z</lastmod>
   </url>
   <url>
-    <loc>https://math3570-s25.github.io/website/weeks/week-14.html</loc>
+    <loc>https://math3570-s25.github.io/website/hw/hw1.html</loc>
+    <lastmod>2025-02-11T15:35:52.509Z</lastmod>
+  </url>
+  <url>
+    <loc>https://math3570-s25.github.io/website/weeks/week-15.html</loc>
     <lastmod>2025-01-07T17:53:15.615Z</lastmod>
   </url>
   <url>
-    <loc>https://math3570-s25.github.io/website/weeks/week-8.html</loc>
-    <lastmod>2025-01-07T17:53:15.621Z</lastmod>
-  </url>
-  <url>
-    <loc>https://math3570-s25.github.io/website/weeks/week-9.html</loc>
-    <lastmod>2025-01-07T17:53:15.621Z</lastmod>
-  </url>
-  <url>
-    <loc>https://math3570-s25.github.io/website/weeks/week-12.html</loc>
-    <lastmod>2025-01-07T17:53:15.615Z</lastmod>
-  </url>
-  <url>
-    <loc>https://math3570-s25.github.io/website/weeks/week-11.html</loc>
-    <lastmod>2025-01-07T17:53:15.615Z</lastmod>
-  </url>
-  <url>
-    <loc>https://math3570-s25.github.io/website/weeks/week-2.html</loc>
-    <lastmod>2025-01-23T00:38:31.785Z</lastmod>
-  </url>
-  <url>
-    <loc>https://math3570-s25.github.io/website/weeks/week-1.html</loc>
-    <lastmod>2025-01-10T18:59:10.195Z</lastmod>
-  </url>
-  <url>
-    <loc>https://math3570-s25.github.io/website/weeks/week-5.html</loc>
-    <lastmod>2025-02-11T17:01:20.648Z</lastmod>
-  </url>
-  <url>
-    <loc>https://math3570-s25.github.io/website/weeks/week-6.html</loc>
-    <lastmod>2025-01-07T17:53:15.616Z</lastmod>
-  </url>
-  <url>
-    <loc>https://math3570-s25.github.io/website/LICENSE.html</loc>
-    <lastmod>2025-01-07T19:43:54.733Z</lastmod>
-  </url>
-  <url>
-    <loc>https://math3570-s25.github.io/website/present-description.html</loc>
-    <lastmod>2025-02-06T17:23:16.827Z</lastmod>
-  </url>
-  <url>
-    <loc>https://math3570-s25.github.io/website/weeks/week-7.html</loc>
-    <lastmod>2025-01-07T17:53:15.616Z</lastmod>
-  </url>
-  <url>
-    <loc>https://math3570-s25.github.io/website/weeks/week-4.html</loc>
-    <lastmod>2025-02-04T16:34:04.517Z</lastmod>
-  </url>
-  <url>
-    <loc>https://math3570-s25.github.io/website/weeks/week-3.html</loc>
-    <lastmod>2025-01-23T00:38:44.072Z</lastmod>
-  </url>
-  <url>
-    <loc>https://math3570-s25.github.io/website/weeks/week-10.html</loc>
-    <lastmod>2025-01-07T17:53:15.615Z</lastmod>
-  </url>
-  <url>
-    <loc>https://math3570-s25.github.io/website/weeks/week-13.html</loc>
+    <loc>https://math3570-s25.github.io/website/weeks/week-16.html</loc>
     <lastmod>2025-01-07T17:53:15.615Z</lastmod>
   </url>
   <url>
@@ -153,36 +105,88 @@
     <lastmod>2025-02-18T17:03:04.750Z</lastmod>
   </url>
   <url>
-    <loc>https://math3570-s25.github.io/website/weeks/week-16.html</loc>
+    <loc>https://math3570-s25.github.io/website/weeks/week-13.html</loc>
     <lastmod>2025-01-07T17:53:15.615Z</lastmod>
   </url>
   <url>
-    <loc>https://math3570-s25.github.io/website/weeks/week-15.html</loc>
+    <loc>https://math3570-s25.github.io/website/weeks/week-10.html</loc>
     <lastmod>2025-01-07T17:53:15.615Z</lastmod>
   </url>
   <url>
-    <loc>https://math3570-s25.github.io/website/hw/hw1.html</loc>
-    <lastmod>2025-02-11T15:35:52.509Z</lastmod>
+    <loc>https://math3570-s25.github.io/website/weeks/week-3.html</loc>
+    <lastmod>2025-01-23T00:38:44.072Z</lastmod>
   </url>
   <url>
-    <loc>https://math3570-s25.github.io/website/hw/hw3.html</loc>
+    <loc>https://math3570-s25.github.io/website/weeks/week-4.html</loc>
+    <lastmod>2025-02-04T16:34:04.517Z</lastmod>
+  </url>
+  <url>
+    <loc>https://math3570-s25.github.io/website/weeks/week-7.html</loc>
+    <lastmod>2025-01-07T17:53:15.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://math3570-s25.github.io/website/present-description.html</loc>
+    <lastmod>2025-02-06T17:23:16.827Z</lastmod>
+  </url>
+  <url>
+    <loc>https://math3570-s25.github.io/website/LICENSE.html</loc>
+    <lastmod>2025-01-07T19:43:54.733Z</lastmod>
+  </url>
+  <url>
+    <loc>https://math3570-s25.github.io/website/weeks/week-6.html</loc>
+    <lastmod>2025-01-07T17:53:15.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://math3570-s25.github.io/website/weeks/week-5.html</loc>
+    <lastmod>2025-02-11T17:01:20.648Z</lastmod>
+  </url>
+  <url>
+    <loc>https://math3570-s25.github.io/website/weeks/week-1.html</loc>
+    <lastmod>2025-01-10T18:59:10.195Z</lastmod>
+  </url>
+  <url>
+    <loc>https://math3570-s25.github.io/website/weeks/week-2.html</loc>
+    <lastmod>2025-01-23T00:38:31.785Z</lastmod>
+  </url>
+  <url>
+    <loc>https://math3570-s25.github.io/website/weeks/week-11.html</loc>
+    <lastmod>2025-01-07T17:53:15.615Z</lastmod>
+  </url>
+  <url>
+    <loc>https://math3570-s25.github.io/website/weeks/week-12.html</loc>
+    <lastmod>2025-01-07T17:53:15.615Z</lastmod>
+  </url>
+  <url>
+    <loc>https://math3570-s25.github.io/website/weeks/week-9.html</loc>
+    <lastmod>2025-01-07T17:53:15.621Z</lastmod>
+  </url>
+  <url>
+    <loc>https://math3570-s25.github.io/website/weeks/week-8.html</loc>
+    <lastmod>2025-01-07T17:53:15.621Z</lastmod>
+  </url>
+  <url>
+    <loc>https://math3570-s25.github.io/website/weeks/week-14.html</loc>
+    <lastmod>2025-01-07T17:53:15.615Z</lastmod>
+  </url>
+  <url>
+    <loc>https://math3570-s25.github.io/website/hw/hw2.html</loc>
     <lastmod>2025-01-07T17:53:15.523Z</lastmod>
   </url>
   <url>
-    <loc>https://math3570-s25.github.io/website/course-overview.html</loc>
-    <lastmod>2025-01-07T19:53:12.787Z</lastmod>
+    <loc>https://math3570-s25.github.io/website/index.html</loc>
+    <lastmod>2025-02-25T16:21:43.605Z</lastmod>
   </url>
   <url>
-    <loc>https://math3570-s25.github.io/website/course-news.html</loc>
-    <lastmod>2025-01-23T00:31:06.611Z</lastmod>
+    <loc>https://math3570-s25.github.io/website/slides/08-import.html</loc>
+    <lastmod>2025-02-18T17:04:43.082Z</lastmod>
   </url>
   <url>
-    <loc>https://math3570-s25.github.io/website/slides/10-viz.html</loc>
-    <lastmod>2025-02-25T16:04:59.279Z</lastmod>
+    <loc>https://math3570-s25.github.io/website/slides/09-ggplot2.html</loc>
+    <lastmod>2025-02-25T15:50:13.476Z</lastmod>
   </url>
   <url>
-    <loc>https://math3570-s25.github.io/website/slides/02-datascience.html</loc>
-    <lastmod>2025-01-10T18:53:44.234Z</lastmod>
+    <loc>https://math3570-s25.github.io/website/slides/11-interactive-viz.html</loc>
+    <lastmod>2025-02-21T16:15:14.553Z</lastmod>
   </url>
   <url>
     <loc>https://math3570-s25.github.io/website/slides/07-package.html</loc>
