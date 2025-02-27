@@ -30,7 +30,7 @@ The midterm mini project is about [**data visualization**]{.blue}. **Show your f
 
 ## **Team up!**
 
--   *Each one of you loses 3 points of your project grade if you don't meet the requirement or miss the deadline.*
+-   *You lose 3 points of your project grade if you don't meet the requirement or miss the deadline.*
 
 -   You will be *randomly* assigned to a group if you do not belong to any group before the deadline.
 
@@ -41,14 +41,12 @@ The midterm mini project is about [**data visualization**]{.blue}. **Show your f
 -   Your proposal (in PDF) should include three parts:
 
     -   Project **title**
-    -   Members **duty**. For example, 
-        + John and Ben: clean data; Mike and Emma: prepare slides; Sophia, Mike, and Ben: plotting, etc. 
+    -   Members **duty**. For example,
+        -   John and Ben: clean data; Mike and Emma: prepare slides; Sophia, Mike, and Ben: plotting, etc.
     -   The **description of the data set you use** in your project. For example, what is the data set about, how large is the data, the variables you use for your project, etc. The data set should be one of the data listed in @sec-data.
     -   The **goal of your project**. For example, what are questions you'd like to answer via data visualization? What would you like to learn about and from the data? What variables are you interested?
 
 -   Although it is risky, you can change your project topic after you submit your proposal if you decide to do something else.
-
-
 
 ## **Materials**
 
@@ -58,13 +56,9 @@ The midterm mini project is about [**data visualization**]{.blue}. **Show your f
 
 -   The code must be shared via a **Quarto file**.
 
-
-
 ## **Presentation**
 
 -   Each group presentation is about **5 and 6 minute** long, followed by about **1 minute** Q&A. If your presentation is too short or too long, *every one of you loses 3 points* of your project grade.
-
-
 
 # Project Content, Evaluation and Grading
 
@@ -72,16 +66,13 @@ The goal of the project is data visualization. Through this project, you use [ch
 
 You presentation should include the following aspects.
 
-- **Data and variable explanation**. Which data you use? What variables you are choosing for visualization? Why choose those variables?
+-   **Data and variable explanation**. Which data you use? What variables you are choosing for visualization? Why choose those variables?
 
-- **Visualization**. Include at least two different charts to show your data. Make them beautiful and informative.
+-   **Visualization**. Include at least two different charts to show your data. Make them beautiful and informative.
 
-- **Interpretation and Insights**. What do you learn from your charts? Explain your plots, and provide useful insights.
+-   **Interpretation and Insights**. What do you learn from your charts? Explain your plots, and provide useful insights.
 
 Your slides quality and oral presentation and clarity will also be evaluated. Please see @sec-grading for more grading details.
-
-
-
 
 ## Data {#sec-data}
 
@@ -89,13 +80,17 @@ The available data sets for this projects can be downloaded from [**kaggle**](ht
 
 -   [World Happiness Report](https://www.kaggle.com/datasets/unsdsn/world-happiness?resource=download)
 
--   [Climate Change: Earth Surface Temperature Data](https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data/data)
+<!-- -   [Climate Change: Earth Surface Temperature Data](https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data/data) -->
+
+-   [Supermarket Sales Data](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales)
 
 -   [NBA Players stats since 1950](https://www.kaggle.com/datasets/drgilermo/nba-players-stats/data)
 
 -   [Airline Passenger Satisfaction](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction)
 
--   [U.S. Pollution Data](https://www.kaggle.com/datasets/sogun3/uspollution/data)
+<!-- -   [U.S. Pollution Data](https://www.kaggle.com/datasets/sogun3/uspollution/data)  -->
+
+-   [Auto-mpg dataset](https://www.kaggle.com/datasets/uciml/autompg-dataset)
 
 -   [Netflix Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/netflix-shows/data)
 
@@ -107,40 +102,40 @@ The available data sets for this projects can be downloaded from [**kaggle**](ht
 
 -   [US Census Demographic Data](https://www.kaggle.com/datasets/muonneutrino/us-census-demographic-data)
 
+**\[Note:\] Those are real data sets that contains many observations and variables. You just need to pick a few variables for plotting and analysis.**
 
-**[Note:] Those are real data sets that contains many observations and variables. You just need to pick a few variables for plotting and analysis.**
-
+**\[Note:\] You may use some other data, but the data set cannot be the one used in the course (like ggplot2::mpg). The data set needs to be as sophisticated as the listed data sets above. Dr. Yu and TA will evaluate your data quality.**
 
 ## Evaluation and Grading {#sec-grading}
 
-- Your project performance is evaluated by *Dr. Yu and the TA* that is based on the following rubric:
+-   Your project performance is evaluated by *Dr. Yu and the TA* that is based on the following rubric:
 
 | Criteria | Excellent | Good | Fair | Emerging |
-|------|------|------|------|------|
-| **Data Understanding (15%)**    |  Clearly explains the dataset, its source, and key variables. Provides meaningful insights.    |   Shows good understanding with clear explanations and some strong insights. A few minor details could be expanded.   |   Shows a basic grasp of the dataset but needs more clarity or depth in explaining its significance and insights.   |   Needs further understanding of the dataset. More details and insights would strengthen the analysis.   |
-| **Visualization Quality (30%)**     |  Visualizations are clear, well-chosen, and enhance understanding. Thoughtful design choices make the data engaging and accessible.    |  Strong visuals that support the data well. Some minor refinements could improve clarity or impact.    |  Basic visuals that convey information but could be more refined or better suited to the dataset.    |   Needs improvement in visualization selection or clarity. More attention to detail will enhance effectiveness.   |
-| **Output Interpretation and Insights (25%)**    |  Thoughtful and well-supported insights demonstrate strong analytical skills. Patterns and trends are clearly explained with compelling interpretations.    |   Provides solid insights with good explanations. Some areas could benefit from deeper analysis.   |   Insights are present but may lack depth or clear connections to the data. Some interpretations need more support.   |   Insights need further development. Strengthening data interpretation will enhance overall understanding.   |
-| **Slides quality (15%)**   |   Slides are visually appealing, well-organized, and complement the spoken presentation. Effective use of text, images, and color enhances clarity.   |   Slides are clear and well-structured but could be slightly improved in design or organization.   | Slides contain useful content but may be text-heavy, cluttered, or lack visual appeal.     |    Slides need better organization and design to support the presentation effectively.  |
-| **Presentation Clarity and Interaction (15%)**     |   The presentation is well-organized, engaging, and confident. The team communicates ideas effectively and transitions smoothly.   |   A well-structured and clear presentation. Minor adjustments could improve flow or engagement.   |   The presentation is understandable but could be more organized or engaging. Some transitions may be unclear.   |   More practice and organization will help improve clarity and engagement.   |
+|---------------|---------------|---------------|---------------|---------------|
+| **Data Understanding (15%)** | Clearly explains the dataset, its source, and key variables. Provides meaningful insights. | Shows good understanding with clear explanations and some strong insights. A few minor details could be expanded. | Shows a basic grasp of the dataset but needs more clarity or depth in explaining its significance and insights. | Needs further understanding of the dataset. More details and insights would strengthen the analysis. |
+| **Visualization Quality (30%)** | Visualizations are clear, well-chosen, and enhance understanding. Thoughtful design choices make the data engaging and accessible. | Strong visuals that support the data well. Some minor refinements could improve clarity or impact. | Basic visuals that convey information but could be more refined or better suited to the dataset. | Needs improvement in visualization selection or clarity. More attention to detail will enhance effectiveness. |
+| **Output Interpretation and Insights (25%)** | Thoughtful and well-supported insights demonstrate strong analytical skills. Patterns and trends are clearly explained with compelling interpretations. | Provides solid insights with good explanations. Some areas could benefit from deeper analysis. | Insights are present but may lack depth or clear connections to the data. Some interpretations need more support. | Insights need further development. Strengthening data interpretation will enhance overall understanding. |
+| **Slides quality (15%)** | Slides are visually appealing, well-organized, and complement the spoken presentation. Effective use of text, images, and color enhances clarity. | Slides are clear and well-structured but could be slightly improved in design or organization. | Slides contain useful content but may be text-heavy, cluttered, or lack visual appeal. | Slides need better organization and design to support the presentation effectively. |
+| **Presentation Clarity and Interaction (15%)** | The presentation is well-organized, engaging, and confident. The team communicates ideas effectively and transitions smoothly. | A well-structured and clear presentation. Minor adjustments could improve flow or engagement. | The presentation is understandable but could be more organized or engaging. Some transitions may be unclear. | More practice and organization will help improve clarity and engagement. |
 
 : Rubric
 
-
--   Your project grade will be 
+-   Your project grade will be
 
 > Project grade = performance grade - points lost due to violation of policy
 
+*with adjustement based on your duty*.
 
 
 ## Peer Individual Performance Evaluation
 
--  In each team, **two** group members will win the best contribution reward that add extra points to the project grade.
+-   In each team, **two** group members will win the best contribution reward that add extra points to the project grade.
 
 -   Each one of you has **two** votes to nominate one or two of your teammates who you think contribute the most to your group project.
 
 -   You can nominate
 
-    -   two teammates, each receiving one vote. 
+    -   two teammates, each receiving one vote.
     -   one teammate who receives two votes.
 
 -   You **cannot** nominate yourself.
