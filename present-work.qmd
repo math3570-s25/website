@@ -20,23 +20,23 @@ title: "Midterm Visualization Project"
 
     -   
 
--   [**Hala Madrid**]{.blue}: Abdallah Al-Refai, Labeeb Awan, Kevin Esquivel, Derian Esquivel, [name]
+-   [**Hala Madrid**]{.blue}: Abdallah Al-Refai, Labeeb Awan, Kevin Esquivel, Derian Esquivel, [Name]{.blue}
 
     -   
 
--   [**The Back Right corner**]{.blue}: Luke Syverud, Isaac Kujak, Elizabeth Ruiz, Maxwell Creager-Roberts, [name]
+-   [**The Back Right corner**]{.blue}: Luke Syverud, Isaac Kujak, Elizabeth Ruiz, Maxwell Creager-Roberts, [Name]{.blue}
 
     -   
 
--   [**The Outliers**]{.blue}: Spencer Christensen, Peter Kaull, Dean Lang, [name], [name]
+-   [**The Outliers**]{.blue}: Spencer Christensen, Peter Kaull, Dean Lang, [Name]{.blue}, [Name]{.blue}
 
     -   
 
--   [**Block Blasters**]{.blue}: Lucy Govern, Emma Kimball, Riley Abrahamson, Brianna Velez, [name]
+-   [**Block Blasters**]{.blue}: Lucy Govern, Emma Kimball, Riley Abrahamson, Brianna Velez, [Name]{.blue}
 
     -   
 
--   **Team9**:
+-   [**Intermediate Wizards**]{.blue}: Kyle Forsberg, Luke Bondi, Justin Hoffman, [Name]{.blue}, [Name]{.blue}
 
     -   
 
