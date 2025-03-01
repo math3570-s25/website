@@ -20,27 +20,27 @@ title: "Midterm Visualization Project"
 
     -   
 
--   [**Hala Madrid**]{.blue}: Abdallah Al-Refai, Labeeb Awan, Kevin Esquivel, Derian Esquivel, [Name]{.blue}
+-   [**Hala Madrid**]{.blue}: Abdullah Al-Refai, Labeeb Awan, Kevin Esquivel, Derian Esquivel, Tyler Smith
 
     -   
 
--   [**The Back Right corner**]{.blue}: Luke Syverud, Isaac Kujak, Elizabeth Ruiz, Maxwell Creager-Roberts, [Name]{.blue}
+-   [**The Back Right corner**]{.blue}: Luke Syverud, Isaac Kujak, Elizabeth Ruiz, Maxwell Creager-Roberts, Kaia Lui
 
     -   
 
--   [**The Outliers**]{.blue}: Spencer Christensen, Peter Kaull, Dean Lang, [Name]{.blue}, [Name]{.blue}
+-   [**The Outliers**]{.blue}: Spencer Christensen, Peter Kaull, Dean Lang, Joshua Hunter, Marcin Tutaj
 
     -   
 
--   [**Block Blasters**]{.blue}: Lucy Govern, Emma Kimball, Riley Abrahamson, Brianna Velez, [Name]{.blue}
+-   [**Block Blasters**]{.blue}: Lucy McGovern, Emma Kimball, Riley Abrahamson, Brianna Velez, Napoleon Her
 
     -   
 
--   [**Intermediate Wizards**]{.blue}: Kyle Forsberg, Luke Bondi, Justin Hoffman, [Name]{.blue}, [Name]{.blue}
+-   [**Intermediate Wizards**]{.blue}: Kyle Forsberg, Luke Bondi, Justin Hoffman, Sam Wolf, Ava Unertl
 
     -   
 
--   **Team10**:
+-   **Team10**: Jack Anderson, Nathan Rusch, Nirmay Kathuria, Wilson von Bohlen, Juan De Los Santos
 
     -   
 
@@ -49,8 +49,10 @@ title: "Midterm Visualization Project"
 ```{r}
 #| eval: false
 #| echo: false
-team <- c("GitClub", "ggplot3", "Ctrl + Alt + Elite", 
-          "Big Meta Watchers", "Win Rs", "Red Pandas", "Data Dawgs")
-set.seed(2024)
-(present_order <- sample(team, size = 7, replace = FALSE))
+team <- c("The Whales", "Analytics Avengers", "Syntax Squad", 
+          "Data Detectives", "Hala Madrid", "he Back Right corner",
+          "The Outliers", "Block Blasters", "Intermediate Wizards",
+          "")
+set.seed(2025)
+(present_order <- sample(team, size = 10, replace = FALSE))
 ```
