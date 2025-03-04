@@ -1501,427 +1501,508 @@
     "text": "Apache Arrow for R and Python\n\n\nApache Arrow develops big data systems to process and move data fast.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmath3570-s25.github.io/website"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "MATH/COSC 3570 Introduction to Data Science (Spring 2025)",
+    "objectID": "course-news.html",
+    "href": "course-news.html",
+    "title": "News/Announcements",
     "section": "",
-    "text": "Midterm project Proposal due Friday, 3/7, 11:59 PM.\nTA help desk hours at Cudahy Hall 301 Monday: 1 – 2 PM, Tuesday: 12 – 1 PM, Thursday: 12 – 2 PM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTo Do\nSlides\nLab Exercise\nHomework\nProject\n\n\n\n\n1\nTue, Jan 14\nGreetings + Overview of Data Science\n📖\n🖥️syllabus 🖥️overview\n\n\n\n\n\n\nThu, Jan 16\nPosit Cloud\n\n🖥️posit\n📋 posit 📋01\n\n\n\n\n2\nTue, Jan 21\nNo CLASS: Cold Weather\n📖\n\n\n\n\n\n\n\nThu, Jan 23\nGit/GitHub Introduction\n\n🖥️git\n📋github\n\n\n\n\n3\nTue, Jan 28\nQuarto: YAML and Markdown\n📖\n🖥️quarto\n📋02 📋03 📋04\n\n\n\n\n\nThu, Jan 30\nQuarto: Code Chunk\n\n\n\n\n\n\n\n4\nTue, Feb 4\nR Syntax\n📖\n🖥️syntax\n📋05\n\n\n\n\n\nThu, Feb 6\nPython Syntax\n\n\n📋06 📋 07(opt)\n✍️ HW1\n\n\n\n5\nTue, Feb 11\nR Tidyverse\n📖\n🖥️package\n📋08\n\n\n\n\n\nThu, Feb 13\nPython NumPy/Pandas\n\n\n📋09\n\n\n\n\n6\nTue, Feb 18\nData Importing\n📖\n🖥️import\n📋10\n\n\n\n\n\nThu, Feb 20\nData Visualization-ggplot2\n\n🖥️ggplot\n📋11 📋12\n\n\n\n\n7\nTue, Feb 25\nData Visualization-categorical and numerical data\n📖\n🖥️visualization\n📋13\n\n\n\n\n\nThu, Feb 27\nInteractive Data Visualization\n\n🖥️interactive-viz\n📋14 (opt)\nHW 1 Due\n✅ Team up Due\n\n\n8\nTue, Mar 4\nData Wrangling - one data frame\n📖\n🖥️dplyr-1\n📋15\n\n\n\n\n\nThu, Mar 6\nData Wrangling - two data frames\n\n🖥️\n📋\n\n✅ Proposal Due\n\n\n9\nTue, Mar 11\nNO CLASS: Spring break\n\n\n\n\n\n\n\n\nThu, Mar 13\nNO CLASS: Spring break\n\n\n\n\n\n\n\n10\nTue, Mar 18\nData Wrangling - tidyr\n📖\n🖥️\n📋\n✍️\n✅ Materials Due\n\n\n\nThu, Mar 20\nMini Project Presentation\n\n🖥️\n📋\n\n\n\n\n11\nTue, Mar 25\nProbabilistic and Statistical Simulation\n\n\n📋\n\n\n\n\n\nThu, Mar 27\nProbabilistic and Statistical Simulation\n\n\n\n\n\n\n\n12\nTue, Apr 1\nLinear Regression\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 3\nLinear Regression\n\n\n📋\n\n\n\n\n13\nTue, Apr 8\nLogistic Regression\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 10\nLogistic Regression\n\n\n📋\n✍️\n\n\n\n14\nTue, Apr 15\nK-Nearest Neighbors\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 17\nNO CLASS: Easter break\n\n\n📋\n\n\n\n\n15\nTue, Apr 22\nPrincipal Component Analysis\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 24\nPrincipal Component Analysis\n\n\n📋\n\n\n\n\n16\nTue, Apr 29\nK-Means Clustering\n📖\n🖥️\n\n\n\n\n\n\nThu, May 1\nFinal Project Presentation I\n\n🖥️\n📋\n\n\n\n\n17\nMon, May 5\nFinal Project Presentation II\n\n\n\n\n\n\n\n\n\nThis schedule will be updated as the semester progresses, with all changes documented here. Dr. Yu reserve the right to make changes to the schedule.",
+    "text": "Any announcement will be posted in this page. The latest news will also be put on top of the main page.",
     "crumbs": [
       "Course information",
-      "Schedule"
+      "News/Annoucements"
     ]
   },
   {
-    "objectID": "hw/hw2.html",
-    "href": "hw/hw2.html",
-    "title": "Homework 2: Data Visualization and Data Wrangling",
+    "objectID": "course-news.html#jan-17-2025",
+    "href": "course-news.html#jan-17-2025",
+    "title": "News/Announcements",
+    "section": "Jan 17, 2025",
+    "text": "Jan 17, 2025\n\nTA help desk hours at Cudahy Hall 301\n\nMonday: 1 – 2 PM\nTuesday: 12 – 1 PM,\nThursday: 12 – 2 PM",
+    "crumbs": [
+      "Course information",
+      "News/Annoucements"
+    ]
+  },
+  {
+    "objectID": "course-news.html#jan-14-2025",
+    "href": "course-news.html#jan-14-2025",
+    "title": "News/Announcements",
+    "section": "Jan 14, 2025",
+    "text": "Jan 14, 2025\n\nNo office hours first week.",
+    "crumbs": [
+      "Course information",
+      "News/Annoucements"
+    ]
+  },
+  {
+    "objectID": "course-news.html#jan-7-2025",
+    "href": "course-news.html#jan-7-2025",
+    "title": "News/Announcements",
+    "section": "Jan 7, 2025",
+    "text": "Jan 7, 2025\n\nThe background survey form is at https://forms.office.com/r/3ntBAWupYS.",
+    "crumbs": [
+      "Course information",
+      "News/Annoucements"
+    ]
+  },
+  {
+    "objectID": "course-overview.html",
+    "href": "course-overview.html",
+    "title": "MATH/COSC 3570 Introduction to Data Science (Spring 2025)",
     "section": "",
-    "text": "Import the data set murders. Use the pipe operator |&gt; and the dplyr functions mutate(), filter(), and select() to get the following data output. Call the data set df.\n\nThe filtering conditions are\n\nregion in “Northeast” or “West”\nrate = total / population * 100000 is less than 1.\n\nThe new variable rank is based on rate. The highest rate is ranked 1st. [Hint:] Use the function rank().\n\n## code\n\n# # A tibble: 8 × 4\n#    rate  rank state         total\n#   &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;         &lt;dbl&gt;\n# 1 0.515    49 Hawaii            7\n# 2 0.766    46 Idaho            12\n# 3 0.828    44 Maine            11\n# 4 0.380    50 New Hampshire     5\n# 5 0.940    42 Oregon           36\n# 6 0.796    45 Utah             22\n# 7 0.320    51 Vermont           2\n# 8 0.887    43 Wyoming           5\n\n\nChange the type of column rank to factor, and total to integer. (You can use the built-in as.factor() and as.integer() or the convert() function in the hablar package.\n\n\n## code\n\n\nCreate a list named df_lst of two elements. The first element is a subset of df whose rows have total less than 10, and the second element is a subset of df so that each of its row has total higher than 10. Print it out.\n\n\n## code\n\n\n# [[1]]\n# # A tibble: 4 × 4\n#    rate rank  state         total\n#   &lt;dbl&gt; &lt;fct&gt; &lt;chr&gt;         &lt;dbl&gt;\n# 1 0.515 49    Hawaii            7\n# 2 0.380 50    New Hampshire     5\n# 3 0.320 51    Vermont           2\n# 4 0.887 43    Wyoming           5\n# \n# [[2]]\n# # A tibble: 4 × 4\n#    rate rank  state  total\n#   &lt;dbl&gt; &lt;fct&gt; &lt;chr&gt;  &lt;dbl&gt;\n# 1 0.766 46    Idaho     12\n# 2 0.828 44    Maine     11\n# 3 0.940 42    Oregon    36\n# 4 0.796 45    Utah      22\n\n\nCombine the two data sets in df_lst using rbind().\n\n\n## code\n\n\nThe dplyr provides dplyr::bind_rows() and dplyr::bind_cols() that are analogs to rbind() and cbind() in the R base. Combine the two data sets in df_lst using bind_rows(). The result should be exactly the same as the previous one.\n\n\n## code\n\n\nCombine the two data frames data1 and data2 below using bind_rows() and rbind(). Describe what happened and their difference. (Note that the two data sets have different column names)\n\n\ndata1 &lt;- tibble(x = letters[1:5])\ndata2 &lt;- tibble(y = 1:3)\n\n\n## code (Error may happen. set eval: false if you'd like to render the document.)\n\n\nWith df, select state and total, and arrange df by total in an increasing order.\n\n\n## code\n\n\nWith df, use contains() to select column variables whose name contains the string “at”.\n\n\n## code\n\n\nBack to murders. Extract the rows whose has the largest population in its region as the shown output. The population is ranked in a decreasing order.\n\n\n## code\n\n# # A tibble: 4 × 5\n#   state      abb   region        population total\n#   &lt;chr&gt;      &lt;chr&gt; &lt;chr&gt;              &lt;dbl&gt; &lt;dbl&gt;\n# 1 California CA    West            37253956  1257\n# 2 Texas      TX    South           25145561   805\n# 3 New York   NY    Northeast       19378102   517\n# 4 Illinois   IL    North Central   12830632   364\n\n\n\n\n\nInstall and load the Lahman library. This database includes data related to baseball teams. It includes summary statistics about how the players performed on offense and defense for several years. It also includes personal information about the players. The Batting data frame contains the offensive statistics for all players for many years:\n\n\n\nRows: 112,184\nColumns: 22\n$ playerID &lt;chr&gt; \"abercda01\", \"addybo01\", \"allisar01\", \"allisdo01\", \"ansonca01…\n$ yearID   &lt;int&gt; 1871, 1871, 1871, 1871, 1871, 1871, 1871, 1871, 1871, 1871, 1…\n$ stint    &lt;int&gt; 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1…\n$ teamID   &lt;fct&gt; TRO, RC1, CL1, WS3, RC1, FW1, RC1, BS1, FW1, BS1, CL1, CL1, W…\n$ lgID     &lt;fct&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ G        &lt;int&gt; 1, 25, 29, 27, 25, 12, 1, 31, 1, 18, 22, 1, 10, 3, 20, 29, 1,…\n$ AB       &lt;int&gt; 4, 118, 137, 133, 120, 49, 4, 157, 5, 86, 89, 3, 36, 15, 94, …\n$ R        &lt;int&gt; 0, 30, 28, 28, 29, 9, 0, 66, 1, 13, 18, 0, 6, 7, 24, 26, 0, 0…\n$ H        &lt;int&gt; 0, 32, 40, 44, 39, 11, 1, 63, 1, 13, 27, 0, 7, 6, 33, 32, 0, …\n$ X2B      &lt;int&gt; 0, 6, 4, 10, 11, 2, 0, 10, 1, 2, 1, 0, 0, 0, 9, 3, 0, 0, 1, 0…\n$ X3B      &lt;int&gt; 0, 0, 5, 2, 3, 1, 0, 9, 0, 1, 10, 0, 0, 0, 1, 3, 0, 0, 1, 0, …\n$ HR       &lt;int&gt; 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0…\n$ RBI      &lt;int&gt; 0, 13, 19, 27, 16, 5, 2, 34, 1, 11, 18, 0, 1, 5, 21, 23, 0, 0…\n$ SB       &lt;int&gt; 0, 8, 3, 1, 6, 0, 0, 11, 0, 1, 0, 0, 2, 2, 4, 4, 0, 0, 3, 0, …\n$ CS       &lt;int&gt; 0, 1, 1, 1, 2, 1, 0, 6, 0, 0, 1, 0, 0, 0, 0, 4, 0, 0, 1, 0, 0…\n$ BB       &lt;int&gt; 0, 4, 2, 0, 2, 0, 1, 13, 0, 0, 3, 1, 2, 0, 2, 9, 0, 0, 4, 1, …\n$ SO       &lt;int&gt; 0, 0, 5, 2, 1, 1, 0, 1, 0, 0, 4, 0, 0, 0, 2, 2, 3, 0, 2, 0, 2…\n$ IBB      &lt;int&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ HBP      &lt;int&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ SH       &lt;int&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ SF       &lt;int&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ GIDP     &lt;int&gt; 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 1, 2, 0, 0, 0, 0, 3…\n\n\nUse Batting data to obtain the top 10 player observations that hit the most home runs (in descending order) in 2022. Call the data set top10, make it as a tibble and print it out.\n\n## code\n\n\nBut who are these players? In the top10 data, we see an ID, but not the names. The player names are in the People data set:\n\n\n\nRows: 20,676\nColumns: 26\n$ playerID     &lt;chr&gt; \"aardsda01\", \"aaronha01\", \"aaronto01\", \"aasedo01\", \"abada…\n$ birthYear    &lt;int&gt; 1981, 1934, 1939, 1954, 1972, 1985, 1850, 1877, 1869, 186…\n$ birthMonth   &lt;int&gt; 12, 2, 8, 9, 8, 12, 11, 4, 11, 10, 9, 3, 10, 2, 8, 9, 6, …\n$ birthDay     &lt;int&gt; 27, 5, 5, 8, 25, 17, 4, 15, 11, 14, 20, 16, 22, 16, 17, 1…\n$ birthCountry &lt;chr&gt; \"USA\", \"USA\", \"USA\", \"USA\", \"USA\", \"D.R.\", \"USA\", \"USA\", …\n$ birthState   &lt;chr&gt; \"CO\", \"AL\", \"AL\", \"CA\", \"FL\", \"La Romana\", \"PA\", \"PA\", \"V…\n$ birthCity    &lt;chr&gt; \"Denver\", \"Mobile\", \"Mobile\", \"Orange\", \"Palm Beach\", \"La…\n$ deathYear    &lt;int&gt; NA, 2021, 1984, NA, NA, NA, 1905, 1957, 1962, 1926, NA, 1…\n$ deathMonth   &lt;int&gt; NA, 1, 8, NA, NA, NA, 5, 1, 6, 4, NA, 2, 6, NA, NA, NA, N…\n$ deathDay     &lt;int&gt; NA, 22, 16, NA, NA, NA, 17, 6, 11, 27, NA, 13, 11, NA, NA…\n$ deathCountry &lt;chr&gt; NA, \"USA\", \"USA\", NA, NA, NA, \"USA\", \"USA\", \"USA\", \"USA\",…\n$ deathState   &lt;chr&gt; NA, \"GA\", \"GA\", NA, NA, NA, \"NJ\", \"FL\", \"VT\", \"CA\", NA, \"…\n$ deathCity    &lt;chr&gt; NA, \"Atlanta\", \"Atlanta\", NA, NA, NA, \"Pemberton\", \"Fort …\n$ nameFirst    &lt;chr&gt; \"David\", \"Hank\", \"Tommie\", \"Don\", \"Andy\", \"Fernando\", \"Jo…\n$ nameLast     &lt;chr&gt; \"Aardsma\", \"Aaron\", \"Aaron\", \"Aase\", \"Abad\", \"Abad\", \"Aba…\n$ nameGiven    &lt;chr&gt; \"David Allan\", \"Henry Louis\", \"Tommie Lee\", \"Donald Willi…\n$ weight       &lt;int&gt; 215, 180, 190, 190, 184, 235, 192, 170, 175, 169, 220, 19…\n$ height       &lt;int&gt; 75, 72, 75, 75, 73, 74, 72, 71, 71, 68, 74, 71, 70, 78, 7…\n$ bats         &lt;fct&gt; R, R, R, R, L, L, R, R, R, L, R, R, R, R, R, L, R, L, L, …\n$ throws       &lt;fct&gt; R, R, R, R, L, L, R, R, R, L, R, R, R, R, L, L, R, L, R, …\n$ debut        &lt;chr&gt; \"2004-04-06\", \"1954-04-13\", \"1962-04-10\", \"1977-07-26\", \"…\n$ finalGame    &lt;chr&gt; \"2015-08-23\", \"1976-10-03\", \"1971-09-26\", \"1990-10-03\", \"…\n$ retroID      &lt;chr&gt; \"aardd001\", \"aaroh101\", \"aarot101\", \"aased001\", \"abada001…\n$ bbrefID      &lt;chr&gt; \"aardsda01\", \"aaronha01\", \"aaronto01\", \"aasedo01\", \"abada…\n$ deathDate    &lt;date&gt; NA, 2021-01-22, 1984-08-16, NA, NA, NA, 1905-05-17, 1957…\n$ birthDate    &lt;date&gt; 1981-12-27, 1934-02-05, 1939-08-05, 1954-09-08, 1972-08-…\n\n\nWe can see column names nameFirst and nameLast. Use the left_join() function to create a table of the top home run hitters. The data table should have variables playerID, nameFirst, nameLast, and HR. Overwrite the object top10 with this new table, and print it out.\n\n## code\n\n\nUse the Fielding data frame to add each player’s position to the table you created in (2). Make sure that you filter for the year 2022 first, then use right_join(). This time show nameFirst, nameLast, teamID, HR, and POS.\n\n\n## code\n\n\n\n\n\nThe R built-in co2 data set is not tidy. Let’s make it tidy. Run the following code to define the co2_wide object:\n\n\nco2_wide &lt;- data.frame(matrix(co2, ncol = 12, byrow = TRUE)) |&gt; \n    setNames(1:12) |&gt; \n    mutate(year = as.character(1959:1997))\n\nUse the pivot_longer() function to make it tidy. Call the column with the CO2 measurements co2 and call the month column month. Call the resulting object co2_tidy. Print it out.\n\n## code\n\n\n## # A tibble: 468 x 3\n##    year  month   co2\n##    &lt;chr&gt; &lt;chr&gt; &lt;dbl&gt;\n##  1 1959  1      315.\n##  2 1959  2      316.\n##  3 1959  3      316.\n##  4 1959  4      318.\n##  5 1959  5      318.\n##  6 1959  6      318 \n##  7 1959  7      316.\n##  8 1959  8      315.\n##  9 1959  9      314.\n## 10 1959  10     313.\n## # … with 458 more rows\n\n\n\n\n\n\nimport numpy as np\nimport pandas as pd\n\n\nUse Python to do Section 1.1 question 1.\n\n\n\n## code\n\n\nUse Python to do Section 1.1 question 7.\n\n\n\n## code\n\n\nUse Python to do Section 1.1 question 9. [Hint:] The method pandas.DataFrame.drop_duplicates() is analogous to dplyr::distinct(). Please figure out what we should use in the argument subset and keep.\n\n\n## code\n\n\nUse Python to do Section 1.2 question 1. (Import the data Batting.csv).\n\n\n## code\n\n\nUse Python to do Section 1.2 question 2. (Import the data People.csv).\n\n\n## code"
+    "text": "This course introduces main aspects of doing a practical data science project, from importing data to deploying what is learned from data. We start with learning popular data science tools such as basic R and Python programming, Git and GitHub, and interactive publishing system Quarto. Then we learn data importing, data visualization and data wrangling using both R and Python. The second half of the course focuses on several basic simulation and machine learning methods, including Monte Carlo simulation, linear regression, K-nearest neighbors, logistic regression, principal component analysis, and K-means clustering. We learn R tidyverse and tidymodels packages. For Python, Pandas, NumPy, and Scikit-Learn libraries are introduced.",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
   },
   {
-    "objectID": "hw/hw2.html#sec-murders",
-    "href": "hw/hw2.html#sec-murders",
-    "title": "Homework 2: Data Visualization and Data Wrangling",
+    "objectID": "hw/hw3.html",
+    "href": "hw/hw3.html",
+    "title": "Homework 3: Probability, Statistics and Machine Learning",
     "section": "",
-    "text": "Import the data set murders. Use the pipe operator |&gt; and the dplyr functions mutate(), filter(), and select() to get the following data output. Call the data set df.\n\nThe filtering conditions are\n\nregion in “Northeast” or “West”\nrate = total / population * 100000 is less than 1.\n\nThe new variable rank is based on rate. The highest rate is ranked 1st. [Hint:] Use the function rank().\n\n## code\n\n# # A tibble: 8 × 4\n#    rate  rank state         total\n#   &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;         &lt;dbl&gt;\n# 1 0.515    49 Hawaii            7\n# 2 0.766    46 Idaho            12\n# 3 0.828    44 Maine            11\n# 4 0.380    50 New Hampshire     5\n# 5 0.940    42 Oregon           36\n# 6 0.796    45 Utah             22\n# 7 0.320    51 Vermont           2\n# 8 0.887    43 Wyoming           5\n\n\nChange the type of column rank to factor, and total to integer. (You can use the built-in as.factor() and as.integer() or the convert() function in the hablar package.\n\n\n## code\n\n\nCreate a list named df_lst of two elements. The first element is a subset of df whose rows have total less than 10, and the second element is a subset of df so that each of its row has total higher than 10. Print it out.\n\n\n## code\n\n\n# [[1]]\n# # A tibble: 4 × 4\n#    rate rank  state         total\n#   &lt;dbl&gt; &lt;fct&gt; &lt;chr&gt;         &lt;dbl&gt;\n# 1 0.515 49    Hawaii            7\n# 2 0.380 50    New Hampshire     5\n# 3 0.320 51    Vermont           2\n# 4 0.887 43    Wyoming           5\n# \n# [[2]]\n# # A tibble: 4 × 4\n#    rate rank  state  total\n#   &lt;dbl&gt; &lt;fct&gt; &lt;chr&gt;  &lt;dbl&gt;\n# 1 0.766 46    Idaho     12\n# 2 0.828 44    Maine     11\n# 3 0.940 42    Oregon    36\n# 4 0.796 45    Utah      22\n\n\nCombine the two data sets in df_lst using rbind().\n\n\n## code\n\n\nThe dplyr provides dplyr::bind_rows() and dplyr::bind_cols() that are analogs to rbind() and cbind() in the R base. Combine the two data sets in df_lst using bind_rows(). The result should be exactly the same as the previous one.\n\n\n## code\n\n\nCombine the two data frames data1 and data2 below using bind_rows() and rbind(). Describe what happened and their difference. (Note that the two data sets have different column names)\n\n\ndata1 &lt;- tibble(x = letters[1:5])\ndata2 &lt;- tibble(y = 1:3)\n\n\n## code (Error may happen. set eval: false if you'd like to render the document.)\n\n\nWith df, select state and total, and arrange df by total in an increasing order.\n\n\n## code\n\n\nWith df, use contains() to select column variables whose name contains the string “at”.\n\n\n## code\n\n\nBack to murders. Extract the rows whose has the largest population in its region as the shown output. The population is ranked in a decreasing order.\n\n\n## code\n\n# # A tibble: 4 × 5\n#   state      abb   region        population total\n#   &lt;chr&gt;      &lt;chr&gt; &lt;chr&gt;              &lt;dbl&gt; &lt;dbl&gt;\n# 1 California CA    West            37253956  1257\n# 2 Texas      TX    South           25145561   805\n# 3 New York   NY    Northeast       19378102   517\n# 4 Illinois   IL    North Central   12830632   364"
+    "text": "Note: For any simulation or random sampling, set the random seed at your student ID number, for example set.seed(6145678)."
   },
   {
-    "objectID": "hw/hw2.html#sec-baseball",
-    "href": "hw/hw2.html#sec-baseball",
-    "title": "Homework 2: Data Visualization and Data Wrangling",
+    "objectID": "hw/hw3.html#monte-carlo-simulation",
+    "href": "hw/hw3.html#monte-carlo-simulation",
+    "title": "Homework 3: Probability, Statistics and Machine Learning",
+    "section": "1.1 Monte Carlo Simulation",
+    "text": "1.1 Monte Carlo Simulation\n\n\n\n\n\n\n\n\n\n\n\n\nSuppose you are in a classroom with 30 people. If we assume this is a randomly selected group of 30 people, what is the chance that at least two people have the same birthday? Here we use a Monte Carlo simulation. For simplicity, we assume nobody was born on February 29.\n\n\n\nNote that birthdays can be represented as numbers between 1 and 365, so a sample of 30 birthdays can be obtained like this:\n\n\nn &lt;- 30\nbdays &lt;- sample(x = 1:365, size = n, replace = TRUE)\n\n\nTo check if in this particular set of 30 people we have at least two with the same birthday, we can use the function duplicated(), which returns TRUE whenever an element of a vector is a duplicate. Here is an example:\n\n\nduplicated(c(1, 2, 3, 1, 4, 3, 5))\n\n[1] FALSE FALSE FALSE  TRUE FALSE  TRUE FALSE\n\n\nThe second time 1 and 3 appear, we get a TRUE.\n\nTo check if two birthdays were the same, we simply use the any() and duplicated() functions like this:\n\n\nany(duplicated(bdays))\n\n[1] FALSE\n\n\nIn this case, we see that it did happen. At least two people had the same birthday.\nTo estimate the probability of a shared birthday in the group, repeat this experiment by sampling sets of 30 birthdays 10000 times, and find the relative frequency of the event that at least two people had the same birthday.\n\n## code\n# set.seed(your ID number)"
+  },
+  {
+    "objectID": "hw/hw3.html#central-limit-theorem",
+    "href": "hw/hw3.html#central-limit-theorem",
+    "title": "Homework 3: Probability, Statistics and Machine Learning",
+    "section": "1.2 Central Limit Theorem",
+    "text": "1.2 Central Limit Theorem\nSuppose random variables \\(X_1, X_2, \\dots, X_n\\) are independent and follow Chi-squared distribution with degrees of freedom 1, \\(\\chi^2_{df=1}\\).\n\nUse dchisq() to plot \\(\\chi^2_{df=1}\\) distribution. Consider \\(x\\in (0, 5)\\).\n\n\n## code\n\n\nConsider three sample sizes \\(n = 2, 8, 100\\), and set the sample size of the sample mean \\(\\overline{X}_n\\) be \\(1000\\). Show the sampling distribution of \\(\\overline{X}_n\\), i.e., the collection \\(\\{\\overline{X}_n^{(m)}\\}_{m=1}^{1000}\\), looks more and more like Gaussian as \\(n\\) increases by making histograms of \\(\\overline{X}_n\\) samples with \\(n = 2, 8, 100\\). The procedure is the following:\n\nFor each \\(n = 2, 8, 100\\),\n\nDraw \\(n\\) values \\(x_1, x_2, \\dots, x_n\\) using rchisq(n, df = 1).\nCompute the mean of the \\(n\\) values, which is \\(\\overline{x}_n\\).\nRepeat i. and ii. 1000 times to obtain 1000 \\(\\overline{x}_n\\)s.\nPlot the histogram of these 1000 \\(\\overline{x}_n\\)s.\n\n\n## code\n# set.seed(your ID number)"
+  },
+  {
+    "objectID": "hw/hw3.html#linear-regression",
+    "href": "hw/hw3.html#linear-regression",
+    "title": "Homework 3: Probability, Statistics and Machine Learning",
+    "section": "2.1 Linear Regression",
+    "text": "2.1 Linear Regression\nA pharmaceutical firm would like to obtain information on the relationship between the dose level and potency of a drug product. To do this, each of 15 test tubes is inoculated with a virus culture and incubated for 5 days at 30°C. Three test tubes are randomly assigned to each of the five different dose levels to be investigated (2, 4, 8, 16, and 32 mg). Each tube is injected with only one dose level, and the response of interest is obtained.\n\nImport dose.csv into your working session. The data set is not tidy. Use pivot_longer() to make it tidy as the shown tibble below. Call the tidy data set dose_tidy.\n\n\n## code\n\n## # A tibble: 15 × 3\n##    dose_level tube  response\n##         &lt;dbl&gt; &lt;chr&gt;    &lt;dbl&gt;\n##  1          2 tube1        5\n##  2          2 tube2        7\n##  3          2 tube3        3\n##  4          4 tube1       10\n##  5          4 tube2       12\n##  6          4 tube3       14\n##  7          8 tube1       15\n##  8          8 tube2       17\n##  9          8 tube3       18\n## 10         16 tube1       20\n## 11         16 tube2       21\n## 12         16 tube3       19\n## 13         32 tube1       23\n## 14         32 tube2       24\n## 15         32 tube3       29\n\n\nFit a simple linear regression with the predictor \\(\\texttt{dose level}\\) for response. Print the fitted result.\n\n\n## code\n\n\nWith (2), plot the data with a \\(95\\%\\) confidence interval for the mean response.\n\n\n## code\n\n\nFit a simple linear regression model with the predictor \\(\\texttt{ln(dose level)}\\) for response, where \\(\\ln = \\log_e\\). Print the fitted result.\n\n\n## code\n\n\nWith (4), plot the data \\((\\ln(\\text{dose level})_i, \\text{response}_i), i = 1, \\dots, 15\\) with a \\(95\\%\\) confidence interval for the mean response.\n\n\n## code\n\n\nDraw residual plots of Model in (2) and (4). According to the plots, which model you think is better?\n\n\n## code\n\n\nImport dose_tidy.csv and redo (2) using Python. Show the slope and intercept.\n\n\n\n# code\n\n\nUse Python to predict the response value when the dose level is 10 and 30.\n\n\n\n# code"
+  },
+  {
+    "objectID": "hw/hw3.html#logistic-regression",
+    "href": "hw/hw3.html#logistic-regression",
+    "title": "Homework 3: Probability, Statistics and Machine Learning",
+    "section": "2.2 Logistic Regression",
+    "text": "2.2 Logistic Regression\n\nImport body.csv. Split the data into a training set and a test set. Set the random seed at your student ID number. Use 80:20 rule.\n\n\n# code\n# set.seed(your ID number)\n\n\nFit a logistic regression with the predictor HEIGHT using the training sample data. Find the probability that the subject is male given HEIGHT = 165.\n\n\n# code\n\n\nFit a logistic regression with the predictor BMI using the training sample data. Find the probability that the subject is male given BMI = 25.\n\n\n# code\n\n\nDo the classification on the test set for the model (2) and (3), and compute the test accuracy rate. Which model gives us higher accuracy rate?\n\n\n# code\n\n\nUse Python to split the body data into a training set and a test set.\n\n\n\n## code\n\n\nUse Python to fit a logistic regression with the predictor BMI using the training sample data. Find the probability that the subject is male given BMI = 25.\n\n\n\n# code\n\n\nUse Python to do the classification on the test set. Compute the test accuracy rate.\n\n\n\n# code"
+  },
+  {
+    "objectID": "hw/hw3.html#k-nearest-neighbors-knn",
+    "href": "hw/hw3.html#k-nearest-neighbors-knn",
+    "title": "Homework 3: Probability, Statistics and Machine Learning",
+    "section": "2.3 K-Nearest Neighbors (KNN)",
+    "text": "2.3 K-Nearest Neighbors (KNN)\n\nFit the KNN with \\(K=1\\) and \\(10\\) using BMI on the training data and do the classification on the same test set used in logistic regression. Obtain the confusion matrix for the two \\(K\\)s. Which \\(K\\) performs better? Why?\n\n\n# code"
+  },
+  {
+    "objectID": "hw/hw1.html",
+    "href": "hw/hw1.html",
+    "title": "Homework 1: Quarto, Basic Syntax and Data Importing",
     "section": "",
-    "text": "Install and load the Lahman library. This database includes data related to baseball teams. It includes summary statistics about how the players performed on offense and defense for several years. It also includes personal information about the players. The Batting data frame contains the offensive statistics for all players for many years:\n\n\n\nRows: 112,184\nColumns: 22\n$ playerID &lt;chr&gt; \"abercda01\", \"addybo01\", \"allisar01\", \"allisdo01\", \"ansonca01…\n$ yearID   &lt;int&gt; 1871, 1871, 1871, 1871, 1871, 1871, 1871, 1871, 1871, 1871, 1…\n$ stint    &lt;int&gt; 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1…\n$ teamID   &lt;fct&gt; TRO, RC1, CL1, WS3, RC1, FW1, RC1, BS1, FW1, BS1, CL1, CL1, W…\n$ lgID     &lt;fct&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ G        &lt;int&gt; 1, 25, 29, 27, 25, 12, 1, 31, 1, 18, 22, 1, 10, 3, 20, 29, 1,…\n$ AB       &lt;int&gt; 4, 118, 137, 133, 120, 49, 4, 157, 5, 86, 89, 3, 36, 15, 94, …\n$ R        &lt;int&gt; 0, 30, 28, 28, 29, 9, 0, 66, 1, 13, 18, 0, 6, 7, 24, 26, 0, 0…\n$ H        &lt;int&gt; 0, 32, 40, 44, 39, 11, 1, 63, 1, 13, 27, 0, 7, 6, 33, 32, 0, …\n$ X2B      &lt;int&gt; 0, 6, 4, 10, 11, 2, 0, 10, 1, 2, 1, 0, 0, 0, 9, 3, 0, 0, 1, 0…\n$ X3B      &lt;int&gt; 0, 0, 5, 2, 3, 1, 0, 9, 0, 1, 10, 0, 0, 0, 1, 3, 0, 0, 1, 0, …\n$ HR       &lt;int&gt; 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0…\n$ RBI      &lt;int&gt; 0, 13, 19, 27, 16, 5, 2, 34, 1, 11, 18, 0, 1, 5, 21, 23, 0, 0…\n$ SB       &lt;int&gt; 0, 8, 3, 1, 6, 0, 0, 11, 0, 1, 0, 0, 2, 2, 4, 4, 0, 0, 3, 0, …\n$ CS       &lt;int&gt; 0, 1, 1, 1, 2, 1, 0, 6, 0, 0, 1, 0, 0, 0, 0, 4, 0, 0, 1, 0, 0…\n$ BB       &lt;int&gt; 0, 4, 2, 0, 2, 0, 1, 13, 0, 0, 3, 1, 2, 0, 2, 9, 0, 0, 4, 1, …\n$ SO       &lt;int&gt; 0, 0, 5, 2, 1, 1, 0, 1, 0, 0, 4, 0, 0, 0, 2, 2, 3, 0, 2, 0, 2…\n$ IBB      &lt;int&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ HBP      &lt;int&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ SH       &lt;int&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ SF       &lt;int&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ GIDP     &lt;int&gt; 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 1, 2, 0, 0, 0, 0, 3…\n\n\nUse Batting data to obtain the top 10 player observations that hit the most home runs (in descending order) in 2022. Call the data set top10, make it as a tibble and print it out.\n\n## code\n\n\nBut who are these players? In the top10 data, we see an ID, but not the names. The player names are in the People data set:\n\n\n\nRows: 20,676\nColumns: 26\n$ playerID     &lt;chr&gt; \"aardsda01\", \"aaronha01\", \"aaronto01\", \"aasedo01\", \"abada…\n$ birthYear    &lt;int&gt; 1981, 1934, 1939, 1954, 1972, 1985, 1850, 1877, 1869, 186…\n$ birthMonth   &lt;int&gt; 12, 2, 8, 9, 8, 12, 11, 4, 11, 10, 9, 3, 10, 2, 8, 9, 6, …\n$ birthDay     &lt;int&gt; 27, 5, 5, 8, 25, 17, 4, 15, 11, 14, 20, 16, 22, 16, 17, 1…\n$ birthCountry &lt;chr&gt; \"USA\", \"USA\", \"USA\", \"USA\", \"USA\", \"D.R.\", \"USA\", \"USA\", …\n$ birthState   &lt;chr&gt; \"CO\", \"AL\", \"AL\", \"CA\", \"FL\", \"La Romana\", \"PA\", \"PA\", \"V…\n$ birthCity    &lt;chr&gt; \"Denver\", \"Mobile\", \"Mobile\", \"Orange\", \"Palm Beach\", \"La…\n$ deathYear    &lt;int&gt; NA, 2021, 1984, NA, NA, NA, 1905, 1957, 1962, 1926, NA, 1…\n$ deathMonth   &lt;int&gt; NA, 1, 8, NA, NA, NA, 5, 1, 6, 4, NA, 2, 6, NA, NA, NA, N…\n$ deathDay     &lt;int&gt; NA, 22, 16, NA, NA, NA, 17, 6, 11, 27, NA, 13, 11, NA, NA…\n$ deathCountry &lt;chr&gt; NA, \"USA\", \"USA\", NA, NA, NA, \"USA\", \"USA\", \"USA\", \"USA\",…\n$ deathState   &lt;chr&gt; NA, \"GA\", \"GA\", NA, NA, NA, \"NJ\", \"FL\", \"VT\", \"CA\", NA, \"…\n$ deathCity    &lt;chr&gt; NA, \"Atlanta\", \"Atlanta\", NA, NA, NA, \"Pemberton\", \"Fort …\n$ nameFirst    &lt;chr&gt; \"David\", \"Hank\", \"Tommie\", \"Don\", \"Andy\", \"Fernando\", \"Jo…\n$ nameLast     &lt;chr&gt; \"Aardsma\", \"Aaron\", \"Aaron\", \"Aase\", \"Abad\", \"Abad\", \"Aba…\n$ nameGiven    &lt;chr&gt; \"David Allan\", \"Henry Louis\", \"Tommie Lee\", \"Donald Willi…\n$ weight       &lt;int&gt; 215, 180, 190, 190, 184, 235, 192, 170, 175, 169, 220, 19…\n$ height       &lt;int&gt; 75, 72, 75, 75, 73, 74, 72, 71, 71, 68, 74, 71, 70, 78, 7…\n$ bats         &lt;fct&gt; R, R, R, R, L, L, R, R, R, L, R, R, R, R, R, L, R, L, L, …\n$ throws       &lt;fct&gt; R, R, R, R, L, L, R, R, R, L, R, R, R, R, L, L, R, L, R, …\n$ debut        &lt;chr&gt; \"2004-04-06\", \"1954-04-13\", \"1962-04-10\", \"1977-07-26\", \"…\n$ finalGame    &lt;chr&gt; \"2015-08-23\", \"1976-10-03\", \"1971-09-26\", \"1990-10-03\", \"…\n$ retroID      &lt;chr&gt; \"aardd001\", \"aaroh101\", \"aarot101\", \"aased001\", \"abada001…\n$ bbrefID      &lt;chr&gt; \"aardsda01\", \"aaronha01\", \"aaronto01\", \"aasedo01\", \"abada…\n$ deathDate    &lt;date&gt; NA, 2021-01-22, 1984-08-16, NA, NA, NA, 1905-05-17, 1957…\n$ birthDate    &lt;date&gt; 1981-12-27, 1934-02-05, 1939-08-05, 1954-09-08, 1972-08-…\n\n\nWe can see column names nameFirst and nameLast. Use the left_join() function to create a table of the top home run hitters. The data table should have variables playerID, nameFirst, nameLast, and HR. Overwrite the object top10 with this new table, and print it out.\n\n## code\n\n\nUse the Fielding data frame to add each player’s position to the table you created in (2). Make sure that you filter for the year 2022 first, then use right_join(). This time show nameFirst, nameLast, teamID, HR, and POS.\n\n\n## code"
+    "text": "Please introduce yourself. You can share anything, your hometown, major, family, hobbies, working experience, honors and awards, special skills, etc, yes anything! Your autobiography should include:\n\nAt least two paragraphs (Paragraphs are separated by a blank line)\nBold text\nItalic text\nText with both bold AND italic font (Not mentioned in class, but you should be able to figure it out)\nClickable text with a hyperlink\nBlockquote\nListed items\nemoji\n\nTo make your emoji works, add from: markdown+emoji in your YAML header, like\n---\ntitle: \"My Document\"\nfrom: markdown+emoji\n---\nThen add emoji to your writing by typing :EMOJICODE:. Check emoji cheatsheet.\n\nYour Self-Introduction:"
   },
   {
-    "objectID": "hw/hw2.html#pivoting",
-    "href": "hw/hw2.html#pivoting",
-    "title": "Homework 2: Data Visualization and Data Wrangling",
-    "section": "",
-    "text": "The R built-in co2 data set is not tidy. Let’s make it tidy. Run the following code to define the co2_wide object:\n\n\nco2_wide &lt;- data.frame(matrix(co2, ncol = 12, byrow = TRUE)) |&gt; \n    setNames(1:12) |&gt; \n    mutate(year = as.character(1959:1997))\n\nUse the pivot_longer() function to make it tidy. Call the column with the CO2 measurements co2 and call the month column month. Call the resulting object co2_tidy. Print it out.\n\n## code\n\n\n## # A tibble: 468 x 3\n##    year  month   co2\n##    &lt;chr&gt; &lt;chr&gt; &lt;dbl&gt;\n##  1 1959  1      315.\n##  2 1959  2      316.\n##  3 1959  3      316.\n##  4 1959  4      318.\n##  5 1959  5      318.\n##  6 1959  6      318 \n##  7 1959  7      316.\n##  8 1959  8      315.\n##  9 1959  9      314.\n## 10 1959  10     313.\n## # … with 458 more rows"
+    "objectID": "hw/hw1.html#vector",
+    "href": "hw/hw1.html#vector",
+    "title": "Homework 1: Quarto, Basic Syntax and Data Importing",
+    "section": "3.1 Vector",
+    "text": "3.1 Vector\nUse the built-in data set LakeHuron that records annual measurements of the level, in feet, of Lake Huron 1875–1972.\n\nReturn a logical vector that shows whether the lake level is higher than the average level or not.\n\n\nReturn years that have a level higher than the average."
   },
   {
-    "objectID": "hw/hw2.html#data-manipulation-in-python",
-    "href": "hw/hw2.html#data-manipulation-in-python",
-    "title": "Homework 2: Data Visualization and Data Wrangling",
-    "section": "",
-    "text": "import numpy as np\nimport pandas as pd\n\n\nUse Python to do Section 1.1 question 1.\n\n\n\n## code\n\n\nUse Python to do Section 1.1 question 7.\n\n\n\n## code\n\n\nUse Python to do Section 1.1 question 9. [Hint:] The method pandas.DataFrame.drop_duplicates() is analogous to dplyr::distinct(). Please figure out what we should use in the argument subset and keep.\n\n\n## code\n\n\nUse Python to do Section 1.2 question 1. (Import the data Batting.csv).\n\n\n## code\n\n\nUse Python to do Section 1.2 question 2. (Import the data People.csv).\n\n\n## code"
+    "objectID": "hw/hw1.html#data-frame",
+    "href": "hw/hw1.html#data-frame",
+    "title": "Homework 1: Quarto, Basic Syntax and Data Importing",
+    "section": "3.2 Data Frame",
+    "text": "3.2 Data Frame\n\nMake the mtcars dataset as a tibble using as_tibble(). Call it tbl.\n\n\nPrint the sub data of tbl that contains the 11th to 15th rows and the last three columns.\n\n\nGrab the second and the third columns of tbl.\n\n\nExtract the fourth column of tbl as a numerical vector.\n\n\nStart with tbl, use the pipe operator |&gt; to do the followings sequentially.\n\nextract the first 10 observations (rows) using head()\nfind the column names colnames()\nsort the columns names using sort() in a decreasing order. (alphabetically from z to a)"
   },
   {
-    "objectID": "hw/hw2.html#murders",
-    "href": "hw/hw2.html#murders",
-    "title": "Homework 2: Data Visualization and Data Wrangling",
-    "section": "2.1 murders",
-    "text": "2.1 murders\nUse murders to make plots.\n\nCreate a scatter plot of total murders (x-axis) versus population sizes (y-axis) using the pipe operator |&gt; that the murders data set is on the left to |&gt;.\n\n\n## code\n\n\nGenerate the plot below using label and color aesthetics in aes() and a geometry layer geom_label(). Save the ggplot object as p. Here, we add abbreviation as the label, and make the labels’ color be determined by the state’s region.\n\n\n## code\n\n\n\n\n\n\n\n\n\n\n\nUse the object p in (2) and\n\n\nChange both axes to be in the \\(\\log_{10}\\) scale using scale_x_log10() and scale_y_log10()\nAdd a title “Gun murder data”\nUse the wall street journal theme in ggthemes.\n\n\n## code"
+    "objectID": "hw/hw1.html#data-importing",
+    "href": "hw/hw1.html#data-importing",
+    "title": "Homework 1: Quarto, Basic Syntax and Data Importing",
+    "section": "3.3 Data Importing",
+    "text": "3.3 Data Importing\n\nUse readxl::read_excel() to read the data sales.xlsx in the data folder. Use arguments sheet, skip and col_names so that the output looks like\n# A tibble: 9 x 2\n  id      n    \n  &lt;chr&gt;   &lt;chr&gt;\n1 Brand 1 n    \n2 1234    8    \n3 8721    2    \n4 1822    3    \n5 Brand 2 n    \n6 3333    1    \n# … with 3 more rows\n\n\nUse readxl::read_excel() to read in the favourite-food.xlsx file in the data folder and call the data fav_food. Use the argument na to treat “N/A” and “99999” as a missing value. Print the data out."
   },
   {
-    "objectID": "hw/hw2.html#mpg",
-    "href": "hw/hw2.html#mpg",
-    "title": "Homework 2: Data Visualization and Data Wrangling",
-    "section": "2.2 mpg",
-    "text": "2.2 mpg\nUse mpg to make plots.\n\nWhat’s gone wrong with this code? Why are the points not blue? Change it so that the points are colored in blue.\n\n\nmpg |&gt; ggplot(mapping = aes(x = displ, y = hwy, colour = \"blue\")) +\n    geom_point()\n\n\n\n\n\n\n\n\n\nGenerate the bar chart below.\n\n\n## code\n\n\n\n\n\n\n\n\n\n\n\nComplete the code to generate the boxplot below. Note that x = class and y = hwy, so the coordinates need to be flipped.\n\n\n## code\n\n\n\n\n\n\n\n\n\n\n\nGenerate the histogram below with density scale. Map y to the internal variable ..density.. (after_stat(density)) to show density values. Put the legend inside the plot at c(0.9, 0.15). (check ?theme help page)\n\n\n## code\n\n\n\n\n\n\n\n\n\n\n\nGenerate the scatter plot below.\n\n\n## code"
+    "objectID": "hw/hw1.html#pandas-data-frame",
+    "href": "hw/hw1.html#pandas-data-frame",
+    "title": "Homework 1: Quarto, Basic Syntax and Data Importing",
+    "section": "4.1 Pandas Data Frame",
+    "text": "4.1 Pandas Data Frame\n\nImport the data set mtcars.csv using pd.read_csv(). Then print the first five rows.\n\n\nUse method .iloc to obtain the first and fourth rows, and the second and third columns. Name the data dfcar.\n\n\nSet the row names of dfcar to Mazda and Hornet.\n\n\nUse method .loc to obtain row Hornet and column disp."
   },
   {
-    "objectID": "weeks/week-14.html",
-    "href": "weeks/week-14.html",
-    "title": "Week 14",
+    "objectID": "hw/hw1.html#numpy-array",
+    "href": "hw/hw1.html#numpy-array",
+    "title": "Homework 1: Quarto, Basic Syntax and Data Importing",
+    "section": "4.2 NumPy Array",
+    "text": "4.2 NumPy Array\nIn class, we learned the R data structure matrix:\n\nmat &lt;- matrix(data = 1:6, nrow = 3, ncol = 2)\nmat[c(1, 3), 1] \nmat_c &lt;- matrix(data = c(7, 0, 0, 8, 2, 6), nrow = 3, ncol = 2)\ncbind(mat, mat_c)  \n\n\nUse NumPy methods to create an array equivalent to mat. Call it mat_py.\n\n\nSubset the mat_py so that the result is equivalent to mat[c(1, 3), 1].\n\n\nCreate an array equivalent to mat_c. Call it mat_py_c. Then combine them by columns using np.hstack()."
+  },
+  {
+    "objectID": "weeks/week-15.html",
+    "href": "weeks/week-15.html",
+    "title": "Week 15",
     "section": "",
     "text": "Important",
     "crumbs": [
       "Weekly materials",
-      "Week 14"
+      "Week 15"
     ]
   },
   {
-    "objectID": "weeks/week-14.html#participate",
-    "href": "weeks/week-14.html#participate",
-    "title": "Week 14",
+    "objectID": "weeks/week-15.html#participate",
+    "href": "weeks/week-15.html#participate",
+    "title": "Week 15",
     "section": "Participate",
-    "text": "Participate\n🖥️ Slides - K Nearest Neighbors\nr fontawesome::fa(\"table\") Data - body",
+    "text": "Participate\n🖥️ Slides - Principal Component Analysis\nr fontawesome::fa(\"table\") USArrests",
     "crumbs": [
       "Weekly materials",
-      "Week 14"
+      "Week 15"
     ]
   },
   {
-    "objectID": "weeks/week-14.html#reading",
-    "href": "weeks/week-14.html#reading",
-    "title": "Week 14",
+    "objectID": "weeks/week-15.html#reading",
+    "href": "weeks/week-15.html#reading",
+    "title": "Week 15",
     "section": "Reading",
     "text": "Reading\n📖",
     "crumbs": [
       "Weekly materials",
-      "Week 14"
+      "Week 15"
     ]
   },
   {
-    "objectID": "weeks/week-14.html#exercise",
-    "href": "weeks/week-14.html#exercise",
-    "title": "Week 14",
+    "objectID": "weeks/week-15.html#exercise",
+    "href": "weeks/week-15.html#exercise",
+    "title": "Week 15",
     "section": "Exercise",
-    "text": "Exercise\n📋 Lab-22 K Nearest Neighbors\n\n\nBack to course schedule ⏎",
+    "text": "Exercise\n📋 Lab-23 Principal Component Analysis\nr fontawesome::fa(\"table\") iris\n\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
-      "Week 14"
+      "Week 15"
     ]
   },
   {
-    "objectID": "weeks/week-8.html",
-    "href": "weeks/week-8.html",
-    "title": "Week 8",
+    "objectID": "weeks/week-16.html",
+    "href": "weeks/week-16.html",
+    "title": "Week 16",
     "section": "",
     "text": "Important",
     "crumbs": [
       "Weekly materials",
-      "Week 8"
+      "Week 16"
     ]
   },
   {
-    "objectID": "weeks/week-8.html#participate",
-    "href": "weeks/week-8.html#participate",
-    "title": "Week 8",
+    "objectID": "weeks/week-16.html#participate",
+    "href": "weeks/week-16.html#participate",
+    "title": "Week 16",
     "section": "Participate",
-    "text": "Participate\n🖥️ Slides - Data Wrangling (one data frame)\n🖥️ Slides - Data Wrangling - two data frames\n Data - Pop_x and elec_vote_y\n\nlibrary(tidyverse)\nlibrary(dslabs)\npop_x &lt;- murders |&gt; \n    slice(1:6) |&gt;\n    select(state, population)\n\nelec_vote_y &lt;- results_us_election_2016 |&gt; \n    filter(state %in% c(\"Alabama\", \"Alaska\", \"Arizona\", \n                        \"California\", \"Connecticut\", \"Delaware\")) |&gt; \n    select(state, electoral_votes) |&gt; \n    rename(elec_vote = electoral_votes)\n\n Data - Customers",
+    "text": "Participate\n🖥️ Slides - K-Means Clustering\n Data - clus_data",
     "crumbs": [
       "Weekly materials",
-      "Week 8"
+      "Week 16"
     ]
   },
   {
-    "objectID": "weeks/week-8.html#reading-and-resources",
-    "href": "weeks/week-8.html#reading-and-resources",
-    "title": "Week 8",
-    "section": "Reading and Resources",
-    "text": "Reading and Resources\n📖 R for Data Science - Joins\n📖 R for Data Science - Data tidying",
-    "crumbs": [
-      "Weekly materials",
-      "Week 8"
-    ]
-  },
-  {
-    "objectID": "weeks/week-8.html#exercise",
-    "href": "weeks/week-8.html#exercise",
-    "title": "Week 8",
-    "section": "Exercise",
-    "text": "Exercise\n📋 Lab-15 dplyr\n Data - Murders\n📋 Lab-16 Joining tables\n https://www.jaredlander.com/data/DiamondColors.csv\n ggplot2::diamonds\n\n\nBack to course schedule ⏎",
-    "crumbs": [
-      "Weekly materials",
-      "Week 8"
-    ]
-  },
-  {
-    "objectID": "weeks/week-9.html",
-    "href": "weeks/week-9.html",
-    "title": "Week 9",
-    "section": "",
-    "text": "Important\n\n\n\n\n\n\nHappy spring break!\n\n\nBack to course schedule ⏎",
-    "crumbs": [
-      "Weekly materials",
-      "Week 9"
-    ]
-  },
-  {
-    "objectID": "weeks/week-12.html",
-    "href": "weeks/week-12.html",
-    "title": "Week 12",
-    "section": "",
-    "text": "Important",
-    "crumbs": [
-      "Weekly materials",
-      "Week 12"
-    ]
-  },
-  {
-    "objectID": "weeks/week-12.html#participate",
-    "href": "weeks/week-12.html#participate",
-    "title": "Week 12",
-    "section": "Participate",
-    "text": "Participate\n🖥️ Slides - Linear Regression\nr fontawesome::fa(\"table\") ggplot2::mpg",
-    "crumbs": [
-      "Weekly materials",
-      "Week 12"
-    ]
-  },
-  {
-    "objectID": "weeks/week-12.html#reading",
-    "href": "weeks/week-12.html#reading",
-    "title": "Week 12",
+    "objectID": "weeks/week-16.html#reading",
+    "href": "weeks/week-16.html#reading",
+    "title": "Week 16",
     "section": "Reading",
     "text": "Reading\n📖",
     "crumbs": [
       "Weekly materials",
-      "Week 12"
+      "Week 16"
     ]
   },
   {
-    "objectID": "weeks/week-12.html#exercise",
-    "href": "weeks/week-12.html#exercise",
-    "title": "Week 12",
+    "objectID": "weeks/week-16.html#exercise",
+    "href": "weeks/week-16.html#exercise",
+    "title": "Week 16",
     "section": "Exercise",
-    "text": "Exercise\n📋 Lab-20 Simple Linear Regression\n\n\nBack to course schedule ⏎",
+    "text": "Exercise\n📋 Lab-24 K-Means Clustering\n palmerpenguins::penguins\n\nlibrary(palmerpenguins)\npeng &lt;- penguins[complete.cases(penguins), ] |&gt; \n    select(flipper_length_mm, bill_length_mm)\n\n\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
-      "Week 12"
+      "Week 16"
     ]
   },
   {
-    "objectID": "weeks/week-11.html",
-    "href": "weeks/week-11.html",
-    "title": "Week 11",
+    "objectID": "weeks/week-5-old.html",
+    "href": "weeks/week-5-old.html",
+    "title": "Week 6",
+    "section": "",
+    "text": "Important"
+  },
+  {
+    "objectID": "weeks/week-5-old.html#participate",
+    "href": "weeks/week-5-old.html#participate",
+    "title": "Week 6",
+    "section": "Participate",
+    "text": "Participate\n🖥️ Slides - Data Importing\nr fontawesome::fa(\"table\") murders.csv\nr fontawesome::fa(\"table\") df-na.csv\nr fontawesome::fa(\"table\") cars.rds\nr fontawesome::fa(\"table\") 2010_bigfive_regents.xls"
+  },
+  {
+    "objectID": "weeks/week-5-old.html#reading-and-resources",
+    "href": "weeks/week-5-old.html#reading-and-resources",
+    "title": "Week 6",
+    "section": "Reading and Resources",
+    "text": "Reading and Resources\n📖 R for Data Science - Data Import\n📖 R for Data Science - Data Visualization"
+  },
+  {
+    "objectID": "weeks/week-5-old.html#exercise",
+    "href": "weeks/week-5-old.html#exercise",
+    "title": "Week 6",
+    "section": "Exercise",
+    "text": "Exercise\n📋 Lab-10 Data Importing\nr fontawesome::fa(\"table\") ssa_male_prob.csv\nr fontawesome::fa(\"table\") ssa_female_prob.Rds\n\n\nBack to course schedule ⏎"
+  },
+  {
+    "objectID": "weeks/week-13.html",
+    "href": "weeks/week-13.html",
+    "title": "Week 13",
     "section": "",
     "text": "Important",
     "crumbs": [
       "Weekly materials",
-      "Week 11"
+      "Week 13"
     ]
   },
   {
-    "objectID": "weeks/week-11.html#participate",
-    "href": "weeks/week-11.html#participate",
-    "title": "Week 11",
+    "objectID": "weeks/week-13.html#participate",
+    "href": "weeks/week-13.html#participate",
+    "title": "Week 13",
     "section": "Participate",
-    "text": "Participate\n🖥️ Slides - Probability and Statistics",
+    "text": "Participate\n🖥️ Slides - Logistic Regression\nr fontawesome::fa(\"table\") Data - body",
     "crumbs": [
       "Weekly materials",
-      "Week 11"
+      "Week 13"
     ]
   },
   {
-    "objectID": "weeks/week-11.html#exercise",
-    "href": "weeks/week-11.html#exercise",
-    "title": "Week 11",
+    "objectID": "weeks/week-13.html#reading",
+    "href": "weeks/week-13.html#reading",
+    "title": "Week 13",
+    "section": "Reading",
+    "text": "Reading\n📖",
+    "crumbs": [
+      "Weekly materials",
+      "Week 13"
+    ]
+  },
+  {
+    "objectID": "weeks/week-13.html#exercise",
+    "href": "weeks/week-13.html#exercise",
+    "title": "Week 13",
     "section": "Exercise",
-    "text": "Exercise\n📋 Lab-19 Confidence Interval\n\n\nBack to course schedule ⏎",
+    "text": "Exercise\n📋 Lab-21 Logistic Regression\n\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
-      "Week 11"
+      "Week 13"
     ]
   },
   {
-    "objectID": "weeks/week-2.html",
-    "href": "weeks/week-2.html",
-    "title": "Week 2",
+    "objectID": "weeks/week-10.html",
+    "href": "weeks/week-10.html",
+    "title": "Week 10",
     "section": "",
     "text": "Important",
     "crumbs": [
       "Weekly materials",
-      "Week 2"
+      "Week 10"
     ]
   },
   {
-    "objectID": "weeks/week-2.html#participate",
-    "href": "weeks/week-2.html#participate",
-    "title": "Week 2",
+    "objectID": "weeks/week-10.html#participate",
+    "href": "weeks/week-10.html#participate",
+    "title": "Week 10",
     "section": "Participate",
-    "text": "Participate\n🖥️ Slides - Git/GitHub\n🖥️ Slides - Quarto",
+    "text": "Participate\n🖥️ Slides - Tidying Data\n🖥️ Slides - Probability and Statistics",
     "crumbs": [
       "Weekly materials",
-      "Week 2"
+      "Week 10"
     ]
   },
   {
-    "objectID": "weeks/week-2.html#perform",
-    "href": "weeks/week-2.html#perform",
-    "title": "Week 2",
+    "objectID": "weeks/week-10.html#exercise",
+    "href": "weeks/week-10.html#exercise",
+    "title": "Week 10",
+    "section": "Exercise",
+    "text": "Exercise\n📋 Lab-17 tidyr\nr fontawesome::fa(\"table\") trump.csv\n📋 Lab-18 Probability\n\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 10"
+    ]
+  },
+  {
+    "objectID": "weeks/week-3.html",
+    "href": "weeks/week-3.html",
+    "title": "Week 3",
+    "section": "",
+    "text": "Important",
+    "crumbs": [
+      "Weekly materials",
+      "Week 3"
+    ]
+  },
+  {
+    "objectID": "weeks/week-3.html#participate",
+    "href": "weeks/week-3.html#participate",
+    "title": "Week 3",
+    "section": "Participate",
+    "text": "Participate\n🖥️ Slides - Quarto\n🖥️ Slides - R/Python Syntax",
+    "crumbs": [
+      "Weekly materials",
+      "Week 3"
+    ]
+  },
+  {
+    "objectID": "weeks/week-3.html#exercise",
+    "href": "weeks/week-3.html#exercise",
+    "title": "Week 3",
+    "section": "Exercise",
+    "text": "Exercise\n📋 Lab-02 Quarto File\n📋 Lab-03 Markdown\n📋 Lab-04 Code Chunk\n📋 Lab-05 R Data Summary\n📋 Lab-06 Python Data Structure\n📋 Lab-07 Plotting",
+    "crumbs": [
+      "Weekly materials",
+      "Week 3"
+    ]
+  },
+  {
+    "objectID": "weeks/week-3.html#reading-and-resources",
+    "href": "weeks/week-3.html#reading-and-resources",
+    "title": "Week 3",
+    "section": "Reading and Resources",
+    "text": "Reading and Resources\n📖 The R Graph Gallery\n📖 matplotlib\n\nMarkdown\n📖 Markdown Tutorial\n📖 Mastering Markdown GitHub Guides\n📖 Markdown Guide\n\n\nQuarto\n📖 Quarto Website\n📖 Get Started with Quarto\n📖 R for Data Science - Quarto\n\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 3"
+    ]
+  },
+  {
+    "objectID": "weeks/week-4.html",
+    "href": "weeks/week-4.html",
+    "title": "Week 4",
+    "section": "",
+    "text": "Important",
+    "crumbs": [
+      "Weekly materials",
+      "Week 4"
+    ]
+  },
+  {
+    "objectID": "weeks/week-4.html#participate",
+    "href": "weeks/week-4.html#participate",
+    "title": "Week 4",
+    "section": "Participate",
+    "text": "Participate\n🖥️ Slides - R/Python Syntax",
+    "crumbs": [
+      "Weekly materials",
+      "Week 4"
+    ]
+  },
+  {
+    "objectID": "weeks/week-4.html#reading-and-resources",
+    "href": "weeks/week-4.html#reading-and-resources",
+    "title": "Week 4",
+    "section": "Reading and Resources",
+    "text": "Reading and Resources\n📖 The R Graph Gallery\n📖 matplotlib",
+    "crumbs": [
+      "Weekly materials",
+      "Week 4"
+    ]
+  },
+  {
+    "objectID": "weeks/week-4.html#perform",
+    "href": "weeks/week-4.html#perform",
+    "title": "Week 4",
     "section": "Perform",
-    "text": "Perform\n📋 Lab-00 Git/GitHub\n📋 Lab-02 Quarto File\n📋 Lab-03 Markdown\n📋 Lab-04 Code Chunk",
+    "text": "Perform\n📋 Lab-05 R Data Summary\n📋 Lab-06 Python Data Structure\n📋 Lab-07 Plotting\n\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
-      "Week 2"
+      "Week 4"
     ]
   },
   {
-    "objectID": "weeks/week-2.html#reading-and-resources",
-    "href": "weeks/week-2.html#reading-and-resources",
-    "title": "Week 2",
-    "section": "Reading and Resources",
-    "text": "Reading and Resources\n\nGit/GitHub\n📖 Create a personal access token (PAT)\n📖 Two-factor authentication\n📖 Git hands-on session within RStudio\n📖 Happy Git and GitHub for the useR\n📖 Happier version control with Git and GitHub\n\n\nMarkdown\n📖 Markdown Tutorial\n📖 Mastering Markdown GitHub Guides\n📖 Markdown Guide\n\n\nQuarto\n📖 Quarto Website\n📖 Get Started with Quarto\n📖 R for Data Science - Quarto\n\n\nBack to course schedule ⏎",
-    "crumbs": [
-      "Weekly materials",
-      "Week 2"
-    ]
-  },
-  {
-    "objectID": "weeks/week-1.html",
-    "href": "weeks/week-1.html",
-    "title": "Week 1",
-    "section": "",
-    "text": "📖 Read the syllabus\n📖 Get your laptop and computing environment ready!",
-    "crumbs": [
-      "Weekly materials",
-      "Week 1"
-    ]
-  },
-  {
-    "objectID": "weeks/week-1.html#prepare",
-    "href": "weeks/week-1.html#prepare",
-    "title": "Week 1",
-    "section": "",
-    "text": "📖 Read the syllabus\n📖 Get your laptop and computing environment ready!",
-    "crumbs": [
-      "Weekly materials",
-      "Week 1"
-    ]
-  },
-  {
-    "objectID": "weeks/week-1.html#reading-and-resources",
-    "href": "weeks/week-1.html#reading-and-resources",
-    "title": "Week 1",
-    "section": "Reading and Resources",
-    "text": "Reading and Resources\n📖 R for Data Science - Introduction\n📖 R for Data Science - Whole game\n📖 RStudio IDE Cheatsheet\n📖 Posit Cloud Documentation",
-    "crumbs": [
-      "Weekly materials",
-      "Week 1"
-    ]
-  },
-  {
-    "objectID": "weeks/week-1.html#participate",
-    "href": "weeks/week-1.html#participate",
-    "title": "Week 1",
-    "section": "Participate",
-    "text": "Participate\n🖥️ Slides - Welcome to MATH/COSC 3570\n🖥️ Slides - Overview of Data Science\n🖥️ Slides - Posit Cloud\n🖥️ Slides - Git/GitHub\n\n\n\n\n\nggplot2::mpg",
-    "crumbs": [
-      "Weekly materials",
-      "Week 1"
-    ]
-  },
-  {
-    "objectID": "weeks/week-1.html#perform",
-    "href": "weeks/week-1.html#perform",
-    "title": "Week 1",
-    "section": "Perform",
-    "text": "Perform\n📋 Lab-00 Posit Cloud\n📋 Lab-01 Running R Script\n\n\nBack to course schedule ⏎",
-    "crumbs": [
-      "Weekly materials",
-      "Week 1"
-    ]
-  },
-  {
-    "objectID": "weeks/week-5.html",
-    "href": "weeks/week-5.html",
-    "title": "Week 5",
+    "objectID": "weeks/week-7.html",
+    "href": "weeks/week-7.html",
+    "title": "Week 7",
     "section": "",
     "text": "Important",
     "crumbs": [
       "Weekly materials",
-      "Week 5"
+      "Week 7"
     ]
   },
   {
-    "objectID": "weeks/week-5.html#participate",
-    "href": "weeks/week-5.html#participate",
-    "title": "Week 5",
+    "objectID": "weeks/week-7.html#participate",
+    "href": "weeks/week-7.html#participate",
+    "title": "Week 7",
     "section": "Participate",
-    "text": "Participate\n🖥️ Slides - R/Python for Data Science",
+    "text": "Participate\n🖥️ Slides -Visualizing Data\n🖥️ Slides - Interactive Visualization\nr fontawesome::fa(\"table\") Data - loans\nr fontawesome::fa(\"table\") Data - Murders",
     "crumbs": [
       "Weekly materials",
-      "Week 5"
+      "Week 7"
     ]
   },
   {
-    "objectID": "weeks/week-5.html#reading-and-resources",
-    "href": "weeks/week-5.html#reading-and-resources",
-    "title": "Week 5",
+    "objectID": "weeks/week-7.html#reading-and-resources",
+    "href": "weeks/week-7.html#reading-and-resources",
+    "title": "Week 7",
     "section": "Reading and Resources",
-    "text": "Reading and Resources\n📖 tibbles\n📖 pipes\n📖 NumPy\n📖 pandas",
+    "text": "Reading and Resources\n📖 More add-on r emo::ji(\"package\"): ggplot2 extensions\n📖 The R Graph Gallery\n📖 R Graphics Cookbook\n📖 R CHARTS\n📖 R for Data Science - Data Transformation",
     "crumbs": [
       "Weekly materials",
-      "Week 5"
+      "Week 7"
     ]
   },
   {
-    "objectID": "weeks/week-5.html#exercise",
-    "href": "weeks/week-5.html#exercise",
-    "title": "Week 5",
+    "objectID": "weeks/week-7.html#exercise",
+    "href": "weeks/week-7.html#exercise",
+    "title": "Week 7",
     "section": "Exercise",
-    "text": "Exercise\n📋 Lab-08 tibbles and pipe\n📋 Lab-09 NumPy and pandas\n\n\nBack to course schedule ⏎",
+    "text": "Exercise\n📋 Lab-12 Faceting\n📋 Lab-13 Visualization\n📋 Lab-14 Interactive Visualization (Present)\n\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
-      "Week 5"
+      "Week 7"
     ]
   },
   {
-    "objectID": "weeks/week-6.html",
-    "href": "weeks/week-6.html",
-    "title": "Week 6",
+    "objectID": "present-work.html",
+    "href": "present-work.html",
+    "title": "Midterm Visualization Project",
     "section": "",
-    "text": "Important",
+    "text": "The Whales: Brady Nelson, Brody Roessler, Christian Filardo, Dorien Vazquez, Filip Kisielewski\n\n\n\nAnalytics Avengers (4): Sophia Bryant, Kumassi Browne, Charles Kendrick Jr, Isabel Bauer\n\n\n\nSyntax Squad: Nick Panoske, Kate Gibson, Annika Lautenbach, Simon Glarner, Sophia Ferru\n\n\n\nData Detectives: Jordan Dubeck, Justice Milhoan, Grace Placko, Jane Harvey, Madison Zursin\n\n\n\nHala Madrid: Abdullah Al-Refai, Labeeb Awan, Kevin Esquivel, Derian Esquivel, Tyler Smith\n\n\n\nThe Back Right corner: Luke Syverud, Isaac Kujak, Elizabeth Ruiz, Maxwell Creager-Roberts, Kaia Lui\n\n\n\nThe Outliers: Spencer Christensen, Peter Kaull, Dean Lang, Joshua Hunter, Marcin Tutaj\n\n\n\nBlock Blasters: Lucy McGovern, Emma Kimball, Riley Abrahamson, Brianna Velez, Napoleon Her\n\nWhat Makes a Song Danceable?\n\nIntermediate Wizards: Kyle Forsberg, Luke Bondi, Justin Hoffman, Sam Wolf, Ava Unertl\n\n\n\nTeamName: Jack Anderson, Nathan Rusch, Nirmay Kathuria, Wilson von Bohlen, Juan De Los Santos",
     "crumbs": [
-      "Weekly materials",
-      "Week 6"
+      "Mini Project",
+      "Topics and Works"
     ]
   },
   {
-    "objectID": "weeks/week-6.html#participate",
-    "href": "weeks/week-6.html#participate",
-    "title": "Week 6",
-    "section": "Participate",
-    "text": "Participate\n🖥️ Slides - ggplot2\nr fontawesome::fa(\"table\") openintro::loans_full_schema",
+    "objectID": "present-work.html#group-projects-proposal",
+    "href": "present-work.html#group-projects-proposal",
+    "title": "Midterm Visualization Project",
+    "section": "",
+    "text": "The Whales: Brady Nelson, Brody Roessler, Christian Filardo, Dorien Vazquez, Filip Kisielewski\n\n\n\nAnalytics Avengers (4): Sophia Bryant, Kumassi Browne, Charles Kendrick Jr, Isabel Bauer\n\n\n\nSyntax Squad: Nick Panoske, Kate Gibson, Annika Lautenbach, Simon Glarner, Sophia Ferru\n\n\n\nData Detectives: Jordan Dubeck, Justice Milhoan, Grace Placko, Jane Harvey, Madison Zursin\n\n\n\nHala Madrid: Abdullah Al-Refai, Labeeb Awan, Kevin Esquivel, Derian Esquivel, Tyler Smith\n\n\n\nThe Back Right corner: Luke Syverud, Isaac Kujak, Elizabeth Ruiz, Maxwell Creager-Roberts, Kaia Lui\n\n\n\nThe Outliers: Spencer Christensen, Peter Kaull, Dean Lang, Joshua Hunter, Marcin Tutaj\n\n\n\nBlock Blasters: Lucy McGovern, Emma Kimball, Riley Abrahamson, Brianna Velez, Napoleon Her\n\nWhat Makes a Song Danceable?\n\nIntermediate Wizards: Kyle Forsberg, Luke Bondi, Justin Hoffman, Sam Wolf, Ava Unertl\n\n\n\nTeamName: Jack Anderson, Nathan Rusch, Nirmay Kathuria, Wilson von Bohlen, Juan De Los Santos",
     "crumbs": [
-      "Weekly materials",
-      "Week 6"
+      "Mini Project",
+      "Topics and Works"
     ]
   },
   {
-    "objectID": "weeks/week-6.html#reading-and-resources",
-    "href": "weeks/week-6.html#reading-and-resources",
-    "title": "Week 6",
-    "section": "Reading and Resources",
-    "text": "Reading and Resources\n📖 More add-on r emo::ji(\"package\"): ggplot2 extensions\n📖 The R Graph Gallery\n📖 R Graphics Cookbook\n📖 R CHARTS",
+    "objectID": "present-work.html#presentation-order",
+    "href": "present-work.html#presentation-order",
+    "title": "Midterm Visualization Project",
+    "section": "Presentation order",
+    "text": "Presentation order",
     "crumbs": [
-      "Weekly materials",
-      "Week 6"
+      "Mini Project",
+      "Topics and Works"
     ]
   },
   {
-    "objectID": "weeks/week-6.html#exercise",
-    "href": "weeks/week-6.html#exercise",
-    "title": "Week 6",
-    "section": "Exercise",
-    "text": "Exercise\n📋 Lab-11 ggplot2\nr fontawesome::fa(\"table\") penguins.csv\n\n\nBack to course schedule ⏎",
-    "crumbs": [
-      "Weekly materials",
-      "Week 6"
-    ]
+    "objectID": "LICENSE.html#creative-commons-attribution-sharealike-4.0-international-public-license",
+    "href": "LICENSE.html#creative-commons-attribution-sharealike-4.0-international-public-license",
+    "title": "Attribution-ShareAlike 4.0 International",
+    "section": "Creative Commons Attribution-ShareAlike 4.0 International Public License",
+    "text": "Creative Commons Attribution-ShareAlike 4.0 International Public License\nBy exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-ShareAlike 4.0 International Public License (“Public License”). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.\n\nSection 1 – Definitions.\n\nAdapted Material means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.\nAdapter’s License means the license You apply to Your Copyright and Similar Rights in Your contributions to Adapted Material in accordance with the terms and conditions of this Public License.\nBY-SA Compatible License means a license listed at creativecommons.org/compatiblelicenses, approved by Creative Commons as essentially the equivalent of this Public License.\nCopyright and Similar Rights means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(b)(1)-(2) are not Copyright and Similar Rights.\nEffective Technological Measures means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.\nExceptions and Limitations means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.\nLicense Elements means the license attributes listed in the name of a Creative Commons Public License. The License Elements of this Public License are Attribution and ShareAlike.\nLicensed Material means the artistic or literary work, database, or other material to which the Licensor applied this Public License.\nLicensed Rights means the rights granted to You subject to the terms and conditions of this Public License, which are limited to all Copyright and Similar Rights that apply to Your use of the Licensed Material and that the Licensor has authority to license.\nLicensor means the individual(s) or entity(ies) granting rights under this Public License.\nShare means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.\nSui Generis Database Rights means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.\nYou means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.\n\n\n\nSection 2 – Scope.\n\nLicense grant.\n\nSubject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:\nA. reproduce and Share the Licensed Material, in whole or in part; and\nB. produce, reproduce, and Share Adapted Material.\nExceptions and Limitations. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.\nTerm. The term of this Public License is specified in Section 6(a).\nMedia and formats; technical modifications allowed. The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created, and to make technical modifications necessary to do so. The Licensor waives and/or agrees not to assert any right or authority to forbid You from making technical modifications necessary to exercise the Licensed Rights, including technical modifications necessary to circumvent Effective Technological Measures. For purposes of this Public License, simply making modifications authorized by this Section 2(a)(4) never produces Adapted Material.\nDownstream recipients.\nA. Offer from the Licensor – Licensed Material. Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.\nB. Additional offer from the Licensor – Adapted Material. Every recipient of Adapted Material from You automatically receives an offer from the Licensor to exercise the Licensed Rights in the Adapted Material under the conditions of the Adapter’s License You apply.\nC. No downstream restrictions. You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.\nNo endorsement. Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are, or that Your use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution as provided in Section 3(a)(1)(A)(i).\n\nOther rights.\n\nMoral rights, such as the right of integrity, are not licensed under this Public License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.\nPatent and trademark rights are not licensed under this Public License.\nTo the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties.\n\n\n\n\nSection 3 – License Conditions.\nYour exercise of the Licensed Rights is expressly made subject to the following conditions.\n\nAttribution.\n\nIf You Share the Licensed Material (including in modified form), You must:\nA. retain the following if it is supplied by the Licensor with the Licensed Material:\n\nidentification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);\na copyright notice;\na notice that refers to this Public License;\na notice that refers to the disclaimer of warranties;\na URI or hyperlink to the Licensed Material to the extent reasonably practicable;\n\nB. indicate if You modified the Licensed Material and retain an indication of any previous modifications; and\nC. indicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.\nYou may satisfy the conditions in Section 3(a)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.\nIf requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.\n\nShareAlike.\n\nIn addition to the conditions in Section 3(a), if You Share Adapted Material You produce, the following conditions also apply.\n\nThe Adapter’s License You apply must be a Creative Commons license with the same License Elements, this version or later, or a BY-SA Compatible License.\nYou must include the text of, or the URI or hyperlink to, the Adapter’s License You apply. You may satisfy this condition in any reasonable manner based on the medium, means, and context in which You Share Adapted Material.\nYou may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, Adapted Material that restrict exercise of the rights granted under the Adapter’s License You apply.\n\n\n\nSection 4 – Sui Generis Database Rights.\nWhere the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:\n\nfor the avoidance of doubt, Section 2(a)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database;\nif You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material, including for purposes of Section 3(b); and\nYou must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.\n\nFor the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.\n\n\nSection 5 – Disclaimer of Warranties and Limitation of Liability.\n\nUnless otherwise separately undertaken by the Licensor, to the extent possible, the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable. Where disclaimers of warranties are not allowed in full or in part, this disclaimer may not apply to You.\nTo the extent possible, in no event will the Licensor be liable to You on any legal theory (including, without limitation, negligence) or otherwise for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages arising out of this Public License or use of the Licensed Material, even if the Licensor has been advised of the possibility of such losses, costs, expenses, or damages. Where a limitation of liability is not allowed in full or in part, this limitation may not apply to You.\nThe disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.\n\n\n\nSection 6 – Term and Termination.\n\nThis Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.\nWhere Your right to use the Licensed Material has terminated under Section 6(a), it reinstates:\n\nautomatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or\nupon express reinstatement by the Licensor.\n\nFor the avoidance of doubt, this Section 6(b) does not affect any right the Licensor may have to seek remedies for Your violations of this Public License.\nFor the avoidance of doubt, the Licensor may also offer the Licensed Material under separate terms or conditions or stop distributing the Licensed Material at any time; however, doing so will not terminate this Public License.\nSections 1, 5, 6, 7, and 8 survive termination of this Public License.\n\n\n\nSection 7 – Other Terms and Conditions.\n\nThe Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.\nAny arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.\n\n\n\nSection 8 – Interpretation.\n\nFor the avoidance of doubt, this Public License does not, and shall not be interpreted to, reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this Public License.\nTo the extent possible, if any provision of this Public License is deemed unenforceable, it shall be automatically reformed to the minimum extent necessary to make it enforceable. If the provision cannot be reformed, it shall be severed from this Public License without affecting the enforceability of the remaining terms and conditions.\nNo term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.\nNothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.\n\n\nCreative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” The text of the Creative Commons public licenses is dedicated to the public domain under the CC0 Public Domain Dedication. Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.\nCreative Commons may be contacted at creativecommons.org."
   },
   {
     "objectID": "present-description.html",
@@ -1994,7 +2075,7 @@
     "href": "present-description.html#sec-grading",
     "title": "MATH/COSC 3570 Mini Project Presentation",
     "section": "Evaluation and Grading",
-    "text": "Evaluation and Grading\n\nYour project performance is evaluated by Dr. Yu and the TA that is based on the following rubric:\n\n\nRubric\n\n\n\n\n\n\n\n\n\nCriteria\nExcellent\nGood\nFair\nEmerging\n\n\n\n\nData Understanding (15%)\nClearly explains the dataset, its source, and key variables. Provides meaningful insights.\nShows good understanding with clear explanations and some strong insights. A few minor details could be expanded.\nShows a basic grasp of the dataset but needs more clarity or depth in explaining its significance and insights.\nNeeds further understanding of the dataset. More details and insights would strengthen the analysis.\n\n\nVisualization Quality (30%)\nVisualizations are clear, well-chosen, and enhance understanding. Thoughtful design choices make the data engaging and accessible.\nStrong visuals that support the data well. Some minor refinements could improve clarity or impact.\nBasic visuals that convey information but could be more refined or better suited to the dataset.\nNeeds improvement in visualization selection or clarity. More attention to detail will enhance effectiveness.\n\n\nOutput Interpretation and Insights (25%)\nThoughtful and well-supported insights demonstrate strong analytical skills. Patterns and trends are clearly explained with compelling interpretations.\nProvides solid insights with good explanations. Some areas could benefit from deeper analysis.\nInsights are present but may lack depth or clear connections to the data. Some interpretations need more support.\nInsights need further development. Strengthening data interpretation will enhance overall understanding.\n\n\nSlides quality (15%)\nSlides are visually appealing, well-organized, and complement the spoken presentation. Effective use of text, images, and color enhances clarity.\nSlides are clear and well-structured but could be slightly improved in design or organization.\nSlides contain useful content but may be text-heavy, cluttered, or lack visual appeal.\nSlides need better organization and design to support the presentation effectively.\n\n\nPresentation Clarity and Interaction (15%)\nThe presentation is well-organized, engaging, and confident. The team communicates ideas effectively and transitions smoothly.\nA well-structured and clear presentation. Minor adjustments could improve flow or engagement.\nThe presentation is understandable but could be more organized or engaging. Some transitions may be unclear.\nMore practice and organization will help improve clarity and engagement.\n\n\n\n\nYour project grade will be\n\n\nProject grade = performance grade - points lost due to violation of policy\n\nwith adjustement based on your duty.",
+    "text": "Evaluation and Grading\n\nYour project performance is evaluated by Dr. Yu and the TA that is based on the following rubric:\n\n\nRubric\n\n\n\n\n\n\n\n\n\nCriteria\nExcellent\nGood\nFair\nEmerging\n\n\n\n\nData Understanding (15%)\nClearly explains the dataset, its source, and key variables. Provides meaningful insights.\nShows good understanding with clear explanations and some strong insights. A few minor details could be expanded.\nShows a basic grasp of the dataset but needs more clarity or depth in explaining its significance and insights.\nNeeds further understanding of the dataset. More details and insights would strengthen the analysis.\n\n\nVisualization Quality (30%)\nVisualizations are clear, well-chosen, and enhance understanding. Thoughtful design choices make the data engaging and accessible.\nStrong visuals that support the data well. Some minor refinements could improve clarity or impact.\nBasic visuals that convey information but could be more refined or better suited to the dataset.\nNeeds improvement in visualization selection or clarity. More attention to detail will enhance effectiveness.\n\n\nOutput Interpretation and Insights (25%)\nThoughtful and well-supported insights demonstrate strong analytical skills. Patterns and trends are clearly explained with compelling interpretations.\nProvides solid insights with good explanations. Some areas could benefit from deeper analysis.\nInsights are present but may lack depth or clear connections to the data. Some interpretations need more support.\nInsights need further development. Strengthening data interpretation will enhance overall understanding.\n\n\nSlides quality (15%)\nSlides are visually appealing, well-organized, and complement the spoken presentation. Effective use of text, images, and color enhances clarity.\nSlides are clear and well-structured but could be slightly improved in design or organization.\nSlides contain useful content but may be text-heavy, cluttered, or lack visual appeal.\nSlides need better organization and design to support the presentation effectively.\n\n\nPresentation Clarity and Interaction (15%)\nThe presentation is well-organized, engaging, and confident. The team communicates ideas effectively and transitions smoothly.\nA well-structured and clear presentation. Minor adjustments could improve flow or engagement.\nThe presentation is understandable but could be more organized or engaging. Some transitions may be unclear.\nMore practice and organization will help improve clarity and engagement.\n\n\n\n\nYour project grade will be\n\n\nProject grade = performance grade - points lost due to violation of policy\n\nwith adjustement based on your performance of duty.",
     "crumbs": [
       "Mini Project",
       "Guideline and Policy"
@@ -2012,508 +2093,525 @@
     ]
   },
   {
-    "objectID": "LICENSE.html#creative-commons-attribution-sharealike-4.0-international-public-license",
-    "href": "LICENSE.html#creative-commons-attribution-sharealike-4.0-international-public-license",
-    "title": "Attribution-ShareAlike 4.0 International",
-    "section": "Creative Commons Attribution-ShareAlike 4.0 International Public License",
-    "text": "Creative Commons Attribution-ShareAlike 4.0 International Public License\nBy exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-ShareAlike 4.0 International Public License (“Public License”). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.\n\nSection 1 – Definitions.\n\nAdapted Material means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.\nAdapter’s License means the license You apply to Your Copyright and Similar Rights in Your contributions to Adapted Material in accordance with the terms and conditions of this Public License.\nBY-SA Compatible License means a license listed at creativecommons.org/compatiblelicenses, approved by Creative Commons as essentially the equivalent of this Public License.\nCopyright and Similar Rights means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(b)(1)-(2) are not Copyright and Similar Rights.\nEffective Technological Measures means those measures that, in the absence of proper authority, may not be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar international agreements.\nExceptions and Limitations means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.\nLicense Elements means the license attributes listed in the name of a Creative Commons Public License. The License Elements of this Public License are Attribution and ShareAlike.\nLicensed Material means the artistic or literary work, database, or other material to which the Licensor applied this Public License.\nLicensed Rights means the rights granted to You subject to the terms and conditions of this Public License, which are limited to all Copyright and Similar Rights that apply to Your use of the Licensed Material and that the Licensor has authority to license.\nLicensor means the individual(s) or entity(ies) granting rights under this Public License.\nShare means to provide material to the public by any means or process that requires permission under the Licensed Rights, such as reproduction, public display, public performance, distribution, dissemination, communication, or importation, and to make material available to the public including in ways that members of the public may access the material from a place and at a time individually chosen by them.\nSui Generis Database Rights means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.\nYou means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.\n\n\n\nSection 2 – Scope.\n\nLicense grant.\n\nSubject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to:\nA. reproduce and Share the Licensed Material, in whole or in part; and\nB. produce, reproduce, and Share Adapted Material.\nExceptions and Limitations. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.\nTerm. The term of this Public License is specified in Section 6(a).\nMedia and formats; technical modifications allowed. The Licensor authorizes You to exercise the Licensed Rights in all media and formats whether now known or hereafter created, and to make technical modifications necessary to do so. The Licensor waives and/or agrees not to assert any right or authority to forbid You from making technical modifications necessary to exercise the Licensed Rights, including technical modifications necessary to circumvent Effective Technological Measures. For purposes of this Public License, simply making modifications authorized by this Section 2(a)(4) never produces Adapted Material.\nDownstream recipients.\nA. Offer from the Licensor – Licensed Material. Every recipient of the Licensed Material automatically receives an offer from the Licensor to exercise the Licensed Rights under the terms and conditions of this Public License.\nB. Additional offer from the Licensor – Adapted Material. Every recipient of Adapted Material from You automatically receives an offer from the Licensor to exercise the Licensed Rights in the Adapted Material under the conditions of the Adapter’s License You apply.\nC. No downstream restrictions. You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, the Licensed Material if doing so restricts exercise of the Licensed Rights by any recipient of the Licensed Material.\nNo endorsement. Nothing in this Public License constitutes or may be construed as permission to assert or imply that You are, or that Your use of the Licensed Material is, connected with, or sponsored, endorsed, or granted official status by, the Licensor or others designated to receive attribution as provided in Section 3(a)(1)(A)(i).\n\nOther rights.\n\nMoral rights, such as the right of integrity, are not licensed under this Public License, nor are publicity, privacy, and/or other similar personality rights; however, to the extent possible, the Licensor waives and/or agrees not to assert any such rights held by the Licensor to the limited extent necessary to allow You to exercise the Licensed Rights, but not otherwise.\nPatent and trademark rights are not licensed under this Public License.\nTo the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties.\n\n\n\n\nSection 3 – License Conditions.\nYour exercise of the Licensed Rights is expressly made subject to the following conditions.\n\nAttribution.\n\nIf You Share the Licensed Material (including in modified form), You must:\nA. retain the following if it is supplied by the Licensor with the Licensed Material:\n\nidentification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);\na copyright notice;\na notice that refers to this Public License;\na notice that refers to the disclaimer of warranties;\na URI or hyperlink to the Licensed Material to the extent reasonably practicable;\n\nB. indicate if You modified the Licensed Material and retain an indication of any previous modifications; and\nC. indicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.\nYou may satisfy the conditions in Section 3(a)(1) in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.\nIf requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.\n\nShareAlike.\n\nIn addition to the conditions in Section 3(a), if You Share Adapted Material You produce, the following conditions also apply.\n\nThe Adapter’s License You apply must be a Creative Commons license with the same License Elements, this version or later, or a BY-SA Compatible License.\nYou must include the text of, or the URI or hyperlink to, the Adapter’s License You apply. You may satisfy this condition in any reasonable manner based on the medium, means, and context in which You Share Adapted Material.\nYou may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, Adapted Material that restrict exercise of the rights granted under the Adapter’s License You apply.\n\n\n\nSection 4 – Sui Generis Database Rights.\nWhere the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:\n\nfor the avoidance of doubt, Section 2(a)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database;\nif You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material, including for purposes of Section 3(b); and\nYou must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.\n\nFor the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.\n\n\nSection 5 – Disclaimer of Warranties and Limitation of Liability.\n\nUnless otherwise separately undertaken by the Licensor, to the extent possible, the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable. Where disclaimers of warranties are not allowed in full or in part, this disclaimer may not apply to You.\nTo the extent possible, in no event will the Licensor be liable to You on any legal theory (including, without limitation, negligence) or otherwise for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages arising out of this Public License or use of the Licensed Material, even if the Licensor has been advised of the possibility of such losses, costs, expenses, or damages. Where a limitation of liability is not allowed in full or in part, this limitation may not apply to You.\nThe disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.\n\n\n\nSection 6 – Term and Termination.\n\nThis Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.\nWhere Your right to use the Licensed Material has terminated under Section 6(a), it reinstates:\n\nautomatically as of the date the violation is cured, provided it is cured within 30 days of Your discovery of the violation; or\nupon express reinstatement by the Licensor.\n\nFor the avoidance of doubt, this Section 6(b) does not affect any right the Licensor may have to seek remedies for Your violations of this Public License.\nFor the avoidance of doubt, the Licensor may also offer the Licensed Material under separate terms or conditions or stop distributing the Licensed Material at any time; however, doing so will not terminate this Public License.\nSections 1, 5, 6, 7, and 8 survive termination of this Public License.\n\n\n\nSection 7 – Other Terms and Conditions.\n\nThe Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.\nAny arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.\n\n\n\nSection 8 – Interpretation.\n\nFor the avoidance of doubt, this Public License does not, and shall not be interpreted to, reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this Public License.\nTo the extent possible, if any provision of this Public License is deemed unenforceable, it shall be automatically reformed to the minimum extent necessary to make it enforceable. If the provision cannot be reformed, it shall be severed from this Public License without affecting the enforceability of the remaining terms and conditions.\nNo term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.\nNothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.\n\n\nCreative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” The text of the Creative Commons public licenses is dedicated to the public domain under the CC0 Public Domain Dedication. Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.\nCreative Commons may be contacted at creativecommons.org."
-  },
-  {
-    "objectID": "present-work.html",
-    "href": "present-work.html",
-    "title": "Midterm Visualization Project",
-    "section": "",
-    "text": "The Whales: Brady Nelson, Brody Roessler, Christian Filardo, Dorien Vazquez, Filip Kisielewski\n\n\n\nAnalytics Avengers (4): Sophia Bryant, Kumassi Browne, Charles Kendrick Jr, Isabel Bauer\n\n\n\nSyntax Squad: Nick Panoske, Kate Gibson, Annika Lautenbach, Simon Glarner, Sophia Ferru\n\n\n\nData Detectives: Jordan Dubeck, Justice Milhoan, Grace Placko, Jane Harvey, Madison Zursin\n\n\n\nHala Madrid: Abdullah Al-Refai, Labeeb Awan, Kevin Esquivel, Derian Esquivel, Tyler Smith\n\n\n\nThe Back Right corner: Luke Syverud, Isaac Kujak, Elizabeth Ruiz, Maxwell Creager-Roberts, Kaia Lui\n\n\n\nThe Outliers: Spencer Christensen, Peter Kaull, Dean Lang, Joshua Hunter, Marcin Tutaj\n\n\n\nBlock Blasters: Lucy McGovern, Emma Kimball, Riley Abrahamson, Brianna Velez, Napoleon Her\n\n\n\nIntermediate Wizards: Kyle Forsberg, Luke Bondi, Justin Hoffman, Sam Wolf, Ava Unertl\n\n\n\nTeam10: Jack Anderson, Nathan Rusch, Nirmay Kathuria, Wilson von Bohlen, Juan De Los Santos",
-    "crumbs": [
-      "Mini Project",
-      "Topics and Works"
-    ]
-  },
-  {
-    "objectID": "present-work.html#group-projects-proposal",
-    "href": "present-work.html#group-projects-proposal",
-    "title": "Midterm Visualization Project",
-    "section": "",
-    "text": "The Whales: Brady Nelson, Brody Roessler, Christian Filardo, Dorien Vazquez, Filip Kisielewski\n\n\n\nAnalytics Avengers (4): Sophia Bryant, Kumassi Browne, Charles Kendrick Jr, Isabel Bauer\n\n\n\nSyntax Squad: Nick Panoske, Kate Gibson, Annika Lautenbach, Simon Glarner, Sophia Ferru\n\n\n\nData Detectives: Jordan Dubeck, Justice Milhoan, Grace Placko, Jane Harvey, Madison Zursin\n\n\n\nHala Madrid: Abdullah Al-Refai, Labeeb Awan, Kevin Esquivel, Derian Esquivel, Tyler Smith\n\n\n\nThe Back Right corner: Luke Syverud, Isaac Kujak, Elizabeth Ruiz, Maxwell Creager-Roberts, Kaia Lui\n\n\n\nThe Outliers: Spencer Christensen, Peter Kaull, Dean Lang, Joshua Hunter, Marcin Tutaj\n\n\n\nBlock Blasters: Lucy McGovern, Emma Kimball, Riley Abrahamson, Brianna Velez, Napoleon Her\n\n\n\nIntermediate Wizards: Kyle Forsberg, Luke Bondi, Justin Hoffman, Sam Wolf, Ava Unertl\n\n\n\nTeam10: Jack Anderson, Nathan Rusch, Nirmay Kathuria, Wilson von Bohlen, Juan De Los Santos",
-    "crumbs": [
-      "Mini Project",
-      "Topics and Works"
-    ]
-  },
-  {
-    "objectID": "present-work.html#presentation-order",
-    "href": "present-work.html#presentation-order",
-    "title": "Midterm Visualization Project",
-    "section": "Presentation order",
-    "text": "Presentation order",
-    "crumbs": [
-      "Mini Project",
-      "Topics and Works"
-    ]
-  },
-  {
-    "objectID": "weeks/week-7.html",
-    "href": "weeks/week-7.html",
-    "title": "Week 7",
+    "objectID": "weeks/week-6.html",
+    "href": "weeks/week-6.html",
+    "title": "Week 6",
     "section": "",
     "text": "Important",
     "crumbs": [
       "Weekly materials",
-      "Week 7"
+      "Week 6"
     ]
   },
   {
-    "objectID": "weeks/week-7.html#participate",
-    "href": "weeks/week-7.html#participate",
-    "title": "Week 7",
+    "objectID": "weeks/week-6.html#participate",
+    "href": "weeks/week-6.html#participate",
+    "title": "Week 6",
     "section": "Participate",
-    "text": "Participate\n🖥️ Slides -Visualizing Data\n🖥️ Slides - Interactive Visualization\nr fontawesome::fa(\"table\") Data - loans\nr fontawesome::fa(\"table\") Data - Murders",
+    "text": "Participate\n🖥️ Slides - ggplot2\nr fontawesome::fa(\"table\") openintro::loans_full_schema",
     "crumbs": [
       "Weekly materials",
-      "Week 7"
+      "Week 6"
     ]
   },
   {
-    "objectID": "weeks/week-7.html#reading-and-resources",
-    "href": "weeks/week-7.html#reading-and-resources",
-    "title": "Week 7",
+    "objectID": "weeks/week-6.html#reading-and-resources",
+    "href": "weeks/week-6.html#reading-and-resources",
+    "title": "Week 6",
     "section": "Reading and Resources",
-    "text": "Reading and Resources\n📖 More add-on r emo::ji(\"package\"): ggplot2 extensions\n📖 The R Graph Gallery\n📖 R Graphics Cookbook\n📖 R CHARTS\n📖 R for Data Science - Data Transformation",
+    "text": "Reading and Resources\n📖 More add-on r emo::ji(\"package\"): ggplot2 extensions\n📖 The R Graph Gallery\n📖 R Graphics Cookbook\n📖 R CHARTS",
     "crumbs": [
       "Weekly materials",
-      "Week 7"
+      "Week 6"
     ]
   },
   {
-    "objectID": "weeks/week-7.html#exercise",
-    "href": "weeks/week-7.html#exercise",
-    "title": "Week 7",
+    "objectID": "weeks/week-6.html#exercise",
+    "href": "weeks/week-6.html#exercise",
+    "title": "Week 6",
     "section": "Exercise",
-    "text": "Exercise\n📋 Lab-12 Faceting\n📋 Lab-13 Visualization\n📋 Lab-14 Interactive Visualization (Present)\n\n\nBack to course schedule ⏎",
+    "text": "Exercise\n📋 Lab-11 ggplot2\nr fontawesome::fa(\"table\") penguins.csv\n\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
-      "Week 7"
+      "Week 6"
     ]
   },
   {
-    "objectID": "weeks/week-4.html",
-    "href": "weeks/week-4.html",
-    "title": "Week 4",
+    "objectID": "weeks/week-5.html",
+    "href": "weeks/week-5.html",
+    "title": "Week 5",
     "section": "",
     "text": "Important",
     "crumbs": [
       "Weekly materials",
-      "Week 4"
+      "Week 5"
     ]
   },
   {
-    "objectID": "weeks/week-4.html#participate",
-    "href": "weeks/week-4.html#participate",
-    "title": "Week 4",
+    "objectID": "weeks/week-5.html#participate",
+    "href": "weeks/week-5.html#participate",
+    "title": "Week 5",
     "section": "Participate",
-    "text": "Participate\n🖥️ Slides - R/Python Syntax",
+    "text": "Participate\n🖥️ Slides - R/Python for Data Science",
     "crumbs": [
       "Weekly materials",
-      "Week 4"
+      "Week 5"
     ]
   },
   {
-    "objectID": "weeks/week-4.html#reading-and-resources",
-    "href": "weeks/week-4.html#reading-and-resources",
-    "title": "Week 4",
+    "objectID": "weeks/week-5.html#reading-and-resources",
+    "href": "weeks/week-5.html#reading-and-resources",
+    "title": "Week 5",
     "section": "Reading and Resources",
-    "text": "Reading and Resources\n📖 The R Graph Gallery\n📖 matplotlib",
+    "text": "Reading and Resources\n📖 tibbles\n📖 pipes\n📖 NumPy\n📖 pandas",
     "crumbs": [
       "Weekly materials",
-      "Week 4"
+      "Week 5"
     ]
   },
   {
-    "objectID": "weeks/week-4.html#perform",
-    "href": "weeks/week-4.html#perform",
-    "title": "Week 4",
+    "objectID": "weeks/week-5.html#exercise",
+    "href": "weeks/week-5.html#exercise",
+    "title": "Week 5",
+    "section": "Exercise",
+    "text": "Exercise\n📋 Lab-08 tibbles and pipe\n📋 Lab-09 NumPy and pandas\n\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 5"
+    ]
+  },
+  {
+    "objectID": "weeks/week-1.html",
+    "href": "weeks/week-1.html",
+    "title": "Week 1",
+    "section": "",
+    "text": "📖 Read the syllabus\n📖 Get your laptop and computing environment ready!",
+    "crumbs": [
+      "Weekly materials",
+      "Week 1"
+    ]
+  },
+  {
+    "objectID": "weeks/week-1.html#prepare",
+    "href": "weeks/week-1.html#prepare",
+    "title": "Week 1",
+    "section": "",
+    "text": "📖 Read the syllabus\n📖 Get your laptop and computing environment ready!",
+    "crumbs": [
+      "Weekly materials",
+      "Week 1"
+    ]
+  },
+  {
+    "objectID": "weeks/week-1.html#reading-and-resources",
+    "href": "weeks/week-1.html#reading-and-resources",
+    "title": "Week 1",
+    "section": "Reading and Resources",
+    "text": "Reading and Resources\n📖 R for Data Science - Introduction\n📖 R for Data Science - Whole game\n📖 RStudio IDE Cheatsheet\n📖 Posit Cloud Documentation",
+    "crumbs": [
+      "Weekly materials",
+      "Week 1"
+    ]
+  },
+  {
+    "objectID": "weeks/week-1.html#participate",
+    "href": "weeks/week-1.html#participate",
+    "title": "Week 1",
+    "section": "Participate",
+    "text": "Participate\n🖥️ Slides - Welcome to MATH/COSC 3570\n🖥️ Slides - Overview of Data Science\n🖥️ Slides - Posit Cloud\n🖥️ Slides - Git/GitHub\n\n\n\n\n\nggplot2::mpg",
+    "crumbs": [
+      "Weekly materials",
+      "Week 1"
+    ]
+  },
+  {
+    "objectID": "weeks/week-1.html#perform",
+    "href": "weeks/week-1.html#perform",
+    "title": "Week 1",
     "section": "Perform",
-    "text": "Perform\n📋 Lab-05 R Data Summary\n📋 Lab-06 Python Data Structure\n📋 Lab-07 Plotting\n\n\nBack to course schedule ⏎",
+    "text": "Perform\n📋 Lab-00 Posit Cloud\n📋 Lab-01 Running R Script\n\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
-      "Week 4"
+      "Week 1"
     ]
   },
   {
-    "objectID": "weeks/week-3.html",
-    "href": "weeks/week-3.html",
-    "title": "Week 3",
+    "objectID": "weeks/week-2.html",
+    "href": "weeks/week-2.html",
+    "title": "Week 2",
     "section": "",
     "text": "Important",
     "crumbs": [
       "Weekly materials",
-      "Week 3"
+      "Week 2"
     ]
   },
   {
-    "objectID": "weeks/week-3.html#participate",
-    "href": "weeks/week-3.html#participate",
-    "title": "Week 3",
+    "objectID": "weeks/week-2.html#participate",
+    "href": "weeks/week-2.html#participate",
+    "title": "Week 2",
     "section": "Participate",
-    "text": "Participate\n🖥️ Slides - Quarto\n🖥️ Slides - R/Python Syntax",
+    "text": "Participate\n🖥️ Slides - Git/GitHub\n🖥️ Slides - Quarto",
     "crumbs": [
       "Weekly materials",
-      "Week 3"
+      "Week 2"
     ]
   },
   {
-    "objectID": "weeks/week-3.html#exercise",
-    "href": "weeks/week-3.html#exercise",
-    "title": "Week 3",
-    "section": "Exercise",
-    "text": "Exercise\n📋 Lab-02 Quarto File\n📋 Lab-03 Markdown\n📋 Lab-04 Code Chunk\n📋 Lab-05 R Data Summary\n📋 Lab-06 Python Data Structure\n📋 Lab-07 Plotting",
+    "objectID": "weeks/week-2.html#perform",
+    "href": "weeks/week-2.html#perform",
+    "title": "Week 2",
+    "section": "Perform",
+    "text": "Perform\n📋 Lab-00 Git/GitHub\n📋 Lab-02 Quarto File\n📋 Lab-03 Markdown\n📋 Lab-04 Code Chunk",
     "crumbs": [
       "Weekly materials",
-      "Week 3"
+      "Week 2"
     ]
   },
   {
-    "objectID": "weeks/week-3.html#reading-and-resources",
-    "href": "weeks/week-3.html#reading-and-resources",
-    "title": "Week 3",
+    "objectID": "weeks/week-2.html#reading-and-resources",
+    "href": "weeks/week-2.html#reading-and-resources",
+    "title": "Week 2",
     "section": "Reading and Resources",
-    "text": "Reading and Resources\n📖 The R Graph Gallery\n📖 matplotlib\n\nMarkdown\n📖 Markdown Tutorial\n📖 Mastering Markdown GitHub Guides\n📖 Markdown Guide\n\n\nQuarto\n📖 Quarto Website\n📖 Get Started with Quarto\n📖 R for Data Science - Quarto\n\n\nBack to course schedule ⏎",
+    "text": "Reading and Resources\n\nGit/GitHub\n📖 Create a personal access token (PAT)\n📖 Two-factor authentication\n📖 Git hands-on session within RStudio\n📖 Happy Git and GitHub for the useR\n📖 Happier version control with Git and GitHub\n\n\nMarkdown\n📖 Markdown Tutorial\n📖 Mastering Markdown GitHub Guides\n📖 Markdown Guide\n\n\nQuarto\n📖 Quarto Website\n📖 Get Started with Quarto\n📖 R for Data Science - Quarto\n\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
-      "Week 3"
+      "Week 2"
     ]
   },
   {
-    "objectID": "weeks/week-10.html",
-    "href": "weeks/week-10.html",
-    "title": "Week 10",
+    "objectID": "weeks/week-11.html",
+    "href": "weeks/week-11.html",
+    "title": "Week 11",
     "section": "",
     "text": "Important",
     "crumbs": [
       "Weekly materials",
-      "Week 10"
+      "Week 11"
     ]
   },
   {
-    "objectID": "weeks/week-10.html#participate",
-    "href": "weeks/week-10.html#participate",
-    "title": "Week 10",
+    "objectID": "weeks/week-11.html#participate",
+    "href": "weeks/week-11.html#participate",
+    "title": "Week 11",
     "section": "Participate",
-    "text": "Participate\n🖥️ Slides - Tidying Data\n🖥️ Slides - Probability and Statistics",
+    "text": "Participate\n🖥️ Slides - Probability and Statistics",
     "crumbs": [
       "Weekly materials",
-      "Week 10"
+      "Week 11"
     ]
   },
   {
-    "objectID": "weeks/week-10.html#exercise",
-    "href": "weeks/week-10.html#exercise",
-    "title": "Week 10",
+    "objectID": "weeks/week-11.html#exercise",
+    "href": "weeks/week-11.html#exercise",
+    "title": "Week 11",
     "section": "Exercise",
-    "text": "Exercise\n📋 Lab-17 tidyr\nr fontawesome::fa(\"table\") trump.csv\n📋 Lab-18 Probability\n\n\nBack to course schedule ⏎",
+    "text": "Exercise\n📋 Lab-19 Confidence Interval\n\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
-      "Week 10"
+      "Week 11"
     ]
   },
   {
-    "objectID": "weeks/week-13.html",
-    "href": "weeks/week-13.html",
-    "title": "Week 13",
+    "objectID": "weeks/week-12.html",
+    "href": "weeks/week-12.html",
+    "title": "Week 12",
     "section": "",
     "text": "Important",
     "crumbs": [
       "Weekly materials",
-      "Week 13"
+      "Week 12"
     ]
   },
   {
-    "objectID": "weeks/week-13.html#participate",
-    "href": "weeks/week-13.html#participate",
-    "title": "Week 13",
+    "objectID": "weeks/week-12.html#participate",
+    "href": "weeks/week-12.html#participate",
+    "title": "Week 12",
     "section": "Participate",
-    "text": "Participate\n🖥️ Slides - Logistic Regression\nr fontawesome::fa(\"table\") Data - body",
+    "text": "Participate\n🖥️ Slides - Linear Regression\nr fontawesome::fa(\"table\") ggplot2::mpg",
     "crumbs": [
       "Weekly materials",
-      "Week 13"
+      "Week 12"
     ]
   },
   {
-    "objectID": "weeks/week-13.html#reading",
-    "href": "weeks/week-13.html#reading",
-    "title": "Week 13",
+    "objectID": "weeks/week-12.html#reading",
+    "href": "weeks/week-12.html#reading",
+    "title": "Week 12",
     "section": "Reading",
     "text": "Reading\n📖",
     "crumbs": [
       "Weekly materials",
-      "Week 13"
+      "Week 12"
     ]
   },
   {
-    "objectID": "weeks/week-13.html#exercise",
-    "href": "weeks/week-13.html#exercise",
-    "title": "Week 13",
+    "objectID": "weeks/week-12.html#exercise",
+    "href": "weeks/week-12.html#exercise",
+    "title": "Week 12",
     "section": "Exercise",
-    "text": "Exercise\n📋 Lab-21 Logistic Regression\n\n\nBack to course schedule ⏎",
+    "text": "Exercise\n📋 Lab-20 Simple Linear Regression\n\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
-      "Week 13"
+      "Week 12"
     ]
   },
   {
-    "objectID": "weeks/week-5-old.html",
-    "href": "weeks/week-5-old.html",
-    "title": "Week 6",
+    "objectID": "weeks/week-9.html",
+    "href": "weeks/week-9.html",
+    "title": "Week 9",
     "section": "",
-    "text": "Important"
+    "text": "Important\n\n\n\n\n\n\nHappy spring break! Remember to work on your project!\n\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 9"
+    ]
   },
   {
-    "objectID": "weeks/week-5-old.html#participate",
-    "href": "weeks/week-5-old.html#participate",
-    "title": "Week 6",
+    "objectID": "weeks/week-8.html",
+    "href": "weeks/week-8.html",
+    "title": "Week 8",
+    "section": "",
+    "text": "Important",
+    "crumbs": [
+      "Weekly materials",
+      "Week 8"
+    ]
+  },
+  {
+    "objectID": "weeks/week-8.html#participate",
+    "href": "weeks/week-8.html#participate",
+    "title": "Week 8",
     "section": "Participate",
-    "text": "Participate\n🖥️ Slides - Data Importing\nr fontawesome::fa(\"table\") murders.csv\nr fontawesome::fa(\"table\") df-na.csv\nr fontawesome::fa(\"table\") cars.rds\nr fontawesome::fa(\"table\") 2010_bigfive_regents.xls"
+    "text": "Participate\n🖥️ Slides - Data Wrangling (one data frame)\n🖥️ Slides - Data Wrangling - two data frames\n Data - Pop_x and elec_vote_y\n\nlibrary(tidyverse)\nlibrary(dslabs)\npop_x &lt;- murders |&gt; \n    slice(1:6) |&gt;\n    select(state, population)\n\nelec_vote_y &lt;- results_us_election_2016 |&gt; \n    filter(state %in% c(\"Alabama\", \"Alaska\", \"Arizona\", \n                        \"California\", \"Connecticut\", \"Delaware\")) |&gt; \n    select(state, electoral_votes) |&gt; \n    rename(elec_vote = electoral_votes)\n\n Data - Customers",
+    "crumbs": [
+      "Weekly materials",
+      "Week 8"
+    ]
   },
   {
-    "objectID": "weeks/week-5-old.html#reading-and-resources",
-    "href": "weeks/week-5-old.html#reading-and-resources",
-    "title": "Week 6",
+    "objectID": "weeks/week-8.html#reading-and-resources",
+    "href": "weeks/week-8.html#reading-and-resources",
+    "title": "Week 8",
     "section": "Reading and Resources",
-    "text": "Reading and Resources\n📖 R for Data Science - Data Import\n📖 R for Data Science - Data Visualization"
+    "text": "Reading and Resources\n📖 R for Data Science - Joins\n📖 R for Data Science - Data tidying",
+    "crumbs": [
+      "Weekly materials",
+      "Week 8"
+    ]
   },
   {
-    "objectID": "weeks/week-5-old.html#exercise",
-    "href": "weeks/week-5-old.html#exercise",
-    "title": "Week 6",
+    "objectID": "weeks/week-8.html#exercise",
+    "href": "weeks/week-8.html#exercise",
+    "title": "Week 8",
     "section": "Exercise",
-    "text": "Exercise\n📋 Lab-10 Data Importing\nr fontawesome::fa(\"table\") ssa_male_prob.csv\nr fontawesome::fa(\"table\") ssa_female_prob.Rds\n\n\nBack to course schedule ⏎"
+    "text": "Exercise\n📋 Lab-15 dplyr\n Data - Murders\n📋 Lab-16 Joining tables\n https://www.jaredlander.com/data/DiamondColors.csv\n ggplot2::diamonds\n\n\nBack to course schedule ⏎",
+    "crumbs": [
+      "Weekly materials",
+      "Week 8"
+    ]
   },
   {
-    "objectID": "weeks/week-16.html",
-    "href": "weeks/week-16.html",
-    "title": "Week 16",
+    "objectID": "weeks/week-14.html",
+    "href": "weeks/week-14.html",
+    "title": "Week 14",
     "section": "",
     "text": "Important",
     "crumbs": [
       "Weekly materials",
-      "Week 16"
+      "Week 14"
     ]
   },
   {
-    "objectID": "weeks/week-16.html#participate",
-    "href": "weeks/week-16.html#participate",
-    "title": "Week 16",
+    "objectID": "weeks/week-14.html#participate",
+    "href": "weeks/week-14.html#participate",
+    "title": "Week 14",
     "section": "Participate",
-    "text": "Participate\n🖥️ Slides - K-Means Clustering\n Data - clus_data",
+    "text": "Participate\n🖥️ Slides - K Nearest Neighbors\nr fontawesome::fa(\"table\") Data - body",
     "crumbs": [
       "Weekly materials",
-      "Week 16"
+      "Week 14"
     ]
   },
   {
-    "objectID": "weeks/week-16.html#reading",
-    "href": "weeks/week-16.html#reading",
-    "title": "Week 16",
+    "objectID": "weeks/week-14.html#reading",
+    "href": "weeks/week-14.html#reading",
+    "title": "Week 14",
     "section": "Reading",
     "text": "Reading\n📖",
     "crumbs": [
       "Weekly materials",
-      "Week 16"
+      "Week 14"
     ]
   },
   {
-    "objectID": "weeks/week-16.html#exercise",
-    "href": "weeks/week-16.html#exercise",
-    "title": "Week 16",
+    "objectID": "weeks/week-14.html#exercise",
+    "href": "weeks/week-14.html#exercise",
+    "title": "Week 14",
     "section": "Exercise",
-    "text": "Exercise\n📋 Lab-24 K-Means Clustering\n palmerpenguins::penguins\n\nlibrary(palmerpenguins)\npeng &lt;- penguins[complete.cases(penguins), ] |&gt; \n    select(flipper_length_mm, bill_length_mm)\n\n\n\nBack to course schedule ⏎",
+    "text": "Exercise\n📋 Lab-22 K Nearest Neighbors\n\n\nBack to course schedule ⏎",
     "crumbs": [
       "Weekly materials",
-      "Week 16"
+      "Week 14"
     ]
   },
   {
-    "objectID": "weeks/week-15.html",
-    "href": "weeks/week-15.html",
-    "title": "Week 15",
+    "objectID": "hw/hw2.html",
+    "href": "hw/hw2.html",
+    "title": "Homework 2: Data Visualization and Data Wrangling",
     "section": "",
-    "text": "Important",
-    "crumbs": [
-      "Weekly materials",
-      "Week 15"
-    ]
+    "text": "Import the data set murders. Use the pipe operator |&gt; and the dplyr functions mutate(), filter(), and select() to get the following data output. Call the data set df.\n\nThe filtering conditions are\n\nregion in “Northeast” or “West”\nrate = total / population * 100000 is less than 1.\n\nThe new variable rank is based on rate. The highest rate is ranked 1st. [Hint:] Use the function rank().\n\n## code\n\n# # A tibble: 8 × 4\n#    rate  rank state         total\n#   &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;         &lt;dbl&gt;\n# 1 0.515    49 Hawaii            7\n# 2 0.766    46 Idaho            12\n# 3 0.828    44 Maine            11\n# 4 0.380    50 New Hampshire     5\n# 5 0.940    42 Oregon           36\n# 6 0.796    45 Utah             22\n# 7 0.320    51 Vermont           2\n# 8 0.887    43 Wyoming           5\n\n\nChange the type of column rank to factor, and total to integer. (You can use the built-in as.factor() and as.integer() or the convert() function in the hablar package.\n\n\n## code\n\n\nCreate a list named df_lst of two elements. The first element is a subset of df whose rows have total less than 10, and the second element is a subset of df so that each of its row has total higher than 10. Print it out.\n\n\n## code\n\n\n# [[1]]\n# # A tibble: 4 × 4\n#    rate rank  state         total\n#   &lt;dbl&gt; &lt;fct&gt; &lt;chr&gt;         &lt;dbl&gt;\n# 1 0.515 49    Hawaii            7\n# 2 0.380 50    New Hampshire     5\n# 3 0.320 51    Vermont           2\n# 4 0.887 43    Wyoming           5\n# \n# [[2]]\n# # A tibble: 4 × 4\n#    rate rank  state  total\n#   &lt;dbl&gt; &lt;fct&gt; &lt;chr&gt;  &lt;dbl&gt;\n# 1 0.766 46    Idaho     12\n# 2 0.828 44    Maine     11\n# 3 0.940 42    Oregon    36\n# 4 0.796 45    Utah      22\n\n\nCombine the two data sets in df_lst using rbind().\n\n\n## code\n\n\nThe dplyr provides dplyr::bind_rows() and dplyr::bind_cols() that are analogs to rbind() and cbind() in the R base. Combine the two data sets in df_lst using bind_rows(). The result should be exactly the same as the previous one.\n\n\n## code\n\n\nCombine the two data frames data1 and data2 below using bind_rows() and rbind(). Describe what happened and their difference. (Note that the two data sets have different column names)\n\n\ndata1 &lt;- tibble(x = letters[1:5])\ndata2 &lt;- tibble(y = 1:3)\n\n\n## code (Error may happen. set eval: false if you'd like to render the document.)\n\n\nWith df, select state and total, and arrange df by total in an increasing order.\n\n\n## code\n\n\nWith df, use contains() to select column variables whose name contains the string “at”.\n\n\n## code\n\n\nBack to murders. Extract the rows whose has the largest population in its region as the shown output. The population is ranked in a decreasing order.\n\n\n## code\n\n# # A tibble: 4 × 5\n#   state      abb   region        population total\n#   &lt;chr&gt;      &lt;chr&gt; &lt;chr&gt;              &lt;dbl&gt; &lt;dbl&gt;\n# 1 California CA    West            37253956  1257\n# 2 Texas      TX    South           25145561   805\n# 3 New York   NY    Northeast       19378102   517\n# 4 Illinois   IL    North Central   12830632   364\n\n\n\n\n\nInstall and load the Lahman library. This database includes data related to baseball teams. It includes summary statistics about how the players performed on offense and defense for several years. It also includes personal information about the players. The Batting data frame contains the offensive statistics for all players for many years:\n\n\n\nRows: 112,184\nColumns: 22\n$ playerID &lt;chr&gt; \"abercda01\", \"addybo01\", \"allisar01\", \"allisdo01\", \"ansonca01…\n$ yearID   &lt;int&gt; 1871, 1871, 1871, 1871, 1871, 1871, 1871, 1871, 1871, 1871, 1…\n$ stint    &lt;int&gt; 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1…\n$ teamID   &lt;fct&gt; TRO, RC1, CL1, WS3, RC1, FW1, RC1, BS1, FW1, BS1, CL1, CL1, W…\n$ lgID     &lt;fct&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ G        &lt;int&gt; 1, 25, 29, 27, 25, 12, 1, 31, 1, 18, 22, 1, 10, 3, 20, 29, 1,…\n$ AB       &lt;int&gt; 4, 118, 137, 133, 120, 49, 4, 157, 5, 86, 89, 3, 36, 15, 94, …\n$ R        &lt;int&gt; 0, 30, 28, 28, 29, 9, 0, 66, 1, 13, 18, 0, 6, 7, 24, 26, 0, 0…\n$ H        &lt;int&gt; 0, 32, 40, 44, 39, 11, 1, 63, 1, 13, 27, 0, 7, 6, 33, 32, 0, …\n$ X2B      &lt;int&gt; 0, 6, 4, 10, 11, 2, 0, 10, 1, 2, 1, 0, 0, 0, 9, 3, 0, 0, 1, 0…\n$ X3B      &lt;int&gt; 0, 0, 5, 2, 3, 1, 0, 9, 0, 1, 10, 0, 0, 0, 1, 3, 0, 0, 1, 0, …\n$ HR       &lt;int&gt; 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0…\n$ RBI      &lt;int&gt; 0, 13, 19, 27, 16, 5, 2, 34, 1, 11, 18, 0, 1, 5, 21, 23, 0, 0…\n$ SB       &lt;int&gt; 0, 8, 3, 1, 6, 0, 0, 11, 0, 1, 0, 0, 2, 2, 4, 4, 0, 0, 3, 0, …\n$ CS       &lt;int&gt; 0, 1, 1, 1, 2, 1, 0, 6, 0, 0, 1, 0, 0, 0, 0, 4, 0, 0, 1, 0, 0…\n$ BB       &lt;int&gt; 0, 4, 2, 0, 2, 0, 1, 13, 0, 0, 3, 1, 2, 0, 2, 9, 0, 0, 4, 1, …\n$ SO       &lt;int&gt; 0, 0, 5, 2, 1, 1, 0, 1, 0, 0, 4, 0, 0, 0, 2, 2, 3, 0, 2, 0, 2…\n$ IBB      &lt;int&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ HBP      &lt;int&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ SH       &lt;int&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ SF       &lt;int&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ GIDP     &lt;int&gt; 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 1, 2, 0, 0, 0, 0, 3…\n\n\nUse Batting data to obtain the top 10 player observations that hit the most home runs (in descending order) in 2022. Call the data set top10, make it as a tibble and print it out.\n\n## code\n\n\nBut who are these players? In the top10 data, we see an ID, but not the names. The player names are in the People data set:\n\n\n\nRows: 20,676\nColumns: 26\n$ playerID     &lt;chr&gt; \"aardsda01\", \"aaronha01\", \"aaronto01\", \"aasedo01\", \"abada…\n$ birthYear    &lt;int&gt; 1981, 1934, 1939, 1954, 1972, 1985, 1850, 1877, 1869, 186…\n$ birthMonth   &lt;int&gt; 12, 2, 8, 9, 8, 12, 11, 4, 11, 10, 9, 3, 10, 2, 8, 9, 6, …\n$ birthDay     &lt;int&gt; 27, 5, 5, 8, 25, 17, 4, 15, 11, 14, 20, 16, 22, 16, 17, 1…\n$ birthCountry &lt;chr&gt; \"USA\", \"USA\", \"USA\", \"USA\", \"USA\", \"D.R.\", \"USA\", \"USA\", …\n$ birthState   &lt;chr&gt; \"CO\", \"AL\", \"AL\", \"CA\", \"FL\", \"La Romana\", \"PA\", \"PA\", \"V…\n$ birthCity    &lt;chr&gt; \"Denver\", \"Mobile\", \"Mobile\", \"Orange\", \"Palm Beach\", \"La…\n$ deathYear    &lt;int&gt; NA, 2021, 1984, NA, NA, NA, 1905, 1957, 1962, 1926, NA, 1…\n$ deathMonth   &lt;int&gt; NA, 1, 8, NA, NA, NA, 5, 1, 6, 4, NA, 2, 6, NA, NA, NA, N…\n$ deathDay     &lt;int&gt; NA, 22, 16, NA, NA, NA, 17, 6, 11, 27, NA, 13, 11, NA, NA…\n$ deathCountry &lt;chr&gt; NA, \"USA\", \"USA\", NA, NA, NA, \"USA\", \"USA\", \"USA\", \"USA\",…\n$ deathState   &lt;chr&gt; NA, \"GA\", \"GA\", NA, NA, NA, \"NJ\", \"FL\", \"VT\", \"CA\", NA, \"…\n$ deathCity    &lt;chr&gt; NA, \"Atlanta\", \"Atlanta\", NA, NA, NA, \"Pemberton\", \"Fort …\n$ nameFirst    &lt;chr&gt; \"David\", \"Hank\", \"Tommie\", \"Don\", \"Andy\", \"Fernando\", \"Jo…\n$ nameLast     &lt;chr&gt; \"Aardsma\", \"Aaron\", \"Aaron\", \"Aase\", \"Abad\", \"Abad\", \"Aba…\n$ nameGiven    &lt;chr&gt; \"David Allan\", \"Henry Louis\", \"Tommie Lee\", \"Donald Willi…\n$ weight       &lt;int&gt; 215, 180, 190, 190, 184, 235, 192, 170, 175, 169, 220, 19…\n$ height       &lt;int&gt; 75, 72, 75, 75, 73, 74, 72, 71, 71, 68, 74, 71, 70, 78, 7…\n$ bats         &lt;fct&gt; R, R, R, R, L, L, R, R, R, L, R, R, R, R, R, L, R, L, L, …\n$ throws       &lt;fct&gt; R, R, R, R, L, L, R, R, R, L, R, R, R, R, L, L, R, L, R, …\n$ debut        &lt;chr&gt; \"2004-04-06\", \"1954-04-13\", \"1962-04-10\", \"1977-07-26\", \"…\n$ finalGame    &lt;chr&gt; \"2015-08-23\", \"1976-10-03\", \"1971-09-26\", \"1990-10-03\", \"…\n$ retroID      &lt;chr&gt; \"aardd001\", \"aaroh101\", \"aarot101\", \"aased001\", \"abada001…\n$ bbrefID      &lt;chr&gt; \"aardsda01\", \"aaronha01\", \"aaronto01\", \"aasedo01\", \"abada…\n$ deathDate    &lt;date&gt; NA, 2021-01-22, 1984-08-16, NA, NA, NA, 1905-05-17, 1957…\n$ birthDate    &lt;date&gt; 1981-12-27, 1934-02-05, 1939-08-05, 1954-09-08, 1972-08-…\n\n\nWe can see column names nameFirst and nameLast. Use the left_join() function to create a table of the top home run hitters. The data table should have variables playerID, nameFirst, nameLast, and HR. Overwrite the object top10 with this new table, and print it out.\n\n## code\n\n\nUse the Fielding data frame to add each player’s position to the table you created in (2). Make sure that you filter for the year 2022 first, then use right_join(). This time show nameFirst, nameLast, teamID, HR, and POS.\n\n\n## code\n\n\n\n\n\nThe R built-in co2 data set is not tidy. Let’s make it tidy. Run the following code to define the co2_wide object:\n\n\nco2_wide &lt;- data.frame(matrix(co2, ncol = 12, byrow = TRUE)) |&gt; \n    setNames(1:12) |&gt; \n    mutate(year = as.character(1959:1997))\n\nUse the pivot_longer() function to make it tidy. Call the column with the CO2 measurements co2 and call the month column month. Call the resulting object co2_tidy. Print it out.\n\n## code\n\n\n## # A tibble: 468 x 3\n##    year  month   co2\n##    &lt;chr&gt; &lt;chr&gt; &lt;dbl&gt;\n##  1 1959  1      315.\n##  2 1959  2      316.\n##  3 1959  3      316.\n##  4 1959  4      318.\n##  5 1959  5      318.\n##  6 1959  6      318 \n##  7 1959  7      316.\n##  8 1959  8      315.\n##  9 1959  9      314.\n## 10 1959  10     313.\n## # … with 458 more rows\n\n\n\n\n\n\nimport numpy as np\nimport pandas as pd\n\n\nUse Python to do Section 1.1 question 1.\n\n\n\n## code\n\n\nUse Python to do Section 1.1 question 7.\n\n\n\n## code\n\n\nUse Python to do Section 1.1 question 9. [Hint:] The method pandas.DataFrame.drop_duplicates() is analogous to dplyr::distinct(). Please figure out what we should use in the argument subset and keep.\n\n\n## code\n\n\nUse Python to do Section 1.2 question 1. (Import the data Batting.csv).\n\n\n## code\n\n\nUse Python to do Section 1.2 question 2. (Import the data People.csv).\n\n\n## code"
   },
   {
-    "objectID": "weeks/week-15.html#participate",
-    "href": "weeks/week-15.html#participate",
-    "title": "Week 15",
-    "section": "Participate",
-    "text": "Participate\n🖥️ Slides - Principal Component Analysis\nr fontawesome::fa(\"table\") USArrests",
-    "crumbs": [
-      "Weekly materials",
-      "Week 15"
-    ]
-  },
-  {
-    "objectID": "weeks/week-15.html#reading",
-    "href": "weeks/week-15.html#reading",
-    "title": "Week 15",
-    "section": "Reading",
-    "text": "Reading\n📖",
-    "crumbs": [
-      "Weekly materials",
-      "Week 15"
-    ]
-  },
-  {
-    "objectID": "weeks/week-15.html#exercise",
-    "href": "weeks/week-15.html#exercise",
-    "title": "Week 15",
-    "section": "Exercise",
-    "text": "Exercise\n📋 Lab-23 Principal Component Analysis\nr fontawesome::fa(\"table\") iris\n\n\nBack to course schedule ⏎",
-    "crumbs": [
-      "Weekly materials",
-      "Week 15"
-    ]
-  },
-  {
-    "objectID": "hw/hw1.html",
-    "href": "hw/hw1.html",
-    "title": "Homework 1: Quarto, Basic Syntax and Data Importing",
+    "objectID": "hw/hw2.html#sec-murders",
+    "href": "hw/hw2.html#sec-murders",
+    "title": "Homework 2: Data Visualization and Data Wrangling",
     "section": "",
-    "text": "Please introduce yourself. You can share anything, your hometown, major, family, hobbies, working experience, honors and awards, special skills, etc, yes anything! Your autobiography should include:\n\nAt least two paragraphs (Paragraphs are separated by a blank line)\nBold text\nItalic text\nText with both bold AND italic font (Not mentioned in class, but you should be able to figure it out)\nClickable text with a hyperlink\nBlockquote\nListed items\nemoji\n\nTo make your emoji works, add from: markdown+emoji in your YAML header, like\n---\ntitle: \"My Document\"\nfrom: markdown+emoji\n---\nThen add emoji to your writing by typing :EMOJICODE:. Check emoji cheatsheet.\n\nYour Self-Introduction:"
+    "text": "Import the data set murders. Use the pipe operator |&gt; and the dplyr functions mutate(), filter(), and select() to get the following data output. Call the data set df.\n\nThe filtering conditions are\n\nregion in “Northeast” or “West”\nrate = total / population * 100000 is less than 1.\n\nThe new variable rank is based on rate. The highest rate is ranked 1st. [Hint:] Use the function rank().\n\n## code\n\n# # A tibble: 8 × 4\n#    rate  rank state         total\n#   &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;         &lt;dbl&gt;\n# 1 0.515    49 Hawaii            7\n# 2 0.766    46 Idaho            12\n# 3 0.828    44 Maine            11\n# 4 0.380    50 New Hampshire     5\n# 5 0.940    42 Oregon           36\n# 6 0.796    45 Utah             22\n# 7 0.320    51 Vermont           2\n# 8 0.887    43 Wyoming           5\n\n\nChange the type of column rank to factor, and total to integer. (You can use the built-in as.factor() and as.integer() or the convert() function in the hablar package.\n\n\n## code\n\n\nCreate a list named df_lst of two elements. The first element is a subset of df whose rows have total less than 10, and the second element is a subset of df so that each of its row has total higher than 10. Print it out.\n\n\n## code\n\n\n# [[1]]\n# # A tibble: 4 × 4\n#    rate rank  state         total\n#   &lt;dbl&gt; &lt;fct&gt; &lt;chr&gt;         &lt;dbl&gt;\n# 1 0.515 49    Hawaii            7\n# 2 0.380 50    New Hampshire     5\n# 3 0.320 51    Vermont           2\n# 4 0.887 43    Wyoming           5\n# \n# [[2]]\n# # A tibble: 4 × 4\n#    rate rank  state  total\n#   &lt;dbl&gt; &lt;fct&gt; &lt;chr&gt;  &lt;dbl&gt;\n# 1 0.766 46    Idaho     12\n# 2 0.828 44    Maine     11\n# 3 0.940 42    Oregon    36\n# 4 0.796 45    Utah      22\n\n\nCombine the two data sets in df_lst using rbind().\n\n\n## code\n\n\nThe dplyr provides dplyr::bind_rows() and dplyr::bind_cols() that are analogs to rbind() and cbind() in the R base. Combine the two data sets in df_lst using bind_rows(). The result should be exactly the same as the previous one.\n\n\n## code\n\n\nCombine the two data frames data1 and data2 below using bind_rows() and rbind(). Describe what happened and their difference. (Note that the two data sets have different column names)\n\n\ndata1 &lt;- tibble(x = letters[1:5])\ndata2 &lt;- tibble(y = 1:3)\n\n\n## code (Error may happen. set eval: false if you'd like to render the document.)\n\n\nWith df, select state and total, and arrange df by total in an increasing order.\n\n\n## code\n\n\nWith df, use contains() to select column variables whose name contains the string “at”.\n\n\n## code\n\n\nBack to murders. Extract the rows whose has the largest population in its region as the shown output. The population is ranked in a decreasing order.\n\n\n## code\n\n# # A tibble: 4 × 5\n#   state      abb   region        population total\n#   &lt;chr&gt;      &lt;chr&gt; &lt;chr&gt;              &lt;dbl&gt; &lt;dbl&gt;\n# 1 California CA    West            37253956  1257\n# 2 Texas      TX    South           25145561   805\n# 3 New York   NY    Northeast       19378102   517\n# 4 Illinois   IL    North Central   12830632   364"
   },
   {
-    "objectID": "hw/hw1.html#vector",
-    "href": "hw/hw1.html#vector",
-    "title": "Homework 1: Quarto, Basic Syntax and Data Importing",
-    "section": "3.1 Vector",
-    "text": "3.1 Vector\nUse the built-in data set LakeHuron that records annual measurements of the level, in feet, of Lake Huron 1875–1972.\n\nReturn a logical vector that shows whether the lake level is higher than the average level or not.\n\n\nReturn years that have a level higher than the average."
-  },
-  {
-    "objectID": "hw/hw1.html#data-frame",
-    "href": "hw/hw1.html#data-frame",
-    "title": "Homework 1: Quarto, Basic Syntax and Data Importing",
-    "section": "3.2 Data Frame",
-    "text": "3.2 Data Frame\n\nMake the mtcars dataset as a tibble using as_tibble(). Call it tbl.\n\n\nPrint the sub data of tbl that contains the 11th to 15th rows and the last three columns.\n\n\nGrab the second and the third columns of tbl.\n\n\nExtract the fourth column of tbl as a numerical vector.\n\n\nStart with tbl, use the pipe operator |&gt; to do the followings sequentially.\n\nextract the first 10 observations (rows) using head()\nfind the column names colnames()\nsort the columns names using sort() in a decreasing order. (alphabetically from z to a)"
-  },
-  {
-    "objectID": "hw/hw1.html#data-importing",
-    "href": "hw/hw1.html#data-importing",
-    "title": "Homework 1: Quarto, Basic Syntax and Data Importing",
-    "section": "3.3 Data Importing",
-    "text": "3.3 Data Importing\n\nUse readxl::read_excel() to read the data sales.xlsx in the data folder. Use arguments sheet, skip and col_names so that the output looks like\n# A tibble: 9 x 2\n  id      n    \n  &lt;chr&gt;   &lt;chr&gt;\n1 Brand 1 n    \n2 1234    8    \n3 8721    2    \n4 1822    3    \n5 Brand 2 n    \n6 3333    1    \n# … with 3 more rows\n\n\nUse readxl::read_excel() to read in the favourite-food.xlsx file in the data folder and call the data fav_food. Use the argument na to treat “N/A” and “99999” as a missing value. Print the data out."
-  },
-  {
-    "objectID": "hw/hw1.html#pandas-data-frame",
-    "href": "hw/hw1.html#pandas-data-frame",
-    "title": "Homework 1: Quarto, Basic Syntax and Data Importing",
-    "section": "4.1 Pandas Data Frame",
-    "text": "4.1 Pandas Data Frame\n\nImport the data set mtcars.csv using pd.read_csv(). Then print the first five rows.\n\n\nUse method .iloc to obtain the first and fourth rows, and the second and third columns. Name the data dfcar.\n\n\nSet the row names of dfcar to Mazda and Hornet.\n\n\nUse method .loc to obtain row Hornet and column disp."
-  },
-  {
-    "objectID": "hw/hw1.html#numpy-array",
-    "href": "hw/hw1.html#numpy-array",
-    "title": "Homework 1: Quarto, Basic Syntax and Data Importing",
-    "section": "4.2 NumPy Array",
-    "text": "4.2 NumPy Array\nIn class, we learned the R data structure matrix:\n\nmat &lt;- matrix(data = 1:6, nrow = 3, ncol = 2)\nmat[c(1, 3), 1] \nmat_c &lt;- matrix(data = c(7, 0, 0, 8, 2, 6), nrow = 3, ncol = 2)\ncbind(mat, mat_c)  \n\n\nUse NumPy methods to create an array equivalent to mat. Call it mat_py.\n\n\nSubset the mat_py so that the result is equivalent to mat[c(1, 3), 1].\n\n\nCreate an array equivalent to mat_c. Call it mat_py_c. Then combine them by columns using np.hstack()."
-  },
-  {
-    "objectID": "hw/hw3.html",
-    "href": "hw/hw3.html",
-    "title": "Homework 3: Probability, Statistics and Machine Learning",
+    "objectID": "hw/hw2.html#sec-baseball",
+    "href": "hw/hw2.html#sec-baseball",
+    "title": "Homework 2: Data Visualization and Data Wrangling",
     "section": "",
-    "text": "Note: For any simulation or random sampling, set the random seed at your student ID number, for example set.seed(6145678)."
+    "text": "Install and load the Lahman library. This database includes data related to baseball teams. It includes summary statistics about how the players performed on offense and defense for several years. It also includes personal information about the players. The Batting data frame contains the offensive statistics for all players for many years:\n\n\n\nRows: 112,184\nColumns: 22\n$ playerID &lt;chr&gt; \"abercda01\", \"addybo01\", \"allisar01\", \"allisdo01\", \"ansonca01…\n$ yearID   &lt;int&gt; 1871, 1871, 1871, 1871, 1871, 1871, 1871, 1871, 1871, 1871, 1…\n$ stint    &lt;int&gt; 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1…\n$ teamID   &lt;fct&gt; TRO, RC1, CL1, WS3, RC1, FW1, RC1, BS1, FW1, BS1, CL1, CL1, W…\n$ lgID     &lt;fct&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ G        &lt;int&gt; 1, 25, 29, 27, 25, 12, 1, 31, 1, 18, 22, 1, 10, 3, 20, 29, 1,…\n$ AB       &lt;int&gt; 4, 118, 137, 133, 120, 49, 4, 157, 5, 86, 89, 3, 36, 15, 94, …\n$ R        &lt;int&gt; 0, 30, 28, 28, 29, 9, 0, 66, 1, 13, 18, 0, 6, 7, 24, 26, 0, 0…\n$ H        &lt;int&gt; 0, 32, 40, 44, 39, 11, 1, 63, 1, 13, 27, 0, 7, 6, 33, 32, 0, …\n$ X2B      &lt;int&gt; 0, 6, 4, 10, 11, 2, 0, 10, 1, 2, 1, 0, 0, 0, 9, 3, 0, 0, 1, 0…\n$ X3B      &lt;int&gt; 0, 0, 5, 2, 3, 1, 0, 9, 0, 1, 10, 0, 0, 0, 1, 3, 0, 0, 1, 0, …\n$ HR       &lt;int&gt; 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0…\n$ RBI      &lt;int&gt; 0, 13, 19, 27, 16, 5, 2, 34, 1, 11, 18, 0, 1, 5, 21, 23, 0, 0…\n$ SB       &lt;int&gt; 0, 8, 3, 1, 6, 0, 0, 11, 0, 1, 0, 0, 2, 2, 4, 4, 0, 0, 3, 0, …\n$ CS       &lt;int&gt; 0, 1, 1, 1, 2, 1, 0, 6, 0, 0, 1, 0, 0, 0, 0, 4, 0, 0, 1, 0, 0…\n$ BB       &lt;int&gt; 0, 4, 2, 0, 2, 0, 1, 13, 0, 0, 3, 1, 2, 0, 2, 9, 0, 0, 4, 1, …\n$ SO       &lt;int&gt; 0, 0, 5, 2, 1, 1, 0, 1, 0, 0, 4, 0, 0, 0, 2, 2, 3, 0, 2, 0, 2…\n$ IBB      &lt;int&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ HBP      &lt;int&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ SH       &lt;int&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ SF       &lt;int&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…\n$ GIDP     &lt;int&gt; 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 1, 2, 0, 0, 0, 0, 3…\n\n\nUse Batting data to obtain the top 10 player observations that hit the most home runs (in descending order) in 2022. Call the data set top10, make it as a tibble and print it out.\n\n## code\n\n\nBut who are these players? In the top10 data, we see an ID, but not the names. The player names are in the People data set:\n\n\n\nRows: 20,676\nColumns: 26\n$ playerID     &lt;chr&gt; \"aardsda01\", \"aaronha01\", \"aaronto01\", \"aasedo01\", \"abada…\n$ birthYear    &lt;int&gt; 1981, 1934, 1939, 1954, 1972, 1985, 1850, 1877, 1869, 186…\n$ birthMonth   &lt;int&gt; 12, 2, 8, 9, 8, 12, 11, 4, 11, 10, 9, 3, 10, 2, 8, 9, 6, …\n$ birthDay     &lt;int&gt; 27, 5, 5, 8, 25, 17, 4, 15, 11, 14, 20, 16, 22, 16, 17, 1…\n$ birthCountry &lt;chr&gt; \"USA\", \"USA\", \"USA\", \"USA\", \"USA\", \"D.R.\", \"USA\", \"USA\", …\n$ birthState   &lt;chr&gt; \"CO\", \"AL\", \"AL\", \"CA\", \"FL\", \"La Romana\", \"PA\", \"PA\", \"V…\n$ birthCity    &lt;chr&gt; \"Denver\", \"Mobile\", \"Mobile\", \"Orange\", \"Palm Beach\", \"La…\n$ deathYear    &lt;int&gt; NA, 2021, 1984, NA, NA, NA, 1905, 1957, 1962, 1926, NA, 1…\n$ deathMonth   &lt;int&gt; NA, 1, 8, NA, NA, NA, 5, 1, 6, 4, NA, 2, 6, NA, NA, NA, N…\n$ deathDay     &lt;int&gt; NA, 22, 16, NA, NA, NA, 17, 6, 11, 27, NA, 13, 11, NA, NA…\n$ deathCountry &lt;chr&gt; NA, \"USA\", \"USA\", NA, NA, NA, \"USA\", \"USA\", \"USA\", \"USA\",…\n$ deathState   &lt;chr&gt; NA, \"GA\", \"GA\", NA, NA, NA, \"NJ\", \"FL\", \"VT\", \"CA\", NA, \"…\n$ deathCity    &lt;chr&gt; NA, \"Atlanta\", \"Atlanta\", NA, NA, NA, \"Pemberton\", \"Fort …\n$ nameFirst    &lt;chr&gt; \"David\", \"Hank\", \"Tommie\", \"Don\", \"Andy\", \"Fernando\", \"Jo…\n$ nameLast     &lt;chr&gt; \"Aardsma\", \"Aaron\", \"Aaron\", \"Aase\", \"Abad\", \"Abad\", \"Aba…\n$ nameGiven    &lt;chr&gt; \"David Allan\", \"Henry Louis\", \"Tommie Lee\", \"Donald Willi…\n$ weight       &lt;int&gt; 215, 180, 190, 190, 184, 235, 192, 170, 175, 169, 220, 19…\n$ height       &lt;int&gt; 75, 72, 75, 75, 73, 74, 72, 71, 71, 68, 74, 71, 70, 78, 7…\n$ bats         &lt;fct&gt; R, R, R, R, L, L, R, R, R, L, R, R, R, R, R, L, R, L, L, …\n$ throws       &lt;fct&gt; R, R, R, R, L, L, R, R, R, L, R, R, R, R, L, L, R, L, R, …\n$ debut        &lt;chr&gt; \"2004-04-06\", \"1954-04-13\", \"1962-04-10\", \"1977-07-26\", \"…\n$ finalGame    &lt;chr&gt; \"2015-08-23\", \"1976-10-03\", \"1971-09-26\", \"1990-10-03\", \"…\n$ retroID      &lt;chr&gt; \"aardd001\", \"aaroh101\", \"aarot101\", \"aased001\", \"abada001…\n$ bbrefID      &lt;chr&gt; \"aardsda01\", \"aaronha01\", \"aaronto01\", \"aasedo01\", \"abada…\n$ deathDate    &lt;date&gt; NA, 2021-01-22, 1984-08-16, NA, NA, NA, 1905-05-17, 1957…\n$ birthDate    &lt;date&gt; 1981-12-27, 1934-02-05, 1939-08-05, 1954-09-08, 1972-08-…\n\n\nWe can see column names nameFirst and nameLast. Use the left_join() function to create a table of the top home run hitters. The data table should have variables playerID, nameFirst, nameLast, and HR. Overwrite the object top10 with this new table, and print it out.\n\n## code\n\n\nUse the Fielding data frame to add each player’s position to the table you created in (2). Make sure that you filter for the year 2022 first, then use right_join(). This time show nameFirst, nameLast, teamID, HR, and POS.\n\n\n## code"
   },
   {
-    "objectID": "hw/hw3.html#monte-carlo-simulation",
-    "href": "hw/hw3.html#monte-carlo-simulation",
-    "title": "Homework 3: Probability, Statistics and Machine Learning",
-    "section": "1.1 Monte Carlo Simulation",
-    "text": "1.1 Monte Carlo Simulation\n\n\n\n\n\n\n\n\n\n\n\n\nSuppose you are in a classroom with 30 people. If we assume this is a randomly selected group of 30 people, what is the chance that at least two people have the same birthday? Here we use a Monte Carlo simulation. For simplicity, we assume nobody was born on February 29.\n\n\n\nNote that birthdays can be represented as numbers between 1 and 365, so a sample of 30 birthdays can be obtained like this:\n\n\nn &lt;- 30\nbdays &lt;- sample(x = 1:365, size = n, replace = TRUE)\n\n\nTo check if in this particular set of 30 people we have at least two with the same birthday, we can use the function duplicated(), which returns TRUE whenever an element of a vector is a duplicate. Here is an example:\n\n\nduplicated(c(1, 2, 3, 1, 4, 3, 5))\n\n[1] FALSE FALSE FALSE  TRUE FALSE  TRUE FALSE\n\n\nThe second time 1 and 3 appear, we get a TRUE.\n\nTo check if two birthdays were the same, we simply use the any() and duplicated() functions like this:\n\n\nany(duplicated(bdays))\n\n[1] FALSE\n\n\nIn this case, we see that it did happen. At least two people had the same birthday.\nTo estimate the probability of a shared birthday in the group, repeat this experiment by sampling sets of 30 birthdays 10000 times, and find the relative frequency of the event that at least two people had the same birthday.\n\n## code\n# set.seed(your ID number)"
+    "objectID": "hw/hw2.html#pivoting",
+    "href": "hw/hw2.html#pivoting",
+    "title": "Homework 2: Data Visualization and Data Wrangling",
+    "section": "",
+    "text": "The R built-in co2 data set is not tidy. Let’s make it tidy. Run the following code to define the co2_wide object:\n\n\nco2_wide &lt;- data.frame(matrix(co2, ncol = 12, byrow = TRUE)) |&gt; \n    setNames(1:12) |&gt; \n    mutate(year = as.character(1959:1997))\n\nUse the pivot_longer() function to make it tidy. Call the column with the CO2 measurements co2 and call the month column month. Call the resulting object co2_tidy. Print it out.\n\n## code\n\n\n## # A tibble: 468 x 3\n##    year  month   co2\n##    &lt;chr&gt; &lt;chr&gt; &lt;dbl&gt;\n##  1 1959  1      315.\n##  2 1959  2      316.\n##  3 1959  3      316.\n##  4 1959  4      318.\n##  5 1959  5      318.\n##  6 1959  6      318 \n##  7 1959  7      316.\n##  8 1959  8      315.\n##  9 1959  9      314.\n## 10 1959  10     313.\n## # … with 458 more rows"
   },
   {
-    "objectID": "hw/hw3.html#central-limit-theorem",
-    "href": "hw/hw3.html#central-limit-theorem",
-    "title": "Homework 3: Probability, Statistics and Machine Learning",
-    "section": "1.2 Central Limit Theorem",
-    "text": "1.2 Central Limit Theorem\nSuppose random variables \\(X_1, X_2, \\dots, X_n\\) are independent and follow Chi-squared distribution with degrees of freedom 1, \\(\\chi^2_{df=1}\\).\n\nUse dchisq() to plot \\(\\chi^2_{df=1}\\) distribution. Consider \\(x\\in (0, 5)\\).\n\n\n## code\n\n\nConsider three sample sizes \\(n = 2, 8, 100\\), and set the sample size of the sample mean \\(\\overline{X}_n\\) be \\(1000\\). Show the sampling distribution of \\(\\overline{X}_n\\), i.e., the collection \\(\\{\\overline{X}_n^{(m)}\\}_{m=1}^{1000}\\), looks more and more like Gaussian as \\(n\\) increases by making histograms of \\(\\overline{X}_n\\) samples with \\(n = 2, 8, 100\\). The procedure is the following:\n\nFor each \\(n = 2, 8, 100\\),\n\nDraw \\(n\\) values \\(x_1, x_2, \\dots, x_n\\) using rchisq(n, df = 1).\nCompute the mean of the \\(n\\) values, which is \\(\\overline{x}_n\\).\nRepeat i. and ii. 1000 times to obtain 1000 \\(\\overline{x}_n\\)s.\nPlot the histogram of these 1000 \\(\\overline{x}_n\\)s.\n\n\n## code\n# set.seed(your ID number)"
+    "objectID": "hw/hw2.html#data-manipulation-in-python",
+    "href": "hw/hw2.html#data-manipulation-in-python",
+    "title": "Homework 2: Data Visualization and Data Wrangling",
+    "section": "",
+    "text": "import numpy as np\nimport pandas as pd\n\n\nUse Python to do Section 1.1 question 1.\n\n\n\n## code\n\n\nUse Python to do Section 1.1 question 7.\n\n\n\n## code\n\n\nUse Python to do Section 1.1 question 9. [Hint:] The method pandas.DataFrame.drop_duplicates() is analogous to dplyr::distinct(). Please figure out what we should use in the argument subset and keep.\n\n\n## code\n\n\nUse Python to do Section 1.2 question 1. (Import the data Batting.csv).\n\n\n## code\n\n\nUse Python to do Section 1.2 question 2. (Import the data People.csv).\n\n\n## code"
   },
   {
-    "objectID": "hw/hw3.html#linear-regression",
-    "href": "hw/hw3.html#linear-regression",
-    "title": "Homework 3: Probability, Statistics and Machine Learning",
-    "section": "2.1 Linear Regression",
-    "text": "2.1 Linear Regression\nA pharmaceutical firm would like to obtain information on the relationship between the dose level and potency of a drug product. To do this, each of 15 test tubes is inoculated with a virus culture and incubated for 5 days at 30°C. Three test tubes are randomly assigned to each of the five different dose levels to be investigated (2, 4, 8, 16, and 32 mg). Each tube is injected with only one dose level, and the response of interest is obtained.\n\nImport dose.csv into your working session. The data set is not tidy. Use pivot_longer() to make it tidy as the shown tibble below. Call the tidy data set dose_tidy.\n\n\n## code\n\n## # A tibble: 15 × 3\n##    dose_level tube  response\n##         &lt;dbl&gt; &lt;chr&gt;    &lt;dbl&gt;\n##  1          2 tube1        5\n##  2          2 tube2        7\n##  3          2 tube3        3\n##  4          4 tube1       10\n##  5          4 tube2       12\n##  6          4 tube3       14\n##  7          8 tube1       15\n##  8          8 tube2       17\n##  9          8 tube3       18\n## 10         16 tube1       20\n## 11         16 tube2       21\n## 12         16 tube3       19\n## 13         32 tube1       23\n## 14         32 tube2       24\n## 15         32 tube3       29\n\n\nFit a simple linear regression with the predictor \\(\\texttt{dose level}\\) for response. Print the fitted result.\n\n\n## code\n\n\nWith (2), plot the data with a \\(95\\%\\) confidence interval for the mean response.\n\n\n## code\n\n\nFit a simple linear regression model with the predictor \\(\\texttt{ln(dose level)}\\) for response, where \\(\\ln = \\log_e\\). Print the fitted result.\n\n\n## code\n\n\nWith (4), plot the data \\((\\ln(\\text{dose level})_i, \\text{response}_i), i = 1, \\dots, 15\\) with a \\(95\\%\\) confidence interval for the mean response.\n\n\n## code\n\n\nDraw residual plots of Model in (2) and (4). According to the plots, which model you think is better?\n\n\n## code\n\n\nImport dose_tidy.csv and redo (2) using Python. Show the slope and intercept.\n\n\n\n# code\n\n\nUse Python to predict the response value when the dose level is 10 and 30.\n\n\n\n# code"
+    "objectID": "hw/hw2.html#murders",
+    "href": "hw/hw2.html#murders",
+    "title": "Homework 2: Data Visualization and Data Wrangling",
+    "section": "2.1 murders",
+    "text": "2.1 murders\nUse murders to make plots.\n\nCreate a scatter plot of total murders (x-axis) versus population sizes (y-axis) using the pipe operator |&gt; that the murders data set is on the left to |&gt;.\n\n\n## code\n\n\nGenerate the plot below using label and color aesthetics in aes() and a geometry layer geom_label(). Save the ggplot object as p. Here, we add abbreviation as the label, and make the labels’ color be determined by the state’s region.\n\n\n## code\n\n\n\n\n\n\n\n\n\n\n\nUse the object p in (2) and\n\n\nChange both axes to be in the \\(\\log_{10}\\) scale using scale_x_log10() and scale_y_log10()\nAdd a title “Gun murder data”\nUse the wall street journal theme in ggthemes.\n\n\n## code"
   },
   {
-    "objectID": "hw/hw3.html#logistic-regression",
-    "href": "hw/hw3.html#logistic-regression",
-    "title": "Homework 3: Probability, Statistics and Machine Learning",
-    "section": "2.2 Logistic Regression",
-    "text": "2.2 Logistic Regression\n\nImport body.csv. Split the data into a training set and a test set. Set the random seed at your student ID number. Use 80:20 rule.\n\n\n# code\n# set.seed(your ID number)\n\n\nFit a logistic regression with the predictor HEIGHT using the training sample data. Find the probability that the subject is male given HEIGHT = 165.\n\n\n# code\n\n\nFit a logistic regression with the predictor BMI using the training sample data. Find the probability that the subject is male given BMI = 25.\n\n\n# code\n\n\nDo the classification on the test set for the model (2) and (3), and compute the test accuracy rate. Which model gives us higher accuracy rate?\n\n\n# code\n\n\nUse Python to split the body data into a training set and a test set.\n\n\n\n## code\n\n\nUse Python to fit a logistic regression with the predictor BMI using the training sample data. Find the probability that the subject is male given BMI = 25.\n\n\n\n# code\n\n\nUse Python to do the classification on the test set. Compute the test accuracy rate.\n\n\n\n# code"
+    "objectID": "hw/hw2.html#mpg",
+    "href": "hw/hw2.html#mpg",
+    "title": "Homework 2: Data Visualization and Data Wrangling",
+    "section": "2.2 mpg",
+    "text": "2.2 mpg\nUse mpg to make plots.\n\nWhat’s gone wrong with this code? Why are the points not blue? Change it so that the points are colored in blue.\n\n\nmpg |&gt; ggplot(mapping = aes(x = displ, y = hwy, colour = \"blue\")) +\n    geom_point()\n\n\n\n\n\n\n\n\n\nGenerate the bar chart below.\n\n\n## code\n\n\n\n\n\n\n\n\n\n\n\nComplete the code to generate the boxplot below. Note that x = class and y = hwy, so the coordinates need to be flipped.\n\n\n## code\n\n\n\n\n\n\n\n\n\n\n\nGenerate the histogram below with density scale. Map y to the internal variable ..density.. (after_stat(density)) to show density values. Put the legend inside the plot at c(0.9, 0.15). (check ?theme help page)\n\n\n## code\n\n\n\n\n\n\n\n\n\n\n\nGenerate the scatter plot below.\n\n\n## code"
   },
   {
-    "objectID": "hw/hw3.html#k-nearest-neighbors-knn",
-    "href": "hw/hw3.html#k-nearest-neighbors-knn",
-    "title": "Homework 3: Probability, Statistics and Machine Learning",
-    "section": "2.3 K-Nearest Neighbors (KNN)",
-    "text": "2.3 K-Nearest Neighbors (KNN)\n\nFit the KNN with \\(K=1\\) and \\(10\\) using BMI on the training data and do the classification on the same test set used in logistic regression. Obtain the confusion matrix for the two \\(K\\)s. Which \\(K\\) performs better? Why?\n\n\n# code"
-  },
-  {
-    "objectID": "course-overview.html",
-    "href": "course-overview.html",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "MATH/COSC 3570 Introduction to Data Science (Spring 2025)",
     "section": "",
-    "text": "This course introduces main aspects of doing a practical data science project, from importing data to deploying what is learned from data. We start with learning popular data science tools such as basic R and Python programming, Git and GitHub, and interactive publishing system Quarto. Then we learn data importing, data visualization and data wrangling using both R and Python. The second half of the course focuses on several basic simulation and machine learning methods, including Monte Carlo simulation, linear regression, K-nearest neighbors, logistic regression, principal component analysis, and K-means clustering. We learn R tidyverse and tidymodels packages. For Python, Pandas, NumPy, and Scikit-Learn libraries are introduced.",
+    "text": "Midterm project Proposal due Friday, 3/7, 11:59 PM.\nTA help desk hours at Cudahy Hall 301 Monday: 1 – 2 PM, Tuesday: 12 – 1 PM, Thursday: 12 – 2 PM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTo Do\nSlides\nLab Exercise\nHomework\nProject\n\n\n\n\n1\nTue, Jan 14\nGreetings + Overview of Data Science\n📖\n🖥️syllabus 🖥️overview\n\n\n\n\n\n\nThu, Jan 16\nPosit Cloud\n\n🖥️posit\n📋 posit 📋01\n\n\n\n\n2\nTue, Jan 21\nNo CLASS: Cold Weather\n📖\n\n\n\n\n\n\n\nThu, Jan 23\nGit/GitHub Introduction\n\n🖥️git\n📋github\n\n\n\n\n3\nTue, Jan 28\nQuarto: YAML and Markdown\n📖\n🖥️quarto\n📋02 📋03 📋04\n\n\n\n\n\nThu, Jan 30\nQuarto: Code Chunk\n\n\n\n\n\n\n\n4\nTue, Feb 4\nR Syntax\n📖\n🖥️syntax\n📋05\n\n\n\n\n\nThu, Feb 6\nPython Syntax\n\n\n📋06 📋 07(opt)\n✍️ HW1\n\n\n\n5\nTue, Feb 11\nR Tidyverse\n📖\n🖥️package\n📋08\n\n\n\n\n\nThu, Feb 13\nPython NumPy/Pandas\n\n\n📋09\n\n\n\n\n6\nTue, Feb 18\nData Importing\n📖\n🖥️import\n📋10\n\n\n\n\n\nThu, Feb 20\nData Visualization-ggplot2\n\n🖥️ggplot\n📋11 📋12\n\n\n\n\n7\nTue, Feb 25\nData Visualization-categorical and numerical data\n📖\n🖥️visualization\n📋13\n\n\n\n\n\nThu, Feb 27\nInteractive Data Visualization\n\n🖥️interactive-viz\n📋14 (opt)\nHW 1 Due\n✅ Team up Due\n\n\n8\nTue, Mar 4\nData Wrangling - one data frame\n📖\n🖥️dplyr-1\n📋15\n\n\n\n\n\nThu, Mar 6\nData Wrangling - two data frames\n\n🖥️ dplyr-2\n📋16\n\n✅ Proposal Due\n\n\n9\nTue, Mar 11\nNO CLASS: Spring break\n📖\n\n\n\n\n\n\n\nThu, Mar 13\nNO CLASS: Spring break\n\n\n\n\n\n\n\n10\nTue, Mar 18\nData Wrangling - tidyr\n📖\n🖥️\n📋\n✍️\n✅ Materials Due\n\n\n\nThu, Mar 20\nMini Project Presentation\n\n🖥️\n📋\n\n\n\n\n11\nTue, Mar 25\nProbabilistic and Statistical Simulation\n\n\n📋\n\n\n\n\n\nThu, Mar 27\nProbabilistic and Statistical Simulation\n\n\n\n\n\n\n\n12\nTue, Apr 1\nLinear Regression\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 3\nLinear Regression\n\n\n📋\n\n\n\n\n13\nTue, Apr 8\nLogistic Regression\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 10\nLogistic Regression\n\n\n📋\n✍️\n\n\n\n14\nTue, Apr 15\nK-Nearest Neighbors\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 17\nNO CLASS: Easter break\n\n\n📋\n\n\n\n\n15\nTue, Apr 22\nPrincipal Component Analysis\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 24\nPrincipal Component Analysis\n\n\n📋\n\n\n\n\n16\nTue, Apr 29\nK-Means Clustering\n📖\n🖥️\n\n\n\n\n\n\nThu, May 1\nFinal Project Presentation I\n\n🖥️\n📋\n\n\n\n\n17\nMon, May 5\nFinal Project Presentation II\n\n\n\n\n\n\n\n\n\nThis schedule will be updated as the semester progresses, with all changes documented here. Dr. Yu reserve the right to make changes to the schedule.",
     "crumbs": [
       "Course information",
-      "Overview"
+      "Schedule"
     ]
   },
   {
-    "objectID": "course-news.html",
-    "href": "course-news.html",
-    "title": "News/Announcements",
+    "objectID": "slides/13-dplyr-2.html#joining-data-frames",
+    "href": "slides/13-dplyr-2.html#joining-data-frames",
+    "title": "Data Wrangling - two data frames 🛠",
+    "section": "Joining data frames",
+    "text": "Joining data frames\n\nHave multiple data frames\nWant to bring them together\n\nSQL-like functions\n\nleft_join(x, y)\nright_join(x, y)\nfull_join(x, y)\ninner_join(x, y)\nsemi_join(x, y)\nanti_join(x, y)\n\n\n\n\nOK, back to dplyr. Here the idea is that we have two or more data frames, and we want to bring them together as one single combined data set.\nHow? we are gonna use dplyr functions with name something_join(x, y).\nThese functions borrow the idea of SQL for relational database management. They are similar to the join functions of SQL.\nAnd so we can do something that SQL usually does in R, and it’s probably easier because we don’t need to use R and SQL back and forth, and integrate data manipulation and analysis together.\nIn particular, we are gonna go through the following 6 join functions.\nHere x and y are data frames. OK."
+  },
+  {
+    "objectID": "slides/13-dplyr-2.html#setup",
+    "href": "slides/13-dplyr-2.html#setup",
+    "title": "Data Wrangling - two data frames 🛠",
+    "section": "Setup",
+    "text": "Setup\nData sets x and y share the same variable id.\n\n\n\nx &lt;- tibble(\n    id = c(\"01\", \"02\", \"03\"),\n    var_x = c(\"x1\", \"x2\", \"x3\")\n    )\n\n\nx\n\n# A tibble: 3 × 2\n  id    var_x\n  &lt;chr&gt; &lt;chr&gt;\n1 01    x1   \n2 02    x2   \n3 03    x3   \n\n\n\n\ny &lt;- tibble(\n    id = c(\"01\", \"02\", \"04\"),\n    var_y = c(\"y1\", \"y2\", \"y4\")\n    )\n\n\ny\n\n# A tibble: 3 × 2\n  id    var_y\n  &lt;chr&gt; &lt;chr&gt;\n1 01    y1   \n2 02    y2   \n3 04    y4   \n\n\n\n\n\nI am going to use these two data frames as an illustration of join functions.\ndata frame x has variable id and var_x\ndata frame y has variable again id and but another variable var_y.\nData frame x and y have the common variable id, so it’s quite reasonable to merge the two data sets together by the common variable id. But x has id 1, 2, 3 and y has id 1, 2, 4. And so there are many different ways to combine the two.\nYou can think id is marquette ID, and var_x stores GPA and var_y stores say students’ height. And we are gonna combine the two data sets into one student personal information data set."
+  },
+  {
+    "objectID": "slides/13-dplyr-2.html#left_joinx-y-all-rows-from-x",
+    "href": "slides/13-dplyr-2.html#left_joinx-y-all-rows-from-x",
+    "title": "Data Wrangling - two data frames 🛠",
+    "section": "\nleft_join(x, y): all rows from x",
+    "text": "left_join(x, y): all rows from x\n\n\n\n\n\n\n\n\n\n\n\n\n## by = keys\nleft_join(x, y, by = \"id\")\n\n# A tibble: 3 × 3\n  id    var_x var_y\n  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;\n1 01    x1    y1   \n2 02    x2    y2   \n3 03    x3    &lt;NA&gt; \n\n\n\n\nNA is added to the id not appearing in y.\n\n\n\n\n\n\n\n\n\n\n\n\nOK first left_join. Look at this gif.\nThe idea is that left_join(x, y) keeps all the rows or observations from x, and keep all the variables in x and y, including id, var_x and var_y.\nThe variables used to connect two data tables are called keys, and we use by argument to tell dplyr which variable is the key\nBy default, the function uses all variables that appear in both tables as keys. So here, the default key is also “id” because “id” is the only variable that appears in both data sets.\nThe resulting data frame is shown here. The left join function basically keeps the entire data set x, and attaches the data set y to x with “id” in x.\nBecause y doesn’t have id 3, its value of var_y is a missing value NA.\nWe can use the venn diagram to visualize the idea of joining tables. And basically, the main data set is A or x. We keep everything of A, and we add stuff of B or y for observations that are in A or x only."
+  },
+  {
+    "objectID": "slides/13-dplyr-2.html#left_join-example",
+    "href": "slides/13-dplyr-2.html#left_join-example",
+    "title": "Data Wrangling - two data frames 🛠",
+    "section": "\nleft_join() Example",
+    "text": "left_join() Example\n\n\nLeft join\nCode for generating the data sets\n\n\n\n\n\n\npop_x\n\n       state population\n1    Alabama    4779736\n2     Alaska     710231\n3    Arizona    6392017\n4   Arkansas    2915918\n5 California   37253956\n6   Colorado    5029196\n\n\n\nelec_vote_y\n\n        state elec_vote\n1  California        55\n2     Arizona        11\n3     Alabama         9\n4 Connecticut         7\n5      Alaska         3\n6    Delaware         3\n\n\n\n\npop_x |&gt; \n    left_join(elec_vote_y) #&lt;&lt;\n\n       state population elec_vote\n1    Alabama    4779736         9\n2     Alaska     710231         3\n3    Arizona    6392017        11\n4   Arkansas    2915918        NA\n5 California   37253956        55\n6   Colorado    5029196        NA\n\n\n\n\nConnecticut and Delaware in elec_vote_y will not be shown in the left-joined data because they are not in pop_x.\n\n\n\n\n\n\nlibrary(tidyverse)\nlibrary(dslabs)\npop_x &lt;- murders |&gt; \n    slice(1:6) |&gt;\n    select(state, population)\n\nelec_vote_y &lt;- results_us_election_2016 |&gt; \n    filter(state %in% c(\"Alabama\", \"Alaska\", \"Arizona\", \n                        \"California\", \"Connecticut\", \"Delaware\")) |&gt; \n    select(state, electoral_votes) |&gt; \n    rename(elec_vote = electoral_votes)\n\n\n\n\n\nLet’s see an example. Here we have two data sets, pop_x and elec_vote_y.\nThe left_join() function uses the common variable “state” to combine the two data sets.\nAnd the result of left joining will be that we keep the entire data set pop_x, and attach the variable elec_vote to the data.\nIf there is no such state or observation in y, its corresponding value of elec_vote is NA."
+  },
+  {
+    "objectID": "slides/13-dplyr-2.html#right_joinx-y-all-rows-from-y",
+    "href": "slides/13-dplyr-2.html#right_joinx-y-all-rows-from-y",
+    "title": "Data Wrangling - two data frames 🛠",
+    "section": "\nright_join(x, y): all rows from y",
+    "text": "right_join(x, y): all rows from y\n\n\n\n\n\n\n\n\n\n\n\n\nright_join(x, y)\n\nJoining with `by = join_by(id)`\n\n\n# A tibble: 3 × 3\n  id    var_x var_y\n  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;\n1 01    x1    y1   \n2 02    x2    y2   \n3 04    &lt;NA&gt;  y4   \n\n\n\n\nNA is in the column coming from x.\n\n\n\n\n\n\n\n\n\n\n\n\nOK. If you get the idea of left_join, you =should be able to guess what right_join() function is doing.\nBasically right_join(x, y) keeps all the rows or observations from y, and second data set, and again keep all the variablesin both x and y, including id, var_x and var_y.\nFor any observation that is not in x, its corresponding value of var_x becomes a missing value NA.\nSo here because x does not have id 4, its value of var_x is NA.\nIn the venn diagram, the main data set is B or y. We keep everything of B, and we add stuff of A or x for observations that are in B or y only."
+  },
+  {
+    "objectID": "slides/13-dplyr-2.html#right_join-example",
+    "href": "slides/13-dplyr-2.html#right_join-example",
+    "title": "Data Wrangling - two data frames 🛠",
+    "section": "\nright_join() Example",
+    "text": "right_join() Example\n\n\n\npop_x\n\n       state population\n1    Alabama    4779736\n2     Alaska     710231\n3    Arizona    6392017\n4   Arkansas    2915918\n5 California   37253956\n6   Colorado    5029196\n\n\n\nelec_vote_y\n\n        state elec_vote\n1  California        55\n2     Arizona        11\n3     Alabama         9\n4 Connecticut         7\n5      Alaska         3\n6    Delaware         3\n\n\n\n\npop_x |&gt; \n    right_join(elec_vote_y) #&lt;&lt;\n\n        state population elec_vote\n1     Alabama    4779736         9\n2      Alaska     710231         3\n3     Arizona    6392017        11\n4  California   37253956        55\n5 Connecticut         NA         7\n6    Delaware         NA         3\n\n\n\n\nArkansas and Colorado in pop_x will not be shown in the right-joined data because they are not in elec_vote_y.\n\n\n\n\nBack to the example, if we are doing right-join, we keep the entire data set elec_vote_y, and attach the variable population of pop_x to the data.\nIf there is no such state or observation in x, its corresponding value of population is NA.\nSince x does not have Connecticut and Delaware, their population is NA.\n\nArkansas and Colorado in pop_x will not be shown in the right-joined data because they are not in elec_vote_y."
+  },
+  {
+    "objectID": "slides/13-dplyr-2.html#full_joinx-y-all-rows-from-both-x-and-y",
+    "href": "slides/13-dplyr-2.html#full_joinx-y-all-rows-from-both-x-and-y",
+    "title": "Data Wrangling - two data frames 🛠",
+    "section": "\nfull_join(x, y): all rows from both x and y",
+    "text": "full_join(x, y): all rows from both x and y\n\n\n\n\n\n\n\n\n\n\n\n\nfull_join(x, y)\n\nJoining with `by = join_by(id)`\n\n\n# A tibble: 4 × 3\n  id    var_x var_y\n  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;\n1 01    x1    y1   \n2 02    x2    y2   \n3 03    x3    &lt;NA&gt; \n4 04    &lt;NA&gt;  y4   \n\n\n\nKeep all the rows and fill the missing parts with NAs.\n\n\n\n\n\n\n\n\n\n\n\n\nThe next is full_join(). full_join() preserves all the rows or observations either in x or in y or in both x and y.\nIn x, we have 1, 2, 3, and in y, we have 1, 2, 4. So the resulting full-joined data frame will have observations 1, 2, 3, 4, and fill the missing parts with NAs.\nx does not have id 4, so its var_x is NA. y does not have id 3, so its var_y is NA"
+  },
+  {
+    "objectID": "slides/13-dplyr-2.html#full_join-example",
+    "href": "slides/13-dplyr-2.html#full_join-example",
+    "title": "Data Wrangling - two data frames 🛠",
+    "section": "\nfull_join() Example",
+    "text": "full_join() Example\n\n\n\npop_x\n\n       state population\n1    Alabama    4779736\n2     Alaska     710231\n3    Arizona    6392017\n4   Arkansas    2915918\n5 California   37253956\n6   Colorado    5029196\n\nelec_vote_y\n\n        state elec_vote\n1  California        55\n2     Arizona        11\n3     Alabama         9\n4 Connecticut         7\n5      Alaska         3\n6    Delaware         3\n\n\n\n\npop_x |&gt; \n    full_join(elec_vote_y) #&lt;&lt;\n\n        state population elec_vote\n1     Alabama    4779736         9\n2      Alaska     710231         3\n3     Arizona    6392017        11\n4    Arkansas    2915918        NA\n5  California   37253956        55\n6    Colorado    5029196        NA\n7 Connecticut         NA         7\n8    Delaware         NA         3\n\n\n\n\nfull_join() takes the union of observations of x and y, so it produces the data set with the most rows.\n\n\n\n\nIn this example, the full-joined data set will contain observations either in x or in y or in both x and y.\nBecause Arkansas and Colorado are not in elec_vote_y, their elec_vote value is NA\nBecause Connecticut and Delaware are not in pop_x, their population value is NA\nfull_join() takes the union of x and y, so it produces the data set with the most rows."
+  },
+  {
+    "objectID": "slides/13-dplyr-2.html#inner_joinx-y-only-rows-w-keys-in-both-x-and-y",
+    "href": "slides/13-dplyr-2.html#inner_joinx-y-only-rows-w-keys-in-both-x-and-y",
+    "title": "Data Wrangling - two data frames 🛠",
+    "section": "\ninner_join(x, y): only rows w/ keys in both x and y",
+    "text": "inner_join(x, y): only rows w/ keys in both x and y\n\n\n\n\n\n\n\n\n\n\n\n\ninner_join(x, y)\n\nJoining with `by = join_by(id)`\n\n\n# A tibble: 2 × 3\n  id    var_x var_y\n  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;\n1 01    x1    y1   \n2 02    x2    y2   \n\n\n\nKeep only the rows that have information in both tables.\n\n\n\n\n\n\n\n\n\n\n\n\nOK inner_join(). inner_join() preserves only rows with keys or id here in both x and y.\nAnd we know id 1 and id 2 are in both x and y, so these two observations are preserved.\nid 3 is in x, but not in y, id 4 is in y, but not in x, so both are not included in the data.\nBecause we are taking intersection of the rows of x and y, we will get the fewest rows when inner_join() is used."
+  },
+  {
+    "objectID": "slides/13-dplyr-2.html#inner_join-example",
+    "href": "slides/13-dplyr-2.html#inner_join-example",
+    "title": "Data Wrangling - two data frames 🛠",
+    "section": "\ninner_join() Example",
+    "text": "inner_join() Example\n\n\n\npop_x\n\n       state population\n1    Alabama    4779736\n2     Alaska     710231\n3    Arizona    6392017\n4   Arkansas    2915918\n5 California   37253956\n6   Colorado    5029196\n\n\n\nelec_vote_y\n\n        state elec_vote\n1  California        55\n2     Arizona        11\n3     Alabama         9\n4 Connecticut         7\n5      Alaska         3\n6    Delaware         3\n\n\n\n\npop_x |&gt; \n    inner_join(elec_vote_y) #&lt;&lt;\n\n       state population elec_vote\n1    Alabama    4779736         9\n2     Alaska     710231         3\n3    Arizona    6392017        11\n4 California   37253956        55\n\n\n\n\n\nIn this example, there are 4 states in both x and y, Alabama, Alaska, Arizona, and California.\nThe inner-joined data set only keep the 4 states data."
+  },
+  {
+    "objectID": "slides/13-dplyr-2.html#section-2",
+    "href": "slides/13-dplyr-2.html#section-2",
+    "title": "Data Wrangling - two data frames 🛠",
     "section": "",
-    "text": "Any announcement will be posted in this page. The latest news will also be put on top of the main page.",
-    "crumbs": [
-      "Course information",
-      "News/Annoucements"
-    ]
+    "text": "16-Joining tables \n\nIn lab.qmd ## Lab 16 section\n\nImport the data at https://www.jaredlander.com/data/DiamondColors.csv. Call it diamond_color.\n\n\ndiamond_color &lt;- readr::read_csv(\"the url\")\n\n\nUse left_join() to combine the data set diamonds in ggplot2 and diamond_color by the key variable color.\n\n\nSelect the variables carat, color, Description, Details.\n\n\n## Variable \"color\" in diamonds but \"Color\" in diamond_color\n\njoined_df &lt;- diamonds |&gt;  \n    _______(_______, by = c('color' = 'Color')) |&gt;  ## join\n    _______(_________________________________________)  ## select\n\n\nCreate a bar chart of the variable color."
   },
   {
-    "objectID": "course-news.html#jan-17-2025",
-    "href": "course-news.html#jan-17-2025",
-    "title": "News/Announcements",
-    "section": "Jan 17, 2025",
-    "text": "Jan 17, 2025\n\nTA help desk hours at Cudahy Hall 301\n\nMonday: 1 – 2 PM\nTuesday: 12 – 1 PM,\nThursday: 12 – 2 PM",
-    "crumbs": [
-      "Course information",
-      "News/Annoucements"
-    ]
+    "objectID": "slides/13-dplyr-2.html#section-3",
+    "href": "slides/13-dplyr-2.html#section-3",
+    "title": "Data Wrangling - two data frames 🛠",
+    "section": "",
+    "text": "# A tibble: 53,940 × 4\n  carat color Description    Details                  \n  &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt;          &lt;chr&gt;                    \n1  0.23 E     Colorless      Minute traces of color   \n2  0.21 E     Colorless      Minute traces of color   \n3  0.23 E     Colorless      Minute traces of color   \n4  0.29 I     Near Colorless Slightly detectable color\n5  0.31 J     Near Colorless Slightly detectable color\n6  0.24 J     Near Colorless Slightly detectable color\n# ℹ 53,934 more rows"
   },
   {
-    "objectID": "course-news.html#jan-14-2025",
-    "href": "course-news.html#jan-14-2025",
-    "title": "News/Announcements",
-    "section": "Jan 14, 2025",
-    "text": "Jan 14, 2025\n\nNo office hours first week.",
-    "crumbs": [
-      "Course information",
-      "News/Annoucements"
-    ]
+    "objectID": "slides/13-dplyr-2.html#pd.merge",
+    "href": "slides/13-dplyr-2.html#pd.merge",
+    "title": "Data Wrangling - two data frames 🛠",
+    "section": "pd.merge()",
+    "text": "pd.merge()\n\n\nLeft join\nCode for generating the data sets\n\n\n\n\n\n\nimport numpy as np\nimport pandas as pd\n\n\npop_x\n\n        state  population\n0     Alabama     4779736\n1      Alaska      710231\n2     Arizona     6392017\n3    Arkansas     2915918\n4  California    37253956\n5    Colorado     5029196\n\nelec_vote_y\n\n          state  electoral_votes\n21      Alabama                9\n43       Alaska                3\n13      Arizona               11\n0    California               55\n26  Connecticut                7\n44     Delaware                3\n\n\n\n\n## dplyr::left_join()\npop_x.merge(right=elec_vote_y, how='left', on='state')\n\n        state  population  electoral_votes\n0     Alabama     4779736              9.0\n1      Alaska      710231              3.0\n2     Arizona     6392017             11.0\n3    Arkansas     2915918              NaN\n4  California    37253956             55.0\n5    Colorado     5029196              NaN\n\n\n\n\n\n\n\nmurders = pd.read_csv('./data/murders.csv')\npop_x = murders[0:6][['state','population']]\n\nelection = pd.read_csv('./data/results_us_election_2016.csv')\nraws1 = [\"Alabama\", \"Alaska\", \"Arizona\", \"California\", \"Connecticut\", \"Delaware\"]\ncols1 = [\"state\", \"electoral_votes\"]\ndf = election[cols1]\npop = []\nfor i in raws1:\n    mask = df[\"state\"] == i\n    pos = np.flatnonzero(mask)\n    pop.append(pos)\n\npop = np.array(pop)\npop = np.resize(pop, 6)\nelec_vote_y = df.iloc[pop]"
   },
   {
-    "objectID": "course-news.html#jan-7-2025",
-    "href": "course-news.html#jan-7-2025",
-    "title": "News/Announcements",
-    "section": "Jan 7, 2025",
-    "text": "Jan 7, 2025\n\nThe background survey form is at https://forms.office.com/r/3ntBAWupYS.",
-    "crumbs": [
-      "Course information",
-      "News/Annoucements"
-    ]
+    "objectID": "slides/13-dplyr-2.html#section-5",
+    "href": "slides/13-dplyr-2.html#section-5",
+    "title": "Data Wrangling - two data frames 🛠",
+    "section": "",
+    "text": "## dplyr::right_join()\npop_x.merge(elec_vote_y, how = 'right')\n\n         state  population  electoral_votes\n0      Alabama   4779736.0                9\n1       Alaska    710231.0                3\n2      Arizona   6392017.0               11\n3   California  37253956.0               55\n4  Connecticut         NaN                7\n5     Delaware         NaN                3\n\n\n\n\n\n\n## dplyr::full_join()\npop_x.merge(elec_vote_y, how = 'outer')\n\n         state  population  electoral_votes\n0      Alabama   4779736.0              9.0\n1       Alaska    710231.0              3.0\n2      Arizona   6392017.0             11.0\n3     Arkansas   2915918.0              NaN\n4   California  37253956.0             55.0\n5     Colorado   5029196.0              NaN\n6  Connecticut         NaN              7.0\n7     Delaware         NaN              3.0\n\n\n\n\n\n\n\n## dplyr::inner_join()\npop_x.merge(elec_vote_y, how = 'inner')\n\n        state  population  electoral_votes\n0     Alabama     4779736                9\n1      Alaska      710231                3\n2     Arizona     6392017               11\n3  California    37253956               55\n\n\n\n\n\n\n\nmath3570-s25.github.io/website"
   },
   {
     "objectID": "slides/10-viz.html#categorical-vs.-numerical-variables",
@@ -3066,7 +3164,7 @@
     "href": "slides/01-syllabus.html#grade-percentage-conversion",
     "title": "Welcome Aboard 🙌",
     "section": "Grade-Percentage Conversion",
-    "text": "Grade-Percentage Conversion\n\n\n\\([x, y)\\) means greater than or equal to \\(x\\) and less than \\(y\\). For example, 94.0 is in [94, 100] and the grade is A and 93.8 is in [90, 94) and the grade is A-.\n\n\n\n\n\n\nGrade\nPercentage\n\n\n\nA\n[94, 100]\n\n\nA-\n[90, 94)\n\n\nB+\n[87, 90)\n\n\nB\n[84, 87)\n\n\nB-\n[80, 84)\n\n\nC+\n[77, 80)\n\n\nC\n[74, 77)\n\n\nC-\n[70, 74)\n\n\nD+\n[65, 70)\n\n\nD\n[60, 65)\n\n\nF\n[0, 60)"
+    "text": "Grade-Percentage Conversion\n\n\n\\([x, y)\\) means greater than or equal to \\(x\\) and less than \\(y\\). For example, 94.0 is in [94, 100] and the grade is A and 93.8 is in [90, 94) and the grade is A-.\n\n\n\n\n\nGrade\nPercentage\n\n\n\nA\n[94, 100]\n\n\nA-\n[90, 94)\n\n\nB+\n[87, 90)\n\n\nB\n[84, 87)\n\n\nB-\n[80, 84)\n\n\nC+\n[77, 80)\n\n\nC\n[74, 77)\n\n\nC-\n[70, 74)\n\n\nD+\n[65, 70)\n\n\nD\n[60, 65)\n\n\nF\n[0, 60)"
   },
   {
     "objectID": "slides/01-syllabus.html#lab-exercises-30",
