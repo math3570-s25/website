@@ -23,9 +23,9 @@ tbl-colwidths: [5,10,15,5,8,10,8,8]
 |  | Thu, Feb 20 | Data Visualization-ggplot2 |  | [🖥️ggplot](/slides/09-ggplot2.html "09-ggplot2") | [📋11](exercise/lab11-ggplot2.html "lab11-ggplot2") [📋12](exercise/lab12-facet.html "lab12-facet") |  |  |
 | 7 | Tue, Feb 25 | Data Visualization-categorical and numerical data | [📖](/weeks/week-7.html "Week 7") | [🖥️visualization](/slides/10-viz.html "10-viz") | [📋13](exercise/lab13-visualization.html "lab13-visualization") |  |  |
 |  | Thu, Feb 27 | Interactive Data Visualization |  | [🖥️interactive-viz](/slides/11-interactive-viz.html "11-interactive-viz") | [📋14 (opt)](exercise/lab14-interactive.html "lab14-interactive") | HW 1 Due | [✅ Team up Due](present-description.html) |
-| 8 | Tue, Mar 4 | Data Wrangling - one data frame | 📖 | [🖥️dplyr-1](/slides/12-dplyr-1.html "12-dplyr-1") | [📋15](exercise/lab15-dplyr.html "lab15-dplyr") |  |  |
-|  | Thu, Mar 6 | Data Wrangling - two data frames |  | 🖥️ | 📋 |  | [✅ Proposal Due](present-description.html) |
-| 9 | Tue, Mar 11 | ***NO CLASS: Spring break*** |  |  |  |  |  |
+| 8 | Tue, Mar 4 | Data Wrangling - one data frame | [📖](/weeks/week-8.html "Week 8") | [🖥️dplyr-1](/slides/12-dplyr-1.html "12-dplyr-1") | [📋15](exercise/lab15-dplyr.html "lab15-dplyr") |  |  |
+|  | Thu, Mar 6 | Data Wrangling - two data frames |  | [🖥️ dplyr-2](/slides/13-dplyr-2.html "13-dplyr-2") | [📋16](exercise/lab16-join.html "lab16-join") |  | [✅ Proposal Due](present-description.html) |
+| 9 | Tue, Mar 11 | ***NO CLASS: Spring break*** | [📖](/weeks/week-9.html "Week 9") |  |  |  |  |
 |  | Thu, Mar 13 | ***NO CLASS: Spring break*** |  |  |  |  |  |
 | 10 | Tue, Mar 18 | Data Wrangling - tidyr | 📖 | 🖥️ | 📋 | ✍️ | [✅ Materials Due](present-description.html) |
 |  | **Thu, Mar 20** | [**Mini Project Presentation**]{.blue} |  | 🖥️ | 📋 |  |  |

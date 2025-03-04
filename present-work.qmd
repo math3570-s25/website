@@ -34,13 +34,13 @@ title: "Midterm Visualization Project"
 
 -   [**Block Blasters**]{.blue}: Lucy McGovern, Emma Kimball, Riley Abrahamson, Brianna Velez, Napoleon Her
 
-    -   
+    -   [What Makes a Song Danceable?](/documents/proposal_block_blasters.pdf)
 
 -   [**Intermediate Wizards**]{.blue}: Kyle Forsberg, Luke Bondi, Justin Hoffman, Sam Wolf, Ava Unertl
 
     -   
 
--   **Team10**: Jack Anderson, Nathan Rusch, Nirmay Kathuria, Wilson von Bohlen, Juan De Los Santos
+-   **TeamName**: Jack Anderson, Nathan Rusch, Nirmay Kathuria, Wilson von Bohlen, Juan De Los Santos
 
     -   
 
