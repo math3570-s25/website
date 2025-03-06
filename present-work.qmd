@@ -6,7 +6,7 @@ title: "Midterm Visualization Project"
 
 -   [**The Whales**]{.blue}: Brady Nelson, Brody Roessler, Christian Filardo, Dorien Vazquez, Filip Kisielewski
 
-    -   
+    -   [How do game sales correlate to console popularity by global region](/documents/proposal_the_whales.pdf)
 
 -   [**Analytics Avengers (4)**]{.blue}: Sophia Bryant, Kumassi Browne, Charles Kendrick Jr, Isabel Bauer
 
@@ -40,7 +40,7 @@ title: "Midterm Visualization Project"
 
     -   
 
--   **TeamName**: Jack Anderson, Nathan Rusch, Nirmay Kathuria, Wilson von Bohlen, Juan De Los Santos
+-   **TeamName?**: Jack Anderson, Nathan Rusch, Nirmay Kathuria, Wilson von Bohlen, Juan De Los Santos
 
     -   
 

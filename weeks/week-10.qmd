@@ -1,6 +1,6 @@
 ---
 title: "Week 10"
-subtitle: "Tidyr and Probabilistic and Statistical Simulation"
+subtitle: "Tidyr and Probability"
 editor: visual
 ---
 
@@ -11,7 +11,7 @@ editor: visual
 
 🖥️ [Slides - Tidying Data](/slides/14-tidyr.html)
 
-🖥️ [Slides - Probability and Statistics](/slides/15-probstat.html)
+🖥️ Slides - Probability and Statistics
 
 ## Exercise
 
@@ -19,7 +19,7 @@ editor: visual
 
 `r fontawesome::fa("table")` [trump.csv](/slides/data/trump.csv)
 
-📋 [Lab-18 Probability](/exercise/lab18-prob.html)
+📋 Lab-18 Probability
 
 <br><br>
 
