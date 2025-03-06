@@ -353,32 +353,277 @@
     "text": "Note\n\n\n\n\n\n\n\nLoad R package ggplot2 into your Posit Cloud.\n\n\n## install the package if you haven't!\n________(ggplot2)\n\n\nCreate a R script named lab01-run-script.R in your 3570-project.\nCopy and paste the code below into the script, and save it.\n\n\nbar &lt;- ggplot(data = diamonds) + \n  geom_bar(mapping = aes(x = cut, fill = cut), \n           show.legend = FALSE, width = 1) + \n  theme(aspect.ratio = 1) +\n  labs(x = NULL, y = NULL)\nbar + coord_flip()\nbar + coord_polar()\n\n\nSource the script. A pretty plot showing up?!"
   },
   {
-    "objectID": "exercise/lab22-knn.html",
-    "href": "exercise/lab22-knn.html",
-    "title": "Lab 22: K Nearest Neighbors",
+    "objectID": "exercise/lab-sol-s25-midterm.html",
+    "href": "exercise/lab-sol-s25-midterm.html",
+    "title": "In-Class Lab Exercises",
     "section": "",
-    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 22 section,\n\n\nuse HEIGHT and WAIST to predict GENDER using KNN with \\(K = 3\\).\nGenerate the (test) confusion matrix.\nCalculate (test) accuracy rate.\nDoes using more predictors predict better?\n\n\nR Code\n\nlibrary(tidymodels)\n\n## load data\nbodydata &lt;- read_csv(\"./data/body.csv\")\nbody &lt;- bodydata |&gt; \n    select(GENDER, HEIGHT, WAIST, BMI) |&gt; \n    mutate(GENDER = as.factor(GENDER))\n\n## training and test data\nset.seed(2024)\ndf_split &lt;- initial_split(data = body, prop = 0.8)\ndf_trn &lt;- training(df_split)\ndf_tst &lt;- testing(df_split)\n\n## KNN training\nknn_recipe &lt;- recipe(GENDER ~ HEIGHT + WAIST, data = df_trn) |&gt; \n    step_normalize(all_predictors())\nknn_mdl &lt;- nearest_neighbor(neighbors = 3, mode = \"classification\")\nknn_out &lt;- workflow() |&gt; \n    add_recipe(knn_recipe) |&gt; \n    add_model(knn_mdl) |&gt; \n    fit(data = df_trn)\n\n## KNN prediction\nknn_pred &lt;- pull(predict(knn_out, df_tst))\ntable(knn_pred, df_tst$GENDER)\nmean(knn_pred == df_tst$GENDER)\n\n\n\nPython Code\n\nimport numpy as np\nimport pandas as pd\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.neighbors import KNeighborsClassifier\n\n## load data\nbody = pd.read_csv('./data/body.csv')\nX = body[['HEIGHT', 'WAIST']]\ny = body['GENDER']\n\n## training and test data\nX_trn, X_tst, y_trn, y_tst = train_test_split(X, y, test_size=0.2, random_state=2024)\n\n## KNN training\nknn = KNeighborsClassifier(n_neighbors = 3)\nX_trn = np.array(X_trn)\nX_tst = np.array(X_tst)\nknn.fit(X_trn, y_trn)\n\n## KNN prediction\ny_pred = knn.predict(X_tst)\nfrom sklearn.metrics import confusion_matrix\nconfusion_matrix(y_tst, y_pred)\nnp.mean(y_tst == y_pred)"
+    "text": "x &lt;- 4; y &lt;- 3\nbar &lt;- ggplot(data = diamonds) + \n  geom_bar(mapping = aes(x = cut, fill = cut), \n           show.legend = FALSE, width = 1) + \n  theme(aspect.ratio = 1) +\n  labs(x = NULL, y = NULL)\nbar + coord_flip()\n\n\n\n\n\n\n\nbar + coord_polar()"
   },
   {
-    "objectID": "exercise/lab05-rtype.html",
-    "href": "exercise/lab05-rtype.html",
-    "title": "Lab 05: R Data Type Summary",
+    "objectID": "exercise/lab-sol-s25-midterm.html#lab-1-running-r-script",
+    "href": "exercise/lab-sol-s25-midterm.html#lab-1-running-r-script",
+    "title": "In-Class Lab Exercises",
     "section": "",
-    "text": "Note\n\n\n\n\n\n\nIn lab.qmd Lab 5,\n\nCreate R objects vector v1, factor f2, list l3, matrix m4 and data frame d5.\nCheck typeof() and class() of those objects, and create a list having the output below.\n\n\nv1 &lt;- c(__________)\nf2 &lt;- f_____(__________)\nl3 &lt;- l_____(__________)\nm4 &lt;- m_____(__________)\nd5 &lt;- d_____.f_____(__________)\nv &lt;- c(type = typeof(v1), class = class(v1))\nf &lt;- c(type = __________, class = _________)\nl &lt;- c(type = __________, class = _________)\nm &lt;- c(type = __________, class = _________)\nd &lt;- c(type = __________, class = _________)\n____(vec    =   v,\n     ______ = ___,\n     ______ = ___,\n     ______ = ___,\n     ______ = ___)\n\n\n\n$vec\n     type     class \n \"double\" \"numeric\" \n\n$fac\n     type     class \n\"integer\"  \"factor\" \n\n$lst\n  type  class \n\"list\" \"list\" \n\n$mat\n     type    class1    class2 \n\"integer\"  \"matrix\"   \"array\" \n\n$df\n        type        class \n      \"list\" \"data.frame\""
+    "text": "x &lt;- 4; y &lt;- 3\nbar &lt;- ggplot(data = diamonds) + \n  geom_bar(mapping = aes(x = cut, fill = cut), \n           show.legend = FALSE, width = 1) + \n  theme(aspect.ratio = 1) +\n  labs(x = NULL, y = NULL)\nbar + coord_flip()\n\n\n\n\n\n\n\nbar + coord_polar()"
   },
   {
-    "objectID": "exercise/lab18-prob.html",
-    "href": "exercise/lab18-prob.html",
-    "title": "Lab 18: Probability",
-    "section": "",
-    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 18 section,\n\nPlot the probability function \\(P(X = x)\\) of \\(X \\sim \\text{binomial}(n = 5, \\pi = 0.3)\\).\n\nTo use ggplot,\n\nCreate a data frame saving all possible values of \\(x\\) and their corresponding probability using dbinom(x, size = ___, prob = ___).\n\n\n\n# A tibble: 6 × 2\n      x       y\n  &lt;int&gt;   &lt;dbl&gt;\n1     0 0.168  \n2     1 0.360  \n3     2 0.309  \n4     3 0.132  \n5     4 0.0284 \n6     5 0.00243\n\n\n\nAdd geom_col()\n\n\n\n\n\n\n\n\n\n\n:::"
+    "objectID": "exercise/lab-sol-s25-midterm.html#lab-2-quarto",
+    "href": "exercise/lab-sol-s25-midterm.html#lab-2-quarto",
+    "title": "In-Class Lab Exercises",
+    "section": "Lab 2: Quarto",
+    "text": "Lab 2: Quarto\nBriefly describe how we produce a pdf."
   },
   {
-    "objectID": "exercise/lab11-ggplot2.html",
-    "href": "exercise/lab11-ggplot2.html",
-    "title": "Lab 11: ggplot2",
+    "objectID": "exercise/lab-sol-s25-midterm.html#lab-3-markdown",
+    "href": "exercise/lab-sol-s25-midterm.html#lab-3-markdown",
+    "title": "In-Class Lab Exercises",
+    "section": "Lab 3: Markdown",
+    "text": "Lab 3: Markdown\nHello everyone, I am Cheng-Han Yu, an assistant professor at Marquette University. I love data science!\nMy main research interests include\n\nBayesian spatiotemporal modeling\n\nMCMC\nVariational Inference\n\nNeuroimaging\n\nfMRI\nEEG/ERP\n\nR programming\n\nMy favorite quote is\n\nAll models are wrong, but some are useful. George Box\n\nHere I write a simple math equation \\(\\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\\)."
+  },
+  {
+    "objectID": "exercise/lab-sol-s25-midterm.html#lab-4-code-chunk",
+    "href": "exercise/lab-sol-s25-midterm.html#lab-4-code-chunk",
+    "title": "In-Class Lab Exercises",
+    "section": "Lab 4: Code Chunk",
+    "text": "Lab 4: Code Chunk\n\n# include image\nknitr::include_graphics(\"https://raw.githubusercontent.com/rstudio/hex-stickers/master/PNG/ggplot2.png\")\n\n\n\n\n\n\n\n\n\n# include plot\nplot(x = mtcars$disp, y = mtcars$mpg)\n\n\n\n\nMPG vs. Displacement\n\n\n\n\n\n# show dataset `mtcars`\nknitr::kable(mtcars, caption = \"A knitr kable table of mtcars data set\")\n\n\nA knitr kable table of mtcars data set\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\ncarb\n\n\n\n\nMazda RX4\n21.0\n6\n160.0\n110\n3.90\n2.620\n16.46\n0\n1\n4\n4\n\n\nMazda RX4 Wag\n21.0\n6\n160.0\n110\n3.90\n2.875\n17.02\n0\n1\n4\n4\n\n\nDatsun 710\n22.8\n4\n108.0\n93\n3.85\n2.320\n18.61\n1\n1\n4\n1\n\n\nHornet 4 Drive\n21.4\n6\n258.0\n110\n3.08\n3.215\n19.44\n1\n0\n3\n1\n\n\nHornet Sportabout\n18.7\n8\n360.0\n175\n3.15\n3.440\n17.02\n0\n0\n3\n2\n\n\nValiant\n18.1\n6\n225.0\n105\n2.76\n3.460\n20.22\n1\n0\n3\n1\n\n\nDuster 360\n14.3\n8\n360.0\n245\n3.21\n3.570\n15.84\n0\n0\n3\n4\n\n\nMerc 240D\n24.4\n4\n146.7\n62\n3.69\n3.190\n20.00\n1\n0\n4\n2\n\n\nMerc 230\n22.8\n4\n140.8\n95\n3.92\n3.150\n22.90\n1\n0\n4\n2\n\n\nMerc 280\n19.2\n6\n167.6\n123\n3.92\n3.440\n18.30\n1\n0\n4\n4\n\n\nMerc 280C\n17.8\n6\n167.6\n123\n3.92\n3.440\n18.90\n1\n0\n4\n4\n\n\nMerc 450SE\n16.4\n8\n275.8\n180\n3.07\n4.070\n17.40\n0\n0\n3\n3\n\n\nMerc 450SL\n17.3\n8\n275.8\n180\n3.07\n3.730\n17.60\n0\n0\n3\n3\n\n\nMerc 450SLC\n15.2\n8\n275.8\n180\n3.07\n3.780\n18.00\n0\n0\n3\n3\n\n\nCadillac Fleetwood\n10.4\n8\n472.0\n205\n2.93\n5.250\n17.98\n0\n0\n3\n4\n\n\nLincoln Continental\n10.4\n8\n460.0\n215\n3.00\n5.424\n17.82\n0\n0\n3\n4\n\n\nChrysler Imperial\n14.7\n8\n440.0\n230\n3.23\n5.345\n17.42\n0\n0\n3\n4\n\n\nFiat 128\n32.4\n4\n78.7\n66\n4.08\n2.200\n19.47\n1\n1\n4\n1\n\n\nHonda Civic\n30.4\n4\n75.7\n52\n4.93\n1.615\n18.52\n1\n1\n4\n2\n\n\nToyota Corolla\n33.9\n4\n71.1\n65\n4.22\n1.835\n19.90\n1\n1\n4\n1\n\n\nToyota Corona\n21.5\n4\n120.1\n97\n3.70\n2.465\n20.01\n1\n0\n3\n1\n\n\nDodge Challenger\n15.5\n8\n318.0\n150\n2.76\n3.520\n16.87\n0\n0\n3\n2\n\n\nAMC Javelin\n15.2\n8\n304.0\n150\n3.15\n3.435\n17.30\n0\n0\n3\n2\n\n\nCamaro Z28\n13.3\n8\n350.0\n245\n3.73\n3.840\n15.41\n0\n0\n3\n4\n\n\nPontiac Firebird\n19.2\n8\n400.0\n175\n3.08\n3.845\n17.05\n0\n0\n3\n2\n\n\nFiat X1-9\n27.3\n4\n79.0\n66\n4.08\n1.935\n18.90\n1\n1\n4\n1\n\n\nPorsche 914-2\n26.0\n4\n120.3\n91\n4.43\n2.140\n16.70\n0\n1\n5\n2\n\n\nLotus Europa\n30.4\n4\n95.1\n113\n3.77\n1.513\n16.90\n1\n1\n5\n2\n\n\nFord Pantera L\n15.8\n8\n351.0\n264\n4.22\n3.170\n14.50\n0\n1\n5\n4\n\n\nFerrari Dino\n19.7\n6\n145.0\n175\n3.62\n2.770\n15.50\n0\n1\n5\n6\n\n\nMaserati Bora\n15.0\n8\n301.0\n335\n3.54\n3.570\n14.60\n0\n1\n5\n8\n\n\nVolvo 142E\n21.4\n4\n121.0\n109\n4.11\n2.780\n18.60\n1\n1\n4\n2\n\n\n\n\n\nThere are 11 variables in the mtcars data set.\nAnswer to the questions.\n\nradius = 5\n\nThe radius of the circle is {python} print(radius)"
+  },
+  {
+    "objectID": "exercise/lab-sol-s25-midterm.html#lab-5-r-data-type-summary",
+    "href": "exercise/lab-sol-s25-midterm.html#lab-5-r-data-type-summary",
+    "title": "In-Class Lab Exercises",
+    "section": "Lab 5: R Data Type Summary",
+    "text": "Lab 5: R Data Type Summary\n\nv1 &lt;- c(3, 8, 4, 5)\nfac &lt;- factor(c(\"bad\", \"neutral\", \"good\"))\nx_lst &lt;- list(idx = 1:3, \n              \"a\", \n              c(TRUE, FALSE))\nmat &lt;- matrix(data = 1:6, \n              nrow = 3, \n              ncol = 2)\ndf &lt;- data.frame(age = c(19, 21, 40), \n                 gender = c(\"m\",\"f\", \"m\"))\nvec &lt;- c(type = typeof(v1), class = class(v1))\nfac &lt;- c(type = typeof(fac), class = class(fac))\nlst &lt;- c(type = typeof(x_lst), class = class(x_lst))\nmat &lt;- c(type = typeof(mat), class = class(mat))\ndf &lt;- c(type = typeof(df), class = class(df))\nlist(vector = vec,\n     factor = fac,\n     list = lst,\n     matrix = mat,\n     dataframe = df)\n\n$vector\n     type     class \n \"double\" \"numeric\" \n\n$factor\n     type     class \n\"integer\"  \"factor\" \n\n$list\n  type  class \n\"list\" \"list\" \n\n$matrix\n     type    class1    class2 \n\"integer\"  \"matrix\"   \"array\" \n\n$dataframe\n        type        class \n      \"list\" \"data.frame\""
+  },
+  {
+    "objectID": "exercise/lab-sol-s25-midterm.html#lab-6-python-data-structure",
+    "href": "exercise/lab-sol-s25-midterm.html#lab-6-python-data-structure",
+    "title": "In-Class Lab Exercises",
+    "section": "Lab 6: Python Data Structure",
+    "text": "Lab 6: Python Data Structure\n\nx_lst &lt;- list(idx = 1:3, \n              word = \"a\", \n              bool = c(TRUE, FALSE))\n\n\npy_lst = [[1, 2, 3], \"a\", [True, False]]\npy_lst\n\n[[1, 2, 3], 'a', [True, False]]\n\npy_dic = {\"idx\": [1, 2, 3], \"word\": \"a\", \"bool\": [True, False]}\npy_dic\n\n{'idx': [1, 2, 3], 'word': 'a', 'bool': [True, False]}"
+  },
+  {
+    "objectID": "exercise/lab-sol-s25-midterm.html#lab-7-plotting",
+    "href": "exercise/lab-sol-s25-midterm.html#lab-7-plotting",
+    "title": "In-Class Lab Exercises",
+    "section": "Lab 7: Plotting",
+    "text": "Lab 7: Plotting\n\nplot(mtcars$mpg, mtcars$wt, \n     col = 4, pch = 8, cex = 2,\n     xlab = \"MPG\", ylab = \"Wt. (1000 lbs)\", \n     main = \"MPG vs. Weight\")\n\n\n\n\n\n\n\nhist(mtcars$qsec, breaks = 20, border = \"#FFCC00\", \n     col = 2, main = \"Histogram of 1/4 mile time\")\n\n\n\n\n\n\n\nboxplot(mpg ~ gear, \n        data = mtcars, \n        col = 2:4, \n        las = 1, \n        horizontal = TRUE,\n        xlab = \"Miles per gallon\", \n        ylab = \"Number of forward gears\")\n\n\n\n\n\n\n\n\n\nimport pandas as pd\nimport matplotlib.pyplot as plt\nmtcars = pd.read_csv('./data/mtcars.csv')\nmtcars\n\n     mpg  cyl   disp   hp  drat     wt   qsec  vs  am  gear  carb\n0   21.0    6  160.0  110  3.90  2.620  16.46   0   1     4     4\n1   21.0    6  160.0  110  3.90  2.875  17.02   0   1     4     4\n2   22.8    4  108.0   93  3.85  2.320  18.61   1   1     4     1\n3   21.4    6  258.0  110  3.08  3.215  19.44   1   0     3     1\n4   18.7    8  360.0  175  3.15  3.440  17.02   0   0     3     2\n5   18.1    6  225.0  105  2.76  3.460  20.22   1   0     3     1\n6   14.3    8  360.0  245  3.21  3.570  15.84   0   0     3     4\n7   24.4    4  146.7   62  3.69  3.190  20.00   1   0     4     2\n8   22.8    4  140.8   95  3.92  3.150  22.90   1   0     4     2\n9   19.2    6  167.6  123  3.92  3.440  18.30   1   0     4     4\n10  17.8    6  167.6  123  3.92  3.440  18.90   1   0     4     4\n11  16.4    8  275.8  180  3.07  4.070  17.40   0   0     3     3\n12  17.3    8  275.8  180  3.07  3.730  17.60   0   0     3     3\n13  15.2    8  275.8  180  3.07  3.780  18.00   0   0     3     3\n14  10.4    8  472.0  205  2.93  5.250  17.98   0   0     3     4\n15  10.4    8  460.0  215  3.00  5.424  17.82   0   0     3     4\n16  14.7    8  440.0  230  3.23  5.345  17.42   0   0     3     4\n17  32.4    4   78.7   66  4.08  2.200  19.47   1   1     4     1\n18  30.4    4   75.7   52  4.93  1.615  18.52   1   1     4     2\n19  33.9    4   71.1   65  4.22  1.835  19.90   1   1     4     1\n20  21.5    4  120.1   97  3.70  2.465  20.01   1   0     3     1\n21  15.5    8  318.0  150  2.76  3.520  16.87   0   0     3     2\n22  15.2    8  304.0  150  3.15  3.435  17.30   0   0     3     2\n23  13.3    8  350.0  245  3.73  3.840  15.41   0   0     3     4\n24  19.2    8  400.0  175  3.08  3.845  17.05   0   0     3     2\n25  27.3    4   79.0   66  4.08  1.935  18.90   1   1     4     1\n26  26.0    4  120.3   91  4.43  2.140  16.70   0   1     5     2\n27  30.4    4   95.1  113  3.77  1.513  16.90   1   1     5     2\n28  15.8    8  351.0  264  4.22  3.170  14.50   0   1     5     4\n29  19.7    6  145.0  175  3.62  2.770  15.50   0   1     5     6\n30  15.0    8  301.0  335  3.54  3.570  14.60   0   1     5     8\n31  21.4    4  121.0  109  4.11  2.780  18.60   1   1     4     2\n\nplt.scatter(x = mtcars.mpg, \n            y = mtcars.wt, \n            color = \"r\")\nplt.xlabel(\"Miles per gallon\")\nplt.ylabel(\"Weight\")\nplt.title(\"Scatter plot\")\nplt.show()\n\n\n\n\n\n\n\nplt.clf()\n\n\n\n\n\n\n\n\n\nplt.hist(mtcars.qsec, \n         bins = 19, \n         color=\"#003366\",\n         edgecolor=\"#FFCC00\")\nplt.xlabel(\"1/4 mile time\")\nplt.title(\"Histogram of 1/4 mile time\")\nplt.show()"
+  },
+  {
+    "objectID": "exercise/lab-sol-s25-midterm.html#lab-8-tibbles-and-pipes",
+    "href": "exercise/lab-sol-s25-midterm.html#lab-8-tibbles-and-pipes",
+    "title": "In-Class Lab Exercises",
+    "section": "Lab 8: Tibbles and Pipes",
+    "text": "Lab 8: Tibbles and Pipes\n\ndf &lt;- data.frame(abc = 1:2, \n                 xyz = c(\"a\", \"b\"))\n# list method\ndf$x\n\n[1] \"a\" \"b\"\n\ndf[[2]]\n\n[1] \"a\" \"b\"\n\ndf[\"xyz\"]\n\n  xyz\n1   a\n2   b\n\ndf[c(\"abc\", \"xyz\")]\n\n  abc xyz\n1   1   a\n2   2   b\n\n# matrix method\ndf[, 2]\n\n[1] \"a\" \"b\"\n\ndf[, \"xyz\"]\n\n[1] \"a\" \"b\"\n\ndf[, c(\"abc\", \"xyz\")]\n\n  abc xyz\n1   1   a\n2   2   b\n\n\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ lubridate 1.9.3     ✔ tibble    3.2.1\n✔ purrr     1.0.2     ✔ tidyr     1.3.1\n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\ntib &lt;- tibble(abc = 1:2, \n              xyz = c(\"a\", \"b\"))\n# list method\ntib$x\n\nWarning: Unknown or uninitialised column: `x`.\n\n\nNULL\n\ntib[[2]]\n\n[1] \"a\" \"b\"\n\ntib[\"xyz\"]\n\n# A tibble: 2 × 1\n  xyz  \n  &lt;chr&gt;\n1 a    \n2 b    \n\ntib[c(\"abc\", \"xyz\")]\n\n# A tibble: 2 × 2\n    abc xyz  \n  &lt;int&gt; &lt;chr&gt;\n1     1 a    \n2     2 b    \n\n# matrix method\ntib[, 2]\n\n# A tibble: 2 × 1\n  xyz  \n  &lt;chr&gt;\n1 a    \n2 b    \n\ntib[, \"xyz\"]\n\n# A tibble: 2 × 1\n  xyz  \n  &lt;chr&gt;\n1 a    \n2 b    \n\ntib[, c(\"abc\", \"xyz\")]\n\n# A tibble: 2 × 2\n    abc xyz  \n  &lt;int&gt; &lt;chr&gt;\n1     1 a    \n2     2 b    \n\n\nExplain their differences.\nWith data.frames,\n\nThe $ operator will match any column name that starts with the name following it. Since there is a column named xyz, the expression df$x will be expanded to df$xyz. This behavior of the $ operator saves a few keystrokes, but it can result in accidentally using a different column than you thought you were using.\n\nWith [ the type of object that is returned differs on the number of columns. If it is one column, it won’t return a data.frame, but instead will return a vector. With more than one column, then it will return a data.frame. This is fine if you know what you are passing in, but suppose you did df[ , vars] where vars was a variable. Then what that code does depends on length(vars) and you’d have to write code to account for those situations or risk bugs.\n\nFor tibbles,\n\nWhen using the matrix subsetting method, a tibble always return a tibble.\n\n\nWhen using $ to grab an element, tibbles never do partial matching.\n\n\n[] always returns another tibble, regardless of list or matrix subsetting method.\n\n\n$ and [[]] return a vector.\n\n\nTibbles never do partial matching and name “x” cannot be recognized.\n\n\nWhat does tibble::enframe() do? Try enframe(c(a = 1, b = 2, c = 3)). Check ?enframe for more details.\nThe function tibble::enframe() converts named vectors to a data frame with names and values\n\n\niris |&gt; tail(n = 12) |&gt; summary()\n\n  Sepal.Length    Sepal.Width     Petal.Length    Petal.Width   \n Min.   :5.800   Min.   :2.500   Min.   :4.800   Min.   :1.800  \n 1st Qu.:6.150   1st Qu.:3.000   1st Qu.:5.100   1st Qu.:1.900  \n Median :6.600   Median :3.050   Median :5.200   Median :2.200  \n Mean   :6.450   Mean   :3.033   Mean   :5.292   Mean   :2.133  \n 3rd Qu.:6.725   3rd Qu.:3.125   3rd Qu.:5.450   3rd Qu.:2.300  \n Max.   :6.900   Max.   :3.400   Max.   :5.900   Max.   :2.500  \n       Species  \n setosa    : 0  \n versicolor: 0  \n virginica :12"
+  },
+  {
+    "objectID": "exercise/lab-sol-s25-midterm.html#lab-9-numpy-and-pandas",
+    "href": "exercise/lab-sol-s25-midterm.html#lab-9-numpy-and-pandas",
+    "title": "In-Class Lab Exercises",
+    "section": "Lab 9: NumPy and pandas",
+    "text": "Lab 9: NumPy and pandas\n\ntibble(x = 1:5, y = 5:1, z = LETTERS[1:5])\n\n# A tibble: 5 × 3\n      x     y z    \n  &lt;int&gt; &lt;int&gt; &lt;chr&gt;\n1     1     5 A    \n2     2     4 B    \n3     3     3 C    \n4     4     2 D    \n5     5     1 E    \n\n\n\nimport numpy as np\nimport pandas as pd\nimport string\nlist(string.ascii_uppercase)\n\n['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']\n\ndic = {'x':np.arange(1, 6), 'y': np.arange(5, 0, -1), 'z':list(string.ascii_uppercase)[0:5]}\npd.DataFrame(dic)\n\n   x  y  z\n0  1  5  A\n1  2  4  B\n2  3  3  C\n3  4  2  D\n4  5  1  E"
+  },
+  {
+    "objectID": "exercise/lab-sol-s25-midterm.html#lab-10-import-data",
+    "href": "exercise/lab-sol-s25-midterm.html#lab-10-import-data",
+    "title": "In-Class Lab Exercises",
+    "section": "Lab 10: Import Data",
+    "text": "Lab 10: Import Data\n\nlibrary(tidyverse)\n# ssa &lt;- read_csv(file = \"./data/ssa-death-probability.csv\")\n\n# ssa_male &lt;- ssa[ssa$Sex == \"Male\",]\n# ssa_female &lt;- ssa[ssa$Sex == \"Female\",]\nssa_male &lt;- readr::read_csv(\"./data/ssa_male_prob.csv\")\n\nRows: 120 Columns: 5\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (1): Sex\ndbl (4): Age, DeathProb, NumberOfLives, LifeExp\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\nssa_female &lt;- readr::read_rds(\"./data/ssa_female_prob.Rds\")\nplot(x = ssa_female$Age, y = ssa_female$LifeExp, \n     type = \"l\", col = 2, lwd = 3,\n     xlab = \"Age\", ylab = \"Life Exp\",\n     main = \"Age vs. Life Exp by Gender\")\nlines(ssa_male$Age, ssa_male$LifeExp, col = 4, lwd = 3)"
+  },
+  {
+    "objectID": "exercise/lab-sol-s25-midterm.html#lab-11-ggplot2",
+    "href": "exercise/lab-sol-s25-midterm.html#lab-11-ggplot2",
+    "title": "In-Class Lab Exercises",
+    "section": "Lab 11: ggplot2",
+    "text": "Lab 11: ggplot2\n\npenguins &lt;- read_csv(\"./data/penguins.csv\")\n\nRows: 344 Columns: 8\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (3): species, island, sex\ndbl (5): bill_length_mm, bill_depth_mm, flipper_length_mm, body_mass_g, year\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\npenguins |&gt; \n  ggplot(mapping = aes(x = bill_depth_mm,\n                       y = bill_length_mm,\n                       colour = species)) +\n  geom_point() +\n  labs(title = \"Bill depth and length\",\n       subtitle = \"Dimensions for Adelie, Chinstrap, and Gentoo Penguins\",\n       x = \"Bill depth (mm)\", y = \"Bill length (mm)\",\n       colour = \"Species\",\n       caption = \"Source: Palmer Station LTER / palmerpenguins package\") +\n  scale_colour_viridis_d()\n\nWarning: Removed 2 rows containing missing values or values outside the scale range\n(`geom_point()`)."
+  },
+  {
+    "objectID": "exercise/lab-sol-s25-midterm.html#lab-12-faceting",
+    "href": "exercise/lab-sol-s25-midterm.html#lab-12-faceting",
+    "title": "In-Class Lab Exercises",
+    "section": "Lab 12: Faceting",
+    "text": "Lab 12: Faceting\n\nmpg |&gt; ggplot(mapping = aes(x = displ, y = cty, color = drv, shape = fl)) +\n    geom_point(size = 3, alpha = 0.8) + \n    facet_grid(drv ~ fl) +\n    guides(color = \"none\")"
+  },
+  {
+    "objectID": "exercise/lab-sol-s25-midterm.html#lab-13-visualization",
+    "href": "exercise/lab-sol-s25-midterm.html#lab-13-visualization",
+    "title": "In-Class Lab Exercises",
+    "section": "Lab 13: Visualization",
+    "text": "Lab 13: Visualization\n\npenguins &lt;- read_csv(\"./data/penguins.csv\")\n\nRows: 344 Columns: 8\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (3): species, island, sex\ndbl (5): bill_length_mm, bill_depth_mm, flipper_length_mm, body_mass_g, year\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\npenguins |&gt; ggplot(aes(x = species, fill = species)) +\n    geom_bar() +\n    labs(x = \"Species of Penguins\", \n         title = \"Species Counts in Penguins Data\")\n\n\n\n\n\n\n\n\n\npenguins |&gt; ggplot(aes(x = bill_length_mm, \n                       fill = species)) +\n    geom_histogram() +\n    labs(x = \"Bill Length (mm)\",\n         y = \"Frequency\",\n         title = \"Penguins Bill Length by Species\") +\n    facet_wrap(~ species, nrow = 1) + \n    theme(legend.position = \"none\")\n\n`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.\n\n\nWarning: Removed 2 rows containing non-finite outside the scale range\n(`stat_bin()`)."
+  },
+  {
+    "objectID": "exercise/lab-sol-s25-midterm.html#lab-14-plotly",
+    "href": "exercise/lab-sol-s25-midterm.html#lab-14-plotly",
+    "title": "In-Class Lab Exercises",
+    "section": "Lab 14: plotly",
+    "text": "Lab 14: plotly\n\nlibrary(plotly)\n\n\nAttaching package: 'plotly'\n\n\nThe following object is masked from 'package:ggplot2':\n\n    last_plot\n\n\nThe following object is masked from 'package:stats':\n\n    filter\n\n\nThe following object is masked from 'package:graphics':\n\n    layout\n\nloans &lt;- readr::read_csv(\"./data/loans.csv\")\n\nRows: 10000 Columns: 5\n\n\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (2): grade, homeownership\ndbl (3): loan_amount, interest_rate, debt_to_income\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\np &lt;- plot_ly(loans, x = ~interest_rate, alpha = 0.5)\np |&gt; add_boxplot(y = ~grade, color = ~grade)\n\n\n\n\n\n\n# x = interest_rate, y = grade won't work\ngg &lt;- loans %&gt;% ggplot(aes(x = grade, y = interest_rate, color = grade)) + \n    geom_boxplot() + theme_minimal() + coord_flip()\nggplotly(gg)"
+  },
+  {
+    "objectID": "exercise/lab-sol-s25-midterm.html#lab-15-dplyr",
+    "href": "exercise/lab-sol-s25-midterm.html#lab-15-dplyr",
+    "title": "In-Class Lab Exercises",
+    "section": "Lab 15: dplyr",
+    "text": "Lab 15: dplyr\n\nmurders &lt;- read.csv(\"./data/murders.csv\")\n(my_states &lt;- murders |&gt; \n    mutate(rate = total / population * 100000) |&gt; \n    filter(region %in% c(\"West\", \"Northeast\"), rate &lt; 1) |&gt; \n    select(state, region, rate))\n\n          state    region      rate\n1        Hawaii      West 0.5145920\n2         Idaho      West 0.7655102\n3         Maine Northeast 0.8280881\n4 New Hampshire Northeast 0.3798036\n5        Oregon      West 0.9396843\n6          Utah      West 0.7959810\n7       Vermont Northeast 0.3196211\n8       Wyoming      West 0.8871131\n\nmy_states |&gt; \n    group_by(region) |&gt; \n    summarize(avg = mean(rate), std_dev = sd(rate)) |&gt; \n    arrange(desc(avg))\n\n# A tibble: 2 × 3\n  region      avg std_dev\n  &lt;chr&gt;     &lt;dbl&gt;   &lt;dbl&gt;\n1 West      0.781   0.164\n2 Northeast 0.509   0.278"
+  },
+  {
+    "objectID": "exercise/lab-sol-s25-midterm.html#lab-16-joining-tables",
+    "href": "exercise/lab-sol-s25-midterm.html#lab-16-joining-tables",
+    "title": "In-Class Lab Exercises",
+    "section": "Lab 16: Joining Tables",
+    "text": "Lab 16: Joining Tables\n\ndiamond_color &lt;- read_csv(\"https://www.jaredlander.com/data/DiamondColors.csv\")\n\nRows: 10 Columns: 3\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (3): Color, Description, Details\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\njoined_df &lt;- left_join(diamonds, diamond_color, by = c('color' = 'Color')) |&gt; \n    select(carat, color, price, Description, Details)\njoined_df\n\n# A tibble: 53,940 × 5\n   carat color price Description    Details                    \n   &lt;dbl&gt; &lt;chr&gt; &lt;int&gt; &lt;chr&gt;          &lt;chr&gt;                      \n 1  0.23 E       326 Colorless      Minute traces of color     \n 2  0.21 E       326 Colorless      Minute traces of color     \n 3  0.23 E       327 Colorless      Minute traces of color     \n 4  0.29 I       334 Near Colorless Slightly detectable color  \n 5  0.31 J       335 Near Colorless Slightly detectable color  \n 6  0.24 J       336 Near Colorless Slightly detectable color  \n 7  0.24 I       336 Near Colorless Slightly detectable color  \n 8  0.26 H       337 Near Colorless Color is dificult to detect\n 9  0.22 E       337 Colorless      Minute traces of color     \n10  0.23 H       338 Near Colorless Color is dificult to detect\n# ℹ 53,930 more rows\n\njoined_df |&gt; ggplot(aes(x = color)) + \n  geom_bar()\n\n\n\n\n\n\n\njoined_df |&gt; count(color, sort = TRUE)\n\n# A tibble: 7 × 2\n  color     n\n  &lt;chr&gt; &lt;int&gt;\n1 G     11292\n2 E      9797\n3 F      9542\n4 H      8304\n5 D      6775\n6 I      5422\n7 J      2808"
+  },
+  {
+    "objectID": "exercise/lab06-py.html",
+    "href": "exercise/lab06-py.html",
+    "title": "Lab 06: Python Data Structure",
     "section": "",
-    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 11 section,\n\nUse readr::read_csv() to import the data penguins.csv into your R workspace.\nGenerate the following ggplot:\n\n\n\n\n\n\n\n\n\n\n\npenguins &lt;- read_csv(_________________)\n________ |&gt; \n  ggplot(mapping = ____(x = ______________,\n                        y = ______________,\n                        colour = ________)) +\n  geom______() +\n  ____(title = ____________________,\n       _________ = \"Dimensions for Adelie, Chinstrap, and Gentoo Penguins\",\n       x = _____________, y = _______________,\n       _______ = \"Species\",\n       _______ = \"Source: Palmer Station LTER / palmerpenguins package\")"
+    "text": "Note\n\n\n\n\n\n\nIn lab.qmd Lab 6,\n\nCreate a Python list and dictionary similar to the R list below.\n\n\nx_lst &lt;- list(idx = 1:3, \n              \"a\", \n              c(TRUE, FALSE))\n\nRemember to create Python code chunk\n\n```{Python}\n#| echo: true\n#| eval: false\n#| code-line-numbers: false\n\n```\n\nAny issue of this Python chunk?\nCommit and Push your work once you are done."
+  },
+  {
+    "objectID": "exercise/lab12-facet.html",
+    "href": "exercise/lab12-facet.html",
+    "title": "Lab 12: Faceting",
+    "section": "",
+    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 12 section,\n\nggplot(data = _______, \n       mapping = aes(x = ______, y = ______, ______ = drv, shape = _____)) +\n    geom______(______ = 3, ______ = 0.8) + \n    facet_grid(______ ~ _______) +\n    guides(______ = \"none\")"
+  },
+  {
+    "objectID": "exercise/lab13-visualization.html",
+    "href": "exercise/lab13-visualization.html",
+    "title": "Lab 13: Visualization",
+    "section": "",
+    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 13 section,\n\nImport the data penguins.csv.\nGenerate the following\n\n\n\n\n\n\n\n\n\n\n\n\nWarning: Removed 2 rows containing non-finite outside the scale range\n(`stat_bin()`).\n\n\n\n\n\n\n\n\n\n\n# library(tidyverse)\npenguins &lt;- read_csv(__________________)\n________ |&gt; ggplot(_______________________) +  ## mapping layer  \n    ___________________ +  ## geometry layer\n    _____________________________  ## label layer\n\n  \n\n________ |&gt; ggplot(______________________________) +  ## mapping layer  \n    _______________ +  ## geometry layer\n    _______________ +  ## label layer\n    ______________________________  +   ## facet layer\n    ______________________________      ## theme layer (set legend.position = \"none\")"
+  },
+  {
+    "objectID": "slides/14-tidyr.html#grammar-of-data-tidying",
+    "href": "slides/14-tidyr.html#grammar-of-data-tidying",
+    "title": "Tidying Data 🧹",
+    "section": "Grammar of Data Tidying",
+    "text": "Grammar of Data Tidying\n\nHave data organised in an unideal way for our analysis\nWant to re-organise the data to carry on with our analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe goal of tidyr is to help you tidy your data via\n\npivoting for going between wide and long data\nseparating and uniting character columns\nclarifying how NAs should be treated\nnesting and unnesting columns\n\n\n\n\nSuppose we have a data set that is untidy, and organised in an unideal way for our analysis.\nWhat tidyr is doing is not like dplyr, just filter rows or select columns, because it is kinda meaningless, because the data after filtering or selecting from the untidy data are still untidy.\nSo our goal is to re-organise the data so that it is clean enough for being filtered or selected and for later data analysis.\ntidyr helps you tidy your data via\n\n\npivoting for going between wide and long data\n\nseparating and uniting character columns\nclarifying how NAs should be treated. for example, do we wanna keep them or drop them, or fill in with some values.\nnesting and unnesting columns\n\n\nWe will go through the first three. You can check the tidyr page to learn more about its functionality."
+  },
+  {
+    "objectID": "slides/14-tidyr.html#wide-data",
+    "href": "slides/14-tidyr.html#wide-data",
+    "title": "Tidying Data 🧹",
+    "section": "Wide Data",
+    "text": "Wide Data\nTo tidy your data, (1) figure out what the (column) variables and (row) observations are; (2) resolve one of two common problems:\n\n\n\nOne (column) variable spreads across multiple columns\n\n\n\n\n\n\n\n\n\n\n\ncustomers &lt;- read_csv(\"./data/sales/customers.csv\")\n\nwider (\\(2 \\times 4\\))\nmore columns than we want!\n\ncustomers\n\n# A tibble: 2 × 4\n  customer_id item_1 item_2       item_3\n        &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;        &lt;chr&gt; \n1           1 bread  milk         banana\n2           2 milk   toilet paper &lt;NA&gt;  \n\n\n\n\n\nWe may want one single column variable item showing all purchased times."
+  },
+  {
+    "objectID": "slides/14-tidyr.html#long-data",
+    "href": "slides/14-tidyr.html#long-data",
+    "title": "Tidying Data 🧹",
+    "section": "Long Data",
+    "text": "Long Data\n\n\nOne (row) subject is scattered across multiple rows\n\n\n\n\n\n\n\n\n\n\n\nlonger (\\(6 \\times 3\\))\nmore rows than we want!\n\n\n# A tibble: 6 × 3\n  customer_id item_no item        \n        &lt;dbl&gt; &lt;chr&gt;   &lt;chr&gt;       \n1           1 item_1  bread       \n2           1 item_2  milk        \n3           1 item_3  banana      \n4           2 item_1  milk        \n5           2 item_2  toilet paper\n6           2 item_3  &lt;NA&gt;        \n\n\n\n\n\nWe may want each row corresponds to one single customer, not one single purchased item.\nWhich data format we adopt depends on our own research question.\n\n\n\n\n\nIf our data is untidy, to tidy our data, first, we get to figure out what the variables (column) and observations (row) are. Remember the definition of tidy data. each row is for one and only one observation, and each column is for one and only one variable.\nOnce we know observations and variables, we need to resolve one of two common problems:\n\nOne variable might be spread across multiple columns.\nOne observation might be scattered across multiple rows.\n\n\neither problem is a reason why our data is not tidy."
+  },
+  {
+    "objectID": "slides/14-tidyr.html#pivot_longer-and-pivot_wider",
+    "href": "slides/14-tidyr.html#pivot_longer-and-pivot_wider",
+    "title": "Tidying Data 🧹",
+    "section": "\npivot_longer() and pivot_wider()\n",
+    "text": "pivot_longer() and pivot_wider()\n\n\nTo transform our data to the one we want, we use pivot_longer() and pivot_wider().\n\nStarts with a data set,\n\npivot_longer() ``lengthens” data, adding more rows and decreasing the number of columns.\npivot_wider() ``widens” data, adding more columns and decreasing the number of rows.\n\n\n\n\nTo fix these problems, we’ll need the functions pivot_longer() and pivot_wider()\n\npivot_longer() starts with a data set and add more rows to it. Make the data set longer\npivot_wider() starts with a data set and add more columns to it. Make the data set wider\n\nTo change the left data set to the right data set, we use pivot_longer(), because the transformed data set has more rows and will typically has less columns as well.\nTo change the right data set to the left data set, we use pivot_wider(), because the transformed data set has more columns and will typically has less rows as well."
+  },
+  {
+    "objectID": "slides/14-tidyr.html#pivot_longer-and-pivot_wider-1",
+    "href": "slides/14-tidyr.html#pivot_longer-and-pivot_wider-1",
+    "title": "Tidying Data 🧹",
+    "section": "\npivot_longer() and pivot_wider()\n",
+    "text": "pivot_longer() and pivot_wider()\n\n\n\nthe gif here illustrate the idea of pivot_longer() and pivot_wider() function."
+  },
+  {
+    "objectID": "slides/14-tidyr.html#data-salescustomers.csv",
+    "href": "slides/14-tidyr.html#data-salescustomers.csv",
+    "title": "Tidying Data 🧹",
+    "section": "Data: sales/customers.csv",
+    "text": "Data: sales/customers.csv\n\ncustomers &lt;- read_csv(\"data/sales/customers.csv\")\n\n\n\nwider (\\(2 \\times 4\\))\nmore columns\n\ncustomers\n\n# A tibble: 2 × 4\n  customer_id item_1 item_2       item_3\n        &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;        &lt;chr&gt; \n1           1 bread  milk         banana\n2           2 milk   toilet paper &lt;NA&gt;  \n\n\n\nlonger (\\(6 \\times 3\\))\nmore rows by pivot_longer()\n\n\n# A tibble: 6 × 3\n  customer_id item_no item        \n        &lt;dbl&gt; &lt;chr&gt;   &lt;chr&gt;       \n1           1 item_1  bread       \n2           1 item_2  milk        \n3           1 item_3  banana      \n4           2 item_1  milk        \n5           2 item_2  toilet paper\n6           2 item_3  &lt;NA&gt;        \n\n\n\n\n\nAnd the original customers data is in this wider format, where I have one row per customer. We have two customers and so two rows in the data frame.\nand then we have individual columns for the items they bought. The first customer bought 3 items, bread, milk, banana and the second customer bought two items, milk and toilet paper, so the the item_3 column value is NA.\nBut this data format may not be what we want.\nIn fact, what we want to do for this particular example is to have it in a format where one row per customer per item, so I can do further analysis.\nso we wanna go from wider to longer format, because the format we want has more rows and less columns."
+  },
+  {
+    "objectID": "slides/14-tidyr.html#pivot_longer",
+    "href": "slides/14-tidyr.html#pivot_longer",
+    "title": "Tidying Data 🧹",
+    "section": "pivot_longer()",
+    "text": "pivot_longer()\n\n\n\ndata: data frame\ncols: columns to pivot into longer format (1960, 1970, 2010)\n\n\n\ndata |&gt; pivot_longer(\n    cols, \n    names_to = \"name\", \n    values_to = \"value\")\n\n\n\n\nSo we are going to use a function pivot_longer().\nLike other functions in tidyverse, the first argument is again a data frame.\nthen we give it the columns we want to pivot into the longer format\n\n\n\n\n\nSource: https://tavareshugo.github.io/r-intro-tidyverse-gapminder/09-reshaping/index.html"
+  },
+  {
+    "objectID": "slides/14-tidyr.html#pivot_longer-1",
+    "href": "slides/14-tidyr.html#pivot_longer-1",
+    "title": "Tidying Data 🧹",
+    "section": "pivot_longer()",
+    "text": "pivot_longer()\n\n\n\n\n\n\nnames_to: name of the column where column names of pivoted variables go (year)\n\n\n\ndata |&gt; pivot_longer(\n    cols, \n    names_to = \"name\", \n    values_to = \"value\")\n\n\n\n\n\n\n\n\nSource: https://tavareshugo.github.io/r-intro-tidyverse-gapminder/09-reshaping/index.html\n\n\n\n\n\nand then we give the argument [names_to] the name of the column (in the transformed longer data) where column names of pivoted variables (in the original wider data) go, which is a character string."
+  },
+  {
+    "objectID": "slides/14-tidyr.html#pivot_longer-2",
+    "href": "slides/14-tidyr.html#pivot_longer-2",
+    "title": "Tidying Data 🧹",
+    "section": "pivot_longer()",
+    "text": "pivot_longer()\n\n\n\n\n\n\n\nvalues_to: name of the column where data values in pivoted variables go (metric)\n\n\n\ndata |&gt; pivot_longer(\n    cols, \n    names_to = \"name\", \n    values_to = \"value\")\n\n\n\n\n\n\n\n\nSource: https://tavareshugo.github.io/r-intro-tidyverse-gapminder/09-reshaping/index.html\n\n\n\n\n\nand finally we give the argument [values_to] the name of the column (in the transformed longer data) where data values of pivoted variables (in the original wider data) go, which is also a character string.\nSo basically we are constructing two new variables in the new longer data set, and we are going to give their name as a character string, so they can be placed in the headers for those columns."
+  },
+  {
+    "objectID": "slides/14-tidyr.html#customers-rightarrow-purchases",
+    "href": "slides/14-tidyr.html#customers-rightarrow-purchases",
+    "title": "Tidying Data 🧹",
+    "section": "customers \\(\\rightarrow\\) purchases",
+    "text": "customers \\(\\rightarrow\\) purchases\n\n\n\ncustomers\n\n# A tibble: 2 × 4\n  customer_id item_1 item_2       item_3\n        &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;        &lt;chr&gt; \n1           1 bread  milk         banana\n2           2 milk   toilet paper &lt;NA&gt;  \n\n\n\n\npurchases &lt;- customers |&gt; pivot_longer(\n    # variables item_1 to item_3 \n    # to be pivoted into longer format \n    cols = item_1:item_3,\n    \n    # col name of the names of item_1:item_3\n    # item_1 item_2 and item_3 \n    names_to = \"item_no\",\n    \n    # col name of the values of item_1:item_3\n    values_to = \"item\"\n    )\n\n\n\n\npurchases\n\n# A tibble: 6 × 3\n  customer_id item_no item        \n        &lt;dbl&gt; &lt;chr&gt;   &lt;chr&gt;       \n1           1 item_1  bread       \n2           1 item_2  milk        \n3           1 item_3  banana      \n4           2 item_1  milk        \n5           2 item_2  toilet paper\n6           2 item_3  &lt;NA&gt;        \n\n\nIn customers data,\n\nNames item_1, item_2, item_3 are values of variable item_no in purchases\nValues bread, milk, etc are values of variable item in purchases\n\n\n\n\nLet’s see how the function actually works in the customers example.\nSuppose we start with the customers data set which is in a wider format.\nAnd we wanna pivot it into a longer format.\nthe columns I wanna pivot are the ones that have information about the items that customers bought, which are item1, item 2, and item3.\nSo I write item1:item3 (we can also use any helper function to select columns)\nOK Now, the column names item_1 item_2, item_3 should be in a new column in the transformed longer data set whose column name is called item_no.\nANd the values in those three columns (the cells in the original data) should go into another new column in the in the transformed longer data set whose column name is called item that basically shows what the customers had purchased.\nSo again the column names of the original wider data go into a new column called item_no\nand the values of the column names of the original wider data go into a new column called item.\nAnd I end up with a longer data set called purchases with 6 rows and 3 columns"
+  },
+  {
+    "objectID": "slides/14-tidyr.html#why-pivot",
+    "href": "slides/14-tidyr.html#why-pivot",
+    "title": "Tidying Data 🧹",
+    "section": "Why Pivot?",
+    "text": "Why Pivot?\n\nThe next step of your analysis needs it.\nThe new purchases data set and the prices data can now be joined together with the common key variable item. \n\n\n\n\n\nprices &lt;- read_csv(\"./data/sales/prices.csv\")\nprices\n\n# A tibble: 5 × 2\n  item         price\n  &lt;chr&gt;        &lt;dbl&gt;\n1 avocado       0.5 \n2 banana        0.15\n3 bread         1   \n4 milk          0.8 \n5 toilet paper  3   \n\n\n\n\npurchases |&gt; \n    left_join(prices) #&lt;&lt;\n\n# A tibble: 6 × 4\n  customer_id item_no item         price\n        &lt;dbl&gt; &lt;chr&gt;   &lt;chr&gt;        &lt;dbl&gt;\n1           1 item_1  bread         1   \n2           1 item_2  milk          0.8 \n3           1 item_3  banana        0.15\n4           2 item_1  milk          0.8 \n5           2 item_2  toilet paper  3   \n6           2 item_3  &lt;NA&gt;         NA   \n\n\n\n\n\nWhy do we want to pivot our data?\nMost likely, because the next step of your analysis needs it.\nSuppose we have another data set called prices as shown on the left that contains price of grocery items\nAfter pivoting our data, the new purchases data set and the prices data can now be joined together with the common key variable item.\nWith the joined data set, we can further calculate total revenue for example."
+  },
+  {
+    "objectID": "slides/14-tidyr.html#pivot_wider",
+    "href": "slides/14-tidyr.html#pivot_wider",
+    "title": "Tidying Data 🧹",
+    "section": "pivot_wider()",
+    "text": "pivot_wider()\n\n\n\ndata: data frame\nnames_from: which column variable in the long format contains the what should be column names in the wide format (year)\n\n\n\ndata |&gt; pivot_wider(\n    names_from = column_variable_1, \n    values_from = column_variable_2)\n\n\n\n\n\n\n\n\nSource: https://tavareshugo.github.io/r-intro-tidyverse-gapminder/09-reshaping/index.html"
+  },
+  {
+    "objectID": "slides/14-tidyr.html#pivot_wider-1",
+    "href": "slides/14-tidyr.html#pivot_wider-1",
+    "title": "Tidying Data 🧹",
+    "section": "pivot_wider()",
+    "text": "pivot_wider()\n\n\n\ndata: data frame\nvalues_from: which column variable in the long format contains the what should be values in the new columns in the wide format (metric)\n\n\n\ndata |&gt; pivot_wider(\n    names_from = column_variable_1, \n    values_from = column_variable_2)\n\n\n\n\n\n\n\n\nSource: https://tavareshugo.github.io/r-intro-tidyverse-gapminder/09-reshaping/index.html"
+  },
+  {
+    "objectID": "slides/14-tidyr.html#purchases-rightarrow-customers",
+    "href": "slides/14-tidyr.html#purchases-rightarrow-customers",
+    "title": "Tidying Data 🧹",
+    "section": "purchases \\(\\rightarrow\\) customers",
+    "text": "purchases \\(\\rightarrow\\) customers\n\n\n\npurchases\n\n# A tibble: 6 × 3\n  customer_id item_no item        \n        &lt;dbl&gt; &lt;chr&gt;   &lt;chr&gt;       \n1           1 item_1  bread       \n2           1 item_2  milk        \n3           1 item_3  banana      \n4           2 item_1  milk        \n5           2 item_2  toilet paper\n6           2 item_3  &lt;NA&gt;        \n\n\n\n\npurchases |&gt; \n    pivot_wider(              \n        names_from = item_no, \n        values_from = item    \n    ) \n\n# A tibble: 2 × 4\n  customer_id item_1 item_2       item_3\n        &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;        &lt;chr&gt; \n1           1 bread  milk         banana\n2           2 milk   toilet paper &lt;NA&gt;  \n\n\n\n\n\nAll right. In fact we can also go back from a longer data to a wider data, which is the original data set we start with.\n\ndata: data frame\n\nnames_from: which column variable in the long format contains what should be column names in the wide format\n\nvalues_from: which column variable in the long format contains what should be (cell) values in the new columns in the wide format\nNotice that item_no and item are not quoted because they are variables that exist in our data frame purchases.\nWe don’t construct new variables as we do when creating a data set in a longer format.\nOK. That’s pivoting, changing data set from wider to longer, or longer to wider format."
+  },
+  {
+    "objectID": "slides/14-tidyr.html#section-2",
+    "href": "slides/14-tidyr.html#section-2",
+    "title": "Tidying Data 🧹",
+    "section": "",
+    "text": "Source: FiveThirtyEight"
+  },
+  {
+    "objectID": "slides/14-tidyr.html#section-3",
+    "href": "slides/14-tidyr.html#section-3",
+    "title": "Tidying Data 🧹",
+    "section": "",
+    "text": "17-tidyr \nIn lab.qmd ## Lab 17 section,\n\n\nImport trump.csv. Call it trump_data as below on the left.\nUse pivot_longer() to transform trump_data into the data set trump_longer on the right.\n\n\n\n\n\ntrump_data\n\n# A tibble: 2,702 × 4\n  subgroup date       approval disapproval\n  &lt;chr&gt;    &lt;date&gt;        &lt;dbl&gt;       &lt;dbl&gt;\n1 Voters   2020-10-04     44.7        52.2\n2 Adults   2020-10-04     43.2        52.6\n3 Adults   2020-10-03     43.2        52.6\n4 Voters   2020-10-03     45.0        51.7\n5 Adults   2020-10-02     43.3        52.4\n6 Voters   2020-10-02     44.5        52.1\n# ℹ 2,696 more rows\n\n\n\n\ntrump_longer &lt;- ______________\n    pivot_longer(\n        cols = ____________,\n        names_to = _______________,\n        values_to = _______________\n    ) \n\n\n\n# A tibble: 5,404 × 4\n  subgroup date       rating_type rating_value\n  &lt;chr&gt;    &lt;date&gt;     &lt;chr&gt;              &lt;dbl&gt;\n1 Voters   2020-10-04 approval            44.7\n2 Voters   2020-10-04 disapproval         52.2\n3 Adults   2020-10-04 approval            43.2\n4 Adults   2020-10-04 disapproval         52.6\n5 Adults   2020-10-03 approval            43.2\n6 Adults   2020-10-03 disapproval         52.6\n# ℹ 5,398 more rows"
+  },
+  {
+    "objectID": "slides/14-tidyr.html#section-4",
+    "href": "slides/14-tidyr.html#section-4",
+    "title": "Tidying Data 🧹",
+    "section": "",
+    "text": "BONUS 💰: Use trump_longer to generate a plot like the one below."
+  },
+  {
+    "objectID": "slides/14-tidyr.html#pd.wide_to_long",
+    "href": "slides/14-tidyr.html#pd.wide_to_long",
+    "title": "Tidying Data 🧹",
+    "section": "pd.wide_to_long()",
+    "text": "pd.wide_to_long()\n\nimport numpy as np\nimport pandas as pd\n\n\ncustomers = pd.read_csv('./data/sales/customers.csv')\ncustomers\n\n   customer_id item_1        item_2  item_3\n0            1  bread          milk  banana\n1            2   milk  toilet paper     NaN\n\npurchases = pd.wide_to_long(df = customers,\n                            stubnames = ['item'], \n                            i = 'customer_id', \n                            j = 'item_no', sep = '_')\npurchases\n\n                             item\ncustomer_id item_no              \n1           1               bread\n2           1                milk\n1           2                milk\n2           2        toilet paper\n1           3              banana\n2           3                 NaN"
+  },
+  {
+    "objectID": "slides/14-tidyr.html#pd.pivot",
+    "href": "slides/14-tidyr.html#pd.pivot",
+    "title": "Tidying Data 🧹",
+    "section": "pd.pivot()",
+    "text": "pd.pivot()\n\npurchases = purchases.reset_index()\npurchases\n\n   customer_id  item_no          item\n0            1        1         bread\n1            2        1          milk\n2            1        2          milk\n3            2        2  toilet paper\n4            1        3        banana\n5            2        3           NaN\n\npurchases.pivot(index = \"customer_id\", columns = \"item_no\", values = \"item\")\n\nitem_no          1             2       3\ncustomer_id                             \n1            bread          milk  banana\n2             milk  toilet paper     NaN\n\n\n\n\n\n\nmath3570-s25.github.io/website"
   },
   {
     "objectID": "slides/03-posit.html#integrated-development-environment",
@@ -1969,7 +2214,7 @@
     "href": "present-work.html",
     "title": "Midterm Visualization Project",
     "section": "",
-    "text": "The Whales: Brady Nelson, Brody Roessler, Christian Filardo, Dorien Vazquez, Filip Kisielewski\n\n\n\nAnalytics Avengers (4): Sophia Bryant, Kumassi Browne, Charles Kendrick Jr, Isabel Bauer\n\n\n\nSyntax Squad: Nick Panoske, Kate Gibson, Annika Lautenbach, Simon Glarner, Sophia Ferru\n\n\n\nData Detectives: Jordan Dubeck, Justice Milhoan, Grace Placko, Jane Harvey, Madison Zursin\n\n\n\nHala Madrid: Abdullah Al-Refai, Labeeb Awan, Kevin Esquivel, Derian Esquivel, Tyler Smith\n\n\n\nThe Back Right corner: Luke Syverud, Isaac Kujak, Elizabeth Ruiz, Maxwell Creager-Roberts, Kaia Lui\n\n\n\nThe Outliers: Spencer Christensen, Peter Kaull, Dean Lang, Joshua Hunter, Marcin Tutaj\n\n\n\nBlock Blasters: Lucy McGovern, Emma Kimball, Riley Abrahamson, Brianna Velez, Napoleon Her\n\nWhat Makes a Song Danceable?\n\nIntermediate Wizards: Kyle Forsberg, Luke Bondi, Justin Hoffman, Sam Wolf, Ava Unertl\n\n\n\nTeamName: Jack Anderson, Nathan Rusch, Nirmay Kathuria, Wilson von Bohlen, Juan De Los Santos",
+    "text": "The Whales: Brady Nelson, Brody Roessler, Christian Filardo, Dorien Vazquez, Filip Kisielewski\n\nHow do game sales correlate to console popularity by global region\n\nAnalytics Avengers (4): Sophia Bryant, Kumassi Browne, Charles Kendrick Jr, Isabel Bauer\n\n\n\nSyntax Squad: Nick Panoske, Kate Gibson, Annika Lautenbach, Simon Glarner, Sophia Ferru\n\n\n\nData Detectives: Jordan Dubeck, Justice Milhoan, Grace Placko, Jane Harvey, Madison Zursin\n\n\n\nHala Madrid: Abdullah Al-Refai, Labeeb Awan, Kevin Esquivel, Derian Esquivel, Tyler Smith\n\n\n\nThe Back Right corner: Luke Syverud, Isaac Kujak, Elizabeth Ruiz, Maxwell Creager-Roberts, Kaia Lui\n\n\n\nThe Outliers: Spencer Christensen, Peter Kaull, Dean Lang, Joshua Hunter, Marcin Tutaj\n\n\n\nBlock Blasters: Lucy McGovern, Emma Kimball, Riley Abrahamson, Brianna Velez, Napoleon Her\n\nWhat Makes a Song Danceable?\n\nIntermediate Wizards: Kyle Forsberg, Luke Bondi, Justin Hoffman, Sam Wolf, Ava Unertl\n\n\n\nTeamName?: Jack Anderson, Nathan Rusch, Nirmay Kathuria, Wilson von Bohlen, Juan De Los Santos",
     "crumbs": [
       "Mini Project",
       "Topics and Works"
@@ -1980,7 +2225,7 @@
     "href": "present-work.html#group-projects-proposal",
     "title": "Midterm Visualization Project",
     "section": "",
-    "text": "The Whales: Brady Nelson, Brody Roessler, Christian Filardo, Dorien Vazquez, Filip Kisielewski\n\n\n\nAnalytics Avengers (4): Sophia Bryant, Kumassi Browne, Charles Kendrick Jr, Isabel Bauer\n\n\n\nSyntax Squad: Nick Panoske, Kate Gibson, Annika Lautenbach, Simon Glarner, Sophia Ferru\n\n\n\nData Detectives: Jordan Dubeck, Justice Milhoan, Grace Placko, Jane Harvey, Madison Zursin\n\n\n\nHala Madrid: Abdullah Al-Refai, Labeeb Awan, Kevin Esquivel, Derian Esquivel, Tyler Smith\n\n\n\nThe Back Right corner: Luke Syverud, Isaac Kujak, Elizabeth Ruiz, Maxwell Creager-Roberts, Kaia Lui\n\n\n\nThe Outliers: Spencer Christensen, Peter Kaull, Dean Lang, Joshua Hunter, Marcin Tutaj\n\n\n\nBlock Blasters: Lucy McGovern, Emma Kimball, Riley Abrahamson, Brianna Velez, Napoleon Her\n\nWhat Makes a Song Danceable?\n\nIntermediate Wizards: Kyle Forsberg, Luke Bondi, Justin Hoffman, Sam Wolf, Ava Unertl\n\n\n\nTeamName: Jack Anderson, Nathan Rusch, Nirmay Kathuria, Wilson von Bohlen, Juan De Los Santos",
+    "text": "The Whales: Brady Nelson, Brody Roessler, Christian Filardo, Dorien Vazquez, Filip Kisielewski\n\nHow do game sales correlate to console popularity by global region\n\nAnalytics Avengers (4): Sophia Bryant, Kumassi Browne, Charles Kendrick Jr, Isabel Bauer\n\n\n\nSyntax Squad: Nick Panoske, Kate Gibson, Annika Lautenbach, Simon Glarner, Sophia Ferru\n\n\n\nData Detectives: Jordan Dubeck, Justice Milhoan, Grace Placko, Jane Harvey, Madison Zursin\n\n\n\nHala Madrid: Abdullah Al-Refai, Labeeb Awan, Kevin Esquivel, Derian Esquivel, Tyler Smith\n\n\n\nThe Back Right corner: Luke Syverud, Isaac Kujak, Elizabeth Ruiz, Maxwell Creager-Roberts, Kaia Lui\n\n\n\nThe Outliers: Spencer Christensen, Peter Kaull, Dean Lang, Joshua Hunter, Marcin Tutaj\n\n\n\nBlock Blasters: Lucy McGovern, Emma Kimball, Riley Abrahamson, Brianna Velez, Napoleon Her\n\nWhat Makes a Song Danceable?\n\nIntermediate Wizards: Kyle Forsberg, Luke Bondi, Justin Hoffman, Sam Wolf, Ava Unertl\n\n\n\nTeamName?: Jack Anderson, Nathan Rusch, Nirmay Kathuria, Wilson von Bohlen, Juan De Los Santos",
     "crumbs": [
       "Mini Project",
       "Topics and Works"
@@ -2509,7 +2754,7 @@
     "href": "index.html",
     "title": "MATH/COSC 3570 Introduction to Data Science (Spring 2025)",
     "section": "",
-    "text": "Midterm project Proposal due Friday, 3/7, 11:59 PM.\nTA help desk hours at Cudahy Hall 301 Monday: 1 – 2 PM, Tuesday: 12 – 1 PM, Thursday: 12 – 2 PM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTo Do\nSlides\nLab Exercise\nHomework\nProject\n\n\n\n\n1\nTue, Jan 14\nGreetings + Overview of Data Science\n📖\n🖥️syllabus 🖥️overview\n\n\n\n\n\n\nThu, Jan 16\nPosit Cloud\n\n🖥️posit\n📋 posit 📋01\n\n\n\n\n2\nTue, Jan 21\nNo CLASS: Cold Weather\n📖\n\n\n\n\n\n\n\nThu, Jan 23\nGit/GitHub Introduction\n\n🖥️git\n📋github\n\n\n\n\n3\nTue, Jan 28\nQuarto: YAML and Markdown\n📖\n🖥️quarto\n📋02 📋03 📋04\n\n\n\n\n\nThu, Jan 30\nQuarto: Code Chunk\n\n\n\n\n\n\n\n4\nTue, Feb 4\nR Syntax\n📖\n🖥️syntax\n📋05\n\n\n\n\n\nThu, Feb 6\nPython Syntax\n\n\n📋06 📋 07(opt)\n✍️ HW1\n\n\n\n5\nTue, Feb 11\nR Tidyverse\n📖\n🖥️package\n📋08\n\n\n\n\n\nThu, Feb 13\nPython NumPy/Pandas\n\n\n📋09\n\n\n\n\n6\nTue, Feb 18\nData Importing\n📖\n🖥️import\n📋10\n\n\n\n\n\nThu, Feb 20\nData Visualization-ggplot2\n\n🖥️ggplot\n📋11 📋12\n\n\n\n\n7\nTue, Feb 25\nData Visualization-categorical and numerical data\n📖\n🖥️visualization\n📋13\n\n\n\n\n\nThu, Feb 27\nInteractive Data Visualization\n\n🖥️interactive-viz\n📋14 (opt)\nHW 1 Due\n✅ Team up Due\n\n\n8\nTue, Mar 4\nData Wrangling - one data frame\n📖\n🖥️dplyr-1\n📋15\n\n\n\n\n\nThu, Mar 6\nData Wrangling - two data frames\n\n🖥️ dplyr-2\n📋16\n\n✅ Proposal Due\n\n\n9\nTue, Mar 11\nNO CLASS: Spring break\n📖\n\n\n\n\n\n\n\nThu, Mar 13\nNO CLASS: Spring break\n\n\n\n\n\n\n\n10\nTue, Mar 18\nData Wrangling - tidyr\n📖\n🖥️\n📋\n✍️\n✅ Materials Due\n\n\n\nThu, Mar 20\nMini Project Presentation\n\n🖥️\n📋\n\n\n\n\n11\nTue, Mar 25\nProbabilistic and Statistical Simulation\n\n\n📋\n\n\n\n\n\nThu, Mar 27\nProbabilistic and Statistical Simulation\n\n\n\n\n\n\n\n12\nTue, Apr 1\nLinear Regression\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 3\nLinear Regression\n\n\n📋\n\n\n\n\n13\nTue, Apr 8\nLogistic Regression\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 10\nLogistic Regression\n\n\n📋\n✍️\n\n\n\n14\nTue, Apr 15\nK-Nearest Neighbors\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 17\nNO CLASS: Easter break\n\n\n📋\n\n\n\n\n15\nTue, Apr 22\nPrincipal Component Analysis\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 24\nPrincipal Component Analysis\n\n\n📋\n\n\n\n\n16\nTue, Apr 29\nK-Means Clustering\n📖\n🖥️\n\n\n\n\n\n\nThu, May 1\nFinal Project Presentation I\n\n🖥️\n📋\n\n\n\n\n17\nMon, May 5\nFinal Project Presentation II\n\n\n\n\n\n\n\n\n\nThis schedule will be updated as the semester progresses, with all changes documented here. Dr. Yu reserve the right to make changes to the schedule.",
+    "text": "Midterm project Proposal due Friday, 3/7, 11:59 PM.\nTA help desk hours at Cudahy Hall 301 Monday: 1 – 2 PM, Tuesday: 12 – 1 PM, Thursday: 12 – 2 PM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nTo Do\nSlides\nLab Exercise\nHomework\nProject\n\n\n\n\n1\nTue, Jan 14\nGreetings + Overview of Data Science\n📖\n🖥️syllabus 🖥️overview\n\n\n\n\n\n\nThu, Jan 16\nPosit Cloud\n\n🖥️posit\n📋 posit 📋01\n\n\n\n\n2\nTue, Jan 21\nNo CLASS: Cold Weather\n📖\n\n\n\n\n\n\n\nThu, Jan 23\nGit/GitHub Introduction\n\n🖥️git\n📋github\n\n\n\n\n3\nTue, Jan 28\nQuarto: YAML and Markdown\n📖\n🖥️quarto\n📋02 📋03 📋04\n\n\n\n\n\nThu, Jan 30\nQuarto: Code Chunk\n\n\n\n\n\n\n\n4\nTue, Feb 4\nR Syntax\n📖\n🖥️syntax\n📋05\n\n\n\n\n\nThu, Feb 6\nPython Syntax\n\n\n📋06 📋 07(opt)\n✍️ HW1\n\n\n\n5\nTue, Feb 11\nR Tidyverse\n📖\n🖥️package\n📋08\n\n\n\n\n\nThu, Feb 13\nPython NumPy/Pandas\n\n\n📋09\n\n\n\n\n6\nTue, Feb 18\nData Importing\n📖\n🖥️import\n📋10\n\n\n\n\n\nThu, Feb 20\nData Visualization-ggplot2\n\n🖥️ggplot\n📋11 📋12\n\n\n\n\n7\nTue, Feb 25\nData Visualization-categorical and numerical data\n📖\n🖥️visualization\n📋13\n\n\n\n\n\nThu, Feb 27\nInteractive Data Visualization\n\n🖥️interactive-viz\n📋14 (opt)\nHW 1 Due\n✅ Team up Due\n\n\n8\nTue, Mar 4\nData Wrangling - one data frame\n📖\n🖥️dplyr-1\n📋15\n\n\n\n\n\nThu, Mar 6\nData Wrangling - two data frames\n\n🖥️ dplyr-2\n📋16\n\n✅ Proposal Due\n\n\n9\nTue, Mar 11\nNO CLASS: Spring break\n📖\n\n📋 Lab Solution\n\n\n\n\n\nThu, Mar 13\nNO CLASS: Spring break\n\n\n\n\n\n\n\n10\nTue, Mar 18\nData Wrangling - tidyr\n📖\n🖥️ tidyr\n📋17\n✍️\n✅ Materials Due\n\n\n\nThu, Mar 20\nMini Project Presentation\n\n\n\n\n\n\n\n11\nTue, Mar 25\nProbabilistic and Statistical Simulation\n📖\n🖥️\n📋\n\n\n\n\n\nThu, Mar 27\nProbabilistic and Statistical Simulation\n\n\n\n\n\n\n\n12\nTue, Apr 1\nLinear Regression\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 3\nLinear Regression\n\n\n📋\n\n\n\n\n13\nTue, Apr 8\nLogistic Regression\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 10\nLogistic Regression\n\n\n📋\n✍️\n\n\n\n14\nTue, Apr 15\nK-Nearest Neighbors\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 17\nNO CLASS: Easter break\n\n\n📋\n\n\n\n\n15\nTue, Apr 22\nPrincipal Component Analysis\n📖\n🖥️\n\n\n\n\n\n\nThu, Apr 24\nPrincipal Component Analysis\n\n\n📋\n\n\n\n\n16\nTue, Apr 29\nK-Means Clustering\n📖\n🖥️\n\n\n\n\n\n\nThu, May 1\nFinal Project Presentation I\n\n🖥️\n📋\n\n\n\n\n17\nMon, May 5\nFinal Project Presentation II\n\n\n\n\n\n\n\n\n\nThis schedule will be updated as the semester progresses, with all changes documented here. Dr. Yu reserve the right to make changes to the schedule.",
     "crumbs": [
       "Course information",
       "Schedule"
@@ -3164,7 +3409,7 @@
     "href": "slides/01-syllabus.html#grade-percentage-conversion",
     "title": "Welcome Aboard 🙌",
     "section": "Grade-Percentage Conversion",
-    "text": "Grade-Percentage Conversion\n\n\n\\([x, y)\\) means greater than or equal to \\(x\\) and less than \\(y\\). For example, 94.0 is in [94, 100] and the grade is A and 93.8 is in [90, 94) and the grade is A-.\n\n\n\n\n\nGrade\nPercentage\n\n\n\nA\n[94, 100]\n\n\nA-\n[90, 94)\n\n\nB+\n[87, 90)\n\n\nB\n[84, 87)\n\n\nB-\n[80, 84)\n\n\nC+\n[77, 80)\n\n\nC\n[74, 77)\n\n\nC-\n[70, 74)\n\n\nD+\n[65, 70)\n\n\nD\n[60, 65)\n\n\nF\n[0, 60)"
+    "text": "Grade-Percentage Conversion\n\n\n\\([x, y)\\) means greater than or equal to \\(x\\) and less than \\(y\\). For example, 94.0 is in [94, 100] and the grade is A and 93.8 is in [90, 94) and the grade is A-.\n\n\n\n\n\n\nGrade\nPercentage\n\n\n\nA\n[94, 100]\n\n\nA-\n[90, 94)\n\n\nB+\n[87, 90)\n\n\nB\n[84, 87)\n\n\nB-\n[80, 84)\n\n\nC+\n[77, 80)\n\n\nC\n[74, 77)\n\n\nC-\n[70, 74)\n\n\nD+\n[65, 70)\n\n\nD\n[60, 65)\n\n\nF\n[0, 60)"
   },
   {
     "objectID": "slides/01-syllabus.html#lab-exercises-30",
@@ -4105,25 +4350,32 @@
     "text": "Resources\n\nThe R Graph Gallery\nmatplotlib\n\nWe will talk about data visualization in detail soon!\nhttps://stackoverflow.com/questions/43482191/matplotlib-axes-plot-vs-pyplot-plot\n\n\n\n\nmath3570-s25.github.io/website"
   },
   {
-    "objectID": "exercise/lab13-visualization.html",
-    "href": "exercise/lab13-visualization.html",
-    "title": "Lab 13: Visualization",
+    "objectID": "exercise/lab11-ggplot2.html",
+    "href": "exercise/lab11-ggplot2.html",
+    "title": "Lab 11: ggplot2",
     "section": "",
-    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 13 section,\n\nImport the data penguins.csv.\nGenerate the following\n\n\n\n\n\n\n\n\n\n\n\n\nWarning: Removed 2 rows containing non-finite outside the scale range\n(`stat_bin()`).\n\n\n\n\n\n\n\n\n\n\n# library(tidyverse)\npenguins &lt;- read_csv(__________________)\n________ |&gt; ggplot(_______________________) +  ## mapping layer  \n    ___________________ +  ## geometry layer\n    _____________________________  ## label layer\n\n  \n\n________ |&gt; ggplot(______________________________) +  ## mapping layer  \n    _______________ +  ## geometry layer\n    _______________ +  ## label layer\n    ______________________________  +   ## facet layer\n    ______________________________      ## theme layer (set legend.position = \"none\")"
+    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 11 section,\n\nUse readr::read_csv() to import the data penguins.csv into your R workspace.\nGenerate the following ggplot:\n\n\n\n\n\n\n\n\n\n\n\npenguins &lt;- read_csv(_________________)\n________ |&gt; \n  ggplot(mapping = ____(x = ______________,\n                        y = ______________,\n                        colour = ________)) +\n  geom______() +\n  ____(title = ____________________,\n       _________ = \"Dimensions for Adelie, Chinstrap, and Gentoo Penguins\",\n       x = _____________, y = _______________,\n       _______ = \"Species\",\n       _______ = \"Source: Palmer Station LTER / palmerpenguins package\")"
   },
   {
-    "objectID": "exercise/lab12-facet.html",
-    "href": "exercise/lab12-facet.html",
-    "title": "Lab 12: Faceting",
+    "objectID": "exercise/lab18-prob.html",
+    "href": "exercise/lab18-prob.html",
+    "title": "Lab 18: Probability",
     "section": "",
-    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 12 section,\n\nggplot(data = _______, \n       mapping = aes(x = ______, y = ______, ______ = drv, shape = _____)) +\n    geom______(______ = 3, ______ = 0.8) + \n    facet_grid(______ ~ _______) +\n    guides(______ = \"none\")"
+    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 18 section,\n\nPlot the probability function \\(P(X = x)\\) of \\(X \\sim \\text{binomial}(n = 5, \\pi = 0.3)\\).\n\nTo use ggplot,\n\nCreate a data frame saving all possible values of \\(x\\) and their corresponding probability using dbinom(x, size = ___, prob = ___).\n\n\n\n# A tibble: 6 × 2\n      x       y\n  &lt;int&gt;   &lt;dbl&gt;\n1     0 0.168  \n2     1 0.360  \n3     2 0.309  \n4     3 0.132  \n5     4 0.0284 \n6     5 0.00243\n\n\n\nAdd geom_col()\n\n\n\n\n\n\n\n\n\n\n:::"
   },
   {
-    "objectID": "exercise/lab06-py.html",
-    "href": "exercise/lab06-py.html",
-    "title": "Lab 06: Python Data Structure",
+    "objectID": "exercise/lab05-rtype.html",
+    "href": "exercise/lab05-rtype.html",
+    "title": "Lab 05: R Data Type Summary",
     "section": "",
-    "text": "Note\n\n\n\n\n\n\nIn lab.qmd Lab 6,\n\nCreate a Python list and dictionary similar to the R list below.\n\n\nx_lst &lt;- list(idx = 1:3, \n              \"a\", \n              c(TRUE, FALSE))\n\nRemember to create Python code chunk\n\n```{Python}\n#| echo: true\n#| eval: false\n#| code-line-numbers: false\n\n```\n\nAny issue of this Python chunk?\nCommit and Push your work once you are done."
+    "text": "Note\n\n\n\n\n\n\nIn lab.qmd Lab 5,\n\nCreate R objects vector v1, factor f2, list l3, matrix m4 and data frame d5.\nCheck typeof() and class() of those objects, and create a list having the output below.\n\n\nv1 &lt;- c(__________)\nf2 &lt;- f_____(__________)\nl3 &lt;- l_____(__________)\nm4 &lt;- m_____(__________)\nd5 &lt;- d_____.f_____(__________)\nv &lt;- c(type = typeof(v1), class = class(v1))\nf &lt;- c(type = __________, class = _________)\nl &lt;- c(type = __________, class = _________)\nm &lt;- c(type = __________, class = _________)\nd &lt;- c(type = __________, class = _________)\n____(vec    =   v,\n     ______ = ___,\n     ______ = ___,\n     ______ = ___,\n     ______ = ___)\n\n\n\n$vec\n     type     class \n \"double\" \"numeric\" \n\n$fac\n     type     class \n\"integer\"  \"factor\" \n\n$lst\n  type  class \n\"list\" \"list\" \n\n$mat\n     type    class1    class2 \n\"integer\"  \"matrix\"   \"array\" \n\n$df\n        type        class \n      \"list\" \"data.frame\""
+  },
+  {
+    "objectID": "exercise/lab22-knn.html",
+    "href": "exercise/lab22-knn.html",
+    "title": "Lab 22: K Nearest Neighbors",
+    "section": "",
+    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 22 section,\n\n\nuse HEIGHT and WAIST to predict GENDER using KNN with \\(K = 3\\).\nGenerate the (test) confusion matrix.\nCalculate (test) accuracy rate.\nDoes using more predictors predict better?\n\n\nR Code\n\nlibrary(tidymodels)\n\n## load data\nbodydata &lt;- read_csv(\"./data/body.csv\")\nbody &lt;- bodydata |&gt; \n    select(GENDER, HEIGHT, WAIST, BMI) |&gt; \n    mutate(GENDER = as.factor(GENDER))\n\n## training and test data\nset.seed(2024)\ndf_split &lt;- initial_split(data = body, prop = 0.8)\ndf_trn &lt;- training(df_split)\ndf_tst &lt;- testing(df_split)\n\n## KNN training\nknn_recipe &lt;- recipe(GENDER ~ HEIGHT + WAIST, data = df_trn) |&gt; \n    step_normalize(all_predictors())\nknn_mdl &lt;- nearest_neighbor(neighbors = 3, mode = \"classification\")\nknn_out &lt;- workflow() |&gt; \n    add_recipe(knn_recipe) |&gt; \n    add_model(knn_mdl) |&gt; \n    fit(data = df_trn)\n\n## KNN prediction\nknn_pred &lt;- pull(predict(knn_out, df_tst))\ntable(knn_pred, df_tst$GENDER)\nmean(knn_pred == df_tst$GENDER)\n\n\n\nPython Code\n\nimport numpy as np\nimport pandas as pd\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.neighbors import KNeighborsClassifier\n\n## load data\nbody = pd.read_csv('./data/body.csv')\nX = body[['HEIGHT', 'WAIST']]\ny = body['GENDER']\n\n## training and test data\nX_trn, X_tst, y_trn, y_tst = train_test_split(X, y, test_size=0.2, random_state=2024)\n\n## KNN training\nknn = KNeighborsClassifier(n_neighbors = 3)\nX_trn = np.array(X_trn)\nX_tst = np.array(X_tst)\nknn.fit(X_trn, y_trn)\n\n## KNN prediction\ny_pred = knn.predict(X_tst)\nfrom sklearn.metrics import confusion_matrix\nconfusion_matrix(y_tst, y_pred)\nnp.mean(y_tst == y_pred)"
   },
   {
     "objectID": "exercise/lab24-kmeans.html",
@@ -4172,7 +4424,7 @@
     "href": "exercise/lab17-tidyr.html",
     "title": "Lab 17: tidyr",
     "section": "",
-    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 17 section,\n\n\nImport trump.csv. Call it trump_data as below on the left.\nUse pivot_longer() to transform trump_data into the data set trump_longer on the right.\n\n\ntrump_data\n\n# A tibble: 2,702 × 4\n   subgroup date       approval disapproval\n   &lt;chr&gt;    &lt;date&gt;        &lt;dbl&gt;       &lt;dbl&gt;\n 1 Voters   2020-10-04     44.7        52.2\n 2 Adults   2020-10-04     43.2        52.6\n 3 Adults   2020-10-03     43.2        52.6\n 4 Voters   2020-10-03     45.0        51.7\n 5 Adults   2020-10-02     43.3        52.4\n 6 Voters   2020-10-02     44.5        52.1\n 7 Voters   2020-10-01     44.1        52.8\n 8 Adults   2020-10-01     42.7        53.3\n 9 Adults   2020-09-30     42.2        53.7\n10 Voters   2020-09-30     44.2        52.7\n# ℹ 2,692 more rows\n\n\n\ntrump_longer &lt;- ______________\n    pivot_longer(\n        cols = ____________,\n        names_to = _______________,\n        values_to = _______________\n    ) \n\n\n\n# A tibble: 5,404 × 4\n   subgroup date       rating_type rating_value\n   &lt;chr&gt;    &lt;date&gt;     &lt;chr&gt;              &lt;dbl&gt;\n 1 Voters   2020-10-04 approval            44.7\n 2 Voters   2020-10-04 disapproval         52.2\n 3 Adults   2020-10-04 approval            43.2\n 4 Adults   2020-10-04 disapproval         52.6\n 5 Adults   2020-10-03 approval            43.2\n 6 Adults   2020-10-03 disapproval         52.6\n 7 Voters   2020-10-03 approval            45.0\n 8 Voters   2020-10-03 disapproval         51.7\n 9 Adults   2020-10-02 approval            43.3\n10 Adults   2020-10-02 disapproval         52.4\n# ℹ 5,394 more rows\n\n\nBONUS 💵: Use trump_longer to generate a plot like the one below."
+    "text": "Note\n\n\n\n\n\n\nIn lab.qmd ## Lab 17 section,\n\n\nImport trump.csv. Call it trump_data as below on the left.\nUse pivot_longer() to transform trump_data into the data set trump_longer on the right.\n\n\ntrump_data\n\n# A tibble: 2,702 × 4\n   subgroup date       approval disapproval\n   &lt;chr&gt;    &lt;date&gt;        &lt;dbl&gt;       &lt;dbl&gt;\n 1 Voters   2020-10-04     44.7        52.2\n 2 Adults   2020-10-04     43.2        52.6\n 3 Adults   2020-10-03     43.2        52.6\n 4 Voters   2020-10-03     45.0        51.7\n 5 Adults   2020-10-02     43.3        52.4\n 6 Voters   2020-10-02     44.5        52.1\n 7 Voters   2020-10-01     44.1        52.8\n 8 Adults   2020-10-01     42.7        53.3\n 9 Adults   2020-09-30     42.2        53.7\n10 Voters   2020-09-30     44.2        52.7\n# ℹ 2,692 more rows\n\n\n\ntrump_longer &lt;- ______________\n    pivot_longer(\n        cols = ____________,\n        names_to = _______________,\n        values_to = _______________\n    ) \n\n\n\n# A tibble: 5,404 × 4\n   subgroup date       rating_type rating_value\n   &lt;chr&gt;    &lt;date&gt;     &lt;chr&gt;              &lt;dbl&gt;\n 1 Voters   2020-10-04 approval            44.7\n 2 Voters   2020-10-04 disapproval         52.2\n 3 Adults   2020-10-04 approval            43.2\n 4 Adults   2020-10-04 disapproval         52.6\n 5 Adults   2020-10-03 approval            43.2\n 6 Adults   2020-10-03 disapproval         52.6\n 7 Voters   2020-10-03 approval            45.0\n 8 Voters   2020-10-03 disapproval         51.7\n 9 Adults   2020-10-02 approval            43.3\n10 Adults   2020-10-02 disapproval         52.4\n# ℹ 5,394 more rows\n\n\nBONUS 💷: Use trump_longer to generate a plot like the one below."
   },
   {
     "objectID": "exercise/lab10-import.html",

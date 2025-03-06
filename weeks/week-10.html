@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.549">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="MATH/COSC 3570 - Spring 2025 - Week 10">
-<meta property="og:description" content="Tidyr and Probabilistic and Statistical Simulation">
+<meta property="og:description" content="Tidyr and Probability">
 <meta property="og:site_name" content="MATH/COSC 3570 - Spring 2025">
 </head>
 
@@ -98,7 +98,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="../index.html" class="sidebar-logo-link">
       <img src="../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
@@ -324,7 +324,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../weeks/week-1.html">Weekly materials</a></li><li class="breadcrumb-item"><a href="../weeks/week-10.html">Week 10</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Week 10</h1>
-<p class="subtitle lead">Tidyr and Probabilistic and Statistical Simulation</p>
+<p class="subtitle lead">Tidyr and Probability</p>
 </div>
 
 
@@ -357,13 +357,13 @@ Important
 <section id="participate" class="level2">
 <h2 class="anchored" data-anchor-id="participate">Participate</h2>
 <p>🖥️ <a href="../slides/14-tidyr.html">Slides - Tidying Data</a></p>
-<p>🖥️ <a href="../slides/15-probstat.html">Slides - Probability and Statistics</a></p>
+<p>🖥️ Slides - Probability and Statistics</p>
 </section>
 <section id="exercise" class="level2">
 <h2 class="anchored" data-anchor-id="exercise">Exercise</h2>
 <p>📋 <a href="../exercise/lab17-tidyr.html">Lab-17 tidyr</a></p>
 <p><code>r fontawesome::fa("table")</code> <a href="../slides/data/trump.csv">trump.csv</a></p>
-<p>📋 <a href="../exercise/lab18-prob.html">Lab-18 Probability</a></p>
+<p>📋 Lab-18 Probability</p>
 <p><br><br></p>
 <div style="font-size: 0.875em;">
 <p>Back to <a href=".." title="Course schedule">course schedule</a> ⏎</p>
@@ -596,6 +596,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/math3570-s25\.github\.io\/website\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -630,7 +648,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -906,7 +928,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../weeks/week-9.html" class="pagination-link  aria-label=" week="" 9"="">
+      <a href="../weeks/week-9.html" class="pagination-link" aria-label="Week 9">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Week 9</span>
       </a>          
   </div>
