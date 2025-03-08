@@ -16,7 +16,7 @@ The midterm mini project is about [**data visualization**]{.blue}. **Show your f
 
     ~~by [**Friday, 2/28 11:59 PM**]{.red}.~~
 
--   **Proposal**. Please send me a [**one-page PDF**]{.blue} describing what you are going to do for your project (no word limit) with your **project title** by [**Friday, 3/7 11:59 PM**]{.red}.
+-   ~~**Proposal**. Please send me a [**one-page PDF**]{.blue} describing what you are going to do for your project (no word limit) with your **project title** by [**Friday, 3/7 11:59 PM**]{.red}.~~
 
 -   **Materials**. Please share your [**entire work**]{.blue} (slides, code, data, etc) by [**Wednesday, 3/19 11:59 PM**]{.red}.
 

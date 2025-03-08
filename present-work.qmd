@@ -8,13 +8,16 @@ title: "Midterm Visualization Project"
 
     -   [How do game sales correlate to console popularity by global region](/documents/proposal_the_whales.pdf)
 
+
 -   [**Analytics Avengers (4)**]{.blue}: Sophia Bryant, Kumassi Browne, Charles Kendrick Jr, Isabel Bauer
 
-    -   
+    -   No submission.
+
 
 -   [**Syntax Squad**]{.blue}: Nick Panoske, Kate Gibson, Annika Lautenbach, Simon Glarner, Sophia Ferru
 
-    -   
+    -   [No Project Title](/documents/proposal_syntax_squad.pdf)
+
 
 -   [**Data Detectives**]{.blue}: Jordan Dubeck, Justice Milhoan, Grace Placko, Jane Harvey, Madison Zursin
 
@@ -23,27 +26,34 @@ title: "Midterm Visualization Project"
 
 -   [**Hala Madrid**]{.blue}: Abdullah Al-Refai, Labeeb Awan, Kevin Esquivel, Derian Esquivel, Tyler Smith
 
-    -   
+    -   [Video Game Sales Data Analysis Report](/documents/proposal_hala_madrid.pdf)
+
 
 -   [**The Back Right corner**]{.blue}: Luke Syverud, Isaac Kujak, Elizabeth Ruiz, Maxwell Creager-Roberts, Kaia Lui
 
     -   [How do Movies and Tv Shows differ by Country?](/documents/proposal_back_right_corner.pdf)
 
+
 -   [**The Outliers**]{.blue}: Spencer Christensen, Peter Kaull, Dean Lang, Joshua Hunter, Marcin Tutaj
 
-    -   
+    -   [Exploratory Data Analysis in Auto-Mpg Dataset](/documents/proposal_the_outliers.pdf)
+
 
 -   [**Block Blasters**]{.blue}: Lucy McGovern, Emma Kimball, Riley Abrahamson, Brianna Velez, Napoleon Her
 
     -   [What Makes a Song Danceable?](/documents/proposal_block_blasters.pdf)
 
+
 -   [**Intermediate Wizards**]{.blue}: Kyle Forsberg, Luke Bondi, Justin Hoffman, Sam Wolf, Ava Unertl
 
-    -   
+    -   [Most Important Factors to a child’s exam success](/documents/proposal_intermediate_wizards.pdf)
+
 
 -   **TeamName?**: Jack Anderson, Nathan Rusch, Nirmay Kathuria, Wilson von Bohlen, Juan De Los Santos
 
-    -   
+    -   [Marquette University Basketball Heatmap](/documents/proposal_noname.pdf)
+
+
 
 ## Presentation order
 
