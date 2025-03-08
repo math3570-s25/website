@@ -11,7 +11,7 @@ title: "Midterm Visualization Project"
 
 -   [**Analytics Avengers (4)**]{.blue}: Sophia Bryant, Kumassi Browne, Charles Kendrick Jr, Isabel Bauer
 
-    -   No submission.
+    -   [Netflix Analysis](/documents/proposal_analytics_avenges.pdf)
 
 
 -   [**Syntax Squad**]{.blue}: Nick Panoske, Kate Gibson, Annika Lautenbach, Simon Glarner, Sophia Ferru
