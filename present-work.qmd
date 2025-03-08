@@ -18,7 +18,8 @@ title: "Midterm Visualization Project"
 
 -   [**Data Detectives**]{.blue}: Jordan Dubeck, Justice Milhoan, Grace Placko, Jane Harvey, Madison Zursin
 
-    -   
+    -   [Happiness of the World Over Time](/documents/proposal_data_detectives.pdf)
+
 
 -   [**Hala Madrid**]{.blue}: Abdullah Al-Refai, Labeeb Awan, Kevin Esquivel, Derian Esquivel, Tyler Smith
 
@@ -26,7 +27,7 @@ title: "Midterm Visualization Project"
 
 -   [**The Back Right corner**]{.blue}: Luke Syverud, Isaac Kujak, Elizabeth Ruiz, Maxwell Creager-Roberts, Kaia Lui
 
-    -   
+    -   [How do Movies and Tv Shows differ by Country?](/documents/proposal_back_right_corner.pdf)
 
 -   [**The Outliers**]{.blue}: Spencer Christensen, Peter Kaull, Dean Lang, Joshua Hunter, Marcin Tutaj
 

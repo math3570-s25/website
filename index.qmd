@@ -25,14 +25,14 @@ tbl-colwidths: [5,10,15,5,8,10,8,8]
 |  | Thu, Feb 27 | Interactive Data Visualization |  | [🖥️interactive-viz](/slides/11-interactive-viz.html "11-interactive-viz") | [📋14 (opt)](exercise/lab14-interactive.html "lab14-interactive") | HW 1 Due | [✅ Team up Due](present-description.html) |
 | 8 | Tue, Mar 4 | Data Wrangling - one data frame | [📖](/weeks/week-8.html "Week 8") | [🖥️dplyr-1](/slides/12-dplyr-1.html "12-dplyr-1") | [📋15](exercise/lab15-dplyr.html "lab15-dplyr") |  |  |
 |  | Thu, Mar 6 | Data Wrangling - two data frames |  | [🖥️ dplyr-2](/slides/13-dplyr-2.html "13-dplyr-2") | [📋16](exercise/lab16-join.html "lab16-join") |  | [✅ Proposal Due](present-description.html) |
-| 9 | Tue, Mar 11 | ***NO CLASS: Spring break*** | [📖](/weeks/week-9.html "Week 9") |  | 📋 Lab Solution |  |  |
+| 9 | Tue, Mar 11 | ***NO CLASS: Spring break*** | [📖](/weeks/week-9.html "Week 9") |  | [📋 Lab Solution](exercise/lab-sol-s25-midterm.html "lab-sol-s25-midterm") |  |  |
 |  | Thu, Mar 13 | ***NO CLASS: Spring break*** |  |  |  |  |  |
-| 10 | Tue, Mar 18 | Data Wrangling - tidyr | [📖](/weeks/week-10.html "Week 10") | [🖥️ tidyr](/slides/14-tidyr.html "14-tidyr") | [📋17](exercise/lab17-tidyr.html "lab17-tidyr") | ✍️ | [✅ Materials Due](present-description.html) |
+| 10 | Tue, Mar 18 | Data Wrangling - tidyr | [📖](/weeks/week-10.html "Week 10") | [🖥️ tidyr](/slides/14-tidyr.html "14-tidyr") | [📋17](exercise/lab17-tidyr.html "lab17-tidyr") | [✍️ HW2](hw/hw2.html "Homework 2") | [✅ Materials Due](present-description.html) |
 |  | **Thu, Mar 20** | [**Mini Project Presentation**]{.blue} |  |  |  |  |  |
 | 11 | Tue, Mar 25 | Probabilistic and Statistical Simulation | 📖 | 🖥️ | 📋 |  |  |
 |  | Thu, Mar 27 | Probabilistic and Statistical Simulation |  |  |  |  |  |
 | 12 | Tue, Apr 1 | Linear Regression | 📖 | 🖥️ |  |  |  |
-|  | Thu, Apr 3 | Linear Regression |  |  | 📋 |  |  |
+|  | Thu, Apr 3 | Linear Regression |  |  | 📋 | HW 2 Due |  |
 | 13 | Tue, Apr 8 | Logistic Regression | 📖 | 🖥️ |  |  |  |
 |  | Thu, Apr 10 | Logistic Regression |  |  | 📋 | ✍️ |  |
 | 14 | Tue, Apr 15 | K-Nearest Neighbors | 📖 | 🖥️ |  |  |  |
@@ -40,7 +40,7 @@ tbl-colwidths: [5,10,15,5,8,10,8,8]
 | 15 | Tue, Apr 22 | Principal Component Analysis | 📖 | 🖥️ |  |  |  |
 |  | Thu, Apr 24 | Principal Component Analysis |  |  | 📋 |  |  |
 | 16 | Tue, Apr 29 | K-Means Clustering | 📖 | 🖥️ |  |  |  |
-|  | **Thu, May 1** | [**Final Project Presentation I**]{.blue} |  | 🖥️ | 📋 |  |  |
+|  | **Thu, May 1** | [**Final Project Presentation I**]{.blue} |  | 🖥️ | 📋 | HW 3 Due |  |
 | 17 | **Mon, May 5** | [**Final Project Presentation II**]{.blue} |  |  |  |  |  |
 :::
 
