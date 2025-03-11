@@ -609,21 +609,21 @@
     "href": "slides/14-tidyr.html#section-4",
     "title": "Tidying Data 🧹",
     "section": "",
-    "text": "BONUS 💰: Use trump_longer to generate a plot like the one below."
+    "text": "BONUS 💴: Use trump_longer to generate a plot like the one below."
   },
   {
-    "objectID": "slides/14-tidyr.html#pd.wide_to_long",
-    "href": "slides/14-tidyr.html#pd.wide_to_long",
+    "objectID": "slides/14-tidyr.html#pd.melt",
+    "href": "slides/14-tidyr.html#pd.melt",
     "title": "Tidying Data 🧹",
-    "section": "pd.wide_to_long()",
-    "text": "pd.wide_to_long()\n\nimport numpy as np\nimport pandas as pd\n\n\ncustomers = pd.read_csv('./data/sales/customers.csv')\ncustomers\n\n   customer_id item_1        item_2  item_3\n0            1  bread          milk  banana\n1            2   milk  toilet paper     NaN\n\npurchases = pd.wide_to_long(df = customers,\n                            stubnames = ['item'], \n                            i = 'customer_id', \n                            j = 'item_no', sep = '_')\npurchases\n\n                             item\ncustomer_id item_no              \n1           1               bread\n2           1                milk\n1           2                milk\n2           2        toilet paper\n1           3              banana\n2           3                 NaN"
+    "section": "pd.melt()",
+    "text": "pd.melt()\n\nimport numpy as np\nimport pandas as pd\n\n\ncustomers = pd.read_csv('./data/sales/customers.csv')\ncustomers\n\n   customer_id item_1        item_2  item_3\n0            1  bread          milk  banana\n1            2   milk  toilet paper     NaN\n\npurchases = pd.melt(customers, \n                    id_vars=['customer_id'], \n                    value_vars=['item_1', 'item_2', 'item_3'],\n                    var_name='item_no', value_name='item')\npurchases\n\n   customer_id item_no          item\n0            1  item_1         bread\n1            2  item_1          milk\n2            1  item_2          milk\n3            2  item_2  toilet paper\n4            1  item_3        banana\n5            2  item_3           NaN"
   },
   {
     "objectID": "slides/14-tidyr.html#pd.pivot",
     "href": "slides/14-tidyr.html#pd.pivot",
     "title": "Tidying Data 🧹",
     "section": "pd.pivot()",
-    "text": "pd.pivot()\n\npurchases = purchases.reset_index()\npurchases\n\n   customer_id  item_no          item\n0            1        1         bread\n1            2        1          milk\n2            1        2          milk\n3            2        2  toilet paper\n4            1        3        banana\n5            2        3           NaN\n\npurchases.pivot(index = \"customer_id\", columns = \"item_no\", values = \"item\")\n\nitem_no          1             2       3\ncustomer_id                             \n1            bread          milk  banana\n2             milk  toilet paper     NaN\n\n\n\n\n\n\nmath3570-s25.github.io/website"
+    "text": "pd.pivot()\n\npurchases\n\n   customer_id item_no          item\n0            1  item_1         bread\n1            2  item_1          milk\n2            1  item_2          milk\n3            2  item_2  toilet paper\n4            1  item_3        banana\n5            2  item_3           NaN\n\npurchases.pivot(index = \"customer_id\", columns = \"item_no\", values = \"item\")\n\nitem_no     item_1        item_2  item_3\ncustomer_id                             \n1            bread          milk  banana\n2             milk  toilet paper     NaN\n\n\n\n\n\n\nmath3570-s25.github.io/website"
   },
   {
     "objectID": "slides/03-posit.html#integrated-development-environment",
