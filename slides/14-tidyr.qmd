@@ -1292,15 +1292,14 @@ trump_longer |>
 ::: {.left}
 <h1> Pivoting </h1>
 
-<h2> pd.wide_to_long() </h2>
+<h2> pd.melt() </h2>
 
 <h2> pd.pivot() </h2>
 
 
 :::
 
-
-## [pd.wide_to_long()](https://pandas.pydata.org/docs/reference/api/pandas.wide_to_long.html)
+## [pd.melt()](https://pandas.pydata.org/docs/reference/api/pandas.melt.html#pandas.melt)
 
 ```{python}
 import numpy as np
@@ -1310,12 +1309,32 @@ import pandas as pd
 ```{python}
 customers = pd.read_csv('./data/sales/customers.csv')
 customers
-purchases = pd.wide_to_long(df = customers,
-                            stubnames = ['item'], 
-                            i = 'customer_id', 
-                            j = 'item_no', sep = '_')
+purchases = pd.melt(customers, 
+                    id_vars=['customer_id'], 
+                    value_vars=['item_1', 'item_2', 'item_3'],
+                    var_name='item_no', value_name='item')
 purchases
 ```
+
+
+
+
+<!-- ## [pd.wide_to_long()](https://pandas.pydata.org/docs/reference/api/pandas.wide_to_long.html) -->
+
+<!-- ```{python} -->
+<!-- import numpy as np -->
+<!-- import pandas as pd -->
+<!-- ``` -->
+
+<!-- ```{python} -->
+<!-- customers = pd.read_csv('./data/sales/customers.csv') -->
+<!-- customers -->
+<!-- purchases = pd.wide_to_long(df = customers, -->
+<!--                             stubnames = ['item'],  -->
+<!--                             i = 'customer_id',  -->
+<!--                             j = 'item_no', sep = '_') -->
+<!-- purchases -->
+<!-- ``` -->
 
 
 
@@ -1323,7 +1342,6 @@ purchases
 ## [pd.pivot()](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.pivot.html?highlight=pivot#pandas.DataFrame.pivot)
 
 ```{python}
-purchases = purchases.reset_index()
 purchases
 purchases.pivot(index = "customer_id", columns = "item_no", values = "item")
 ```
