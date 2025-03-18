@@ -58,12 +58,12 @@ title: "Midterm Visualization Project"
 ## Presentation order
 
 ```{r}
-#| eval: false
-#| echo: false
+#| eval: true
+#| echo: true
 team <- c("The Whales", "Analytics Avengers", "Syntax Squad", 
-          "Data Detectives", "Hala Madrid", "he Back Right corner",
+          "Data Detectives", "Hala Madrid", "The Back Right corner",
           "The Outliers", "Block Blasters", "Intermediate Wizards",
-          "")
-set.seed(2025)
+          "Noname")
+set.seed(3570)
 (present_order <- sample(team, size = 10, replace = FALSE))
 ```
