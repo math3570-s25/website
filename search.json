@@ -2236,7 +2236,7 @@
     "href": "present-work.html#presentation-order",
     "title": "Midterm Visualization Project",
     "section": "Presentation order",
-    "text": "Presentation order",
+    "text": "Presentation order\n\nteam &lt;- c(\"The Whales\", \"Analytics Avengers\", \"Syntax Squad\", \n          \"Data Detectives\", \"Hala Madrid\", \"The Back Right corner\",\n          \"The Outliers\", \"Block Blasters\", \"Intermediate Wizards\",\n          \"Noname\")\nset.seed(3570)\n(present_order &lt;- sample(team, size = 10, replace = FALSE))\n\n [1] \"Intermediate Wizards\"  \"Data Detectives\"       \"Analytics Avengers\"   \n [4] \"The Outliers\"          \"The Whales\"            \"Block Blasters\"       \n [7] \"The Back Right corner\" \"Hala Madrid\"           \"Syntax Squad\"         \n[10] \"Noname\"",
     "crumbs": [
       "Mini Project",
       "Topics and Works"
