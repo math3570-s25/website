@@ -143,3 +143,10 @@ The available data sets for this projects can be downloaded from [**kaggle**](ht
 -   If you **don't** vote, or you just use **one vote**, you can't be the best contributor even if you receive the most or 2nd highest votes. The member with the 2nd or 3rd highest votes wins the best contribution reward.
 
 -   If there are more than two group members receive top two number of votes, Dr. Yu and the TA will decide the final top two nominees. For example, if John receives the most votes, and Emma and Amy both receive the 2nd highest votes, Dr. Yu and the TA choose either Emma or Amy for the reward.
+
+
+```{r}
+#| echo: false
+knitr::include_graphics("./images/vote.png")
+```
+

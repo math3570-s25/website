@@ -1,6 +1,6 @@
 ---
 title: "Week 10"
-subtitle: "Tidyr and Probability"
+subtitle: "Tidyr"
 editor: visual
 ---
 
@@ -18,8 +18,6 @@ editor: visual
 📋 [Lab-17 tidyr](/exercise/lab17-tidyr.html)
 
 `r fontawesome::fa("table")` [trump.csv](/slides/data/trump.csv)
-
-📋 Lab-18 Probability
 
 <br><br>
 

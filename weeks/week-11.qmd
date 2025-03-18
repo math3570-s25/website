@@ -13,6 +13,8 @@ editor: visual
 
 ## Exercise
 
+📋 [Lab-18 Probability](/exercise/lab18-prob.html "lab18-prob")
+
 📋 [Lab-19 Confidence Interval](/exercise/lab19-ci.html)
 
 <br><br>

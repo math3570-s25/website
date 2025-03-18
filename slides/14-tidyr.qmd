@@ -1309,10 +1309,9 @@ import pandas as pd
 ```{python}
 customers = pd.read_csv('./data/sales/customers.csv')
 customers
-purchases = pd.melt(customers, 
-                    id_vars=['customer_id'], 
-                    value_vars=['item_1', 'item_2', 'item_3'],
-                    var_name='item_no', value_name='item')
+purchases = customers.melt(id_vars=['customer_id'], 
+                           value_vars=['item_1', 'item_2', 'item_3'],
+                           var_name='item_no', value_name='item')
 purchases
 ```
 
