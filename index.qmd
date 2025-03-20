@@ -3,7 +3,7 @@ title: "MATH/COSC 3570 Introduction to Data Science (Spring 2025)"
 tbl-colwidths: [5,10,15,5,8,10,8,8]
 ---
 
--   [Midterm project Proposal due **Friday, 3/7, 11:59 PM.**]{.red}
+-   [Midterm project materials due **Wednesday, 3/19, 11:59 PM**.]{.red}
 -   TA help desk hours at **Cudahy Hall 301 Monday: 1 – 2 PM, Tuesday: 12 – 1 PM, Thursday: 12 – 2 PM**
 
 ::: column-screen-inset-right
