@@ -30,11 +30,11 @@ tbl-colwidths: [5,10,15,5,8,10,8,8]
 | 10 | Tue, Mar 18 | Data Wrangling - tidyr | [📖](/weeks/week-10.html "Week 10") | [🖥️tidyr](/slides/14-tidyr.html "14-tidyr") | [📋17](exercise/lab17-tidyr.html "lab17-tidyr") | [✍️ HW2](hw/hw2.html "Homework 2") | [✅ Materials Due](present-description.html) |
 |  | **Thu, Mar 20** | [**Mini Project Presentation**]{.blue} |  |  |  |  |  |
 | 11 | Tue, Mar 25 | Probabilistic and Statistical Simulation | [📖](/weeks/week-11.html "Week 11") | [🖥️probstat](/slides/15-probstat.html "15-probstat") | [📋18](exercise/lab18-prob.html "lab18-prob") |  |  |
-|  | Thu, Mar 27 | Probabilistic and Statistical Simulation |  |  | 📋 |  |  |
+|  | Thu, Mar 27 | Probabilistic and Statistical Simulation |  |  | [📋19](exercise/lab19-ci.html "lab19-ci") |  |  |
 | 12 | Tue, Apr 1 | Linear Regression | 📖 | 🖥️ |  |  |  |
-|  | Thu, Apr 3 | Linear Regression |  |  | 📋 | HW 2 Due |  |
+|  | Thu, Apr 3 | Linear Regression **Activity: Regression to the mean** |  |  | 📋 | HW 2 Due |  |
 | 13 | Tue, Apr 8 | Logistic Regression | 📖 | 🖥️ |  |  |  |
-|  | Thu, Apr 10 | Logistic Regression |  |  | 📋 | ✍️ |  |
+|  | Thu, Apr 10 | Logistic Regression **Activity: Two truths and a lie** |  |  | 📋 | ✍️ |  |
 | 14 | Tue, Apr 15 | K-Nearest Neighbors | 📖 | 🖥️ |  |  |  |
 |  | Thu, Apr 17 | ***NO CLASS: Easter break*** |  |  | 📋 |  |  |
 | 15 | Tue, Apr 22 | Principal Component Analysis | 📖 | 🖥️ |  |  |  |
