@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>MATH/COSC 3570 - Spring 2025 - Lab 19: Confidence Interval</title>
+<title>MATH/COSC 3570 - Spring 2025 - In-class Activity: Regression to the Mean</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -132,12 +98,12 @@ window.Quarto = {
 };
 </script>
 
-<meta property="og:title" content="MATH/COSC 3570 - Spring 2025 - Lab 19: Confidence Interval">
+<meta property="og:title" content="MATH/COSC 3570 - Spring 2025 - In-class Activity: Regression to the Mean">
 <meta property="og:description" content="Homepage for MATH/COSC 3570 - Introduction to Data Science at Marquette University, Spring 2025.">
 <meta property="og:site_name" content="MATH/COSC 3570 - Spring 2025">
 </head>
 
-<body class="nav-sidebar docked">
+<body class="nav-sidebar docked slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -146,7 +112,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Lab 19: Confidence Interval</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">In-class Activity: Regression to the Mean</li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -370,14 +336,23 @@ window.Quarto = {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#historical-origins-of-regression" id="toc-historical-origins-of-regression" class="nav-link active" data-scroll-target="#historical-origins-of-regression">Historical Origins of Regression</a></li>
+  <li><a href="#team-activity-before-after-memory-quiz-2" id="toc-team-activity-before-after-memory-quiz-2" class="nav-link" data-scroll-target="#team-activity-before-after-memory-quiz-2"><span class="blue">[Team]</span> Activity: Before-after Memory Quiz </a></li>
+  <li><a href="#individual-activity-compare-your-height-with-your-fathermother" id="toc-individual-activity-compare-your-height-with-your-fathermother" class="nav-link" data-scroll-target="#individual-activity-compare-your-height-with-your-fathermother"><span class="blue">[Individual]</span> Activity: Compare Your Height with Your Father/Mother</a></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/math3570-s25/website/edit/main/activity/act_reg-to-the-mean.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/math3570-s25/website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Lab 19: Confidence Interval</h1>
+<h1 class="title">In-class Activity: Regression to the Mean</h1>
 </div>
 
 
@@ -394,42 +369,120 @@ window.Quarto = {
 </header>
 
 
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
+<section id="historical-origins-of-regression" class="level2">
+<h2 class="anchored" data-anchor-id="historical-origins-of-regression">Historical Origins of Regression</h2>
+<blockquote class="blockquote">
+<p>“Regression” is defined in the dictionary as “the process or returning to a former or less developed state.” How did this term come to be used for statistical prediction? This connection comes from Francis Galton, one of the original quantitative social scientists, who fit linear models to under stand the heredity of human height. Predicting children’s heights from parent’s heights, he noticed that children of tall parents tended to be taller than average but less tall than their parents. From the other direction, children of shorter parents tended to be shorter than average but less short than their parents. Thus, from one generation to the next, people’s heights have “regressed” to the average or <em>mean</em>, in statistics jargon. <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+</blockquote>
+<p>The following activities demonstrate <strong>regression to the mean</strong>.</p>
+</section>
+<section id="team-activity-before-after-memory-quiz-2" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="team-activity-before-after-memory-quiz-2"><span class="blue">[Team]</span> Activity: Before-after Memory Quiz <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></h2>
+<ul>
+<li><p>[Step 1] I will be displaying 20 randomly chosen verbs on the screen for 20 seconds.</p></li>
+<li><p>[Step 2] Each team should try to memorize as many as they can.</p></li>
+<li><p>[Step 3] After displaying the words for 20 seconds we do another activity for three minutes.</p></li>
+<li><p>[Step 4] Give each team a minute to write down as many words as they remember</p></li>
+<li><p>[Step 5] Display the words again and ask them each to count how many they got correct.</p></li>
+<li><p>[Step 6] With another set of 20 new verbs, ask them to predict the score they will get.</p></li>
+<li><p>[Step 7] Repeat Step 3 to 5 for the new set of words.</p></li>
+<li><p>As one team please jointly enter (1) your score on first quiz; (2) guessed score on second quiz; (3) actual score on second quiz at the <a href="https://forms.office.com/r/NceM6z4R7v">MS form</a> or the QR code below.</p></li>
+</ul>
+<div class="cell page-columns page-full">
+
+<div class="no-row-height column-margin column-container"><div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="../images/QRCode_memory.png" class="img-fluid figure-img" width="945"></p>
+</figure>
+</div>
+</div></div></div>
+<!-- `rise` `hinder` `tell` `omit` `view` `display` `welcome` `snap` `reply` `refer` `betray` `sling` `tree` `conserve` `dash` `purify` `plot` `submit` `wave` `constrain`  -->
+<!-- `notify` `savvy` `work` `appear` `immolate` `float` `mistake` `renew` `observe` `store` `shear` `click` `zoom` `initiate` `occur` `subscribe` `weep` `acquire` `inject` `curb` -->
+</section>
+<section id="individual-activity-compare-your-height-with-your-fathermother" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="individual-activity-compare-your-height-with-your-fathermother"><span class="blue">[Individual]</span> Activity: Compare Your Height with Your Father/Mother</h2>
+<ul>
+<li><p>If you are male, record your height and your <em>father’s</em> height. If you are female, record your height and your <em>mother’s</em> height.</p></li>
+<li><p>Use <a href="https://www.rapidtables.com/convert/length/feet-inch-to-inch.html">feet-to-inch conversion</a> to help you get the heights in inches.</p></li>
+<li><p>Please enter the heights in <strong>inches</strong> at the <a href="https://forms.office.com/r/GdXshW5Tuu">MS form</a> or the QR code below.</p></li>
+</ul>
+<div class="cell page-columns page-full">
+
+<div class="no-row-height column-margin column-container"><div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="../images/QRCode_height.png" class="img-fluid figure-img" width="945"></p>
+</figure>
+</div>
+</div></div></div>
+</section>
+<section id="discussion" class="level2">
+<h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Note
+Compare the second quiz prediction to what actually happens. Is your actual score higher or lower than your prediction?
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
+<p>You may expect to do about the same on the second quiz as the first, but I guess <em>who do worst on the first quiz tend to improve, and who do best tend to decline</em>.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Why these improvments and declines occurred?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Are you trying to give an explanation on why such result is occurred? You may think the teams who did the best relaxed on the 2nd quiz, and the teams who did poorly tried harder, and so forth.</p>
+<p>However, you DO NOT know if your team did well or poorly, comparing to other teams, right?!</p>
+<p>It would be more accurate to say that some do better on this quiz than others, but the very best scores on the first quiz are from people who are both <strong>good and lucky</strong>. They will still probably do well on the second quiz, but most of them will not be so lucky the second time.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What does the regression coefficient <span class="math inline">\(&lt; 1\)</span> mean in the heights example?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>If a parent is taller than the average, the regression predicts that his/her child is also taller than the average, but not as much as their parent.</p>
+<p>If a parent is shorter than the average, the regression predicts that his/her child is also shorter than the average, but again not as much as their parent.</p>
+<p>Therefore, form one generation to the next, people’s heights have “regressed” to the average or <em>mean</em>, in statistics jargon.</p>
+</div>
+</div>
+</div>
 
-</div>
-</div>
-<p>In <strong>lab.qmd</strong> <code>## Lab 19</code> section,</p>
-<ul>
-<li>Run the code I give you for simulating 100 <span class="math inline">\(95\%\)</span> CIs. Change the random generator seed to another number you like.</li>
-</ul>
-<div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(a number you like) Birthday? Lucky number?</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ul>
-<li>How many CIs do not cover the true mean <span class="math inline">\(\mu\)</span>?</li>
-</ul>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../slides/images/15-probstat/unnamed-chunk-3-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
-</figure>
-</div>
-</div>
-</div>
+
+</section>
 
 
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
-</main> <!-- /main -->
+<ol>
+<li id="fn1"><p><a href="https://users.aalto.fi/~ave/ROS.pdf">Regression and other stories, Page 85</a>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p><a href="https://users.aalto.fi/~ave/ActiveStatistics.pdf">Active Statistics, Page 101</a>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -991,7 +1044,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/math3570-s25/website/edit/main/exercise/lab19-ci.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/math3570-s25/website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/math3570-s25/website/edit/main/activity/act_reg-to-the-mean.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/math3570-s25/website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
