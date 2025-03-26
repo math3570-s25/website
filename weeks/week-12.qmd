@@ -13,6 +13,8 @@ editor: visual
 
 `r fontawesome::fa("table")` `ggplot2::mpg`
 
+[Class Activity: Regression to the mean](/activity/act_reg-to-the-mean.html "act_reg-to-the-mean")
+
 ## Reading
 
 📖

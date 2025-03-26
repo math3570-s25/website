@@ -3,12 +3,12 @@ title: "MATH/COSC 3570 Introduction to Data Science (Spring 2025)"
 tbl-colwidths: [5,10,15,5,8,10,8,8]
 ---
 
--   [Midterm project materials due **Wednesday, 3/19, 11:59 PM**.]{.red}
+-   Homework 2 due [**04/04 11:59 PM**]{.red}.
 -   TA help desk hours at **Cudahy Hall 301 Monday: 1 – 2 PM, Tuesday: 12 – 1 PM, Thursday: 12 – 2 PM**
 
 ::: column-screen-inset-right
 | Week | Date | Topic | To Do | Slides | Lab Exercise | Homework | Project |
-|:-------:|---------|---------|:-------:|:-------:|:-------:|:-------:|---------|
+|:--:|----|----|:--:|:--:|:--:|:--:|----|
 | 1 | Tue, Jan 14 | Greetings + Overview of Data Science | [📖](/weeks/week-1.html "Week 1") | [🖥️syllabus](/slides/01-syllabus.html "01-Syllabus") [🖥️overview](/slides/02-datascience.html "02-datascience") |  |  |  |
 |  | Thu, Jan 16 | Posit Cloud |  | [🖥️posit](/slides/03-posit.html "03-posit") | [📋 posit](/exercise/lab00-posit.html "lab00-posit") [📋01](/exercise/lab01-rscript.html "lab01-rscript") |  |  |
 | 2 | Tue, Jan 21 | **No CLASS: Cold Weather** | [📖](/weeks/week-2.html "Week 2") |  |  |  |  |
@@ -31,8 +31,8 @@ tbl-colwidths: [5,10,15,5,8,10,8,8]
 |  | **Thu, Mar 20** | [**Mini Project Presentation**]{.blue} |  |  |  |  |  |
 | 11 | Tue, Mar 25 | Probabilistic and Statistical Simulation | [📖](/weeks/week-11.html "Week 11") | [🖥️probstat](/slides/15-probstat.html "15-probstat") | [📋18](exercise/lab18-prob.html "lab18-prob") |  |  |
 |  | Thu, Mar 27 | Probabilistic and Statistical Simulation |  |  | [📋19](exercise/lab19-ci.html "lab19-ci") |  |  |
-| 12 | Tue, Apr 1 | Linear Regression | 📖 | 🖥️ |  |  |  |
-|  | Thu, Apr 3 | Linear Regression **Activity: Regression to the mean** |  |  | 📋 | HW 2 Due |  |
+| 12 | Tue, Apr 1 | Linear Regression | [📖](/weeks/week-12.html "week-12") | [🖥️linear-regression](/slides/16-linear-reg.html "16-linear-reg") | [📋20](exercise/lab20-slr.html "lab20-slr") |  |  |
+|  | Thu, Apr 3 | Linear Regression **Activity: Regression to the mean** |  |  |  | HW 2 Due |  |
 | 13 | Tue, Apr 8 | Logistic Regression | 📖 | 🖥️ |  |  |  |
 |  | Thu, Apr 10 | Logistic Regression **Activity: Two truths and a lie** |  |  | 📋 | ✍️ |  |
 | 14 | Tue, Apr 15 | K-Nearest Neighbors | 📖 | 🖥️ |  |  |  |
@@ -51,5 +51,5 @@ knitr::knit_exit()
 ```
 
 |   |   |   | Prepare | Slides | AE | Labs | HW | Present | Project |
-|--------|--------|--------|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+|----|----|----|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | Week | Date | Topic | 📖 | 🖥️ | 📋 | [💻](https://sakai.duke.edu/samigo-app/servlet/Login?id=6fa7ebf3-01af-42a6-91ba-3e813d3901221641094171786) | ✍️ | ✅ | 📂 |
