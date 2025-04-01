@@ -18,6 +18,12 @@ The following activities demonstrate **regression to the mean**.
 
 [^2]: [Active Statistics, Page 101](https://users.aalto.fi/~ave/ActiveStatistics.pdf).
 
+```{r}
+#| echo: false
+#| column: margin
+knitr::include_graphics("../images/QRCode_memory.png")
+```
+
 - [Step 1] I will be displaying 20 randomly chosen verbs on the screen for 20 seconds.
 
 - [Step 2] Each team should try to memorize as many as they can.
@@ -35,11 +41,7 @@ The following activities demonstrate **regression to the mean**.
 
 - As one team please jointly enter (1) your score on first quiz; (2) guessed score on second quiz; (3) actual score on second quiz at the [MS form](https://forms.office.com/r/NceM6z4R7v) or the QR code below. 
 
-```{r}
-#| echo: false
-#| column: margin
-knitr::include_graphics("../images/QRCode_memory.png")
-```
+
 
 <!-- `rise` `hinder` `tell` `omit` `view` `display` `welcome` `snap` `reply` `refer` `betray` `sling` `tree` `conserve` `dash` `purify` `plot` `submit` `wave` `constrain`  -->
 
@@ -51,17 +53,19 @@ knitr::include_graphics("../images/QRCode_memory.png")
 
 ## [[Individual]]{.blue} Activity: Compare Your Height with Your Father/Mother
 
+```{r}
+#| echo: false
+#| column: margin
+knitr::include_graphics("../images/QRCode_height.png")
+```
+
+
 - If you are male, record your height and your *father's* height. If you are female, record your height and your *mother's* height.
 
 - Use [feet-to-inch conversion](https://www.rapidtables.com/convert/length/feet-inch-to-inch.html) to help you get the heights in inches.
 
 - Please enter the heights in **inches** at the [MS form](https://forms.office.com/r/GdXshW5Tuu) or the QR code below. 
 
-```{r}
-#| echo: false
-#| column: margin
-knitr::include_graphics("../images/QRCode_height.png")
-```
 
 ## Discussion
 
