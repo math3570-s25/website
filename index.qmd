@@ -33,7 +33,7 @@ tbl-colwidths: [5,10,15,5,8,10,8,8]
 |  | Thu, Mar 27 | Probabilistic and Statistical Simulation |  |  | [📋19](exercise/lab19-ci.html "lab19-ci") |  |  |
 | 12 | Tue, Apr 1 | Linear Regression | [📖](/weeks/week-12.html "week-12") | [🖥️linear-regression](/slides/16-linear-reg.html "16-linear-reg") | [📋20](exercise/lab20-slr.html "lab20-slr") |  |  |
 |  | Thu, Apr 3 | Linear Regression [**Activity: Regression to the mean**](/activity/act_reg-to-the-mean.html "act_reg-to-the-mean") |  |  |  | HW 2 Due |  |
-| 13 | Tue, Apr 8 | Logistic Regression | 📖 | 🖥️ |  |  |  |
+| 13 | Tue, Apr 8 | Logistic Regression | [📖](/weeks/week-13.html "week-13") | [🖥️logistic-regression](/slides/17-logistic-reg.html "17-logistic-reg") |  |  |  |
 |  | Thu, Apr 10 | Logistic Regression **Activity: Two truths and a lie** |  |  | 📋 | ✍️ |  |
 | 14 | Tue, Apr 15 | K-Nearest Neighbors | 📖 | 🖥️ |  |  |  |
 |  | Thu, Apr 17 | ***NO CLASS: Easter break*** |  |  | 📋 |  |  |
