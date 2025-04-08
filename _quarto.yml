@@ -61,9 +61,9 @@ website:
 
       - section: "Final Project"
         contents:
-          - href: project-description.qmd
+          - href: present-description-final.qmd
             text: Guideline and Policy
-          - href: project-work.qmd
+          - href: present-work-final.qmd
             text: Project Group and Proposal
 
       - section: "Weekly materials"

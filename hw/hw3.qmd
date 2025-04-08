@@ -1,6 +1,6 @@
 ---
 title: "Homework 3: Probability, Statistics and Machine Learning"
-subtitle: "Spring 2024 MATH/COSC 3570 Introduction to Data Science by Dr. Cheng-Han Yu"
+subtitle: "Spring 2025 MATH/COSC 3570 Introduction to Data Science by Dr. Cheng-Han Yu"
 format: 
   html:
     code-fold: false
@@ -36,7 +36,9 @@ if (any(installed_packages == FALSE)) {
 invisible(lapply(packages, library, character.only = TRUE))
 ```
 
--   **Note: For any simulation or random sampling, set the random seed at your student ID number, for example `set.seed(6145678)`.**
+-   **Note: For any simulation or random sampling, set the random seed at your student ID number, for example `set.seed(6145678)` in R or `train_test_split(X, y, test_size=0.2, random_state=6145678)` in Python **
+
+- Please code in R for the problems starting with **[R]**, and code in python for those starting with **[Python]**.
 
 # Probability and Statistics
 
@@ -64,19 +66,17 @@ invisible(lapply(packages, library, character.only = TRUE))
 
 <!-- ``` -->
 
-1.  Suppose you are in a classroom with 30 people. If we assume this is a randomly selected group of 30 people, what is the chance that at least two people have the same birthday? Here we use a Monte Carlo simulation. For simplicity, we assume nobody was born on February 29.
+1. **[R]** We are in a classroom with 50 people. If we assume this is a randomly selected group of 50 people, what is the chance that [at least two people have the same birthday](https://betterexplained.com/articles/understanding-the-birthday-paradox/)? Here we use a Monte Carlo simulation. For simplicity, we assume nobody was born on February 29.
 
-```{=html}
-<!-- -->
-```
-i.  Note that birthdays can be represented as numbers between 1 and 365, so a sample of 30 birthdays can be obtained like this:
+
+i.  Note that birthdays can be represented as numbers between 1 and 365, so a sample of 50 birthdays can be obtained like this:
 
 ```{r}
-n <- 30
+n <- 50
 bdays <- sample(x = 1:365, size = n, replace = TRUE)
 ```
 
-ii. To check if in this particular set of 30 people we have at least two with the same birthday, we can use the function `duplicated()`, which returns `TRUE` whenever an element of a vector is a duplicate. Here is an example:
+ii. To check if in this particular set of 50 people we have at least two with the same birthday, we can use the function `duplicated()`, which returns `TRUE` whenever an element of a vector is a duplicate. Here is an example:
 
 ```{r}
 duplicated(c(1, 2, 3, 1, 4, 3, 5))
@@ -92,7 +92,7 @@ any(duplicated(bdays))
 
 In this case, we see that it did happen. At least two people had the same birthday.
 
-To estimate the probability of a shared birthday in the group, repeat this experiment by sampling sets of 30 birthdays 10000 times, and find the relative frequency of the event that at least two people had the same birthday.
+To estimate the probability of a shared birthday in the group, repeat this experiment by sampling sets of 50 birthdays 10000 times, and find the relative frequency of the event that at least two people had the same birthday.
 
 ```{r}
 
@@ -102,11 +102,12 @@ To estimate the probability of a shared birthday in the group, repeat this exper
   
 ```
 
-## Central Limit Theorem
+## [Central Limit Theorem](https://chenghanyu-introstatsbook.netlify.app/prob-llnclt#central-limit-theorem)
 
-Suppose random variables $X_1, X_2, \dots, X_n$ are independent and follow Chi-squared distribution with degrees of freedom 1, $\chi^2_{df=1}$.
+Suppose random variables $X_1, X_2, \dots, X_n$ are independent and follow [Chi-squared distribution](https://en.wikipedia.org/wiki/Chi-squared_distribution) with its parameter degrees of freedom (df) 1, $\chi^2_{df=1}$.
 
-1.  Use `dchisq()` to plot $\chi^2_{df=1}$ distribution. Consider $x\in (0, 5)$.
+
+2. **[R]**  Use `dchisq()` to plot $\chi^2_{df=1}$ distribution. $\chi^2_{df=1}$ takes any positive value. But let's just consider values between 0 and 5, $x\in (0, 5)$ for plotting.
 
 ```{r}
 
@@ -114,9 +115,10 @@ Suppose random variables $X_1, X_2, \dots, X_n$ are independent and follow Chi-s
 
 ```
 
-2.  Consider three sample sizes $n = 2, 8, 100$, and set the sample size of the sample mean $\overline{X}_n$ be $1000$. Show the sampling distribution of $\overline{X}_n$, i.e., the collection $\{\overline{X}_n^{(m)}\}_{m=1}^{1000}$, looks more and more like Gaussian as $n$ increases by making histograms of $\overline{X}_n$ samples with $n = 2, 8, 100$. The procedure is the following:
+3. **[R]**  Consider three sample sizes $n = 2, 8, 100$, and set the sample size of the sample mean $\overline{X}_n$ be $1000$. Show the sampling distribution of $\overline{X}_n$, i.e., the collection $\{\overline{X}_n^{(m)}, m=1, 2, \dots, 1000\}$, looks more and more like Gaussian as $n$ increases by making histograms of $\overline{X}_n$ samples with $n = 2, 8, 100$. 
 
-For each $n = 2, 8, 100$,
+
+The procedure is the following: For each $n = 2, 8, 100$,
 
 i.  Draw $n$ values $x_1, x_2, \dots, x_n$ using `rchisq(n, df = 1)`.
 ii. Compute the mean of the $n$ values, which is $\overline{x}_n$.
@@ -131,13 +133,16 @@ iv. Plot the histogram of these 1000 $\overline{x}_n$s.
 
 ```
 
+
+
+
 # Machine Learning
 
 ## Linear Regression
 
 A pharmaceutical firm would like to obtain information on the relationship between the dose level and potency of a drug product. To do this, each of 15 test tubes is inoculated with a virus culture and incubated for 5 days at 30°C. Three test tubes are randomly assigned to each of the five different dose levels to be investigated (2, 4, 8, 16, and 32 mg). Each tube is injected with only one dose level, and the response of interest is obtained.
 
-1.  Import [`dose.csv`](./dose.csv) into your working session. The data set is not tidy. Use `pivot_longer()` to make it tidy as the shown tibble below. Call the tidy data set `dose_tidy`.
+4. **[R]**  Import [`dose.csv`](./dose.csv) into your working session. The data set is not tidy for us. Use `pivot_longer()` to make it tidy as the shown tibble below. Call the tidy data set `dose_tidy` for later regression analysis.
 
 ```{r}
 
@@ -163,7 +168,7 @@ A pharmaceutical firm would like to obtain information on the relationship betwe
 ## 15         32 tube3       29
 ```
 
-2.  Fit a simple linear regression with the predictor $\texttt{dose level}$ for `response`. Print the fitted result.
+5. **[R]**  Fit a simple linear regression with the predictor $\texttt{dose level}$ for `response`. Print the fitted result.
 
 ```{r}
 
@@ -172,7 +177,7 @@ A pharmaceutical firm would like to obtain information on the relationship betwe
 
 ```
 
-3.  With (2), plot the data with a $95\%$ confidence interval for the mean response.
+6. **[R]** With (5), plot the data with a $95\%$ confidence interval for the mean response.
 
 ```{r}
 
@@ -180,7 +185,7 @@ A pharmaceutical firm would like to obtain information on the relationship betwe
 
 ```
 
-4.  Fit a simple linear regression model with the predictor $\texttt{ln(dose level)}$ for `response`, where $\ln = \log_e$. Print the fitted result.
+7. **[R]**  Fit a simple linear regression model with the predictor $\texttt{ln(dose level)}$ for `response`, where $\ln = \log_e$. Print the fitted result.
 
 ```{r}
 
@@ -188,7 +193,7 @@ A pharmaceutical firm would like to obtain information on the relationship betwe
 
 ```
 
-5.  With (4), plot the data $(\ln(\text{dose level})_i, \text{response}_i), i = 1, \dots, 15$ with a $95\%$ confidence interval for the mean response.
+8. **[R]**  With (7), plot the data $(\ln(\text{dose level})_i, \text{response}_i), i = 1, \dots, 15$ with a $95\%$ confidence interval for the mean response.
 
 ```{r}
 
@@ -196,7 +201,7 @@ A pharmaceutical firm would like to obtain information on the relationship betwe
 
 ```
 
-6.  Draw residual plots of Model in (2) and (4). According to the plots, which model you think is better?
+9. **[R]**  Draw residual plots of Model in (5) and (7). According to the plots, which model you think is better?
 
 ```{r}
 
@@ -204,7 +209,7 @@ A pharmaceutical firm would like to obtain information on the relationship betwe
 
 ```
 
-7.  Import [`dose_tidy.csv`](./dose_tidy.csv) and redo (2) using **Python**. Show the slope and intercept.
+10. **[Python]**  Import [`dose_tidy.csv`](./dose_tidy.csv) and redo (5). Show the slope and intercept.
 
 ```{python}
 
@@ -212,7 +217,7 @@ A pharmaceutical firm would like to obtain information on the relationship betwe
 
 ```
 
-8.  Use **Python** to predict the response value when the dose level is 10 and 30.
+11. **[Python]** to predict the response value when the dose level is 10 and 30.
 
 ```{python}
 
@@ -220,9 +225,9 @@ A pharmaceutical firm would like to obtain information on the relationship betwe
 
 ```
 
-## Logistic Regression
+## Binary Logistic Regression
 
-1.  Import [`body.csv`](./body.csv). Split the data into a training set and a test set. Set the random seed at your student ID number. Use 80:20 rule.
+12. **[R]** Import [`body.csv`](./body.csv). Split the data into a training set and a test set. Set the random seed at your student ID number. Use 80:20 rule.
 
 ```{r}
 
@@ -231,7 +236,7 @@ A pharmaceutical firm would like to obtain information on the relationship betwe
 
 ```
 
-2.  Fit a logistic regression with the predictor `HEIGHT` using the training sample data. Find the probability that the subject is male given `HEIGHT = 165`.
+13. **[R]** Fit a logistic regression with the predictor `HEIGHT` using the training sample data. Find the probability that the subject is male given `HEIGHT = 165`.
 
 ```{r}
 
@@ -239,7 +244,7 @@ A pharmaceutical firm would like to obtain information on the relationship betwe
 
 ```
 
-3.  Fit a logistic regression with the predictor `BMI` using the training sample data. Find the probability that the subject is male given `BMI = 25`.
+14. **[R]** Fit a logistic regression with the predictor `BMI` using the training sample data. Find the probability that the subject is male given `BMI = 25`.
 
 ```{r}
 
@@ -247,7 +252,7 @@ A pharmaceutical firm would like to obtain information on the relationship betwe
 
 ```
 
-4.  Do the classification on the test set for the model (2) and (3), and compute the test accuracy rate. Which model gives us higher accuracy rate?
+15. **[R]** Do the classification on the test set for the model (13) and (14), and compute the test accuracy rate. Which model gives us higher accuracy rate?
 
 ```{r}
 
@@ -255,15 +260,15 @@ A pharmaceutical firm would like to obtain information on the relationship betwe
 
 ```
 
-5.  Use **Python** to split the `body` data into a training set and a test set.
+16. **[Python]** Split the `body` data into a training set and a test set.
 
 ```{python}
 
 ## code
-
+# set random_state
 ```
 
-6.  Use **Python** to fit a logistic regression with the predictor `BMI` using the training sample data. Find the probability that the subject is male given `BMI = 25`.
+17. **[Python]** Fit a logistic regression with the predictor `BMI` using the training sample data. Find the probability that the subject is male given `BMI = 25`.
 
 ```{python}
 
@@ -271,7 +276,7 @@ A pharmaceutical firm would like to obtain information on the relationship betwe
 
 ```
 
-7.  Use **Python** to do the classification on the test set. Compute the test accuracy rate.
+18. **[Python]** Do the classification on the test set. Compute the test accuracy rate.
 
 ```{python}
 
@@ -279,13 +284,70 @@ A pharmaceutical firm would like to obtain information on the relationship betwe
 
 
 ```
+
+## Multinomial Logistic Regression
+
+
+19. **[Python]** We can actually use logistic regression for the responses with more than 2 categories. 
+    + Import `penguins.csv`.
+    + Use method `.dropna()` to remove observations having missing values `NaN`.
+
+```{python}
+
+# code
+
+```
+
+20. **[Python]** Use [`.value_counts()`](https://pandas.pydata.org/docs/reference/api/pandas.Series.value_counts.html) and [`.plot.bar()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.bar.html) to get the frequency distribution and bar chart of `species`.
+
+```{python}
+
+# code
+
+```
+
+21. **[Python]** Use the camplete-case penguins data and variable `flipper_length_mm` to classify the `species`. Save the fitted result as `clf_pen`. Compute the training accuracy rate.
+
+```{python}
+
+# code
+
+```
+
+
+
+22. **[Python]** Construct the confusion matrix, and save it as the object `cm`. Then use the code below to show the confusion matrix as a plot.
+
+```{python}
+
+# code
+
+```
+
+```{python}
+#| eval: false
+from sklearn.metrics import ConfusionMatrixDisplay
+import matplotlib.pyplot as plt
+disp = ConfusionMatrixDisplay(cm, display_labels=clf_pen.classes_)
+disp.plot()
+plt.show()
+```
+
+
 
 ## K-Nearest Neighbors (KNN)
 
-1.  Fit the KNN with $K=1$ and $10$ using `BMI` on the training data and do the classification on the same test set used in logistic regression. Obtain the confusion matrix for the two $K$s. Which $K$ performs better? Why?
+23. **[R] or [Python] (Choose one)** Fit the KNN with $K=10$ using `BMI` on the training data and do the classification on the same test set used in logistic regression. Obtain the confusion matrix of the test data, and test accuracy rate.
 
 ```{r}
 
-# code
+# R code
+
+```
+
+
+```{python}
+
+# Python code
 
 ```
