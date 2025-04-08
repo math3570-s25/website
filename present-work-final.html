@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>MATH/COSC 3570 - Spring 2025 - Lab 15: dplyr</title>
+<title>MATH/COSC 3570 - Spring 2025 - Final Project</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -57,23 +57,25 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./weeks/week-1.html" rel="next">
+<link href="./present-description-final.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -103,8 +105,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
-<meta property="og:title" content="MATH/COSC 3570 - Spring 2025 - Lab 15: dplyr">
-<meta property="og:description" content="Homepage for MATH/COSC 3570 - Introduction to Data Science at Marquette University, Spring 2025.">
+<meta property="og:title" content="MATH/COSC 3570 - Spring 2025 - Final Project">
 <meta property="og:site_name" content="MATH/COSC 3570 - Spring 2025">
 </head>
 
@@ -117,7 +118,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Lab 15: dplyr</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./present-description-final.html">Final Project</a></li><li class="breadcrumb-item"><a href="./present-work-final.html">Project Group and Proposal</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -131,8 +132,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
-      <a href="../index.html" class="sidebar-logo-link">
-      <img src="../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <a href="./index.html" class="sidebar-logo-link">
+      <img src="./images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main tools-wide">
     <a href="https://github.com/math3570-s25" title="GitHub organization" class="quarto-navigation-tool px-1" aria-label="GitHub organization"><i class="bi bi-github"></i></a>
@@ -158,25 +159,25 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../course-news.html" class="sidebar-item-text sidebar-link">
+  <a href="./course-news.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">News/Annoucements</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../course-overview.html" class="sidebar-item-text sidebar-link">
+  <a href="./course-overview.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Overview</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Schedule</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../course-syllabus.html" class="sidebar-item-text sidebar-link">
+  <a href="./course-syllabus.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Syllabus</span></a>
   </div>
 </li>
@@ -193,13 +194,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../present-description.html" class="sidebar-item-text sidebar-link">
+  <a href="./present-description.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Guideline and Policy</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../present-work.html" class="sidebar-item-text sidebar-link">
+  <a href="./present-work.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Topics and Works</span></a>
   </div>
 </li>
@@ -216,13 +217,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../present-description-final.html" class="sidebar-item-text sidebar-link">
+  <a href="./present-description-final.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Guideline and Policy</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../present-work-final.html" class="sidebar-item-text sidebar-link">
+  <a href="./present-work-final.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Project Group and Proposal</span></a>
   </div>
 </li>
@@ -239,97 +240,97 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week-1.html" class="sidebar-item-text sidebar-link">
+  <a href="./weeks/week-1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 1</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week-2.html" class="sidebar-item-text sidebar-link">
+  <a href="./weeks/week-2.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 2</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week-3.html" class="sidebar-item-text sidebar-link">
+  <a href="./weeks/week-3.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 3</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week-4.html" class="sidebar-item-text sidebar-link">
+  <a href="./weeks/week-4.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 4</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week-5.html" class="sidebar-item-text sidebar-link">
+  <a href="./weeks/week-5.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 5</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week-6.html" class="sidebar-item-text sidebar-link">
+  <a href="./weeks/week-6.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 6</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week-7.html" class="sidebar-item-text sidebar-link">
+  <a href="./weeks/week-7.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 7</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week-8.html" class="sidebar-item-text sidebar-link">
+  <a href="./weeks/week-8.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 8</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week-9.html" class="sidebar-item-text sidebar-link">
+  <a href="./weeks/week-9.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 9</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week-10.html" class="sidebar-item-text sidebar-link">
+  <a href="./weeks/week-10.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 10</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week-11.html" class="sidebar-item-text sidebar-link">
+  <a href="./weeks/week-11.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 11</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week-12.html" class="sidebar-item-text sidebar-link">
+  <a href="./weeks/week-12.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 12</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week-13.html" class="sidebar-item-text sidebar-link">
+  <a href="./weeks/week-13.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 13</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week-14.html" class="sidebar-item-text sidebar-link">
+  <a href="./weeks/week-14.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 14</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week-15.html" class="sidebar-item-text sidebar-link">
+  <a href="./weeks/week-15.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 15</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week-16.html" class="sidebar-item-text sidebar-link">
+  <a href="./weeks/week-16.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 16</span></a>
   </div>
 </li>
@@ -341,14 +342,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#presentation-order" id="toc-presentation-order" class="nav-link active" data-scroll-target="#presentation-order">Presentation Order</a></li>
+  <li><a href="#group-projects-proposal" id="toc-group-projects-proposal" class="nav-link" data-scroll-target="#group-projects-proposal">Group project’s proposal</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/math3570-s25/website/edit/main/present-work-final.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/math3570-s25/website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./present-description-final.html">Final Project</a></li><li class="breadcrumb-item"><a href="./present-work-final.html">Project Group and Proposal</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Lab 15: dplyr</h1>
+<h1 class="title">Final Project</h1>
 </div>
 
 
@@ -365,63 +373,65 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<section id="presentation-order" class="level2">
+<h2 class="anchored" data-anchor-id="presentation-order">Presentation Order</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>team <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"The Whales"</span>, <span class="st">"Analytics Avengers"</span>, <span class="st">"Syntax Squad"</span>, </span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>          <span class="st">"Data Detectives"</span>, <span class="st">"Hala Madrid"</span>, <span class="st">"The Back Right corner"</span>,</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>          <span class="st">"The Outliers"</span>, <span class="st">"Block Blasters"</span>, <span class="st">"Intermediate Wizards"</span>,</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>          <span class="st">"Noname"</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">2025</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>(present_order <span class="ot">&lt;-</span> <span class="fu">sample</span>(team, <span class="at">size =</span> <span class="dv">10</span>, <span class="at">replace =</span> <span class="cn">FALSE</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] "Data Detectives"       "The Whales"            "The Outliers"         
+ [4] "The Back Right corner" "Syntax Squad"          "Analytics Avengers"   
+ [7] "Intermediate Wizards"  "Noname"                "Hala Madrid"          
+[10] "Block Blasters"       </code></pre>
 </div>
-<div class="callout-title-container flex-fill">
-Note
 </div>
-</div>
-<div class="callout-body-container callout-body">
-
-</div>
-</div>
-<p>In <strong>lab.qmd</strong> <code>## Lab 15</code> section, import the <code>murders.csv</code> data and</p>
-<ol type="1">
-<li><p>Add <strong>(mutate)</strong> the variable <code>rate = total / population * 100000</code> to <code>murders</code> data (as I did).</p></li>
-<li><p><strong>Filter</strong> states that are in <em>region Northeast or West</em> and their <em>murder rate is less than 1</em>.</p></li>
-<li><p><strong>Select</strong> variables <code>state</code>, <code>region</code>, <code>rate</code>.</p></li>
-</ol>
 <ul>
-<li><p>Print the output table after you do 1. to 3., and save it as object <code>my_states</code>.</p></li>
-<li><p><strong>Group</strong> <code>my_states</code> <strong>by</strong> <code>region</code>. Then <strong>summarize</strong> data by creating variables <code>avg</code> and <code>stdev</code> that compute the mean and standard deviation of <code>rate</code>.</p></li>
-<li><p><strong>Arrange</strong> the summarized table by <code>avg</code>.</p></li>
+<li><p>Teams presented on <strong>May 1</strong>: Data Detectives, The Whales, The Outliers, The Back Right corner</p></li>
+<li><p>Teams presented on <strong>May 5</strong>: Syntax Squad, Analytics Avengers, Intermediate Wizards, Noname, Hala Madrid, Block Blasters</p></li>
 </ul>
-<div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>_______ <span class="ot">&lt;-</span> _______ <span class="sc">|&gt;</span> </span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(_______) <span class="sc">|&gt;</span> </span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">filter</span>(_______) <span class="sc">|&gt;</span> </span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">select</span>(_______)</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>_______ <span class="sc">|&gt;</span>  </span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">group_by</span>(______) <span class="sc">|&gt;</span> </span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="fu">summarize</span>(______) <span class="sc">|&gt;</span> </span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="fu">arrange</span>(_______)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell" data-layout-align="center">
-<div class="cell-output cell-output-stdout">
-<pre><code>          state    region      rate
-1        Hawaii      West 0.5145920
-2         Idaho      West 0.7655102
-3         Maine Northeast 0.8280881
-4 New Hampshire Northeast 0.3798036
-5        Oregon      West 0.9396843
-6          Utah      West 0.7959810
-7       Vermont Northeast 0.3196211
-8       Wyoming      West 0.8871131</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 2 × 3
-  region      avg std_dev
-  &lt;fct&gt;     &lt;dbl&gt;   &lt;dbl&gt;
-1 West      0.781   0.164
-2 Northeast 0.509   0.278</code></pre>
-</div>
-</div>
+</section>
+<section id="group-projects-proposal" class="level2">
+<h2 class="anchored" data-anchor-id="group-projects-proposal">Group project’s proposal</h2>
+<ul>
+<li><p><span class="blue"><strong>The Whales</strong></span>: Brady Nelson, Brody Roessler, Christian Filardo, Dorien Vazquez, Filip Kisielewski</p></li>
+<li><p><span class="blue"><strong>Analytics Avengers (4)</strong></span>: Sophia Bryant, Kumassi Browne, Charles Kendrick Jr, Isabel Bauer</p></li>
+<li><p><span class="blue"><strong>Syntax Squad</strong></span>: Nick Panoske, Kate Gibson, Annika Lautenbach, Simon Glarner, Sophia Ferru</p></li>
+<li><p><span class="blue"><strong>Data Detectives</strong></span>: Jordan Dubeck, Justice Milhoan, Grace Placko, Jane Harvey, Madison Zursin</p></li>
+<li><p><span class="blue"><strong>Hala Madrid</strong></span>: Abdullah Al-Refai, Labeeb Awan, Kevin Esquivel, Derian Esquivel, Tyler Smith</p></li>
+<li><p><span class="blue"><strong>The Back Right corner</strong></span>: Luke Syverud, Isaac Kujak, Elizabeth Ruiz, Maxwell Creager-Roberts, Kaia Lui</p></li>
+<li><p><span class="blue"><strong>The Outliers</strong></span>: Spencer Christensen, Peter Kaull, Dean Lang, Joshua Hunter, Marcin Tutaj</p></li>
+<li><p><span class="blue"><strong>Block Blasters</strong></span>: Lucy McGovern, Emma Kimball, Riley Abrahamson, Brianna Velez, Napoleon Her</p></li>
+<li><p><span class="blue"><strong>Intermediate Wizards</strong></span>: Kyle Forsberg, Luke Bondi, Justin Hoffman, Sam Wolf, Ava Unertl</p></li>
+<li><p><strong>TeamName?</strong>: Jack Anderson, Nathan Rusch, Nirmay Kathuria, Wilson von Bohlen, Juan De Los Santos</p></li>
+</ul>
+<!-- ## Presentation Slides -->
+<!-- -   [**Intermediate Wizards**]{.blue}: Kyle Forsberg, Luke Bondi, Justin Hoffman, Sam Wolf, Ava Unertl -->
+<!--     -   [Most Important Factors to a child’s exam success](https://marq-my.sharepoint.com/:p:/g/personal/luke_bondi_marquette_edu/EbIW8G-XG79Bp9AoQB_lOGQBwXeKBt4wckNQ3NLQZv_Osw) -->
+<!-- -   [**Data Detectives**]{.blue}: Jordan Dubeck, Justice Milhoan, Grace Placko, Jane Harvey, Madison Zursin -->
+<!--     -   [Happiness of the World Over Time](https://marq-my.sharepoint.com/:p:/r/personal/cheng-han_yu_marquette_edu/_layouts/15/Doc.aspx?sourcedoc=%7BE6F6B81B-6FDB-4A2D-BF68-914E69B6E790%7D&file=slides_data_detectives.pptx&action=edit&mobileredirect=true&wdOrigin=OFFICE-OFFICE-METAOS.FILEBROWSER.FILES-FOLDER) -->
+<!-- -   [**Analytics Avengers (4)**]{.blue}: Sophia Bryant, Kumassi Browne, Charles Kendrick Jr, Isabel Bauer -->
+<!--     -   [Netflix Analysis](https://www.canva.com/design/DAGiIQG4TAg/vKgFnDLKrFifg5EmeVSzMw/view?utm_content=DAGiIQG4TAg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h88f968ef14) -->
+<!-- -   [**The Outliers**]{.blue}: Spencer Christensen, Peter Kaull, Dean Lang, Joshua Hunter, Marcin Tutaj -->
+<!--     -   [Exploratory Data Analysis in Auto-Mpg Dataset](https://docs.google.com/presentation/d/1PzQjKIEOHCrHtJcJYIrw8Sf2dqkQeoLY9R_wHAIg8_A/edit#slide=id.p) -->
+<!-- -   [**The Whales**]{.blue}: Brady Nelson, Brody Roessler, Christian Filardo, Dorien Vazquez, Filip Kisielewski -->
+<!--     -   [Video Game Sales](https://marq-my.sharepoint.com/:p:/g/personal/filip_kisielewski_marquette_edu/ET9iIffJDIZAlw0GnPgMND4B5WIs3wy3E2asfMfOYQt_Fg) -->
+<!-- -   [**Block Blasters**]{.blue}: Lucy McGovern, Emma Kimball, Riley Abrahamson, Brianna Velez, Napoleon Her -->
+<!--     -   [What Makes a Song Danceable?](/documents/slides_block_blasters.pdf) -->
+<!-- -   [**The Back Right corner**]{.blue}: Luke Syverud, Isaac Kujak, Elizabeth Ruiz, Maxwell Creager-Roberts, Kaia Lui -->
+<!--     -   [How Does Netflix Differ between North America and Asia?](https://marq-my.sharepoint.com/:p:/r/personal/cheng-han_yu_marquette_edu/_layouts/15/Doc.aspx?sourcedoc=%7B859D1AEF-0549-4349-8AE7-1F2E465B7501%7D&file=slides_right_corner.pptx&action=edit&mobileredirect=true&wdOrigin=OFFICE-OFFICE-METAOS.FILEBROWSER.FILES-FOLDER) -->
+<!-- -   [**Hala Madrid**]{.blue}: Abdullah Al-Refai, Labeeb Awan, Kevin Esquivel, Derian Esquivel, Tyler Smith -->
+<!--     -   [Video Game Sales Data Analysis Report](https://marq-my.sharepoint.com/:p:/g/personal/kevin_esquivel_marquette_edu/EQ4ph_a-pa1OiLI8CzUUdXUBsw_mYOzAq52i30tLexCgfQ) -->
+<!-- -   [**Syntax Squad**]{.blue}: Nick Panoske, Kate Gibson, Annika Lautenbach, Simon Glarner, Sophia Ferru -->
+<!--     -   [Global Video Game Sales Assessment](https://marq-my.sharepoint.com/:p:/g/personal/simon_glarner_marquette_edu/EVMCA5y_gIpMnSIVWmb1pyQBvZaFjuv9MdjSq9EHH7uToA) -->
+<!-- -   **TeamName?**: Jack Anderson, Nathan Rusch, Nirmay Kathuria, Wilson von Bohlen, Juan De Los Santos -->
+<!--     -   [NBA Shots Analysis (2001 - Present)](https://docs.google.com/presentation/d/1GJb7TmBFa8sIdKwx6TbcK6gORwsACnNDZAfHC518y2M/edit#slide=id.p) -->
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -977,6 +987,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./present-description-final.html" class="pagination-link" aria-label="Guideline and Policy">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Guideline and Policy</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./weeks/week-1.html" class="pagination-link" aria-label="Week 1">
+        <span class="nav-page-text">Week 1</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -985,7 +1007,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/math3570-s25/website/edit/main/exercise/lab15-dplyr.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/math3570-s25/website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/math3570-s25/website/edit/main/present-work-final.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/math3570-s25/website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
