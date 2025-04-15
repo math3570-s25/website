@@ -56,7 +56,7 @@ body <- bodydata |>
     mutate(GENDER = as.factor(GENDER))
 
 ## training and test data
-set.seed(2024)
+set.seed(2025)
 df_split <- initial_split(data = body, prop = 0.8)
 df_trn <- training(df_split)
 df_tst <- testing(df_split)
