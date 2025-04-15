@@ -93,12 +93,12 @@ X = body[['HEIGHT', 'WAIST']]
 y = body['GENDER']
 
 ## training and test data
-X_trn, X_tst, y_trn, y_tst = train_test_split(X, y, test_size=0.2, random_state=2024)
+X_trn, X_tst, y_trn, y_tst = train_test_split(X, y, test_size=0.2, random_state=2025)
 
 ## KNN training
 knn = KNeighborsClassifier(n_neighbors = 3)
-X_trn = np.array(X_trn)
-X_tst = np.array(X_tst)
+# X_trn = np.array(X_trn)
+# X_tst = np.array(X_tst)
 knn.fit(X_trn, y_trn)
 
 ## KNN prediction
