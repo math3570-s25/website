@@ -956,7 +956,7 @@ body = pd.read_csv('./data/body.csv')
 
 X = body[['HEIGHT']]
 y = body['GENDER']
-X_trn, X_tst, y_trn, y_tst = train_test_split(X, y, test_size=0.2, random_state=2024)
+X_trn, X_tst, y_trn, y_tst = train_test_split(X, y, test_size=0.2, random_state=2025)
 ```
 
 

@@ -38,10 +38,10 @@ tbl-colwidths: [5,10,15,5,8,10,8,8]
 | 14 | Tue, Apr 15 | K-Nearest Neighbors [**Activity: Dogs or Cats**](/activity/act_knn.html "act_knn") | [📖](/weeks/week-14.html "Week 14") | [🖥️ K-Nearest Neighbors](/slides/18-knn.html "18-knn") | [📋22](exercise/lab22-knn.html "lab22-knn") |  |  |
 |  | Thu, Apr 17 | ***NO CLASS: Easter break*** |  |  |  |  |  |
 | 15 | Tue, Apr 22 | Principal Component Analysis | 📖 | 🖥️ |  |  |  |
-|  | Thu, Apr 24 | Principal Component Analysis |  |  | 📋 | HW 3 Due |  |
-| 16 | Tue, Apr 29 | K-Means Clustering | 📖 | 🖥️ |  |  |  |
-|  | **Thu, May 1** | [**Final Project Presentation I**]{.blue} |  | 🖥️ | 📋 |  |  |
-| 17 | **Mon, May 5** | [**Final Project Presentation II**]{.blue} |  |  |  |  |  |
+|  | Thu, Apr 24 | Principal Component Analysis |  |  | 📋 | HW 3 Due | Final Project Proposal Due |
+| 16 | Tue, Apr 29 | K-Means Clustering | 📖 | 🖥️ | 📋 |  |  |
+|  | **Thu, May 1** | [**Final Project Presentation I**]{.blue} |  |  |  |  |  |
+| 17 | **Mon, May 5** | [**Final Project Presentation II**]{.blue} |  |  |  |  | Final Project Materials Due |
 :::
 
 *This schedule will be updated as the semester progresses, with all changes documented here*. Dr. Yu reserve the right to make changes to the schedule.
