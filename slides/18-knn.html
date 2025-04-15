@@ -977,7 +977,7 @@ sklearn.model_selection
 <span id="cb38-2"><a aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb38-3"><a aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> body[[<span class="st">'HEIGHT'</span>]]</span>
 <span id="cb38-4"><a aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> body[<span class="st">'GENDER'</span>]</span>
-<span id="cb38-5"><a aria-hidden="true" tabindex="-1"></a>X_trn, X_tst, y_trn, y_tst <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">2024</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb38-5"><a aria-hidden="true" tabindex="-1"></a>X_trn, X_tst, y_trn, y_tst <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">2025</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 </section><section id="sklearn.neighbors.kneighborsclassifier" class="slide level2"><h2><a href="https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html">sklearn.neighbors.KNeighborsClassifier</a></h2>
@@ -1410,8 +1410,8 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <div class="sourceCode cell-code" id="cb41"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb41-1"><a aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> confusion_matrix</span>
 <span id="cb41-2"><a aria-hidden="true" tabindex="-1"></a>confusion_matrix(y_tst, y_pred)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>array([[22,  5],
-       [12, 21]])</code></pre>
+<pre><code>array([[22,  7],
+       [ 4, 27]])</code></pre>
 </div>
 </div>
 <div class="fragment">
@@ -1419,13 +1419,13 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <div class="cell" data-layout-align="center">
 <div class="sourceCode cell-code" id="cb43"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb43-1"><a aria-hidden="true" tabindex="-1"></a>np.mean(y_tst <span class="op">==</span> y_pred)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>0.7166666666666667</code></pre>
+<pre><code>0.8166666666666667</code></pre>
 </div>
 </div>
 <div class="cell" data-layout-align="center">
 <div class="sourceCode cell-code" id="cb45"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb45-1"><a aria-hidden="true" tabindex="-1"></a>np.mean(y_tst <span class="op">!=</span> y_pred)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>0.2833333333333333</code></pre>
+<pre><code>0.18333333333333332</code></pre>
 </div>
 </div>
 </div>
