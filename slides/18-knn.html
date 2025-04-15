@@ -983,8 +983,8 @@ sklearn.model_selection
 </section><section id="sklearn.neighbors.kneighborsclassifier" class="slide level2"><h2><a href="https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html">sklearn.neighbors.KNeighborsClassifier</a></h2>
 <div class="cell" data-layout-align="center">
 <div class="sourceCode cell-code" id="cb39"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb39-1"><a aria-hidden="true" tabindex="-1"></a>knn <span class="op">=</span> KNeighborsClassifier(n_neighbors <span class="op">=</span> <span class="dv">3</span>)</span>
-<span id="cb39-2"><a aria-hidden="true" tabindex="-1"></a>X_trn <span class="op">=</span> np.array(X_trn)</span>
-<span id="cb39-3"><a aria-hidden="true" tabindex="-1"></a>X_tst <span class="op">=</span> np.array(X_tst)</span>
+<span id="cb39-2"><a aria-hidden="true" tabindex="-1"></a><span class="co"># X_trn = np.array(X_trn)</span></span>
+<span id="cb39-3"><a aria-hidden="true" tabindex="-1"></a><span class="co"># X_tst = np.array(X_tst)</span></span>
 <span id="cb39-4"><a aria-hidden="true" tabindex="-1"></a>knn.fit(X_trn, y_trn)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <style>#sk-container-id-1 {
@@ -1490,8 +1490,8 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <span id="cb48-13"><a></a></span>
 <span id="cb48-14"><a></a><span class="co">## KNN training</span></span>
 <span id="cb48-15"><a></a>knn <span class="op">=</span> KNeighborsClassifier(n_neighbors <span class="op">=</span> <span class="dv">3</span>)</span>
-<span id="cb48-16"><a></a>X_trn <span class="op">=</span> np.array(X_trn)</span>
-<span id="cb48-17"><a></a>X_tst <span class="op">=</span> np.array(X_tst)</span>
+<span id="cb48-16"><a></a><span class="co"># X_trn = np.array(X_trn)</span></span>
+<span id="cb48-17"><a></a><span class="co"># X_tst = np.array(X_tst)</span></span>
 <span id="cb48-18"><a></a>knn.fit(X_trn, y_trn)</span>
 <span id="cb48-19"><a></a></span>
 <span id="cb48-20"><a></a><span class="co">## KNN prediction</span></span>
