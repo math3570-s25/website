@@ -3,7 +3,7 @@ title: "MATH/COSC 3570 Introduction to Data Science (Spring 2025)"
 tbl-colwidths: [5,10,15,5,8,10,8,8]
 ---
 
--   Homework 3 released and due **04/25 11:59 PM**.
+-   New Homework 3 deadline: **05/02 11:59 PM**.
 -   TA help desk hours at **Cudahy Hall 301 Monday: 1 – 2 PM, Tuesday: 12 – 1 PM, Thursday: 12 – 2 PM**
 
 ::: column-screen-inset-right
@@ -38,9 +38,9 @@ tbl-colwidths: [5,10,15,5,8,10,8,8]
 | 14 | Tue, Apr 15 | K-Nearest Neighbors [**Activity: Dogs or Cats**](/activity/act_knn.html "act_knn") | [📖](/weeks/week-14.html "Week 14") | [🖥️ K-Nearest Neighbors](/slides/18-knn.html "18-knn") | [📋22](exercise/lab22-knn.html "lab22-knn") |  |  |
 |  | Thu, Apr 17 | ***NO CLASS: Easter break*** |  |  |  |  |  |
 | 15 | Tue, Apr 22 | Principal Component Analysis | [📖](/weeks/week-15.html "Week 15") | [🖥️Principal Component Analysis](/slides/19-pca.html "19-pca") |  |  |  |
-|  | Thu, Apr 24 | Principal Component Analysis |  |  | 📋 | HW 3 Due | [Final Project Proposal Due](present-description-final.html "present-description-final") |
-| 16 | Tue, Apr 29 | K-Means Clustering | 📖 | 🖥️ | 📋 |  |  |
-|  | **Thu, May 1** | [**Final Project Presentation I**]{.blue} |  |  |  |  |  |
+|  | Thu, Apr 24 | Principal Component Analysis |  |  | [📋23](exercise/lab23-pca.html "lab23-pca") |  | [Final Project Proposal Due](present-description-final.html "present-description-final") |
+| 16 | Tue, Apr 29 | K-Means Clustering (Self-learning) | [📖](/weeks/week-16.html "Week 16") | [🖥️K-means Clustering](/slides/20-kmeans.html "20-kmeans") | [📋24](exercise/lab24-kmeans.html "lab24-kmeans") |  |  |
+|  | **Thu, May 1** | [**Final Project Presentation I**]{.blue} |  |  |  | **Extension: HW 3 Due** |  |
 | 17 | **Mon, May 5** | [**Final Project Presentation II**]{.blue} |  |  |  |  | [Final Project Materials Due](present-description-final.html) |
 :::
 

@@ -251,6 +251,7 @@ knitr::kable(grade, align = "c")
 ```
 
 
+- **If you don't participate, your team loses 2 points.**
 
 
 
