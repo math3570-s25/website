@@ -220,6 +220,10 @@ For your data analysis project,
     -   Answers audience questions with authority and accuracy
 
 
+```{r}
+#| echo: false
+knitr::include_graphics("./images/evaluation.png")
+```
 
 ### Peer Group Evaluation
 
