@@ -223,6 +223,15 @@ For your data analysis project,
 
 ### Peer Group Evaluation
 
+```{r}
+#| echo: false
+#| column: margin
+knitr::include_graphics("./images/QRCode_vote.png")
+```
+
+- [**Please go to the [link](https://forms.office.com/r/dgi7jaXYT2) or scan the QR code to vote your top 3 projects!**]{.red}
+
+
 
 - You choose your top 3 teams (Gold🥇, Silver🥈, Bronze🥉)
 
@@ -255,7 +264,19 @@ knitr::kable(grade, align = "c")
 
 
 
+
 ## Peer Individual Performance Evaluation
+
+```{r}
+#| echo: false
+#| column: margin
+knitr::include_graphics("./images/QRCode_contributor.png")
+```
+
+- [**Please go to the [link](https://forms.office.com/r/VtbH6PEzFp) or scan the QR code to nominate the best contributor!**]{.red}
+
+
+
 
 -   In each team, **two** group members will win the best contribution reward that add extra points to the project grade.
 
